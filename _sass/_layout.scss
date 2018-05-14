@@ -1,5 +1,5 @@
 #masthead {
-	background: $base-color;
+	background: $primary-color;
 	padding-top: em(72);
 	padding-bottom: em(72);
 	h1 {
@@ -14,8 +14,23 @@
 	}
 	#masthead p {
 		font-size: em(23);
+		font-weight: 500;
 	}
 	.inner-wrap {
 		@include outer-container;
 	}	
+}
+
+
+#contact {
+	background: $base-color;
+	a {
+	display: block;
+	font-size: em(23);
+	font-weight: 500;
+	background: $secondary-color;
+	padding-left: em(24);
+	padding-right: em(24);
+	line-height: em(48);
+	}
 }
