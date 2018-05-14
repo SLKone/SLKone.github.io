@@ -24,13 +24,13 @@ $border-radius               	: 3px;
 $white                        : #fff;
 $black                        : #000;
 
-$body-color                  	: #ebebeb;
+$body-color                  	: $white;
 
-$text-color                  	: #313130;
+$text-color                  	: #3A3E41;
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                  	: #343434;
-$comp-color                  	: complement($base-color);
+$base-color                  	: #E0BE41;
+$comp-color                  	: #1DAB78;
 $border-color                	: #ddd;
 $link-color                  	: #222;
 
