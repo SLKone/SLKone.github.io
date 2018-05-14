@@ -25,7 +25,8 @@
 
 #contact {
 	background: $base-color;
-	font:$heading-font;
+	display: block;
+	font-family:$heading-font;
 	font-size: 32;
 	color: $white;
 	text-align: center;
@@ -37,13 +38,14 @@
 		font-weight: 500;
 		background: $secondary-color;
 		padding-left: em(24);
-		padding-right: em(24);
+		padding-right: 24;
 		line-height: em(48);
-		font: $base-font;
+		font-family: $base-font;
 		font-size: 23;
 		width: 160;
 		text-decoration: none;
 		color: $white;
+		box-radius: 4;
 	}
 }
 
