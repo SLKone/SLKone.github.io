@@ -1,7 +1,7 @@
 #masthead {
 	background: $primary-color;
-	padding-top: em(72);
-	padding-bottom: em(72);
+	padding-top: 72px;
+	padding-bottom: 72px;
 	h1 {
 		background: url(/images/logo.svg);
 		display: block;
@@ -10,12 +10,12 @@
 		width: 89px;
 	}
 	#masthead h2 {
-		font-size: 56;
-		margin-top: 48;
-		margin-bottom: 24;
+		font-size: 56px;
+		margin-top: 48px;
+		margin-bottom: 24px;
 	}
 	#masthead p {
-		font-size: 23;
+		font-size: 23px;
 		font-weight: 700;
 	}
 	.inner-wrap {
@@ -27,22 +27,22 @@
 	background: $base-color;
 	display: block;
 	font-family:$heading-font;
-	font-size: 32;
+	font-size: 32px;
 	color: $white;
 	text-align: center;
-	padding-top: 48;
-	padding-bottom: 48;
-	margin-top: -64;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	margin-top: -64px;
 	a {
 		display: inline-block;
 		font-weight: 500;
 		background: $secondary-color;
-		padding-left: em(24);
-		padding-right: 24;
-		line-height: em(48);
+		padding-left: 24px;
+		padding-right: 24px;
+		line-height: 48px;
 		font-family: $base-font;
-		font-size: 23;
-		width: 160;
+		font-size: 23px;
+		width: 160px;
 		text-decoration: none;
 		color: $white;
 		box-radius: 4;
