@@ -2,18 +2,20 @@
 	background: $base-color;
 	padding-top: em(72);
 	padding-bottom: em(72);
-}
-#masthead h1 {
-	background: url(/images/logo.svg);
-	display: block;
-	text-indent: -3000px;
-	height: 72px;
-	width: 89px;
-}
-#masthead h2 {
-	font-size: em(56);
-}
-
-#masthead p {
-	font-size: em(23);
+	h1 {
+		background: url(/images/logo.svg);
+		display: block;
+		text-indent: -3000px;
+		height: 72px;
+		width: 89px;
+	}
+	#masthead h2 {
+		font-size: em(56);
+	}
+	#masthead p {
+		font-size: em(23);
+	}
+	.inner-wrap {
+		@include outer-container;
+	}	
 }
