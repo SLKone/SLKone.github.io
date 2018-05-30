@@ -36,12 +36,11 @@ heroimage: "hero-pe-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>A “Buy & Build” middle market private equity leader required a professional services provider to assist the portfolio team ‘to fuel the growth and build value’.</p>
+		<p>A private equity client was interested in finance function assessment for a recent acquisition in medical devices space.</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>Recognized that while goal was universal, each portfolio company situation presented a distinct need for the maturity and life-cycle stage and ‘rinse and repeat’ solutions would not work. </li>
-			<li>Responded with urgency to conduct ‘root cause analysis’ in accelerated time frame to understand functional priorities for the highest payoff on seriousness-urgency-growth matrix</li>
-			<li>Linked the issues to the causal drivers in process and organizational performance needs</li>
+			<li>Teamed up with the functional leadership and conducted an accelerated assessment that included touchpoints with other business functions.</li>
+			<li>Delivered a list of high priority stabilization roadmap</li>
 		</ul>
 	</div>
 </div>
