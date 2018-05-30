@@ -1,5 +1,5 @@
 ---
 layout: home
 permalink: /
-title: "We build & implement boutique bespoke solutions"
+title: "SLKone: We build & implement boutique bespoke solutions"
 ---

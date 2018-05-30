@@ -1,7 +1,7 @@
 ---
 layout: team
 permalink: /team
-title: "SLKone Philosophy"
+title: "SLKone's Team Philosophy"
 subtitle: "Mission + Passion + Vocation + Profession = Our Purpose"
 intro: "At SLKone, we have redefined the purpose of a consultant by bringing all those things we used to think about into actions."
 excerpt: "You hate billable hours as a measure of your success. It’s well-understood that as a metric, it’s completely counterintuitive to the best interest of our clients. It’s also one of the things SLKone does differently. 
