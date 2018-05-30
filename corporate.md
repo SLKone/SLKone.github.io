@@ -16,12 +16,12 @@ heroimage: "hero-corp-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>Goal</p>
+		<p>A $2B division for a service provider in energy space was underperforming and needed a turnaround within a short period. </p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
+			<li>Facilitated the team to rally around key business imperatives on the need for profitable revenue growth, cost efficiencies, optimized working capital and people productivity</li>
+			<li>Connected the dots across the organization from causal drivers to channel the organization’s activities to business outcomes</li>
+			<li>Linked divisional strategy to country and customer specific strategies and created a seamless strategy cascade</li>
 		</ul>
 	</div>
 </div>
@@ -31,15 +31,16 @@ heroimage: "hero-corp-transparent.png"
 	<div class="practice-details">
 		<h4>Leadership</h4>
 		<p>In the 21st-century, leadership should not be strictly defined by what is carved out at the upper tier of the organizational matrix. Instead, individuals and management teams who can orchestrate corporate resources and energy towards an outcome irrespective of their place in the pecking order represent true leadership.</p>
+		<p>In the information age, leadership needs to emphasize ways to handle and manage the stress of ‘real-time’ information load, cognitive flexibility to respond to social ‘buzz’ and divergent thinking of a mixed martial arts champion to deal with what’s lurking around the corner. Managing involvement is a critical skill and leaders struggle to find the best position to make the right decisions while working with their teams.</p>
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>Goal</p>
+		<p>Corporate client needed behavioral changes defined and personified as part of the enterprise transformation.</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
+			<li>Identified critical success factors and gaps in the organizational leadership ahead of the transformation</li>
+			<li>Developed the functional and operational interactions necessary for the transformed state and made them part of the roles and responsibility matrix</li>
+			<li>Instituted an accountabilities based culture for the organization</li>
 		</ul>
 	</div>
 </div>
@@ -52,12 +53,12 @@ heroimage: "hero-corp-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>Goal</p>
+		<p>A global leader intended to align its business processes and systems in an integrated digital space by focusing on internal and customer productivity and leadership sensed passive resistance and disconnectedness.</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
+			<li>Facilitated a conversation around digital by focusing on staff and teams at operational level to understand their concerns, anxieties and expectations from digital initiatives</li>
+			<li>Created consensus on winnable battles vs. boiling the ocean</li>
+			<li>Facilitated common understanding on ‘why’, ‘what’ and ‘how’ before embarking on the digital journey</li>
 		</ul>
 	</div>
 </div>
@@ -78,12 +79,12 @@ heroimage: "hero-corp-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>Goal</p>
+		<p>A category leader in building products industry was losing market share and needed to re-energize a complex sales model</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
+			<li>Mapped core competencies and gaps required to perform to the goals</li>
+			<li>Established strategic and tactical parameters across the sales engagement process</li>
+			<li>Designed and communicated a sales organization playbook</li>
 		</ul>
 	</div>
 </div>
@@ -95,12 +96,12 @@ heroimage: "hero-corp-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>Goal</p>
+		<p>A global organization had standardized the processes, interactions and needed assistance to operationalize the model</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
+			<li>Validated the concerns and exceptions across the global regions and helped made practical adjustments, making it an adaptive change receptive environment</li>
+			<li>Performed resource and competency gap analysis</li>
+			<li>Planned communication and designed supporting mechanism to take it to the organization</li>
 		</ul>
 	</div>
 </div>
