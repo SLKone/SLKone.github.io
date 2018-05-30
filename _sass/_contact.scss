@@ -28,7 +28,10 @@
 	}
 }
 #contact-info h3 {
+	a {
 	color: $comp-color;
+	text-decoration: none;
+	}
 	@include media($micro) {
 		@include font-size(20);
 	}	
