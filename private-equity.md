@@ -70,12 +70,12 @@ heroimage: "hero-pe-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>A Portfolio</p>
+		<p>A private equity owned business needed assistance with focused improvement with an accelerated realization on efforts</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
-			<li>Recognized that while goal was universal, each portfolio company situation presented a distinct need for the maturity and  life-cycle stage and ‘rinse and repeat’ solutions would not work.</li>
-			<li>Responded with urgency to conduct ‘root cause analysis’ in accelerated time frame to understand functional priorities for the highest payoff on seriousness-urgency-growth matrix</li>
-			<li>Linked the issues to the causal drivers in process and organizational performance needs</li>
+			<li>Conducted a rapid mode business assessment and validated high priority improvements.</li>
+			<li>Assisted management in roadmapping critical few operational and financial processes and developed the ‘size of the prize’</li>
+			<li>Established a cadence for tracking progress towards realization of the business financial results.</li>
 		</ul>
 	</div>
 </div>
