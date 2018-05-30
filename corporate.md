@@ -96,7 +96,7 @@ heroimage: "hero-corp-transparent.png"
 	</div>
 	<div class="case-study">
 		<span class="overline">Client Goal</span>
-		<p>A global organization had standardized the processes, interactions and needed assistance to operationalize the model</p>
+		<p>A global organization had standardized the processes, interactions and needed assistance to execute the model</p>
 		<span class="overline">SLKone’s Bespoke Approach</span>
 		<ul>
 			<li>Validated the concerns and exceptions across the global regions and helped made practical adjustments, making it an adaptive change receptive environment</li>
