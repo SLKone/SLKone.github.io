@@ -49,7 +49,7 @@ heroimage: "hero-pe-transparent.png"
 	<div class="image"><img src="/images/pe-leap.svg"></div>
 	<div class="practice-details">
 		<h4>Leap Forward</h4>
-		<p>Without coordinated growth efforts, even a healthy and stabilized business can quickly dissipate its energy.. Often in the urgency to meet expectations, revenue discipline is lost as management resorts to bringing in revenue at any cost whichy paralyzes the organic growth. Similarly, add-ons whether tuck-ins or sizeable acquisitions, executed without a playbook can handicap the trajectory through straddled costs. </p>
+		<p>Without coordinated growth efforts, even a healthy and stabilized business can quickly dissipate its energy. Often in the urgency to meet expectations, revenue discipline is lost as management resorts to bringing in revenue at any cost whichy paralyzes the organic growth. Similarly, add-ons whether tuck-ins or sizeable acquisitions, executed without a playbook can handicap the trajectory through straddled costs. </p>
 		<p>Frequently, the business finds itself adding costs that are disproportionate to creating value. Leaping forward requires building a healthy top line that is the envy of the competition while continuously factoring down the costs supported by smart systems and upgrading the management team that spends more time in informed decision making vs. fighting fires.</p>
 	</div>
 	<div class="case-study">
