@@ -32,7 +32,7 @@ h1#logo {
 	@include media($small) {
 		margin: 0;
 	}
-	background-image: url(/images/logo.svg);
+	background-image: url(/images/logo-light.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 56px;
