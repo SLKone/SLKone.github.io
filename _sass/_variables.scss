@@ -6,16 +6,17 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: "franklin-gothic-urw",franklin gothic, helvetica, arial,sans-serif;
-$heading-font                	: "franklin-gothic-urw-comp",franklin gothic, helvetica, arial,sans-serif;
+$base-font                   	: "franklin-gothic-urw",sans-serif;;
+$heading-font                	: $base-font;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
-$doc-line-height             	: 24;
+$doc-line-height             	: 20;
+$doc-small-size               : 14;
 
-$border-radius               	: 3px;
+$border-radius               	: 4px;
 
 /*
    Color variables
@@ -24,18 +25,17 @@ $border-radius               	: 3px;
 $white                        : #fff;
 $black                        : #000;
 
-$body-color                  	: $white;
+$body-color                  	: #3E4241;
 
-$text-color                  	: #3A3E41;
+$text-color                  	: #3E4241;
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                  	: #3A3E41;
-$comp-color                  	: complement($base-color);
-$border-color                	: #ddd;
-$link-color                  	: #222;
+$base-color                  	: #F7FAF6;
+$comp-color                  	: #E0BE41;
+$border-color                	: #EEEFEF;
+$link-color                  	: #1DAB78;
 
-$primary-color               	: #E0BE41;
-$secondary-color              : #1DAB78;
+$primary-color               	: $black;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
@@ -67,9 +67,9 @@ $youtube-color		            : #ff3333;
    Form variables
    ========================================================================== */
 
-$form-border-color           	: $border-color;
-$form-border-color-hover     	: darken($border-color, 10);
-$form-border-color-focus     	: $primary-color;
+$form-border-color           	: #9EA0A0;
+$form-border-color-hover     	: $comp-color;
+$form-border-color-focus     	: $link-color;
 $form-border-radius          	: $border-radius;
 $form-box-shadow             	: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
 $form-box-shadow-focus       	: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
@@ -87,9 +87,8 @@ $sliding-menu-color 	 		     : $white;
 $sliding-menu-background-hover : $black;
 $sliding-menu-color-hover	 	   : $white;
 $sliding-menu-border   			   : 1px solid $sliding-menu-border-color;
-$button-size		         	     : 30px;
+$button-size		         	     : 24px;
 $transition						         : 0.3s; // increase this to see the transformations in slow-motion
-$sliding-menu-animation        : all 500ms cubic-bezier(.86,.01,.77,.78);
 
 /*
    Badge variables

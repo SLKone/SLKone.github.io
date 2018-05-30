@@ -1,0 +1,36 @@
+.team-section {
+	margin: 40px 0;
+}
+.team {
+	@extend .practice;
+		h2, h5 {
+		@include media($small) {
+			@include span-columns(5);
+		}
+		@include media($medium) {
+			@include span-columns(6);
+		}
+		@include media($large) {
+			@include span-columns(7);
+		}
+	}
+	.emphasis {
+		margin-bottom: 40px;
+	}
+}
+
+#team-one {
+	@include media($medium) {
+		@include span-columns(6);
+	}
+	li {
+		@include font-size(18,yes,24);
+		margin-bottom: 12px;
+	}
+}
+
+#team-two {
+	@include media($medium) {
+		@include span-columns(6);
+	}	
+}

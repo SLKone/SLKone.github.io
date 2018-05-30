@@ -1,0 +1,31 @@
+#masthead {
+	padding: $gutter;
+	.inner-wrap {
+		@include outer-container;
+		@include display(flex);
+		@include media($medium) {
+			padding: 24px 0px;
+			@include align-items(center);
+		}
+	}
+}
+#contact-form {
+	@include media($medium) {
+		@include span-columns(6);
+	}
+	@include media($large) {
+		@include span-columns(7);
+	}
+}
+#contact-info {
+	@extend .emphasis;
+	@include media($medium) {
+		@include span-columns(6);
+	}	
+	@include media($large) {
+		@include span-columns(5);
+	}
+}
+#contact-info h3 {
+	color: $comp-color
+}

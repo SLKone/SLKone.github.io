@@ -1,0 +1,59 @@
+.practice {
+	.page-title {
+		background: $base-color;	
+		padding: 24px 0px;
+		.wrap {
+			background-size: 0;
+			@include media($small) {
+				background-size: contain;
+				background-position: right;
+				background-repeat: no-repeat;
+				min-height: 408px;
+			}
+			@include display(flex);
+			@include align-items(center);	
+		}	
+		h5:first-child {
+			opacity: 0.5;
+		}
+		h2, h5 {
+			@include media($small) {
+				@include span-columns(7);
+			}
+			@include media($large) {
+				@include span-columns(8);
+			}
+		}
+
+	}
+
+}
+.practice-section {
+	margin-top: 40px;
+	.image {
+		@include span-columns(12);
+		margin: 24px 0px;
+	}
+}
+.practice-details {
+	@include media($small) {
+		@include span-columns(6);
+	}
+}
+
+.case-study {
+	@extend .emphasis;
+	@include media($small) {
+		@include span-columns(6);
+	}
+	p,ul,li {
+	@include font-size(14);
+	margin: 0;
+	}
+	p {
+		margin-bottom: 16px;
+	}
+	ul {
+	padding-left: 16px;
+	}
+}

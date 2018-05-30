@@ -1,11 +1,6 @@
 ---
-layout: archive
+layout: home
 permalink: /
-title: "Latest Posts"
+title: "SLKone"
 ---
-
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+We build & implement boutique bespoke solutions
