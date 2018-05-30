@@ -42,16 +42,10 @@ h3 {
 	}
 }
 h4 {
-	@include font-size(24,yes,32);
-	@include media($medium) {
-		@include font-size(34,yes,44);
-	}
+	@include font-size(34,yes,44);
 }
 h5 {
-	@include font-size(20,no,24);
-	@include media($medium) {
-		@include font-size(24,yes,32);
-	}	
+	@include font-size(24,yes,32);
 }
 h6 {
 	@include font-size(20,yes,24);

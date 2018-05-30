@@ -63,7 +63,6 @@ h1#logo {
 		@include media($micro) {
 			margin-top: 12px;
 			border-top: 1px solid $border-color;
-			border-bottom: 1px solid $border-color;
 			padding: 16px 0px;
 			@include flex-wrap(nowrap);
 			@include justify-content(space-between);
@@ -75,7 +74,7 @@ h1#logo {
 	li {
 		a {
 			@include media($micro) {
-			padding: 12px 4px;
+			padding: 12px 0px;
 			margin: 0;
 			text-align: center;			
 			}

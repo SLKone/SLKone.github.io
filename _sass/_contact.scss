@@ -19,6 +19,7 @@
 }
 #contact-info {
 	@extend .emphasis;
+	padding-bottom: 12px;
 	@include media($medium) {
 		@include span-columns(6);
 	}	
@@ -27,5 +28,8 @@
 	}
 }
 #contact-info h3 {
-	color: $comp-color
+	color: $comp-color;
+	@include media($micro) {
+		@include font-size(20);
+	}	
 }
