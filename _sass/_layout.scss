@@ -9,13 +9,16 @@
 #masthead {
 	.inner-wrap {
 		@include outer-container;
+		@include media($small) {
+			padding: 24px 0px 0px 0px;
+		}		
 		@include media($medium) {
 			padding: 24px 0px;
 		}
 	}
 	#mast-position {
 	width: 100%;
-	@include media($small) {
+	@include media($small) {;
 		@include display(flex);
 		padding: 0px;
 		@include align-items(center);
@@ -28,7 +31,6 @@ h1#logo {
 	padding: 0;
 	a {
 	display: block;
-	margin: 0px auto;
 	@include media($small) {
 		margin: 0;
 	}
@@ -56,16 +58,40 @@ h1#logo {
 
 .menu {
 	#navigation {
+		@include media($micro) {
+			margin-top: 12px;
+			border-top: 1px solid $border-color;
+			border-bottom: 1px solid $border-color;
+			padding: 16px 0px;
+			@include flex-wrap(nowrap);
+			@include justify-content(space-evenly);
+		}
 		@include display(flex);
 		@include align-items(center);
 		@include justify-content(space-between);
 	}	
 	li {
 		a {
+			@include media($micro) {
+			padding: 12px 4px;
+			margin: 0;
+			text-align: center;			
+			}
 			@extend .btn;
+
 		}
 	}
 	#contact-button {
+		@include media($micro) {
+			position: absolute;
+			margin-top: -88px;
+			margin-left: -126px;
+			width: 126px;
+			height: 40px;
+			padding-left: 0;
+			padding-right: 0;
+			text-align: center;
+		}
 		@extend .btn-filled;
 		@include media($small) {
 		margin-left: 16px;}
