@@ -299,3 +299,33 @@ h1#logo {
 	border-radius: $border-radius;
 	padding: 24px;
 }
+
+/*
+   Testimonials
+   ========================================================================== */
+
+.testimonials {
+	background: $base-color;
+	padding: 64px 0px;
+}
+
+.quote {
+	padding-left: 40px;
+	@include media($small) {
+			@include span-columns(3);
+	}	
+	&:before {
+		content: "“";
+		@include font-size(96);
+		opacity: 0.5;
+		position: absolute;
+		margin-left: -40px;
+		margin-top: -16px;
+	}
+}
+
+.byline {
+	display: block;
+	text-align: right;
+	opacity: 0.5;
+}

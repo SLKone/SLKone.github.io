@@ -7,8 +7,10 @@
 	height: 647px;			/* Set to slider height */
 	position: relative;
 	float: left;
+	display: none;
 	@include media($medium) {
 		@include span-columns(6);
+		display: block;
 	}
 	overflow: hidden;		/* Hides the animations */
 }
