@@ -10,7 +10,7 @@ We also believe that only a happy team can deliver exceptional results for our c
 heroimage: "ikigai.svg"
 ---
 <div class="team-section">
-<div id="team-one" class="emphasis">
+<div id="team-one">
 <h4>Whereas a typical consultant is measured by the hours billed, a SLKone team member is driven by the desire to deliver successful outcomes for our clients. That’s our ‘purpose’ or our Ikigai.  </h4>
 <ul>
 	<li>We combine ‘Our clients’ needs’ with ‘What we love to do’ and make it our Mission</li>

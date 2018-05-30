@@ -336,6 +336,10 @@ h1#logo {
 	padding: 64px 0px;
 }
 
+.quotes {
+	@extend .testimonials;
+}
+
 .quote {
 	padding-left: 40px;
 	@include media($small) {
@@ -349,6 +353,12 @@ h1#logo {
 		margin-left: -40px;
 		margin-top: -16px;
 	}
+}
+
+.quotes .quote {
+	@include media($small) {
+			@include span-columns(6);
+	}	
 }
 
 .byline {
