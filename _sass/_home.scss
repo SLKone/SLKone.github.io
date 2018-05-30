@@ -64,8 +64,8 @@
 		}
 	}
 	.content {
-		padding: 0 0 32px 0;
-		margin: 0px 0 0 40px;
+		padding: 0;
+		margin: 0;
 		border: none;
 		overflow:auto;
 		img {
@@ -80,16 +80,24 @@
 		}			
 
 		p {
-			margin: 0;
-			margin-bottom: 12px;
+			margin: 0 0 12px 40px;
 			padding: 0;
 		}
 		p:nth-child(2) {
 		margin-bottom: 24px;
 		}
 		a {
-		margin-top: 12px;
+		margin: 12px 0 0 40px;
 		}
+	}
+	.loader {
+	width: 100%;
+	background: $comp-color;
+	display: block;
+	margin-top: 31px;
+	height: 2px;
+	@include animation(loader 10.1s linear);
+	z-index: 0.1;
 	}
 
 }
