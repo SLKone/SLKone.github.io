@@ -81,16 +81,18 @@ h1#logo {
 			@extend .btn;
 
 		}
+		&:last-child {
+			@include media($micro) {
+			position: absolute;
+			right: $gutter;
+			top: 44px;
+			}
+		}
 	}
 	#contact-button {
 		@include media($micro) {
-			position: absolute;
-			margin-top: -88px;
-			margin-left: -126px;
 			width: 126px;
 			height: 40px;
-			padding-left: 0;
-			padding-right: 0;
 			text-align: center;
 		}
 		@extend .btn-filled;
