@@ -96,7 +96,7 @@
 	display: block;
 	margin-top: 31px;
 	height: 2px;
-	@include animation(loader 10.1s linear);
+	@include animation(loader 15.1s linear);
 	z-index: 0.1;
 	}
 
