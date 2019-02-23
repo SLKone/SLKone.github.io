@@ -30,9 +30,13 @@
 }
 .service-section {
 	margin-top: 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
 }
 .service-details {
+	@include span-columns(6);
 	@include media($small) {
-		@include span-columns(6);
+		@include span-columns(12);
 	}
 }
