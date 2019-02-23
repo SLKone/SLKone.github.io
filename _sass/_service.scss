@@ -34,8 +34,10 @@
 	justify-content: flex-start;
 	align-content: flex-start;
 }
+
 .service-details {
 	@include span-columns(6);
+	margin-bottom: 40px;
 	@include media($small) {
 		@include span-columns(12);
 	}
