@@ -1,6 +1,6 @@
 ---
 layout: service
-permalink: /corporate
+permalink: /service
 title: "Our Solutions"
 subtitle: "Strategy + Leadership + Knowledge"
 intro: "These are the three legs every corporation stands on; however, the difference between moving at a crawl versus sprinting is defined by how well you progress from operationalization to execution across these three legs."
