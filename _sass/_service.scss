@@ -1,0 +1,38 @@
+.service {
+	.page-title {
+		background: $base-color;	
+		padding: 24px 0px;
+		.wrap {
+			background-size: 0;
+			@include media($small) {
+				background-size: contain;
+				background-position: right;
+				background-repeat: no-repeat;
+				min-height: 408px;
+			}
+			@include display(flex);
+			@include align-items(center);	
+		}	
+		h5:first-child {
+			opacity: 0.5;
+		}
+		h2, h5 {
+			@include media($small) {
+				@include span-columns(7);
+			}
+			@include media($large) {
+				@include span-columns(8);
+			}
+		}
+
+	}
+
+}
+.service-section {
+	margin-top: 40px;
+}
+.service-details {
+	@include media($small) {
+		@include span-columns(6);
+	}
+}
