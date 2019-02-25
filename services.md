@@ -65,7 +65,7 @@ heroimage: "hero-services-transparent.png"
 		<ul>
 			<li>Project Management<span> – professional and intentional project management solutions to ensure performance on strategic initiatives and critical projects.</span></li>
 			<li>Integration Management<span> – ensuring the success of integrations by addressing the critical success factors and ensuring execution on these critical paths as part of an integration.</span></li>
-			<li>Merger Repair<span> – Bringing back the underperforming integration efforts on track and realization of business integration goals.</span></li>
+			<li>Merger Repair<span> – bringing back the underperforming integration efforts on track and realization of business integration goals.</span></li>
 			<li>Carve-outs and Divestitures<span> – supporting carve-out and divestiture decisions including financial, operational, and system needs to ensure success of the successor entities.</span></li>
 			<li>Operational Due-Diligence<span> – providing due-diligence support on the operational, organizational, and business plan viability of acquisition and partnership organizations.</span></li>
 		</ul>
