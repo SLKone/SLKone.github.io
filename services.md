@@ -35,13 +35,6 @@ excerpt: "We offer a wide-range of bespoke consulting solutions"
 		<h4>Revenue and Sales</h4>
 		<ul>
 			<li>Marketing and Promotion Effectiveness<span> – analyzing and developing marketing and promotional programs to generate the highest ROI on marketing and promotional dollars.</span></li>
-			<li>Sales Force Effectiveness<span> – measuring and improving the effectiveness of sales force teams to drive top line growth and enter new markets.</span></li>
-		</ul>
-	</div>	
-	<div class="service-details">
-		<h4>Revenue and Sales</h4>
-		<ul>
-			<li>Marketing and Promotion Effectiveness<span> – analyzing and developing marketing and promotional programs to generate the highest ROI on marketing and promotional dollars.</span></li>
 			<li>Revenue Growth and Product Strategy<span> – developing and executing on revenue growth initiatives and associated product strategies to support top line goals.</span></li>
 			<li>Product and Customer Portfolio Profitability<span> – analyzing and developing approaches to improve profitability for products, customers, and business lines.</span></li>
 		</ul>
