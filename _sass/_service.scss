@@ -35,12 +35,13 @@
 		flex-flow: column wrap;
 		max-height: 1200px;
 		width: 100%;
+		margin-left: -32px;
 	}
 }
 
 .service-details {
 	@include media($medium) {
-		margin: 0 32px 32px 0; /* Some gutter */
+		margin: 0 0px 32px 32px; /* Some gutter */
 		width: 50%;
 	}
 	ul {
