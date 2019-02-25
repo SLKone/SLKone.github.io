@@ -30,15 +30,32 @@
 }
 .service-section {
 	margin-top: 40px;
-	display: flex;
-	justify-content: flex-start;
-	align-content: flex-start;
+	@include media($large) {
+		display: flex;
+	  flex-flow: column wrap;
+	  max-height: 1400px;
+	  width: 100%;
+	}
 }
 
 .service-details {
-	@include span-columns(6);
-	margin-bottom: 40px;
-	@include media($small) {
-		@include span-columns(6);
+	@include media($large) {
+		margin: 0 16px 16px 0; /* Some gutter */
+		width: 50%;
 	}
+	ul {
+	padding: 0;
+	}
+	li {
+	display: block;
+	padding: 0;
+	margin-bottom: 12px;
+	}
+	li span {
+	opacity: .5;
+	}
+	li strong {
+	opacity: 1.0;
+	}
+
 }
