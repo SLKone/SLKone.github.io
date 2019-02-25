@@ -3,8 +3,7 @@ layout: service
 permalink: /services
 title: "SLKone's Consulting Solutions"
 subtitle: "Service Lines and Areas of Expertise"
-intro: "We offer a wide-range of bespoke consulting solutions"
-excerpt: "We offer a wide-range of bespoke consulting solutions"
+heroimage: "hero-service-transparent.png"
 ---
 <div class="service-section">
 	<div class="service-details">
