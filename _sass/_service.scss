@@ -33,7 +33,6 @@
 	@include media($medium) {
 		display: flex;
 		flex-flow: column wrap;
-		flex-direction: row;
 		max-height: 1200px;
 		width: 100%;
 	}
