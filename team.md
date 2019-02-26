@@ -7,7 +7,7 @@ intro: "At SLKone, we have redefined the purpose of a consultant by bringing all
 excerpt: "You hate billable hours as a measure of your success. It’s well-understood that as a metric, it’s completely counterintuitive to the best interest of our clients. It’s also one of the things SLKone does differently. 
 
 We also believe that only a happy team can deliver exceptional results for our clients, which is why we foster an environment where your productivity, intellectual development, and personal growth is in harmony with the wellbeing of you and your family."
-heroimage: "ikigai.svg"
+heroimage: "ikigai.png"
 ---
 <div class="team-section">
 <div id="team-one">
