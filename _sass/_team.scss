@@ -34,3 +34,43 @@
 		@include span-columns(6);
 	}	
 }
+#the-team {
+}
+.team-member {
+	@include media($small) {
+		@include clearfix;
+		width: 50%;
+		float: left;
+		min-height: 450px;
+	}	
+	@include media($medium) {
+		width: 33%;
+	}		
+	img {
+		background: $border-color;
+		border-radius: 200px;
+		display: block;
+		height: 200px;
+		width: 200px;
+		margin-bottom: 12px;
+	}
+	h5 {
+		display: block;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	p {
+		display: block;
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 16px;
+	}
+	ul {
+	margin-top: -12px;
+	padding-top: 0;
+	padding-left: 18px;
+	}
+	li {
+		font-size: 14px;
+	}
+}
