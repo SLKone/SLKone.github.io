@@ -47,6 +47,9 @@
 	}	
 	@include media($medium) {
 		width: 33%;
+	}	
+	@include media($large) {
+		width: 25%;
 	}		
 	img {
 		background: $border-color;
