@@ -37,6 +37,7 @@
 #the-team {
 }
 .team-member {
+	text-align: center;
 	@include media($small) {
 		@include clearfix;
 		width: 50%;
@@ -52,7 +53,7 @@
 		display: block;
 		height: 200px;
 		width: 200px;
-		margin-bottom: 12px;
+		margin-bottom: 0 auto 12px auto;
 	}
 	h5 {
 		display: block;
@@ -66,11 +67,11 @@
 		margin-bottom: 16px;
 	}
 	ul {
-	margin-top: -12px;
-	padding-top: 0;
-	padding-left: 18px;
+		margin: 0;
+		padding: 0;
 	}
 	li {
+		display: block;
 		font-size: 14px;
 	}
 }
