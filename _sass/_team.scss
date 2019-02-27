@@ -38,11 +38,12 @@
 }
 .team-member {
 	text-align: center;
+	margin-bottom: 20px;
 	@include media($small) {
 		@include clearfix;
 		width: 50%;
 		float: left;
-		min-height: 450px;
+		min-height: 400px;
 	}	
 	@include media($medium) {
 		width: 33%;
