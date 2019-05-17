@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>ic-finance-and-accounting</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-finance-and-accounting" transform="translate(-2.000000, -4.000000)">
-            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
-            <path d="M4,18 L20,18 L20,6 L4,6 L4,18 Z M9,14 L13,14 L13,13 L10,13 C9.45,13 9,12.55 9,12 L9,9 C9,8.45 9.45,8 10,8 L11,8 L11,7 L13,7 L13,8 L15,8 L15,10 L11,10 L11,11 L14,11 C14.55,11 15,11.45 15,12 L15,15 C15,15.55 14.55,16 14,16 L13,16 L13,17 L11,17 L11,16 L9,16 L9,14 Z" id="Shape" fill="#E0BE41" fill-rule="nonzero"></path>
-            <path d="M20,4 L4,4 C2.89,4 2.01,4.89 2.01,6 L2,18 C2,19.11 2.89,20 4,20 L20,20 C21.11,20 22,19.11 22,18 L22,6 C22,4.89 21.11,4 20,4 Z M20,18 L4,18 L4,6 L20,6 L20,18 Z M11,17 L13,17 L13,16 L14,16 C14.55,16 15,15.55 15,15 L15,12 C15,11.45 14.55,11 14,11 L11,11 L11,10 L15,10 L15,8 L13,8 L13,7 L11,7 L11,8 L10,8 C9.45,8 9,8.45 9,9 L9,12 C9,12.55 9.45,13 10,13 L13,13 L13,14 L9,14 L9,16 L11,16 L11,17 Z" id="Shape" fill="#3E4241" fill-rule="nonzero"></path>
-        </g>
-    </g>
-</svg>
+<svg height="16" viewBox="0 0 20 16" width="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(-2 -4)"><path d="m0 0h24v24h-24z"/><g fill-rule="nonzero"><path d="m4 18h16v-12h-16zm5-4h4v-1h-3c-.55 0-1-.45-1-1v-3c0-.55.45-1 1-1h1v-1h2v1h2v2h-4v1h3c.55 0 1 .45 1 1v3c0 .55-.45 1-1 1h-1v1h-2v-1h-2z" fill="#e0be41"/><path d="m20 4h-16c-1.11 0-1.99.89-1.99 2l-.01 12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2v-12c0-1.11-.89-2-2-2zm0 14h-16v-12h16zm-9-1h2v-1h1c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1h-3v-1h4v-2h-2v-1h-2v1h-1c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h3v1h-4v2h2z" fill="#3e4241"/></g></g></svg>

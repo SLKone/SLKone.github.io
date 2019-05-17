@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>ic-perf</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-perf" transform="translate(-3.000000, -2.000000)">
-            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
-            <polygon id="Path" fill="#E0BE41" fill-rule="nonzero" points="6.26 9 12 13.47 17.74 9 12 4.53"></polygon>
-            <path d="M19.37,12.8 L11.99,18.54 L4.62,12.81 L3,14.07 L12,21.07 L21,14.07 L19.37,12.8 Z M12,2 L3,9 L4.63,10.27 L12,16 L19.36,10.27 L21,9 L12,2 Z M12,13.47 L6.26,9 L12,4.53 L17.74,9 L12,13.47 Z" id="Shape" fill="#3E4241" fill-rule="nonzero"></path>
-        </g>
-    </g>
-</svg>
+<svg height="19" viewBox="0 0 18 19" width="18" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(-3 -2)"><path d="m0 0h24v24h-24z"/><g fill-rule="nonzero"><path d="m6.26 9 5.74 4.47 5.74-4.47-5.74-4.47z" fill="#e0be41"/><path d="m19.37 12.8-7.38 5.74-7.37-5.73-1.62 1.26 9 7 9-7zm-7.37-10.8-9 7 1.63 1.27 7.37 5.73 7.36-5.73 1.64-1.27zm0 11.47-5.74-4.47 5.74-4.47 5.74 4.47z" fill="#3e4241"/></g></g></svg>

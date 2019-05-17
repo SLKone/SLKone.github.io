@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>ic-change-initiative</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-change-initiative" fill-rule="nonzero">
-            <path d="M4,11 L7,11 L7,14 L4,14 L4,11 Z M4,4 L7,4 L7,7 L4,7 L4,4 Z M2,16 L16,16 L16,2 L2,2 L2,16 Z M10,4.5 L15,4.5 L15,6.5 L10,6.5 L10,4.5 Z M10,11.5 L15,11.5 L15,13.5 L10,13.5 L10,11.5 Z M3,3 L8,3 L8,8 L3,8 L3,3 Z M3,10 L8,10 L8,15 L3,15 L3,10 Z" id="Shape" fill="#E0BE41"></path>
-            <path d="M10,4.5 L15,4.5 L15,6.5 L10,6.5 L10,4.5 Z M10,11.5 L15,11.5 L15,13.5 L10,13.5 L10,11.5 Z M16,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L16,18 C17.1,18 18,17.1 18,16 L18,2 C18,0.9 17.1,0 16,0 Z M16,16 L2,16 L2,2 L16,2 L16,16 Z M8,3 L3,3 L3,8 L8,8 L8,3 Z M7,7 L4,7 L4,4 L7,4 L7,7 Z M8,10 L3,10 L3,15 L8,15 L8,10 Z M7,14 L4,14 L4,11 L7,11 L7,14 Z" id="Shape" fill="#3E4241"></path>
-        </g>
-    </g>
-</svg>
+<svg height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="m4 11h3v3h-3zm0-7h3v3h-3zm-2 12h14v-14h-14zm8-11.5h5v2h-5zm0 7h5v2h-5zm-7-8.5h5v5h-5zm0 7h5v5h-5z" fill="#e0be41"/><path d="m10 4.5h5v2h-5zm0 7h5v2h-5zm6-11.5h-14c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm0 16h-14v-14h14zm-8-13h-5v5h5zm-1 4h-3v-3h3zm1 3h-5v5h5zm-1 4h-3v-3h3z" fill="#3e4241"/></g></svg>
