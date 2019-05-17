@@ -1,60 +1,105 @@
-.service {
-	.page-title {
-		background: $base-color;	
-		padding: 24px 0px;
-		.wrap {
-			background-size: 0;
-			@include media($small) {
-				background-size: contain;
-				background-position: right;
-				background-repeat: no-repeat;
-				min-height: 408px;
-			}
-			@include display(flex);
-			@include align-items(center);	
-		}	
-		h5:first-child {
-			opacity: 0.5;
-		}
-		h2, h5 {
-			@include media($small) {
-				@include span-columns(7);
-			}
-			@include media($large) {
-				@include span-columns(8);
-			}
-		}
-
+.service-line {
+	background-color: $white;
+	background-size: 0 0;
+	border-radius: $border-radius;	
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
+	padding: 32px;
+	margin: 8px 0;
+	display: flex;
+	align-items: center;
+	&:last-child {
+		border-bottom: 0;
 	}
-
-}
-.service-section {
-	margin-top: 40px;
-	@include media($medium) {
-		display: flex;
-		flex-flow: column wrap;
-		max-height: 1200px;
-		width: 100%;
-		margin-left: -32px;
-	}
-}
-
-.service-details {
-	@include media($medium) {
-		margin: 0 0px 32px 32px; /* Some gutter */
-		width: 50%;
+	@include span-columns(12);
+	h4 {
+		background-position: left center;
+		background-repeat: no-repeat;
+		background-size: 24px 24px;
+		padding-left: 40px;
+		font-size: 20px;
+		font-weight: 400;
+		@include media($medium) {
+			@include span-columns(3);
+		}
 	}
 	ul {
+		@include media($medium) {
+			border-left: 1px solid rgba(0,0,0,.1);
+			@include span-columns(9);
+		}
 		padding: 0;
+		margin: 0;
+		li { 
+			@include media($medium) {
+				padding-left: 32px;
+			}
+			margin-bottom: 4px;
+			a {
+				color: $primary-color;
+				text-decoration: none;
+			}
+			.service-title {
+				font-weight: bold;
+			}
+			.service-description {
+				opacity: 0.7;
+			}
+			display: block;
+		}
 	}
-	li {
-		display: block;
-		padding: 0;
-		margin-bottom: 12px;
-		font-weight: bold;
+}
+#leadership-and-strategy {
+	h4 {
+		background-image: url(/images/ic-leadership-and-strategy.svg);
+
 	}
-	li span {
-		opacity: .6;
-		font-weight: normal;
+}
+
+#Operational-Excellence-and-Execution {
+	h4 {
+		background-image: url(/images/ic-Operational-Excellence-and-Execution.svg);
+
+	}
+}
+
+#Organization-and-Human-Capital {
+	h4 {
+		background-image: url(/images/ic-Organization-and-Human-Capital.svg);
+
+	}
+}
+
+#Revenue-and-Sales {
+	h4 {
+		background-image: url(/images/ic-Revenue-and-Sales.svg);
+
+	}
+}
+
+#Data-Analytics-and-Decision-Science {
+	h4 {
+		background-image: url(/images/ic-Data-Analytics-and-Decision-Science.svg);
+
+	}
+}
+
+#Information-Technology-and-Digital-Strategy {
+	h4 {
+		background-image: url(/images/ic-Information-Technology-and-Digital-Strategy.svg);
+
+	}
+}
+
+#Oversight-and-Event-Driven-Expertise {
+	h4 {
+		background-image: url(/images/ic-Oversight-and-Event-Driven-Expertise.svg);
+
+	}
+}
+
+#Finance-and-Accounting {
+	h4 {
+		background-image: url(/images/ic-Finance-and-Accounting.svg);
+
 	}
 }

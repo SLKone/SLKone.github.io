@@ -1,0 +1,128 @@
+.case-studies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 24px 0px;
+}
+
+.case-study {
+	transition: 0.3s ease-in-out;
+	.case-meta {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 320px;
+		@include media($small) {
+			max-width: 480px;
+		}
+	}
+	margin: 24px 0px;
+	@include media($small) {
+		.case-study-image {
+		height: 50px;
+		}
+	}	
+	@include media($medium) {
+		width: 48.82117%;
+	}	
+	@include media($large) {
+		width: 31.76157%;
+	}	
+	.case-image {
+	display: block;
+	width: 100%;
+	background: $base-color;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 16px;
+	height: 192px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
+	border-radius: $border-radius;
+	transition: box-shadow 0.3s ease-in-out;
+	&:after {
+		content: "";
+		width: 100%;
+		height: 192px;
+		position: absolute;
+		border-radius: $border-radius;
+		background: -moz-linear-gradient(top,  rgba(255,255,255,.25) 0%, rgba(255,255,255,0.1) 100%);
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,.25) 0%,rgba(255,255,255,.1) 100%);
+		background: linear-gradient(to bottom,  rgba(255,255,255,.25) 0%,rgba(255,255,255,0.1) 100%);
+	}
+	}
+	a {
+		color: $primary-color;
+		text-decoration: none;
+		min-height: 192px;
+		z-index: 2;
+	}	
+	.case-meta {
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 12px;
+		margin-bottom: 4px;
+		color: rgba(0,0,0,.7);
+		span {
+			color: $link-color;
+		}
+	}
+	h4.case-study-title {
+		width: 100%;
+		display: block;
+		margin-bottom: 4px;
+		@include font-size(32,yes,40);
+	}
+	.case-study-description {
+		display: block;
+		opacity: 0.7;
+	}
+	&:hover {
+		transition: 0.1s ease-in-out;
+		.case-image {
+			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
+			transition: box-shadow 0.1s ease-in-out;
+		}
+		.case-meta span {
+			color: darken($link-color,10);
+		}
+		.case-study-title {
+			color: darken($link-color,10);
+		}
+	}
+}
+
+.case-study-page {
+	.case-meta {
+		@include media($small) {
+			@include span-columns(3);
+		}
+		ul {
+			padding: 0;
+			margin: 0;
+
+		}
+		li {
+			padding: 0;
+			margin: 0;
+			display: block;
+			h6 {
+				color: $link-color;
+				margin-bottom: 4px;
+			}
+			p {
+				@include font-size(18,yes,22);
+				margin-top: 0;
+			}
+		}
+	}
+	.case-body {
+		margin-bottom: 24px;
+		@include media($small) {
+			@include span-columns(9);
+		}
+		h4 {
+			@extend h6;
+		}
+	}
+}

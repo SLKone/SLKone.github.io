@@ -2,15 +2,7 @@
 layout: default
 ---
 <div id="main" class="team" role="main">			
-	<div class="page-title">
-		<div class="wrap" style="background-image: url(/images/{{ page.heroimage }});">
-			<div>
-			<h5>{{ page.title }}</h5>
-			<h2>{{ page.subtitle }}</h2>
-			{% if page.intro %}<h5>{{ page.intro }}</h5>{% endif %}
-			</div>
-		</div>
-	</div>
+	{% include title-image.html %}
 	<div class="wrap">
 		{{ content }}
 	</div><!-- /.wrap -->

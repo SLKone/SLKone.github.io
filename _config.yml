@@ -2,10 +2,10 @@
 
 title: "SLKone"
 description: "We build & implement bespoke solutions"
-logo: tw-logo.jpg
-teaser: tw-teaser.jpg
+logo: 
+teaser: 
 locale: en
-url: https://slkone.com
+url: http://127.0.0.1:8887
 feed:
   path: atom.xml
 
@@ -23,19 +23,24 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
+plugins_dir:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
 
-# Site owner
-owner:
-  name:
-  email:
-  twitter:
-  google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+collections:
+  services:
+    output: true
+  case-studies:
+    output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "services"    
 
 include:
   - .htaccess

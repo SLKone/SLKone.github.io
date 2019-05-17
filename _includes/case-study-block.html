@@ -1,0 +1,11 @@
+{% assign case-study-slug = {{case-studies.url | remove: '/' | remove_first: "case-studies"}}" %}
+<div class="case-study">
+	<a href="{{ case-studies.url }}">
+		<div class="case-image" style="background-image:url({{ site.url }}/images/case-studies/{{ case-study-slug }}.jpg)"></div>
+		<div class="case-meta">
+			<span>{{ case-studies.industries }}</span> • {{ case-studies.services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}
+		</div>
+		<h4 class="case-study-title">{{ case-studies.title }}</h4>
+	  	<div class="case-study-description">{{ case-studies.intro | truncate: 116 }}</div>
+	</a>
+</div>

@@ -1,103 +1,299 @@
+.home {
+	overflow: hidden;
+	display: block;
+}
+
 .home .wrap {
 	padding-top: 0;
 }
 
-#slidorion {
-	width: 100%;
-	position: relative;
+.slide {
+	text-align: left;
+	@include media($small) {
+		text-align: center;
+	}
+	padding: 32px 0px;
+	@include media($medium) {
+		padding: 64px 0px 72px;
+	}
 }
 
-#slider {
-	height: 647px;			/* Set to slider height */
+#slide-one {
 	position: relative;
-	float: left;
+	padding: 0 8vw;
+	border-bottom: 4px solid $comp-color;
+	@include media($small) {
+	    padding: 180px 20px 100px;
+	}
+
+}
+
+.home-video {
 	display: none;
-	@include media($medium) {
-		@include span-columns(6);
+	@include media($small) {
 		display: block;
 	}
-	overflow: hidden;		/* Hides the animations */
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
 }
 
-.slider-image {
-	background: $white;
-	position: relative;
-	padding: 0;
-}
-
-#accordion {
-	background: $white;
+.home-video-container {
+    position: absolute;
+    top: -50%;
+    left: calc(-50% + 30vw);
+    width: 200%;
+    height: 200%;
 	@include media($medium) {
-		@include span-columns(6);
-	}
-	position: relative;
-	z-index:999;
-	float: left;
-	.header {
-		background-repeat: no-repeat;
-		background-position: left center;
-		background-size: 24px 24px;
-		line-height: 64px;
-		font-size: 20px;
-		@include media($medium) {
-			line-height: 72px;
-			font-size: 24px;
-		}	
-		border: none;
-		padding-bottom: 0;
-		
-		padding: 0;
-		margin: 0;
-		padding-left: 40px;
-		a {
-			background: none;
-			color: $body-color;
-			text-decoration: none;
-			display: block;
-		}	
-		a:hover {
-			cursor: pointer;
-		}
-		border-top: 1px solid lighten($primary-color, 90);
-		&:nth-child(2) {
-			border: 0;
-		}
-	}
-	.content {
-		padding: 0;
-		margin: 0;
-		border: none;
-		overflow:auto;
-		img {
-			display: block;
-			width: 50%;
-			margin: 0px auto;
-		}
-		@include media($medium) {
-		img {
-			display: none;
-			}
-		}			
+	    position: relative;
+	    left: -50%;
+	    top: -50%;
+	    width: 200%;
+	    height: 200%;
+	    padding-bottom: 56.25%;
+	}    
+}
 
-		p {
-			margin: 0 0 12px 40px;
-			padding: 0;
-		}
-		p:nth-child(2) {
-		margin-bottom: 24px;
-		}
-		a {
-		margin: 12px 0 0 40px;
-		}
-	}
-	.loader {
-	width: 100%;
-	background: $comp-color;
+.home video {
+    width: 100%;
+    height: 80%;
+    transform: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-height: 80%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.slide-text {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 32px 0px 40px 0px;
+    text-align: left;
+    @include media($small) {
+	    text-align: center;
+    }
+    @include media($medium) {
+	    padding: 80px 0px;
+    }
+	@include media($large) {
+	    padding: 100px 0px;
+    }    
+    z-index: 2;
+    text-align: left;
+    min-height: 100%;
+	    h2 {
+	    text-shadow: 0 2px 16px rgba(255,255,255,0.25), 0 8px 32px rgba(255,255,255,0.15);
+	    font-size: 2rem;
+	    margin-bottom: 0;
+	    @include media($small) {
+	    	font-size: 2.5rem;
+	    }
+	    @include media($medium) {
+		    text-align: center;
+	    	font-size: 3.5rem;
+	    }
+    }
+}
+
+.slide h3 {
+	margin-bottom: 32px;
+}
+
+.slide a {
+	margin: 24px 0px;
+	clear: both;
+	display: inline-block;
+}
+
+.slide ul {
+	padding: 0;
+	margin: 0;
+}
+
+.slide li {
+
+	background-position: center left;
+	text-align: left;
+	
+	min-height: auto;
+	
 	display: block;
-	margin-top: 31px;
-	height: 2px;
-	@include animation(loader 20.2s linear);
-	z-index: 0.1;
+	background-repeat: no-repeat;
+	min-height: auto;
+	width: 100%;
+	padding: 12px 0px 12px 32px;
+	@include media($small) {
+		float: left;
+		width: 50%;
+		padding: 12px 24px 12px 32px;
 	}
+	@include media($medium) {
+		text-align: center;
+		background-position: top center;
+		background-size: 32px 32px;
+		font-size: 1.25rem;
+		padding: 48px 0px 24px 0px;
+		min-height: 128px;
+	}
+}
 
+#slide-two li {
+    @include media($medium) {
+    	width: 25%;
+    }	
+}
+
+#slide-three {
+	background: $base-color;
+	border-top: 4px solid $comp-color;
+	border-bottom: 4px solid $comp-color;
+}
+
+#slide-four {
+	padding-bottom: 0;
+	li {
+		@include media($medium) {
+			text-align: center;
+			float: left;
+			width: 20%;
+		}
+	}
+}
+
+.slide p {
+	font-size: 1.25rem;
+	max-width: 1024px;
+	margin: 0px auto 32px;
+}
+
+#stabilize {
+	background-image: url(/images/ic-stabilize.svg);
+}
+
+#biz-transform {
+	background-image: url(/images/ic-biz-transform.svg);
+}
+
+#under-perform {
+	background-image: url(/images/ic-under-perform.svg);
+}
+
+#change-initiative {
+	background-image: url(/images/ic-change-initiative.svg);
+}
+
+#innovation {
+	background-image: url(/images/ic-innovation.svg);
+}
+
+#struct {
+	background-image: url(/images/ic-struct.svg);
+}
+
+#alignments {
+	background-image: url(/images/ic-alignments.svg);
+}
+
+#perf {
+	background-image: url(/images/ic-perf.svg);
+}
+
+#clar-goals {
+	background-image: url(/images/ic-clar-goals.svg);
+}
+
+#exec-desc {
+	background-image: url(/images/ic-exec-desc.svg);
+}
+
+#better-desc {
+	background-image: url(/images/ic-better-desc.svg);
+}
+
+#accountability {
+	background-image: url(/images/ic-accountability.svg);
+}
+
+#measured-outcomes {
+	background-image: url(/images/ic-measured-outcomes.svg);
+}
+
+#funct-impr {
+	background-image: url(/images/ic-funct-impr.svg);
+}
+
+#leadership-and-strategy {
+	background-image: url(/images/ic-leadership-and-strategy.svg);
+}
+
+#Operational-Excellence-and-Execution {
+	background-image: url(/images/ic-Operational-Excellence-and-Execution.svg);
+}
+
+#Organization-and-Human-Capital {
+	background-image: url(/images/ic-Organization-and-Human-Capital.svg);
+}
+
+#Revenue-and-Sales {
+	background-image: url(/images/ic-Revenue-and-Sales.svg);
+}
+
+#Data-Analytics-and-Decision-Science {
+	background-image: url(/images/ic-Data-Analytics-and-Decision-Science.svg);
+}
+
+#Information-Technology-and-Digital-Strategy {
+	background-image: url(/images/ic-Information-Technology-and-Digital-Strategy.svg);
+}
+
+#Oversight-and-Event-Driven-Expertise {
+	background-image: url(/images/ic-Oversight-and-Event-Driven-Expertise.svg);
+}
+
+#Finance-and-Accounting {
+	background-image: url(/images/ic-Finance-and-Accounting.svg);
+}
+
+
+/*
+   Testimonials
+   ========================================================================== */
+
+.quote {
+	text-align: left;
+	padding-left: 40px;
+	@include media($small) {
+			@include span-columns(4);
+	}	
+	&:before {
+		content: "“";
+		@include font-size(96);
+		opacity: 0.5;
+		position: absolute;
+		margin-left: -40px;
+		margin-top: -16px;
+	}
+}
+
+.quotes .quote {
+	@include media($small) {
+			@include span-columns(6);
+	}	
+}
+
+.byline {
+	display: block;
+	text-align: right;
+	opacity: 0.5;
+	margin-bottom: 32px;
 }

@@ -1,3 +1,4 @@
+
 /* ==========================================================================
    Page layout
    ========================================================================== */
@@ -7,13 +8,23 @@
    ========================================================================== */
 
 #masthead {
+	background-color: #ffffff; // Old browsers
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	z-index: 10;
+	padding-bottom: 0;
+	@include media($small) {
+		position: absolute;
+	}
+	width: 100%;
 	.inner-wrap {
 		@include outer-container;
 		@include media($small) {
 			padding: 24px 0px 0px 0px;
 		}		
 		@include media($medium) {
-			padding: 24px 0px;
+			padding: 0px;
 		}
 	}
 	#mast-position {
@@ -27,7 +38,7 @@
 	}
 }
 h1#logo {
-	background-image: url(/images/logo-hover.svg);
+	background-image: url(../images/logo-hover.svg);
 	background-size: 0;
 	margin: 0;
 	padding: 0;
@@ -36,7 +47,7 @@ h1#logo {
 	@include media($small) {
 		margin: 0;
 	}
-	background-image: url(/images/logo-light.svg);
+	background-image: url(../images/logo-light.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 56px;
@@ -47,7 +58,7 @@ h1#logo {
 			height: 72px;
 		}
 	&:hover {
-		background-image: url(/images/logo-hover.svg);
+		background-image: url(../images/logo-hover.svg);
 	}
 	}
 
@@ -123,7 +134,32 @@ h1#logo {
 		}
 	}
 	.page-title {
-		@include fill-parent;
+		background-size: cover;
+		background-position: center center;
+		text-align: center;
+		.background-overlay {
+			background: -moz-linear-gradient(top,  rgba(255,255,255,.75) 0%, rgba(255,255,255,1) 100%);
+			background: -webkit-linear-gradient(top,  rgba(255,255,255,.75) 0%,rgba(255,255,255,1) 100%);
+			background: linear-gradient(to bottom,  rgba(255,255,255,.75) 0%,rgba(255,255,255,1) 100%);
+			@include media($small) {
+				padding-top: 172px;
+				padding-bottom: 48px;
+			}
+		}
+		h2 {
+			max-width: 1024px;
+			margin: 0px auto 24px auto;
+		}
+		p {
+			@include media($medium) {
+				@include font-size(24,yes,28);
+			}
+			font-weight: medium;
+			color: rgba(0,0,0,.7);
+			font-style: italic;
+			max-width: 1024px;
+			margin: 0px auto;
+		}
 	}
 	@at-root {
 		.page-content {
@@ -276,7 +312,6 @@ h1#logo {
    ========================================================================== */
 
 .page-footer {
-
 	position: relative;
 }
 
@@ -309,10 +344,12 @@ h1#logo {
    ========================================================================== */
 
 #site-footer {
-	margin-top: 40px;
-	@include outer-container;
+	background: $base-color;
+	border-top: 4px solid $comp-color;
+	margin-top: 32px;
 	text-align: center;
-	padding-bottom: $gutter;
+	clear: both;
+	padding: 48px 0 32px;
 	a {
 		color: $link-color;
 	}
@@ -327,44 +364,4 @@ h1#logo {
 	border: 3px solid $comp-color;
 	border-radius: $border-radius;
 	padding: 24px;
-}
-
-/*
-   Testimonials
-   ========================================================================== */
-
-.testimonials {
-	background: $base-color;
-	padding: 64px 0px;
-}
-
-.quotes {
-	@extend .testimonials;
-}
-
-.quote {
-	padding-left: 40px;
-	@include media($small) {
-			@include span-columns(3);
-	}	
-	&:before {
-		content: "“";
-		@include font-size(96);
-		opacity: 0.5;
-		position: absolute;
-		margin-left: -40px;
-		margin-top: -16px;
-	}
-}
-
-.quotes .quote {
-	@include media($small) {
-			@include span-columns(6);
-	}	
-}
-
-.byline {
-	display: block;
-	text-align: right;
-	opacity: 0.5;
 }

@@ -2,45 +2,69 @@
 layout: default
 ---
 
-<div id="main" class="home" role="main">			
-	<div class="wrap">
-		<div id="slidorion">
-			<div id="accordion">
-				<h4>We build & implement <s>boutique</s> bespoke solutions</h4>
-				<div class="header" style="background-image: url(/images/ic-corp.svg"><a class="slider-link" rel="section1">For Corporate Clients</a></div>
-				<div class="content">
-					<p>Businesses often trip up operationalizing and executing strategy. This is because you assure certain outcomes to stakeholders in uncertain environments–only to find yourself scrambling to harness the organizational knowledge locked within your people and systems to meet those results for your shareholders and sponsors.</p>
-					<p>SLKone bridges strategy, leadership, and knowledge to build lasting solutions for you.</p>
-					<a class="btn-outline" href="/corporate">Learn More</a>
-					<div class="loader"></div>
-				</div>
-				<div class="header" style="background-image: url(/images/ic-pe.svg"><a class="slider-link" rel="section2">For Private Equity Clients</a></div>
-				<div class="content">
-					<p>You fail to realize your investment thesis when your portfolio platform investment remains weak for too long. An inadequate finance function masks your operational and systemic shortcomings–causing add-on acquisitions to further destabilize your platform. All of this results in sub-par returns on EBITDA and the exacerbating consequences of long holding periods.</p>
-					<p>SLKone works with you to stabilize your platform; ready your investments to leap forward; and build lasting solutions to keep climbing.</p>
-					<a class="btn-outline" href="/private-equity">Learn More</a>
-					<div class="loader"></div>
-				</div>
-				<div class="header" style="background-image: url(/images/ic-team.svg"><a class="slider-link" rel="section3">For Team Members</a></div>
-				<div class="content">
-					<p>You hate billable hours as a measure of your success. It’s well-understood that as a metric, it’s completely counterintuitive to the best interest of our clients. It’s also one of the things SLKone does differently.</p>
-					<p>We also believe that only a happy team can deliver exceptional results for our clients, which is why we foster an environment where your productivity, intellectual development, and personal growth is in harmony with the wellbeing of you and your family.</p>
-					<a class="btn-outline" href="/team">Learn More</a>
-					<div class="loader"></div>
-				</div>
-			</div>		
-			<div id="slider">
-				<div class="slider-image" rel="section1">
-					<div class="img"><img src="/images/hero-corp.png"/></div>
-				</div>
-				<div class="slider-image" rel="section2">
-					<div class="img"><img src="/images/hero-pe.png"/></div>
-				</div>
-				<div class="slider-image" rel="section3">
-					<div class="img"><img src="/images/hero-team.png"/></div>
-				</div>
+<div id="main" class="home" role="main">				
+	<div class="slide" id="slide-one">		
+		<div class="home-video">
+			<div class="home-video-container">
+				<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline">
+				  <source src="../images/background.mp4" type="video/mp4">
+				</video>
 			</div>
+		</div>		
+		<div class="slide-text">
+			<h2>We're management consultants who design, build, and implement <S>boutique</S> bespoke solutions for our corporate and equity sponsor clients.</h2>
 		</div>
-	</div><!-- /.wrap -->
-	{% include testimonials.html %}
+	</div>
+	<div class="slide" id="slide-two">
+		<div class="wrap">
+			<h3>What we do for our clients</h3>
+			<p>Clients call us for a range of issues, from stabilizing a newly acquired business to underperforming mergers and acquisitions. We have a wide variety of service lines and expertise.</p>
+			<ul>
+					<li id="leadership-and-strategy">Leadership and Strategy</li>
+					<li id="Operational-Excellence-and-Execution">Operational Excellence and Execution</li>
+					<li id="Organization-and-Human-Capital">Organization and Human Capital</li>
+					<li id="Revenue-and-Sales">Revenue and Sales</li>
+					<li id="Data-Analytics-and-Decision-Science">Data Analytics and Decision Science</li>
+					<li id="Information-Technology-and-Digital-Strategy">Information Technology and Digital Strategy</li>
+					<li id="Oversight-and-Event-Driven-Expertise">Oversight and Event Driven Expertise</li>
+					<li id="Finance-and-Accounting">Finance and Accounting</li>
+			</ul>
+		</div>
+		<div class="wrap"><a class="btn-filled" href="{{site.url}}/services">See All Our Services</a></div>
+	</div>		
+	<div class="slide testimonials" id="slide-three">	
+		<div class="wrap">
+			<h3>What our clients say about us</h3>
+			<div class="quote">
+				<p>I found you to listen more intently and more genuinely than many other firms. Also, you pushed back and helped redirect when needed in a very professional manner.</p>
+				<span class="byline">COO at an Industrial Products Manufacturer</span>
+			</div>
+			<div class="quote">
+				<p>Access and agility - Our work together epitomized a high performance team passing the ball to each other without having to look. Access to anyone at anytime on your team helped; and agility in terms of keeping the group small, we were able to adopt and move fast.</p>
+				<span class="byline">SVP of Global Excellence at Oil & Gas Company</span>
+			</div>
+			<div class="quote">
+				<p>Deep expertise coupled with humility and ability to engage with and build consensus with all levels of management.</p>
+				<span class="byline">Managing Director, Portfolio Support for Private Equity</span>
+			</div>		
+		</div>
+		<div class="wrap">
+		<a class="btn-filled" href="{{site.url}}/case-studies">Read Our Case Studies</a>
+		</div>
+	</div>
+	<div class="slide" id="slide-four">
+		<div class="wrap">
+			<h3>How we help our clients win</h3>
+			<p>We assist our clients see through the fog of uncertainty at critical business milestones and at the crossroads of disruptions and opportunities.</p>
+			<ul>
+				<li id="clar-goals">Clarifying their goals and objectives</li>
+				<li id="better-desc">Enabling them to make better informed decisions</li>
+				<li id="exec-desc">Assisting them in flawlessly executing those decisions</li>
+				<li id="accountability">Fostering a culture of accountability</li>
+				<li id="measured-outcomes">Delivering measurably improved outcomes</li>
+			</ul>
+		</div>
+		<div class="wrap">
+			<a class="btn-filled" href="{{site.url}}/expertise">Learn About Our Expertise</a></div>
+		</div>
 </div><!-- /#main -->

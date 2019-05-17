@@ -10,7 +10,7 @@ SLKone works with you to stabilize your platform; ready your investments to leap
 heroimage: "hero-pe-transparent.png"
 ---
 <div class="practice-section">
-	<div class="image"><img src="/images/pe-stairs.svg"></div>
+	<div class="image"><img src="../images/pe-stairs.svg"></div>
 	<div class="practice-details">
 		<h4>The Staircase</h4>
 		<p>In the PE world, the greater risk/reward profile manifests both in the motivations of the sponsors and the day to day operations of the portfolio company. As the sponsor, your margin for error is minimal and this is reflected in the expectations and incentives you set for the management team at the portfolio company. The management team facing expectations from above and wary employee base below end up walking a high-wire tightrope with tremendous crosswinds. Everything must come together perfectly to realize the investment thesis.</p>
@@ -28,7 +28,7 @@ heroimage: "hero-pe-transparent.png"
 	</div>
 </div>
 <div class="practice-section">
-	<div class="image"><img src="/images/pe-stabilize.svg"></div>
+	<div class="image"><img src="../images/pe-stabilize.svg"></div>
 	<div class="practice-details">
 		<h4>Stabilize</h4>
 		<p>The investment from a new sponsor is like a jolt of lightening for the business. One would expect that renewed focus, a greater emphasis on reporting, and an expectation of urgency would help the business, however, very often it leads to anxiety and performance slippages. Stabilizing an investment; channels the energy into areas that revitalizes the businesses and prepares them to Leap forward.</p>
@@ -45,7 +45,7 @@ heroimage: "hero-pe-transparent.png"
 	</div>
 </div>
 <div class="practice-section">
-	<div class="image"><img src="/images/pe-leap.svg"></div>
+	<div class="image"><img src="../images/pe-leap.svg"></div>
 	<div class="practice-details">
 		<h4>Leap Forward</h4>
 		<p>Without coordinated growth efforts, even a healthy and stabilized business can quickly dissipate its energy. Often in the urgency to meet expectations, revenue discipline is lost as management resorts to bringing in revenue at any cost whichy paralyzes the organic growth. Similarly, add-ons whether tuck-ins or sizeable acquisitions, executed without a playbook can handicap the trajectory through straddled costs. </p>
@@ -63,7 +63,7 @@ heroimage: "hero-pe-transparent.png"
 	</div>
 </div>
 <div class="practice-section">
-	<div class="image"><img src="/images/pe-climb.svg"></div>
+	<div class="image"><img src="../images/pe-climb.svg"></div>
 	<div class="practice-details">
 		<h4>Keep Climbing</h4>
 		<p>Even best run businesses that have leaped forward will require trimming and staying fit to keep adding multiples to EBITDA. Whether, it is customer profitability improvement, inventory optimization or harnessing shared services for an ever growing business footprint, the sponsors and management teams should be careful about capital investment timing, efficiencies,and free cash flow to perfectly time for a exit event. This in-flight maintenance effort must be managed, and leaders must keep their eye on the ball. As is often the case, the next transaction or event is just around the corner – one must constantly apply these principles to Keep Climbing.</p>

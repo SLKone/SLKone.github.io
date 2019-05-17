@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>ic-Information-Technology-and-Digital-Strategy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-Information-Technology-and-Digital-Strategy" transform="translate(0.000000, -4.000000)">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <polygon id="Path" fill="#E0BE41" fill-rule="nonzero" points="4 6 20 6 20 16 4 16"></polygon>
+            <path d="M20,18 C21.1,18 21.99,17.1 21.99,16 L22,6 C22,4.9 21.1,4 20,4 L4,4 C2.9,4 2,4.9 2,6 L2,16 C2,17.1 2.9,18 4,18 L0,18 L0,20 L24,20 L24,18 L20,18 Z M4,6 L20,6 L20,16 L4,16 L4,6 Z" id="Shape" fill="#3E4241" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

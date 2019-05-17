@@ -1,0 +1,12 @@
+<div class="wrap">
+	<div id="team-three" class="case-studies-section">
+		<div id="case-studies">
+		  {% for post in site.posts %}
+		    <div class="case-study">
+		      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+		    </div>
+		  {% endfor %}
+		</div>
+	</div>
+</div>
+	

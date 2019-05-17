@@ -1,0 +1,5 @@
+---
+title:  "Financial Planning and Analysis"
+categories: [Finance-and-Accounting]
+intro: Developing and supporting measurement and improvements plans for the right set of metrics, measures, and analysis in organizations.
+---

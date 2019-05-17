@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>ic-Revenue-and-Sales</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-Revenue-and-Sales" fill-rule="nonzero">
+            <polygon id="Shape" fill="#E0BE41" points="2 2 2 16 16 16 16 2"></polygon>
+            <path d="M16,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L16,18 C17.1,18 18,17.1 18,16 L18,2 C18,0.9 17.1,0 16,0 Z M16,16 L2,16 L2,2 L16,2 L16,16 Z M8,7 L10,7 L10,14 L8,14 L8,7 Z M12,4 L14,4 L14,14 L12,14 L12,4 Z M4,10 L6,10 L6,14 L4,14 L4,10 Z" id="Shape" fill="#3E4241"></path>
+        </g>
+    </g>
+</svg>
