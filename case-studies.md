@@ -3,7 +3,7 @@ layout: collections
 title: "Case Studies"
 title: "SLKone's Case Studies"
 subtitle: "Work That Speaks For Itself"
-intro: "We have a range of experience building and implementing solutions within a variety of service areas."
+intro: "We have years of delivering positive outcomes for our clients"
 heroimage: "case-studies.jpg"
 ---
 <div class="case-studies">

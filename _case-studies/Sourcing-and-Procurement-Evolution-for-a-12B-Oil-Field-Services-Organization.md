@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title:  "Sourcing & Procurement Evolution for a $12B Oil Field Services Organization"
-industries: [Oil and Gas]
+industries: [Oil-and-Gas]
 services-performed: [Procurement-and-Strategic-Sourcing]
 intro: A lack of understanding and delineation of Sourcing and Procurement activities causes a lack of execution including vendor management and ensuring the right materials and products are available when and where they are needed
 team-size: 2 consultants
