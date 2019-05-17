@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Manufacturing Improvements for a $130M Building Products Manufacturer"
 industries: [Manufacturing]
-services-performed: [Manufacturing-Processes-and-Operational-Improvements, Organizational-Design-and-Alignment, Merger-Repair]
+services-performed: [Manufacturing-Processes-and-Operational-Improvements, Organizational-Design-and-Alignment]
 intro: An organization built by acquisition and continued siloed organizations led to a bloated facility footprint across a global organization
 project-length: 2 months
 ---

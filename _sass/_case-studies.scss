@@ -1,7 +1,7 @@
 .case-studies {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	padding: 24px 0px;
 }
 
@@ -23,9 +23,24 @@
 		}
 	}	
 	@include media($medium) {
+		&:nth-child(odd) {
+			margin-right:1.17%;
+		}
 		width: 48.82117%;
 	}	
 	@include media($large) {
+		&:nth-child(odd) {
+			margin-right:0;
+		}
+		&:first-child {
+			margin-right: 1.57%;
+		}
+		&:nth-child(3n+1) {
+			margin-right: 1.57%;
+		}
+		&:nth-child(3n) {
+			margin-left: 1.57%;
+		}
 		width: 31.76157%;
 	}	
 	.case-image {
