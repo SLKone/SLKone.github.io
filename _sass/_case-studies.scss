@@ -63,6 +63,7 @@
 		background: -moz-linear-gradient(top,  rgba(255,255,255,.25) 0%, rgba(255,255,255,0.1) 100%);
 		background: -webkit-linear-gradient(top,  rgba(255,255,255,.25) 0%,rgba(255,255,255,.1) 100%);
 		background: linear-gradient(to bottom,  rgba(255,255,255,.25) 0%,rgba(255,255,255,0.1) 100%);
+		transition: opacity 0.2s ease-in-out;
 	}
 	}
 	a {
@@ -80,6 +81,7 @@
 		color: rgba(0,0,0,.7);
 		span {
 			color: $link-color;
+			transition: color 0.2s ease-in-out;
 		}
 	}
 	h4.case-study-title {
@@ -87,6 +89,7 @@
 		display: block;
 		margin-bottom: 4px;
 		@include font-size(32,yes,40);
+		transition: color 0.2s ease-in-out;
 	}
 	.case-study-description {
 		display: block;
@@ -97,12 +100,18 @@
 		.case-image {
 			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
 			transition: box-shadow 0.1s ease-in-out;
+			&::after {
+			opacity: 0;
+				transition: opacity 0.1s ease-in-out;
+			}
 		}
 		.case-meta span {
-			color: darken($link-color,10);
+			color: darken($link-color,20);
+			transition: color 0.1s ease-in-out;
 		}
 		.case-study-title {
-			color: darken($link-color,10);
+			color: darken($link-color,20);
+			transition: color 0.1s ease-in-out;
 		}
 	}
 }

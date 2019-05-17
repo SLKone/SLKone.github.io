@@ -3,12 +3,17 @@
 	background-size: 0 0;
 	border-radius: $border-radius;	
 	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
+	transition: box-shadow 0.3s ease-in-out;
 	padding: 32px;
 	margin: 8px 0;
 	display: flex;
 	align-items: center;
 	&:last-child {
 		border-bottom: 0;
+	}
+	&:hover {
+		box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
+		transition: box-shadow 0.1s ease-in-out;
 	}
 	@include span-columns(12);
 	h4 {
@@ -33,17 +38,31 @@
 			@include media($medium) {
 				padding-left: 32px;
 			}
-			margin-bottom: 4px;
+			margin-bottom: 8px;
 			a {
-				color: $primary-color;
 				text-decoration: none;
+				.service-title {
+					color: $link-color;
+					font-weight: bold;
+					transition: color 0.2s ease-in-out;
+				}
+				.service-description {
+					color: $primary-color;
+					opacity: 0.7;
+					transition: opacity 0.2s ease-in-out;
+				}				
+				&:hover {
+					.service-title {
+						color: darken($link-color,20);
+						transition: color 0.1s ease-in-out;
+					}
+					.service-description {
+						opacity: 1.0;
+						transition: opacity 0.1s ease-in-out;
+					}
+				}
 			}
-			.service-title {
-				font-weight: bold;
-			}
-			.service-description {
-				opacity: 0.7;
-			}
+			
 			display: block;
 		}
 	}

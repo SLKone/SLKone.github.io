@@ -81,8 +81,10 @@ ins {
 
 a {
 	color: $link-color;
+	transition: color 0.2s ease-in-out;
 	&:hover {
 		color: darken($link-color, 20);
+		transition: color 0.1s ease-in-out;
 	}
 	&:focus {
 		@extend %tab-focus;
