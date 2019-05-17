@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div id="main" class="collections" role="main">			
+	{% include title-image.html %}
+	<div class="wrap">
+		<div class="case-studies">
+		  {% for case-studies in site.case-studies %}
+		    {% include case-study-block.html %}
+		  {% endfor %}
+		</div>
+	</div><!-- /.wrap -->
+<div>
