@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Revenue Cycle Management Reporting Suite for a $200M Women’s Healthcare"
 industries: [Healthcare]
-services-performed: [Reporting-and-Analytics-Approach-Design]
+services-performed: [Reporting-and-Analytics-Approach-and-Design]
 intro: SLKone helped drive an evolutionary, data-driven approach to Revenue Cycle Management (RCM), where it developed metrics, reports, and tools to help drive action and decision-making across the organization
 team-size: 2 consultants
 project-length: 2 months
