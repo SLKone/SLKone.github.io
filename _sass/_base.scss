@@ -37,19 +37,19 @@ h1 {
 	line-height: 108px;
 }
 h2 {
-	@include font-size(32,yes,48);
+	@include font-size(32,yes,40);
 	@include media($medium) {
 		@include font-size(60,yes,72);
 	}
 }
 h3 {
-	@include font-size(34,yes,44);
+	@include font-size(32,yes,40);
 	@include media($medium) {
 		@include font-size(48,yes,56);
 	}
 }
 h4 {
-	@include font-size(34,yes,44);
+	@include font-size(32,yes,40);
 }
 h5 {
 	font-weight: bold;

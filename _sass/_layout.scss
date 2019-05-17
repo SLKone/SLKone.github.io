@@ -74,6 +74,7 @@ h1#logo {
 		@include media($micro) {
 			margin-top: 12px;
 			border-top: 1px solid $border-color;
+			border-bottom: 1px solid $border-color;
 			padding: 16px 0px;
 			@include flex-wrap(nowrap);
 			@include justify-content(space-between);
