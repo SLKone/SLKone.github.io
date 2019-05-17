@@ -1,5 +1,5 @@
 ---
-layout: case-collections
+layout: case-collection
 title: "Case Studies"
 title: "SLKone's Case Studies"
 subtitle: "Work That Speaks For Itself"
