@@ -5,7 +5,7 @@ description: "We build & implement bespoke solutions"
 logo: 
 teaser: 
 locale: en
-url: http://127.0.0.1:8887
+url: http://slkone.com
 feed:
   path: atom.xml
 
