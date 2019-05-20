@@ -2,7 +2,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	@include media($small) {
+	@include media($micro) {
 		padding-top: 0;
 	}
 	padding: 24px 0px;
