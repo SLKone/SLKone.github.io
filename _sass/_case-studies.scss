@@ -20,6 +20,12 @@
 		}
 	}
 	margin: 24px 0px;
+
+	@include media($small) {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
 	@include media($small) {
 		.case-study-image {
 		height: 50px;
