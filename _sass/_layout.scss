@@ -13,7 +13,7 @@
 	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 	z-index: 10;
-	padding-bottom: 0;
+	
 	@include media($small) {
 		position: absolute;
 	}
@@ -39,6 +39,7 @@
 		@include justify-content(space-between)
 		}
 	}
+	padding-bottom: 0;
 }
 h1#logo {
 	background-image: url(../images/logo-hover.svg);
