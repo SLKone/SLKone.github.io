@@ -20,9 +20,8 @@
 
 #slide-one {
 	position: relative;
-	padding: 0 8vw;
 	border-bottom: 4px solid $comp-color;
-	@include media($small) {
+	@include media($micro) {
 	    padding: 180px 20px 100px;
 	}
 
