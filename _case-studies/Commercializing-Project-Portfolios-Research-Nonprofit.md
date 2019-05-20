@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title:  "Commercializing Project Portfolios for a Research Nonprofit"
-industries: [Non-Profit]
+industries: [Nonprofit]
 services-performed: [Program-Portfolio-and-Project-Management]
 intro: SLKone removed information siloes in order to benefit from more than the sum of the organizations knowledge and capabilities.  Our methodology fostered collaboration through knowledge integration.
 team-size: 2 consultants
