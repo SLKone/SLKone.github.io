@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Interim CFO for a $65M Specialty Transportation Company"
 industries: [Transportation]
-services-performed: [Interim-C-suite-Roles]
+services-performed: [Interim-C-Suite-Roles]
 intro: SLKone provided an interim CFO to drive strategic and operational execution and help define metrics that will support the operations of the business and drive bottom line profitability.
 team-size: 2 consultants
 project-length: 2 months
