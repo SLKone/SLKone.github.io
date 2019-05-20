@@ -76,6 +76,12 @@ h6 {
 	font-weight: bold;
 }
 
+h7 {
+	font-weight: normal;
+	@include font-size(12,yes,14);
+	color: rgba(0,0,0,.5)
+}
+
 /* Underlined text */
 
 u,
