@@ -34,13 +34,25 @@ collections:
     output: true
   case-studies:
     output: true
+  expertise:
+    output: true
 
 defaults:
   - scope:
       path: ""
       type: "services"
     values:
-      layout: "services"    
+      layout: "services"  
+  - scope:
+      path: ""
+      type: "expertise"
+    values:
+      layout: "industry"         
+  - scope:
+      path: ""
+      type: "case-studies"
+    values:
+      layout: "case-study"        
 
 include:
   - .htaccess
