@@ -5,10 +5,14 @@
 /*
    Typography
    ========================================================================== */
+html {
+	overflow-x: hidden;
+}
 
 body {
 	font-family: $base-font;
 	color: $text-color;
+	overflow: hidden;
 	@include font-size(16,yes,20);
 	@include media($medium) {
 		@include font-size(18,yes,26);

@@ -19,7 +19,7 @@ layout: default
 		<div class="case-meta">
 			<h6>Industry</h6>
 			<ul class="industries">
-				<li>{{ page.industries | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li>
+				<a href="{{ site.url}}/services/{{ page.industries }}"><li>{{ page.industries | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
 			</ul>
 			<h6>Services Performed</h6>
 			<ul class="services-performed">
