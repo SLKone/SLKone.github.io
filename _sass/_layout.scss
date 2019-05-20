@@ -88,11 +88,10 @@ h1#logo {
 			background-color: $white;
 			background-size: 0 0;
 			border-radius: $border-radius;	
-			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
 			transition: all 0.3s ease-in-out;
 			opacity: 0;
 			padding: 8px 0px;
-			transform: translateY(-10px) scaleY(0);
+			transform: translateY(-50px) scaleY(0);
 			@include media($micro) {
 				display: block;
 			}
