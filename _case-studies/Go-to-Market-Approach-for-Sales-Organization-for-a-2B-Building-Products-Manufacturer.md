@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Go-to-Market Approach for Sales Organization for a $2B Building Products Manufacturer"
 industries: [Manufacturing]
-services-performed: [Sales-Force-Effectiveness]
+services-performed: [Sales-Force-Effectiveness,Visualization-and-Dashboarding,Vendor-and-System-Selection,Organizational-Design-and-Alignment,Procurement-and-Strategic-Sourcing]
 intro: SLKone reviewed, defined, and developed a formal go-to-market approach for an independent distributor network for the sales organization of an industry leading building products manufacturer
 team-size: 2 consultants
 project-length: 2 months
