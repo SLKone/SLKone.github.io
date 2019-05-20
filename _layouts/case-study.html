@@ -23,10 +23,9 @@ layout: default
 			</ul>
 			<h6>Services Performed</h6>
 			<ul class="services-performed">
-				<li>
-					
-					<p>{{ page.services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</p>
-				</li>
+				{% for services-performed in page.services-performed %}
+				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
+				{% endfor %}
 			</ul><!--
 				<li>
 					<h6>Team Size</h6>
