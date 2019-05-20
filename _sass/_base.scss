@@ -67,6 +67,9 @@ h5 {
 	display: inline-block;
 	padding: 8px 16px;
 	@include font-size(20,yes,28);
+	@include media($medium) {
+		@include font-size(18,yes,26);
+	}
 }
 h6 {
 	font-weight: bold;
