@@ -92,7 +92,7 @@ h1#logo {
 			transition: all 0.3s ease-in-out;
 			opacity: 0;
 			padding: 8px 0px;
-			transform: translateY(-200px);
+			transform: translateY(-200px) scaleY(0.2);
 			@include media($micro) {
 				display: block;
 			}
@@ -109,7 +109,7 @@ h1#logo {
 			margin-left: 0px;
 			margin-top: 0px;
 			z-index: 11;
-			transform: translateY(0px);
+			transform: translateY(0px) scaleY(1.0);
 			li:hover {
 				background: rgba(0,0,0,.05);
 			}
