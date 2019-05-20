@@ -121,23 +121,22 @@
 		@include media($small) {
 			@include span-columns(3);
 		}
-		ul {
+		ul.industries {
 			padding: 0;
 			margin: 0;
-
+			li {
+				padding: 0;
+				margin: 0;
+				display: block;
+			}
+		}
+		h6 {
+			color: $link-color;
+			margin-bottom: 4px;
 		}
 		li {
-			padding: 0;
-			margin: 0;
-			display: block;
-			h6 {
-				color: $link-color;
-				margin-bottom: 4px;
-			}
-			p {
-				@include font-size(18,yes,22);
-				margin-top: 0;
-			}
+			@include font-size(18,yes,22);
+			margin-top: 0;
 		}
 	}
 	.case-body {

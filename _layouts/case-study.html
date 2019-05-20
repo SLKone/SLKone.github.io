@@ -17,15 +17,17 @@ layout: default
 	</div>
 	<div class="wrap">
 		<div class="case-meta">
-			<ul>
+			<h6>Industry</h6>
+			<ul class="industries">
+				<li>{{ page.industries | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li>
+			</ul>
+			<h6>Services Performed</h6>
+			<ul class="services-performed">
 				<li>
-					<h6>Industry</h6>
-					<p>{{ page.industries | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</p>
-				</li>
-				<li>
-					<h6>Services Performed</h6>
+					
 					<p>{{ page.services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</p>
-				</li><!--
+				</li>
+			</ul><!--
 				<li>
 					<h6>Team Size</h6>
 					<p>{{ page.team-size }}</p>
