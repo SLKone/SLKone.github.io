@@ -5,6 +5,9 @@
 	@include media($micro) {
 		padding-top: 0;
 	}
+	@include media($small) {
+		padding-top: 0;
+	}
 	padding: 24px 0px;
 }
 
