@@ -20,7 +20,7 @@
 		}
 	}
 	margin: 24px 0px;
-	@include media($small) {
+	@include media($micro) {
 		&:first-child {
 			margin-top: 0;
 		}
@@ -29,6 +29,9 @@
 		.case-study-image {
 		height: 50px;
 		}
+		&:first-child {
+			margin-top: 0;
+		}		
 	}	
 	@include media($medium) {
 		&:nth-child(odd) {
