@@ -209,7 +209,7 @@ h1#logo {
 			}
 			@include media($medium) {
 				padding-top: 172px;
-				padding-bottom: 48px;
+				padding-bottom: 32px;
 			}
 		}
 		h2 {
@@ -227,7 +227,7 @@ h1#logo {
 			color: rgba(0,0,0,.7);
 			font-style: italic;
 			max-width: 1024px;
-			margin: 0px auto 24px 0px;;
+			margin: 0px auto 24px auto;
 		}
 	}
 	@at-root {
