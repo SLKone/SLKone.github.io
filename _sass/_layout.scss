@@ -92,7 +92,7 @@ h1#logo {
 			transition: all 0.3s ease-in-out;
 			opacity: 0;
 			padding: 8px 0px;
-			transform: translateY(-50px) scaleY(0);
+			transform: scale3d(0.76, 0.76, 0.76);
 			@include media($micro) {
 				display: block;
 			}
@@ -111,7 +111,7 @@ h1#logo {
 			margin-left: 0px;
 			margin-top: 0px;
 			z-index: 11;
-			transform: translateY(0px) scaleY(1.0);
+			transform: scale3d(1,1,1);
 			li {
 				opacity: 1;
 				transition: all 0.2s ease-in-out;
