@@ -214,7 +214,10 @@ h1#logo {
 		}
 		h2 {
 			max-width: 1024px;
-			margin: 0px auto 24px auto;
+			margin: 0px auto 8px auto;
+			@include media($large) {
+				margin-bottom: 16px;
+			}
 		}
 		p.intro {
 			@include media($medium) {
