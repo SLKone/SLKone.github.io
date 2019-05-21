@@ -20,7 +20,7 @@
 		}
 	}
 	margin: 24px 0px;
-	@include media($micro) {
+	@include media($small) {
 		&:first-child {
 			margin-top: 0;
 		}
