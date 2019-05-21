@@ -104,7 +104,7 @@ h1#logo {
 			}
 		}
 		li:hover ul {
-			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
 			display: block;
 			opacity: 1;
 			transition: all 0.2s ease-in-out;
@@ -121,6 +121,10 @@ h1#logo {
 			}
 			a {
 				padding: 12px 16px;
+			}
+			&:hover {
+				box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
+				transition: all 0.2s ease-in-out;
 			}
 		}
 	}	
