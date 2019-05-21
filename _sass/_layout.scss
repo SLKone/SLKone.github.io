@@ -193,11 +193,21 @@ h1#logo {
 				padding-bottom: 0;
 			}
 		}
+		@include media($small) {
+			.wrap {
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
 		.background-overlay {
 			background: -moz-linear-gradient(top,  rgba(255,255,255,.75) 0%, rgba(255,255,255,1) 100%);
 			background: -webkit-linear-gradient(top,  rgba(255,255,255,.75) 0%,rgba(255,255,255,1) 100%);
 			background: linear-gradient(to bottom,  rgba(255,255,255,.75) 0%,rgba(255,255,255,1) 100%);
 			@include media($small) {
+				padding-top: 144px;
+				padding-bottom: 0px;
+			}
+			@include media($medium) {
 				padding-top: 172px;
 				padding-bottom: 48px;
 			}
