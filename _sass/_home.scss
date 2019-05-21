@@ -22,10 +22,9 @@
 	position: relative;
 	padding: 24px 8vw;
 	border-bottom: 4px solid $comp-color;
-	@include media($micro) {
+	@include media($medium) {
 	    padding: 180px 20px 100px;
 	}
-
 }
 
 .home-video {
