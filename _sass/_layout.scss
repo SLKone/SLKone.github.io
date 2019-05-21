@@ -216,7 +216,7 @@ h1#logo {
 			max-width: 1024px;
 			margin: 0px auto 24px auto;
 		}
-		p {
+		p.intro {
 			@include media($medium) {
 				@include font-size(24,yes,28);
 			}
@@ -224,7 +224,7 @@ h1#logo {
 			color: rgba(0,0,0,.7);
 			font-style: italic;
 			max-width: 1024px;
-			margin: 0px auto;
+			margin: 0px auto 24px 0px;;
 		}
 	}
 	@at-root {
