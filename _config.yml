@@ -53,6 +53,11 @@ defaults:
       type: "case-studies"
     values:
       layout: "case-study"        
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team-member"       
 
 include:
   - .htaccess
