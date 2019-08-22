@@ -2,43 +2,29 @@
 layout: default
 ---
 
-<div id="main" class="case-study-page" role="main">			
-	<div class="page-title" style="background-image:url({{ site.url }}/images/case-studies/{{ case-study-slug }}.jpg)">
+<div id="main" class="post-page" role="main">			
+	<div class="page-title" style="background-image:url({{ post.image}})">
 		<div class="background-overlay">
 			<div class="wrap">
 				<div>
-				<h5>Case Study</h5>
+				<h5>Insights</h5>
 				<h2>{{ page.title }}</h2>
-				{% if page.intro %}<p class="intro">"{{ page.intro }}"</p>{% endif %}			
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="wrap">
-		<div class="case-meta">
-			<h6>Industry</h6>
-			<ul class="industries">
-				<a href="{{ site.url}}/expertise/{{ page.industries }}"><li>{{ page.industries | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
-			</ul>
-			<h6>Services Performed</h6>
-			<ul class="services-performed">
-				{% for services-performed in page.services-performed %}
-				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
-				{% endfor %}
-			</ul><!--
-				<li>
-					<h6>Team Size</h6>
-					<p>{{ page.team-size }}</p>
-				</li>
-				<li>
-					<h6>Project Duration</h6>
-					<p>{{ page.project-length }}</p>
-				</li>-->
-			</ul>
+		<div class="post-meta">
+			{% for author in page.authors %}
+	            {% for team-member in site.team-members %}
+				  {% if team-member.title contains author %}
+			    	{% include team-member.html %}
+			     {% endif %}
+			  {% endfor %}
+		    {% endfor %}
 		</div>
-		<div class="case-body">
+		<div class="post-body">
 		  {{ page.content | markdownify }}
-		  <h7>Case studies and expertise may represent projects and engagements performed by SLKone team members prior to their employment at SLKone</h7>
 		</div>
 
 	</div><!-- /.wrap -->

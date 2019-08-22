@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Are You Addressing the ‘White Elephants’ in the Room?"
-authors: [Andrew-Klemm,Dustin-Fidaleo]
+authors: [Andrew Klemm, Dustin Fidaleo]
 intro: The only thing you’re likely to see a domesticated elephant do these days is stand on a ball at the zoo or paint a picture in a YouTube video. But for much of human history, the gentle giants have been used for everything from transportation to ferrying heavy loads to weapons of war. In strictly cost/benefit terms, having an elephant to help you out around the village was a godsend. Except, ironically, for the ones held sacred – the White Elephants. Deemed too divine for labor, they were given as gifts to denote status. And while they surely looked spectacular, they cost as much to feed and quarter as a working elephant, with none of the economic value. 
 ---
 
