@@ -11,7 +11,8 @@ layout: default
 <div class="wrap">
 	<div id="team-three" class="team-section">
 		<div id="the-team">
-			{% for team-member in site.team-members %}
+			{% assign ordered-team = site.team-members | sort:"order" %}
+			{% for team-member in ordered-team  %}
 				{% include team-member-with-skill.html %}
 			{% endfor %}
 		</div>
