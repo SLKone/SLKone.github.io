@@ -5,6 +5,6 @@ image: monica.jpg
 order: 10
 ---
 
-- Finance & Accounting
-- Data, Analytics, & Information Technology
-- Revenue & Sales
+- Office Administration
+- Executive Support
+- Research & Marketing
