@@ -1,7 +1,8 @@
 ---
-title:  "Casey Matthews"
+title:  "Bernardo Jaccoud"
 job-title: Managing Consultant
+order: 9
 ---
 - Operational Excellence & Execution
-- Finance & Accounting
 - Data, Analytics, & Information Technology
+- Business & Transformational Events
