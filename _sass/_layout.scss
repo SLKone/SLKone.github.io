@@ -74,6 +74,7 @@ h1#logo {
 .menu {
 	#navigation {
 		@include media($micro) {
+		display: none;
 			margin-top: 12px;
 			border-top: 1px solid $border-color;
 			padding: 16px 0px;
