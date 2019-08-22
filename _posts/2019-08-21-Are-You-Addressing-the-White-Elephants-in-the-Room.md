@@ -14,9 +14,7 @@ In our experience working with organizations of every size, structure, and indus
 
 #### Where They Like to Hide
 
-Any function can be a White Elephant if left unchecked and uninvestigated, and the structure of an organization can influence which processes are overlooked when assessing efficiencies. We’ve found the areas that are deemed either “too complex” or “too important” to properly
-
-review are commonly Quality, Environmental Health & Safety (EHS), Sales, Finance, and Engineering.
+Any function can be a White Elephant if left unchecked and uninvestigated, and the structure of an organization can influence which processes are overlooked when assessing efficiencies. We’ve found the areas that are deemed either “too complex” or “too important” to properly review are commonly Quality, Environmental Health & Safety (EHS), Sales, Finance, and Engineering.
 
 Quality and EHS are the easiest to justify in neglecting to investigate. After all, environmental responsibility is an admirable trait for a company to show, and the quality of the end product is often seen as an indicator of the quality of the company as a whole. Yet, despite the very visible, public nature of these processes, or perhaps directly because of it, organizations frequently overlook them when assessing company health. In a sense, they’re paradoxically deemed too scrutinized to scrutinize; the perceived risks involved with change often preclude the opportunities to improve.
 
