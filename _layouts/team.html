@@ -8,6 +8,12 @@ layout: default
 	</div><!-- /.wrap -->
 <div>
 {% include quotes.html %}
-{% for team in site.team %}
-	{% include team-member-with-skills.html %}
-{% endfor %}
+<div class="wrap">
+	<div id="team-three" class="team-section">
+		<div id="the-team">
+			{% for team in site.team %}
+				{% include team-member-with-skills.html %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
