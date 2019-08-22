@@ -1,7 +1,7 @@
-{% assign team-member-slug = {{team.url | remove: '/' | remove_first: "team-members"}}" %}
+{% assign team-member-slug = {{team-member.url | remove: '/' | remove_first: "team-members"}}" %}
 <div class="team-member">
-			<img src="{{ site.url }}/images/team/{{ team-member-slug }}.jpg" />
+			<img src="{{ site.url }}/images/team-members/{{ team-member-slug }}.jpg" />
 			<h6>{{ team-member.title }}</h6>
 			<p>{{ team-member.job-title }}</p>
-			{{ content }}
+			{{ team-member.content }}
 </div>

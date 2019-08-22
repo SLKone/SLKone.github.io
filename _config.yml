@@ -36,6 +36,8 @@ collections:
     output: true
   expertise:
     output: true
+  team-members:
+    output: true
 
 defaults:
   - scope:

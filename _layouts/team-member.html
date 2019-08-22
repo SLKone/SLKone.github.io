@@ -10,11 +10,11 @@ layout: default
 		</div>
 	</div>
 	<div class="wrap">
-			{% assign team-member-slug = {{team.url | remove: '/' | remove_first: "team"}}" %}
-			<img src="{{ site.url }}/images/team/{{ team-member-slug }}.jpg" />
-			<h6>{{ team.title }}</h6>
-			<p>{{ team.job-title }}</p>
-			{{ content }}
+			{% assign team-member-slug = {{team-member.url | remove: '/' | remove_first: "team-members"}}" %}
+			<img src="{{ site.url }}/images/team-members/{{ team-member-slug }}.jpg" />
+			<h6>{{ team-member.title }}</h6>
+			<p>{{ team-member.job-title }}</p>
+			{{ team-member.content }}
 		</div>
 	</div><!-- /.wrap -->
 <div>
