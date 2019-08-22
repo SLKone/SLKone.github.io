@@ -43,8 +43,11 @@
 		background: $border-color;
 		border-radius: 200px;
 		display: block;
-		max-height: 200px;
-		max-width: 200px;
+		@include media($medium) {
+						max-height: 200px;
+				max-width: 200px;
+			}			
+
 		margin: 0 auto 12px auto;
 	}
 	h6 {
