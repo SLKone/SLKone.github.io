@@ -55,7 +55,7 @@ defaults:
       layout: "case-study"        
   - scope:
       path: ""
-      type: "team"
+      type: "team-members"
     values:
       layout: "team-member"       
 
