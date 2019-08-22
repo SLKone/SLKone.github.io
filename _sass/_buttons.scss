@@ -49,4 +49,19 @@
 
 .btn-social {
 	@extend .btn-filled;
+	i {
+		margin-right: 8px;
+	}
+}
+
+.twitter {
+	background-color: #38A1F3;
+}
+
+.facebook {
+	background-color: #3b5998;
+}
+
+.google {
+	background-color: #4285F4;
 }
