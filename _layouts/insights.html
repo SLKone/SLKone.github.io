@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="main" class="service-page" role="main">			
+	<div class="page-title">
+		<div class="background-overlay">
+		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
+			<h5>Insights</h5>
+			<h2>{{ page.title }}</h2>
+			{% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}			
+		</div>
+		</div>
+	</div>
+	<div class="wrap">
+		<ul>
+		  {% for post in site.posts %}
+		    <li>
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+		    </li>
+		  {% endfor %}
+		</ul>
+	</div><!-- /.wrap -->
+<div>
