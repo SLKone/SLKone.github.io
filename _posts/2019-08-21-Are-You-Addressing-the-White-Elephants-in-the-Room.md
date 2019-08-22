@@ -3,7 +3,7 @@ layout: post
 title:  "Are You Addressing the ‘White Elephants’ in the Room?"
 authors: [Andrew Klemm, Dustin Fidaleo]
 intro: The only thing you’re likely to see a domesticated elephant do these days is stand on a ball at the zoo or paint a picture in a YouTube video. But for much of human history, the gentle giants have been used for everything from transportation to ferrying heavy loads to weapons of war. In strictly cost/benefit terms, having an elephant to help you out around the village was a godsend. Except, ironically, for the ones held sacred – the White Elephants. Deemed too divine for labor, they were given as gifts to denote status. And while they surely looked spectacular, they cost as much to feed and quarter as a working elephant, with none of the economic value. 
-image: images/posts/Are-You-Addressing-the-White-Elephants-in-the-Room.jpg
+image: /images/posts/Are-You-Addressing-the-White-Elephants-in-the-Room.jpg
 ---
 
 The only thing you’re likely to see a domesticated elephant do these days is stand on a ball at the zoo or paint a picture in a YouTube video. But for much of human history, the gentle giants have been used for everything from transportation to ferrying heavy loads to weapons of war. In strictly cost/benefit terms, having an elephant to help you out around the village was a godsend. Except, ironically, for the ones held sacred – the White Elephants. Deemed too divine for labor, they were given as gifts to denote status. And while they surely looked spectacular, they cost as much to feed and quarter as a working elephant, with none of the economic value.
@@ -12,7 +12,7 @@ Now, your organization might not run on large quantities of grass. Your internal
 
 In our experience working with organizations of every size, structure, and industry, we’ve found White Elephants where leadership was either unwilling or unable to evaluate themselves. This isn’t to discredit them, of course – when you’re working from the inside, that is your world, and it is hard to see how it could operate any other way. But, when the shroud of importance is removed, and the organization is looked at holistically from above, there are undoubtedly some large, albino pachyderms hiding in the mix.
 
-####Where They Like to Hide
+#### Where They Like to Hide
 
 Any function can be a White Elephant if left unchecked and uninvestigated, and the structure of an organization can influence which processes are overlooked when assessing efficiencies. We’ve found the areas that are deemed either “too complex” or “too important” to properly
 
@@ -26,7 +26,7 @@ When it comes to Finances, avoiding investigation often seems like it’s born o
 
 The final process often overlooked, Engineering, is usually ignored because it is thought to be too valuable. Engineering personnel are frequently among the most highly-valued in an organization, and expenditures on things like R&D and new products are critical to a company’s future competitiveness. However, value does not exempt an organization from inefficiencies. The solution is in a review of an organization’s strategic priorities. With those clearly delineated, it’s possible to see how the performance of the Engineering function relates, and compliments, the overall goals of the organization.
 
-####How to Find Them
+#### How to Find Them
 
 When assessing the efficiencies and problem areas of an organization, leadership often makes the mistake of reviewing from too high up. And who can blame them – surely a 7-ton White Elephant would jump out at you if you took the time to look. But identifying where there is a problem doesn’t tell you why it’s there. To understand that, we have to get closer.
 
@@ -34,7 +34,7 @@ The first step in determining the health of any function within an organization 
 
 practice? Does every leadership team understand the role of their function within the organization, both strategically and financially? Though these questions may seem simple, it’s often the case that a fundamental misalignment or misunderstanding in these roots is the cause of inefficiencies in the function at large. Only through establishing a line of open, honest communication with leadership teams can an organization challenge them to recognize opportunities within their business function to run more efficiently and, in turn, implement solutions.
 
-####Getting Rid of Them
+#### Getting Rid of Them
 
 Unfortunately, White Elephants don’t play by hide-and-seek rules – finding them doesn’t eliminate them. Instead, once they’re identified, organizations are left with the equally-daunting task of removing them. And lifting an elephant is no one-man job.
 
@@ -55,7 +55,7 @@ At SLKone, we’ve helped leaders in organizations of every size, structure, and
 - Strengthening Project Management
 	- If left unattended, a newly-optimized function can quickly become a White Elephant all over again. Changes and improvements made to an organization must be supported and monitored to avoid the same pitfalls.
 
-####Keeping Them Out
+#### Keeping Them Out
 
 Once you have addressed existing White Elephants, the task turns to keeping them out for good. Complacency provides the breeding ground for White Elephants. Management teams should ensure that every organization participates in business review cycles. The work performed in an initial review should not become ‘shelf-ware’; learnings from those reviews should be used to create a sustainable set of metrics and baseline by which the efficiency and value of every function is reviewed. This practice drives a cultural shift within the business that makes it difficult for sacred organizational functions to develop. In practice, we have seen this not only drive out cost but improve morale.
 

@@ -3,6 +3,9 @@
 	margin-top: 8px;
 	}
 	.post-meta {
+		.team-member {
+		width: 100%;
+		}
 		@include media($small) {
 			@include span-columns(3);
 		}
