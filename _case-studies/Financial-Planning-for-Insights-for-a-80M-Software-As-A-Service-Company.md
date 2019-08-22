@@ -6,6 +6,7 @@ services-performed: [Financial-Planning-and-Analysis,Finance-and-Accounting-Proc
 intro: SLKone assisted the development of a granular, compliant revenue recognition model that resolved material issues in the accounting function, while simultaneously unlocking business intelligence reporting opportunities
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Financial-Planning-for-Insights-for-a-80M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation

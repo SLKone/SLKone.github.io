@@ -6,6 +6,7 @@ services-performed: [Operational-Due-Dilligence]
 intro: Conducted a holistic analysis of a recently acquired business to identify and prioritize next steps to prepare the company for rapid growth
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Remediation-and-Improvement-Roadmap-for-a-75M-Medical-Instruments-Company.jpg
 ---
 
 #### Situation

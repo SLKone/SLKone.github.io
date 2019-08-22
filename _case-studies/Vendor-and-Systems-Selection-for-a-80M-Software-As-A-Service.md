@@ -6,6 +6,7 @@ services-performed: [Vendor-and-Systems-Selection]
 intro: SLKone assisted in the evaluation, selection, and implementation of an FP&A tool for daily use to help automate recurring processes and streamline reporting functions
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Vendor-and-Systems-Selection-for-a-80M-Software-As-A-Service.jpg
 ---
 
 #### Situation

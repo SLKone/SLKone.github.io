@@ -6,6 +6,7 @@ services-performed: [Finance-and-Accounting-Processes-Improvement]
 intro: SLKone assisted the development of a granular, compliant revenue recognition model that resolved material issues in the accounting function, while simultaneously unlocking business intelligence reporting opportunities
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Implementing-a-Financial-Plan-and-Revenue-Recognition-Model-for-a-200M-Womens-Healthcare.jpg
 ---
 
 #### Situation

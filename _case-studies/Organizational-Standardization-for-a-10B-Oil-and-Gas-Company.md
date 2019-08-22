@@ -6,6 +6,7 @@ services-performed: [Organizational-Design-and-Alignment]
 intro: SLKone collaborated with the internal leadership team to establish standardized organizational designs and roles across a Global business
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Organizational-Standardization-for-a-10B-Oil-and-Gas-Company.jpg
 ---
 
 #### Situation

@@ -6,6 +6,7 @@ services-performed: [Sales-Force-Effectiveness,Visualization-and-Dashboarding,Ve
 intro: SLKone reviewed, defined, and developed a formal go-to-market approach for an independent distributor network for the sales organization of an industry leading building products manufacturer
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Go-to-Market-Approach-for-Sales-Organization-for-a-2B-Building-Products-Manufacturer.jpg
 ---
 
 #### Situation

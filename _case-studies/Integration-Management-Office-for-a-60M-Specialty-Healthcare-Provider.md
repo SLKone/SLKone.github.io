@@ -6,6 +6,7 @@ services-performed: [Integration-Management]
 intro: SLKone developed and staffed the Integration Management Office for the merger of two like-sized specialty healthcare provider companies with over 25 offices and emerged as the largest provider in the region
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Integration-Management-Office-for-a-60M-Specialty-Healthcare-Provider.jpg
 ---
 
 #### Situation

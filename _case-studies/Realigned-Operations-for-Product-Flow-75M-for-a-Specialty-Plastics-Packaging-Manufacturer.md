@@ -6,6 +6,7 @@ services-performed: [Manufacturing-Processes-and-Operational-Improvements]
 intro: After reviewing the operations of the organization, in alignment with future production needs and sales pipelines, a manufacturing shop floor reconfiguration project was embarked on resulting in improved performance, delivery, and profitability
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Realigned-Operations-for-Product-Flow-75M-for-a-Specialty-Plastics-Packaging-Manufacturer.jpg
 ---
 
 #### Situation

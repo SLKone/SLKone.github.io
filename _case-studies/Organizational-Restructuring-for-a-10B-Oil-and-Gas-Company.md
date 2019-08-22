@@ -6,6 +6,7 @@ services-performed: [Organizational-Design-and-Alignment, Compensation-and-Perfo
 intro: SLKone improved the productivity and connectivity of business support functions by designing and aligning departmental structures within the organization
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Organizational-Restructuring-for-a-10B-Oil-and-Gas-Company.jpg
 ---
 
 #### Situation

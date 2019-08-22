@@ -6,6 +6,7 @@ services-performed: [Program-Portfolio-and-Project-Management]
 intro: SLKone removed information siloes in order to benefit from more than the sum of the organizations knowledge and capabilities.  Our methodology fostered collaboration through knowledge integration.
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Commercializing-Project-Portfolios-Research-Nonprofit.jpg
 ---
 
 #### Situation

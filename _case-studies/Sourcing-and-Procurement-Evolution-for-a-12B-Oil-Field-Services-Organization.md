@@ -6,6 +6,7 @@ services-performed: [Procurement-and-Strategic-Sourcing]
 intro: A lack of understanding and delineation of Sourcing and Procurement activities causes a lack of execution including vendor management and ensuring the right materials and products are available when and where they are needed
 team-size: 2 consultants
 project-length: 2 months
+heroimage: case-studies/Sourcing-and-Procurement-Evolution-for-a-12B-Oil-Field-Services-Organization.jpg
 ---
 
 #### Situation
