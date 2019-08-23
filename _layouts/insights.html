@@ -1,16 +1,8 @@
 ---
 layout: default
 ---
-<div id="main" class="service-page" role="main">			
-	<div class="page-title">
-		<div class="background-overlay">
-		<div class="wrap">
-			<h5>Insights</h5>
-			<h2>{{ page.title }}</h2>
-			{% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}			
-		</div>
-		</div>
-	</div>
+<div id="main" class="insights-page" role="main">			
+	{% include title-image.html %}
 	<div class="wrap">
 		<div class="post-blocks">
 		  {% for post in site.posts %}
