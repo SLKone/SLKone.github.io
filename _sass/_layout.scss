@@ -176,7 +176,7 @@ h1#logo {
 
 #main {
 	margin-top: $gutter;
-	@include media($medium) {
+	@include media($small) {
 		margin-top: 0px;
 	}
 	.inner-wrap {
