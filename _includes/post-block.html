@@ -1,0 +1,10 @@
+<div class="case-study">
+	<a href="{{ post.url }}">
+		<div class="case-image" style="background-image:url({{ site.url }}/images/{{ post.heroimage }})"></div>
+		<div class="case-meta">
+			<span>{{ post.date | date: '%B %d, %Y' }}</span>
+		</div>
+		<h4 class="case-study-title">{{ post.title }}</h4>
+	  	<div class="case-study-description">{{ post.intro | truncate: 116 }}</div>
+	</a>
+</div>

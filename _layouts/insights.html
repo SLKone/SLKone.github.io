@@ -14,9 +14,7 @@ layout: default
 	<div class="wrap">
 		<ul>
 		  {% for post in site.posts %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-		    </li>
+		    {% include post-block.html %}
 		  {% endfor %}
 		</ul>
 	</div><!-- /.wrap -->
