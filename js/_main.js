@@ -18,13 +18,3 @@ $(document).ready(function(){
 
 // Table of Contents title. Change text to localize
 $("#markdown-toc").prepend("<li><h6>{{ site.data.messages.locales[site.locale].overview }}</h6></li>");
-
-/* Open */
-function openNav() {
-  document.getElementById("myNav").style.display = "block";
-}
-
-/* Close */
-function closeNav() {
-  document.getElementById("myNav").style.display = "none";
-} 

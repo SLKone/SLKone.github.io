@@ -73,14 +73,8 @@ h1#logo {
 
 .menu {
 	#navigation {
-		@include media($micro) {
 		display: none;
-			margin-top: 12px;
-			border-top: 1px solid $border-color;
-			padding: 16px 0px;
-			@include flex-wrap(nowrap);
-			@include justify-content(space-between);
-		}
+		@include media($medium) {
 		@include display(flex);
 		@include align-items(center);
 		@include justify-content(space-between);
@@ -131,6 +125,7 @@ h1#logo {
 				box-shadow: 0;
 				transition: all 0.2s ease-in-out;
 			}
+		}
 		}
 	}	
 	li.top {
@@ -442,61 +437,131 @@ h1#logo {
 	opacity: 0;
 }
 
+
 /* Mobile Nav */
+#mobile-nav {
+		.lower{
+			height: 44px;
+			width: 44px;
+	  		position: absolute;
+			top: 22px;
+			right: 22px;
+		}
+		input{
+		  display:none;
+		}
 
- /* The Overlay (background) */
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-  height: 100%;
-  width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+		.lower label{
+			background: none;
+		  font-size:32px;
+		  text-align:center;
+		}
+
+		.lower label:hover{
+		  cursor:pointer;
+		}
+
+		.overlay{
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: $link-color;
+			z-index: 999;
+		}
+
+		.overlay label{
+			width: 58px;
+			height:58px;
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			background: url('https://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png');
+			z-index: 100;
+		  cursor:pointer;
+		}
+
+		.overlay nav {
+			text-align: center;
+			position: relative;
+			top: 50%;
+			height: 60%;
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+
+		.overlay ul {
+			font-size: 24px;
+			list-style: none;
+			padding: 0;
+			margin: 0 auto;
+			display: inline-block;
+			height: 100%;
+			position: relative;
+		}
+
+		.overlay ul li {
+			color: rgba(255,255,255,0.5);
+			display: block;
+			line-height: 44px;
+			border-bottom: 1px solid rgba(255,255,255,.3);
+			ul {
+				li:first-child {
+					border-top: 1px solid rgba(255,255,255,.3);
+				}
+				margin: 0px;
+				height: auto;
+				li {
+					font-size: 18px;
+					border: 0;
+				}
+			}
+		}
+
+		.overlay ul li a {
+			font-weight: 300;
+			display: block;
+			color: white;
+		  text-decoration:none;
+		}
+
+		.overlay ul li a:hover,
+		.overlay ul li a:focus {
+			color: #849368;
+		}
+
+		.lower~.overlay-hugeinc{
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		#op:checked~.overlay-hugeinc{
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.overlay-hugeinc nav {
+			-moz-perspective: 300px;
+		}
+
+		.overlay-hugeinc nav ul {
+			opacity: 0.4;
+			-webkit-transform: translateY(-25%) rotateX(35deg);
+			transform: translateY(-25%) rotateX(35deg);
+		}
+
+		#op:checked~.overlay-hugeinc nav ul {
+			opacity: 1;
+			-webkit-transform: rotateX(0deg);
+			transform: rotateX(0deg);
+		}
+
+		#op:not(:checked)~.overlay-hugeinc nav ul {
+			-webkit-transform: translateY(25%) rotateX(-35deg);
+			transform: translateY(25%) rotateX(-35deg);
+		}
+	@include media($medium) {
+		display: none;
+	}
 }
-
-/* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-} 

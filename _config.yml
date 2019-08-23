@@ -5,7 +5,7 @@ description: "We build & implement bespoke solutions"
 logo: 
 teaser: 
 locale: en
-url: https://slkone.com
+url: file:///Users/adit/Documents/SLKone.github.io/_site/
 feed:
   path: atom.xml
 
