@@ -496,21 +496,24 @@ h1#logo {
 		}
 
 		.overlay ul {
-			font-size: 24px;
+			font-size: 18px;
 			list-style: none;
 			padding: 0;
 			margin: 0 auto;
 			display: inline-block;
 			height: 100%;
 			position: relative;
+			min-width: 240px;
 		}
 
 		.overlay ul li {
+			text-align: center;
 			color: rgba(255,255,255,0.5);
 			display: block;
 			line-height: 44px;
 			border-bottom: 1px solid rgba(255,255,255,.3);
 			ul {
+				width: 100%;
 				li:first-child {
 					border-top: 1px solid rgba(255,255,255,.3);
 				}
