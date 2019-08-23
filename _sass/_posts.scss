@@ -35,6 +35,26 @@
 			display: block;
 			text-decoration: none;
 		}
+		.team-member {
+			&:first-child {
+				margin-top: -16px;
+			}
+			@include media($medium) {
+			&:first-child {
+				margin-top: 24px;
+			}
+				img {
+					margin-left: 0;
+					margin-right: 0;
+					max-width: 100px;
+				}
+				h6,p {
+					text-align: left;
+					text-transform: none;
+					letter-spacing: 0;				
+				}
+			}
+		}
 	}
 	.post-body {
 		margin-bottom: 24px;
