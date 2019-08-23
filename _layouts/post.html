@@ -15,6 +15,7 @@ layout: default
 	</div>
 	<div class="wrap">
 		<div class="post-meta">
+			<h6>{{ post.date | date: '%B %d, %Y' }}</h6>
 			{% for author in page.authors %}
 	            {% for team-member in site.team-members %}
 				  {% if team-member.title contains author %}
@@ -22,6 +23,12 @@ layout: default
 			     {% endif %}
 			  {% endfor %}
 		    {% endfor %}
+		    <h6>Services Performed</h6>
+			<ul class="services-performed">
+				{% for services-performed in page.services-performed %}
+				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
+				{% endfor %}
+			</ul>
 		</div>
 		<div class="post-body">
 		  {{ content }}
