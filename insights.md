@@ -1,6 +1,6 @@
 ---
 layout: insights
-title: "SLKone's Thought Leadership"
+title: "Thought Leadership"
 subtitle: "Insights"
 intro:
 heroimage: "insights.jpg"
