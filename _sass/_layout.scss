@@ -508,10 +508,9 @@ h1#logo {
 
 		.overlay ul li {
 			text-align: center;
-			color: rgba(255,255,255,0.5);
 			display: block;
 			line-height: 44px;
-			border-bottom: 1px solid rgba(255,255,255,.3);
+			border-bottom: 1px solid rgba(255,255,255,.1);
 			ul {
 				width: 100%;
 				padding-bottom: 8px;
@@ -519,7 +518,13 @@ h1#logo {
 				li {
 					font-size: 16px;
 					border: 0;
+					a {
+					opacity: 0.8;
+					}
 				}
+			}
+			&:last-child {
+				border: 0;
 			}
 		}
 
