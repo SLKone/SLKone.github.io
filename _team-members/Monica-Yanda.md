@@ -1,7 +1,7 @@
 ---
 title:  "Monica Yanda"
 job-title: Business Manager
-image: monica.jpg
+image: Monica-Yanda.jpg
 order: 10
 ---
 
