@@ -13,9 +13,9 @@ A robust and operationalized Project Management Office (PMO) can be felt through
 
 Organizations are not always afforded the luxury of deliberately creating or thinking through the responsibilities of a PMO. Additionally, as an organization matures, the requirements of their PMO may change. The Project Management Institute defines a PMO as “a management structure that standardizes the project-related governance processes and facilitates the sharing of resources, methodologies, tools, and techniques.”1 This broad and encompassing definition allows organizations to form their PMO into a variety of types with varying degrees of structure and influence. However, managers should describe PMOs by their ability to enact change within the organization and can refer to the PMO type as Strong or Weak.  
 
-*Strong PMOs* are those we typically think of as controlling or assertive in their style. Generally, these PMOs enforce a set of standardized rules and are involved in most project-related decision making. In this model, leaders are empowered to act as dedicated project managers and conduct project selection and implementation in sync with corporate strategy.  
+<b>Strong PMOs</b> are those we typically think of as controlling or assertive in their style. Generally, these PMOs enforce a set of standardized rules and are involved in most project-related decision making. In this model, leaders are empowered to act as dedicated project managers and conduct project selection and implementation in sync with corporate strategy.  
 
-*Weak PMOs* are those that seemingly exist in title alone. This model works to coordinate meetings, activities, and resources without decision-making authority or standardized rules. Weak PMOs often lack dedicated project managers and the people who lead them often juggle their project management duties with additional tasks in the organization.  
+<b>Weak PMOs</b> are those that seemingly exist in title alone. This model works to coordinate meetings, activities, and resources without decision-making authority or standardized rules. Weak PMOs often lack dedicated project managers and the people who lead them often juggle their project management duties with additional tasks in the organization.  
 
 Noting the above differences, organizations often create a PMO without understanding their desired results. By default, this lack of strategy fosters a Weak PMO without a clearly defined need or role within the organization. 
 
@@ -31,19 +31,19 @@ Successful PMOs have metrics associated with projects, such as return on investm
 
 Whether Strong or Weak, there are a variety of reasons organizations may not recognize the benefit of their PMO. Four of the most common pitfalls are a lack of 1) alignment with corporate strategy, 2) organizational power, 3) staff and structure, and 4) training and required skill sets. 
 
-##Lack of Alignment with Corporate Strategy 
+<b>Lack of Alignment with Corporate Strategy</b>
 
 Organizations often evaluate project alignment with a scorecard to quantify how strongly a project aligns with strategic goals. However, these scorecards have a higher chance of failing when the PMO was not involved in the card’s development or in constructing the corporate strategy. Corporate PMOs are the “boots on the ground” for implementing and developing projects, and often require involvement at a strategic planning level. As a company evolves, projects may no longer align with strategic goals, and poor communication can further exacerbate misalignment, causing inefficient allocation of company resources. For example, heavily regulated industries may need to shift project-devoted resources to meet new compliance regulations. However, a PMO needs the power to temporarily shelve existing projects to push for compliance completion and achieve the required corporate regulatory goals. If a PMO is pushing misaligned projects, it cannot drive results or performance for the broader company. 
 
-##Lack of Organizational Power 
+<b>Lack of Organizational Power</b>
 
 Many organizations structure a PMO to report and track progress on projects, but not to drive actual change and influence the projects. This approach limits the power of a PMO to influence and enact change as a strategic partner. A properly implemented PMO creates organizational impact by helping managers execute projects on time and within budget. Organizational best practices authorize their PMO to make critical decisions with the influence and capacity required to ensure projects progress and achieve their desired results. These may include deciding on resource trade-offs, approving change orders, making schedule changes, or other strategic decisions. An effective PMO should be closest to the project within an organization and, subsequently, be best suited to make necessary changes.  
 
-##Lack of Staff and Structure 
+<b>Lack of Staff and Structure</b> 
 
 When an organization lacks adequate staff, employees already carrying full workloads often receive additional PMO activities and responsibilities. As a result, these employees struggle to accomplish additional responsibilities effectively because they compete for time with the employees’ existing duties. When this happens, the PMO does not receive the attention required to guide projects or make critical decisions. Even well-developed PMOs undergo structural improvements to meet the changing needs of an organization. These changes can occur due to the type and level of staff necessary to manage initiatives. Managers must evaluate the degree of specialization and coordination required to maximize allocation of resources and employee skill sets.  
 
-##Lack of Training and Required Skill Sets 
+<b>Lack of Training and Required Skill Sets</b> 
 
 An effective PMO requires individuals with the experience and skillset for leading complex projects. Even the subtlety of management style and amount of necessary cooperation changes how PMOs operate and the skillsets needed to succeed. Project managers require strong organization skills, ability to collaborate cross-functionally within the organization, ability to synthesize large amounts of information, and ability to present the information for action to organization leaders. Further, project and program managers should possess the capabilities and experiences aligned with the initiatives under their purview. These capabilities may vary by discipline; for instance, the skills and tasks associated with an information technology project differ drastically from a construction project. The skills of those in the PMO should match domain knowledge for associated projects. 
 
