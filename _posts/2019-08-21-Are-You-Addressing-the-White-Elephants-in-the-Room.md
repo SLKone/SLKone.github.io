@@ -29,9 +29,7 @@ The final process often overlooked, Engineering, is usually ignored because it i
 
 When assessing the efficiencies and problem areas of an organization, leadership often makes the mistake of reviewing from too high up. And who can blame them – surely a 7-ton White Elephant would jump out at you if you took the time to look. But identifying where there is a problem doesn’t tell you why it’s there. To understand that, we have to get closer.
 
-The first step in determining the health of any function within an organization is establishing a baseline. How is it supposed to work, from the bottom up? How does it actually work in
-
-practice? Does every leadership team understand the role of their function within the organization, both strategically and financially? Though these questions may seem simple, it’s often the case that a fundamental misalignment or misunderstanding in these roots is the cause of inefficiencies in the function at large. Only through establishing a line of open, honest communication with leadership teams can an organization challenge them to recognize opportunities within their business function to run more efficiently and, in turn, implement solutions.
+The first step in determining the health of any function within an organization is establishing a baseline. How is it supposed to work, from the bottom up? How does it actually work in practice? Does every leadership team understand the role of their function within the organization, both strategically and financially? Though these questions may seem simple, it’s often the case that a fundamental misalignment or misunderstanding in these roots is the cause of inefficiencies in the function at large. Only through establishing a line of open, honest communication with leadership teams can an organization challenge them to recognize opportunities within their business function to run more efficiently and, in turn, implement solutions.
 
 #### Getting Rid of Them
 
