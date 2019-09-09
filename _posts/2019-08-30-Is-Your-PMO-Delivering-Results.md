@@ -11,7 +11,7 @@ A robust and operationalized Project Management Office (PMO) can be felt through
 
 #### Why Was Your PMO Created? 
 
-Organizations are not always afforded the luxury of deliberately creating or thinking through the responsibilities of a PMO. Additionally, as an organization matures, the requirements of their PMO may change. The Project Management Institute defines a PMO as “a management structure that standardizes the project-related governance processes and facilitates the sharing of resources, methodologies, tools, and techniques.”1 This broad and encompassing definition allows organizations to form their PMO into a variety of types with varying degrees of structure and influence. However, managers should describe PMOs by their ability to enact change within the organization and can refer to the PMO type as Strong or Weak.  
+Organizations are not always afforded the luxury of deliberately creating or thinking through the responsibilities of a PMO. Additionally, as an organization matures, the requirements of their PMO may change. The Project Management Institute defines a PMO as “a management structure that standardizes the project-related governance processes and facilitates the sharing of resources, methodologies, tools, and techniques.”<sup>1</sup> This broad and encompassing definition allows organizations to form their PMO into a variety of types with varying degrees of structure and influence. However, managers should describe PMOs by their ability to enact change within the organization and can refer to the PMO type as Strong or Weak.  
 
 <b>Strong PMOs</b> are those we typically think of as controlling or assertive in their style. Generally, these PMOs enforce a set of standardized rules and are involved in most project-related decision making. In this model, leaders are empowered to act as dedicated project managers and conduct project selection and implementation in sync with corporate strategy.  
 
@@ -58,3 +58,5 @@ Devote the time and resources to implement a PMO properly. Not every organizatio
 Ensure the proper skill sets are present. When assigning resources to a PMO, ensure the skill sets of those tasked match the needs of the projects. Just because someone is effective in their current role does not guarantee success in a PMO capacity. The projects under the purview of the PMO will also require some domain knowledge and expertise. Ensure the PMO structure includes the requisite specialization.  
 
 When an organization is struggling to establish a PMO, or identifies a lack of ability to adequately manage a PMO, consider the use of outside entities. These can include consultants, new hires into the organization, or other temporary resources to advance the organization. SLKone possesses the skillsets, experience, and ability to align and design a PMO within your organization.  
+
+<sup>1</sup> A Guide to the Project Management Body of Knowledge 5th Edition. (Project Management Institute, 2013)
