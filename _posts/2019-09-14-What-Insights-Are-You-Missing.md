@@ -4,7 +4,7 @@ title:  "What Insights Are You Missing?"
 authors: [Phil Lynch, Christopher Burton]
 intro: A leadership team is discussing the recent performance of its business and is attempting to develop action plans to move the organization forward. Several members of the leadership team vent frustration at the lack of information coming from the data available within the organization – an issue that persists despite building dashboards, investing in a “Business Intelligence” platform, and hiring team members to focus on data and analytics. Exclamations of, “This has to exist!” and frustrated sighs of, “What good is an analytics team that does not produce good analytics?” can be heard throughout the meeting. 
 services-performed: [Reporting-and-Analytics-Approach-and-Design,Visualization-and-Dashboarding,Financial-Planning-and-Analysis]
-heroimage: posts/What-Insights-Are-You-Missing.jpeg
+heroimage: posts/What-Insights-Are-You-Missing.jpg
 ---
 
 A leadership team is discussing the recent performance of its business and is attempting to develop action plans to move the organization forward. Several members of the leadership team vent frustration at the lack of information coming from the data available within the organization – an issue that persists despite building dashboards, investing in a “Business Intelligence” platform, and hiring team members to focus on data and analytics. Exclamations of, “This has to exist!” and frustrated sighs of, “What good is an analytics team that does not produce good analytics?” can be heard throughout the meeting. 
