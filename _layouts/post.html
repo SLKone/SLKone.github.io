@@ -23,12 +23,20 @@ layout: default
 			     {% endif %}
 			  {% endfor %}
 		    {% endfor %}
-		    <h6>Relevant Services</h6>
+		    <h6>Services</h6>
 			<ul class="services-performed">
 				{% for services-performed in page.services-performed %}
 				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
 				{% endfor %}
 			</ul>
+			{% if case-studies %}
+			<h6>Case Studies</h6>
+			<ul class="relevant-cases">
+				{% for case-studies in site.case-studies %}
+					<a href="{{ site.url}}/case-studies/{{ case-studies }}"><li>{{ case-studies | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
+				{% endfor %}
+			</ul>
+			{% endif %}
 		</div>
 		<div class="post-body">
 		  {{ content }}
