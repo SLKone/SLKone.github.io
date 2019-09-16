@@ -29,7 +29,7 @@ layout: default
 				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
 				{% endfor %}
 			</ul>
-			{% if case-studies %}
+			{% if page.case-studies %}
 			<h6>Case Studies</h6>
 			<ul class="relevant-cases">
 				{% for case-studies in site.case-studies %}
