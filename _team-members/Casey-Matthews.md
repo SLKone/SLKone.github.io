@@ -1,6 +1,6 @@
 ---
 title:  "Casey Matthews"
-job-title: Managing Consultant
+job-title: Engagement Manager
 order: 6
 ---
 - Operational Excellence & Execution
