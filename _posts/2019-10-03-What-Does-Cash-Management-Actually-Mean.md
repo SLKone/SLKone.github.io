@@ -52,4 +52,5 @@ Building a company for the future takes time, effort, and risk. One must first l
 Where some firms focus solely on short-term fixes by developing a 13-week cash flow model, SLKone can help guide your company through the fog of uncertainty by instilling a holistic cash management discipline. Take the next step in addressing potential liquidity issues before they occur by getting in touch now – we look forward to hearing from you! 
 
 Send us an email: hello@slkone.com
+
 Give us a call: +1.919.537.9189
