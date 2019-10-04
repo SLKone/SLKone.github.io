@@ -175,6 +175,9 @@ h1#logo {
    ========================================================================== */
 
 #main {
+	.content {
+		padding-bottom: 32px;
+	}
 	margin-top: $gutter;
 	@include media($small) {
 		margin-top: 0px;
@@ -415,7 +418,6 @@ h1#logo {
 #site-footer {
 	background: $base-color;
 	border-top: 4px solid $comp-color;
-	margin-top: 32px;
 	text-align: center;
 	clear: both;
 	padding: 48px 0 32px;
@@ -574,4 +576,28 @@ h1#logo {
 	@include media($medium) {
 		display: none;
 	}
+}
+
+.page-bottom {
+	background: $comp-color;
+	.wrap {
+		@include display(flex);
+		padding: 0px;
+		@include align-items(center);
+		@include justify-content(space-between);
+		@include flex-wrap(nowrap);
+		height: 128px;
+		div {
+			text-align: center;
+			border-right: 1px solid $white;
+			@include flex-grow(1);
+			a {
+			color: $white;
+			border-color: $white;
+			}
+			&:last-child {
+			border-right: 0;
+			}
+		}
+}
 }

@@ -1,32 +1,17 @@
+.team {
+	.wrap {
+		max-width: 1024px;
+	}
+}
+
 .team-section {
 	margin: 40px 0;
 }
 
-#team-one {
-	@include media($medium) {
-		@include span-columns(6);
-	}
-	li {
-		@include font-size(18,yes,24);
-		margin-bottom: 12px;
-	}
-}
-
-#team-two {
-	@include media($medium) {
-		@include span-columns(6);
-	}	
-}
 #the-team {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-.team {
-	.quotes {
-		margin-top: 64px;
-	}
 }
 
 .team-member {

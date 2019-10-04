@@ -70,12 +70,23 @@ h5 {
 	@include media($micro) {
 		@include font-size(18,yes,26);
 	}
+	a {
+		color: $white;
+		text-decoration: none;
+		&:hover {
+			color: $white;
+			opacity: 0.8;
+		}
+	}
 }
 h6 {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	@include font-size(18,yes,26);
+	@include font-size(20,yes,28);
+	@include media($micro) {
+		@include font-size(18,yes,26);
+	}
 	font-weight: bold;
 }
 

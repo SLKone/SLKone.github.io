@@ -38,6 +38,8 @@ collections:
     output: true
   team-members:
     output: true
+  careers:
+    output: true    
 
 defaults:
   - scope:
@@ -59,7 +61,12 @@ defaults:
       path: ""
       type: "team-members"
     values:
-      layout: "team-member"       
+      layout: "team-member"  
+  - scope:
+      path: ""
+      type: "careers"
+    values:
+      layout: "career-listing"             
 
 include:
   - .htaccess

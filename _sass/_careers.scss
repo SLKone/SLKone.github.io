@@ -1,0 +1,143 @@
+.careers .content {
+	hr:before {
+		clear: both;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+#career-one {
+	@include media($medium) {
+		@include span-columns(6);
+	}
+	text-align: center;
+	img {
+		max-height: 480px;
+	}
+}
+
+#career-two {
+	@include media($medium) {
+		@include span-columns(6);
+	}
+}
+#career-three {
+	text-align: center;
+	h5 {
+		position: relative;
+		bottom: -40px;
+	}
+}
+#career-four {
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-top: 32px;
+	clear: both;
+	h4,p,ul {
+		margin: 16px 32px;
+		@include media($medium) {
+		margin: 32px 64px;
+	}
+	}
+	h4,p {
+	text-align: center;
+	}
+	p {
+	background: $comp-color;
+	padding: 32px;
+	@include font-size(20,yes,28);
+		@include media($micro) {
+			@include font-size(18,yes,26);
+		}
+	margin: 0px;
+	}
+	ul {
+		padding: 0;
+		margin: px;
+		@include media($medium) {
+			@include display(flex);
+			@include align-items(center);
+			@include justify-content(space-between);
+			@include flex-wrap(wrap);
+		 li {
+		 	display: block;
+			 width: 48%;
+		 }
+		}
+	}
+}
+
+.team {
+	.quotes {
+		margin-top: 64px;
+	}
+}
+.career-listing-page {
+	.page-title a {
+		display: inline-block;
+	}
+	ul {
+	margin-top: 8px;
+	}
+}
+.career-listing-block {
+	background-color: $white;
+	background-size: 0 0;
+	border-radius: $border-radius;	
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
+	transition: box-shadow 0.3s ease-in-out;
+	margin: 8px 0 32px 0;
+	@include display(flex);
+	padding: 32px;
+	@include media($medium) {
+		padding: 64px;
+	}
+	@include align-items(center);
+	@include justify-content(space-between);
+	@include flex-wrap(wrap);
+}
+
+.career-top {
+	text-align: center;
+}
+.career-right {
+		@include media($small) {
+			@include span-columns(5);
+		}
+		ul {
+			padding-left: 24px;
+		}
+		ul.industries {
+			padding-left: 0;
+			li {
+				padding: 0;
+				margin: 0;
+				display: block;
+			}
+		}
+		h6 {
+			margin-bottom: 4px;
+		}
+		li {
+			@include font-size(18,yes,22);
+			margin-top: 4px;
+			margin-bottom: 4px;
+			a {
+				text-decoration: none;
+			}
+		}
+		a {
+			display: block;
+			text-decoration: none;
+		}
+	}
+	.career-left {
+		margin-bottom: 24px;
+		@include media($small) {
+			@include span-columns(7);
+		}
+		h4 {
+			@extend h6;
+			margin-bottom: 4px;
+		}
+	}

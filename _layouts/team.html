@@ -3,18 +3,24 @@ layout: default
 ---
 <div id="main" class="team" role="main">			
 	{% include title-image.html %}
-	<div class="wrap">
+	<div class="wrap content">
 		{{ content }}
 	</div><!-- /.wrap -->
 <div>
-{% include quotes.html %}
 <div class="wrap">
-	<div id="team-three" class="team-section">
+	<div class="team-section">
+		<h6>SLKone is strategically comprised of extremely intelligent individuals with diverse areas of expertise.</h6>
 		<div id="the-team">
 			{% assign ordered-team = site.team-members | sort:"order" %}
 			{% for team-member in ordered-team  %}
 				{% include team-member-with-skill.html %}
 			{% endfor %}
 		</div>
+	</div>
+</div>
+<div class="page-bottom">
+	<div class="wrap">
+	<div><h6>Interested in learning more?</h6> <a class="btn-outline" href="../contact">Contact Us</a></div>
+	<div><h6>Want to work with us?</h6> <a class="btn-outline" href="../careers">Careers</a></div>
 	</div>
 </div>

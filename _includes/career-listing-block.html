@@ -1,0 +1,48 @@
+<div class="career-listing-block">
+	<div class="career-listing">
+		<div class="career-top">
+		{% if careers.intro %}<h4> {{ careers.intro }}</h4>{% endif %}
+		<a class="btn-outline" style="display: inline-block;" href="mailto:hr@slkone.com?subject={{ page.title }} Application">Apply Now</a>
+		</div>
+		<div class="career-left">
+				{% if careers.role %}
+			    <h6>The {{ careers.title }} Role</h6>			
+				<p>{{ careers.role }}</p>
+				{% endif %}	
+				{% if careers.responsibilities %}
+			    <h6>Responsibilities</h6>			
+				<ul>
+					{% for responsibilities in careers.responsibilities %}
+					 <li>{{ responsibilities }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}	
+				{% if careers.qualifications %}
+			    <h6>Qualifications</h6>			
+				<ul>
+					{% for qualification in careers.qualifications %}
+					 <li>{{ qualification }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}			
+			    {% if careers.game-changers %}
+			</div>
+			<div class="career-right">				
+			    <h6>Game Changers</h6>			
+				<ul>
+					{% for game-changer in careers.game-changers %}
+					 <li>{{ game-changer }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}		
+				{% if careers.benefits %}
+			    <h6>Benefits</h6>			
+				<ul>
+					{% for benefit in careers.benefits %}
+					 <li>{{ benefit }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}							
+		</div>
+	</div>
+</div>
