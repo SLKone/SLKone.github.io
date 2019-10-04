@@ -1,6 +1,6 @@
 ---
 title:  "Christopher Burton"
-job-title: Managing Consultant
+job-title: Engagement Manager
 order: 5
 ---
 - Operational Excellence & Execution
