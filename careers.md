@@ -3,7 +3,7 @@ layout: careers
 permalink: /careers/index.html
 title: "Careers at SLKone"
 subtitle: "At SLKone, we have redefined the purpose of a consultant by leveraging our expertise for greater client results as well as personal and professional satisfaction."
-heroimage: "team.jpg"
+heroimage: "careers.jpg"
 ---
 <div>
 <div id="career-one">
