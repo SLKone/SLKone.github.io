@@ -46,10 +46,10 @@
 	background: $comp-color;
 	padding: 32px;
 	@include font-size(20,yes,28);
+  margin-bottom: 0px;
 		@include media($micro) {
 			@include font-size(18,yes,26);
 		}
-	margin: 0px;
 	}
 	ul {
 		padding: 0;
