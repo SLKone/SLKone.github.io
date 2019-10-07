@@ -33,7 +33,7 @@
 	padding-bottom: 0;
 	padding-top: 32px;
 	clear: both;
-	h4,p,ul {
+	h4, ul {
 		margin: 16px 32px;
 		@include media($medium) {
 		margin: 32px 64px;
@@ -47,6 +47,7 @@
 	padding: 32px;
 	@include font-size(20,yes,28);
   margin: 0px;
+  margin-bottom: 0px;
 		@include media($micro) {
 			@include font-size(18,yes,26);
 		}
