@@ -423,6 +423,12 @@ h1#logo {
 	padding: 48px 0 32px;
 	a {
 		color: $link-color;
+    .inline-btn {
+      margin-top: 32px;
+    }
+    .btn-social {
+      color: $white;
+    }
 	}
 }
 
