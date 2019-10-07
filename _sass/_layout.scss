@@ -589,12 +589,13 @@ h1#logo {
 	background: $comp-color;
   padding: 16px;
 	.wrap {
-		@include display(flex);
+		@include media($medium) {
+        @include display(flex);
+        @include align-items(center);
+        @include justify-content(space-between);
+        @include flex-wrap(nowrap);
+		}		
 		padding: 0px;
-		@include align-items(center);
-		@include justify-content(space-between);
-		@include flex-wrap(nowrap);
-		height: 128px;
 		div {
       padding: 16px;
 			text-align: center;
