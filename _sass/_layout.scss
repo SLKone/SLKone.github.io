@@ -586,6 +586,7 @@ h1#logo {
 
 .page-bottom {
 	background: $comp-color;
+  padding: 16px;
 	.wrap {
 		@include display(flex);
 		padding: 0px;
