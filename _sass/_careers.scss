@@ -40,7 +40,9 @@
 	}
 	}
 	h4,p {
-	text-align: center;
+    @include media($medium) {
+      text-align: center;
+    }
 	}
 	p {
 	background: $comp-color;
@@ -99,7 +101,9 @@
 }
 
 .career-top {
-	text-align: center;
+  @include media($medium) {
+    text-align: center;
+  }
 }
 .career-right {
 		@include media($small) {
