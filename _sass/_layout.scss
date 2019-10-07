@@ -594,6 +594,7 @@ h1#logo {
 		@include flex-wrap(nowrap);
 		height: 128px;
 		div {
+      padding: 16px;
 			text-align: center;
 			border-right: 1px solid $white;
 			@include flex-grow(1);
