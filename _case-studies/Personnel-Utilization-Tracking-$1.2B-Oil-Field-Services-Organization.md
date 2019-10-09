@@ -20,7 +20,7 @@ heroimage: case-studies/Personnel-Utilization-Tracking-1.2B-Oil-Field-Services-O
 - Conducted cross-product line review of timesheet needs and requirements 
 - Designed new time entry process and supervised roll-out with documentation and FAQs 
 - Conducted train-the-trainer sessions for over 75 operational managers
-- Analyzed over 500k labour hours to highlight trends and define saving opportunities
+- Analyzed over 500k labor hours to highlight trends and define saving opportunities
 - Developed automated dashboard reporting process providing weekly summaries to identify opportunities at managerial and executive levels
 
 #### Leading With Results
