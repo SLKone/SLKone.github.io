@@ -1,6 +1,7 @@
+{% assign post-slug = {{post.url | remove: '/'}}" %}
 <div class="case-study">
 	<a href="{{ post.url }}">
-		<div class="case-image" style="background-image:url({{ site.url }}/images/{{ post.heroimage }})"></div>
+		<div class="case-image" style="background-image:url({% if post.heroimage != empty %}{{ site.url }}/images/{{ post.heroimage }}{% else %}{{ site.url }}/images/post/{{ post-slug }}.jpg{% endif %}))"></div>
 		<div class="case-meta">
 			<span>{{ post.date | date: '%B %d, %Y' }}</span>
 		</div>
@@ -8,3 +9,4 @@
 	  	<div class="case-study-description">{{ post.intro | truncate: 116 }}</div>
 	</a>
 </div>
+
