@@ -1,7 +1,7 @@
 ---
 title:  "Dustin Fidaleo"
 job-title: Managing Consultant
-order: 7
+order: 8
 ---
 - Finance & Accounting
 - Data, Analytics, & Information Technology
