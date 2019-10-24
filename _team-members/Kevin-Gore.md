@@ -1,7 +1,7 @@
 ---
 title:  "Kevin Gore"
 job-title: Managing Consultant
-order: 9
+order: 8
 ---
 - Leadership & Strategy
 - Organizations & Human Capital
