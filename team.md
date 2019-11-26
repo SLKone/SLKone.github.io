@@ -3,7 +3,7 @@ layout: team
 permalink: /team/index.html
 title: "The SLKone Team"
 subtitle: "<u>S</u>trategy that is <u>O</u>perational<br/><u>L</u>eadership that <u>N</u>ets Results<br/><u>K</u>nowledge that is <u>E</u>xecutable<br/>"
-intro: "At SLKone, we have redefined the purpose of a consultant by bringing all those things we used to think about into actions."
+intro: "At SLKone, we have redefined the purpose of a consultant by bringing all those things we used to think about into action."
 excerpt: "You hate billable hours as a measure of your success. It’s well-understood that as a metric, it’s completely counterintuitive to the best interest of our clients. It’s also one of the things SLKone does differently. 
 
 We also believe that only a happy team can deliver exceptional results for our clients, which is why we foster an environment where your productivity, intellectual development, and personal growth is in harmony with the wellbeing of you and your family."
