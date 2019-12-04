@@ -50,7 +50,6 @@ heroimage: "deliberate-thinking.jpeg"
 		<li>Dealing with Uncertainty: Using Experiments to Create New Understanding</li>
 	</ul>
 	</div>
-	<div>
-	<p>SLKone’s Deliberate Thinking workshop curriculum and learning techniques will accelerate participants’ ability to acquire, retain, and practice effective problem-solving techniques through increased cognitive function.</p>
+	<div>SLKone’s Deliberate Thinking workshop curriculum and learning techniques will accelerate participants’ ability to acquire, retain, and practice effective problem-solving techniques through increased cognitive function.
 	</div>
 </div>
