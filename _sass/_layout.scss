@@ -225,6 +225,7 @@ h1#logo {
 		p.intro {
 			@include media($medium) {
 				@include font-size(24,yes,28);
+				line-height: 36px;
 			}
 			font-weight: medium;
 			color: rgba(0,0,0,.7);
@@ -588,6 +589,13 @@ h1#logo {
 .page-bottom {
 	background: $comp-color;
   padding: 16px;
+  h6 {
+  text-align: center;
+  }
+	  .btn {
+	  display: block;
+	  text-align: center;
+	  }
 	.wrap {
 		@include media($medium) {
         @include display(flex);
