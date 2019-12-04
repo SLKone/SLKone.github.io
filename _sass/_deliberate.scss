@@ -27,6 +27,9 @@
 			font-weight: 900;
 		}
 	}
+	.emphasis {
+		padding: 0px 24px;
+	}
 	@include media($medium) {
 		max-width: 1200px;
 		margin: 32px auto;
@@ -57,6 +60,9 @@
 				align-content: stretch;
 				padding: 0;
 				li {
+					display: flex;
+					flex-wrap: wrap;
+					align-content: center;
 					@include font-size(20,yes,28);
 					display: block;
 					padding: 0 8px;
@@ -96,6 +102,9 @@
 	}
 	div:first-child {
 		padding-bottom: 0;
+	}
+	div:nth-child(2) {
+		padding-top: 16px;
 	}
 	div:nth-child(3) {
 		background: $comp-color;
