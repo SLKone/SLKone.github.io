@@ -2,7 +2,7 @@
 layout: deliberate
 permalink: /deliberate-thinking/
 title: "Deliberate Thinking with SLKone"
-intro: "Does your organization struggle to make decisions and resolve issues? <br/>Is your organization unable to identify and leverage opportunities? <br/>Do you find yourself bogged down with meetings that rarely lead to progress?"
+intro: "Does your organization <u>struggle</u> to make decisions and resolve issues? <br/>Is your organization <u>unable</u> to identify and leverage opportunities? <br/>Do you find yourself <u>bogged down</u> with meetings that rarely lead to progress?"
 heroimage: "deliberate-thinking.jpeg"
 ---
 
