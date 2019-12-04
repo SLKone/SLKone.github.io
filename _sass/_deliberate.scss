@@ -99,13 +99,17 @@
 	div:first-child, div:nth-child(2) {
 		padding: 24px;
 		padding-top: 48px;
+		p {
+			@include font-size(20,yes,28);
+		}
 	}
 	div:nth-child(2) {
+		text-align: left;
 		border-top: 3px solid $comp-color;
 		padding-top: 24px;
 	}
 	div:nth-child(3) {
 		background: $comp-color;
-		padding:24px;
+		padding:8px 24px;
 	}
 }
