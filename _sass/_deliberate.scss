@@ -100,11 +100,9 @@
 		padding: 24px;
 		padding-top: 48px;
 	}
-	div:first-child {
-		padding-bottom: 0;
-	}
 	div:nth-child(2) {
-		padding-top: 16px;
+		border-top: 3px solid $comp-color;
+		padding-top: 24px;
 	}
 	div:nth-child(3) {
 		background: $comp-color;
