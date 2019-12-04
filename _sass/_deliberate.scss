@@ -111,5 +111,6 @@
 	div:nth-child(3) {
 		background: $comp-color;
 		padding:8px 24px;
+		@include font-size(20,yes,28);
 	}
 }
