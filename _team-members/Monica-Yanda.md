@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Monica Yanda"
 job-title: Business Manager
 order: 11

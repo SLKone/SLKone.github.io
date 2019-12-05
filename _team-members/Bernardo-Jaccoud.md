@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Bernardo Jaccoud"
 job-title: Managing Consultant
 order: 9

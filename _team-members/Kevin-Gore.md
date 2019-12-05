@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Kevin Gore"
 job-title: Managing Consultant
 order: 8

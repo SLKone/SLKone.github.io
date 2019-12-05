@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Arun Shukla"
 job-title: Founding Partner & CEO
 order: 1

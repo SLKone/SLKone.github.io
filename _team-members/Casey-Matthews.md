@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Casey Matthews"
 job-title: Engagement Manager
 order: 6

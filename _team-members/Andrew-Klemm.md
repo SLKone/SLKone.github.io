@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Andrew Klemm"
 job-title: Founding Partner & CFO
 order: 3

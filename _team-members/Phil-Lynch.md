@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Phil Lynch"
 job-title: Founding Partner & COO
 order: 2

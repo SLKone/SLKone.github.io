@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Dustin Fidaleo"
 job-title: Managing Consultant
 order: 8

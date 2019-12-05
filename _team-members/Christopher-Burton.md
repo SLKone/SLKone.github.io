@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Christopher Burton"
 job-title: Engagement Manager
 order: 5

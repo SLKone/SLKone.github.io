@@ -1,4 +1,5 @@
 ---
+layout: team-member
 title:  "Ben Halpern"
 job-title: Engagement Manager
 order: 4
