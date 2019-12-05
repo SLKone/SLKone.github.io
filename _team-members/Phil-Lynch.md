@@ -9,5 +9,5 @@ skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
 - Business & Transformational Events
-team-image: phil-lynch
+team-image: phil-lynch.jpg
 ---
