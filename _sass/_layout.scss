@@ -594,6 +594,9 @@ h1#logo {
   }
 	  .btn {
 	  display: block;
+	  @include media($medium) {
+		  display: inline-block;
+	  }
 	  text-align: center;
 	  }
 	.wrap {
