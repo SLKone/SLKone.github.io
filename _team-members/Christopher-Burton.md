@@ -8,5 +8,5 @@ skills:
 - Revenue & Sales
 - Finance & Accounting
 - Data, Analytics, & Information Technology
-team-image: christopher-burton.jpg
+team-image: Christopher-Burton.jpg
 ---

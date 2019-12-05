@@ -7,5 +7,5 @@ skills:
 - Leadership & Strategy
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: kevin-gore.jpg
+team-image: Kevin-Gore.jpg
 ---

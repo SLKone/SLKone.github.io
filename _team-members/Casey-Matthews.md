@@ -7,5 +7,5 @@ skills:
 - Operational Excellence & Execution
 - Finance & Accounting
 - Data, Analytics, & Information Technology
-team-image: casey-matthews.jpg
+team-image: Casey-Matthews.jpg
 ---

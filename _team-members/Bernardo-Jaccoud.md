@@ -7,5 +7,5 @@ skills:
 - Operational Excellence & Execution
 - Data, Analytics, & Information Technology
 - Business & Transformational Events
-team-image: bernardo-jaccoud.jpg
+team-image: Bernardo-Jaccoud.jpg
 ---

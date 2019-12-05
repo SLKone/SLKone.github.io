@@ -6,5 +6,5 @@ order: 7
 skills:
 - Business & Transformational Events
 - Data, Analytics, & Information Technology
-team-image: emily-cowperthwaite.jpg
+team-image: Emily-Cowperthwaite.jpg
 ---

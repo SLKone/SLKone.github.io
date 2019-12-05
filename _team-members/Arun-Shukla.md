@@ -10,5 +10,5 @@ skills:
 - Revenue & Sales
 - Information Technology
 - Business & Transformational Events
-team-image: arun-shukla.jpg
+team-image: Arun-Shukla.jpg
 ---

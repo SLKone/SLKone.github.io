@@ -7,5 +7,5 @@ skills:
 - Operational Excellence & Execution
 - Finance & Accounting
 - Data, Analytics, & Information Technology
-team-image: ben-halpern.jpg
+team-image: Ben-Halpern.jpg
 ---

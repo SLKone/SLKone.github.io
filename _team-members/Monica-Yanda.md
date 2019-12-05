@@ -7,5 +7,5 @@ skills:
 - Office Administration
 - Executive Support
 - Research & Marketing
-team-image: monica-yanda.jpg
+team-image: Monica-Yanda.jpg
 ---

@@ -7,5 +7,5 @@ skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
 - Revenue & Sales
-team-image: dustin-fidaleo.jpg
+team-image: Dustin-Fidaleo.jpg
 ---
