@@ -69,6 +69,12 @@
 }
 
 .advisor-page {
+	@include media($medium) {
+		padding-top: 150px;
+	}
+	h2 {
+		text-align: center;
+	}
 	.advisor-image {
 	background: $border-color;
 		border-radius: 200px;

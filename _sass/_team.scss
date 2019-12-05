@@ -68,6 +68,12 @@
 }
 
 .team-member-page {
+	@include media($medium) {
+	padding-top: 150px;
+	}
+	h2 {
+		text-align: center;
+	}
 	.team-image {
 	background: $border-color;
 		border-radius: 200px;
