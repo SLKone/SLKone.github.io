@@ -2,16 +2,10 @@
 layout: default
 ---
 <div id="main" class="advisor-page" role="main">			
-	<div class="page-title">
-		<div class="background-overlay">
-		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
-			<h2>{{ page.title }}</h2>
-		</div>
-		</div>
-	</div>
 	<div class="wrap">
 			<img class="advisor-image" src="{{ site.url }}/images/advisors/{{ page.advisor-image }}" />
 			<div class="emphasis">
+				<h2>{{ page.title }}</h2>
 				<h6>{{ page.job-title }}</h6>
 				{{ page.content }}
 			</div>
