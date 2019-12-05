@@ -1,7 +1,7 @@
 ---
 layout: advisor
 title:  "John Deitrich"
-job-title: Global VP of Manufacturing, Kimberly Clark Corp.
+job-title: Operations Leader
 order: 3
 skills:
 - Multi-Site Manufacturing Leadership
