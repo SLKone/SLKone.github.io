@@ -21,7 +21,7 @@ heroimage: "deliberate-thinking.jpeg"
 </div>
 <div id="deliberate-three">
 	<div>
-		<h3>SLKone has partnered with curriculum creator and facilitator <strong>Dan Kowalski</strong>, to bring you the Deliberate Thinking workshop!</h3>
+		<h3>SLKone has partnered with curriculum creator and facilitator <a href="https://slkone.com/advisors/Dan-Kowalski/">Dan Kowalski</a>, to bring you the Deliberate Thinking workshop!</h3>
 	</div>
 	<div class="emphasis">
 	<h6>Learn the critical factors for breakthrough success:</h6>
