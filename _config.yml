@@ -38,6 +38,8 @@ collections:
     output: true
   team-members:
     output: true
+  advisors:
+    output: true    
   careers:
     output: true    
 
@@ -62,6 +64,11 @@ defaults:
       type: "team-members"
     values:
       layout: "team-member"  
+  - scope:
+      path: ""
+      type: "advisors"
+    values:
+      layout: "advisor"  
   - scope:
       path: ""
       type: "careers"

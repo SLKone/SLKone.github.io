@@ -1,20 +1,20 @@
-.team, .team-member-page {
+.advisors, .advisor-page {
 	.wrap {
 		max-width: 1024px;
 	}
 }
 
-.team-section {
+.advisors-section {
 	margin: 40px 0;
 }
 
-#the-team {
+#advisory-partners {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.team-member {
+.advisor {
 	a {
 	text-decoration: none;
 		p, ul {
@@ -64,8 +64,8 @@
 	}
 }
 
-.team-member-page {
-	.team-image {
+.advisor-page {
+	.advisor-image {
 	background: $border-color;
 		border-radius: 200px;
 		display: block;

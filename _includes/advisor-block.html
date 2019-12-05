@@ -1,0 +1,12 @@
+<div class="advisor">
+	<a href="{{ site.url }}/{{ advisor.url }}">
+			<img src="{{ site.url }}/images/advisors/{{ advisor.advisor-image }}" />
+			<h6>{{ advisor.title }}</h6>
+			<p>{{ advisor.job-title }}</p>
+			<ul class="skills">
+			{% for item in advisor.skills %}
+				<li>{{ item }}</li>
+			{% endfor %}
+			</ul>
+		</a>
+</div>
