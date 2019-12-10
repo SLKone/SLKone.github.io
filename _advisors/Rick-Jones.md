@@ -7,6 +7,7 @@ skills:
 - Business Services
 - Transportation & Logistics Services
 advisor-image: rick-jones.jpg
+linkedin: https://www.linkedin.com/in/rick-jones-8a10652/
 ---
 Rick Jones is the Founder and CEO of Real Logistics, LLC, a business services consultancy he founded to provide additional experience and resources to C-level executives at companies needing expertise in growth, ability to scale, organizational alignment, strategic and tactical planning, IT strategies, and support through M&A activity or sale processes. Jones has 35 years of experience in business services, transportation, and logistics services. He also spent 11 years focused on leading middle-market, PE-backed business services companies both as CEO and in Outside Director roles. 
 
