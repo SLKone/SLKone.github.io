@@ -7,6 +7,7 @@ skills:
 - Executive Development
 - Marketing Strategy
 advisor-image: sridhar-balasubramanian.jpg
+linkedin: https://www.linkedin.com/in/sridhar-balasubramanian-6293162/
 ---
 Sridhar Balasubramanian’s teaching and research interests are in marketing strategy and technology strategy, customer-focus, innovation and growth strategy, services design and marketing, e-business, customer relationship management, game theory, and the management of competition. He specializes in bringing the tools and concepts of market-focus and customer-focus into other functional areas, including the management of the human resource function.
 
