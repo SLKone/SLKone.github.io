@@ -8,6 +8,7 @@ skills:
 - Institutional Pluralism
 - Corporate Reputation & International Business
 advisor-image: emily-block.jpg
+linkedin: https://www.linkedin.com/in/emily-block-b68b5a40/
 ---
 Dr. Emily Block is the McCalla Professor, Eric Geddes Professor of Management, and the George M. Cormie Chair of Management at the Alberta School of Business. She has a BBA from the University of Notre Dame and a Ph.D. in Organizational Behavior from the University of Illinois at Urbana-Champaign. She teaches negotiations, decision making, and leadership to undergraduates, MBA students, executives, and boards of directors. 
 
