@@ -7,6 +7,7 @@ skills:
 - Industrial Automation
 - Team Building & Management
 advisor-image: kishore-sundararajan.jpg
+linkedin: https://www.linkedin.com/in/kishoresundararajan/
 ---
 Kishore has spent his time focused on impacting the top line, bottom line, and cash flows in his 30+ years in the Industrial Automation space across different global industry segments. His focus on customer experience, increasing yield and throughput, improving on-time delivery with quality and reliability, and lowering risk are significant reasons for his success. 
 
