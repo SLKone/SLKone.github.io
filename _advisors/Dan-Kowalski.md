@@ -7,6 +7,7 @@ skills:
 - Business Problem Solving
 - Conflict Resolution
 advisor-image: dan-kowalski.png
+linkedin: https://www.linkedin.com/in/thinkingcatalyst/
 ---
 Dan Kowalski is a specialist in helping individuals and teams resolve their toughest business problems— 
 - decisions that won’t stay decided (or never get decided because ‘we are still studying it’);  
