@@ -6,6 +6,7 @@ order: 2
 skills: 
 - Telehealth & Telemedicine innovation
 advisor-image: kim-chin.jpg
+linkedin: https://www.linkedin.com/in/kimchin/
 ---
 Kim Chin is a Partner in McChin Healthcare Solutions, a global consulting company headquartered in Research Triangle Park, North Carolina, and specializing in telehealth and telemedicine innovation. Kim has advised international clinical service clients in teleradiology, telediagnostics, telepathology digital therapeutics, and behavior change programs.     
 
