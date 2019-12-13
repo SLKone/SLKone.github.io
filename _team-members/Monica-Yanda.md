@@ -8,4 +8,5 @@ skills:
 - Executive Support
 - Research & Marketing
 team-image: Monica-Yanda.jpg
+has-bio: N
 ---

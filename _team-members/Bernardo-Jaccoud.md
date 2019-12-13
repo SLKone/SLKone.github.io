@@ -8,4 +8,5 @@ skills:
 - Data, Analytics, & Information Technology
 - Business & Transformational Events
 team-image: Bernardo-Jaccoud.jpg
+has-bio: N
 ---

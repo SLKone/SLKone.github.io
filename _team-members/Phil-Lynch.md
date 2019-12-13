@@ -11,6 +11,7 @@ skills:
 - Data, Analytics, & Information Technology
 - Business & Transformational Events
 team-image: Phil-Lynch.jpg
+has-bio: Y
 ---
 Phil Lynch is a founding partner of SLKone and currently serves as the Chief Operating Officer.  
 

@@ -9,4 +9,5 @@ skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
 team-image: Christopher-Burton.jpg
+has-bio: N
 ---

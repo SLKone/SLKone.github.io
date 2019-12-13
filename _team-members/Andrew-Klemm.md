@@ -11,6 +11,7 @@ skills:
 - Data, Analytics, & Information Technology
 - Business & Transformational Events
 team-image: Andrew-Klemm.jpg
+has-bio: Y
 ---
 Andrew Klemm is a founding partner of SLKone and currently serves as the Chief Financial Officer.  
 

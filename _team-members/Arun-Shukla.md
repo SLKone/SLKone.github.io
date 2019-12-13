@@ -11,6 +11,7 @@ skills:
 - Information Technology
 - Business & Transformational Events
 team-image: Arun-Shukla.jpg
+has-bio: Y
 ---
 Arun Shukla is a founding partner of SLKone and currently serves as the Chief Executive Officer.  
 

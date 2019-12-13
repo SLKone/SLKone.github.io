@@ -8,4 +8,5 @@ skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
 team-image: Casey-Matthews.jpg
+has-bio: N
 ---

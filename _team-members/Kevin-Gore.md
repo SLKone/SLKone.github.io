@@ -8,4 +8,5 @@ skills:
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
 team-image: Kevin-Gore.jpg
+has-bio: N
 ---

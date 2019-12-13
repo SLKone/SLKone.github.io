@@ -8,4 +8,5 @@ skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
 team-image: Ben-Halpern.jpg
+has-bio: N
 ---

@@ -7,4 +7,5 @@ skills:
 - Business & Transformational Events
 - Data, Analytics, & Information Technology
 team-image: Emily-Cowperthwaite.jpg
+has-bio: N
 ---
