@@ -1,5 +1,5 @@
 <div class="team-member">
-			{% if team-member.has-bio == Y %}<a href="{{ site.url}}/{{ team-member.url }}">{% endif %}
+			{% if team-member.has-bio contains Y %}<a href="{{ site.url}}/{{ team-member.url }}">{% endif %}
 				<img src="{{ site.url }}/images/team-members/{{ team-member.team-image }}" />
 				<h6>{{ team-member.title }}</h6>
 				<p>{{ team-member.job-title }}</p>
@@ -8,5 +8,5 @@
 					<li>{{ item }}</li>
 				{% endfor %}
 				</ul>
-			{% if team-member.has-bio == Y %}</a>{% endif %}
+			{% if team-member.has-bio contains Y %}</a>{% endif %}
 </div>
