@@ -4,7 +4,11 @@ title:  "Kim Chin"
 job-title: Partner, McChin Healthcare Solutions
 order: 2
 skills: 
-- Telehealth & Telemedicine innovation
+- International Healthcare Markets
+- Healthcare Go-To-Market Strategy
+- Service & Product Optimization
+- Healthcare Technology & Digitization
+- Due Diligence & Contextual Insight
 advisor-image: kim-chin.jpg
 linkedin: https://www.linkedin.com/in/kimchin/
 ---
