@@ -8,11 +8,14 @@ skills:
 advisor-image: kim-chin.jpg
 linkedin: https://www.linkedin.com/in/kimchin/
 ---
-Kim Chin is a Partner in McChin Healthcare Solutions, a global consulting company headquartered in Research Triangle Park, North Carolina, and specializing in telehealth and telemedicine innovation. He holds a bachelor’s degree from the University of Oregon’s Allen School of Journalism and is an alumnus of the Cascade Executive Management Program at The Evans School of Public Affairs, University of Washington. Kim has advised international clinical service clients in teleradiology, telediagnostics, telepathology digital therapeutics, and behavior change programs.
+Kim Chin is the Founder and Managing Partner of McChin Healthcare Solutions headquartered in the Research Triangle Park (Raleigh-Durham), North Carolina.
 
-Kim serves on the Board of Directors for the North Carolina World Trade Association, a U.S. trade organization representing major companies with domestic and global operations. He is also on the advisory boards of several early-stage and growth companies. Kim is an active member of the National Association of Asian American Professionals.
+Established in 2003, McChin Health consults for global healthcare businesses in developing corporate and growth strategies to support business building, product, and channel optimization. Kim provides business expertise (B2B, B2B2C, B2C) in the development of commercial services, collaborative research, teaming, joint venture, management, and distributor agreements.
 
-Before The McChin Group, Kim held a variety of senior leadership positions in the private and public sectors. As the head of development for a county agency, he helped evaluate, plan, and improve a complex transportation corridor between the adjoining states of Oregon and Washington, which had a critical impact on jobs in the manufacturing and service industries. In Washington, DC, he worked with the Northern Virginia District and Prince George’s County jurisdictions to successfully implement federally mandated access for seniors and the disabled to jobs, medical services, and education.
+Kim works with management teams of healthcare institutions and enterprises in the public and private sectors across the global healthcare spectrum. These include healthcare networks, health insurers and payors, medical providers, government and statutory boards. Kim also provide contextual insight to private equity and venture capital firms with healthcare interests.
 
-Kim lives with his wife and daughter in Chapel Hill, NC.
-  
+Prior to the founding of McChin Healthcare Solutions, Kim served in senior management for local governments in Santa Cruz, California and Vancouver, Washington. As a Director for Laidlaw International Inc. (acquired by FirstGroup), he led multi-disciplinary planning, marketing, and government relations teams to implement healthcare access programs in Washington, Oregon, California, Colorado, Virginia, Maryland, and the District of Columbia.
+
+In addition to the Americas, Kim has negotiated agreements in the Association for Southeast Asian Nations (ASEAN) and greater Asia Pacific, the Middle East, India, China, and Latin America-Caribbean (LAC).
+
+Kim earned his undergraduate degree from the Allen School of Journalism at the University of Oregon. He attended the University of Washington's Daniel J. Evan's School of Public Policy and Governance Cascade Executive Program. At the Disney Institute, Kim participated in the executive leadership program to study business insights and best practices of the Walt Disney Company. Kim serves on the Board of Go Global North Carolina, and is a member of the Japan America Society of North Carolina.
