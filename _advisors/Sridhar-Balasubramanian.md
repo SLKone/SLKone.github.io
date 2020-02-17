@@ -1,6 +1,6 @@
 ---
 layout: advisor
-title:  "Sridhar Balasubramanian"
+title:  "Dr. Sridhar Balasubramanian"
 job-title: Professor of Marketing, Kenan Flagler Business School
 order: 8
 skills:
