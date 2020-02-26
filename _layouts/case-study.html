@@ -27,6 +27,7 @@ layout: default
 				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
 				{% endfor %}
 			</ul><!--
+      <ul>
 				<li>
 					<h6>Team Size</h6>
 					<p>{{ page.team-size }}</p>
@@ -34,8 +35,8 @@ layout: default
 				<li>
 					<h6>Project Duration</h6>
 					<p>{{ page.project-length }}</p>
-				</li>-->
-			</ul>
+				</li>
+			</ul>-->
 		</div>
 		<div class="case-body">
 		  {{ page.content | markdownify }}
