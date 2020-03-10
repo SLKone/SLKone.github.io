@@ -19,8 +19,8 @@ Once you have determined whether your integration will require dedicated personn
 
 
   <div class=“emphasis” markdown="1">
-***Integration Application: A Case Study***
-SLKone was hired to help an organization complete an integration that would double the size of the client’s business. As part of the planning activities for this large integration, SLKone conducted personnel, process, and system assessments, to identify success triggers and critical breakpoints, and developed mitigation plans as needed. Through this process, SLKone was able to create an integrated project plan and address the critical factors with the client’s leadership prior to start of the integration. After assisting the organization through the transaction and initial phases of the integration, the client’s internal team was trained to a capacity that enabled them to continue forward and execute as a cohesive unit.
+<strong>Integration Application: A Case Study</strong>
+<p>SLKone was hired to help an organization complete an integration that would double the size of the client’s business. As part of the planning activities for this large integration, SLKone conducted personnel, process, and system assessments, to identify success triggers and critical breakpoints, and developed mitigation plans as needed. Through this process, SLKone was able to create an integrated project plan and address the critical factors with the client’s leadership prior to start of the integration. After assisting the organization through the transaction and initial phases of the integration, the client’s internal team was trained to a capacity that enabled them to continue forward and execute as a cohesive unit.</p>
 </div> 
 
 
