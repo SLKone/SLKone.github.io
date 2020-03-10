@@ -4,7 +4,7 @@ title:  "M&A Integration: The Keys To Success"
 authors: [Phil Lynch]
 intro: Combining two similar functional areas may seem like an easy task, but when it comes to mergers and acquisitions, the degree of an organization’s success often lies in the hands of its own personnel.
 services-performed: [Integration-Management]
-heroimage: posts/MA-Interation-The-Keys-To-Success.jpg
+heroimage: posts/MA-Integration-The-Keys-To-Success.jpg
 ---
 
 Combining two similar functional areas may seem like an easy task, but when it comes to mergers and acquisitions, the degree of an organization’s success often lies in the hands of its own personnel. 
