@@ -2,9 +2,27 @@
 layout: default
 ---
 
-<div id="main" class="case-study" role="main">			
+<div id="main" class="post-page" role="main">			
+	<div class="page-title" style="background-image:url({{ site.url }}/images/{{ page.heroimage}})">
+		<div class="background-overlay">
+			<div class="wrap">
+				<div>
+				<h5>Insights</h5>
+				<h2>{{ page.title }}</h2>
+				<p class="intro">{{ page.date | date: '%B %d, %Y' }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="wrap content">
-		<h2>{{ page.title }}</h2>
-		{{ content }}
+		<div class="post-body">
+		  {{ content }}
+		  {% include share-this.html %}
+		</div>
 	</div><!-- /.wrap -->
 <div>
+<div class="page-bottom">
+	<div class="wrap">
+    <div><h6>Interested in working with SLKone?</h6> <a class="btn-outline" href="{{ site.url}}/contact">Get in Touch</a></div>
+	</div>
+</div>    
