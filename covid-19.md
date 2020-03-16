@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Covid-19 Disruptions"
 ---
 
