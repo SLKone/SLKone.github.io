@@ -638,11 +638,11 @@ h1#logo {
   position:absolute;
   z-index: 999;
   text-align: center;
-  padding: 4px 0;
   a {
     color: $white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 4px 0;
     text-transform: uppercase;
   }
 }
