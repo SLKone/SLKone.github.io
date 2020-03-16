@@ -635,7 +635,11 @@ h1#logo {
 #announcement {
   width: 100%;
   background: $link-color;
+  position:absolute;
+  z-index: 999;
+  text-align: center;
   a {
     color: $white;
+    text-decoration: none;
   }
 }
