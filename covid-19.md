@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Covid-19 Response"
+title: "COVID-19 Response"
 ---
 
 ***An Open Letter to Our Clients, Partners, and Network:***
