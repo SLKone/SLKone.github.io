@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "When the platform growth engine sputters has the acquisition playbook gone stale"
+title:  "When the platform growth engine sputters, has the acquisition playbook gone stale?"
 authors: [Arun Shukla, Phil Lynch]
 intro: The platform ‘buy, build, and grow’ is the core strategy that underpins the investment thesis for small to mid-size private equity funds (PEs). Multiple expansion opportunities get presented in the form of Tuck-In(s), Bolt-on(s) and Add-on(s). Each transaction is different, however, and lean portfolio company management teams routinely stumble, resulting in periods of wayward platform stability and anxiety at the sponsor level. In a hypercompetitive environment of increased multiples, there is no room for error with the time and quality of platform integrations. Portfolio company leadership and operating partners need a playbook that is prescriptive, yet adaptive, and delivers desired outcomes. 
 This white paper is the distillation of our learning from numerous engagements where we were called in to assist. The narrative is sure to resonate with PE sponsors as well as with portfolio company management teams.
@@ -21,9 +21,13 @@ To create a platform, a small-mid size private equity (PE) firm looks for an ini
 Once the first company is acquired the platform building exercise to merge or acquire additional target companies follows a relatively standard process of:
 
 •	A broker or investment banker led outreach to assess the initial interest in the company from prospective buyers; this teaser, as the term suggests, is always an overly optimistic representation of the target.
+
 •	This is followed by a non-disclosure agreement (NDA) by interested buyers who wish to review further, and, who receive a confidential information memorandum (CIM); again, a compilation of ‘hockey stick’ type future growth charts to a tepid historical growth.
+
 •	The platform management team, supported by the sponsor’s operating team, go through a ‘part-art and part-science’ process with limited data room and personnel interactions to convey an expression of interest (EOI) and/or letters of intent (LOI).
+
 •	Assuming the competition falls wayside, the due diligence process kicks off to ensure all requirements by the buyer are met and to ensure the maximum value and cleanest structure are achieved.
+
 •	Finally, the business case gets approved by the investment committee, the transaction closes, and the integration process commences. 
 
 This process, despite prior experience of a PE sponsor, long hours of analytics, and inclusive of third-party support, is susceptible to overlooked cues during an enthusiastic buying process. The PE industry’s acquisition process is generally overweight on the financial, tax, and legal due diligence and has significant shortcoming when it comes to the following areas:
@@ -40,7 +44,7 @@ This can be avoided through a “rapid operational due diligence assessment” -
 
 <div class="emphasis" markdown="1">
   <strong>SPECIALTY TOYS AND GAMES ACQUISITION</strong>
-  <p>
+  <p> 
   •	Hired by PE to assess the business model built on royalties on acquisition of novelty ideas and financial control processes maturity
 
   •	Conducted a fast-track assessment through targeted questionnaire for efficient facetime with company leadership; validated the model that accelerated the decision-making process </p>
@@ -60,6 +64,7 @@ This can be avoided through a “rapid operational due diligence assessment” -
   •	Further, operational strains from key contract renegotiations and business model changes had distracted the company from ongoing operational performance. The Target was deemed to require far more investment and attention to be a viable acquisition given recent performance – saving millions in purchase price and ongoing investments to prop up the business </p>
 </div> 
   
+
 #### ACQUISITIONS COME IN DIFFERENT FLAVORS   
   
 Once the platform is stabilized and is actively seeking acquisitions, the opportunities come in a variety of flavors. Typically, a playbook gets developed with an idea of ‘rinse and repeat’ process steps. However, just as there are different horses for different courses, the integration playbook will get played differently. Some of these types and flavors include:
@@ -93,16 +98,19 @@ Our experience working across a large spectrum of small to mid-size private equi
   <strong>Education Services Tuck-In</strong>
   <p>
   •	The flagship investment of mid-market PE in online education platform was challenged with weak financial function not ready to support the business growth for future acquisitions
+  
   •	A fast track functional assessment in people, process, and systems maturity in conjunction with audit weaknesses led to management changes; buildout of integrated roadmap
   </p>
   <strong>Healthcare – Physicians & Lab Services Bolt-On</strong>
   <p>
   •	A mid-size PE was doubling its pain management services platform through an acquisition to create a large  
+  
   •	Mapping of people-process-systems across for the acquirer and target organization; Buildout of integration playbook, program management, and executive coaching that resulted in the business fast tracking its performance goal
   </p>
   <strong>Industrial – Distribution Supplies Add-On</strong>
   <p>
   •	Mid-market PE business doubled to $1.1B through a like-size acquisition; Sponsors were keen to understand best practices to integrate
+  
   •	Conducted finance function and multi-facility footprint assessment; Recommended gaps and overlaps in people, processes, and systems usage; Designed future state org structure; Road-mapped distribution facilities transition
   </p>
   <strong>Industrial – Equipment Distributor Roll-Up</strong>
@@ -111,6 +119,7 @@ Our experience working across a large spectrum of small to mid-size private equi
   •	Conducted a distribution footprint complexity assessment and benchmarked centers for revenue, cost and fulfillment metrics; Successfully program managed the performance turnaround
   </p>
 </div> 
+
 
 #### PROGRAM MANAGEMENT OF INTEGRATIONS
 
