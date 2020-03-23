@@ -74,6 +74,7 @@ Once the platform is stabilized and is actively seeking acquisitions, the opport
 
 A playbook that was created and tested for the first acquisition does not survive with a new variant flavor of acquisition. Frequently, platform management teams attempting a “cookie cutter” playbook approach struggle to effectively integrate the target. The outcomes are a stapled set of disparate processes and operating styles versus a truly integrated platform. A telltale sign is excessive below the line costs for repeat external consulting interventions that are often questioned by future buyers - often larger, more mature PE houses and strategic investors.
 We have repeatedly observed the following patterns of struggling integration process:  
+
   **Tuck-In(s)** – A disenchanted ex-entrepreneur that cannot operate as an employee and may leave; Lack of shared tribal knowledge beyond the principal 
   
   **Bolt-on(s)** – Capability gaps below senior management tier; Weak internal controls; Customers that remain loyal to the target and are unwilling to switch to be supported by the platform company
