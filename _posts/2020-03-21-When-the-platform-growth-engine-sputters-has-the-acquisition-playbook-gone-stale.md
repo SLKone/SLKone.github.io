@@ -53,7 +53,8 @@ This can be avoided through a “rapid operational due diligence assessment” -
   <li>After conducting a rapid assessment of the operational and financial performance of the organization’s recent history, it was determined the businesses performance had dropped off significantly from the initial CIM represented growth prospects </li>
   <li>Further, operational strains from key contract renegotiations and business model changes had distracted the company from ongoing operational performance. The Target was deemed to require far more investment and attention to be a viable acquisition given recent performance – saving millions in purchase price and ongoing investments to prop up the business </li>
 </ul>
-</div> 
+</div>
+<br>
 
 #### ACQUISITIONS COME IN DIFFERENT FLAVORS   
   
