@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title:  "When the platform growth engine sputters, has the acquisition playbook gone stale?"
 authors: [Arun Shukla, Phil Lynch]
@@ -7,7 +6,6 @@ intro: "The platform ‘buy, build, and grow’ is the core strategy that underp
 This white paper is the distillation of our learning from numerous engagements where we were called in to assist. The narrative is sure to resonate with PE sponsors as well as with portfolio company management teams."
 services-performed: [Integration-Management]
 heroimage: posts/When-the-platform-growth-engine-sputters-has-the-acquisition-playbook-gone-stale.jpg
-
 ---
 
 The platform ‘buy, build, and grow’ is the core strategy that underpins the investment thesis for small to mid-size private equity funds (PEs). Multiple expansion opportunities get presented in the form of Tuck-In(s), Bolt-on(s) and Add-on(s). Each transaction is different, however, and lean portfolio company management teams routinely stumble, resulting in periods of wayward platform stability and anxiety at the sponsor level. In a hypercompetitive environment of increased multiples, there is no room for error with the time and quality of platform integrations. Portfolio company leadership and operating partners need a playbook that is prescriptive, yet adaptive, and delivers desired outcomes. 
