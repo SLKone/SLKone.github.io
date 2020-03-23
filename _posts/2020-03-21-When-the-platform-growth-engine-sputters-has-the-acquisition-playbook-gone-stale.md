@@ -19,16 +19,11 @@ To create a platform, a small-mid size private equity (PE) firm looks for an ini
 #### ACQUISITION PROCESS BY A PLATFORM PORTFOLIO BUSINESS
 
 Once the first company is acquired the platform building exercise to merge or acquire additional target companies follows a relatively standard process of:
-
-•	A broker or investment banker led outreach to assess the initial interest in the company from prospective buyers; this teaser, as the term suggests, is always an overly optimistic representation of the target.
-
-•	This is followed by a non-disclosure agreement (NDA) by interested buyers who wish to review further, and, who receive a confidential information memorandum (CIM); again, a compilation of ‘hockey stick’ type future growth charts to a tepid historical growth.
-
-•	The platform management team, supported by the sponsor’s operating team, go through a ‘part-art and part-science’ process with limited data room and personnel interactions to convey an expression of interest (EOI) and/or letters of intent (LOI).
-
-•	Assuming the competition falls wayside, the due diligence process kicks off to ensure all requirements by the buyer are met and to ensure the maximum value and cleanest structure are achieved.
-
-•	Finally, the business case gets approved by the investment committee, the transaction closes, and the integration process commences. 
+  - A broker or investment banker led outreach to assess the initial interest in the company from prospective buyers; this teaser, as the term suggests, is always an overly optimistic representation of the target.
+  - This is followed by a non-disclosure agreement (NDA) by interested buyers who wish to review further, and, who receive a confidential information memorandum (CIM); again, a compilation of ‘hockey stick’ type future growth charts to a tepid historical growth.
+  - The platform management team, supported by the sponsor’s operating team, go through a ‘part-art and part-science’ process with limited data room and personnel interactions to convey an expression of interest (EOI) and/or letters of intent (LOI).
+  - Assuming the competition falls wayside, the due diligence process kicks off to ensure all requirements by the buyer are met and to ensure the maximum value and cleanest structure are achieved.
+  - Finally, the business case gets approved by the investment committee, the transaction closes, and the integration process commences. 
 
 This process, despite prior experience of a PE sponsor, long hours of analytics, and inclusive of third-party support, is susceptible to overlooked cues during an enthusiastic buying process. The PE industry’s acquisition process is generally overweight on the financial, tax, and legal due diligence and has significant shortcoming when it comes to the following areas:
 
