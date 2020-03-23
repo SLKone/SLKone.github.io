@@ -41,7 +41,7 @@ This process, despite prior experience of a PE sponsor, long hours of analytics,
 As the platform company seeks value generation opportunities through bridging these gaps, the journey can be fraught with pain and uncertainty. While the cost of filling these gaps can be marked as ‘one off’ and therefore slotted ‘below the line’ for financial statements (i.e. AEBITDA), multiple periods of excessive operational costs and deceleration of platform growth seriously handicap investment realization and, ultimately, impact fund performance and realization of the investment thesis. 
 
 This can be avoided through a “rapid operational due diligence assessment” -- depending on the nature and size of acquisition – which can be accomplished in under a week and well within the due diligence time frame. In addition, this exercise can also deliver a prioritized roadmap of critical integration factors. The success of platform integrations is determined by steps taken before the transaction closes. Efforts post-transaction are costly afterthoughts.     
-
+<br>
 <div class="emphasis" markdown="1">
   <strong>SPECIALTY TOYS AND GAMES ACQUISITION</strong>
   <p> 
@@ -93,7 +93,7 @@ We have repeatedly observed the following patterns of struggling integration pro
 #### CREATING AND EXECUTING AN ACQUISITION PLAYBOOK THAT DELIVERS
 
 Our experience working across a large spectrum of small to mid-size private equity sponsors and their portfolio company management in regional and national platforms ranging from $50Million to over $1Billion revenue in a variety of industries from healthcare, software, services, and industrial manufacturing have led to several common themes and best practices. 
-
+<br>
 <div class="emphasis" markdown="1">
   <strong>Education Services Tuck-In</strong>
   <p>
