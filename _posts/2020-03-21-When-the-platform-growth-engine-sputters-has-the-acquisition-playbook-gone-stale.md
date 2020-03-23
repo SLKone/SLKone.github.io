@@ -100,7 +100,7 @@ Our experience working across a large spectrum of small to mid-size private equi
   <li>Conducted a distribution footprint complexity assessment and benchmarked centers for revenue, cost and fulfillment metrics; Successfully program managed the performance turnaround</li>
   </ul>
 </div> 
-
+<br>
 #### PROGRAM MANAGEMENT OF INTEGRATIONS
 
 Poor execution of the best playbook can result in suboptimal integrations that take excessive effort on part of the portfolio company management as well as PE sponsors and do not generate anticipated value accretion. Integration requires disciplined program management objectively orchestrated across multiple functions. In our experience, the platform companies are generally very weak or entirely lacking a dedicated program management office. 
