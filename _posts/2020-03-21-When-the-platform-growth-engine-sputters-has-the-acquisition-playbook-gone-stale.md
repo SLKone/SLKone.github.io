@@ -117,4 +117,6 @@ Organic growth is a secondary factor to the acquisition growth in platform value
 
 At SLKone, we understand that while this may all make sense on paper, it’s certainly easier said than done, and we’re here to help. Our consultants and subject matter experts are trained in a variety of industries and represent a deep functional expertise within many areas of business. We specialize in identifying the extent of integration needed and can roll up our sleeves to jump in and help – not just direct – but execute project and organizational management for successful integrations in the shortest possible time with the highest value creation.
 
-<a href="https://slkone.com/files/When-the-platform-growth-engine-sputters-has-the-acquisition-playbook-gone-stale.pdf" class="btn">Download this Article as a PDF</a>
+----
+
+<a href="https://slkone.com/files/When-the-platform-growth-engine-sputters-has-the-acquisition-playbook-gone-stale.pdf" class="btn-filled">Download this Article as a PDF</a>
