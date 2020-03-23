@@ -52,18 +52,18 @@ This can be avoided through a “rapid operational due diligence assessment” -
   <strong>AUTOMOTIVE PARTS DISTRIBUTION</strong>
   <p>
   •	A midmarket PE was bringing two identical aftermarket businesses with common customer and products footprint 
-
+  <br>
   •	Mapped customer fulfillment network; Conducted distribution center benchmarking to identify flagship facility, wind-down plan for redundant distribution centers; baked in capital investment and scenario analysis </p>
 
   <strong>BEHAVIORAL HEALTH ACQUISITION</strong>
   <p>
   •	The platform management was keen to pursue a bolt-on. However, the PE Sponsor who had familiarity with the SLKone team through prior successful integration, wanted an objective review of the target and, if it justified the investment thesis, build an integration roadmap
-
+  <br>
   •	After conducting a rapid assessment of the operational and financial performance of the organization’s recent history, it was determined the businesses performance had dropped off significantly from the initial CIM represented growth prospects 
-
+  <br>
   •	Further, operational strains from key contract renegotiations and business model changes had distracted the company from ongoing operational performance. The Target was deemed to require far more investment and attention to be a viable acquisition given recent performance – saving millions in purchase price and ongoing investments to prop up the business </p>
 </div> 
-  
+<br>  
 
 #### ACQUISITIONS COME IN DIFFERENT FLAVORS   
   
@@ -98,28 +98,29 @@ Our experience working across a large spectrum of small to mid-size private equi
   <strong>Education Services Tuck-In</strong>
   <p>
   •	The flagship investment of mid-market PE in online education platform was challenged with weak financial function not ready to support the business growth for future acquisitions
-  
+  <br>
   •	A fast track functional assessment in people, process, and systems maturity in conjunction with audit weaknesses led to management changes; buildout of integrated roadmap
   </p>
   <strong>Healthcare – Physicians & Lab Services Bolt-On</strong>
   <p>
   •	A mid-size PE was doubling its pain management services platform through an acquisition to create a large  
-  
+  <br>
   •	Mapping of people-process-systems across for the acquirer and target organization; Buildout of integration playbook, program management, and executive coaching that resulted in the business fast tracking its performance goal
   </p>
   <strong>Industrial – Distribution Supplies Add-On</strong>
   <p>
   •	Mid-market PE business doubled to $1.1B through a like-size acquisition; Sponsors were keen to understand best practices to integrate
-  
+  <br>
   •	Conducted finance function and multi-facility footprint assessment; Recommended gaps and overlaps in people, processes, and systems usage; Designed future state org structure; Road-mapped distribution facilities transition
   </p>
   <strong>Industrial – Equipment Distributor Roll-Up</strong>
   <p>
   •	A direct to factory equipment distribution business had rapidly grown through nine acquisitions within a short time but had not kept pace with the investment thesis
+  <br>
   •	Conducted a distribution footprint complexity assessment and benchmarked centers for revenue, cost and fulfillment metrics; Successfully program managed the performance turnaround
   </p>
 </div> 
-
+<br>
 
 #### PROGRAM MANAGEMENT OF INTEGRATIONS
 
