@@ -46,7 +46,7 @@ This can be avoided through a “rapid operational due diligence assessment” -
   <strong>SPECIALTY TOYS AND GAMES ACQUISITION</strong>
   <p> 
   •	Hired by PE to assess the business model built on royalties on acquisition of novelty ideas and financial control processes maturity
-
+  <br>
   •	Conducted a fast-track assessment through targeted questionnaire for efficient facetime with company leadership; validated the model that accelerated the decision-making process </p>
   
   <strong>AUTOMOTIVE PARTS DISTRIBUTION</strong>
