@@ -73,10 +73,48 @@ We must make some educated guesses about the probability and impact so that we c
 #### Temporarily close the clinics
 
 <table>
+  <tr>
+    <th>If...</th>
+    <th>Probability</th>
+    <th>Then...</th>
+    <th>Impact</th>
+  </tr>
+  <tr>
+    <td>Patients think we treated our people unfairly</td>
+    <td>Medium+</td>
+    <td>They take their business elsewhere.</td>
+    <td>Medium+</td>
+  </tr>
+  <tr>
+    <td>We want to reopen</td>
+    <td>Medium+</td>
+    <td>We may not be able to get people to come work for us.</td>
+    <td>Medium+</td>
+  </tr>
+</table>
 
 #### Keep the clinics open
 
 <table>
+  <tr>
+    <th>If...</th>
+    <th>Probability</th>
+    <th>Then...</th>
+    <th>Impact</th>
+  </tr>
+  <tr>
+    <td>Demand continues to decline</td>
+    <td>Medium+</td>
+    <td>We still must close and will have a smaller package to offer.</td>
+    <td>Medium+</td>
+  </tr>
+  <tr>
+    <td>Not everyone agrees to the pay cut idea</td>
+    <td>Medium</td>
+    <td>There will be animosity within the workforce.</td>
+    <td>Medium+</td>
+  </tr>
+</table>
 
 While this is just an example, most binary decisions have risks that are at least a medium-level probability (50-50 chance of occurring) and at least a medium-level impact (disruptive or worse). This reinforces the challenge of choosing between equally undesirable alternatives. 
 
