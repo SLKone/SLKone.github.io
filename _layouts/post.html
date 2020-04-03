@@ -17,8 +17,13 @@ layout: default
 	<div class="wrap content">
 		<div class="post-meta">
 			{% for author in page.authors %}
-	            {% for team-member in site.team-members %}
+        {% for team-member in site.team-members %}
 				  {% if team-member.title contains author %}
+			    	{% include team-member.html %}
+			     {% endif %}
+			  {% endfor %}
+        {% for advisors in site.advisors %}
+				  {% if advisors.title contains author %}
 			    	{% include team-member.html %}
 			     {% endif %}
 			  {% endfor %}
