@@ -43,24 +43,24 @@ First, we must clearly communicate that this binary decision will be difficult a
 
 If we decide to temporarily shut down the clinics, then we:
 
-•	Will control expenses. *
-•	Will allow for a severance / disruption package for the employees.
+- Will control expenses.*
+- Will allow for a severance / disruption package for the employees.
 
 And we must accept that we:
 
-•	Might lose business. 
-•	Might never be able to reopen.
+- Might lose business. 
+- Might never be able to reopen.
 
 If we decide to keep the clinics open, then we:
 
-•	Will offer an across the board pay cut for all employees (and must look for cost cutting in many other areas). 
-•	Will generate goodwill in the community.
+- Will offer an across the board pay cut for all employees (and must look for cost cutting in many other areas). 
+- Will generate goodwill in the community.
 
 And we must accept that we:
 
-•	Might not have demand to keep clinics open. 
-•	Might have a divided physician and front-line workforce if some don’t accept the pay cut.
-•	Might have an upset lender or LP questioning our investment.
+- Might not have demand to keep clinics open. 
+- Might have a divided physician and front-line workforce if some don’t accept the pay cut.
+- Might have an upset lender or LP questioning our investment.
 
 *Note: This example provides a simplified set of factors to illustrate the concepts. Real life situations will have many more factors to consider including legal and regulatory. We should include as much cross-functional input as possible when identifying the upside and downside of options.
 
