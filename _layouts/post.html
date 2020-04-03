@@ -24,7 +24,11 @@ layout: default
 			  {% endfor %}
         {% for advisors in site.advisors %}
 				  {% if advisors.title contains author %}
-			    	{% include advisor-block.html %}
+			    	<div class="team-member">
+                  <img src="{{ site.url }}/images/advisors/{{ advisor.advisor-image }}" />
+                  <h6>{{ advisor.title }}</h6>
+                  <p>{{ advisor.job-title }}</p>
+            </div>
 			     {% endif %}
 			  {% endfor %}
 		    {% endfor %}
