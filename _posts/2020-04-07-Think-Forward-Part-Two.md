@@ -65,7 +65,7 @@ While this sounds complicated, it just a matter of thinking in an organized fash
 
 <table>
   <tr>
-    <th>Main Step</th>
+    <th>Main Step      </th>
     <th>Action</th>
     <th>Example</th>
   </tr>
