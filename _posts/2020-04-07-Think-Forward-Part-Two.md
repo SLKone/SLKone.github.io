@@ -65,9 +65,9 @@ While this sounds complicated, it just a matter of thinking in an organized fash
 
 <table>
   <tr>
-    <th>Main Step</th>
-    <th>Action</th>
-    <th>Example</th>
+    <th style="width:25%;">Main Step</th>
+    <th style="width:25%;">Action</th>
+    <th style="width:50%;">Example</th>
   </tr>
   <tr>
     <td>Are there any lemons? <i>What are our assets?</i></td>
