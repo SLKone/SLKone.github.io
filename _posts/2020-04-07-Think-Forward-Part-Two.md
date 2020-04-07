@@ -65,37 +65,37 @@ While this sounds complicated, it just a matter of thinking in an organized fash
 
 <table>
   <tr>
-    <th>Main Step      </th>
+    <th>Main Step</th>
     <th>Action</th>
     <th>Example</th>
   </tr>
   <tr>
-    <td>Are there any lemons?<br><i>What are our assets?</i></td>
+    <td>Are there any lemons?<i>What are our assets?</i></td>
     <td>Conduct an inventory of the assets to identify both hard and soft assets at our disposal</td>
     <td>Customers, vendors, distribution center, technology platform, brand presence, key leaders, available time, etc.</td>  
   </tr>
   <tr>
-    <td>Are they ripe?<br><i>Can we leverage the assets?</i></td>
+    <td>Are they ripe?<i>Can we leverage the assets?</i></td>
     <td>Conduct a gap analysis of the assets at our disposal</td>
     <td>How do the assets fit into the business environment? Are they in a state which can be continued, or must they be adapted? Has there been a change in the way the customers buy and consume our product? Or, for a distribution center, the model may need small safety protocol changes but can continue to operate. An in-person service may need a technology platform to be useful.</td>  
   </tr>
   <tr>
-    <td>What ingredients (and effort) do we need?<br><i>How do we make it happen?</i></td>
+    <td>What ingredients (and effort) do we need?<i>How do we make it happen?</i></td>
     <td>Identify the inputs and steps for success</td>
     <td>Develop a new web page; Ensure video feeds are established; Implement security protocols and a paywall.</td>  
   </tr>
   <tr>
-    <td>What ingredients (and effort) do we need?<br><i>How do we make it happen?</i></td>
+    <td>What ingredients (and effort) do we need?<i>How do we make it happen?</i></td>
     <td>Identify how to increase probability of success</td>
     <td>Invest $X dollars or staff training or 3rd party transient solution; Mothball certain projects to free up technical resources; Leverage technology from XYZ partner.</td>  
   </tr>
   <tr>
-    <td>What ingredients (and effort) do we need?<br><i>How do we make it happen?</i></td>
+    <td>What ingredients (and effort) do we need?<i>How do we make it happen?</i></td>
     <td>Assign roles and responsibilities</td>
     <td>VP of Operations will drive overall project; VP of Tech will develop web platform; VP of HR will ensure key resources are on retention plans.</td>  
   </tr>
   <tr>
-    <td>What ingredients (and effort) do we need?<br><i>How do we make it happen?</i></td>
+    <td>What ingredients (and effort) do we need?<i>How do we make it happen?</i></td>
     <td>Develop anticipated outcome and performance metrics</td>
     <td>The new platform will shift business to 50% on the web demand and yield a 35% GM versus traditional GM of 20%.</td>  
   </tr>
