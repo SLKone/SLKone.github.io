@@ -23,7 +23,7 @@ Deliberate Thinking is built upon on the thought points of Nobel Laureate, Danie
 
 Deliberate Thinking allows us to move beyond knee-jerk responses and develop more complete solutions. Now more than ever we must understand that most, if not all, of our tried and tested approaches and playbooks will not work. Determining the path forward isn’t something that is readily available in our existing toolset and therefore isn’t part of System 1 thinking. 
 
-### Why do we have to be <u>deliberate</u>?
+#### Why do we have to be <u>deliberate</u>?
 
 Kahneman and a host of other behavioral economists have proven time and again that humans have biases, particularly when associated with decision making, and are therefore irrational. We default to thinking fast as much as possible. This ability to analyze problems and decide quickly is often a strength within Private Equity; however, this ability is hampered when there are not many parallels from which to draw insight. The situation gets exacerbated for the general partners (GPs) who on one hand have to stay true to the original thesis of the fund sold to the limited partners (LPs) while at the same time dealing with the “new” market dynamics of the portfolio investments. 
 
