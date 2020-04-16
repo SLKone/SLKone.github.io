@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Vendor & Systems Selection for a $80M Software-As-A-Service"
 industries: [Software-and-Tech]
-services-performed: [Vendor-and-Systems-Selection]
+services-performed: [Vendor-and-System-Selection]
 intro: SLKone assisted in the evaluation, selection, and implementation of an FP&A tool for daily use to help automate recurring processes and streamline reporting functions
 team-size: 2 consultants
 project-length: 2 months
