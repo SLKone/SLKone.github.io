@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Implementing a Financial Plan and Revenue Recognition Model for a $200M Women’s Healthcare Company"
 industries: [Healthcare]
-services-performed: [Finance-and-Accounting-Processes-Improvement]
+services-performed: [Finance-and-Accounting-Processes]
 intro: SLKone assisted the development of a granular, compliant revenue recognition model that resolved material issues in the accounting function, while simultaneously unlocking business intelligence reporting opportunities
 team-size: 2 consultants
 project-length: 2 months
