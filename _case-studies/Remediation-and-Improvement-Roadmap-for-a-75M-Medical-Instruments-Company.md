@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Remediation and Improvement Roadmap for a $75M Medical Instruments Company"
 industries: [Healthcare]
-services-performed: [Operational-Due-Dilligence]
+services-performed: [Operational-Due-Diligence]
 intro: Conducted a holistic analysis of a recently acquired business to identify and prioritize next steps to prepare the company for rapid growth
 team-size: 2 consultants
 project-length: 2 months
