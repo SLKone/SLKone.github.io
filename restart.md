@@ -1,6 +1,6 @@
 ---
 layout: restart
-permalink: /restart-incubator/
+permalink: /restart/
 title: "Business Restart Incubator"
 intro: "The unprecedented nature of the COVID-19 pandemic, and the speed with which the contagion has spread, 
 has wrecked havoc on our lives and the economy. Across all industries, businesses did not have significant 
