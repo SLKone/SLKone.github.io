@@ -448,7 +448,7 @@ h1#logo {
 }
 
 .emphasis-alt {
-	border: 3px solid $comp-color;
+	border-radius: $border-radius;
 	background: $link-color;
 	color: $white;
 	padding: 24px;

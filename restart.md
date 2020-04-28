@@ -9,9 +9,8 @@ adapt and restart business as we return to normal or transition to a “new norm
 ---
 
 <div id="restart-one">
-	<h2>Do I need Business Restart Support?</h2>
-	<div>
-		<p>In all likelihood, YES. 
+	<h3>Do I need Business Restart Support?</h3>
+	<p>In all likelihood, YES. 
 Here is a preliminary set of questions to think through regarding why an organization may need restart support: </p>
 	<ul>
 		<li>Has your primary business activity been adjusted or changed?</li>
@@ -24,17 +23,15 @@ Here is a preliminary set of questions to think through regarding why an organiz
 	</ul>
 </div>
 <div id="restart-two" class="emphasis-alt">
-	<div>
-		<h3>The BUSINESS RESTART INCUBATOR is a suite of activities, processes, and planning -- adapted for each 
+	<h4>The BUSINESS RESTART INCUBATOR is a suite of activities, processes, and planning -- adapted for each 
 individual application regardless of industry, size, or ownership structure -- in a collaborative incubator with
-other companies, advisors, and experts.</h3>
-	</div>
+other companies, advisors, and experts.</h4>
 </div>
 <div id="restart-three" class="emphasis">
-	<div><h6>Five-Phase Approach</h6>
-	<p>Built upon the collective wisdom, experience, and proven track record, SLKone and its partners have developed a 
+	<h5>Five-Phase Approach</h5>
+	<h7>Built upon the collective wisdom, experience, and proven track record, SLKone and its partners have developed a 
 simplified five-phase toolkit to assist organizations planning for and getting back on a new, post-COVID-19 track. The tools are
-sequenced to specifically restart businesses, navigate through uncertainty, and emerge from the impacts of the global pandemic. </p></div>
+sequenced to specifically restart businesses, navigate through uncertainty, and emerge from the impacts of the global pandemic. </h7>
 	<ol>
 	<li>
 		<h7>Reflect and Shift</h7>
