@@ -447,6 +447,16 @@ h1#logo {
 	}
 }
 
+.emphasis-alt {
+	border: 3px solid $comp-color;
+	background: $link-color;
+	color: $white;
+	padding: 24px;
+	h6 {
+		margin-top: 1.5rem;
+	}
+}
+
 
 #hero-hide {
 	height: 0px;
