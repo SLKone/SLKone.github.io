@@ -64,6 +64,7 @@
 		@include media($medium) {
 			@include font-size(24,yes,32);
 		}
+		margin-bottom: 0;
 	}
 	li {
 		background: $comp-color;
@@ -77,6 +78,13 @@
 				display: inline;
 				margin: 0;
 			}
-		border-top: 3px solid $comp-color;
+		border-bottom: 3px solid $white;
+		&:last-child {
+			border-bottom: 0;
+		}
 	}
+}
+
+#restart-three ol {
+	margin-bottom: 0;
 }
