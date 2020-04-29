@@ -28,6 +28,13 @@ p {
 	@include media($medium) {
 		@include font-size(18,yes,26);
 	}
+	.large {
+		@include font-size(20,yes,24);
+		font-style: normal;
+		@include media($medium) {
+			@include font-size(24,yes,28);
+		}
+	}
 }
 
 /* Headings */
