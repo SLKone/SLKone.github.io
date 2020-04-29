@@ -75,6 +75,7 @@
 		margin-bottom: 0;
 	}
 	li {
+		font-weight: 500;
 		margin: 0;
 		padding: 24px 24px 12px 24px;
 			h7 {
@@ -84,8 +85,13 @@
 				}
 				display: inline;
 				margin: 0;
+				font-weight: 500;
 			}
 		border-top: 3px solid $comp-color;
+		p {
+		font-weight: 300;
+		}
+		}
 	}
 }
 
