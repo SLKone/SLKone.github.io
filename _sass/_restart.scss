@@ -4,7 +4,7 @@
 	margin-bottom: 64px;
 	margin-top: -24px;
 	}
-	p.intro, #restart-four h4 { 
+	.page-title p.intro, #restart-four h4 { 
 		@include font-size(20,yes,24);
 		font-style: normal;
 		@include media($medium) {
