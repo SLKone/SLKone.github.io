@@ -18,6 +18,10 @@
 	}
 }
 
+#restart-one {
+	margin-top: 0;
+}
+
 #restart-two {
 	@include media($medium) {
 		ul {
