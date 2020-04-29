@@ -32,32 +32,32 @@ other companies, advisors, and experts.</h4>
 </div>
 <div id="restart-four" class="emphasis">
 	<h5>Five-Phase Approach</h5>
-	<h7>Built upon the collective wisdom, experience, and proven track record, SLKone and its partners have developed a 
+	<p class="large">Built upon the collective wisdom, experience, and proven track record, SLKone and its partners have developed a 
 simplified five-phase toolkit to assist organizations planning for and getting back on a new, post-COVID-19 track. The tools are
 sequenced to specifically restart businesses, navigate through uncertainty, and emerge from the impacts of the global pandemic. </h7>
 	<ol>
 	<li>
-		<h7>Reflect and Shift</h7>
+		<h6>Reflect and Shift</h6>
 		<p>Deploying a data-driven approach, performance of the business and operational activities are assessed to identify
 	drivers of value, volumetric and performance metrics, and other macro-economic influencers surrounding the business.</p>
 	</li>
 	<li>
-		<h7>Realign to the New Normal</h7>
+		<h6>Realign to the New Normal</h6>
 		<p>Facilitated strategic course-correction sessions, leveraging Deliberate Thinking, are held with key leadership members 
 utilizing data and analytics to inform the discussion and hypothesize on future business opportunities.</p>
 	</li>
 	<li>
-		<h7>Tactical Planning</h7>
+		<h6>Tactical Planning</h6>
 		<p>With an eye for the future, functional expertise, both internal and external, is tapped to identify critical path items and 
 projects that must be stopped, started, or accelerated in order to execute on strategy.</p>
 	</li>
 	<li>
-		<h7>Operational Preparedness</h7>
+		<h6>Operational Preparedness</h6>
 		<p>Internal and external resources and stakeholders are rallied to communicate and prepare for the change. Change 
 management best practices are driven by answering strategic questions to bring life to the tactical plan.</p>
 	</li>
 	<li>
-		<h7>Execute Like a Start-Up</h7>
+		<h6>Execute Like a Start-Up</h6>
 		<p>Experts assist with implementation and business execution efforts on identified projects ensuring goals and 
 objectives are met, countermeasures implemented as needed, and business restarts.</p>
 	</li>

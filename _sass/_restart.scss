@@ -51,14 +51,11 @@
 		position: relative;
 		top: -24px;
 	}
-	h7 {
+	h6 {
 		margin: 0px 24px 24px 24px;
-		display: block;
+		display: inline;
 		text-align: left;
 		color: $body-color;
-			@include font-size(18,yes,24);
-			@include media($medium) {
-			@include font-size(20,yes,28);
 		}
 	}
 	ol {
