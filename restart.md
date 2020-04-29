@@ -60,3 +60,9 @@ objectives are met, countermeasures implemented as needed, and business restarts
 	</li>
 	</ol>
 </div>
+
+<div id="restart-four">
+	<h4>In this challenging economic climate, SLKone chooses to partner with our clients thorugh a fit-for-purpose
+pricing model. There is not a standard set of pricing for the Business Restart Incubator as all clients and 
+situations are treated in a bespoke fashion. Reach out -- let’s have a discussion.</h4>
+</div>
