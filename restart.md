@@ -8,7 +8,7 @@ warning and were therefore ill-equipped to deal with the consequences. <br/> <br
 adapt and restart business as we return to normal or transition to a “new normal”. There are no silver bullets or magic-wand answers, but we can work through these uncharted waters together -- in our Business Restart Incubator."
 ---
 
-<div id="restart-one">
+<div id="restart-one" class="emphasis">
 	<h3>Do I need Business Restart Support?</h3>
 	<p>In all likelihood, YES. 
 Here is a preliminary set of questions to think through regarding why an organization may need restart support: </p>
