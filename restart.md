@@ -13,7 +13,7 @@ adapt and restart business as we return to normal or transition to a “new norm
 </div>
 <div id="restart-two" class="emphasis">
 	<h4>Do I need Business Restart Support?</h4>
-	<p>In all likelihood, YES. 
+	<p class="large">In all likelihood, YES. 
 Here is a preliminary set of questions to think through regarding why an organization may need restart support: </p>
 	<ul>
 		<li>Has your primary business activity been adjusted or changed?</li>
@@ -34,7 +34,7 @@ other companies, advisors, and experts.</h4>
 	<h5>Five-Phase Approach</h5>
 	<p class="large">Built upon the collective wisdom, experience, and proven track record, SLKone and its partners have developed a 
 simplified five-phase toolkit to assist organizations planning for and getting back on a new, post-COVID-19 track. The tools are
-sequenced to specifically restart businesses, navigate through uncertainty, and emerge from the impacts of the global pandemic. </h7>
+sequenced to specifically restart businesses, navigate through uncertainty, and emerge from the impacts of the global pandemic. </p>
 	<ol>
 	<li>
 		<h6>Reflect and Shift</h6>
