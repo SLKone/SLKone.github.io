@@ -27,14 +27,12 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 		}
+		margin-top: 48px;
 	}
 }
 
-#restart-one {
-	margin-top: 48px;
-}
-
 #restart-two {
+	margin: 48px auto;
 	@include media($medium) {
 		margin: 96px auto;
 	}
