@@ -68,7 +68,6 @@
 		margin-bottom: 0;
 	}
 	li {
-		background: $comp-color;
 		margin: 0;
 		padding: 24px 24px 12px 24px;
 			h7 {
@@ -79,7 +78,7 @@
 				display: inline;
 				margin: 0;
 			}
-		border-bottom: 3px solid $white;
+		border-bottom: 3px solid $comp-color;
 		&:last-child {
 			border-bottom: 0;
 		}
