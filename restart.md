@@ -2,14 +2,16 @@
 layout: restart
 permalink: /restart/
 title: "Business Restart Incubator"
-intro: "The unprecedented nature of the COVID-19 pandemic, and the speed with which the contagion has spread, 
-has wrecked havoc on our lives and the economy. Across all industries, businesses did not have significant 
-warning and were therefore ill-equipped to deal with the consequences. <br/> <br/>Small-to-medium sized companies with lean resources have been impacted the most. Many are unclear on how to
-adapt and restart business as we return to normal or transition to a “new normal”. There are no silver bullets or magic-wand answers, but we can work through these uncharted waters together -- in our Business Restart Incubator."
 heroimage: "restart-bg.jpg"
 ---
-
-<div id="restart-one" class="emphasis">
+<div id="restart-one">
+	<p class="large">The unprecedented nature of the COVID-19 pandemic, and the speed with which the contagion has spread, 
+has wrecked havoc on our lives and the economy. Across all industries, businesses did not have significant 
+warning and were therefore ill-equipped to deal with the consequences.</p>
+	<p class="large">Small-to-medium sized companies with lean resources have been impacted the most. Many are unclear on how to
+adapt and restart business as we return to normal or transition to a “new normal”. There are no silver bullets or magic-wand answers, but we can work through these uncharted waters together -- in our Business Restart Incubator.</p>
+</div>
+<div id="restart-two" class="emphasis">
 	<h3>Do I need Business Restart Support?</h3>
 	<p>In all likelihood, YES. 
 Here is a preliminary set of questions to think through regarding why an organization may need restart support: </p>
@@ -23,12 +25,12 @@ Here is a preliminary set of questions to think through regarding why an organiz
 	  to which you may not currently have the answer?</li>
 	</ul>
 </div>
-<div id="restart-two" class="emphasis-alt">
+<div id="restart-three" class="emphasis-alt">
 	<h4>The BUSINESS RESTART INCUBATOR is a suite of activities, processes, and planning -- adapted for each 
 individual application regardless of industry, size, or ownership structure -- in a collaborative incubator with
 other companies, advisors, and experts.</h4>
 </div>
-<div id="restart-three" class="emphasis">
+<div id="restart-four" class="emphasis">
 	<h5>Five-Phase Approach</h5>
 	<h7>Built upon the collective wisdom, experience, and proven track record, SLKone and its partners have developed a 
 simplified five-phase toolkit to assist organizations planning for and getting back on a new, post-COVID-19 track. The tools are
@@ -62,8 +64,8 @@ objectives are met, countermeasures implemented as needed, and business restarts
 	</ol>
 </div>
 
-<div id="restart-four">
-	<h4>In this challenging economic climate, SLKone chooses to partner with our clients thorugh a fit-for-purpose
+<div id="restart-five">
+	<p class="large">In this challenging economic climate, SLKone chooses to partner with our clients thorugh a fit-for-purpose
 pricing model. There is not a standard set of pricing for the Business Restart Incubator as all clients and 
-situations are treated in a bespoke fashion. Reach out -- let’s have a discussion.</h4>
+situations are treated in a bespoke fashion. Reach out -- let’s have a discussion.</p>
 </div>
