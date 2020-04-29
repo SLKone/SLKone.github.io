@@ -19,7 +19,10 @@
 }
 
 #restart-one {
-	margin-top: 0;
+	margin-top: -24px;
+	@include media($medium) {
+	margin-top: -48px;
+	}
 }
 
 #restart-two {
