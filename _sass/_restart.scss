@@ -12,12 +12,6 @@
 	}
 }
 
-#restart-two, #restart-three {
-	h3, h4 {
-	text-align: center;
-	}
-}
-
 #restart-one {
 	margin-top: -24px;
 	@include media($medium) {
@@ -39,6 +33,9 @@
 }
 
 #restart-three {
+	h4 {
+	text-align: center;
+	}
 	margin: 48px auto;
 	@include media($medium) {
 		margin: 96px auto;
