@@ -8,7 +8,7 @@ heroimage: posts/Business-in-the-Time-of-Coronavirus.jpg
 ---
 COVID-19 has created a dynamic economic climate unlike anything that has come before. It has fractured business models by simultaneously sending most global and local business value streams into forced hibernation while catapulting a few into overdrive. The impacts from this pandemic will affect all businesses in one way or another. Some industries will be birthed and grow amidst this pandemic while others may be lost completely. Determining where those growth opportunities lie is the key to surviving in these uncertain times and thriving in the post-COVID-19 world. 
 
-Recently, our team at <a href="https://slkone.com/Team/">SLKone</a> hosted a video conference with our <a href="https://slkone.com/advisory-partners/">Advisory Partners</a> to discuss the potential fates of various business models, pandemic-related market trends, and solutions for those industries that find themselves in challenging positions. Together, we identified opportunities and brainstormed how the landscape may look in the future.
+Recently, our team at <a href="https://slkone.com/team/">SLKone</a> hosted a video conference with our <a href="https://slkone.com/advisory-partners/">Advisory Partners</a> to discuss the potential fates of various business models, pandemic-related market trends, and solutions for those industries that find themselves in challenging positions. Together, we identified opportunities and brainstormed how the landscape may look in the future.
 
 #### What does the evolution of industries look like over the next five, ten, even fifteen years?
 
