@@ -1,8 +1,8 @@
 ---
 layout: team-member
 title:  "Dustin Fidaleo"
-job-title: Managing Consultant
-order: 8
+job-title: Engagement Manager
+order: 7
 skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
