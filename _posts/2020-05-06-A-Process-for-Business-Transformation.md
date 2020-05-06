@@ -11,7 +11,7 @@ As we entered 2020, no one foresaw the emergence and impact of COVID-19. Busines
 <br>
 <div class="emphasis" markdown="1">
   <strong>"Never let a good crisis go to waste." - Winston Churchill</strong>
-  An environment for change created by:
+  <br>An environment for change created by:
   <ul> 
   <li>Complexity Changes</li>
   <li>Reduced Demand</li>
@@ -32,8 +32,8 @@ In general, a large percentage of transformation initiatives fail to realize the
 <br>
 <div class="emphasis" markdown="1">
   <strong>Quick Definitions</strong>
-  Role - Collection of associated activities intended to be performed by a single resource
-  Position - A headcount that may carry multiple roles balanced across scope of activity
+  <br>Role - Collection of associated activities intended to be performed by a single resource
+  <br>Position - A headcount that may carry multiple roles balanced across scope of activity
  </div>
 <br>
 With these shortcomings in mind, we will provide in this article, the first of a series, the process by which businesses should transform.  What follows is a brief description of each step in the process for Business Transformation.
