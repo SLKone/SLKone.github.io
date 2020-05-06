@@ -40,7 +40,7 @@ With these shortcomings in mind, we will provide in this article, the first of a
 
 Note: Not included below are the requisite Project Planning, Team Formation, and Kickoff activities; <a href="https://slkone.com/Is-Your-PMO-Delivering-Results/">Please see our earlier articles on effective Project Management for more on these topics</a>.
 
-<img src="Successful-Transformations.jpg" alt="Successful Transformations Graphic">
+<img src="https://slkone.com/images/Successful-Transformations.jpg" alt="Successful Transformations Graphic">
 
 #### PROCESS
 
