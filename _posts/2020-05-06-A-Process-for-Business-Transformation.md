@@ -10,7 +10,7 @@ heroimage: posts/A-Process-for-Business-Transformation.jpg
 As we entered 2020, no one foresaw the emergence and impact of COVID-19. Business plans and expectations had to be thrown away as organizations instantly pursued a strategy of survival and value preservation. While the response to the crisis has been acute, the impact will continue indefinitely. As a result, the narrative in board rooms must quickly look to the future, and leaders must strategize how organizations can successfully emerge from this crisis.  More than during any other period, ground is gained and lost against competitors in times of crisis. Times of crises present a convenient reset point for organizations. Those that seize this opportunity to make step-change improvements to their business will emerge ready to take market share and outperform competitors.
 <br>
 <div class="emphasis" markdown="1">
-  <strong>"Never let a good crisis go to waste." - Winston Churchill</strong>
+  <strong>"Never let a good crisis go to waste." - Winston Churchill</strong><br>
   <br>An environment for change created by:
   <ul> 
   <li>Complexity Changes</li>
@@ -31,7 +31,7 @@ In general, a large percentage of transformation initiatives fail to realize the
 4.	Misaligning investment in supporting systems and technology that does not support processes and/or strategy
 <br>
 <div class="emphasis" markdown="1">
-  <strong>Quick Definitions</strong>
+  <strong>Quick Definitions</strong><br>
   <br>Role - Collection of associated activities intended to be performed by a single resource
   <br>Position - A headcount that may carry multiple roles balanced across scope of activity
  </div>
