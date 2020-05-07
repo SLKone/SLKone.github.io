@@ -2,7 +2,7 @@
 layout: advisor
 title:  "Kishore Sundararajan"
 job-title: Business-Technologist
-order: 5
+order: 10
 skills:
 - Industrial Automation
 - Team Building & Management
