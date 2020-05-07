@@ -2,7 +2,7 @@
 layout: advisor
 title:  "Dr. Emily Block"
 job-title: Professor, Alberta School of Business
-order: 1
+order: 2
 skills:
 - Organizational Theory & Strategy
 - Institutional Pluralism
