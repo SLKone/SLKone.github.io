@@ -2,7 +2,7 @@
 layout: advisor
 title:  "Dr. Sridhar Balasubramanian"
 job-title: Professor of Marketing, Kenan Flagler Business School
-order: 8
+order: 1
 skills:
 - Executive Development
 - Marketing Strategy
