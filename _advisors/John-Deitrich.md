@@ -2,7 +2,7 @@
 layout: advisor
 title:  "John Deitrich"
 job-title: Operations Leader
-order: 3
+order: 4
 skills:
 - Multi-Site Manufacturing Leadership
 - Supply Chain Management
