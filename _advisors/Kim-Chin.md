@@ -2,7 +2,7 @@
 layout: advisor
 title:  "Kim Chin"
 job-title: Partner, McChin Healthcare Solutions
-order: 2
+order: 3
 skills: 
 - International Healthcare Markets
 - Healthcare Go-To-Market Strategy
