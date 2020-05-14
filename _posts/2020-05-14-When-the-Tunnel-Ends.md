@@ -28,8 +28,11 @@ COVID-19, while still unravelling, has fractured the foundations of many busines
 We see this evolving into four likelihoods:
 
 1.	Business models that will be disrupted beyond recovery and, in the post COVID-19 world, will be less relevant; customers will not return to them - at least not with the same intensity<br>
+
 2.	Businesses that will still be relevant, but they will have to adjust their delivery model in the new world because customers, either on their own or through statutory mandates<sup>1</sup>, will want to buy and consume their products in a different format<br>
+
 3.	Businesses with their business models emerging in higher demand in the post COVID-19 world; customers will want more of them in a socially distanced world (or whatever other regulatory norms emerge)<br>
+
 4.	Businesses that do not exist today but will evolve from the COVID-19 crisis
 
 What took decades for business models and supply chains to evolve into, tweak, and perfect has been altered in less than a quarter. While the essential businesses such as critical healthcare and consumer basics are operating in an unsustainable overdrive, revving to a burnout cycle, a vast section of the economy is in standby mode. The state of businesses now is unlike anything that will permit a premeditated design and buttoned up strategy. Corporations are not designed to be non-operational and therefore they are unprepared to restart. Disruption is passé – this is “Rapid Rebirthing” that will be led by businesses who did not go through a normal gestation cycle.
@@ -59,7 +62,9 @@ A business in steady state can do well applying the traits of causal thinking. H
 Corporate leadership, however, is biased to be risk averse and effectual thinking is not its dominant style. This is precisely the reason these business leaders have sought to work in corporate “safe jobs” instead of becoming entrepreneurs. In the post-COVID-19 world, business managers will have no choice. Fortunately, the logic is trainable if the managers are able to shift their mindset from causal thinking to effectual reasoning. Studies of successful entrepreneurs suggest they have generated better returns on their limited means and have “leap frogged” many stable businesses. Not having data and facts and losing the predictability of outcomes does not mean this is a fuzzy process that cannot be applied to corporations who are answerable to public and private owners. Quoting from Dr. Sarasvaty’s article “What makes entrepreneurs entrepreneurial”, the difference between causal thinking and effectual reasoning can be understood as below: 
 
 •	While causal reasoning focuses on expected return, effectual reasoning emphasizes affordable loss; instead of targeting the highest return, consider how one can minimize the resources to achieve an outcome. Can you find a customer of your product next door versus a cross-country hop in a socially distanced world?<br>
+
 •	While causal reasoning depends upon competitive analyses, effectual reasoning is built upon strategic partnerships. Forget competitor analysis, find partners who will either help you with the next revenue dollar and sources that are nearshore versus another end of the globe!<br>
+
 •	While causal reasoning urges the exploitation of pre-existing knowledge and prediction, effectual reasoning stresses the leveraging of contingencies. It is ok to fail but fail fast with a minimum viable product and rapidly pivot from learning to the next generation of prototype before causal thinkers are perfecting with “ready-aim-fire”. In a business environment of deep uncertainty there is no bull’s eye and therefore no perfect score.
 
 Once we are in the right frame of mindset, let’s apply Deliberate Thinking. 
@@ -86,7 +91,7 @@ Most business choices are made in a binary “yes” and “no” environment. H
 
 As self-quarantining, social distancing, and shelter-in-place orders change normal business patterns, many people have used the adage, “when life gives you lemons, make lemonade.” Great advice, but only if you have sugar, water, and ice available. A practical situation is described in our article <a href="https://slkone.com/Think-Forward-Part-Two/">here</a>.
 
-•	<b>Tactical Planning<b> - Following from the realignment sessions, tactical planning activities begin with an eye for the future. Functional expertise, both internal and external, is tapped to identify critical path items and projects that must be stopped, started, or accelerated in order to execute on strategy.
+•	<b>Tactical Planning</b> - Following from the realignment sessions, tactical planning activities begin with an eye for the future. Functional expertise, both internal and external, is tapped to identify critical path items and projects that must be stopped, started, or accelerated in order to execute on strategy.
 
 We can borrow the “Stop, Start, Continue” perspective advocated by practitioners of agile methods. Right now, we have had some “Stop” foisted onto us and as the business emerge from the quarantine, core activities will need to “Start and Continue”. However, there will be other projects and activities we are conducting in which we need to “Accelerate” to support the new normal. A practical situation is described in our article <a href="https://slkone.com/Think-Forward-Part-Three/">here</a>.
 
@@ -109,6 +114,6 @@ We highly recommend reading Abbott’s eBook, “A Promise for Life: The Story o
 While the last century belonged to the companies that followed a “Good to Great” journey, the future will belong to the resilient corporations that morph seamlessly to effectuate the change.
 
 
-<sup>1</sup>Odd–even rationing was instituted in the U.S. as part of the response to the second gasoline crisis in 1979, when turbulent conditions in Iraq and Iran led to worldwide oil price increases, even though a supply shortage did not materialize in the U.S. 
-<sup>2</sup>Inspired by groundbreaking research of Saras D. Sarasvathy, 2001, Darden School of Business, University of Virginia 
-<sup>3</sup>Deliberate Thinking by Dan Kowalski, 2020, inspired by Daniel Kahneman, Nobel laureate in the field of psychology of judgment and decision-making, and behavioral economics
+<sup>1</sup> Odd–even rationing was instituted in the U.S. as part of the response to the second gasoline crisis in 1979, when turbulent conditions in Iraq and Iran led to worldwide oil price increases, even though a supply shortage did not materialize in the U.S. 
+<sup>2</sup> Inspired by groundbreaking research of Saras D. Sarasvathy, 2001, Darden School of Business, University of Virginia 
+<sup>3</sup> Deliberate Thinking by Dan Kowalski, 2020, inspired by Daniel Kahneman, Nobel laureate in the field of psychology of judgment and decision-making, and behavioral economics
