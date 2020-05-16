@@ -91,3 +91,7 @@ We must use our sapience to assess the current and potentially on-going impact o
 #### What's next?
 
 In the first three parts of this series, we have discuss how to address difficult decisions through a “yes, no, maybe” approach, identified what short-term or business model changes are necessary in the current environment, and have now contemplated how to address longer-term business model changes. The fourth part of this series will cover some basics of Deliberate Thinking to understand how we increase our understanding and think when there are no rules.
+
+___
+
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part3_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
