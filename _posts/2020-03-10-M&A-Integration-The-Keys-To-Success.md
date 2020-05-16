@@ -28,3 +28,7 @@ Once you have determined whether your integration will require dedicated personn
 Companies involved in successful integrations understand that disruption is unavoidable. Change is the very nature of expansion and rebuilding, and it’s also uncomfortable for most people. Therefore, it’s crucial to note that ***collaboration – not technology – is the true driver of lasting change.*** All the project management tools on the market today are only as good as the team behind their implementation and use. Organizations must care for their people first and support those efforts with technology instead of the other way around. When done right, the disruption caused by integration is muted, people and process are front of mind, and those impacted by the change view it positively and are still able to be successful within their clearly defined roles.
 
 At SLKone, we understand that while this may all make sense on paper, it’s certainly easier said than done, and we’re here to help.  Our consultants and subject matter experts are trained in a variety of industries and represent a deep functional expertise within many areas of business. We specialize in identifying the extent of integration needed and can roll up our sleeves to jump in and help – not just direct – project and organizational management for successful M&A integration.
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_M&A-Integration_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
