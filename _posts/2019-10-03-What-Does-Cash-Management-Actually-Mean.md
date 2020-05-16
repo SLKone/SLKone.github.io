@@ -54,3 +54,7 @@ Where some firms focus solely on short-term fixes by developing a 13-week cash f
 Send us an email: hello@slkone.com
 
 Give us a call: +1.919.537.9189
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_Cash-Management_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
