@@ -38,19 +38,22 @@ Unfortunately, White Elephants don’t play by hide-and-seek rules – finding t
 At SLKone, we’ve helped leaders in organizations of every size, structure, and industry identify and address their White Elephants by:
 
 - Instituting the Rule of Continuous Improvement
-	- No function within an organization is “sacred” enough to stagnate. The health of the business as a whole relies on constant optimization of all its parts.
+  No function within an organization is “sacred” enough to stagnate. The health of the business as a whole relies on constant   optimization of all its parts.
+
 - Establishing the Baseline Cost
-	- Inefficiencies can have a domino effect where poor practices in one area force another to adjust to meet it, further spreading the bloat and making it difficult to ascertain the true cost of a function.
+	Inefficiencies can have a domino effect where poor practices in one area force another to adjust to meet it, further spreading the bloat and making it difficult to ascertain the true cost of a function.
+  
 - Reviewing and Developing Operational Metrics
-	- Financial analysis can illuminate the need for action, but rarely will it provide actionable solutions. Each function needs a toolkit for identifying the strengths and weaknesses of its practices and procedures.
+	Financial analysis can illuminate the need for action, but rarely will it provide actionable solutions. Each function needs a toolkit for identifying the strengths and weaknesses of its practices and procedures.
 
 - Getting to the “Doers”
-	- Though every piece within a function plays its role, identifying the key parts is beneficial not only in understanding where the value lies but also in identifying areas of improvement – these “doers” will have no shortage of insights into how to best approach efficiency improvements.
+	Though every piece within a function plays its role, identifying the key parts is beneficial not only in understanding where the value lies but also in identifying areas of improvement – these “doers” will have no shortage of insights into how to best approach efficiency improvements.
+  
 - Review Upstream
-	- Due to the perception of these functions, the impact of changes in operations, or elsewhere in the business, are not always considered. As a result, these functions will adapt bad habits to support other improvements while sacrificing the overall good of the firm.
+	Due to the perception of these functions, the impact of changes in operations, or elsewhere in the business, are not always considered. As a result, these functions will adapt bad habits to support other improvements while sacrificing the overall good of the firm.
 
 - Strengthening Project Management
-	- If left unattended, a newly-optimized function can quickly become a White Elephant all over again. Changes and improvements made to an organization must be supported and monitored to avoid the same pitfalls.
+	If left unattended, a newly-optimized function can quickly become a White Elephant all over again. Changes and improvements made to an organization must be supported and monitored to avoid the same pitfalls.
 
 #### Keeping Them Out
 
