@@ -106,3 +106,7 @@ While this sounds complicated, it just a matter of thinking in an organized fash
 In Part Three, we will assess the impact of the changes to “normal” business that may come out of this global pandemic. Rest assured, some changes will be temporary, e.g., routine social distancing, self-quarantining, shelter-in-place orders, and a reduction of eating out. However, some changes may be more permanent, e.g., increase in telemedicine, decrease in discretionary medical procedures, remote working as a routine, and delivery and consumption models.
 
 We must assess whether our current methods will work or if we must adjust – both at the Private Equity Sponsor level and at the Portfolio Company level. 
+
+___
+
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part2_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
