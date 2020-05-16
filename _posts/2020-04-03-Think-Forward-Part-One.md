@@ -140,3 +140,7 @@ To recap, when we face binary decisions, we must keep the following in mind:
 #### What's next?
 
 As this pandemic unfolds, many people have used the adage, “when life gives you lemons, make lemonade.” Great advice, but only if you have sugar, water, and ice available. In Part Two we will look at identifying if there are lemons, if they are ripe, and what ingredients, actions, and other resources we need to turn them into lemonade.
+
+___
+
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part1_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
