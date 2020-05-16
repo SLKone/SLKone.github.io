@@ -60,3 +60,7 @@ At SLKone, we’ve helped leaders in organizations of every size, structure, and
 Once you have addressed existing White Elephants, the task turns to keeping them out for good. Complacency provides the breeding ground for White Elephants. Management teams should ensure that every organization participates in business review cycles. The work performed in an initial review should not become ‘shelf-ware’; learnings from those reviews should be used to create a sustainable set of metrics and baseline by which the efficiency and value of every function is reviewed. This practice drives a cultural shift within the business that makes it difficult for sacred organizational functions to develop. In practice, we have seen this not only drive out cost but improve morale.
 
 In the modern business world, the only thing sacred is productivity. There’s no room for White Elephants. Let’s make sure you aren’t harboring any.
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_White-Elephants_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
