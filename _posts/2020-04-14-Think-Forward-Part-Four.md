@@ -59,3 +59,7 @@ A significant majority of players in the PE industry will look at the above list
 #### Want to learn more?
 
 We all have the ability to think deliberately but need help because of our bias for action. Conducting After Action Reviews (AAR) can help provide insights into where our thinking worked and where it did not. We can learn to think better. SLKone, with our bespoke solution DNA, is adept at helping organizations, Private Equity Sponsors, and Leadership teams work through these challenges and processes.
+
+___
+
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part4_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
