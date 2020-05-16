@@ -53,3 +53,7 @@ We at SLKone are firm believers in leveraging data to make informed decisions. E
 For example, a regional leader in specialty healthcare had invested in a data visualization platform to roll out dashboards and reports to their organization. In this process, however, the team did not tackle the shortcomings addressed in this article. These shortcomings included a lack of data integrity and understanding, failing to identify and define the needs of the business, and not recognizing the roles responsible for creating and maintaining the new platform and reports.  
 
 SLKone assisted the organization by defining appropriate reporting measures, identifying the critical data elements, understanding the data itself, and generating insights from the newly created reports. As part of the engagement, we trained the team on what to look for and how to critically assess their organization. We helped them cross the data-to-information gap and would be honored to help you too. 
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_What-Insights-Are-You-Missing_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
