@@ -51,3 +51,7 @@ For businesses with brick-and-mortar locations, rethink business hours (observin
 Finally, be sure to plan for and manage risk. What are your risk plans? When was the last time a holistic risk analysis was performed in the wake of uncertainty, if ever? Have they ever been tested? How can you flex risk management in an uncertain environment (like this one)? Answering these questions for your own company can illuminate opportunities for current investment of time or resources for future growth in a post-COVID economy.
 
 At SLKone, we understand that while this may all make sense on paper, it’s certainly easier said than done, and we’re here to help. Our mindset of creating bespoke solutions suits the settings that are not mentioned in the existing playbooks. Our consultants and subject matter experts are trained in a variety of industries and represent a deep functional expertise within many areas of business. We specialize in identifying areas of opportunity and can roll up our sleeves to jump in and help – not just direct – but execute project and organizational management for successful business model improvements, in the shortest possible time, and with the highest value creation.
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_Business-in-the-Time-of-Coronavirus_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
