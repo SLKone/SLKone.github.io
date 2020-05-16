@@ -117,3 +117,7 @@ While the last century belonged to the companies that followed a “Good to Grea
 <sup>1</sup> Odd–even rationing was instituted in the U.S. as part of the response to the second gasoline crisis in 1979, when turbulent conditions in Iraq and Iran led to worldwide oil price increases, even though a supply shortage did not materialize in the U.S.<br> 
 <sup>2</sup> Inspired by groundbreaking research of Saras D. Sarasvathy, 2001, Darden School of Business, University of Virginia<br> 
 <sup>3</sup> Deliberate Thinking by Dan Kowalski, 2020, inspired by Daniel Kahneman, Nobel laureate in the field of psychology of judgment and decision-making, and behavioral economics
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_When-the-Tunnel-Ends_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
