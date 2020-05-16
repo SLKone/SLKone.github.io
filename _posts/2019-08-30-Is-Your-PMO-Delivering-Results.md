@@ -60,3 +60,7 @@ Ensure the proper skill sets are present. When assigning resources to a PMO, ens
 When an organization is struggling to establish a PMO, or identifies a lack of ability to adequately manage a PMO, consider the use of outside entities. These can include consultants, new hires into the organization, or other temporary resources to advance the organization. SLKone possesses the skillsets, experience, and ability to align and design a PMO within your organization.  
 
 <sup>1</sup> A Guide to the Project Management Body of Knowledge 5th Edition. (Project Management Institute, 2013)
+
+___
+
+<a href="https://slkone.com/files/SLKone_Article_PMO-Effectiveness_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
