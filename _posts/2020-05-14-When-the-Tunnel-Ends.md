@@ -17,7 +17,11 @@ Our generation(s) have endured cataclysmic business disruptions with increasing 
 
 Andy Grove, Intel’s CEO, once said, “Bad companies are destroyed by crises; Good companies survive them; Great companies are improved by them.” Data from prior crises affirm his quote that such events, while handicapping to most businesses, end up as harbingers of new opportunities for some. It is not natural selection or the survival of the fittest, but rather, the emergence of the most adaptive businesses who will survive and thrive. 
 
+<img src="https://slkone.com/images/Aggregate-and-Industry-Quadrants.jpg" alt="Aggregate and Industry Quadrants">
+
 Looking at publicly listed companies in the Unites States that not only grew revenue but profit margins during the 2008-9 economic meltdown, some familiar names emerge: Abbott, Baxter, Intuit, Netflix, and Visa. These businesses are in different industries with varying degrees of maturity but continued to deliver exceptional financial returns. As businesses build their roadmap to recovery, it may be worth analyzing them from the common traits that made them emerge as leaders.
+
+<img src="https://slkone.com/images/Debt-to-Revenue-Ratios.jpg" alt="Debt to Revenue Ratios">
 
 Impact from COVID-19 will be different from previous crises due to its unique distinction – whereas the 2008 crisis was largely a series of bad economic choices that culminated into a recession, COVID-19 has been triggered by a personal health situation that grew into a societal health pandemic at an alarming rate, severely testing ill prepared public policies and precipitating into an economic crisis. One must trace back more than a century to find a close parallel in the 1918 influenza pandemic. However, the world was not as connected and interdependent back then. We need to stay focused on what is ahead and not look behind.
 
