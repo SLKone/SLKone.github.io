@@ -63,8 +63,17 @@ objectives are met, countermeasures implemented as needed, and business restarts
 	</li>
 	</ol>
 </div>
-
-<div id="restart-five">
+<div id="restart-six">
+		<p class="large">What does this look like in real world application?</p>
+			<p class="large"> Check out the spotlights below for a deeper understanding of what the Business Restart Incubator could do for your company:</p>
+		<div class="post-blocks">
+		  {% for post in site.posts %}
+			  {% if post.category %}
+			    {% include post-block.html %}
+			{% endif %}
+		  {% endfor %}
+</div>
+<div id="restart-five" class="emphasis-alt">
 	<p class="large">In this challenging economic climate, SLKone chooses to partner with our clients thorugh a fit-for-purpose
 pricing model. There is not a standard set of pricing for the Business Restart Incubator as all clients and 
 situations are treated in a bespoke fashion. Reach out -- let’s have a discussion.</p>

@@ -5,7 +5,7 @@
 	margin-top: -24px;
 	}
 }
-#restart-one, #restart-two, #restart-three, #restart-four, #restart-five {
+#restart-one, #restart-two, #restart-three, #restart-four, #restart-five, #restart-six {
 	max-width: 1024px;
 	@include media($medium) {
 		margin: 48px auto;
@@ -88,4 +88,8 @@
 
 #restart-four ol {
 	margin-bottom: 0;
+}
+
+#restart-six {
+	text-align: center;
 }
