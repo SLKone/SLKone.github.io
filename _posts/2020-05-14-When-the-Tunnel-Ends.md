@@ -5,6 +5,7 @@ authors: [Arun Shukla, Phil Lynch, Andrew Klemm]
 intro: Struck by COVID-19, the business world is wading through a dark and very long tunnel, blind to their North Star. We need to stay focused on the tiny light at the end of the tunnel while making sure that we do not go sideways and crash. Unfortunately, many will crash. However, there is hope that humanity -- and both local and global economies – will emerge from COVID-19. Will your business be ready coming out of this dark tunnel? Or, will your business crash, blinded by the sudden burst of light, and miss the opportunity to lead in the environment of the new world. How do we get ready?
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]
 heroimage: posts/When-the-Tunnel-Ends.jpg
+category: restart
 ---
 
 Struck by COVID-19, the business world is wading through a dark and very long tunnel, blind to their North Star. We need to stay focused on the tiny light at the end of the tunnel while making sure that we do not go sideways and crash. Unfortunately, many will crash. However, there is hope that humanity -- and both local and global economies – will emerge from COVID-19. Will your business be ready coming out of this dark tunnel? Or, will your business crash, blinded by the sudden burst of light, and miss the opportunity to lead in the environment of the new world. How do we get ready?

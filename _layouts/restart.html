@@ -5,6 +5,13 @@ layout: default
 	{% include title-image.html %}
 	<div class="wrap content">
 		{{ content }}
+		<div class="post-blocks">
+		  {% for post in site.posts %}
+		  	{% if post.category == 'restart' }
+		    {% include post-block.html %}
+		    {% endif %}
+		  {% endfor %}
+		</div>
 	</div><!-- /.wrap -->
 <div>
 
