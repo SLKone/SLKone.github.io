@@ -23,6 +23,6 @@ heroimage: case-studies/Sales-Incentive-Program-and-Budget-100M-Software-Provide
 #### Leading With Results
 - **Sales model developed and implemented** across the organization to track $100M in sales for the upcoming year
 - **Developed and rolled out sales targets** for 33 sales individuals across the enterprise
-- **New commission contracts and participation agreements were executed for the sales team
+- **New commission contracts and participation agreements** were executed for the sales team
 - **Improved clarity in sales commission process** with improved transparency and designed compensation structure **boosted team moral** and lead to increased job satisfaction
 - **Realigned employee and company goals** as both were incentivized in a similar manner
