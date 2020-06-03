@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Operationalizing Strategic Plans for a $60M Specialty Healthcare Provider"
 industries: [Healthcare]
-services-performed: [Operationalizing-Strategy, Smart-Budgeting, Goals Alignment]
+services-performed: [Operationalizing-Strategy, Smart-Budgeting, Goals-Alignment]
 intro: SLKone facilitated and supported the Executive Leadership team with refining a strategic plan and operationalizing the approach to implementing the plan
 team-size: 2 consultants
 project-length: 2 months
