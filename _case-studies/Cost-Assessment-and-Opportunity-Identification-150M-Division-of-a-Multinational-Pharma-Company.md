@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Cost Assessment and Opportunity Identification $150M Division of a Multinational Pharma Company"
 industries: [Healthcare]
-services-performed: [Finance-and-Accounting-Processes,Manufacturing-Process-Improvement]
+services-performed: [Finance-and-Accounting-Processes,Manufacturing-Processes-and-Operational-Improvements]
 intro: SLKone performed a rapid cost assessment identifying areas for immediate cost out as well as long-term transformative actions to drive productivity. The improvement plan set an execution focused roadmap for strong, sustainable profitability growth in the business
 team-size: 2 consultants
 project-length: 2 months
