@@ -98,4 +98,4 @@ In order to create sustainable transformation in business leadership, teams need
 Our next article in this transformation series will link process and activities to human capital, realizing additional opportunities by creating roles, and driving utilization of personnel through intentional scoping of positions.
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Successful-Transformation-Process_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-Process_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
