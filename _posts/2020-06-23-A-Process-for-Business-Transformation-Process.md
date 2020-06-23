@@ -43,7 +43,7 @@ Once all the activities are indexed, it’s time to classify them into three buc
 
 <b>Core vs. Support</b> - Does the activity exist to directly deliver products or services, or does the activity indirectly support the business?
 
-<img src="https://slkone.com/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic">
+<img src="https://slkone.com/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic" width="250">
 
 <b>Common Pitfalls</b>
 
@@ -65,7 +65,7 @@ Throughout our experience delivering business transformation and organization re
 
 Adding activities to a matrix of Complexity, Value-Add, and Volume will help to quickly identify potential action for activities as well as help quantify the impact those changes will have to the organization.
 
-<img src="https://slkone.com/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic">
+<img src="https://slkone.com/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic" width="500">
 
 <b>Common Pitfalls</b>
 
