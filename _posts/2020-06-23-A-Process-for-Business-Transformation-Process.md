@@ -12,6 +12,8 @@ Beyond traditional continuous improvement projects, transformations are undertak
 
 While each organization will have a unique set of requirements for their transformation (e.g. improved agility, strategic alignment, better customer interface), the one thing all transformations have in common is a need to reduce operating costs to varying degrees and activity levels. However, this is where one of the most common pitfalls of business transformations occur. One of the highest cost line items for nearly every business is personnel costs. Naturally, the desire or need to reduce costs invariably turns to a discussion on reducing personnel. There are two levers managers can utilize to reduce cost, reduce unit cost (cost per hour), or reduce volume (hours). Strategies exist to address both, but we have found it more helpful to think in terms of work. Any initiative seeking to reduce costs in a business without first addressing how to reduce work is destined to fail.
 
+<img src="https://slkone.com/images/Transformation-Process.jpg" alt="Successful Transformations Graphic">
+
 #### Step 1. Activity Index
 
 Establishing an understanding of the universe of activities performed by an organization is a foundational task for every successful transformation. Without a comprehensive reference marker, transformation projects can digress into a loose collection of individual tasks rather than a holistic business initiative. A comprehensive index of activities acts as the initial data and information gathering point as well as a project reference point that will support and guide subsequent transformation steps by capturing relevant data points for each.
@@ -41,6 +43,8 @@ Once all the activities are indexed, it’s time to classify them into three buc
 
 <b>Core vs. Support</b> - Does the activity exist to directly deliver products or services, or does the activity indirectly support the business?
 
+<img src="https://slkone.com/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic">
+
 <b>Common Pitfalls</b>
 
 The most common pitfall in this phase of process assessment is a tendency to be too conservative in classifications. Many times, the same group that needs to assess the value of an activity has been, at one point in time or another, directly involved in performing the activity. Not making an honest assessment of an activity’s value to the organization will lead to continued waste and inefficiency.  You will likely encounter the most resistance in this process as managers and employees alike justify the activities that keep them busy.
@@ -60,6 +64,8 @@ Throughout our experience delivering business transformation and organization re
 •	If an activity is value-add, review the process and improve
 
 Adding activities to a matrix of Complexity, Value-Add, and Volume will help to quickly identify potential action for activities as well as help quantify the impact those changes will have to the organization.
+
+<img src="https://slkone.com/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic">
 
 <b>Common Pitfalls</b>
 
