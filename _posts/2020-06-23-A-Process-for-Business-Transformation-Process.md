@@ -96,6 +96,7 @@ From here, the heavy lifting of transformation begins through reengineering proc
 <br>
 <div class="emphasis" markdown="1">
   <strong>Case Study</strong><br>
+  
 **Situation:** Senior management of a mid-market SAAS company grew frustrated by the FP&A team’s inability to generate timely recurring reports. This issue peaked when the team struggled to respond to ad hoc analysis during an acquisition phase.
 
 **Solution:** After an activity review, it was discovered that FP&A’s time was spent reformatting .csv exports from the accounting and finance systems. Further, Accounting errors led to a lengthy, manual process often requiring FP&A to start from scratch.
@@ -123,6 +124,7 @@ The most critical element for successful process documentation is accessibility.
 <br>
 <div class="emphasis" markdown="1">
   <strong>Case Study</strong><br>
+  
 **Situation:** A $50M building products facility was transitioning off a paper process for order and production management. Each team was trained on how to use the system and the process flow in their part of the process. Three days after launch, it was found that finished goods inventory had grown significantly. Since going live ~40% of orders had been produced twice. Cue a panicked investigation of the software.
 
 **Issue & Solution:** It was discovered that the customer management team had entered orders into the system as requested; however, they were unsure if production would see the same thing. Many had continued to fill out duplicate paper production requests and submitted to the scheduler as they had done previously.  Production, thinking they were leftovers from the conversion or that the orders had not been entered to the system, produced the product. Training was repeated and expanded to provide the customer service team the knowledge of how production received and produced orders, clearing the previous confusion.
