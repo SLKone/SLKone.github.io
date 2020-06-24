@@ -17,7 +17,22 @@ While each organization will have a unique set of requirements for their transfo
 #### Step 1. Activity Index
 
 Establishing an understanding of the universe of activities performed by an organization is a foundational task for every successful transformation. Without a comprehensive reference marker, transformation projects can digress into a loose collection of individual tasks rather than a holistic business initiative. A comprehensive index of activities acts as the initial data and information gathering point as well as a project reference point that will support and guide subsequent transformation steps by capturing relevant data points for each.
-
+<br>
+<div class="emphasis" markdown="1">
+  <strong>Key Activity Attributes</strong><br>
+ <ul> 
+  <li>Task/Activity/Report</li>
+  <li>Description of Task/Activity/Report</li>
+  <li>Goal of the activity</li>
+  <li>Operating rhythm</li>
+  <li>Responsible role</li>
+  <li>End users/benefit to company/value added</li>
+  <li>Issues and concerns</li>
+  <li>Time to complete</li>
+  <li>Key system interactions</li>
+</ul>
+ </div>
+<br>
 <b>Common Pitfalls</b>
 
 The most common pitfall in this step happens when the Activity Index is developed in too close knit of a team.  Seeking insights from the people that are performing the process is critical to creating a de-facto understanding of those activities. Another common mistake is documenting activities at too high of a level. You do not need to catalog every operation in a process for this index, but you should not assume the activities for one business unit apply to another; there is a high risk that business requirements dictate local variations to standard process which can be easily missed. Conversely, a preoccupation with perfection is also problematic. This exercise should not take more than five percent of the time allocated to the transformation project. Finally, try to avoid a preoccupation with ad-hoc improvements. If there are glaring issues that can be readily addressed with minimal effort, pursue them, but all too often we see higher yielding opportunities put on the back burner to chase down minor process improvements.
@@ -78,7 +93,18 @@ The utilization of a cross-functional team and support from outside the direct b
 No matter the course of action ultimately decided upon, rationalizing, outsourcing, automating, or general process improvement, the goal of transformations needs to begin by seeking to reduce the effort of human capital needed to operate the business. This will free additional organizational capacity without increasing costs or allow for a reduction in costs. Without these initial process outset steps, we have witnessed many transformations devolve into disaggregated, localized improvements. While this can still provide a benefit to the organization, it rarely meets the intended goals and investment thesis for true transformation. 
 
 From here, the heavy lifting of transformation begins through reengineering processes, digital process support, defining what roles are needed, and which are best to perform these activities. We will cover each of these elements in more detail in upcoming articles. For now, we will skip ahead to cover the final step involving transformation process. 
+<br>
+<div class="emphasis" markdown="1">
+  <strong>Case Study</strong><br>
+**Situation:** Senior management of a mid-market SAAS company grew frustrated by the FP&A team’s inability to generate timely recurring reports. This issue peaked when the team struggled to respond to ad hoc analysis during an acquisition phase.
 
+**Solution:** After an activity review, it was discovered that FP&A’s time was spent reformatting .csv exports from the accounting and finance systems. Further, Accounting errors led to a lengthy, manual process often requiring FP&A to start from scratch.
+
+**Phase 1** – Immediate Solution: SLKone developed a highly automated workbook that would take all system outputs and “push” them into the pre-formatted recurring reports.
+
+**Phase 2** – Long-Term solution: SLKone assisted in the implementation of a new FP&A tool, specifically the automation of recurring reports and standardized formats to satisfy internal and external reporting requirements. 
+ </div>
+<br>
 #### Step 4. Process Documentation
 
 After all the changes have been designed, roles assigned, and technology improvements prepared to go-live, it is easy to look back on the vast amount of work that has been completed and call the job well done. Process documentation is one of the easiest steps to complete, but often the most overlooked and is a major contributor to lack of lasting performance improvement from transformative initiatives. 
@@ -94,7 +120,14 @@ Documentation for the purposes of training is a foundational step for any improv
 <b>Best Practices</b>
 
 The most critical element for successful process documentation is accessibility. Process designs, key decision points, system interactions, and responsibilities need to be accessible to every employee within the organization, given proper information security has been considered. At a minimum, documentation should include process, activities, goals of each activity, inputs, outputs, responsible roles, and system interactions.
+<br>
+<div class="emphasis" markdown="1">
+  <strong>Case Study</strong><br>
+**Situation:** A $50M building products facility was transitioning off a paper process for order and production management. Each team was trained on how to use the system and the process flow in their part of the process. Three days after launch, it was found that finished goods inventory had grown significantly. Since going live ~40% of orders had been produced twice. Cue a panicked investigation of the software.
 
+**Issue & Solution:** It was discovered that the customer management team had entered orders into the system as requested; however, they were unsure if production would see the same thing. Many had continued to fill out duplicate paper production requests and submitted to the scheduler as they had done previously.  Production, thinking they were leftovers from the conversion or that the orders had not been entered to the system, produced the product. Training was repeated and expanded to provide the customer service team the knowledge of how production received and produced orders, clearing the previous confusion.
+ </div>
+<br>
 #### Conclusion
 
 The goal for transformation projects goes beyond short term cost cutting; they should be designed to drive lasting step-change performance improvements for the organization. When approached as a traditional or smaller-scale improvement project, it is easy to succumb to the demand for immediate cost reductions, leading managers to reduce headcount. This stretches employees too thin and some months down the road, after victory has been declared, headcount requests will start to flow in to undo all the work that had been done. 
