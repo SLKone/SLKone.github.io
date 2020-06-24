@@ -106,6 +106,28 @@ From here, the heavy lifting of transformation begins through reengineering proc
 **Phase 2** – Long-Term solution: SLKone assisted in the implementation of a new FP&A tool, specifically the automation of recurring reports and standardized formats to satisfy internal and external reporting requirements. 
  </div>
 <br>
+<br>
+<div class="emphasis" markdown="1">
+  <strong>Tool Highlight</strong><br>
+  
+Process Mining, also known as Automated Business Process Discovery (ABPD), is a suite of data analysis techniques that utilizes system event logs to produce analyses and visualizations of business processes. These techniques have been proven to improve speed to insight in reviewing key processes, providing:
+
+•	Process sequence
+•	Process conformance
+•	Process cycle times
+•	Process volume
+•	Process exceptions
+
+**Directly Follows Analysis** – Describes the path articles take through the process, including time between events and volume
+
+<img src="https://slkone.com/images/Tool-Highlight-1.jpg" alt="Tool Highlight Graphic 1" width="500" class="center">
+
+**Petri Net Inducer** – Compares a defined process to an actual sequence, identifying non-conformance and non-defined steps
+
+<img src="https://slkone.com/images/Tool-Highlight-2.jpg" alt="Tool Highlight Graphic 2" width="500" class="center">
+
+ </div>
+<br>
 #### Step 4. Process Documentation
 
 After all the changes have been designed, roles assigned, and technology improvements prepared to go-live, it is easy to look back on the vast amount of work that has been completed and call the job well done. Process documentation is one of the easiest steps to complete, but often the most overlooked and is a major contributor to lack of lasting performance improvement from transformative initiatives. 
