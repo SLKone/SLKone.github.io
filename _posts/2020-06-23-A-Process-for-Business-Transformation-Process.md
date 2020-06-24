@@ -10,7 +10,7 @@ Welcome to the second article in our series, <a href="https://slkone.com/A-Proce
 
 Beyond traditional continuous improvement projects, transformations are undertaken to achieve a step change in organizational performance. But what does this mean?  Is there a universal definition that can be applied to the goal of transformations? The answer is both yes and no.
 
-<img src="https://slkone.com/images/Transformation-Meme.jpg" alt="Transformation Meme" width="500" class="center">
+<img src="https://slkone.com/images/Transformation-Meme.jpg" alt="Transformation Meme" width="300" class="center">
 
 While each organization will have a unique set of requirements for their transformation (e.g. improved agility, strategic alignment, better customer interface), the one thing all transformations have in common is a need to reduce operating costs to varying degrees and activity levels. However, this is where one of the most common pitfalls of business transformations occur. One of the highest cost line items for nearly every business is personnel costs. Naturally, the desire or need to reduce costs invariably turns to a discussion on reducing personnel. There are two levers managers can utilize to reduce cost, reduce unit cost (cost per hour), or reduce volume (hours). Strategies exist to address both, but we have found it more helpful to think in terms of work. Any initiative seeking to reduce costs in a business without first addressing how to reduce work is destined to fail.
 
