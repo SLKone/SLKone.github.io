@@ -62,7 +62,9 @@ Once all the activities are indexed, it’s time to classify them into three buc
 
 <b>Core vs. Support</b> - Does the activity exist to directly deliver products or services, or does the activity indirectly support the business?
 
-<img src="https://slkone.com/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic" width="400" class="center">
+<p align="center">
+  <img width="400" src="https://slkone.com/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic">
+</p>
 
 <b>Common Pitfalls</b>
 
@@ -84,7 +86,9 @@ Throughout our experience delivering business transformation and organization re
 
 Adding activities to a matrix of Complexity, Value-Add, and Volume will help to quickly identify potential action for activities as well as help quantify the impact those changes will have to the organization.
 
-<img src="https://slkone.com/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic" width="600" class="center">
+<p align="center">
+  <img width="600" src="https://slkone.com/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic">
+</p>
 
 <b>Common Pitfalls</b>
 
@@ -124,11 +128,15 @@ Process Mining, also known as Automated Business Process Discovery (ABPD), is a 
 
 **Directly Follows Analysis** – Describes the path articles take through the process, including time between events and volume
 
-<img src="https://slkone.com/images/Tool-Highlight-1.jpg" alt="Tool Highlight Graphic 1" width="500" class="center">
+<p align="center">
+  <img width="500" src="https://slkone.com/images/Tool-Highlight-1.jpg" alt="Tool Highlight Graphic 1">
+</p>
 
 **Petri Net Inducer** – Compares a defined process to an actual sequence, identifying non-conformance and non-defined steps
 
-<img src="https://slkone.com/images/Tool-Highlight-2.jpg" alt="Tool Highlight Graphic 2" width="500" class="center">
+<p align="center">
+  <img width="500" src="https://slkone.com/images/Tool-Highlight-2.jpg" alt="Tool Highlight Graphic 2">
+</p>
 
  </div>
 <br>
