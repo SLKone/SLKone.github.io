@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title:  "Implementing Adaptive Insights for Streamlined Reporting $200M Software As A Service"
+title:  "Implementing Adaptive Insights for Streamlined Reporting $100M Software-As-A-Service (SaaS) Company"
 industries: [Software-and-Tech]
 services-performed: [Business-Requirements, Reporting-and-Analytics-Approach-and-Design, Financial-Planning-and-Analysis]
 intro: SLKone reigned in an off-track software implementation to ensure that business requirements were met appropriately without incurring more cost; all while working harmoniously with a perturbed implementation vendor
@@ -16,13 +16,11 @@ heroimage: case-studies/Implementing-Adaptive-Insights-for-Streamlined-Reporting
 
 #### Bespoke Solutions
 - SLKone was able to bridge the gap between FP&A, Accounting, Sales, and the Vendor to make up for missed deadlines and billable hourly overages from the Vendor
-- Leveraging our prior expertise, we assisted the vendor’s developers with NetSuite and Salesforce integrations
 - In order to correct prior project mismanagement, a phased approach was implemented to ensure the highest priority items were completed first, while others were moved out 
+- SLKone worked with stakeholders and developed custom datasets to feed models in the new software
 - SLKone redesigned their level structure to expand the software’s capability for budgeting at the most granular business level of Subsidiary, Product Line, and Function
 
 #### Leading With Results
 - **SLKone corrected and implemented** a new FP&A reporting SW, which was months delayed and running extremely high on billed vendor hours **without any additional cost to the client**
 - The client now has a platform, which **consolidates** and **automates** all monthly **reporting, saving tens of hours each month** for the FP&A team
 - Furthermore, the client was able to move their entire **bottoms-up budget process within Adaptive**, bringing complete visibility across their business and creating **one source of truth** for all financials
-
-
