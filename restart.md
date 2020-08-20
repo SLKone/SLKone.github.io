@@ -6,7 +6,7 @@ heroimage: "restart-bg.jpg"
 ---
 <div id="restart-one">
 	<p class="large">The unprecedented nature of the COVID-19 pandemic, and the speed with which the contagion has spread, 
-has wrecked havoc on our lives and the economy. Across all industries, businesses did not have significant 
+has wreacked havoc on our lives and the economy. Across all industries, businesses did not have significant 
 warning and were therefore ill-equipped to deal with the consequences.</p>
 	<p class="large">Small-to-medium sized companies with lean resources have been impacted the most. Many are unclear on how to
 adapt and restart business as we return to normal or transition to a “new normal”. There are no silver bullets or magic-wand answers, but we can work through these uncharted waters together -- in our Business Restart Incubator.</p>
