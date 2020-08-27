@@ -439,6 +439,7 @@ h1#logo {
 	border-top: 4px solid $comp-color;
 	border-bottom: 4px solid $comp-color;
 	.wrap {
+		padding: 0;
 		max-height: 280px;
 		overflow: hidden;
 	}
