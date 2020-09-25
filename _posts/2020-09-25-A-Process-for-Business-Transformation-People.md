@@ -57,7 +57,6 @@ A major pitfall we see in selecting a foundation for an organizations structure 
 <b>Best Practices</b>
 
 If I had the ability to institute one un-breakable rule of organizational design, it would be to keep the customer at the center of any design discussions. This does not mean you have to mimic your customer’s structure (if you are in a B2B business), but the structure and nature of your customers should have the most significant impact on your structural decisions. The most successful organizational designs we have implemented were those that kept customers at the center of the process. Customers are of critical importance to defining organizational foundations and the holistic business strategy. If you ignore strategy in the organizational design, it makes it impossible to execute strategy and the negative impact can take various forms. For example, if your organization’s goal is to be the quickest to respond to your customer and their issues compared to your competitors, it may make more sense to decentralize key decisions in order to be more agile and responsive. On the other hand, if your strategy is to be the most cost-competitive it is often easier to achieve this through a stronger, centralized structure. Regardless of the structural foundation selected, it is critical that paths of accountability are well communicated, understood, and reinforced; this will get you further than any other aspect of organizational design.
-
 <br>
 <div class="emphasis" markdown="1">
   <strong>Key Organizational Priorities</strong><br>
@@ -93,7 +92,6 @@ If I had the ability to institute one un-breakable rule of organizational design
 </ul>
  </div>
 <br>
-
 #### Step 7. Assess Volume and Scope
 
 After defining the foundation for the organizational structure, the process turns to defining the volume of activity across the organization. The goal of this step is to define an expectation of personnel time that will be demanded by the business. A truly optimized organization must consider the volume of activity that will be undertaken by any individual role with respect to the scope of that role. Although this is often an arduous task, it is perhaps the most critical piece to designing an organizational structure that minimizes costs while not overburdening personnel. A critical component to assessing activity volume is selecting the basis of activity. The more tactical the activity, the simpler the activity metrics will be, e.g. number of invoices processed or number of POs created. As activities become more strategic, the basis of activity measurement will become far less direct and more difficult to measure, e.g. number of products or customers to assess sales activity burden. 
@@ -107,7 +105,6 @@ While interviewing every individual in an organization is not practical, it is o
 <b>Best Practices</b>
 
 In defining activity volume and scope, the best results come when you keep your eyes to the future. Activity data may need to be amended but remember a key purpose of transformations is to change how organizations work, hopefully reducing the time demanded to complete processes (through rationalization, automation, etc.). Transformations will never be fully optimized at the time of implementation. In fact, seeking that end will only cost delay, money, and frustration. As such, a best practice for organizations to take is to establish activity review and scoping as a continuous improvement processes. Establishing an activity management process will yield gains far past the transformation project, and flexible scoping will allow businesses to react quickly to an ever-evolving business environment.
-
 <br>
 <div class="emphasis" markdown="1">
   <strong>Case Study</strong><br>
@@ -117,11 +114,9 @@ In defining activity volume and scope, the best results come when you keep your 
 **Issue & Solution:** During the assessment phase, we discovered that the twelve-region structure and regional manager roles had been put into place without a defined set of responsibilities, and the number of regions created was based on traditional organization metrics.  After defining what activities the organization needed, the role to perform them, and the volume of time required, it was found that the organization had twice as many regional managers as was needed to perform the work. The organization was restructured to six regions, reducing the number of managers by the same and simplifying the internal order-to-cash process.
  </div>
 <br>
-
 #### Step 8. Creating Positions
 
 We have finally reached the point of the transformation process where positions are created. The goal for this step is to incorporate roles into positions in a way that maximizes the utilization of each individual in the organization. This includes both consideration of total time requirements and efficiency in process. Some roles will share common information requirements that make them a natural fit together, while others may not seem like an ideal fit. As the business environment becomes ever more dynamic and cycles continue to shorten, organizations need to be able to adapt and respond quickly. It’s for this reason, that we promote the concept of management by roles. The key enabler of role management is multirole positions. A constant issue we have encountered is a desire for standardization within an organization coming up against the unique business requirements and different pieces of the business experience. The common result is to create exceptions upon exceptions eventually reaching the point where the benefits of the organizational transformation are all but lost. Role standardization (separate from position standardization) allows the flexibility needed to both standardize the organization as well as respect unique business needs. Another common problem we encounter are organizations struggling to improve KPIs, such as Span of Control, Layers, etc. This issue is most often seen when attempting to apply a standardized structure to smaller markets, resulting in low spans of control. In these markets KPIs can be improved through multirole positions. 
-
 <br>
 <div class="emphasis" markdown="1">
  <img src="https://slkone.com/images/Finance-and-Accounting-Position-Map.jpg" alt="Finance and Accounting Position Map"><br>
@@ -129,7 +124,6 @@ We have finally reached the point of the transformation process where positions 
  The example above describes a role that manages both accounting and finance roles for an organization.  This view allows management to assess the responsibilities and role allocation of a position that is created.<br>
 </div>
 <br>
-
 <b>Common Pitfalls</b>
 
 Organizations hire individuals to fill positions, but positions should never be created for an individual. Rather, the roles needed should be explicitly stated and consolidated into a position. Then, and only then, should an organization seek to fill that position with a specific individual. A second pitfall happens when organizations create positions with too expansive or conservative a scope. In other words, they create positions that either have too much to do or too little to do. While it may take some adjusting to determine the proper amount of scope in a given role, organizations must constantly be seeking to “right size” scopes to the position using the position tree map above. The final common mistake we see when advising clients is indiscriminate matching of roles into positions. There are certain roles, that for efficiency would make sense to consolidate to a single position, however for control purposes it may not make sense to do so. For example, it may seem logical to combine sales with commercial roles, but it may not make sense for sales roles to also have absolute control over the commercial terms of a deal.
@@ -137,14 +131,13 @@ Organizations hire individuals to fill positions, but positions should never be 
 <b>Best Practices</b>
 
 After consolidating roles efficiently and effectively into positions, the most successful organizations will establish a process of continual evaluation of activity, scope, roles, and positions. Activity volumes will change throughout the course of business, either directly from business activity or through continuous improvement plans. The ability to quickly consider both real and prospective changes in activity allow these organizations to both respond quickly as well as improve planning. Finally, linking inputs all the way through the process, enables personnel resource planning to be taken to the next level. You have likely seen skills matrices before, but these often only provide the supply side of the equation for personnel planning. By defining competencies at the activity-level, organizations can use the transitive nature of the process to define the demand side of personnel resourcing.
-
 <br>
 <div class="emphasis" markdown="1">
  <img src="https://slkone.com/images/Skills-Matrices.jpg" alt="Skills Matrices"><br>
+ 
  The process allows for the assessment of organizational fitness with respect to the needs of the business.<br>
 </div>
 <br>
-
 #### Conclusion
 
 The key to making a business successful is to make the people in that business successful. Our process for business transformation seeks to provide this success through role clarity, ease of interactions, and ensuring the skillsets in the right positions. In order to achieve these successes , we have found in our experiences and work it is best to start with activities and work towards individuals; working in the opposite direction can lead to confusion and a suboptimal business organization. This portion of the process starts with a link to process and activities, transforming activity into roles. Once roles have been created and standardized it is important to define the possible basis for the organizational structure and then assess activity levels within the potential boundaries of the organization; roles can then be consolidated into positions. From this process transformation, leaders are provided three levers to improve business performance. The first is in the efficient consolidation of activities into roles. The second is manipulating the scope of roles to drive utilization. Finally, the third is efficient consolidation of roles into positions. 
