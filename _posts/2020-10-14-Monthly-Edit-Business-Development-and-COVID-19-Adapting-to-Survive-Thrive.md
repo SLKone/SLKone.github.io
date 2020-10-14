@@ -1,6 +1,6 @@
 ---
 layout: newsletter
-title:  "Monthly Edit: Business Development and COVID-19: Adapting to Survive Thrive"
+title:  "Monthly Edit: Business Development and COVID-19: Adapting to <strike>Survive</strike> Thrive"
 authors: [Dustin Fidaleo]
 intro: As an industry, consulting is often viewed as a discretionary expense. Hastily categorized as non-essential, our services are only correctly rebranded once business needs exceed the capabilities of current staff and clients reach out for us to drive value where others could not. That was before the pandemic.
 newsletter: October 2020 Newsletter
