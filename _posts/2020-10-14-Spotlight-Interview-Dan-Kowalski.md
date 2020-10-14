@@ -7,7 +7,7 @@ tags: [Newlsetter, Spotlight Interview]
 heroimage: posts/spotlight-dan-k.jpg
 ---
 
-##Business Development and Deliberate Thinking: An Interview with Dan Kowalski, SLKone Advisory Partner
+Business Development and Deliberate Thinking: An Interview with Dan Kowalski, SLKone Advisory Partner
 
 **Kevin Gore:** Would you tell us a little about your background and what you do?
 
