@@ -1,5 +1,5 @@
 ---
 layout: tag
 title: "Newsletters: Monthly Edits"
-tag: Monthly Edit
+tag: Monthly Edits
 ---

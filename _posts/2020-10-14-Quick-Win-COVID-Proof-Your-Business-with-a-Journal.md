@@ -4,7 +4,7 @@ title:  "Quick Win: COVID-Proof Your Business with a Journal"
 authors: [Kevin Gore]
 intro: The economy is in flux. Decision makers are faced with unforeseen circumstances, and the tried and true rules of engagement are no longer guarantees. This is a time to tread carefully with deep, deliberate thought.
 newsletter: October 2020 Newsletter
-tags: [Newsletter, October 2020 Newsletter, Quick Win]
+tags: [Newsletters, October 2020 Newsletter, Quick Wins]
 heroimage: posts/quick-win-covid-proof.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: newsletter
 title:  "Breakroom Book Review: Talking to Strangers"
 authors: [Monica Yanda]
 newsletter: October 2020 Newsletter
-tags: [Newsletter, October 2020 Newsletter, Book Review]
+tags: [Newsletters, October 2020 Newsletter, Book Reviews]
 heroimage: posts/talking-to-strangers.jpg
 ---
 

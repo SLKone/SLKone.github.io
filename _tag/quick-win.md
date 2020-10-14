@@ -1,5 +1,5 @@
 ---
 layout: tag
 title: "Newsletters: Quick Wins"
-tag: Quick Win
+tag: Quick Wins
 ---

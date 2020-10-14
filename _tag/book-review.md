@@ -1,5 +1,5 @@
 ---
 layout: tag
 title: "Newsletters: Book Reviews"
-tag: Book Review
+tag: Book Reviews
 ---

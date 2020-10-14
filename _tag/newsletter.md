@@ -1,5 +1,5 @@
 ---
 layout: tag
 title: "Newsletters"
-tag: Newsletter
+tag: Newsletters
 ---
