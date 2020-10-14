@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Process for Business Transformation: A defined approach to assess process"
+title:  "A Process for Business Transformation: A Defined Approach to Assess Process"
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: Welcome to the second article in our series, “A Process for Business Transformation”. In this article, we will address the critical initial steps of transformation. These steps are designed to establish a comprehensive understanding of the activities and processes performed through-out an organization as well as set the foundation for subsequent transformation steps.
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
