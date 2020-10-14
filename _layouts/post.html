@@ -32,7 +32,7 @@ layout: default
 			     {% endif %}
 			  {% endfor %}
 		    {% endfor %}
-		    <h6>Services</h6>
+		    <h6>Related Services</h6>
 			<ul class="services-performed">
 				{% for services-performed in page.services-performed %}
 				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
