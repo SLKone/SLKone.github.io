@@ -41,7 +41,11 @@ collections:
   advisors:
     output: true    
   careers:
-    output: true    
+    output: true 
+  newsletter:
+    output: true
+  tag:
+    output: true   
 
 defaults:
   - scope:
@@ -73,7 +77,17 @@ defaults:
       path: ""
       type: "careers"
     values:
-      layout: "career-listing"             
+      layout: "career-listing"    
+  - scope:
+      path: ""
+      type: "newsletter"
+    values:
+      layout: "newsletters" 
+  - scope:
+      path: ""
+      type: "tag"
+    values:
+      layout: "tag"                     
 
 include:
   - .htaccess

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div id="main" class="insights" role="main">			
+	{% include title-image.html %}
+	<div class="wrap content">
+		<div class="post-blocks">
+			{% for post in site.tags[page.tag] %}
+			  {% include post-block.html %}
+			{% endfor %}
+		</div>
+	</div><!-- /.wrap -->
+<div>

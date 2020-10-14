@@ -3,10 +3,10 @@
 	<a href="{{ post.url }}">
 		<div class="case-image" style="background-image:url({% if post.heroimage != empty %}{{ site.url }}/images/{{ post.heroimage }}{% else %}{{ site.url }}/images/post/{{ post-slug }}.jpg{% endif %})"></div>
 		<div class="case-meta">
-			<span>{{ post.date | date: '%B %d, %Y' }}</span>
+			<span>{% if post.newsletter %}{{ post.newsletter }}{% else %}{{ post.date | date: '%B %d, %Y' }}{% endif %}</span>{% if post.newsletter %}{% endif %}
 		</div>
 		<h4 class="case-study-title">{{ post.title }}</h4>
-	  	<div class="case-study-description">{{ post.intro | truncate: 116 }}</div>
+	  	<div class="case-study-description">{% if post.intro %}{{ post.intro | truncate: 116 }}{% else %}{{ post.content | markdownify | truncate: 116 | strip_html }}{% endif %}</div>
 	</a>
 </div>
 
