@@ -3,7 +3,7 @@ layout: newsletter
 title:  "Monthly Edit: Business Development and COVID-19: Adapting to Thrive"
 authors: [Dustin Fidaleo]
 tags: [Newsletters, October 2020 Newsletter, Monthly Edits]
-newsletter: October 2020 Newsletter
+newsletter: [October 2020 Newsletter]
 heroimage: posts/bd-and-covid.jpeg
 ---
 

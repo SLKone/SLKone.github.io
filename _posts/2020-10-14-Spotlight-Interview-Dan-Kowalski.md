@@ -2,7 +2,7 @@
 layout: newsletter
 title:  "Spotlight Interview: Dan Kowalski"
 authors: [Kevin Gore]
-newsletter: October 2020 Newsletter
+newsletter: [October 2020 Newsletter]
 tags: [Newsletters, October 2020 Newsletter, Spotlight Interviews]
 heroimage: posts/spotlight-dan-k.jpg
 ---
