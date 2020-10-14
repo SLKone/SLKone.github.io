@@ -4,7 +4,7 @@ title:  "Industry Insight: What Does Cash Management Actually Mean?"
 authors: [Dustin Fidaleo]
 intro: We’ve all heard the phrase, “cash is king”, representing a simple, yet widely misconstrued concept -- cultivation of cash. You would think that a business with a solid model would inevitably grow their cash base over time and ride off into the sunset, but the COVID crisis has exposed businesses around the world for having poor cash management processes. The good news is we’re here to help.
 newsletter: October 2020 Newsletter
-tags: [Newsletter, Industry Insight]
+tags: [Newsletter, October 2020 Newsletter, Industry Insight]
 heroimage: posts/cash-management.jpg
 ---
 
