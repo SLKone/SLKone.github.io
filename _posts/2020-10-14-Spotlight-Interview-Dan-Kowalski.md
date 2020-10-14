@@ -45,7 +45,7 @@ So, Deliberate Thinking is not a new skill. What is new is the ability to rapidl
 
 **KG:** So, if you were the CEO of a mid-sized company in the current environment, what do you see as major challenges to acquiring clients?
 
-**DK:** Well, it depends upon the business. Earlier we were discussing with our advisory group that there are four buckets of businesses.
+**DK:** Well, it depends upon the business. Earlier we were discussing with our <a href="https://slkone.com/advisory-partners/">advisory group</a> that there are four buckets of businesses.
 
 Bucket one consists of those businesses which are becoming irrelevant because consumers are beginning to realize they are unnecessary in the face of alternatives. For example, movie theaters are going to be in big trouble.
 Buckets two, three and four, while different, are similar because they will stay in business.
