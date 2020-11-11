@@ -4,7 +4,7 @@ title:  "Spotlight Interview: Dan Kowalski"
 authors: [Kevin Gore]
 newsletter: [October 2020 Newsletter]
 tags: [Newsletters, October 2020 Newsletter, Spotlight Interviews]
-heroimage: posts/spotlight-dan-k.jpg
+heroimage: posts/spotlight-dan-kowalski.jpg
 ---
 
 Business Development and Deliberate Thinking: An Interview with Dan Kowalski, SLKone Advisory Partner
