@@ -4,7 +4,7 @@ title:  "Monthly Edit: Onward & Upward in the Face of Uncertainty"
 authors: [Emily Cowperthwaite]
 tags: [Newsletters, November 2020 Newsletter, Monthly Edits]
 newsletter: [November 2020 Newsletter]
-heroimage: posts/onward-upward.jpeg
+heroimage: posts/onward-upward.jpg
 ---
 
 Instead of focusing on the undeniable strain that COVID-19 has put on the global economy and its businesses since March of this year, we want to take a moment to share some positive observations as we enter the fourth quarter.
