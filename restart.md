@@ -68,10 +68,11 @@ objectives are met, countermeasures implemented as needed, and business restarts
 			<p class="large"> Check out the spotlights below for a deeper understanding of what the Business Restart Incubator could do for your company:</p>
 		<div class="post-blocks">
 		  {% for post in site.posts %}
-			  {% if post.category %}
+			  {% if post.categories contains 'Restart' %}
 			    {% include post-block.html %}
 			{% endif %}
 		  {% endfor %}
+    </div>
 </div>
 <div id="restart-five">
 	<p class="large">In this challenging economic climate, SLKone chooses to partner with our clients thorugh a fit-for-purpose
