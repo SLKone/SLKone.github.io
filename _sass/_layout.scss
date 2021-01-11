@@ -675,3 +675,9 @@ h1#logo {
 }
 
 
+body .b24-form {
+  font-family: "franklin-gothic-urw",sans-serif !important;
+  .b24-form-btn-block {
+    @extend .btn-filled;
+  }
+}
