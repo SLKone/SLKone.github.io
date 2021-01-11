@@ -675,8 +675,13 @@ h1#logo {
 
 
 body .b24-form {
+  padding-top: 32px;
+  padding-bottom: 32px;
   .b24-form-header-title, .b24-form-header-description, input  {
   font-family: "franklin-gothic-urw",sans-serif !important;
+  }
+  .b24-form-header-title {
+    font: 500 24px/33px "franklin-gothic-urw",sans-serif !important;
   }
   .b24-form-btn {
     @extend .btn-filled;
