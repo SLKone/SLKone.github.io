@@ -680,4 +680,7 @@ body .b24-form {
   .b24-form-btn-block {
     @extend .btn-filled;
   }
+  .b24-form-sign {
+    display: none !important;
+  }
 }
