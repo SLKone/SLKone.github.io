@@ -19,9 +19,9 @@ As we’ve all seen in the recent news, Pfizer’s COVID-19 vaccine is proving 9
 
 All the above is proof that even when things seem most grim, there is still opportunity for positive change in all aspects of life, perhaps especially in business. Sometimes though, the path towards success and enduring growth can seem tricky to navigate. That’s where we come in. SLKone’s expert team can help guide your company through processes to not only assess and improve your existing business practices, but also come up with new strategies that will ensure lasting success. Whatever the problem, <a href="https://slkone.com/">SLKone</a> has a bespoke solution for you.
 
-<sup>1</sup><a href="https://bit.ly/2JQbxCy">US SEC</a>; <a href="https://bloom.bg/3kpvxbM">Bloomberg News</a>
-<sup>2</sup><a href="https://bit.ly/2Ueuj8R">Business Insider</a>
-<sup>3</sup><a href="https://bloom.bg/3pj8bbs">Bloomberg News</a>; <a href="https://on.wsj.com/32xPI12">The Wall Street Journal</a>
-<sup>4</sup><a href="https://bit.ly/2JYbkgS">S&P Global Market Intelligence</a>
-<sup>5</sup><a href="https://on.wsj.com/32AOqCD">The Wall Street Journal</a>
+<sup>1</sup><a href="https://bit.ly/2JQbxCy">US SEC</a>; <a href="https://bloom.bg/3kpvxbM">Bloomberg News</a><br>
+<sup>2</sup><a href="https://bit.ly/2Ueuj8R">Business Insider</a><br>
+<sup>3</sup><a href="https://bloom.bg/3pj8bbs">Bloomberg News</a>; <a href="https://on.wsj.com/32xPI12">The Wall Street Journal</a><br>
+<sup>4</sup><a href="https://bit.ly/2JYbkgS">S&P Global Market Intelligence</a><br>
+<sup>5</sup><a href="https://on.wsj.com/32AOqCD">The Wall Street Journal</a><br>
 <sup>6</sup><a href="https://bit.ly/2UgFVrZ">World Oil</a>
