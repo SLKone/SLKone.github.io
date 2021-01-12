@@ -30,6 +30,6 @@ New in-demand offerings will exist for designing organizations around the hybrid
 
 SLKone has been employing a hybrid model since its inception and sees it as the future of consulting. We believed we could sustain productivity while driving down costs for our clients and the pandemic allowed us to test that model. The mixed results on productivity and social impact make a fully remote model unsustainable, thus the hybrid model presents the best of both worlds. If your business needs help adjusting to a post-pandemic world, please check out <a href="https://slkone.com/restart/">SLKone’s Business Restart Incubator</a>.
 
-<sup>1</sup><a href="https://nyti.ms/2IQ9rm6">The New York Times</a>
-<sup>2</sup><a href="https://on.bcg.com/3qYwCf8">BCG</a>
+<sup>1</sup><a href="https://nyti.ms/2IQ9rm6">The New York Times</a><br>
+<sup>2</sup><a href="https://on.bcg.com/3qYwCf8">BCG</a><br>
 <sup>3</sup><a href="https://bit.ly/3gNzGpQ">Consultancy.eu</a>
