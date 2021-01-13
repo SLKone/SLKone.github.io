@@ -135,7 +135,7 @@ Good blueprints are drafted in coordination with change and communication manage
 
 Transformation efforts succeed when the blueprint becomes a safe environment for two-way communication versus a one-way mouthpiece for the leadership. Getting employee feedback on the blueprint and acknowledging this feedback through blogs and other forms of outreach is a productive approach that improves the success of the transformation in the implementation phase and keeps all stakeholders at ease.   
 
-<img src="https://slkone.com/images/driving-business-performance.jpg" alt="Successful Transformations Chart">
+<img src="https://slkone.com/images/driving-business-performance.JPG" alt="Successful Transformations Chart">
 
 #### Conclusion
 
