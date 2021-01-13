@@ -42,8 +42,8 @@ What exactly defines a technology gap? From an internal perspective, system gaps
   <li>Control – Increased oversight of the activity</li>
   <li>Quality – Improved reliability and first time pass rate</li>
  </ul>
-</div><br>
-Answering these questions will provide direction as to which activities will benefit most from digitization and what exact form of digital improvement is required to make the change. 
+</div>
+Answering these questions will provide direction as to which activities will benefit most from digitization and what exact form of digital improvement is required to make the change. <br>
 
 <b>Common Pitfalls</b>
 
