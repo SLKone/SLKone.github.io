@@ -33,18 +33,16 @@ What exactly defines a technology gap? From an internal perspective, system gaps
 2.	Who needs to provide inputs and have access to the system and activity outputs?<br>
 3.	How will a digital solution improve the performance of the activity?<br> 
 4.	What is the cost to the organization to perform those activities?<br>
-5.	What is the value proposition to digitize an activity?
-<br>
+5.	What is the value proposition to digitize an activity?<br>
 <div class="emphasis" markdown="1">
-  <strong>Activity Improvement Metrics</strong><br>
+  <strong>Activity Improvement Metrics</strong><br><br>
  <ul> 
   <li>Throughput – Number of activity units processed</li>
   <li>Cycle Time – Total time to perform a unit of activity</li>
   <li>Control – Increased oversight of the activity</li>
   <li>Quality – Improved reliability and first time pass rate</li>
  </ul>
-</div>
-<br>
+</div><br>
 Answering these questions will provide direction as to which activities will benefit most from digitization and what exact form of digital improvement is required to make the change. 
 
 <b>Common Pitfalls</b>
