@@ -14,7 +14,9 @@ What stood out was the focus on the emotional aspect of becoming a CEO. While Be
 Below are a few interesting snippets that I enjoyed:
 
 •	Statistics versus calculus to explain problem solving as a founder: Statistics assesses probability of outcomes. Calculus provides the means of achieving an outcome. In business if you need to find an answer, you got to find it irrespective of odds of finding it. Founders prefer calculus.<br>
+
 •	The importance of training your people and integrating them: As a consultant, we see many organizations who do not sufficiently invest in training. The result is high turn-over, lower quality products and services, and reduced customer satisfaction. For anyone reading this, train your people and make it an integral part of your organization’s culture. <br>
+
 •	Lead bullets versus silver bullets to overcome seemingly insurmountable challenges: There comes a time in every organization where they are at a cross-roads and survival depends on hitting the proverbial bullseye. There are no more simple solutions, and the organization must focus all its effort on sustainable product and service innovations to survive. 
 
 In conclusion, this book is made for CEO’s or those who aspire to be CEO’s. Like most positions of power, the skills required to achieve power and those required to maintain it are very different. Ben’s practical advice may be repetitive for business school graduates or industry professionals. However, his candid assessment of the emotional toll of leading multiple companies through IPO’s and successful exits is a breath of fresh air. 
