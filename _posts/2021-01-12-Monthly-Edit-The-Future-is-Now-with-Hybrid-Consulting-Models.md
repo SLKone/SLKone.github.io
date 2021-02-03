@@ -6,7 +6,7 @@ tags: [Newsletters, January 2021 Newsletter, Monthly Edits]
 newsletter: [January 2021 Newsletter]
 heroimage: posts/hybrid-consulting.jpg
 ---
-The architype of a consultant is one of a road warrior. Wake up early on a Monday morning to catch a flight only to return late Thursday or Friday after spending countless hours on a client-site. It has been a badge of honor that I liken to a militaristic mindset of “only being happy only when you’re miserable”. However, that is not the SLKone model, and that differentiator is what attracted me to this organization in the first place. 
+The archetype of a consultant is one of a road warrior. Wake up early on a Monday morning to catch a flight only to return late Thursday or Friday after spending countless hours on a client-site. It has been a badge of honor that I liken to a militaristic mindset of “only being happy only when you’re miserable”. However, that is not the SLKone model, and that differentiator is what attracted me to this organization in the first place. 
 
 I remember sitting at the information session while our COO, Phil Lynch, explained that we that we travel as needed and what drives value is collaboration of effective teams, not how many hours you spend on-site. It is also the basis for why we favor fixed-fee projects. I took that to heart and believe in this model but had always wondered how we could test the validity of that approach. Then, the 2019 pandemic hit, and we found ourselves in a new, albeit extreme, normal. This article examines the impact of COVID-19 on the traditional consulting model and makes the case for why the “hybrid” model is the future of the industry. It also discusses the impact to service delivery and product offerings.
 
