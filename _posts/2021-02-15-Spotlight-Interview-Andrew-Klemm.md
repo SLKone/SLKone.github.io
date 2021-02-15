@@ -67,7 +67,7 @@ AK: Not necessarily the most common but certainly the most impactful is failing 
 
 AK: There will be a change in decision making, but an organization needs to establish a project management office (PMO) that manages through it. The PMO needs a peer or a direct report to management but requires a level of autonomy that can weather the storm of leadership changes. The key is to keep the number of decision makers as small as possible during a transformation. While you will need decision makers and there can be turnover, the PMO office provides longevity and continuity to business transformations.
 
-Q: Anything we didn’t include that we should have?
+**Q: Anything we didn’t include that we should have?**
 
 AK: I would just emphasize the importance of evaluating activities and process at the beginning of a transformation. From my experience, this is the most difficult area to quantify improvement potential, but typically has the most significant impact on a business. Sure, you can always remove headcount, but that’s just a one-time benefit. And, if done incorrectly, it is also a long-term detriment to the organization. By focusing on the processes and rationalizing activities, organizations can make sustainable positive change.
 
