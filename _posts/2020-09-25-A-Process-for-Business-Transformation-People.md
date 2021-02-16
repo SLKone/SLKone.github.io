@@ -120,9 +120,9 @@ In defining activity volume and scope, the best results come when you keep your 
 We have finally reached the point of the transformation process where positions are created. The goal for this step is to incorporate roles into positions in a way that maximizes the utilization of each individual in the organization. This includes both consideration of total time requirements and efficiency in process. Some roles will share common information requirements that make them a natural fit together, while others may not seem like an ideal fit. As the business environment becomes ever more dynamic and cycles continue to shorten, organizations need to be able to adapt and respond quickly. It’s for this reason, that we promote the concept of management by roles. The key enabler of role management is multirole positions. A constant issue we have encountered is a desire for standardization within an organization coming up against the unique business requirements and different pieces of the business experience. The common result is to create exceptions upon exceptions eventually reaching the point where the benefits of the organizational transformation are all but lost. Role standardization (separate from position standardization) allows the flexibility needed to both standardize the organization as well as respect unique business needs. Another common problem we encounter are organizations struggling to improve KPIs, such as Span of Control, Layers, etc. This issue is most often seen when attempting to apply a standardized structure to smaller markets, resulting in low spans of control. In these markets KPIs can be improved through multirole positions. 
 <br>
 <div class="emphasis" markdown="1">
- <p align="center"><img src="https://slkone.com/images/Finance-and-Accounting-Position-Map.jpg" alt="Finance and Accounting Position Map"></p><br>
+ <p align="center"><img src="https://slkone.com/images/Finance-and-Accounting-Position-Map.jpg" alt="Finance and Accounting Position Map"><br>
  
- The example above describes a role that manages both accounting and finance roles for an organization.  This view allows management to assess the responsibilities and role allocation of a position that is created.<br>
+ The example above describes a role that manages both accounting and finance roles for an organization.  This view allows management to assess the responsibilities and role allocation of a position that is created.</p><br>
 </div>
 <br>
 <b>Common Pitfalls</b>
@@ -134,9 +134,9 @@ Organizations hire individuals to fill positions, but positions should never be 
 After consolidating roles efficiently and effectively into positions, the most successful organizations will establish a process of continual evaluation of activity, scope, roles, and positions. Activity volumes will change throughout the course of business, either directly from business activity or through continuous improvement plans. The ability to quickly consider both real and prospective changes in activity allow these organizations to both respond quickly as well as improve planning. Finally, linking inputs all the way through the process, enables personnel resource planning to be taken to the next level. You have likely seen skills matrices before, but these often only provide the supply side of the equation for personnel planning. By defining competencies at the activity-level, organizations can use the transitive nature of the process to define the demand side of personnel resourcing.
 <br>
 <div class="emphasis" markdown="1">
- <p align="center"><img src="https://slkone.com/images/Skills-Matrices.jpg" alt="Skills Matrices"></p><br>
+ <p align="center"><img src="https://slkone.com/images/Skills-Matrices.jpg" alt="Skills Matrices"><br>
  
- The process allows for the assessment of organizational fitness with respect to the needs of the business.<br>
+ The process allows for the assessment of organizational fitness with respect to the needs of the business.</p><br>
 </div>
 <br>
 #### Conclusion
