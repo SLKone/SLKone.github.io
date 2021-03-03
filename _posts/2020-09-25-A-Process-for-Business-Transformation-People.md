@@ -143,7 +143,10 @@ After consolidating roles efficiently and effectively into positions, the most s
 
 The key to making a business successful is to make the people in that business successful. Our process for business transformation seeks to provide this success through role clarity, ease of interactions, and ensuring the skillsets in the right positions. In order to achieve these successes , we have found in our experiences and work it is best to start with activities and work towards individuals; working in the opposite direction can lead to confusion and a suboptimal business organization. This portion of the process starts with a link to process and activities, transforming activity into roles. Once roles have been created and standardized it is important to define the possible basis for the organizational structure and then assess activity levels within the potential boundaries of the organization; roles can then be consolidated into positions. From this process transformation, leaders are provided three levers to improve business performance. The first is in the efficient consolidation of activities into roles. The second is manipulating the scope of roles to drive utilization. Finally, the third is efficient consolidation of roles into positions. 
 
-In our next installment of this article series, we will address the considerations for technology, systems, and tools in “A Process for Business Transformation”.
+In our next installment, we will address the considerations for technology, systems, and tools in “A Process for Business Transformation”.
+
+<a href="https://slkone.com/A-Process-for-Business-Transformation-Systems/">Read the final article in this series: Enabling Process and People with Digital Transformation</a>
+
 ___
 
 <a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-People_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
