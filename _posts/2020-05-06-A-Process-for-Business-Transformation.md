@@ -4,6 +4,7 @@ title:  "A Process for Business Transformation"
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: Focusing the energy of transformation through a process approach
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
+tags: [February 2021 Newsletter]
 heroimage: posts/A-Process-for-Business-Transformation.jpg
 tag: [Article]
 ---
