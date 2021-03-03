@@ -108,6 +108,7 @@ The series of articles to follow will explore each of the Business Transformatio
 
 Times of crisis provide a natural point to pursue step-change improvements to a business. It is our hope that this series of thought leadership articles will not only provide a high-level guide to achieve these goals, but also share experience and knowledge to support business transformations as management teams begin to plan and pursue transformation projects of their own.
 
+<a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">Read the next article in this series: A Defined Approach to Assess Process</a>
 ___
 
 <a href="https://slkone.com/files/SLKone_Article_Successful-Transformation-Intro_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
