@@ -108,6 +108,9 @@ In Part Three, we will assess the impact of the changes to “normal” business
 
 We must assess whether our current methods will work or if we must adjust – both at the Private Equity Sponsor level and at the Portfolio Company level. 
 
+<a href="https://slkone.com/Think-Forward-Part-Three/">Read Think. Forward! Part Three</a><br><br>
+<a href="https://slkone.com/Spotlight-Interview-Dan-Kowalski/">Check out our interview with the article author, Dan Kowalski</a>
+
 ___
 
 <a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part2_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
