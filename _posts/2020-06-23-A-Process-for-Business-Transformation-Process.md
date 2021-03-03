@@ -172,6 +172,9 @@ The goal for transformation projects goes beyond short term cost cutting; they s
 In order to create sustainable transformation in business leadership, teams need to start by reviewing the activities and work that is performed by the organization. Only by reducing the work, and the effort required to perform this work, can true evolutionary change occur. Process and activity considerations have been placed at the beginning of the transformation timeline for this reason. The first three steps are designed to provide the foundation for the entire transformation while the last establishes a new regime of continuous improvement.
 
 Our next article in this transformation series will link process and activities to human capital, realizing additional opportunities by creating roles, and driving utilization of personnel through intentional scoping of positions.
+
+<a href="https://slkone.com/A-Process-for-Business-Transformation-People/">Read the next article in this series: Making the Link from Activities to Roles to People</a>
+
 ___
 
 <a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-Process_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
