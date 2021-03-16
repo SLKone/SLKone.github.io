@@ -78,7 +78,7 @@ For organizations looking to procure tools, there are some great vendors doing a
 Bottomline, we can help no matter where you are in your process mining journey. <a href="https://slkone.com/contact/">Reach out to learn more</a>.
 
 
-<sup>1</sup><a href="https://gtnr.it/38q0zgC">Gartner, Market Guide for Process Mining</a><br>
+<sup>1</sup><a href="https://gtnr.it/38q0zgC" target="_blank">Gartner, Market Guide for Process Mining</a><br>
 <sup>2</sup><a href="https://research.aimultiple.com/process-mining-stats/">AI Multiple, 20 Process Mining Statistics</a><br>
 <sup>3</sup><a href="https://en.wikipedia.org/wiki/Process_mining">Wikipedia, Process mining</a><br>
 <sup>4</sup><a href="https://bupar.net/processmaps.html">bupaR, Process Maps</a><br>
