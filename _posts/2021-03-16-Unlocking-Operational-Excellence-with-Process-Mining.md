@@ -36,12 +36,12 @@ Process mining enhancement techniques assess the value of process automation bec
 
 Process mining is a family of techniques in the field of process management that support the analysis of business processes based on event logs readily available in today’s information technology (IT) systems.<sup>3</sup> Every organization has business activities that make up a process. Those processes may be supported by Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), and Supply Chain Execution (SCE) software and generate event, audit, or history logs. Those logs can be used to visualize process maps of activity frequency and cycle times. By leveraging the data which is available in these logs, the process mining can begin. 
 
-<img src="processmining-figure1.jpg" alt="Process Mining Figure 1">
+<img src="https://slkone.com/images/processmining-figure1.jpg" alt="Process Mining Figure 1">
 
 The primary visuals created by process mining are used to generate hypothesis driven questions, faster, for further analysis and root-cause identification.<sup>4</sup> Moreover, process mining vendors are working on tools that help diagnose process issues with minimal human intervention.
 
-<img src="processmining-figure2.jpg" alt="Process Mining Figure 2"><br>
-<img src="processmining-figure3.jpg" alt="Process Mining Figure 3">
+<img src="https://slkone.com/images/processmining-figure2.jpg" alt="Process Mining Figure 2"><br>
+<img src="https://slkone.com/images/processmining-figure3.jpg" alt="Process Mining Figure 3">
 
 The three primary process mining techniques are discovery, conformance, and enhancement. Discovery is a set of techniques that manually or automatically construct a representation of an organization’s current business processes and its major process variations.<sup>5</sup> Conformance is a family of techniques to compare a process model with an event log of the same process. It is used to check if the actual execution of a business process, as recorded in the event log, conforms to the model or vice-versa.<sup>6</sup> Enhancement describes the analysis of a data-driven process model for optimization potential.<sup>7</sup>
 
@@ -51,7 +51,7 @@ Process mining helps organizations reduce time to insight. Historically, process
 
 SLKone implemented process mining with a medical equipment services provider for a process improvement implementation evaluation.  We experienced significant increase in the time to insights through process discovery prior to the interview process. Additionally, we saw improvements in the breadth and scope of interviews because we had quantitative ammunition. We estimate we can reduce the overall engagement length of future projects by 25%. Below are some of the results obtained from process mining.
 
-<img src="processmining-figure4.jpg" alt="Process Mining Figure 4">
+<img src="https://slkone.com/images/processmining-figure4.jpg" alt="Process Mining Figure 4">
 
 #### Assessing process mining readiness
 
@@ -90,4 +90,4 @@ Bottomline, we can help no matter where you are in your process mining journey. 
 
 ___
 
-<a href="SLKone_Article_Process-Mining_2021.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Process-Mining_2021.pdf" class="btn-filled">Download this Article as a PDF</a>
