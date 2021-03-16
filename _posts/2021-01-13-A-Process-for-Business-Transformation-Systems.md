@@ -4,7 +4,7 @@ title:  "A Process for Business Transformation: Enabling Process and People with
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: This is the fourth and final article of our “Process for Business Transformation” series continues to explore the best avenues for satisfying activity demands, bringing us to digital transformation.  
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
-tag: [Article]
+tag: [Article, February 2021 Newsletter]
 heroimage: posts/A-Process-for-Business-Transformation-Systems.jpg
 ---
 This is the fourth and final installment of our “Process for Business Transformation” series. If you’ve not already read the earlier installments, our introductory article can be found <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and additional supporting articles on process and people can be found <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a> and <a href="https://slkone.com/A-Process-for-Business-Transformation-People/">here</a>. 
