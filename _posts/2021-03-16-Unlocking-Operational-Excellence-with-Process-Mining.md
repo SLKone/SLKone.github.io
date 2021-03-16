@@ -79,12 +79,12 @@ Bottomline, we can help no matter where you are in your process mining journey. 
 
 
 <sup>1</sup><a href="https://gtnr.it/38q0zgC" target="_blank">Gartner, Market Guide for Process Mining</a><br>
-<sup>2</sup><a href="https://research.aimultiple.com/process-mining-stats/">AI Multiple, 20 Process Mining Statistics</a><br>
-<sup>3</sup><a href="https://en.wikipedia.org/wiki/Process_mining">Wikipedia, Process mining</a><br>
-<sup>4</sup><a href="https://bupar.net/processmaps.html">bupaR, Process Maps</a><br>
-<sup>5</sup><a href="https://bit.ly/3qYUdvO">Wikipedia, Business process discovery</a><br>
-<sup>6</sup><a href="https://en.wikipedia.org/wiki/Conformance_checking">Wikipedia, Conformance checking</a><br>
-<sup>7</sup><a href="https://bit.ly/3r7xuh6">Lana, Model Enhancement</a><br>
+<sup>2</sup><a href="https://research.aimultiple.com/process-mining-stats/" target="_blank">AI Multiple, 20 Process Mining Statistics</a><br>
+<sup>3</sup><a href="https://en.wikipedia.org/wiki/Process_mining" target="_blank">Wikipedia, Process mining</a><br>
+<sup>4</sup><a href="https://bupar.net/processmaps.html" target="_blank">bupaR, Process Maps</a><br>
+<sup>5</sup><a href="https://bit.ly/3qYUdvO" target="_blank">Wikipedia, Business process discovery</a><br>
+<sup>6</sup><a href="https://en.wikipedia.org/wiki/Conformance_checking" target="_blank">Wikipedia, Conformance checking</a><br>
+<sup>7</sup><a href="https://bit.ly/3r7xuh6" target="_blank">Lana, Model Enhancement</a><br>
 
 ___
 
