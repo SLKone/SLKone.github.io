@@ -11,13 +11,13 @@ This month, we decided to mix it up. Instead of reading a book on leadership, we
 
 From the list of 50, we narrowed down to our top choices in the categories of most likely to read, most relevant to business, and most surprising: 
 
-•	<b>Most Likely to Read</b>: <i>Dereliction of Duty: Johnson, McNamara, the Joint Chiefs of Staff, and the Lies That Led to Vietnam</i> by H. R. McMaster
+•	<b>Most Likely to Read:</b> <i>Dereliction of Duty: Johnson, McNamara, the Joint Chiefs of Staff, and the Lies That Led to Vietnam</i> by H. R. McMaster
 Vietnam is a controversial war that cost countless American lives. H. R. McMaster takes an in-depth look at why America became involved in Vietnam, ultimately concluding that, “The war in Vietnam was not lost in the field, nor was it lost on the front pages of the New York Times or the college campuses. It was lost in Washington D.C.”<br>
 
-•	<b>Most Relevant to Business</b>: <i>Hope Is Not a Method: What Business Leaders Can Learn from America’s Army</i> by Gen. Gordon R. Sullivan and Col. Michael Harper
+•	<b>Most Relevant to Business:</b> <i>Hope Is Not a Method: What Business Leaders Can Learn from America’s Army</i> by Gen. Gordon R. Sullivan and Col. Michael Harper
 This book is composed of a series of case studies exploring the task of reorganizing the American military following the Cold War, a daunting task to say the least. The key  takeaway can be conveyed through a single quote: “The challenge for the leader is not to ‘get it exactly right,’ because there is no ‘it.’ The challenge is to become ‘good enough’: good enough to seize and exploit developing opportunities, good enough to deploy our forces more rapidly than competitors, good enough to get it ‘about right’ in execution.”<br> 
 
-•	<b>Most Surprising</b>: <i>To Kill a Mockingbird</i> by Harper Lee
+•	<b>Most Surprising:</b> <i>To Kill a Mockingbird</i> by Harper Lee
 We were initially surprised to find a work of fiction about a family living in the segregated South on a top-50 book list for leaders. However, Stavridis’ explanation of why this text is favored is eye-opening and inspiring. For leaders, the book is a case study on morality and why doing the “hard right thing” is always better than the “easy wrong thing.”<br>
 
 Not surprisingly, most of this list is comprised of non-fiction works about war-time generals and presidents which left most of us disappointed as we’d hoped to find more unanticipated titles. That said, we did pick up a few lessons regarding why we should make reading a priority in our lives and how we can do so:
