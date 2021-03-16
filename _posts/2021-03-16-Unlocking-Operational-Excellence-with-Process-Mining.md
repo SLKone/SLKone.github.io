@@ -61,7 +61,7 @@ Assuming your organization has sufficient process mining and data cleaning capab
 
 Tools are solutions from process mining software providers that can be implemented across functions or at scale. SLKone has developed a framework to help organizations assess their readiness. It naturally follows the three primary use cases (business process improvement, audit and conformance, process automation) across the three techniques (discovery, conformance, and enhancements). The italicized text in the figure below represents the activities required to move from low to high across process and systems maturity. 
 
-<img src="processmining-figure5.jpg" alt="Process Mining Figure 5">
+<img src="https://slkone.com/images/processmining-figure5.jpg" alt="Process Mining Figure 5">
 
 #### How we can help
 
