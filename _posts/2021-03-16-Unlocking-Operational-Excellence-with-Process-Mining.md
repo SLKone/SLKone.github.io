@@ -55,7 +55,7 @@ SLKone implemented process mining with a medical equipment services provider for
 
 #### Assessing process mining readiness
 
-The organization, first and foremost, must determine if they have sufficient internal process mining and data cleansing capabilities. According to PwC, top challenges preventing the adoption of process mining are unavailability of process mining tooling or expertise (52%), limited focus due to a missing process function (33%), and a complex IT landscape (30%).<sup>8</sup> According to Gartner, 80% of the efforts and time are spent on locating, selecting, extracting, and transforming the process data. The time needed to apply process mining is short when the data are there.<sup>9</sup>
+The organization, first and foremost, must determine if they have sufficient internal process mining and data cleansing capabilities. According to PwC, top challenges preventing the adoption of process mining are unavailability of process mining tooling or expertise (52%), limited focus due to a missing process function (33%), and a complex IT landscape (30%). According to Gartner, 80% of the efforts and time are spent on locating, selecting, extracting, and transforming the process data. The time needed to apply process mining is short when the data are there.
 
 Assuming your organization has sufficient process mining and data cleaning capabilities, it is important to determine the maturity across business processes and supporting systems. Mature business processes mean the organization has standardized and documented processes that serve as the benchmark for conformance with clear inputs, outputs, and metrics. Mature systems mean the organization has technology that support and track all activities. Measuring your organization along each scale will help dictate how ready the organization is for process mining insights or tools. Insights leverage process mining as an analysis tool to drive actionable value. 
 
@@ -85,8 +85,6 @@ Bottomline, we can help no matter where you are in your process mining journey. 
 <sup>5</sup><a href="https://bit.ly/3qYUdvO">Wikipedia, Business process discovery</a><br>
 <sup>6</sup><a href="https://en.wikipedia.org/wiki/Conformance_checking">Wikipedia, Conformance checking</a><br>
 <sup>7</sup><a href="https://bit.ly/3r7xuh6">Lana, Model Enhancement</a><br>
-<sup>8</sup><a href="https://research.aimultiple.com/process-mining-stats/">AI Multiple, 20 Process Mining Statistics</a><br>
-<sup>9</sup><a href="https://gtnr.it/38q0zgC">Gartner, Market Guide for Process Mining</a><br>
 
 ___
 
