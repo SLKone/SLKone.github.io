@@ -88,4 +88,4 @@ Bottomline, we can help no matter where you are in your process mining journey. 
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Process-Mining_2021.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Process-Mining_2021.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
