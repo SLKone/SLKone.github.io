@@ -4,7 +4,7 @@ title:  "Monthly Edit: Do You Know Why You're Doing That?"
 authors: [Phil Lynch]
 tags: [Newsletters, March 2021 Newsletter, Monthly Edits]
 newsletter: [March 2021 Newsletter]
-heroimage: posts/why-are-you-doing-that.jpg
+heroimage: posts/why-are-you-doing-that.jpeg
 ---
 At SLKone, we’re big fans and proponents of process. With smart, routine processes in place, organizations can drive efficiency through standardization to save time, eliminate errors, and create lasting impressions on customers, thereby setting themselves up for success. As such, process is one of the first things we ask about when working through any business challenge or consideration. You can find further evidence of our passion for process in our newsletters and website, where we’ve examined the topic at length, including reviews on process mining and proper implementation. This piece, however, is intended to challenge our thoughts in a different way.
 
