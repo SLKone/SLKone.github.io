@@ -4,7 +4,7 @@ title:  "A Process for Business Transformation: Making the Link from Activities 
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: Welcome to the third installment in our series, “A Process for Business Transformation”. In previous installments, we addressed the importance of understanding the value-add activities required to run a business, in other words, “what we need to do”. Having established the base understanding of the activity environment, this transformation is ready to take its next steps.
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
-tag: [Article]
+tag: [Article, February 2021 Newsletter]
 heroimage: posts/A-Process-for-Business-Transformation-People.jpg
 ---
 Welcome to the third installment in our series, “A Process for Business Transformation”. If you have not done so already, you can read our introduction article <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and our second article, outlining Step 1 through Step 4, <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a>. In these previous installments, we addressed the importance of understanding the value-add activities required to run a business, in other words, “what we need to do”. Having established the base understanding of the activity environment, this transformation is ready to take its next steps.
