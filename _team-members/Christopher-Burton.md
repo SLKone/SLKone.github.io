@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Christopher Burton"
 job-title: Engagement Manager
-order: 4
+order: 5
 skills:
 - Operational Excellence & Execution
 - Revenue & Sales
