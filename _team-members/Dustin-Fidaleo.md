@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Dustin Fidaleo"
 job-title: Engagement Manager
-order: 5
+order: 6
 skills:
 - Finance & Accounting
 - Data, Analytics, & Information Technology
