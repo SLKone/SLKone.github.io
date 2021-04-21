@@ -437,15 +437,10 @@ h1#logo {
 }
 
 .newsletter {
-	padding: 0px 0px;
 	background: $white;
 	margin-bottom: 32px;
 	border-top: 4px solid $comp-color;
 	border-bottom: 4px solid $comp-color;
-	.wrap {
-		max-height: 380px;
-		overflow: hidden;
-	}
 }
 
 
