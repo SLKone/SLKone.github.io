@@ -177,4 +177,4 @@ Our next article in this transformation series will link process and activities 
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-Process_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-Process_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
