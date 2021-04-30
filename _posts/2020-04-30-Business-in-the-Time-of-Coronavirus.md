@@ -55,4 +55,4 @@ At SLKone, we understand that while this may all make sense on paper, it’s cer
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Business-in-the-Time-of-Coronavirus_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Business-in-the-Time-of-Coronavirus_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
