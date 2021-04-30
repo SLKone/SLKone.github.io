@@ -63,4 +63,4 @@ We all have the ability to think deliberately but need help because of our bias 
 
 ___
 
-<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part4_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part4_PE focused_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
