@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Andrew Conquest"
 job-title: Managing Consultant
-order: 10
+order: 7
 skills:
 - Finance & Accounting
 - Organizations & Human Capital
