@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Monica Yanda"
 job-title: Business Manager
-order: 11
+order: 10
 skills:
 - Office Administration
 - Executive Support
