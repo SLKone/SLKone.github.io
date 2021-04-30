@@ -112,4 +112,4 @@ Times of crisis provide a natural point to pursue step-change improvements to a 
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Successful-Transformation-Intro_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Successful-Transformation-Intro_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
