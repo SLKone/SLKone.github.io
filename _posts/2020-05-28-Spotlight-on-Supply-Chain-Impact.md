@@ -64,4 +64,4 @@ The <a href="https://slkone.com/restart/">Business Restart Incubator</a> is SLKo
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Business-Restart-Incubator_Finance-Function_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Business-Restart-Incubator_Finance-Function_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
