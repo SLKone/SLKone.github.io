@@ -147,4 +147,4 @@ Our series, “A Process for Business Transformation,” is intended to help org
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-Systems_2021.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-Systems_2021.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
