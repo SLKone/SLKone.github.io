@@ -149,4 +149,4 @@ In our next installment, we will address the considerations for technology, syst
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-People_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Successful-Trasformation-People_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
