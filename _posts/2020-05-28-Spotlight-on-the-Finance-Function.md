@@ -54,4 +54,4 @@ When it comes to execution in the post-COVID-19 economy, the luxury of time does
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Business-Restart-Incubator_Finance-Function_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Business-Restart-Incubator_Finance-Function_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
