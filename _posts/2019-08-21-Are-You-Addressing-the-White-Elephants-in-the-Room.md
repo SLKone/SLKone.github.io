@@ -64,4 +64,4 @@ In the modern business world, the only thing sacred is productivity. There’s n
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_White-Elephants_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_White-Elephants_2019.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
