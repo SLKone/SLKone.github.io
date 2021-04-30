@@ -147,4 +147,4 @@ As this pandemic unfolds, many people have used the adage, “when life gives yo
 
 ___
 
-<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part1_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part1_PE focused_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
