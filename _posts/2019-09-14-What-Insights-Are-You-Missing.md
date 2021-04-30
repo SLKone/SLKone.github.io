@@ -57,4 +57,4 @@ SLKone assisted the organization by defining appropriate reporting measures, ide
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_What-Insights-Are-You-Missing_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_What-Insights-Are-You-Missing_2019.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
