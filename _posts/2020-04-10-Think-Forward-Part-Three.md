@@ -98,4 +98,4 @@ In the first three parts of this series, we have discuss how to address difficul
 
 ___
 
-<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part3_PE focused_2020.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKoneArticle_CovidCrisis_DeliberateThinking_Part3_PE focused_2020.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
