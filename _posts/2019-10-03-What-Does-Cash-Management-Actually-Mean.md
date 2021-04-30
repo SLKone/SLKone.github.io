@@ -58,4 +58,4 @@ Give us a call: +1.919.537.9189
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Cash-Management_2019.pdf" class="btn-filled">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Cash-Management_2019.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
