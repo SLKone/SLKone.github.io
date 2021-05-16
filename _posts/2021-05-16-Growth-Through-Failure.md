@@ -20,16 +20,17 @@ Through this reflection, I uncovered an empowering idea: by setting my personal 
 
 <table>
   <tr>
+    <th style="width:25%;"></th>
     <th style="width:25%;">High Objective Standard</th>
     <th style="width:25%;">Low Objective Standard</th>
    </tr>
   <tr>
-    <td>High Subjective Standard</td>
+    <td><b>High Subjective Standard</b></td>
     <td>Sprint - Objective Success, spurring optimal performance and growth</td>
     <td>Walk - Subjective “Failures”, fueling high performance and growth</td>  
   </tr>
   <tr>
-    <td>Low Subjective Standard</td>
+    <td><b>Low Subjective Standard</b></td>
     <td>Crawl - Objective Failure, driving self-reflection and change</td>
     <td>Stand - Objective “Success”, but no stimulus to grow or improve</td>  
   </tr>
