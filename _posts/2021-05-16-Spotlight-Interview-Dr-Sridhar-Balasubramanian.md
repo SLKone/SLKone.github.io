@@ -8,11 +8,11 @@ heroimage: posts/spotlight-drb_peripheralvision.jpg
 ---
 #### Peripheral Vision: An Interview with <a href="https://slkone.com/advisors/Sridhar-Balasubramanian/">Dr. Sridhar Balasubramanian</a>, SLKone Advisory Partner and Professor of Marketing at Kenan Flagler Business School
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I22lB4E-IDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I22lB4E-IDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 <i>Note: The following transcription represents highlights of our interview with Dr. B. Full-length commentary is presented in the above video.</i>
 
-**Q: Dr. B, thank you for taking the time to talk with us today. To get us started, would you mind giving us a brief introduction about yourself? And then specifically to the topic for today's conversation, what's attracted you to peripheral vision? 
+**Q: Dr. B, thank you for taking the time to talk with us today. To get us started, would you mind giving us a brief introduction about yourself? And then specifically to the topic for today's conversation, what's attracted you to peripheral vision?** 
 
 A: Thank you very much. I'm delighted to be here. My name is Sridhar Balasubramanian, but almost everyone calls me Dr. B.
 
@@ -22,7 +22,7 @@ I got into academia as an assistant professor at the University of Texas at Aust
 
 I have always been very interested in researching and teaching, innovation, and technology. And, in those areas, there is a very urgent need for what we call peripheral vision, which is the ability not just to focus on things that are central to a company's current existence, but on unexpected things that are critical to its future dominance in the marketplace. 
 
-**Q: To help contextualize, when we say peripheral vision, what exactly does that mean? 
+**Q: To help contextualize, when we say peripheral vision, what exactly does that mean?** 
 
 A: Okay. So peripheral vision is literally what it means – peripheral version. Here's the point. If you think about the human eye, we tend to focus on what we are looking at right now, but humans also have the sense of what's happening in the corners of their vision, right outside the central focus of their vision. That is an evolutionary trait because today we are the dominant species on Earth, but we were for very long time not the dominant species. 
 
@@ -30,7 +30,7 @@ At that time, we had to keep our eyes open for all kinds of attacks by all kinds
 
 However, managers often don't in the context of work, so it turns out that a lot of companies are pretty good at focusing on the day-to-day business of planning for things and executing things and so on. But when it comes to looking for threats from the periphery, unexpected competitors that come in and take over the marketplace, unexpected technologies that change the rules of the marketplace, managers and companies are not very good at that. Partly, it is due to the fact that managers are busy fighting fires it is hard to look out on the periphery. But largely it is the lack of organizational preparation to systematically scan the periphery every once in a while, and make sure that one is not missing out on important forces that could distort the future. 
 
-**Q: How is peripheral vision different than what some people may call a hunch, your gut feel or even a sixth sense? Is it similar? Or is it something very different? 
+**Q: How is peripheral vision different than what some people may call a hunch, your gut feel or even a sixth sense? Is it similar? Or is it something very different?** 
 
 A: So, I would say it’s something very different. A hunch or a feel is just intuition, right? And usually, we call it a hunch and sometimes we think that it's almost like a sixth sense that somehow, we are able to corral and marshal and put to work. 
 
@@ -40,7 +40,7 @@ Peripheral vision, in contrast, I would argue is a very systematic notion. To bu
 
 A hunch is something that is difficult to institutionalize, but I think through the right set of processes and frameworks you can institutionalize better peripheral vision – in other words, become systematically better at it at the individual team and organizational levels.
 
-**Q: Does every organization need to build peripheral vision? And, can you share some real life examples in the business world? 
+**Q: Does every organization need to build peripheral vision? And, can you share some real life examples in the business world?**
 
 A: I think that every organization needs to have peripheral vision because some of the forces that are roiling today's markets and industries are impossible to predict. No company is so large and dominant that it cannot be upended by some dramatic shift in the marketplace or in technology. 
 
@@ -60,7 +60,7 @@ Sometimes the economic model can be disrupted Think about overnight delivery - U
 
 So, I think that every company small and big needs to have the sense of peripheral vision. 
 
-**Q: I'm curious about how you interpret market shifts to decide what signals are a threat or disruptive to your company and which ones are just spontaneous. A lot of these weak signals are the ones that end up being the most disruptive, and humans always have a way of rationalizing things, saying: “Oh, it's just a spur-of-the-moment trend.” There's always some kind of bias built into it. So how do you how do you get around that? Why an entrepreneur gets it and not an established player?
+**Q: I'm curious about how you interpret market shifts to decide what signals are a threat or disruptive to your company and which ones are just spontaneous. A lot of these weak signals are the ones that end up being the most disruptive, and humans always have a way of rationalizing things, saying: “Oh, it's just a spur-of-the-moment trend.” There's always some kind of bias built into it. So how do you how do you get around that? Why an entrepreneur gets it and not an established player?**
 
 A: You almost answered the question when you said humans often tend to rationalize those things that they find, and that's exactly what they should not do. You’ve got to avoid rationalizing. informative signals away. 
 
@@ -68,7 +68,7 @@ The second thing is also you’ve got to put yourself explicitly in well-designe
 
 Now you raise a very interesting sub point over there about entrepreneurs doing stuff. And that directly relates to the conversation that we are just having because entrepreneurs are able to do this better because they have no history. They are starting off from a different base compared to established companies out there that have established technology managers with years of experience, who have grown up, so to say, thinking about the industry and competition and technology in certain ways. But entrepreneurs don't carry that baggage of history. As a result of which, sometimes – not always, entrepreneurship is always risky – sometimes they're really able to strike the vein of gold so to say, because they're looking in places that have not been prospected by traditional firms. 
 
-**Q: You talked about attachment to history as an obstacle to peripheral vision. How would you answer the objection that time is scarce, and resources are strained? And that as a manager, I can't spend this time dedicated to looking all around if I've got fires to put out in my 
+**Q: You talked about attachment to history as an obstacle to peripheral vision. How would you answer the objection that time is scarce, and resources are strained? And that as a manager, I can't spend this time dedicated to looking all around if I've got fires to put out in my business?**
 
 A: What I believe, at least in my experience, is that the greatest leaders of today are those who are simultaneously strategic and tactical. So, they are focused on achieving the next quarter's goals and next half yearly goals, annual goals, etc., But they are also thinking about what the world is going to look like five to ten years from today and helping prepare the firm for that future. And that's where this whole notion of strategic thinking and looking at peripheral vision and all of that comes in. If you succumb to the pressures of doing everything on a day-to-day basis and spend all your time fighting the daily fires, you never have the time to think about things differently or innovate and gather the peripheral vision and insights that emerge from there. 
 
@@ -82,7 +82,7 @@ Let’s take two industries, the nanotechnology industry and the GMO (geneticall
 
 Fast forward, nanotechnologies enter involving small particles of different shapes and sizes that can serve a variety of purposes, from lubricating engines to coating other surfaces. One of the challenges with these things, at least the perceived challenges with nanoparticles, is that they can be airborne, and the fear is that you can breathe them in, that they're settling in the lung and lead to all kinds of lung diseases. However, the nanotechnology industry looked back at history and they saw what had happened to the GMO industry, and they learned from that. They proactively worked with the government, with regulatory agencies, to develop regulations that were fair, but not overly onerous. And when they were introduced, they had such a smooth sailing in the marketplace and today they are all over the place. You don't even hear about that perception.
 
-**Q: If you were going into a large corporation, what would be your first steps from an individual perspective, a team perspective, and the overall structure to implement peripheral vision.
+**Q: If you were going into a large corporation, what would be your first steps from an individual perspective, a team perspective, and the overall structure to implement peripheral vision.**
 
 A: The notion of this peripheral vision, building it systematically can be done at different levels. I think there is, of course, some overlap between what you can do at the individual level, what we can do at a team level and the organizational level, but I'd kind of be pushing it too far if I said these were very distinct buckets. Let me talk about some of the approaches that we can adopt - starting off with avoiding rationalizing informative signals away. 
 
@@ -96,7 +96,7 @@ Peripheral vision thinking works best when you have diverse sets of skills and p
 
 And that's why even with a large company that would seem to have very different businesses, it's often a great idea to get everybody into the room at the same time because they think about problems in different ways.
 
-**Q: The one thing I didn't hear in the structure is the voice of the customer. So is that something to include as well, just from an organizational standpoint?
+**Q: The one thing I didn't hear in the structure is the voice of the customer. So is that something to include as well, just from an organizational standpoint?**
 
 A: So that's a really interesting and important question. I'm glad you brought this up.
 
@@ -104,7 +104,7 @@ A lot of those peripheral vision managers can sit down with their teams, with th
 
 Often people think that in-depth customer interviews and focus groups are the way to develop great insights, and those are useful. But another technique that's becoming really important is just to do ethnographic research. In other words, spend a few days in the lives of your customers and then you can discover some problems that they have that you never even thought that they have and unarticulated needs that even if you asked them: “What do you want?” they couldn't tell you about because they think you can't solve them, or they don’t know how to articulate them, or they think that those are irrelevant to what you could do for them. Seeing peripherally what they do is equally important than listening.
 
-**Q: Are there any marketing technology or tools in general that you found extremely helpful to get the most out of out of this exercise? 
+**Q: Are there any marketing technology or tools in general that you found extremely helpful to get the most out of out of this exercise?**
 
 A. Yeah. So that's interesting. I gave you about nine or ten different techniques that you use. And if you listen carefully through our interview, you can actually write down those nine or ten things that you can use. And if everybody sits down around a table and personally as a team, as an organization, employs these techniques, then anybody can develop better peripheral vision.
 
@@ -122,13 +122,13 @@ The other approach is to think about absolutely the worst-case scenario possible
 
 So about 10-12 techniques in all that we talked about, heeding the internet and the blog, learning from history and so on. And if you systematically work through these techniques, as a team, with the consultant at the table or without a consultant at the table, but with open minds and willing to put in the effort every once in a while - maybe do it once every six months or so - you can develop a whole inventory of ideas related to peripheral vision and that will help you prepare much better for the future unexpected, unexpected changes in technology and so on.
 
-**Q: How do I know as a manager and a leader, that I'm fully employing peripheral vision without it becoming a detriment by over balancing that direction? 
+**Q: How do I know as a manager and a leader, that I'm fully employing peripheral vision without it becoming a detriment by over balancing that direction?**
 
 A: I think the important point is to do the exercise and then come up and discuss the ideas that you have come up with as a group. And, if you have smart managers who are forward looking at the table talking through these ideas, you will realize which ones to pay attention to, and which ones not.
 
 I think foresightful managers need to be in the spirit of scenario analysis and prepared for multiple imagined futures. If this happens then are you prepared? Have you created the small bets, created the options today that you can invoke if that future happens? Organizations that have prepared for multiple imagined futures and have become agile is at the heart of succeeding with peripheral vision.
 
-**Q: Whether you’re bringing in consultants or taking time to teach your employees various techniques that help with peripheral vision, all of that takes time, and time is money. So, what are some measurements of success? 
+**Q: Whether you’re bringing in consultants or taking time to teach your employees various techniques that help with peripheral vision, all of that takes time, and time is money. So, what are some measurements of success?**
 
 A: I think building peripheral thinking is part of how you live and breathe versus “I'm going to make an investment into this asset”. This is a new way of thinking, for the organization. 
 
