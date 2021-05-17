@@ -6,7 +6,7 @@
 			<span>{% if post.newsletter %}{{ post.newsletter }}{% else %}{{ post.date | date: '%B %d, %Y' }}{% endif %}</span>{% if post.newsletter %}{% endif %}
 		</div>
 		<h4 class="case-study-title">{{ post.title }}</h4>
-	  	<div class="case-study-description">{% if post.intro %}{{ post.intro | truncate: 116 }}{% else %}{{ post.content | markdownify | truncate: 116 | strip_html }}{% endif %}</div>
+	  	{% if post.intro %}<div class="case-study-description">{{ post.intro | truncate: 116 }}{% else %}{{ post.content | markdownify | truncate: 116 | strip_html }}</div>{% endif %}
 	</a>
 </div>
 
