@@ -5,6 +5,7 @@ authors: [Arun Shukla, Casey Matthews, Kevin Gore]
 newsletter: [May 2021 Newsletter]
 tags: [Newsletters, May 2021 Newsletter, Spotlight Interviews]
 heroimage: posts/spotlight-drb_peripheralvision.jpg
+description: "Peripheral Vision: An Interview with Dr. Sridhar Balasubramanian, SLKone Advisory Partner and Professor of Marketing at Kenan Flagler Business School"
 ---
 Peripheral Vision: An Interview with <a href="https://slkone.com/advisors/Sridhar-Balasubramanian/">Dr. Sridhar Balasubramanian</a>, SLKone Advisory Partner and Professor of Marketing at Kenan Flagler Business School
 
