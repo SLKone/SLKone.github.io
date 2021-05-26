@@ -11,7 +11,7 @@ heroimage: posts/spotlight-drb_peripheralvision.jpg
 #### Peripheral Vision: An Interview with <a href="https://slkone.com/advisors/Sridhar-Balasubramanian/">Dr. Sridhar Balasubramanian</a>, SLKone Advisory Partner and Professor of Marketing at Kenan Flagler Business School
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I22lB4E-IDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-<i>Note: The following transcription represents highlights of our interview with Dr. B. Full-length commentary is presented in the above video.</i>
+<i>Note: The following transcription represents highlights of our interview with Dr. B. Full-length commentary is available in the video above.</i>
 
 **Q: Dr. B, thank you for taking the time to talk with us today. To get us started, would you mind giving us a brief introduction about yourself? And then specifically to the topic for today's conversation, what's attracted you to peripheral vision?** 
 
