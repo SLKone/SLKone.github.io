@@ -46,7 +46,7 @@ While the sales plan needs to be easy to understand, it also needs to be benefic
 
 Using this approach, sales representatives who are high performers will be rewarded while underperformers will be penalized by the lower commission rates in the earlier tiers. High performers are also encouraged by no-cap commissions and the rate continues to accelerate beyond 100% attainment of their quota. In totality, it is more cost effective to reward your outperformers than to hire or maintain additional lower performing sales reps.
 
-The following table demonstrates the advantage of a tiered system using the assumptions from the previous scenario (OTI $100,000; Quota $800,000).
+The following table demonstrates the advantage of a tiered system using the assumptions from the previous scenario (OTI $100,000; Quota $800,000):
 
 <img src="https://slkone.com/images/SaaS-table2.jpg" alt="Tiered System Table">
 
