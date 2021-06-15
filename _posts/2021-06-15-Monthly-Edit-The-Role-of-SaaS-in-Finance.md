@@ -1,3 +1,4 @@
+---
 layout: newsletter
 title:  "Monthly Edit: The Role of SaaS in Finance"
 authors: [Christopher Burton]
