@@ -1,6 +1,6 @@
 ---
 layout: newsletter
-title:  "Monthly Edit: The Role of SaaS in Finance"
+title:  "Monthly Edit: The Role of Finance in SaaS"
 authors: [Christopher Burton]
 tags: [Newsletters, June 2021 Newsletter, Monthly Edits]
 newsletter: [June 2021 Newsletter]
