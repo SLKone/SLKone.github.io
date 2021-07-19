@@ -26,7 +26,7 @@ Beyond the immediate organization, an understanding of external factors within y
 
 <br>
 <div class="emphasis" markdown="1">
-  <strong>Sensing the Environment</strong><br>
+  <strong>Sensing the Environment</strong><br><br>
   In today’s business environment there are a host of new ways to gather data about your operating environment in more detail and confidence than ever before.  This does not mean the traditional methods should be abandoned, however they should be combined and compared to generate a more unbiased view of your operating environment.
   <ul> 
   <li>Combined internal data sets reveal trends influenced by environment</li>
