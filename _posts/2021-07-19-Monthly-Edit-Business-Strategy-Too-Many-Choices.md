@@ -11,7 +11,7 @@ Dusting off my personal library over the weekend, I had a revelation: there were
 
 #### Sources of clarity or confusion?
 
-There’s a creative path for the business reader <i>Driven by the Art of Strategy</i> and a dashboard reflecting <i>The Art of Long View</i> as one goes from <i>Zero to One</i> powered by <i>Rocket Fuel</i> with a paranormal vision of <i>Seeing Around the Corners</i>. One is cautioned to <i>Go Slow to Grow Fast</i> and even <i>Working Backwards</i> to arrive at the destination with <i>Wel-Timed Strategy</i>. If you want to experience the forces of nature on the way, take a deep dive in <i>Blue Ocean Strategy</i> and  peak <i>Inside the Tornado</i>.  
+There’s a creative path for the business reader <i>Driven by the Art of Strategy</i> and a dashboard reflecting <i>The Art of Long View</i> as one goes from <i>Zero to One</i> powered by <i>Rocket Fuel</i> with a paranormal vision of <i>Seeing Around the Corners</i>. One is cautioned to <i>Go Slow to Grow Fast</i> and even <i>Working Backwards</i> to arrive at the destination with <i>Well-Timed Strategy</i>. If you want to experience the forces of nature on the way, take a deep dive in <i>Blue Ocean Strategy</i> and  peak <i>Inside the Tornado</i>.  
 
 There’s also an evolutionary path to strategy through <i>Dealing with Darwin</i>, or one can forego that simply by having <i>Strategic Business Lessons from the Animal Kingdom</i>. Don’t question the ringmaster in the circus of strategy <i>Who Says Elephants Can’t Dance</i>. Take the culinary advice on <i>Eating Big Fish</i> and how <i>Sacred Cows Make the Best Burgers</i>, but remember that <i>Leaders Eat Last</i>.
 
