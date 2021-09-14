@@ -2,8 +2,8 @@
 layout: newsletter
 title:  "Monthly Edit: Growth Through Failure"
 authors: [Kevin Gore]
-tags: [Newsletters, May 2021 Newsletter, Monthly Edits, Featured]
-newsletter: [May 2021 Newsletter, Featured, Organization-and-Human-Capital, Deliberate-Thinking]
+tags: [Newsletters, May 2021 Newsletter, Monthly Edits, Featured, Organization-and-Human-Capital, Deliberate-Thinking]
+newsletter: [May 2021 Newsletter]
 heroimage: posts/growth-through-failure.jpeg
 ---
 I recently experienced a quintessential consultant failure. The project was interesting. The client was engaged, responsive, and supportive. The data was clean. The team was in sync and productive. The work product was so good, the client immediately signed us up for another engagement with several more on the horizon. It was a grand slam for the team, but I personally struck out.
