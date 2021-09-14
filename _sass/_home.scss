@@ -149,7 +149,9 @@
 		width: 60%;
 	}
 	.team-wrap { 
+	@include media($medium) {
 	@include display(flex);
+	}
 	}
 }
 
