@@ -13,6 +13,8 @@ sitemap: false
 @import "vendor/neat/neat";
 @import "vendor/font-awesome/font-awesome";
 
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
 /*
    Global
    ========================================================================== */
@@ -33,6 +35,7 @@ sitemap: false
    ========================================================================== */
 
 @import "layout";
+@import "nav";
 @import "home";
 @import "contact";
 @import "practice";

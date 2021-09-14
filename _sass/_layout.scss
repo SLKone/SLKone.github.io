@@ -8,11 +8,12 @@
 	z-index: 10;
 	width: 100%;
 	position: sticky;
-	padding: 0;
-	top: -$gutter;
-	padding-left: 0px  !important;
-	padding-right: 0px  !important;
-	padding-bottom: 0px !important;
+	top: 0px;
+	padding: 0px  !important;
+	@include media($medium) {
+		padding-top: $gutter !important;
+		top: -$gutter;
+	}
 	#mast-position {
 		width: 100%;
 		padding-top: 0;
@@ -22,9 +23,13 @@
 		padding-bottom: $gutter/2;
 		@include display(flex);
 		@include align-items(center);
+		justify-content: space-between;
 		@include media($medium) {
 			padding-top: $gutter;
 			padding-bottom: $gutter;
+		}
+		&::after {
+			display: none;
 		}
 	}
 }
@@ -53,98 +58,6 @@ h1#logo {
 	z-index: 999;
 }
 
-
-/*
-   Menu
-   ========================================================================== */
-
-.menu {
-	#navigation {
-		display: none;
-		@include media($medium) {
-		@include display(flex);
-		@include align-items(center);
-		justify-content: center;
-		z-index: 12;
-		ul {
-			position: absolute;
-			background-color: $white;
-			background-size: 0 0;
-			border-radius: $border-radius;	
-			transition: all 0.3s ease-in-out;
-			opacity: 0;
-			padding: 8px 0px;
-			transform: scale3d(0, 0, 0);
-			@include media($micro) {
-				display: block;
-			}
-			li {
-				opacity: 0;
-				padding-top: 4px;
-				padding-bottom: 4px;
-				transition: all 0.4s ease-in-out;
-			}
-		}
-		li:hover ul {
-			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
-			display: block;
-			opacity: 1;
-			transition: all 0.2s ease-in-out;
-			margin-left: 0px;
-			margin-top: 0px;
-			z-index: 11;
-			transform: scale3d(1,1,1);
-			li {
-				opacity: 1;
-				transition: all 0.2s ease-in-out;
-			}
-			li:hover {
-				background: rgba(0,0,0,.05);
-			}
-			a {
-				padding: 12px 16px;
-			}
-			&:hover {
-				box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
-				transition: all 0.2s ease-in-out;
-			}
-			&:pressed {
-				box-shadow: 0;
-				transition: all 0.2s ease-in-out;
-			}
-		}
-		}
-	}	
-	li.top {
-		a {
-			padding: 16px;
-			@include media($micro) {
-			padding: 12px 0px;
-			margin: 0;
-			text-align: center;			
-			}
-			@extend .btn;
-		}
-		&:last-child {
-			@include media($micro) {
-			position: absolute;
-			right: $gutter;
-			top: 44px;
-			}
-		}
-	}
-
-	#contact-button {
-		@include media($micro) {
-			width: 126px;
-			height: 40px;
-			text-align: center;
-		}
-		@extend .btn-filled;
-		@include media($small) {
-		margin-left: 16px;}
-	}
-}
 
 /*
    Page wrapper

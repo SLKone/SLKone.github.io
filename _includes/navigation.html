@@ -1,59 +1,261 @@
-<ul id="navigation">
+<nav role="navigation" class="menu top-menu">
+	<ul id="navigation">
 	<li class="top down"><a href="{{ site.url }}/services">Capabilities</a>
 		<ul>
-			<li class="top"><a href="{{ site.url }}/services/Operations">Operations</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Corporate-Finance-and-Revenue-Management">Corporate Finance and Revenue Management</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Mergers-and-Acquisitions">Mergers &amp; Acquisitions</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Digital-Strategy-and-Technology">Digital Strategy &amp; Technology</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Organization-and-Human-Capital/">Organization &amp; Human Capital</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Deliberate-Thinking">Deliberate Thinking</a></li>
+			<li class="top"><a href="{{ site.url }}services/Operations">Operations</a></li>
+			<li class="top"><a href="{{ site.url }}services/Corporate-Finance-and-Revenue-Management">Corporate Finance and Revenue Management</a></li>
+			<li class="top"><a href="{{ site.url }}services/Mergers-and-Acquisitions">Mergers &amp; Acquisitions</a></li>
+			<li class="top"><a href="{{ site.url }}services/Digital-Strategy-and-Technology">Digital Strategy &amp; Technology</a></li>
+			<li class="top"><a href="{{ site.url }}services/Organization-and-Human-Capital/">Organization &amp; Human Capital</a></li>
+			<li class="top"><a href="{{ site.url }}services/Deliberate-Thinking">Deliberate Thinking</a></li>
 		</ul></li>
 	<li class="top down"><a href="{{ site.url}}/expertise">Industries</a>
 		<ul>
-			<li><a href="{{ site.url }}/expertise/Healthcare">Healthcare</a></li>
-			<li><a href="{{ site.url }}/expertise/Manufacturing">Manufacturing</a></li>
-			<li><a href="{{ site.url }}/expertise/Oil-and-Gas">Oil and Gas</a></li>
-			<li><a href="{{ site.url }}/expertise/Consumer-Goods-and-Services">Consumer Goods &amp; Services</a></li>
-			<li><a href="{{ site.url }}/expertise/Private-Equity">Private Equity</a></li>
-			<li><a href="{{ site.url }}/expertise/Food-and-Beverage">Food &mp; Beverage</a></li>
-			<li><a href="{{ site.url }}/expertise/Software-and-Tech">Software</a></li>
+			<li><a href="{{ site.url }}expertise/Healthcare">Healthcare</a></li>
+			<li><a href="{{ site.url }}expertise/Manufacturing">Manufacturing</a></li>
+			<li><a href="{{ site.url }}expertise/Oil-and-Gas">Oil and Gas</a></li>
+			<li><a href="{{ site.url }}expertise/Consumer-Goods-and-Services">Consumer Goods &amp; Services</a></li>
+			<li><a href="{{ site.url }}expertise/Private-Equity">Private Equity</a></li>
+			<li><a href="{{ site.url }}expertise/Food-and-Beverage">Food &mp; Beverage</a></li>
+			<li><a href="{{ site.url }}expertise/Software-and-Tech">Software</a></li>
 		</ul>
 	</li>
-	<li class="top down"><a href="{{ site.url }}/insights">Insights</a>
+	<li class="top down"><a href="{{ site.url }}insights">Insights</a>
 		<ul>
-			<li><a href="{{site.url}}/tag/article">Articles</a></li>
-			<li><a href="{{site.url}}/tag/newsletters">Newsletters</a></li>
+			<li><a href="{{site.url}}tag/article">Articles</a></li>
+			<li><a href="{{site.url}}tag/newsletters">Newsletters</a></li>
 		</ul>
 	</li>
-	<li class="top down"><a href="{{ site.url }}/team">About</a>
+	<li class="top down"><a href="{{ site.url }}team">About</a>
 		<ul>
-			<li><a href="{{ site.url }}/team">The Team</a></li>
-			<li><a href="{{ site.url }}/advisory-partners">Advisory Partners</a></li>
+			<li><a href="{{ site.url }}team">The Team</a></li>
+			<li><a href="{{ site.url }}advisory-partners">Advisory Partners</a></li>
 			
 		</ul>
 	</li>
-	<li class="top"><a href="{{ site.url }}/careers">Careers</a></li>
-	<li class="top"><a href="{{ site.url}}/contact">Contact</a></li>
+	<li class="top"><a href="{{ site.url }}careers">Careers</a></li>
+	<li class="top"><a href="{{ site.url}}contact">Contact</a></li>
 	
 </ul>
-<div id="mobile-nav">
-	<input type="checkbox" id="op"></input>
-	<div class="lower">
-  <label for="op"><i class="fa fa-bars" aria-hidden="true"></i></label>
-</div>
-<div class="overlay overlay-hugeinc">
-			<label for="op"></label>
-			<nav>
-			<ul>
-			<li><a href="{{ site.url }}/services">Capabilities</a></li>
-			<li><a href="{{ site.url }}/expertise">Industries</a></li>
-			<li><a href="{{ site.url }}/tag/article">Articles</a></li>
-			<li><a href="{{ site.url }}/tag/newsletters">Newsletters</a></li>
-			<li><a href="{{ site.url }}/case-studies">Case Studies</a></li>
-			<li><a href="{{ site.url }}/team">The Team</a></li>
-			<li><a href="{{ site.url }}/advisory-partners">Advisory Partners</a></li>
-			<li><a href="{{ site.url }}/careers">Careers</a></li>
-			<li><a href="{{ site.url }}/contact">Get in Touch</a></li>
-			</ul>
 </nav>
-</div>
+<span class="hamburger material-icons" id="ham"></span>
+<nav class="nav-drill">
+  <ul class="nav-items nav-level-1">
+    <li class="nav-item nav-expand">
+			<a class="nav-link nav-expand-link" href="#">
+				Capabilities
+			</a>
+			<ul class="nav-items nav-expand-content">
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}services">
+						Capabilities
+					</a>
+				</li>				
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Operations
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/operations">
+								Operations
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/performance-improvement">
+								Performance Improvement
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/operations-planning">
+								Sales &amp; Operations Planning
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/supply-chain-network-optimization">
+								Supply Chain Network Optimization
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Corporate Finance &amp; Revenue Management
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/Corporate-Finance-and-Revenue-Management">
+								Corporate Finance &amp; Revenue Management
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/cost-management">
+								Cost Management
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/financial-analytics">
+								Financial Analytics
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/quality-of-revenue">
+								Quality of Revenue
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Mergers &amp; Acquisitions
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/mergers-and-acquisitions">
+								Mergers &amp; Acquisitions
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/change-management">
+								Change Management
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/post-merger-integration">
+								Post-Merger Integration
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/pre-transaction-readiness">
+								Pre-Transaction Readiness
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Digital Strategy &amp; Technology
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/mergers-and-acquisitions">
+								Digital Strategoy &amp; Technology
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/automation">
+								Automation
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/it-roadmap">
+								IT Roadmap
+							</a>
+						</li>
+					</ul>
+				</li>	
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Organizational Design &amp; Alignment
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/Organization-and-Human-Capital">
+								Organizational Design &amp; Alignment
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/operating-model-design">
+								Operating Model Design
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/process-design">
+								Process Design
+							</a>
+						</li>
+					</ul>
+				</li>	
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Deliberate Thinking
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/deliberate-thinking">
+								Deliberate Thinking
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/deliberate-thinking-workshop">
+								Deliberate Thinking Workshop
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/online-program">
+								Online Program
+							</a>
+						</li>
+					</ul>
+				</li>											
+			</ul>
+		</li>
+	
+    <li class="nav-item nav-expand">
+			<a class="nav-link nav-expand-link" href="#">
+				Industries
+			</a>
+			<ul class="nav-items nav-expand-content">
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}services">
+						Industries
+					</a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Healthcare">Healthcare</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Manufacturing">Manufacturing</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Oil-and-Gas">Oil and Gas</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Consumer-Goods-and-Services">Consumer Goods &amp; Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Private-Equity">Private Equity</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Food-and-Beverage">Food &mp; Beverage</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ site.url }}expertise/Software-and-Tech">Software</a></li>
+			</ul>
+		</li>
+	<li class="nav-item nav-expand">
+			<a class="nav-link nav-expand-link" href="#">
+				Insights
+			</a>
+			<ul class="nav-items nav-expand-content">
+				<li class="nav-item">
+					<a class="nav-link" href="{{site.url}}tag/article">
+						Articles
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{site.url}}tag/newsletters">
+						Newsletters
+					</a>
+				</li>
+			</ul>
+		</li>		
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}team">
+				The Team
+			</a>
+		</li>
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}advisory-partners">
+				Advisory Partners
+			</a>
+		</li>
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}careers">
+				Careers
+			</a>
+		</li>	
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url}}contact">
+				Contact
+			</a>
+		</li>					
+  </ul>
+</nav>
