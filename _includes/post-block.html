@@ -1,6 +1,6 @@
 {% assign post-slug = {{post.url | remove: '/'}}" %}
 <div class="post-block">
-	<a href="{{site.url}}/{{ post.url }}">
+	<a href="{{site.url}}{{ post.url }}">
 		<div class="block-image-wrapper"><div class="block-image" style="background-image:url({% if post.heroimage != empty %}{{ site.url }}/images/{{ post.heroimage }}{% else %}{{ site.url }}/images/post/{{ post-slug }}.jpg{% endif %})"></div></div>
 		<div class="block-content">
 		<div class="block-meta">
