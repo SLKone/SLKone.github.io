@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div id="main" class="collections" role="main">			
+	{% include title-image.html %}
+	<div class="wrap">
+		<div class="services service-collection post-blocks-medium">
+			{% for expertise in site.expertise %}
+			<div class="post-block-masonry">
+			    {% include industry-block.html %}
+			</div>
+			 {% endfor %}
+		</div>
+	</div><!-- /.wrap -->
+<div>
+asdf

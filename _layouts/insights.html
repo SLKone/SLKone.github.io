@@ -3,11 +3,15 @@ layout: default
 ---
 <div id="main" class="insights" role="main">			
 	{% include title-image.html %}
-	<div class="wrap content">
+	<div class="content post-blocks-wrap">
 		<div class="post-blocks">
+			<div class="post-blocks">
 		  {% for post in site.posts %}
+		  <div class="post-block-masonry">
 		    {% include post-block.html %}
+		</div>
 		  {% endfor %}
+			</div>
 		</div>
 	</div><!-- /.wrap -->
 <div>

@@ -1,4 +1,0 @@
----
-title:  "Nonprofit"
-intro: 
----

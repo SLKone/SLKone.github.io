@@ -4,93 +4,14 @@ layout: default
 <div id="main" class="collections" role="main">			
 	{% include title-image.html %}
 	<div class="wrap">
-		<div id="leadership-and-strategy" class="service-line">
-		<h4>Leadership and Strategy</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'leadership-and-strategy' %}
-		    {% include service-list.html %}
+		<div class="services service-collection post-blocks-medium">
+			{% for service in site.services %}
+			{% if service.categories contains 'top-level-service' %}
+			<div class="post-block-masonry">
+			    {% include service-block.html %}
+			</div>
 		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-
-		<div id="Operational-Excellence-and-Execution" class="service-line">
-		<h4>Operational Excellence and Execution</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Operational-Excellence-and-Execution' %}
-		    {% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-
-		<div id="Organization-and-Human-Capital" class="service-line">
-		<h4>Organization and Human Capital</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Organization-and-Human-Capital' %}
-		    {% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-
-		<div id="Revenue-and-Sales" class="service-line">
-		<h4>Revenue and Sales</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Revenue-and-Sales' %}
-		    {% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-		<div id="Data-Analytics-and-Decision-Science" class="service-line">
-		<h4>Data Analytics and Decision Science</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Data-Analytics-and-Decision-Science' %}
-		    {% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-		<div id="Information-Technology-and-Digital-Strategy" class="service-line">
-		<h4>Information Technology and Digital Strategy</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Information-Technology-and-Digital-Strategy' %}
-		    {% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-		<div id="Oversight-and-Event-Driven-Expertise" class="service-line">
-		<h4>Oversight and Event-Driven Expertise</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Oversight-and-Event-Driven-Expertise' %}
-		    {% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
-		</div>
-		<div id="Finance-and-Accounting" class="service-line">
-		<h4>Finance and Accounting</h4>
-		<ul>
-		  {% for service in site.services %}
-			  {% if service.categories contains 'Finance-and-Accounting' %}
-				{% include service-list.html %}
-		     {% endif %}
-		  {% endfor %}
-		</ul>
+			 {% endfor %}
 		</div>
 	</div><!-- /.wrap -->
 <div>
-<div class="page-bottom">
-	<div class="wrap">
-	<div><h6>Interested in working with SLKone?</h6> <a class="btn-outline" href="{{ site.url}}/contact">Get in Touch</a></div>
-	</div>
-</div>    

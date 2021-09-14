@@ -6,6 +6,7 @@ services-performed: [Business-Requirements, Reporting-and-Analytics-Approach-and
 intro: SLKone reigned in an off-track software implementation to ensure that business requirements were met appropriately without incurring more cost; all while working harmoniously with a perturbed implementation vendor
 team-size: 2 consultants
 project-length: 2 months
+tags: Featured
 heroimage: case-studies/Implementing-Adaptive-Insights-for-Streamlined-Reporting-200M-Software-As-A-Service.jpg
 ---
 

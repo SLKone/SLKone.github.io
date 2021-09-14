@@ -4,9 +4,11 @@ layout: default
 <div id="main" class="collections" role="main">			
 	{% include title-image.html %}
 	<div class="wrap content">
-		<div class="case-studies">
+		<div class="case-studies post-blocks">
 		  {% for case-studies in site.case-studies %}
+		  	<div class="post-block-masonry">
 		    {% include case-study-block.html %}
+			</div>
 		  {% endfor %}
 		</div>
 	</div><!-- /.wrap -->

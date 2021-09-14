@@ -6,6 +6,7 @@ services-performed: [Manufacturing-Processes-and-Operational-Improvements]
 intro: Redesigned the work order management (WOM) process and organizational structure for a growing industrial services firm actively undergoing integration and restructuring
 team-size: 2 consultants
 project-length: 2 months
+tags: Featured
 heroimage: case-studies/Process-Standardization-and-Org-Structure-50M-Intustrial-Services-Provider.jpg
 ---
 

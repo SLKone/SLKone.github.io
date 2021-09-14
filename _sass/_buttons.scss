@@ -35,6 +35,12 @@
 	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.0), 0 1px 3px 0 rgba(0,0,0,0.0);
 }
 
+.btn-secondary {
+	@extend .btn;
+	color: $white;
+	background-color: $comp-color;
+}
+
 .btn-outline {
 	@extend .btn;
 	border-width: 2px;
@@ -64,4 +70,9 @@
 
 .linkedin {
 	background-color: #0077B5;
+}
+
+.btn-nospace {
+	padding-left: 0px;
+	padding-right: 0px;
 }

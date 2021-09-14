@@ -7,19 +7,33 @@ layout: default
 		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
 			<h5>Industry Expertise</h5>
 			<h2>{{ page.title }}</h2>
-			{% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}			
+			{% if page.intro %}<p class="large">{{ page.intro }}</p>{% endif %}			
 		</div>
 		</div>
 	</div>
 	<div class="wrap content">
 		{{ content }}
-		<div class="case-studies">
+		<div class="case-studies post-blocks">
 		{% assign industry-slug = {{page.url | remove: '/' | remove_first: "expertise"}}" %}
 		{% for case-studies in site.case-studies %}
 		{% if case-studies.industries contains industry-slug %}
+		<div class="post-block-masonry">
 		    {% include case-study-block.html %}
+		</div>
 	    {% endif %}
 		{% endfor %}
 		</div>
+		<h3 class="h4">How We Help Our Clients</h3>
+		<div class="services post-blocks">
+
+			{% for service in site.services %}
+			{% if service.categories contains 'top-level-service' %}
+			<div class="post-block-masonry">
+			    {% include service-block-no-text.html %}
+			</div>
+		     {% endif %}
+			 {% endfor %}
+		</div>
+
 	</div><!-- /.wrap -->
 <div>

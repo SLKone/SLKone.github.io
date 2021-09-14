@@ -5,26 +5,79 @@ layout: default
 	<div class="page-title">
 		<div class="background-overlay">
 		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
-			<h5>Service Line</h5>
+			<h5>{% if page.categories contains 'top-level-service' %}Consulting Services{% else %}{{page.categories}}{% endif %}</h5>
 			<h2>{{ page.title }}</h2>
-			{% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}			
+			{% if page.intro %}<p class="large">{{ page.intro }}</p>{% endif %}			
 		</div>
 		</div>
 	</div>
 	<div class="wrap content">
 		{{ content }}
+		{% assign service-slug =  page.url | remove: '/' | remove_first: "services" %}
+		<div class="services post-blocks">
+
+			{% for service in site.services %}
+			{% if service.categories contains service-slug %}
+			<div class="post-block-masonry">
+			    {% include service-block.html %}
+			</div>
+		     {% endif %}
+			 {% endfor %}
+		</div>
 		<div class="case-studies">
-		{% assign service-slug = {{page.url | remove: '/' | remove_first: "services"}}" %}
-		{% for case-studies in site.case-studies %}
-		{% if case-studies.services-performed contains service-slug %}
-		    {% include case-study-block.html %}
-	    {% endif %}
-		{% endfor %}
+			{% assign featured_counter == 0 %}
+				{% for case-studies in site.case-studies %}
+				{% if case-studies.services-performed contains service-slug %}
+				{% assign featured_counter = featured_counter | plus: 1 %}
+				{% endif %}
+				{% if featured_counter == 2 %}
+				 {% break %}
+				{% endif %}
+				  {% endfor %}
+			{% if featured_counter > 0 %}
+			<h3 class="h4">Client Results</h3>
+			<div class="post-blocks-medium">
+				{% assign featured_counter == 0 %}
+				{% for case-studies in site.case-studies %}
+				{% if case-studies.services-performed contains service-slug %}
+				{% assign featured_counter = featured_counter | plus: 1 %}
+				  	<div class="post-block-masonry">
+				    {% include case-study-block.html %}
+					</div>
+				{% endif %}
+				{% if featured_counter == 2 %}
+				 {% break %}
+				{% endif %}
+				  {% endfor %}
+			</div>{% endif %}
+		</div>
+		<div class="posts">
+			{% assign post_counter == 0 %}
+						{% for post in site.posts %}
+						{% if post.tags contains service-slug %}
+						{% assign post_counter = post_counter | plus: 1 %}
+						{% if post_counter == 1 %}
+					 		{% break %}
+						{% endif %}
+						{% endif %}
+					{% endfor %}
+			{% if post_counter > 0 %}
+			<h3 class="h4">Relevant Insights</h3>
+			<div class="post-blocks">
+					{% assign post_counter == 0 %}
+						{% for post in site.posts %}
+						{% if post.tags contains service-slug %}
+						<div class="post-block-masonry">
+						{% include post-block-small.html %}
+						</div>
+						{% assign post_counter = post_counter | plus: 1 %}
+						{% if post_counter == 3 %}
+					 		{% break %}
+						{% endif %}
+						{% endif %}
+					{% endfor %}
+				</div>
+			{% endif %}
 		</div>
 	</div><!-- /.wrap -->
 <div>
-<div class="page-bottom">
-	<div class="wrap">
-	<div><h6>Interested in working with SLKone?</h6> <a class="btn-outline" href="{{ site.url}}/contact">Get in Touch</a></div>
-	</div>
-</div>  

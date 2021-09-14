@@ -1,126 +1,48 @@
-.service-line {
-	background-color: $white;
-	background-size: 0 0;
-	border-radius: $border-radius;	
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), 0 1px 3px 0 rgba(0,0,0,0.10);
-	transition: box-shadow 0.3s ease-in-out;
-	padding: 32px;
-	margin: 8px 0;
-	display: flex;
-	align-items: center;
-	&:last-child {
-		border-bottom: 0;
-	}
-	&:hover {
-		box-shadow: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
-		transition: box-shadow 0.1s ease-in-out;
-	}
-	@include span-columns(12);
-	h4 {
-		background-position: left center;
-		background-repeat: no-repeat;
-		background-size: 24px 24px;
-		padding-left: 40px;
-		font-size: 20px;
-		font-weight: 400;
-		@include media($medium) {
-			@include span-columns(3);
-		}
-	}
-	ul {
-		@include media($medium) {
-			border-left: 1px solid rgba(0,0,0,.1);
-			@include span-columns(9);
-		}
-		padding: 0;
-		margin: 0;
-		li { 
-			list-style: none;
-			@include media($medium) {
-				padding-left: 32px;
+.services {
+	.post-block {
+		@include display(flex);
+		height: 100%;
+		a {
+			border: 2px solid $comp-color;
+			border-radius: $border-radius;
+			padding: $gutter;
+			padding-bottom: 0;
+			@include display(flex);
+			@include flex-wrap(wrap);
+			@include align-content(flex-start);
+			margin-bottom: $gutter !important;
+			width: 100%;
+			h4 {
+				color: $comp-color;
 			}
-			margin-bottom: 8px;
-			a {
-				display: block;
-				text-decoration: none;
-				.service-title {
-					color: $link-color;
-					font-weight: bold;
-					transition: color 0.2s ease-in-out;
-				}
-				.service-description {
-					color: $primary-color;
-					opacity: 0.7;
-					transition: opacity 0.2s ease-in-out;
-				}				
-				&:hover {
-					.service-title {
-						color: darken($link-color,20);
-						transition: color 0.1s ease-in-out;
-					}
-					.service-description {
-						opacity: 1.0;
-						transition: opacity 0.1s ease-in-out;
-					}
+			h4,.block-content {
+				width: 100%;
+			}
+			.btn {
+				color: $comp-color;
+				display: inline-block;
+				@include align-self(flex-end);
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+			&:hover {
+			background-color: $comp-color;
+				h4,.block-content,.btn {
+					color: $white;
 				}
 			}
-			
-			display: block;
 		}
 	}
 }
-#leadership-and-strategy {
-	h4 {
-		background-image: url(/images/ic-leadership-and-strategy.svg);
 
+.service-collection {
+	.post-title {
+		@extend h4;
 	}
 }
 
-#Operational-Excellence-and-Execution {
+.industry-page .post-block {
 	h4 {
-		background-image: url(/images/ic-Operational-Excellence-and-Execution.svg);
-
-	}
+	margin-bottom: 0;
 }
-
-#Organization-and-Human-Capital {
-	h4 {
-		background-image: url(/images/ic-Organization-and-Human-Capital.svg);
-
-	}
-}
-
-#Revenue-and-Sales {
-	h4 {
-		background-image: url(/images/ic-Revenue-and-Sales.svg);
-
-	}
-}
-
-#Data-Analytics-and-Decision-Science {
-	h4 {
-		background-image: url(/images/ic-Data-Analytics-and-Decision-Science.svg);
-
-	}
-}
-
-#Information-Technology-and-Digital-Strategy {
-	h4 {
-		background-image: url(/images/ic-Information-Technology-and-Digital-Strategy.svg);
-
-	}
-}
-
-#Oversight-and-Event-Driven-Expertise {
-	h4 {
-		background-image: url(/images/ic-Oversight-and-Event-Driven-Expertise.svg);
-
-	}
-}
-
-#Finance-and-Accounting {
-	h4 {
-		background-image: url(/images/ic-finance-and-accounting.svg);
-
-	}
 }

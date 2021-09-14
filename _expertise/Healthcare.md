@@ -1,4 +1,5 @@
 ---
 title:  "Healthcare"
-intro: In the healthcare space, we have reduced complexity, improved financial operations, and much more to bring positive outcomes for our partners.
+intro: The complexities of healthcare require specialized approaches to generate value across the industry. Our experience spans multiple disciplines and functional areas including finance and accounting, revenue cycle, operations, mergers and acquisitions, analytics, and others. 
+featured_services: [Cost-Management, Operating-Model-Design , Automation, Change-Management]
 ---

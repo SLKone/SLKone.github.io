@@ -6,15 +6,15 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: "franklin-gothic-urw",sans-serif;;
-$heading-font                	: $base-font;
+$base-font                   	: aktiv-grotesk, helvetica, sans-serif; 
+$heading-font                	: aktiv-grotesk-extended, helvetica, sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
 $doc-line-height             	: 20;
-$doc-small-size               : 14;
+$doc-small-size               	: 14;
 
 $border-radius               	: 4px;
 
@@ -22,18 +22,20 @@ $border-radius               	: 4px;
    Color variables
    ========================================================================== */
 
-$white                        : #fff;
-$black                        : #000;
+$white                        	: #fff;
+$black                        	: #000;
 
-$body-color                  	: #3E4241;
+$body-color                  	: #161A41;
 
-$text-color                  	: #3E4241;
-$caption-color                : mix($white, $text-color, 25%);
+$text-color                  	: #161A41;
+$caption-color                	: mix($white, $text-color, 95%);
 
-$base-color                  	: #F7FAF6;
-$comp-color                  	: #E0BE41;
+$base-color                  	: #5DBC5B;
+$base-color-dark				: #006548;
+$comp-color                  	: #377BBF;
+$comp-color-dark                : #161A41;
 $border-color                	: #EEEFEF;
-$link-color                  	: #1DAB78;
+$link-color                  	: #5DBC5B;
 
 $primary-color               	: $black;
 $success-color               	: #2ecc71;

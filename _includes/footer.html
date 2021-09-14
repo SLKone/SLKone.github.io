@@ -1,40 +1,24 @@
 
 <footer role="contentinfo" id="site-footer">
-	<div class="newsletter">
-		<div class="wrap content">
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://slkone.us2.list-manage.com/subscribe/post?u=90ff7a021aceda831941c8c59&amp;id=fe2a79522a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h3>Sign up for our Email Newsletter</h3>
-      <p>Join <i>The Whiteboard</i> to enjoy a monthly curation of articles, interviews, and more!</p>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address 
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-</div>	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_90ff7a021aceda831941c8c59_fe2a79522a" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="btn-filled"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-	</div>	
 	<div class="wrap">
-	<nav role="navigation" class="menu bottom-menu">
-		<a href="{{ site.url }}/">Home</a> - <a href="{{ site.url }}/services">Services</a> - <a href="{{ site.url }}/deliberate-thinking">Deliberate Thinking</a> - <a href="{{ site.url }}/insights">Insights</a> - <a href="{{ site.url }}/case-studies">Case Studies</a> - <a href="{{ site.url }}/team">Team</a> - <a href="{{ site.url }}/advisory-partners">Advisors</a> - <a href="{{ site.url }}/careers">Careers</a> - <a href="{{ site.url }}/contact">Get in Touch</a>
-		<div class="inline-btn">
-      <a class="btn-social twitter" href="https://twitter.com/SLKone_LLC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-      <a class="btn-social facebook" href="https://www.facebook.com/SLKoneLLC/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-      <a class="btn-social linkedin"  href="https://www.linkedin.com/company/slkone" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-    </div>
-    <p>251 Little Falls Drive, Wilmington, DE 19808, USA</p>
-    <p class="copyright">&#169; {{ site.time | date: '%Y' }} SLKone, LLC • <a href="{{ site.url }}/terms-and-conditions">Terms &amp; Conditions</a> </p>
-	</nav><!-- /.bottom-menu -->
+		{% include newsletter.html %}
+		<div class="footer-one">
+			<h2 id="footer-logo">SLKone</h2>
+			<div class="social-btn">
+		      <a class="btn" href="https://twitter.com/SLKone_LLC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		      <a class="btn" href="https://www.facebook.com/SLKoneLLC/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		      <a class="btn"  href="https://www.linkedin.com/company/slkone" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		    </div>
+		</div>
+		<div class="footer-two">
+			<nav role="navigation" class="menu bottom-menu">
+				<a href="{{ site.url }}/contact">Get in Touch</a> <a href="{{ site.url }}/services">Services</a> <a href="{{ site.url }}/insights">Insights</a> <a href="{{ site.url }}/careers">Jobs</a>  <a href="{{ site.url }}/terms-and-conditions">Terms &amp; Conditions</a>
+			</nav>
+			
+		</div>
+		<div class="footer-three">
+			<p>&#169; {{ site.time | date: '%Y' }} SLKone, LLC</p>
+		    <p>251 Little Falls Drive, Wilmington, DE 19808, USA</p>
+		</div>
 	</div>
 </footer>

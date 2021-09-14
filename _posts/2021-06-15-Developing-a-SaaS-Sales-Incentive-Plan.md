@@ -4,7 +4,7 @@ title:  "Developing a SaaS Sales Incentive Plan"
 authors: [Casey Matthews]
 intro: In this article, we will discuss numerous levers that can be pulled when designing a SIP, and additional spiffs that can be layered in to achieve the desired outcome.
 services-performed: [Revenue-Growth-and-Product-Strategy,Sales-Force-Effectiveness,Point-Solution-Applications]
-tag: [Article, June 2021 Newsletter]
+tag: [Article, June 2021 Newsletter, Sales-and-Operatings-Planning, Financial-Analytics, Operating-Model-Design]
 heroimage: posts/Developing-a-SaaS-Sales-Incentive-Plan.jpg
 ---
 

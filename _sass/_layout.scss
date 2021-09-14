@@ -1,49 +1,34 @@
 
-/* ==========================================================================
-   Page layout
-   ========================================================================== */
-
 /*
    Masthead
    ========================================================================== */
 
 #masthead {
-	background-color: #ffffff; // Old browsers
-	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: $base-color-dark;
 	z-index: 10;
-	@include media($small) {
-		position: absolute;
-	}
 	width: 100%;
-	.inner-wrap {
-		@include media($small) {
-			padding: 24px 0px 0px 0px;
-		}		
-		@include media($medium) {
-			padding: 0px;
-		}
-	@include media($micro) {
-		padding-bottom: 0;
-	}		
-	}
-	#mast-position {
-	width: 100%;
-	@include media($small) {;
-		@include display(flex);
-		padding: 0px;
-		@include align-items(center);
-		@include justify-content(space-between)
-		}
-	}
+	position: sticky;
 	padding: 0;
+	top: -$gutter;
+	padding-bottom: 0px !important;
+	#mast-position {
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin: 0px auto;
+		padding-top: $gutter/2;
+		padding-bottom: $gutter/2;
+		@include display(flex);
+		@include align-items(center);
+		@include media($medium) {
+			padding-top: $gutter;
+			padding-bottom: $gutter;
+		}
+	}
 }
 h1#logo {
-	background-image: url(../images/logo-hover.svg);
-	background-size: 0;
 	margin: 0;
-	padding: 0;
+	@include span-columns(3);
 	a {
 	display: block;
 	@include media($small) {
@@ -52,18 +37,18 @@ h1#logo {
 	background-image: url(../images/logo-light.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 56px;
-	width: 70px;
+	height: 40px;
+	width: 65px;
+	@include media($medium) {
+		height: 62px;
+		width: 100px;
+	}
 	@include hide-text;
-		@include media($medium) {
-			width: 90px;
-			height: 72px;
-		}
 	&:hover {
 		background-image: url(../images/logo-hover.svg);
 	}
 	}
-
+	z-index: 999;
 }
 
 
@@ -77,7 +62,7 @@ h1#logo {
 		@include media($medium) {
 		@include display(flex);
 		@include align-items(center);
-		@include justify-content(space-between);
+		@include justify-content(center);
 		z-index: 12;
 		ul {
 			position: absolute;
@@ -165,9 +150,6 @@ h1#logo {
 
 .wrap {
 	padding: $gutter;
-	@include media($large) {
-	padding:0;
-	}
 }
 
 /*
@@ -178,7 +160,7 @@ h1#logo {
 	.content {
 		padding-bottom: 32px;
 	}
-	margin-top: $gutter;
+	margin-top: 0;
 	@include media($small) {
 		margin-top: 0px;
 	}
@@ -188,9 +170,11 @@ h1#logo {
 		}
 	}
 	.page-title {
+		background-color: $base-color-dark;
 		background-size: cover;
 		background-position: center center;
-		text-align: center;
+		text-align: left;
+		color: $white;
 		@include media($micro) {
 			.wrap {
 				padding-bottom: 0;
@@ -203,35 +187,24 @@ h1#logo {
 			}
 		}
 		.background-overlay {
-			background: -moz-linear-gradient(top,  rgba(255,255,255,.75) 0%, rgba(255,255,255,1) 100%);
-			background: -webkit-linear-gradient(top,  rgba(255,255,255,.75) 0%,rgba(255,255,255,1) 100%);
-			background: linear-gradient(to bottom,  rgba(255,255,255,.75) 0%,rgba(255,255,255,1) 100%);
-			@include media($small) {
-				padding-top: 144px;
-				padding-bottom: 0px;
-			}
+			background: linear-gradient(to bottom, rgba($base-color-dark,1) 0%, rgba($base-color-dark,.75) 100%);
+			padding-top: 10vh;
+			padding-bottom: 10vh;
 			@include media($medium) {
-				padding-top: 172px;
-				padding-bottom: 32px;
+				padding-top: 10vh;
+				padding-bottom: 10vh;
 			}
 		}
 		h2 {
-			max-width: 1024px;
+			color: $white;
 			margin: 0px auto 8px auto;
 			@include media($large) {
-				margin-bottom: 16px;
+				margin-bottom: $gutter/4;
 			}
 		}
-		p.intro {
-			@include media($medium) {
-				@include font-size(24,yes,28);
-				line-height: 36px;
-			}
-			font-weight: medium;
-			color: rgba(0,0,0,.7);
-			font-style: italic;
-			max-width: 1024px;
-			margin: 0px auto 24px auto;
+		h5 {
+			color:rgba($white,0.5);
+			text-transform: uppercase;
 		}
 	}
 	@at-root {
@@ -417,37 +390,128 @@ h1#logo {
    ========================================================================== */
 
 #site-footer {
-	background: $base-color;
-	text-align: center;
+	background: $comp-color-dark;
+	color: rgba($white,.35);
+	text-align: left;
 	clear: both;
-	padding: 0px 0px 32px 0px;
-	a {
-		color: $link-color;
+  h2#footer-logo {
+	background-image: url(../images/logo-white.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 88px;
+	width: 142px;
+	display: none;
+	@include media($medium) {
+		display: block;
 	}
-  .inline-btn {
-    margin-top: 32px;
-  }
-  .btn-social {
-    color: $white;
-  }  
-  .b24-form-shadow {
-    box-shadow: none !important;
-    border: none !important;
-  }
+	@include hide-text;
+	}
 }
 
-.newsletter {
-	background: $white;
-	margin-bottom: 32px;
-	border-top: 4px solid $comp-color;
-	border-bottom: 4px solid $comp-color;
-  .wrap {
-    max-width: 640px;
-    padding: 32px 0px;
-    @include media($medium) {
-      padding: 64px 0px 72px;
+
+.footer-one {
+	@include media($medium) {
+		@include display(flex);
+		@include justify-content(space-between);
+		@include align-items(center);
+		margin-bottom: $gutter*3;
+	}
+	padding: $gutter 0;
+	.social-btn {
+		a {
+			color: rgba($white,.5);
+			font-size: 1.25em;
+			margin-right: 0;
+			&:hover {
+			color: $link-color;
+			}
+		}
+	}
+}
+
+.footer-two {
+	@include media($medium) {
+		@include display(flex);
+		@include justify-content(space-between);
+		@include align-items(center);
+	}
+	a {
+		margin-right: $gutter/2;
+		color: rgba($white,.5);
+		&:hover {
+			color: $link-color;
+		}
+	}
+	
+}
+
+.footer-three {
+	padding: $gutter/2 0;
+	margin-bottom: $gutter*2;
+	@include media($medium) {
+		@include display(flex);
+		@include justify-content(space-between);
+		@include align-items(center);
+	}
+}
+
+
+
+#mc_embed_signup {
+	h5 {
+	color: $white;
+	text-align:left;
+	}
+	#mc_embed_signup_scroll {
+		@include media($large) {
+			h4 {
+			text-align: left;
+			}
+			@include display(flex);
+			@include justify-content(space-between);
+			@include align-items(center);
+		}
+	}
+	.form_content {
+		@include display(flex);
+		@include justify-content(flex-start);
+		@include align-items(center);
+	}
+	background: $comp-color-dark;
+	color: $white;
+	padding: $gutter*2 0;
+	  .mc-field-group {
+	      margin-right: $gutter/2;
+	  }
+    label,input {
+    	color: $white;
+    	background: $comp-color-dark;
+    	min-width: 8em;
+	}
+	input {
+		min-height: 2em;
+	}
+	.btn-filled {
+		background: $white;
+		color: $comp-color;
+		line-height: 35px;
+		position: relative;
+		top: -2px;
+	}
+    #mc_embed_signup {
+	    color: $white;
+	    max-width: 640px;
+	    margin: 0px auto;
+	    h3 {
+		    color: $white;
+	    }
     }
-  }
+    #mce-EMAIL {
+    	min-width: 16em;
+		@include media($medium) {
+		min-width: 24em;
+		}
+    }
 }
 
 
@@ -487,8 +551,9 @@ h1#logo {
 			height: 44px;
 			width: 44px;
 	  		position: absolute;
-			top: 22px;
-			right: 22px;
+			top: 28px;
+			right: 16px;
+			color: $white;
 		}
 		input{
 		  display:none;
@@ -617,45 +682,26 @@ h1#logo {
 }
 
 .page-bottom {
-	background: $comp-color;
-  padding: 16px;
-  h6 {
-  text-align: center;
-  }
-	  .btn {
-	  display: block;
-	  @include media($medium) {
-		  display: inline-block;
-	  }
-	  text-align: center;
-	  }
-	.wrap {
-		@include media($medium) {
+	background: darken($comp-color,10%);
+	text-align: left;
+	h4,h5 {
+	  text-align: left;
+	  color: $white;
+	  margin-bottom: 0;
+		}
+	.btn {
+		color: $white;
+		border-color: $white;
+		display: block;
+		margin-bottom: 0;
+		margin-left: $gutter;
+		}
+	.bottom-link {
         @include display(flex);
         @include align-items(center);
-        @include justify-content(space-between);
+        @include justify-content(center);
         @include flex-wrap(nowrap);
-		}		
-		padding: 0px;
-		div {
-      padding: 16px;
-			border-bottom: 1px solid $white;
-      @include media($medium) {
-        border-right: 1px solid $white;
-        text-align: center;
-        border-bottom:0;
-      }
-			@include flex-grow(1);
-			a {
-			color: $white;
-			border-color: $white;
-			}
-			&:last-child {
-        border-right: 0;
-        border-bottom:0;
-			}
-		}
-}
+	}
 }
 
 
@@ -691,4 +737,257 @@ body .b24-form {
   .b24-form-sign {
     display: none !important;
   }
+}
+
+/* Post Block */
+.post-block {
+	a {
+		margin: 0 !important;
+		text-decoration: none;
+	}
+	
+}
+
+
+.post-block {
+	background-color: $white;
+	a {
+		margin: 0 !important;
+		text-decoration: none;
+		&:hover {
+		.block-image {
+			transform: scale(1.1);
+			transition: all .2s ease-in-out; 
+		}
+		}
+	}
+	.block-image-wrapper {
+		width: 100%;
+		overflow: hidden;
+	}	
+	.block-image {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 10em;
+		transition: all .2s ease-in-out; 
+	}
+	.block-content {
+		color: $body-color;
+		padding: $gutter/2;
+		text-align: left;
+	}
+	@include media($medium) {
+		a {
+			align-items: center;
+		}
+		.block-image {
+			height: 16em;
+		}
+     	.block-content {
+     	padding: $gutter;
+     	}
+	}
+	@include media ($large) {
+		.block-image {
+			height: 20em;
+		}
+	}
+	.block-meta {
+		@extend .btn;
+		padding: 0px;
+	}
+}
+
+
+.post-block-wide {
+	width: 100%;
+	max-width: 100%;
+	a {
+	width: 100%;
+		&:hover {
+		.block-image {
+			transform: scale(1.1);
+			transition: all .2s ease-in-out; 
+		}
+		}
+	}
+	.block-image-wrapper {
+		width: 100%;
+		overflow: hidden;
+	}
+	.block-image {
+	height: 16em;
+	transition: all .2s ease-in-out; 
+	}
+	.block-content {
+	padding: $gutter;
+	text-align: left;
+	}
+	.block-description {
+		font-size: 1.2em;
+	}
+	@include media($medium) {
+		a {
+			@include display(flex);
+			align-items: center;
+		}
+		.block-image {
+			height: 36em;
+		}
+		.block-image-wrapper, .block-content {
+        	width: 50%;
+     	}
+     	.block-content {
+     	max-width: 53.5em;
+     	padding: $gutter*2;
+     	}
+	}
+	@include media ($large) {
+		.block-image {
+			height: 50em;
+		}
+	}
+	&:nth-child(even) {
+		.block-image-wrapper {
+			order: 2;
+		}
+		a {
+			justify-content: flex-end;
+		}
+	}
+	.btn {
+	display: block;
+	margin: $gutter 0;
+	}
+}
+.post-blocks-wrap {
+	background-color: $caption-color;
+	padding: $gutter;
+	text-align: center;
+}
+
+.post-blocks-medium {
+	max-width: 71.875em;
+	margin: $gutter auto;
+	@include display(flex);
+	@include flex-wrap(wrap);
+	@include justify-content(flex-start)
+    .post-block-masonry {
+	    .post-block {
+		    	margin-bottom: $gutter;
+	    }
+	     @include media ($medium) {
+	    	width: 50%;
+	    	
+	    	&:nth-child(odd) .post-block {
+	    		margin-right: $gutter/2;
+	    	}
+	    	&:nth-child(even) .post-block {
+	    		margin-left: $gutter/2;
+	    	}
+    	}
+	}
+}
+.post-blocks {
+	max-width: 71.875em;
+	margin: $gutter auto;
+	@include display(flex);
+	@include flex-wrap(wrap);
+	@include justify-content(flex-start);
+    .post-block-masonry {
+	    .post-block {
+		    	margin-bottom: $gutter;
+	    }
+	     @include media ($medium) {
+	    	width: 50%;
+	    	
+	    	&:nth-child(odd) .post-block {
+	    		margin-right: $gutter/2;
+	    	}
+	    	&:nth-child(even) .post-block {
+	    		margin-left: $gutter/2;
+	    	}
+    	}
+	    @include media ($large) {
+			width: 33.333%;
+			&:nth-child(3n-2) .post-block {
+				margin-right: $gutter*.666;
+				margin-left: 0;
+			}
+			&:nth-child(3n-1) .post-block {
+				margin-left: $gutter*.3333;
+				margin-right: $gutter*.3333;
+			}
+			&:nth-child(3n) .post-block {
+				margin-right: 0;
+				margin-left: $gutter*.666;
+			}
+		}
+	}
+}
+
+.post-blocks-small {
+	max-width: 71.875em;
+	margin: $gutter auto;
+	@include display(flex);
+	@include flex-wrap(wrap);
+	@include justify-content(flex-start);
+	text-align: left;
+    .post-block-masonry {
+	    .post-block {
+		    	margin-bottom: $gutter;
+	    }
+	     @include media ($medium) {
+	    	width: 50%;
+	    	
+	    	&:nth-child(odd) .post-block {
+	    		margin-right: $gutter/2;
+	    	}
+	    	&:nth-child(even) .post-block {
+	    		margin-left: $gutter/2;
+	    	}
+    	}
+	    @include media ($large) {
+			width: 25%;
+			&:nth-child(4n-3) .post-block {
+				margin-right: $gutter*.75;
+				margin-left: 0;
+			}
+			&:nth-child(4n-2) .post-block {
+				margin-left: $gutter*.25;
+				margin-right: $gutter*.5;
+			}
+			&:nth-child(4n-1) .post-block {
+				margin-left: $gutter*.5;
+				margin-right: $gutter*.25;
+			}
+			&:nth-child(4n) .post-block {
+				margin-left: $gutter*.75;
+				margin-right: 0;
+			}			
+		}
+	}
+}
+
+.post-block-small {
+	.block-meta {
+		padding-top: $gutter/2;
+		margin: 0;
+	}
+	h4 {
+	margin-bottom: $gutter/2;
+	}
+	.block-content {
+		padding: 0;
+		color: $body-color;
+	}
+	.block-image {
+		height: 10em;
+	}
+	@include media ($large) {
+		.block-image {
+			height: 10em;
+		}
+	}
 }

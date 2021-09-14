@@ -5,7 +5,7 @@ authors: [Phil Lynch, Dustin Fidaleo]
 intro: Type-casted as a taboo subject, cash management can be misinterpreted and consequentially mismanaged. No business can survive without a healthy influx of cash, but what does it mean to manage it? 
 services-performed: [Finance-and-Accounting-Processes,Financial-Planning-and-Analysis,Goals-Alignment]
 heroimage: posts/What-Does-Cash-Management-Actually-Mean.jpeg
-tag: [Article]
+tag: [Article, Corporate-Finance-and-Revenue Management, Cost-Management]
 ---
 
 Type-casted as a taboo subject, cash management can be misinterpreted and consequentially mismanaged. No business can survive without a healthy influx of cash, but what does it mean to manage it? 

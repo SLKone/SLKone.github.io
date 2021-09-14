@@ -5,7 +5,7 @@ authors: [Dan Kowalski, Arun Shukla, Phil Lynch]
 intro: "Use Deliberate Thinking to get back in business after the gut punch of COVID-19 in the Private Equity world."
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]
 heroimage: posts/Think-Forward-Part-Four.jpg
-tag: [Article]
+tag: [Article, Deliberate-Thinking, Deliberate-Thinking-Workshop, Online-Program]
 ---
 
 Unless your portfolio is singularly built on business platforms whose models work even when people self-quarantine (think Netflix and hand sanitizer production), your portfolio company valuations have taken a hit due to the spread of coronavirus 2 (SARS-CoV-2). COVID-19 may have thrown you off course from the value creation roadmap, but a deliberate detour will get you back on the value creation highway. So, now what?
