@@ -509,7 +509,7 @@ h1#logo {
 	    }
     }
     #mce-EMAIL {
-    	min-width: 16em;
+    	min-width: 12em;
 		@include media($medium) {
 		min-width: 24em;
 		}
