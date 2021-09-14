@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title:  "Logistics Scenario Planning for a $80M Furniture Manufacturer"
-industries: [Consumer-Goods-and-Services, Manufacturing]
+industries: [Consumer-Goods-and-Services]
 services-performed: [Logistics-and-Supply-Chain]
 intro: SLKone developed models and scenarios to optimize the distribution footprint that reduced lead time and overall Supply Chain costs.
 team-size: 2 consultants
