@@ -142,16 +142,16 @@
 		display: inline-block;
 		margin-bottom: 0;
 	}
-	.team {
-		width: 40%;
-	}
-	.team-content {
-		width: 60%;
-	}
-	.team-wrap { 
 	@include media($medium) {
-	@include display(flex);
-	}
+		.team {
+			width: 40%;
+		}
+		.team-content {
+			width: 60%;
+		}
+		.team-wrap { 
+		@include display(flex);
+		}
 	}
 }
 
