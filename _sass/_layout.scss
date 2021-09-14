@@ -27,6 +27,7 @@
 		@include media($medium) {
 			padding-top: $gutter;
 			padding-bottom: $gutter;
+			justify-content: flex-start;
 		}
 		&::after {
 			display: none;
