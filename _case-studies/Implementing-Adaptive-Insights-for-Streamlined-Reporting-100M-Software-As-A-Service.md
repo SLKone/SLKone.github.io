@@ -7,7 +7,7 @@ intro: SLKone reigned in an off-track software implementation to ensure that bus
 team-size: 2 consultants
 project-length: 2 months
 tags: Featured
-heroimage: case-studies/Implementing-Adaptive-Insights-for-Streamlined-Reporting-200M-Software-As-A-Service.jpg
+heroimage: case-studies/Implementing-Adaptive-Insights-for-Streamlined-Reporting-100M-Software-As-A-Service.jpg
 ---
 
 #### Situation
