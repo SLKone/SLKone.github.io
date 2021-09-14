@@ -106,6 +106,7 @@ $link-color: $base-color-dark;
 	cursor: pointer;
 	&:after {
 		content: "menu";
+		transition: 0.45s;
 	}
 	@include media($medium) {
 		display: none;
@@ -127,6 +128,7 @@ $link-color: $base-color-dark;
 .nav-is-toggled {
 	#ham:after {
 		content: "close";
+		transition: 0.45s;
 	}
 	#main:after {
 		background: rgba(0,0,0,.5);
