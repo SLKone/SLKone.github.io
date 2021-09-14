@@ -2,7 +2,7 @@
 layout: newsletter
 title:  "Monthly Edit: Growth Through Failure"
 authors: [Kevin Gore]
-tags: [Newsletters, May 2021 Newsletter, Monthly Edits, Featured, Organization-and-Human-Capital, Deliberate-Thinking]
+tags: [Newsletters, May 2021 Newsletter, Monthly Edits, Organization-and-Human-Capital]
 newsletter: [May 2021 Newsletter]
 heroimage: posts/growth-through-failure.jpeg
 ---
