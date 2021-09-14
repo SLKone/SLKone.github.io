@@ -690,7 +690,7 @@ body .b24-form {
 	}
 	.block-content {
 		color: $body-color;
-		padding: $gutter/2;
+		padding: $gutter;
 		text-align: left;
 	}
 	@include media($medium) {
