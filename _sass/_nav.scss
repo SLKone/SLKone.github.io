@@ -96,7 +96,7 @@ $primary-color-tint-3: lighten( $primary-color, 30% );
 $primary-color-tint-4: lighten( $primary-color, 40% );
 $primary-color-tint-5: lighten( $primary-color, 50% );
 
-$link-color: $primary-color;
+$link-color: $base-color-dark;
 
 #ham {
 	display: block;
@@ -112,9 +112,26 @@ $link-color: $primary-color;
 	}
 }
 
+#main:after {
+		content: " ";
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0);
+		transition: 0.45s;
+}
+
 .nav-is-toggled {
 	#ham:after {
 		content: "close";
+	}
+	#main:after {
+		background: rgba(0,0,0,.5);
+		z-index: 9;
+		transition: 0.45s;
 	}
 }
 .nav-top {
@@ -155,16 +172,16 @@ $link-color: $primary-color;
 
 $nav-width: 100%;
 $nav-padding: 0.875em 1em;
-$nav-border-color: $primary-color-tint-5;
-$nav-background-color: $white;
+$nav-border-color: $base-color-dark;
+$nav-background-color: darken($base-color,10%);
 $nav-icon-font: 'Material Icons';
 $nav-icon-arrow-right: 'chevron_right';
 $nav-icon-arrow-left: 'chevron_left';
 
-$nav-level-border-color: $primary-color;
-$nav-level-background-color: $primary-color-tint-5;
+$nav-level-border-color: darken($base-color-dark,10%);
+$nav-level-background-color: $base-color-dark;
 
-$nav-level3-background-color: $primary-color-tint-4;
+$nav-level3-background-color: $base-color-dark;
 $nav-level4-background-color: $primary-color-tint-3;
 $nav-level5-background-color: $primary-color-tint-2;
 
@@ -198,7 +215,7 @@ $nav-level5-background-color: $primary-color-tint-2;
 		display: block;
 		padding: $nav-padding;
 		background-color: $nav-background-color;
-		color: $link-color;
+		color: $white;
 		font-size: 1rem;
 		line-height: 1.5em;
 		font-weight: 300;
