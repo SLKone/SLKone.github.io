@@ -62,7 +62,7 @@ h1#logo {
 		@include media($medium) {
 		@include display(flex);
 		@include align-items(center);
-		@include justify-content(center);
+		justify-content: center;
 		z-index: 12;
 		ul {
 			position: absolute;
@@ -872,7 +872,7 @@ body .b24-form {
 	margin: $gutter auto;
 	@include display(flex);
 	@include flex-wrap(wrap);
-	@include justify-content(flex-start)
+	justify-content: flex-start;
     .post-block-masonry {
 	    .post-block {
 		    	margin-bottom: $gutter;
@@ -894,7 +894,7 @@ body .b24-form {
 	margin: $gutter auto;
 	@include display(flex);
 	@include flex-wrap(wrap);
-	@include justify-content(flex-start);
+	justify-content: flex-start;
     .post-block-masonry {
 	    .post-block {
 		    	margin-bottom: $gutter;
@@ -932,7 +932,7 @@ body .b24-form {
 	margin: $gutter auto;
 	@include display(flex);
 	@include flex-wrap(wrap);
-	@include justify-content(flex-start);
+	justify-content: flex-start;
 	text-align: left;
     .post-block-masonry {
 	    .post-block {
