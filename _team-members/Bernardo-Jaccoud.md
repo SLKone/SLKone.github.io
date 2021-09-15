@@ -1,8 +1,8 @@
 ---
 layout: team-member
 title:  "Bernardo Jaccoud"
-job-title: Managing Consultant
-order: 10
+job-title: Engagement Manager
+order: 7
 skills:
 - Operational Excellence & Execution
 - Data, Analytics, & Information Technology

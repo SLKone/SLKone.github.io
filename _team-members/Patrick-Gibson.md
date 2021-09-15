@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Patrick Gibson"
 job-title: Managing Consultant
-order: 8
+order: 9
 skills:
 - Data, Analytics, & Information Technology
 - Data Visualization
