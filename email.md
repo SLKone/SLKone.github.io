@@ -6,7 +6,7 @@ noindex: true
 ---
    <p>Copy the content in the section below to add an email signature. Remember to edit the email and telephone number</p>
 
-<button class="btn-primary" id='copybtn' onclick="CopyToClipboard('email')">
+<button class="btn btn-filled" id='copybtn' onclick="CopyToClipboard('email')">
   Copy Email Code
 </button>
 <div id="email-outline">
