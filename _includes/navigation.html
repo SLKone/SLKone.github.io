@@ -2,22 +2,23 @@
 	<ul id="navigation">
 	<li class="top down"><a href="{{ site.url }}/services">Capabilities</a>
 		<ul>
-			<li class="top"><a href="{{ site.url }}/services/Operations">Operations</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Corporate-Finance-and-Revenue-Management">Corporate Finance and Revenue Management</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Mergers-and-Acquisitions">Mergers &amp; Acquisitions</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Digital-Strategy-and-Technology">Digital Strategy &amp; Technology</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Organization-and-Human-Capital/">Organization &amp; Human Capital</a></li>
-			<li class="top"><a href="{{ site.url }}/services/Deliberate-Thinking">Deliberate Thinking</a></li>
+			{% assign ordered-services = site.services | sort:"order" %}
+			{% for service in ordered-services %}
+			{% if service.categories contains 'top-level-service' %}
+			<li class="top">
+			    <a href="{{site.url}}{{ service.url }}">{{ service.title }}</a>
+			</li>
+		     {% endif %}
+			 {% endfor %}
 		</ul></li>
 	<li class="top down"><a href="{{ site.url}}/expertise">Industries</a>
 		<ul>
-			<li><a href="{{ site.url }}/expertise/Healthcare">Healthcare</a></li>
-			<li><a href="{{ site.url }}/expertise/Manufacturing">Manufacturing</a></li>
-			<li><a href="{{ site.url }}/expertise/Oil-and-Gas">Oil and Gas</a></li>
-			<li><a href="{{ site.url }}/expertise/Consumer-Goods-and-Services">Consumer Goods &amp; Services</a></li>
-			<li><a href="{{ site.url }}/expertise/Private-Equity">Private Equity</a></li>
-			<li><a href="{{ site.url }}/expertise/Food-and-Beverage">Food &mp; Beverage</a></li>
-			<li><a href="{{ site.url }}/expertise/Software-and-Tech">Software</a></li>
+			{% assign ordered-expertise = site.expertise | sort:"order" %}
+			{% for expertise in ordered-expertise %}
+			<li class="top">
+			    <a href="{{site.url}}{{ expertise.url }}">{{ expertise.title }}</a>
+			</li>
+			{% endfor %}
 		</ul>
 	</li>
 	<li class="top down"><a href="{{ site.url }}/insights">Insights</a>
@@ -50,7 +51,8 @@
 					<a class="nav-link" href="{{ site.url }}/services">
 						Capabilities
 					</a>
-				</li>				
+				</li>	
+						
 				<li class="nav-item nav-expand">
 					<a class="nav-link nav-expand-link" href="#">
 						Operations
@@ -211,13 +213,12 @@
 						Industries
 					</a>
 				</li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Healthcare">Healthcare</a></li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Manufacturing">Manufacturing</a></li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Oil-and-Gas">Oil and Gas</a></li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Consumer-Goods-and-Services">Consumer Goods &amp; Services</a></li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Private-Equity">Private Equity</a></li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Food-and-Beverage">Food &mp; Beverage</a></li>
-				<li class="nav-item"><a class="nav-link" href="{{ site.url }}/expertise/Software-and-Tech">Software</a></li>
+				{% assign ordered-expertise = site.expertise | sort:"order" %}
+				{% for expertise in ordered-expertise %}
+				<li class="nav-item">
+				    <a class="nav-link" href="{{site.url}}{{ expertise.url }}">{{ expertise.title }}</a>
+				</li>
+				{% endfor %}
 			</ul>
 		</li>
 	<li class="nav-item nav-expand">
