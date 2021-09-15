@@ -175,9 +175,9 @@ $link-color: $base-color-dark;
 // important stuff starts here
 
 $nav-width: 100%;
-$nav-padding: 0.875em 1em;
-$nav-border-color: $base-color-dark;
-$nav-background-color: darken($base-color,10%);
+$nav-padding: $gutter/2 $gutter;
+$nav-border-color: darken($base-color-dark,10%);
+$nav-background-color: $base-color-dark;
 $nav-icon-font: 'Material Icons';
 $nav-icon-arrow-right: 'chevron_right';
 $nav-icon-arrow-left: 'chevron_left';
@@ -186,8 +186,8 @@ $nav-level-border-color: darken($base-color-dark,10%);
 $nav-level-background-color: $base-color-dark;
 
 $nav-level3-background-color: $base-color-dark;
-$nav-level4-background-color: $primary-color-tint-3;
-$nav-level5-background-color: $primary-color-tint-2;
+$nav-level4-background-color: $base-color-dark;
+$nav-level5-background-color: $base-color-dark;
 
 .nav {
 	&-drill {
@@ -203,6 +203,7 @@ $nav-level5-background-color: $primary-color-tint-2;
 		overflow-x: hidden;
 		-webkit-overflow-scrolling: touch;
 		transition: 0.45s;
+		border-top: solid 1px $nav-border-color;
 	}
 	
 	&-items {
@@ -210,9 +211,7 @@ $nav-level5-background-color: $primary-color-tint-2;
 	}
 	
 	&-item {
-		&:not(:last-child) {
-			border-bottom: solid 1px $nav-border-color;
-		}
+		border-bottom: solid 1px $nav-border-color;
 	}
 	
 	&-link {
@@ -238,9 +237,7 @@ $nav-level5-background-color: $primary-color-tint-2;
 			visibility: hidden;
 			
 			.nav-item {
-				&:not(:last-child) {
-					border-bottom: solid 1px $nav-level-border-color;
-				}
+				border-bottom: solid 1px $nav-level-border-color;
 			}
 
 			.nav-link {
