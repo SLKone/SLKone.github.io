@@ -14,7 +14,7 @@ heroimage: posts/spotlight-leannestewart.jpg
 
 Today’s topic is around rebranding, pivoting, adapting, growing – both personally and professionally. LeAnne Stewart is the Chief Financial Officer of Axia Women’s Health, one of the largest healthcare organizations in the US solely focused on Women’s Health. During LeAnne’s tenure they have expanded to serve in over six states and continue to grow. LeAnne leads not only the finance and accounting functions, but revenue cycle, IT, and more depending on the needs. 
 
-####Q: Thanks for taking the time to speak with us today. Can you share a bit of your background, how arrived at Axia, and how you’ve grown and changed throughout your career? 
+<b>Q: Thanks for taking the time to speak with us today. Can you share a bit of your background, how arrived at Axia, and how you’ve grown and changed throughout your career?</b> 
 
 A: I am the eldest of three sisters and went to an all-girl’s school, a women’s college. Then I headed off to career adventures in public accounting. I’ve been CFO of a couple of multi-billion dollar public companies and have since been the CFO of a handful of private equity sponsored companies, most recently in healthcare services. I landed at Axia because women’s-centric missions are super important to me. When I was approached about the opportunity, I thought it would be a chance to continue my career in a different way – different challenges for a company like this versus companies I’ve worked with in the past – but also allow me to double down on women’s-centric missions. We are a women’s healthcare company. We are unique in a lot of ways and are focused on providing an all-inclusive healthcare opportunity for our patients. I love what we are doing and what we are building. 
 
