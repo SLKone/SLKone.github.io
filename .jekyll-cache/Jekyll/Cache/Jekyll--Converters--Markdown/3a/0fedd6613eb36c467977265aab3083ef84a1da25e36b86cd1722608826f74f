@@ -1,14 +1,8 @@
----
-layout: page
-permalink: /email
-title: Email Styling
-noindex: true
----
-   <p>Copy the content in the section below to add an email signature. Remember to edit the email and telephone number</p>
+I"ó<p>Copy the content in the section below to add an email signature. Remember to edit the telephone number (and telephone number link)</p>
 
-<button class="btn-primary" id='copybtn' onclick="CopyToClipboard('email')">
+<p><button class="btn-primary" id="copybtn" onclick="CopyToClipboard('email')">
   Copy Email Code
-</button>
+</button></p>
 <div id="email-outline">
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
    <tr style="border:0;padding:0;">
@@ -22,20 +16,20 @@ noindex: true
                   <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
                      <tr style="border:0;padding:0;">
                         <td style="border:0;padding:0;">
-                           <div style="font: 1em arial, helvetica, sans-serif;color:#161A41;">First Last</div>
+                           <div style="font: 1em arial, helvetica, sans-serif;color:#2C3142;">First Last</div>
                         </td>
                      </tr>
                      <tr style="border:0;padding:0;">
-                        <td style="padding: 4px 0 12px;border:0;">
-                           <div style="font: 0.75em arial, helvetica, sans-serif;color:#161A41;">
-                           Title  |  SLKone, LLC   </div>
+                        <td style="padding: 4px 0;margin-bottom:8px;border:0;">
+                           <div style="font: 0.75em arial, helvetica, sans-serif;color:#2C3142;">
+                           Managing Director  |  SLKone, LLC   </div>
                         </td>
                      </tr>
                      <tr style="padding: 0;border:0;">
-                        <td style="color: #5DBC5B;border:0;padding:0;font: 0.75em arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</td>
+                        <td style="border:0;padding:0;font: 0.75em arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</td>
                      </tr>
                      <tr style="padding: 0;border:0;">
-                        <td style="color: #5DBC5B;border:0;padding:0;font: 0.75em arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</td>
+                        <td style="border:0;padding:0;font: 0.75em arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</td>
                      </tr>
                   </table>
                </td>
@@ -45,3 +39,4 @@ noindex: true
    </tr>
 </table>
 </div>
+:ET
