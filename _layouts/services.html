@@ -15,8 +15,8 @@ layout: default
 		{{ content }}
 		{% assign service-slug =  page.url | remove: '/' | remove_first: "services" %}
 		<div class="services post-blocks">
-
-			{% for service in site.services %}
+			{% assign ordered-services = site.services | sort:"order" %}
+			{% for service in ordered-services %}
 			{% if service.categories contains service-slug %}
 			<div class="post-block-masonry">
 			    {% include service-block.html %}

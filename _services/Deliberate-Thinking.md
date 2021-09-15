@@ -2,6 +2,7 @@
 title:  "Deliberate-Thinking"
 layout: services
 categories: [top-level-service]
+order: 6
 intro: Deliberate Thinking is a collection of neuroscience-based techniques, designed specifically for business leaders, that train the brain to think productively. It uses neurogenesis – the science behind learning new skills and habits – to create cognitive pathways that promote and sustain high performance. This methodology fosters the knowledge and skills to solve unclear situations in your business and your life.
 ---
 
