@@ -5,7 +5,8 @@ layout: default
 	{% include title-image.html %}
 	<div class="wrap">
 		<div class="services service-collection post-blocks-medium">
-			{% for service in site.services %}
+			{% assign ordered-services = site.services | sort:"order" %}
+			{% for service in ordered-services %}
 			{% if service.categories contains 'top-level-service' %}
 			<div class="post-block-masonry">
 			    {% include service-block.html %}
