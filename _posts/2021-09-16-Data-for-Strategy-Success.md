@@ -2,8 +2,8 @@
 layout: post
 title:  "Get the Most Out of Your Data for Strategy Success"
 authors: [Patrick Gibson, Phil Lynch]
-intro: Data from a wide array of sources is at the heart of evaluating business strategies, and when used correctly, will provide an assessment of current efforts and give insights to when it is time to realign business strategy.
-services-performed: [Revenue-Growth-and-Product-Strategy,Operationalizing-Strategy]
+intro: Data from a wide array of sources is at the heart of evaluating business strategy and can provide an assessment of current efforts and give insights for realignment.
+services-performed: [Process-Design, Operating-Model-Design]
 tag: [Article, September 2021 Newsletter, Process-Design, Operating-Model-Design, Featured]
 heroimage: posts/Get-the-Most-Out-of-Your-Data-for-Strategy-Success.jpg
 ---
