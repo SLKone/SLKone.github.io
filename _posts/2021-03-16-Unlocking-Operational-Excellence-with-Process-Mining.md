@@ -3,7 +3,7 @@ layout: post
 title:  "Unlocking Operational Excellence with Process Mining"
 authors: [Bernardo Jaccoud]
 intro: Process mining can help organizations enable operational resilience, reduce financial and operational risks, catalyze automation, and enhance digital transformations.
-services-performed: [Manufacturing-Processes-and-Operational-Improvements,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
+services-performed: [Operations, Organization-and-Human-Capital, Process-Design]
 tag: [Article, March 2021 Newsletter, Featured, Operations, Organization-and-Human-Capital, Process-Design]
 heroimage: posts/process-mining.jpeg
 ---
