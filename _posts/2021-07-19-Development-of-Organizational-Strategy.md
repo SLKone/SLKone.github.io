@@ -3,7 +3,7 @@ layout: post
 title:  "Development of Organizational Strategy"
 authors: [Andrew Conquest,Andrew Klemm,Arun Shukla]
 intro: To be effective, strategy requires situational awareness, vision setting, objective setting, and comprehensive planning ahead of execution.  
-services-performed: [Revenue-Growth-and-Product-Strategy,Operationalizing-Strategy]
+services-performed: [Organization-and-Human-Capital, Process-Design, Operating-Model-Design]
 tag: [Article, July 2021 Newsletter, Organization-and-Human-Capital, Process-Design, Operating-Model-Design, Featured]
 heroimage: posts/Development-of-Organizational-Strategy.jpg
 ---
