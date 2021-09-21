@@ -5,7 +5,7 @@ layout: default
 	<div class="page-title">
 		<div class="background-overlay">
 		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
-			<h5>{% if page.categories contains 'top-level-service' %}<a href="{{site.url}}/services">Capabilities</a>&gt; {% else %}<a href="{{site.url}}/services">Capabilities</a> &gt; <a href="{{site.url}}/services/{{page.categories}}">{{page.categories | replace: '-', ' ' | remove: '[', | remove: ']' | remove: '"'}}</a> &gt;{% endif %} </h5>
+			<h5>{% if page.categories contains 'top-level-service' %}<a href="{{site.url}}/services">Capabilities</a> &gt; {% else %}<a href="{{site.url}}/services">Capabilities</a> &gt; <a href="{{site.url}}/services/{{page.categories}}">{{page.categories | replace: '-', ' ' | remove: '[', | remove: ']' | remove: '"'}}</a> &gt;{% endif %} </h5>
 			<h2>{{ page.title }}</h2>
 			{% if page.intro %}<p class="large">{{ page.intro }}</p>{% endif %}			
 		</div>
