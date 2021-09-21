@@ -121,6 +121,9 @@ h1#logo {
 		h5 {
 			color:rgba($white,0.5);
 			text-transform: uppercase;
+			a {
+				text-decoration: none;
+			}
 		}
 	}
 	@at-root {
