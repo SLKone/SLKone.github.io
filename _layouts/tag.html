@@ -2,7 +2,16 @@
 layout: default
 ---
 <div id="main" class="insights" role="main">			
-	{% include title-image.html %}
+	<div class="page-title" style="background-image:url({{ site.url }}/images/{{ page.heroimage}})">
+		<div class="background-overlay">
+			<div class="wrap">
+				<div>
+					<h5><a href="{{site.url}}/insights/">Insights</a> &gt; </h5>
+					<h2>{{ page.title }}</h2>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="content post-blocks-wrap">
 		<div class="post-blocks-medium">
 			{% for post in site.tags[page.tag] %}
