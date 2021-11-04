@@ -6,11 +6,7 @@ subtitle: "Join the Team"
 intro: "At SLKone, we have redefined the purpose of a consultant by leveraging our expertise for greater client results as well as personal and professional satisfaction. Whereas a typical consultant is measured by the hours billed, a SLKone team member is driven by the desire to deliver successful outcomes for our clients.”"
 heroimage: "careers.jpg"
 ---
-<div id="career-four">
-  <ul>
-  <li><strong>How We Do It Better</strong>SLKone partners with clients to bridge data with decision making to generate enterprise value. What makes SLKone different is our how we approach the intersection of business generalist and data scientist. Historically, that has been accomplished through the “data translator” model where management consultants work with data science teams to derive insights. We challenge that model and believe there have been enough advancements in open-source research, education, and resources to apply data science principles and models to our projects. In other words, we’re consultants who can code and see that as the long-term model for success.</li>
-  </ul>
-</div>
+<p class="large"><strong>How We Do It Better</strong> SLKone partners with clients to bridge data with decision making to generate enterprise value. What makes SLKone different is our how we approach the intersection of business generalist and data scientist. Historically, that has been accomplished through the “data translator” model where management consultants work with data science teams to derive insights. We challenge that model and believe there have been enough advancements in open-source research, education, and resources to apply data science principles and models to our projects. In other words, we’re consultants who can code and see that as the long-term model for success.</p>
 <div id="career-four">
 	<ul>
 		<li><strong>Goals are not executed privately at SLKone.</strong> After setting individual goals, team members share their goals with each other and commit to helping one another deliver those goals; everyone succeeds together.</li>
