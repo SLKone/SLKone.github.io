@@ -24,7 +24,15 @@
 					 <li>{{ qualification }}</li>
 					{% endfor %}
 				</ul>
-				{% endif %}			
+				{% endif %}		
+				{% if careers.additional-capabilities %}
+			    <h6>Qualifications</h6>			
+				<ul>
+					{% for qualification in careers.additional-capabilities %}
+					 <li>{{ qualification }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}							
 			    {% if careers.game-changers %}
 			</div>
 			<div class="career-right">				
