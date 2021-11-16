@@ -4,7 +4,7 @@ title:  "Spotlight Interview: Andrew Klemm"
 authors: [Christopher Burton, Emily Cowperthwaite]
 newsletter: [February 2021 Newsletter]
 tags: [Newsletters, February 2021 Newsletter, Spotlight Interviews]
-heroimage: posts/spotlight-andrewklemm.jpg
+heroimage: posts/AK.jpg
 ---
 
 #### Business Transformation: An Interview with <a href="https://slkone.com//team-members/Andrew-Klemm/">Andrew Klemm</a>, SLKone Partner & Chief Financial Officer
