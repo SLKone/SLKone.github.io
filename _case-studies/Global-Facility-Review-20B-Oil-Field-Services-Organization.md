@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Global Facility Review for a $20B Oil Field Services Organization"
 industries: [Oil-and-Gas]
-services-performed: [Corporate-Finance-and-Revenue-Management]
+services-performed: [Performance-Improvement,Operating-Model-Design,Change-Management]
 intro: An organization built by acquisition and continued siloed organizations led to a bloated facility footprint across a global organization
 team-size: 2 consultants
 project-length: 2 months
