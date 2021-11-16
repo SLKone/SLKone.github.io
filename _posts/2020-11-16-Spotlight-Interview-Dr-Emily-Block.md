@@ -4,7 +4,7 @@ title:  "Spotlight Interview: Dr. Emily Block"
 authors: [Christopher Burton, Emily Cowperthwaite]
 newsletter: [November 2020 Newsletter]
 tags: [Newsletters, November 2020 Newsletter, Spotlight Interviews]
-heroimage: posts/spotlight-emilyblock.jpg
+heroimage: posts/spotlight-emilyblock-new.jpg
 ---
 
 #### Business as a Science: An Interview with <a href="https://slkone.com/advisors/Emily-Block/">Dr. Emily Block</a>, SLKone Advisory Partner
