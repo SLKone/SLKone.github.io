@@ -15,7 +15,7 @@ EVA had its hay day in the late 1980’s and early 1990’s but with the emergen
 
 EVA is an elegant concept – it assesses the performance of a company and therefore its leadership team when a business generates wealth for its shareholders over and above its cost of capital. The calculation shows how and where a company created wealth, through the inclusion of balance sheet items. EVA can be expressed as follows:
 
-EVA = NOPAT – (WACC * capital invested)<br>          
+<b>EVA = NOPAT – (WACC * capital invested)</b>          
 Where NOPAT = Net Operating Profits After Tax<br>
 WACC = Weighted Average Cost of Capital<br>
 Capital invested = Equity + long-term debt at the beginning of the period<br>
