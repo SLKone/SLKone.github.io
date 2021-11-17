@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Sales Incentive Program and Budget $100M Software Provider"
 industries: [Software-and-Tech]
-services-performed: [Compensation-and-Performance-Systems, Goals-Alignment]
+services-performed: [Performance-Improvement,Sales-and-Operations-Planning]
 intro: SLKone assisted the Chief Financial Officer and Vice President of Sales to develop a simplified sales incentive plan, tied to business objectives, and an integrated payout model to ensure commissions are calculated and paid correctly
 team-size: 2 consultants
 project-length: 2 months
