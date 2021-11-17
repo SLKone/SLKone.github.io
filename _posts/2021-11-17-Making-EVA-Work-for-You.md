@@ -15,30 +15,30 @@ EVA had its hay day in the late 1980’s and early 1990’s but with the emergen
 
 EVA is an elegant concept – it assesses the performance of a company and therefore its leadership team when a business generates wealth for its shareholders over and above its cost of capital. The calculation shows how and where a company created wealth, through the inclusion of balance sheet items. EVA can be expressed as follows:
 
-EVA = NOPAT – (WACC * capital invested)          
-Where NOPAT = Net Operating Profits After Tax
-WACC = Weighted Average Cost of Capital
-Capital invested = Equity + long-term debt at the beginning of the period
+EVA = NOPAT – (WACC * capital invested)<br>          
+Where NOPAT = Net Operating Profits After Tax<br>
+WACC = Weighted Average Cost of Capital<br>
+Capital invested = Equity + long-term debt at the beginning of the period<br>
 and (WACC* capital invested) is also known as finance charge
 
 This simple equation forces business managers to be aware of assets and expenses when making decisions. EVA aids capital efficiency by indicating how to make good investments more productive as well as highlighting when to avoid bad investments. It also shows when and how to redeploy capital from the bad investments to the good. In such ways, it raises capital efficiency without sacrificing growth. Unfortunately, the benefits of EVA are hard to realize when the definition of assets and capital to financial measures restrict its ability to be understood to only the finance function within a business. 
 
 At SLKone, we believe that the disconnect between EVA as a financial function’s metric to an enterprise-wide metric can be addressed through concerted efforts that require:
 
-1.	<b>Disaggregating financial measures to operational measures</b> - What can managers do to avoid the “black-box” syndrome of EVA?
+#### Disaggregating financial measures to operational measures - What can managers do to avoid the “black-box” syndrome of EVA?
 
-a.	Unpack the concept of EVA into its components. Dupont charts are a time-tested tool to build a decision tree of interconnected economic, financial, and operational drivers and metrics. <br>
-b.	Business measures such as profitability should be split into functional metrics such as revenue drivers and customer acquisition cost metrics for the sales function. Do make the linkages with causal metrics such as response time and first-time resolutions. Similarly for capital charge metrics, working capital, inventory, and capacity utilization can be the drivers.<br>
-c.	Highlight specific measures where changes yield the most value. Limit them to a practical number of 3-5 metrics per function.<br>
-d.	Ensure that the person or the group being measured can control the trajectory of the metrics.<br>
-e.	Rather than using the theoretical definition to calculate EVA, managers should make practical measures that are best suited for the business. As an example, subtracting operating costs and capital charge from the revenue drivers is a good proxy for economic profit and value accretion.<br>
+1. Unpack the concept of EVA into its components. Dupont charts are a time-tested tool to build a decision tree of interconnected economic, financial, and operational drivers and metrics. <br>
+2. Business measures such as profitability should be split into functional metrics such as revenue drivers and customer acquisition cost metrics for the sales function. Do make the linkages with causal metrics such as response time and first-time resolutions. Similarly for capital charge metrics, working capital, inventory, and capacity utilization can be the drivers.<br>
+3. Highlight specific measures where changes yield the most value. Limit them to a practical number of 3-5 metrics per function.<br>
+4. Ensure that the person or the group being measured can control the trajectory of the metrics.<br>
+5. Rather than using the theoretical definition to calculate EVA, managers should make practical measures that are best suited for the business. As an example, subtracting operating costs and capital charge from the revenue drivers is a good proxy for economic profit and value accretion.
 
-2.	<b>Communicating the concept to improve financial literacy</b> - What can managers do to translate the abstraction of EVA into a language that all employees can understand?
+#### Communicating the concept to improve financial literacy - What can managers do to translate the abstraction of EVA into a language that all employees can understand?
 
-a.	EVA is a natural concept. No rational person will ever expect to be able to borrow money for free nor expect to make money if the returns do not exceed the borrowing costs. Managers need to humanize EVA from business speak to a practical and common-sense concept.<br>
-b.	Build an X-Matrix (Hoshin Kanri) that transcends the organizational tiers.<br>
-c.	Linking variable compensation to controllable leading drivers to EVA drivers will help adaptation. <br>
-d.	Include frontline workers in building the DuPont performance tree.<br>
+1. EVA is a natural concept. No rational person will ever expect to be able to borrow money for free nor expect to make money if the returns do not exceed the borrowing costs. Managers need to humanize EVA from business speak to a practical and common-sense concept.<br>
+2. Build an X-Matrix (Hoshin Kanri) that transcends the organizational tiers.<br>
+3. Linking variable compensation to controllable leading drivers to EVA drivers will help adaptation. <br>
+4. Include frontline workers in building the DuPont performance tree.<br>
 
 EVA can begin to take life within the organization if the leadership adopts the KISS (Keep it Simple, Silly) principle. Do not be afraid of shaping your own EVA equation, one that works best for your organization. Make EVA deliver its promise by having the frontline workers not just the corporate leadership fingerprint the Dupont charts.<sup>1</sup>
 
