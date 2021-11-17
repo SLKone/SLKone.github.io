@@ -10,7 +10,7 @@ Over the last few years, Private Equity (PE) firms have seen exceptional returns
 
 As shown in the table below with data as of March 2018, Cambridge Associates conducted a study on 1,500 private equity funds including buyout, growth equity, and subordinated capital funds, and compared their returns to common indices.<sup>1</sup>
 
-image
+<img src="https://slkone.com/images/EVA-index.jpg" alt="Data for Strategy Success Graphic">
 
 Generally speaking, the private equity index outperformed other common indices, but this becomes even more solidified as we look at longer time-horizons. So, how do private equity funds consistently deliver higher returns and assure that they are maximizing shareholder value? As a proven partner to numerous private equity companies, we believe measuring Economic Value Add (EVA) and focusing on improved performance of this metric delivers the best results.
 
