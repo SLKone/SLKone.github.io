@@ -34,4 +34,4 @@ At this point, it’s important to circle back to the budget and create a plan t
 
 In a world of increasing complexity and information available at our fingertips, it can be difficult to know the right measures to evaluate a business and the associated levers to pull to effectuate change. We believe focusing on EVA will drive the best returns for shareholders, and following a decisive, strategic approach to capital investment will accelerate the value creation. This comes full circle as NOPAT will be improved through topline growth and an optimized cost structure. Unpacking all the components of EVA and establishing the stringent processes is not easily, but realizing the growth attained by using this approach makes it well worth the effort. 
 
-<sup>1</sup><a href="cambridgeassociates.com" target="blank">Cambridge Associates</a>
+<sup>1</sup><a href="cambridgeassociates.com" target="_blank">Cambridge Associates</a>
