@@ -14,7 +14,7 @@ A pre-digital transformation organization still collects a significant amount of
 The second issue, data in various areas, is another reason organizations aren’t taking advantage of advanced analytical capabilities. This issue has been resolved in some respects by the adoption of data warehouses, but some of the most interesting data sets are not generated internally. Historically, tying data sets together has been cumbersome both by a lack of a data key (transaction number, order number, etc.) as well as the tools available to connect the data sets. Excel certainly has its uses but, when it comes to connecting large data sets (the preferred method of non-data scientists), it has its limitations. By utilizing tools like Python and independent databases, it is now possible and efficient to tie together multiple disparate databases.
 
 <div class="emphasis" markdown="1"> 
-<strong>Recent Experience</strong><br><br>
+<strong>Recent Experience</strong><br>
 
 SITUATION: An eCommerce based distributor was seeking to reduce their SKU count on their primary site to reduce the cost of maintenance and improve site navigation.  The management team had performed an initial analysis but was concerned on the SEO metric impact from cutting SKUs, i.e. Low volume sales items might be driving site traffic.
 
