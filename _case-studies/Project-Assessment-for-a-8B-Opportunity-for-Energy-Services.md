@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title:  "Project Assessment for a $8B Opportunity for Energy Services"
-industries: [Energy]
+industries: [Oil-and-Gas]
 services-performed: [Quality-of-Revenue]
 intro: SLKone drove Quality of Revenue by making sense of a competitive project bidding environment and develop a plan to deliver value to shareholders
 team-size: 2 consultants
