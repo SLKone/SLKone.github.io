@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Information Technology Cost of Service for a $7.5B Travel & Leisure Company"
 industries: [Consumer-Goods-and-Services]
-services-performed: [Point-Solution-Applications]
+services-performed: [IT-Roadmap,Process-Design]
 intro: Led a cross-functional project including Finance, IT, Procurement, and Operations to implement software and process solutions resulting in transparency into cost of service and return on investment in Information Technology
 team-size: 2 consultants
 project-length: 2 months
