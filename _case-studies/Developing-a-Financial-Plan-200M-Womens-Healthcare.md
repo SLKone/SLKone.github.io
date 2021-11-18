@@ -1,8 +1,8 @@
 ---
 layout: case-study
 title:  "Developing a Financial Plan $200M Women’s Healthcare"
-industries: [Healthcare, Private-Equity]
-services-performed: [Corporate-Finance-and-Revenue-Management, Cost-Management]
+industries: [Healthcare]
+services-performed: [Financial-Analytics,Cost-Management]
 intro: SLKone transformed an antiquated finance function from a transaction manager to a strategic business partner.  The improvement plan set the right metrics, measures, and analyses to grow the organization
 team-size: 2 consultants
 project-length: 2 months
