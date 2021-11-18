@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Implementing Adaptive Insights for Streamlined Reporting $100M Software-As-A-Service (SaaS) Company"
 industries: [Software-and-Tech]
-services-performed: [Business-Requirements, Reporting-and-Analytics-Approach-and-Design, Financial-Planning-and-Analysis]
+services-performed: [IT-Roadmap,Performance-Improvement]
 intro: "SLKone reigned in an off-track software implementation to ensure that business requirements were met appropriately without incurring more cost; all while working harmoniously with a perturbed implementation vendor"
 team-size: 2 consultants
 project-length: 2 months
