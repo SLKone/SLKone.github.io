@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Seth Wetsel"
-job-title: Managing Consultant
+job-title: Consultant
 order: 8
 skills:
 - Finance & Accounting
