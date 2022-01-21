@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Seth Wetsel"
 job-title: Consultant
-order: 8
+order: 11
 skills:
 - Finance & Accounting
 - Organizations & Human Capital
