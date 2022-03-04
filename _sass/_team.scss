@@ -33,14 +33,16 @@
 	@include media($large) {
 		width: 25%;
 	}		
-	img {
+	.team-member-photo {
 		background: $border-color;
+    background-size: cover;
 		border-radius: 200px;
 		display: block;
-		max-width: 120px;
+    height: 120px;
+    width: 120px;
 		@include media($medium) {
-						max-height: 200px;
-				max-width: 200px;
+				height: 200px;
+				width: 200px;
 			}			
 
 		margin: 0 auto 12px auto;
