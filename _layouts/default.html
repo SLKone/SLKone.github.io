@@ -60,7 +60,10 @@
 
      gtag('config', 'UA-120057878-1');
     </script>
-    
+ 
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
   </head>
 
   <body id="js-body">
