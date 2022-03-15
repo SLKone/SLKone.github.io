@@ -9,6 +9,9 @@ url: https://slkone.com
 feed:
   path: atom.xml
 
+# Google Analytics
+google_analytics: G-MWSSNXT0LX
+
 # Jekyll configuration
 
 sass:
