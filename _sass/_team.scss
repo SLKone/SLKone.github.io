@@ -78,7 +78,8 @@
 		text-align: center;
 	}
 	.team-image {
-	background: $border-color;
+		border: 3px solid $comp-color;
+		background: $border-color;
 		border-radius: 200px;
 		display: block;
 		max-height: 200px;
