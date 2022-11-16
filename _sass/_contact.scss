@@ -46,19 +46,16 @@
 	border: 20px solid $white;
 	background-size: cover;
 	margin: 0 auto;
+	position: relative;
 }
 
 a.download-vcard {
-	background-color: $primary;
-	color: $body-dark;
 	display: block;
 	position: fixed;
-	bottom: $section-spacing-small;
+	bottom: $gutter;
 	z-index: 1000;
 	margin: 0px auto;
 	width: 50%;
+	text-align: center;
 	left: 25%;
-	@include media-breakpoint-up(md) { 
-		display: none;
-	}
 }
