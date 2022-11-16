@@ -49,7 +49,7 @@ collections:
     output: true
   tag:
     output: true   
-  contact:
+  contactpage:
     output: true       
 
 defaults:
@@ -95,7 +95,7 @@ defaults:
       layout: "tag"   
   - scope:
       path: ""
-      type: "contact"
+      type: "contactpage"
     values:
       layout: "contactpage"                           
 
