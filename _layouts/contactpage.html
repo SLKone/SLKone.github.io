@@ -2,26 +2,20 @@
 layout: default
 ---
 <div id="main" role="main">		
-	{% include title-image.html %}	
+	<div class="page-title">
+	{% assign filename = page.url | replace: 'contact', '' | replace: '/', ''  | replace: '.html', '.md' %}
+	<div class="qr-code" style="background-image: url('{{site.url}}/images/{{ filename }}.svg')">
+	</div>
+	</div>
 	<div class="wrap content">
-		<div id="contact-form">
-			<form method="POST" action="https://formspree.io/mnqbqrpg">
-				<label for="Name">Name</label>
-				<input name="Name" placeholder="What's your name?" type="name">
-				<label for="Email">Email</label>
-			 	<input name="Email" placeholder="What's your email address?" type="email">
-				<label for="phone">Phone</label>
-				<input name="Phone" placeholder="What's your phone number?" type="tel">
-				<label for="message">Details</label>
-				<textarea rows="6" name="message" placeholder="What can SLKone do for you?"></textarea>
-				<button type="submit">Send</button>
-			</form>
-		</div>
-		<div id="contact-info">
-			<span class="overline">Send us an email</span>
-			<h3><a href="mailto:{{ page.email }}">{{ page.email }}</a></h3>
-			<span class="overline">Give us a call</span>
-			<h3><a href="tel:{{ page.tel }}">{{ page.tel }}</a></h3>
-		</div>
+		<h2 class="h1">{{ page.title }}</h2>
+		<h4 class="h5">{{ page.job-title }}</h4>
+		<h5>
+			<strong>{{ page.email }}</strong>
+		</h5>
+		<h5>
+			<strong>{{ page.phone }}</strong>
+		</h5>
 	</div><!-- /.wrap -->
-<div
+<div>
+<a class="download-vcard btn-lg" href="{{site.url}}/vcards/{{ filename }}.vcf">Save Contact</a>
