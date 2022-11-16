@@ -5,7 +5,7 @@ description: "People you can trust, results you can count on"
 logo: 
 teaser: 
 locale: en
-url: file:///Users/adit/Documents/SLKone.github.io/_site/
+url: https://slkone.com
 feed:
   path: atom.xml
 
