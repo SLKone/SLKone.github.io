@@ -97,7 +97,7 @@ defaults:
       path: ""
       type: "contact"
     values:
-      layout: "contact"                           
+      layout: "contactpage"                           
 
 include:
   - .htaccess

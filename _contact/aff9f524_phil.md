@@ -1,9 +1,9 @@
 ---
 layout: contactpage
 title:  "Phil Lynch"
-job-title: Managing Director
+job-title: Founding Partner & COO
 linked-in: https://www.linkedin.com/in/philmlynch/
-email: phil@amalgamcapital.com
+email: plynch@slkone.com
 phone: (928) 266-2886
 sitemap: false
 ---
