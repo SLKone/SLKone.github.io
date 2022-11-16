@@ -3,8 +3,8 @@ layout: default
 ---
 <div id="main" role="main">		
 	<div class="page-title">
-	{% assign filename = page.url | replace: 'contact', '' | replace: '/', ''  | replace: '.html', '.md' %}
-	<div class="qr-code" style="background-image: url('{{site.url}}/images/{{ filename }}.svg')">
+	{% assign filename = page.url | replace: 'contactpage', '' | replace: '/', ''  | replace: '.html', '.md' %}
+	<div class="qr-code" style="background-image: url('{{site.url}}/images/qr/{{ filename }}.svg')">
 	</div>
 	</div>
 	<div class="wrap content">
