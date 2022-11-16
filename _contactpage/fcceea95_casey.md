@@ -1,10 +1,10 @@
 ---
 layout: contactpage
-title:  "Arun Shukla"
-job-title: Founding Partner and CEO
-linked-in: https://www.linkedin.com/in/shuklaarun/
-email: ashukla@slkone.com
-phone: (404) 213-4517
-team-image: Arun-Shukla.jpg
+title:  "Casey Matthews"
+job-title: Partner
+linked-in: https://www.linkedin.com/in/casey-matthews-47026587/
+email: cmatthews@slkone.com
+phone: +1 (434) 242-2725
+team-image: Casey-Matthews.jpg
 sitemap: false
 ---
