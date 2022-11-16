@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Phil Lynch
+N;CHARSET=UTF-8:Lynch;Phil;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:plynch@slkone.com
+TEL;TYPE=WORK,VOICE:9282662886
+TITLE;CHARSET=UTF-8:Managing Director
+ORG;CHARSET=UTF-8:Amalgam Capital
+URL;type=WORK;CHARSET=UTF-8:slkone.com
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/philmlynch/
+REV:2022-10-25T13:01:56.575Z
+END:VCARD

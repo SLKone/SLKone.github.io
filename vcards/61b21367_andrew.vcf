@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Andrew Klemm
+N;CHARSET=UTF-8:Klemm;Andrew;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:aklemm@slkone.com
+TEL;TYPE=WORK,VOICE:7708565546
+TITLE;CHARSET=UTF-8:Founding Partner & CFO
+ORG;CHARSET=UTF-8:Amalgam Capital
+URL;type=WORK;CHARSET=UTF-8:slkone.com
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/andrew-klemm-cpa-486b4126/
+REV:2022-10-25T12:48:53.344Z
+END:VCARD

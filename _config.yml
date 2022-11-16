@@ -49,6 +49,8 @@ collections:
     output: true
   tag:
     output: true   
+  contact:
+    output: true       
 
 defaults:
   - scope:
@@ -90,7 +92,12 @@ defaults:
       path: ""
       type: "tag"
     values:
-      layout: "tag"                     
+      layout: "tag"   
+  - scope:
+      path: ""
+      type: "contact"
+    values:
+      layout: "contact"                           
 
 include:
   - .htaccess
