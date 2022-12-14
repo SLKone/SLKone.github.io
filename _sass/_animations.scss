@@ -1,0 +1,9 @@
+@keyframes wipe {
+  from { border-left-width: 25vw; border-right-width: 25vw;}
+  to   { border-width: 0}
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}

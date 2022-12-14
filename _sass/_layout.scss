@@ -47,13 +47,14 @@ h1#logo {
 	background-repeat: no-repeat;
 	height: 40px;
 	width: 65px;
+	transition: all .2s ease-in-out; 
 	@include media($medium) {
 		height: 62px;
 		width: 100px;
 	}
 	@include hide-text;
 	&:hover {
-		background-image: url(../images/logo-hover.svg);
+		opacity: 0.5;
 	}
 	}
 	z-index: 999;
