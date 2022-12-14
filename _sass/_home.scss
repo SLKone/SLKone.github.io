@@ -41,7 +41,8 @@
 	.slide-image {
 	background:url(../images/superellipse.svg) center no-repeat;
 	width: 50vw;
-	min-height: 45vh;
+	height: 45vh;
+	min-height: 350px;
 	align-self: center;
 	display: none;
 		@include media($large) {
