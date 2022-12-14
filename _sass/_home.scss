@@ -13,6 +13,11 @@
 	padding: 0px;
 }
 
+@keyframes wipe {
+  from { border-left-width: 25vw; border-right-width: 25vw;}
+  to   { border-width: 0}
+}
+
 #slide-one {
 	@include display(flex);
 	justify-content: space-between;
@@ -39,7 +44,7 @@
 			text-align: left;
 		}
 	}
-	.slideimage {
+	.slide-image {
 	background:url(../images/superellipse.svg) center no-repeat;
 	width: 50vw;
 	height: 45vh;
@@ -50,25 +55,21 @@
 		display: block;
 		margin: $gutter;
 		}
-	&:after {
-		border-color: $base-color-dark;
-		border-left: 25vw solid $base-color-dark;
-		border-right: 25vw solid $base-color-dark;
-		display: block;
-		transition: .3s all ease-in;
-		content: "";
-		position: relative;
-		width: 100%;
-		height: 100%;
-		margin-top: -100%;
-		transition: border-width 1.5s;
-	}	
+		&:after {
+			border-color: $base-color-dark;
+			border-style: solid;
+			display: block;
+			content: "";
+			position: relative;
+			width: 100%;
+			height: 100%;
+			animation: wipe 2s;
+		}	
 	}
-	.loaded:after {
-		border-width: 0;
-		margin-top: 0;
-	}
+
 }
+
+
 
 #slide-two {
 	background-color: $caption-color;
