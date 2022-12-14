@@ -18,6 +18,7 @@
 	justify-content: space-between;
 	background: $base-color-dark;
 	max-height: 60vh;
+	padding-bottom: $gutter;
 	@include media($large) {
 		min-height: 500px;
 	}
