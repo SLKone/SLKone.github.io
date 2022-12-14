@@ -164,6 +164,12 @@
 			width: 20%;
 		}
 	}
+	.team {
+	display: none;
+		@include media($large) {
+		display: block;
+		}
+	}
 	.team-member {
 		border-radius: 60px;
 		float: left;
