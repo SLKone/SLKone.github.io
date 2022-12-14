@@ -3,9 +3,6 @@
 	<a href="{{site.url}}{{ post.url }}">
 		<div class="block-image-wrapper"><div class="block-image" style="background-image:url({% if post.heroimage != empty %}{{ site.url }}/images/{{ post.heroimage }}{% else %}{{ site.url }}/images/post/{{ post-slug }}.jpg{% endif %})"></div></div>
 		<div class="block-content">
-		<div class="block-meta">
-			<span>{% if post.newsletter %}{{ post.newsletter }}{% else %}{% endif %}</span>{% if post.newsletter %}{% endif %}
-		</div>
 		<h4>{{ post.title }}</h4>
 	  	{% if post.intro %}<div class="block-description">{{ post.intro | truncate: 116 }}</div>{% else %}<div class="block-description">{{ post.content | markdownify | truncate: 116 | strip_html }}</div>{% endif %}
 	  </div>
