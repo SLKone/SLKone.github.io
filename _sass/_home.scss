@@ -54,6 +54,7 @@
 		border-left: 25vw solid $base-color-dark;
 		border-right: 25vw solid $base-color-dark;o
 		display: block;
+		transition: .3s all ease-in;
 		content: " ";
 		position: relative;
 		width: 100%;
