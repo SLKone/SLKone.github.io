@@ -41,7 +41,9 @@
 	}
 	h2 {
 		color: $white;
+		@include media($large) {
 		margin-top: $gutter;
+		}
 	}
 	.slide-text {
 		color: $white;
