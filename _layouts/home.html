@@ -13,38 +13,6 @@ layout: default
 		<div class="slide-image">
 			</div>		
 	</div>
-	<div class="slide" id="slide-two">
-			<div class="wrap">
-				<h3>Our Latest Insights</h3>
-			</div>			
-			<div class="post-blocks-wrap">
-
-				<div class="post-blocks">
-					
-					{% assign post_counter == 0 %}
-					{% for post in site.posts %}
-						{% assign currentpost = post.title %}
-						{% for post in featured_posts %}
-							{% if post == currentpost %}
-								{% assign skip_post = true %}
-							{% endif %}
-						{% endfor %}
-						{% if skip_post == true %}
-							{% assign skip_post = false %}
-							{% continue %}
-						{% endif %}
-						<div class="post-block-masonry">
-						{% include post-block.html %}
-						</div>
-						{% assign post_counter = post_counter | plus: 1 %}
-						{% if post_counter == 6 %}
-					 		{% break %}
-						{% endif %}
-					{% endfor %}
-				</div>
-				<a class="btn-filled" href="{{site.url}}/insights">Keep Reading &#x2192;</a> 
-			</div>
-	</div>		
 	<div class="slide" id="slide-three">	
 		<div class="wrap">
 			<h3>What We've Done for our Clients</h3>
@@ -81,6 +49,39 @@ layout: default
 			<a class="btn-filled" href="{{site.url}}/expertise">See More &#x2192;</a>
 		</div>
 	</div>
+	<div class="slide" id="slide-two">
+			<div class="wrap">
+				<h3>Our Latest Insights</h3>
+			</div>			
+			<div class="post-blocks-wrap">
+
+				<div class="post-blocks">
+					
+					{% assign post_counter == 0 %}
+					{% for post in site.posts %}
+						{% assign currentpost = post.title %}
+						{% for post in featured_posts %}
+							{% if post == currentpost %}
+								{% assign skip_post = true %}
+							{% endif %}
+						{% endfor %}
+						{% if skip_post == true %}
+							{% assign skip_post = false %}
+							{% continue %}
+						{% endif %}
+						<div class="post-block-masonry">
+						{% include post-block.html %}
+						</div>
+						{% assign post_counter = post_counter | plus: 1 %}
+						{% if post_counter == 6 %}
+					 		{% break %}
+						{% endif %}
+					{% endfor %}
+				</div>
+				<a class="btn-filled" href="{{site.url}}/insights">Keep Reading &#x2192;</a> 
+			</div>
+	</div>		
+	
 	<div class="slide" id="slide-four">
 		<div class="wrap">
 			<div class="team-wrap">

@@ -29,20 +29,19 @@
 		}
 		@include media($large) {
 			padding: 14vw 1vw 14vw 6vw;
-			width: 40%;
+			width: 40vw;
 			text-align: left;
 		}
 	}
 	.slide-image {
 	background:url(../images/superellipse.svg) no-repeat;
-	width: 50%;
-	padding-top: 30.90234858%;
+	width: 50vh;
+	padding-top: 50vh;
 	align-self: center;
 	display: none;
 		@include media($large) {
 		display: block;
-		width: 60%;
-		padding-top: 37.08281829%;
+		padding-top: 75vh;
 		margin: $gutter;
 		}
 	}
