@@ -8,4 +8,4 @@ _asset_bundler_cache
 .sass-cache
 .jekyll-metadata
 *.icloud
-*.jekyll-cache
+.jekyll-cache
