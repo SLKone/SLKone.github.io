@@ -1,6 +1,6 @@
 @keyframes wipe {
-  from { border-left-width: 25vw; border-right-width: 25vw;}
-  to   { border-width: 0}
+  from { box-shadow: inset 53vw 0vw 25vw $base-color-dark;}
+  to   { box-shadow: inset 0vw 0vw 0vw $base-color-dark;}
 }
 
 @keyframes fadein {
