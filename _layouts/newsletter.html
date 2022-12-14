@@ -17,28 +17,35 @@ layout: default
 	<div class="wrap content">
 		<div class="post-meta">
 			{% for author in page.authors %}
-		        {% for team-member in site.team-members %}
+        {% for team-member in site.team-members %}
 				  {% if team-member.title contains author %}
 			    	{% include team-member.html %}
 			     {% endif %}
-			  	{% endfor %}
-			  	{% for advisors in site.advisors %}
+			  {% endfor %}
+        {% for advisors in site.advisors %}
 				  {% if advisors.title contains author %}
 			    	<div class="team-member">
-	                  <img src="{{ site.url }}/images/advisors/{{ advisors.advisor-image }}" />
-	                  <h6>{{ advisors.title }}</h6>
-	                  <p>SLKone Advisory Partner <br/> {{ advisors.post-title }}</p>
-		            </div>
-		           {% endif %}
-				{% endfor %}
-            {% endfor %}
-		    <h6>Read More</h6>
-		    <ul>
-		    {% for tag in page.tags %}
-			    {% capture tag_name %}{{ tag }}{% endcapture %}
-			    <li><a href="{{ site.url }}/tag/{{ tag_name | replace: " ", "-" | downcase  }}">{{ tag_name }}</a></li>
+                  <img src="{{ site.url }}/images/advisors/{{ advisors.advisor-image }}" />
+                  <h6>{{ advisors.title }}</h6>
+                  <p>SLKone Advisory Partner <br/> {{ advisors.post-title }}</p>
+            </div>
+			     {% endif %}
 			  {% endfor %}
+		    {% endfor %}
+		    <h6>Related Services</h6>
+			<ul class="services-performed">
+				{% for services-performed in page.services-performed %}
+				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
+				{% endfor %}
 			</ul>
+			{% if page.case-studies %}
+			<h6>Case Studies</h6>
+			<ul class="relevant-cases">
+				{% for case-studies in page.case-studies %}
+					<a href="{{ site.url}}/case-studies/{{ case-studies }}"><li>{{ case-studies | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
+				{% endfor %}
+			</ul>
+			{% endif %}
 		</div>
 		<div class="post-body">
 		  {{ content }}
