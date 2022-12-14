@@ -18,6 +18,9 @@
 	justify-content: space-between;
 	background: $base-color-dark;
 	max-height: 60vh;
+	@include media($large) {
+		min-height: 500px;
+	}
 	h2 {
 		color: $white;
 		margin-top: $gutter;
