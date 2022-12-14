@@ -14,20 +14,6 @@ layout: default
 			</div>		
 	</div>
 	<div class="slide" id="slide-two">
-			<div class="featured-post-blocks">
-			{% assign featured_counter == 0 %}
-			{% assign featured_posts = '' | split: '' %}
-			{% for post in site.posts %}
-				{% if post.tags contains 'Featured' %}
-				  {% include post-block-wide.html %}
-				  {% assign featured_counter = featured_counter | plus: 1 %}
-					{% assign featured_posts = featured_posts | push: post.title %}
-				{% endif %}
-				{% if featured_counter == 4 %}
-				 {% break %}
-				{% endif %}
-			{% endfor %}
-			</div>
 			<div class="wrap">
 				<h3>Our Latest Insights</h3>
 			</div>			
