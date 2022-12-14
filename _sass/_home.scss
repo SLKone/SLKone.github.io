@@ -51,6 +51,7 @@
 		margin: $gutter;
 		}
 	&:after {
+		border-color: $base-color-dark;
 		border-left: 25vw solid $base-color-dark;
 		border-right: 25vw solid $base-color-dark;
 		display: block;
