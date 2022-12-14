@@ -17,6 +17,7 @@
 	@include display(flex);
 	justify-content: space-between;
 	background: $base-color-dark;
+	max-height: 60vh;
 	h2 {
 		color: $white;
 	}
@@ -28,7 +29,7 @@
 
 		}
 		@include media($large) {
-			padding: 14vw 1vw 14vw 6vw;
+			padding: 8vh 1vw 8vh 6vw;
 			width: 40vw;
 			text-align: left;
 		}
@@ -36,12 +37,11 @@
 	.slide-image {
 	background:url(../images/superellipse.svg) no-repeat;
 	width: 50vh;
-	padding-top: 50vh;
+	min-height: 45vh;
 	align-self: center;
 	display: none;
 		@include media($large) {
 		display: block;
-		padding-top: 75vh;
 		margin: $gutter;
 		}
 	}
@@ -137,9 +137,7 @@
 		width: 120px;
 		height: 120px;
 		img {
-		border: 4px solid darken($comp-color,10%);;
-		 width: 120px;
-		 height: 120px;
+		border: 4px solid darken($comp-color,10%);
 		}
 	}
 	h3,h5 {
