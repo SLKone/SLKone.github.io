@@ -33,7 +33,7 @@ The time needed to apply process mining is surprisingly short—when the data ar
 
 At SLKone we help clients gain insights into their processes and then properly utilize them. The framework in the graphic below helps explain where process mining techniques can benefit an organization most. It integrates the three challenges—business process improvement, audit and conformance, and process automation—with three process mining techniques—discovery, conformance, and enhancements, along a path to process and systems maturity. The italicized activities improve readiness for the process mining techniques and  levels of process and system maturity.
 
- 
+ <img src="http://slkone.com/images/process-minining-image.png" />
 
 Celonis Process Mining Software helps us turn your data into actionable, highly visual information that is of value across your organization.  As management consultants with exceptional data skills, we collect and make sense of data for process mining applications. We also can deploy a suite of open-source tools to evaluate an organization’s process health, diagnose key issues, and develop and deploy process documentation and training. We help organizations use process mining to guide development of real-time operational dashboards that provide visibility and guardrails for key stakeholders within the organization’s ERPs and CRMs. We help clients using process mining to guide decisions and implementation related to digitization and automation. 
 
