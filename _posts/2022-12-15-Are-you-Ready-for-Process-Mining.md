@@ -42,4 +42,4 @@ Celonis Process Mining Software helps us turn your data into actionable, highly 
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Cash-Management_2019.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Are-You-Ready-For-Process-Mining.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
