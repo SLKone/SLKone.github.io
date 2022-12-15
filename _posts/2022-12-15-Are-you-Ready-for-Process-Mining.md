@@ -3,9 +3,9 @@ layout: post
 title:  "Are you Ready for Process Mining?"
 authors: [Bernardo Jaccoud, Arun Shukla]
 intro: Process mining can address common business challenges and provide actionable value. Consider how your organization can benefit using the data in your ERP, CRM and other systems.
-services-performed: [Process Design,Operations,Organization and Human Capital]
+services-performed: [Process-Design,Operations]
 heroimage: posts/Are-You-Ready-For-Process-Mining.jpeg
-tag: [Article, ]
+tag: [Article,Process-Design,Operations]
 ---
 Process mining can address common business challenges and provide actionable value. Consider how your organization can benefit using the data in your ERP, CRM and other systems.
 
