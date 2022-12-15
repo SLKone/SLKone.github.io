@@ -4,7 +4,7 @@ title:  "Breakroom Book Review: The Leader's Bookshelf"
 authors: [Christopher Burton]
 newsletter: [March 2021 Newsletter]
 tags: [Newsletters, March 2021 Newsletter, Book Reviews]
-heroimage: posts/leadership-bookshelf.jpeg
+heroimage: posts/leadership-bookshelf.jpg
 ---
 
 This month, we decided to mix it up. Instead of reading a book on leadership, we decided to read a book about the books that leaders read. In The Leader’s Bookshelf, James Stavridis, a retired four-star admiral of the US Navy, synthesizes the results of a survey of over 200 active and retired four-star generals and admirals in the US Armed Forces. The survey sought to identify the reading habits, favorite books, and list of titles that most impacted the participants’ leadership skills and styles.
