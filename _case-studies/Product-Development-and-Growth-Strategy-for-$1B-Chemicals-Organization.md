@@ -27,10 +27,10 @@ heroimage: case-studies/Product-Development-and-Growth-Strategy-for-$1B-Chemical
 - Recommended top 4 options based on multiple variables
       - Use cases, key markets, preferable geographies, market size & rates
 - Detailed review of overall market
-      - Porter’s Five Forces Analysis of Market Dynamics
-      - Regulatory & Standards Impacts
-      - COVID-19 Impacts to Market
-      - Market Risks & Opportunities
-      - Competitor Landscape
+     - Porter’s Five Forces Analysis of Market Dynamics
+     - Regulatory & Standards Impacts
+     - COVID-19 Impacts to Market
+     - Market Risks & Opportunities
+     - Competitor Landscape
 - Provided detailed analyses of all impact factors of entering new market
       - Size (volume & $), growth rates, top applications & end users
