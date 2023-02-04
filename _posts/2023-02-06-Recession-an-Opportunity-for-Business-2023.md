@@ -4,7 +4,7 @@ title:  "Recession - An Opportunity to Slingshot Your Business Past the Competit
 authors: [Arun Shukla]
 intro: A new recession playbook finds opportunities to slingshot past the competition by taking control through five key actions. 
 services-performed: [Complexity-Reduction,Leadership-Coaching-and-Leadership-Facilitation]
-heroimage: posts/Recession-an-Opportunity-for-Business_2023.j  pg
+heroimage: posts/Recession-an-Opportunity-for-Business_2023.jpg
 tag: [Article]
 ---
 
