@@ -57,4 +57,4 @@ Predicting the ‘if,’ ‘when’ and ‘how’ of recession is a wasteful deb
 
 ___
 
-<a href="https://slkone.com/files/SLKone_Article_Recession-an-Opportunity-for-Businesses_2023.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Recession-Opportunity_2023.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
