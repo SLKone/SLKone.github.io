@@ -11,8 +11,6 @@ noindex: true
 <h5>Email signature</h5>
 <p>Copy the content in the section below to add an email signature. Please remember to edit in your name, title, phone number, and email</p>
 
-<hr/ >
-
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
    <tr style="border:0;padding:0;">
       <td style="border:0;padding:0;">
@@ -49,11 +47,11 @@ noindex: true
 </table>
 
 
-<hr/ >
-<h5>Reply Signatures</h4>
+
+<h5>Reply Signatures</h5>
 <p>Please use this signature, without the logo for reply signatures</p>
 
-<hr/ >
+
 
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
    <tr style="border:0;padding:0;">
