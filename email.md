@@ -55,7 +55,7 @@ noindex: true
       <td style="border:0;padding:0;">
          <table cellspacing="0" cellpadding="0" border="0">
             <tr style="border:0;padding:0;">
-               <td style="font-size:1em;padding:0 15px 0 24px;vertical-align: top; border:0; border-left: 1px solid #5DBC5B;" valign="top">
+               <td style="font-size:1em;padding:0 15px 0 24px;vertical-align: top; border:0;" valign="top">
                   <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
                      <tr style="border:0;padding:0;">
                         <td style="border:0;padding:0;">
