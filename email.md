@@ -8,7 +8,7 @@ noindex: true
 
 
 
-<h4>Email signature</h4>
+<h4>Email Signature</h4>
 <p>Copy the content in the section below to add an email signature. Please remember to edit in your name, title, phone number, and email</p>
 
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
