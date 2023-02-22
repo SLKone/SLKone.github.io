@@ -9,7 +9,7 @@ noindex: true
 
 
 <h5>Email signature</h5>
-<p>Copy the content in the section below to add an email signature. Please remember to edit your phone number and email</p>
+<p>Copy the content in the section below to add an email signature. Please remember to edit in your name, title, phone number, and email</p>
 
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
    <tr style="border:0;padding:0;">
