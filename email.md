@@ -2,11 +2,14 @@
 layout: page
 permalink: /email
 title: Email Styling
+
 noindex: true
 ---
-   <h4>Copy the content in the section below to add an email signature. Remember to edit the email and telephone number</h4>
 
 
+
+<h5>Email signature</h5>
+<p>Copy the content in the section below to add an email signature. Please remember to edit your phone number and email</p>
 
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
    <tr style="border:0;padding:0;">
@@ -43,9 +46,9 @@ noindex: true
    </tr>
 </table>
 
-   <h4>For reply signatures, please use the following</h4>
 
-
+<h5>Reply Signatures</h4>
+<p>Please use this signature, without the logo for reply signatures</p>
 
 <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
    <tr style="border:0;padding:0;">
