@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Carolina Montoya Jaramillo"
 job-title: Managing Consultant
-order: 11
+order: 13
 skills:
 - Leadership & Strategy
 - Organizations & Human Capital
