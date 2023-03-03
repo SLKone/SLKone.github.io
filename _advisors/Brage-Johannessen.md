@@ -2,7 +2,7 @@
 layout: advisor
 title:  "Brage Johannessen"
 job-title: Business Leader
-order: 6
+order: 5
 skills:
 - Energy Technology
 - Talent & Team Development
