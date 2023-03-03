@@ -3,7 +3,7 @@ layout: advisor
 title:  "Dan Kowalski"
 job-title: Principal and Thinking Catalyst, Plan A Thinking
 post-title: Plan A Thinking
-order: 8
+order: 7
 skills:
 - Business Problem Solving
 - Conflict Resolution
