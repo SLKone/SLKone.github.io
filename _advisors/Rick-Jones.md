@@ -2,7 +2,7 @@
 layout: advisor
 title:  "Rick Jones"
 job-title: Outside Director, Middle-Market PE Backed Business Services Companies
-order: 7
+order: 6
 skills:
 - Business Services
 - Transportation & Logistics Services
