@@ -2,7 +2,7 @@
 layout: advisor
 title:  "John Hensley"
 job-title: Global Operational Excellence Professional
-order: 5
+order: 4
 skills:
 - Operational Excellence
 - Supply Chain Leader
