@@ -7,6 +7,7 @@ skills:
 - Office Administration
 - Executive Support
 - Research & Marketing
+- Hiring & Recruiting
 team-image: Isabella-Doval.jpg
 has-bio: N
 ---
