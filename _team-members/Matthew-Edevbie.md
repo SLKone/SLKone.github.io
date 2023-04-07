@@ -1,3 +1,4 @@
+---
 layout: team-member
 title:  "Matthew Ese Edevbie"
 job-title: Consultant
@@ -8,3 +9,4 @@ skills:
 - Data, Analytics, & Information Technology
 team-image: Ese-Edevbie.png
 has-bio: N
+---
