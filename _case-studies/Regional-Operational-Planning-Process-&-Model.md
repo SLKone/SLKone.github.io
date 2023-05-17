@@ -28,15 +28,15 @@ heroimage: case-studies/Regional-Operational-Planning-Process-Model.jpg
 - Created a roadmap for transitioning to a systematic solution; linking current tool functionalities to future system
 
 #### Leading With Results
--**Achieved cultural shift**; from backward looking analysis to a 12-month outlook and proactive planning environment to better manage the future​
--**Full adoption of process by Region team.** Accountability structure built to improvement management of activity fluctuations​
--**Consolidated and achieved alignment on a single operational forecast​**
-        -Unified operational forecast serving as single source of truth for operations​
-        -Increased accuracy of outputs ​
-        -Ability to trace forecast back to original inputs and actuals to forecast​
-        -Improved cross functional dialogue between product line leaders Increased transparency and key stakeholders​
--**Successfully bridged Operations and Finance functions​**
-        -Increased transparency of financial forecast to detect hedged outputs​
-        -Automated financial flash re-forecast & variance tracking - reducing workload for leadership and finance functions​
--**Increased efficiency of leadership team​**
--**Identified and communicated value of rolling out process / tool to other regions​****
+- **Achieved cultural shift**; from backward looking analysis to a 12-month outlook and proactive planning environment to better manage the future​
+- **Full adoption of process by Region team.** Accountability structure built to improvement management of activity fluctuations​
+- **Consolidated and achieved alignment on a single operational forecast​**
+        - Unified operational forecast serving as single source of truth for operations​
+        - Increased accuracy of outputs ​
+        - Ability to trace forecast back to original inputs and actuals to forecast​
+        - Improved cross functional dialogue between product line leaders Increased transparency and key stakeholders​
+- **Successfully bridged Operations and Finance functions​**
+        - Increased transparency of financial forecast to detect hedged outputs​
+        - Automated financial flash re-forecast & variance tracking - reducing workload for leadership and finance functions​
+- **Increased efficiency of leadership team​**
+- **Identified and communicated value of rolling out process / tool to other regions​****
