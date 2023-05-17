@@ -39,4 +39,4 @@ heroimage: case-studies/Regional-Operational-Planning-Process-Model.jpg
         - Increased transparency of financial forecast to detect hedged outputs​
         - Automated financial flash re-forecast & variance tracking - reducing workload for leadership and finance functions​
 - **Increased efficiency of leadership team​**
-- **Identified and communicated value of rolling out process / tool to other regions​****
+- **Identified and communicated value of rolling out process / tool to other regions​**
