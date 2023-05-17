@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title:  "Regional Operational Planning Process & Model"
+title:  "Regional Operational Planning Process and Model for $1.2B Oil and Gas Organization"
 industries: [Oil and Gas]
 services-performed: [Performance-Improvement, Automation, IT-Roadmap]
 intro: Development of streamlined operational planning process and interim activity planning model to create an automated bottoms-up, 12-month rolling operational plan and revenue forecast
