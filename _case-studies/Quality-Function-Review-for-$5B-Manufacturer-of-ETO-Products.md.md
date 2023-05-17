@@ -10,7 +10,7 @@ heroimage: case-studies/Quality-Function-Review.jpg
 ---
 
 #### Situation
-- The client manufactured a diverse portfolio of Mke To Order (MTO)  and ETO products serving the Oil & Gas industry​
+- The client manufactured a diverse portfolio of Make To Order (MTO)  and ETO products serving the Oil & Gas industry​
 - After experiencing a number of costly escapes while simultaneously facing increasing costs in the quality function, the organization set out to conduct a review of the Quality organization​
 - **SLKone was hired to perform the review and identified several key opportunities**;​
     -  Headcount was over twice the level reported​
