@@ -17,7 +17,6 @@ heroimage: case-studies/Quality-Function-Review-for-$5B-Manufacturer-of-ETO-Prod
     -  Key gaps in quality reporting lines (Supplier to Control)​
     -  Mis-aligned roles and responsibilities
 
-
 #### Bespoke Solutions
 - Key users of Quality resources were interviewed and surveyed as to current projects and uses​
 - Quality resources were identified, reviewed and classified, including outside of Quality based on the core competencies of personnel​
