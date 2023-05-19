@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title:  "North America Field Analytics and Review for $1.2B Oil Field Services Organization​"
-industries: [Oil and Gas]
+industries: [Oil-and-Gas]
 services-performed: [Corporate-Finance-and-Revenue-Management, Cost-Management, Financial-Analytics, Performance-Improvement]
 intro: Drove operational improvements of ~$9M per year by improving field labor utilization and reducing equipment maintenance and rental costs
 team-size: 2 consultants
