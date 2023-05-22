@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title:  "Sales-Incentive-Plan-&-Commission-Model-for-$60M-Software-As-A-Service-Company"
+title:  "Sales Incentive Plan & Commission Model for $60M Software As A Service Company"
 industries: [Software-and-Tech]
 services-performed: [Performance-Improvement,Sales-and-Operations-Planning]
 intro: Created a new sales incentive plan that aligned with managements strategic initiatives and an automated commission model that connected directly to their Customer Relationship Management (CRM) system for real-time calculations
