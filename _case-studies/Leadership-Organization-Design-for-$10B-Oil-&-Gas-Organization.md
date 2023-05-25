@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title:  "Leadership-Organization-Design-for-$10B-Oil-&-Gas-Organization"
+title:  "Leadership Organization Design for $10B Oil & Gas Organization"
 industries: [Oil-and-Gas]
 services-performed: [Performance-Improvement,Operating-Model-Design,Change-Management]
 intro: Realignment of business unit leadership reporting structure and role clarification in preparation for a business event
