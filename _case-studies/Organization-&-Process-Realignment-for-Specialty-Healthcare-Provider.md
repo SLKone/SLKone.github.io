@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title:  "Organization-&-Process-Realignment-for-Specialty-Healthcare-Provider"
+title:  "Organization & Process Realignment for Specialty Healthcare Provider"
 industries: [Healthcare]
 services-performed: [Financial-Analytics,Cost-Management]
 intro: Following numerous acquisitions, SLKone identified process improvement opportunities and developed an optimized future-state organization to support continued growth
