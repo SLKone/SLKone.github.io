@@ -6,7 +6,7 @@ services-performed: [Performance-Improvement,Sales-and-Operations-Planning]
 intro: Provide new analytical capabilities that challenge the status quo
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Develop-and-Automate-Annual-Recurring-Revenue-for-$100M Software-As-A-Service-Company.jpg
+heroimage: case-studies/Develop-and-Automate-Annual-Recurring-Revenue-for-$100M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation
