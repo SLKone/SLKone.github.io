@@ -22,5 +22,5 @@ heroimage: case-studies/Interim-Controller-for-$50M-Specialty-Healthcare-Service
 
 #### Leading With Results
 - **Developed an executable roadmap for success.** SLKone developed an executable and realistic roadmap for implementing cleanup and improvement activities within the accounting function​
-- **Provided interim, surge support for accounting.**  Through the assessment process, SLKone determined an interim, surge Controller was needed. SLKone provided a qualified, impact-focused Interim Controller.​
-- Updated compliance financial records. SLKone’s Interim Controller was able to lead the update of the books and records and ensure ongoing, compliant financial records.​
+- **Provided interim, surge support for accounting.**  Through the assessment process, SLKone determined an interim, surge Controller was needed. SLKone provided a qualified, impact-focused Interim Controller
+- Updated compliance financial records. SLKone’s Interim Controller was able to lead the update of the books and records and ensure ongoing, compliant financial records
