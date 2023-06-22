@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Preston Nielsen"
 job-title: Consultant
-order: 15
+order: 16
 skills:
 - Finance & Accounting
 - Organizations & Human Capital
