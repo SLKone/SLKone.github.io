@@ -7,6 +7,6 @@ skills:
 - Finance & Accounting
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: Michael-Rziha.jpg
+team-image: Michael-Rziha.JPG
 has-bio: N
 ---
