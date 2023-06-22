@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Matthew Ese Edevbie"
 job-title: Consultant
-order: 16
+order: 17
 skills:
 - Finance & Accounting
 - Organizations & Human Capital
