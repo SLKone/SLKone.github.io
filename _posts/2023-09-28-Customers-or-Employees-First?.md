@@ -39,7 +39,6 @@ Conclusion
 In the business world, the question of what comes first, clients or employees, isn't a matter of choosing one over the other. It's about finding the right balance that maximizes client satisfaction and employee engagement. SLKone recognizes that these two elements are interconnected; happy employees are more likely to generate satisfied clients.
 By fostering a culture of continuous improvement, investing in employee development, and maintaining a relentless focus on client needs, organizations can strike the delicate equilibrium that leads to long-term success, growth, and sustainability. In the end, it's not a matter of choosing between clients or employees – it's about optimizing both for the benefit of your firm and its stakeholders.
 
-
 ___
 
-<a href="https://slkone.com/files/SLKone_Customers_or_Employees_First_2023.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
+<a href="https://slkone.com/files/SLKone_Article_Customers_or_Employees_First_2023.pdf" class="btn-filled" target="_blank">Download this Article as a PDF</a>
