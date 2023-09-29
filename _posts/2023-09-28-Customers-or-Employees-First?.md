@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Customers or Employees First?"
