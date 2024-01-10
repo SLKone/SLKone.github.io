@@ -6,6 +6,6 @@ order: 17
 skills:
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: Image-coming-soon.png
+team-image: Image-Coming-Soon.png
 has-bio: N
 ---
