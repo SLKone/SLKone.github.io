@@ -7,6 +7,6 @@ skills:
 - Finance & Accounting
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: image-coming-soon.png
+team-image: Image-Coming-Soon.png
 has-bio: N
 ---
