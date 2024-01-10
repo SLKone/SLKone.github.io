@@ -1,0 +1,12 @@
+---
+layout: team-member
+title:  "Bo Wicker"
+job-title:  Consultant
+order: 19
+skills:
+- Finance & Accounting
+- Organizations & Human Capital
+- Data, Analytics, & Information Technology
+team-image: image-coming-soon.png
+has-bio: N
+---
