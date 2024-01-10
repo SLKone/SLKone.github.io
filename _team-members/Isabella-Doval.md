@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Isabella Doval"
 job-title: Business Manager
-order: 19
+order: 20
 skills:
 - Office Administration
 - Executive Support
