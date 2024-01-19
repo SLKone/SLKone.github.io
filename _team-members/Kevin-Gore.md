@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Kevin Gore"
 job-title: Managing Consultant
-order: 12
+order: 13
 skills:
 - Leadership & Strategy
 - Organizations & Human Capital
