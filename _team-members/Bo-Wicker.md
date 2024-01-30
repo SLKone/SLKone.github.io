@@ -7,6 +7,6 @@ skills:
 - Finance & Accounting
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: Image-Coming-Soon.png
+team-image: Bo-Wicker.jpg
 has-bio: N
 ---
