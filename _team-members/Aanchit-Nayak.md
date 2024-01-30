@@ -6,6 +6,6 @@ order: 17
 skills:
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: Image-Coming-Soon.png
+team-image: Aanchit-Nayak.jpg
 has-bio: N
 ---
