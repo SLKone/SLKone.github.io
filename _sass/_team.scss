@@ -37,7 +37,6 @@
 		background: $border-color;
 		border: 3px solid $border-color;
 	    background-size: cover;
-		border-radius: 200px;
 		display: block;
     height: 120px;
     width: 120px;
@@ -80,8 +79,7 @@
 	.team-image {
 		border: 3px solid $border-color;
 		background: $border-color;
-		border-radius: 200px;
-		display: block;
+				display: block;
 		max-height: 200px;
 		max-width: 200px;
 		margin: 0 auto 12px auto;
