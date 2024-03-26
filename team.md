@@ -11,7 +11,7 @@ heroimage: "team.jpg"
 ---
 <img src="https://slkone.com/images/team-members/Team-2024.jpg">
 
-### Mission + Passion + Vocation + Profession = Our Purpose
+### Mission + Passion + Vocation + Profession =              Our Purpose
 
 In May of 2018, three founding partners met in front of a blank whiteboard. In one column, they recorded everything they disliked about working with consultants while they were in industry; in the other, everything they disliked about the consulting industry while they were consultants. Their blend of deep industry experience and commitment to this fresh perspective resulted in a select group of individuals seeking to redefine the purpose of a consultant by bringing together their mission, passion, vocation, and profession. We continue to challenge the norms and provide our clients with unique solutions by constantly asking ourselves: “How may we do this better?”
 
