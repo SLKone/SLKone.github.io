@@ -7,6 +7,6 @@ skills:
 - Finance & Accounting
 - Organizations & Human Capital
 - Data, Analytics, & Information Technology
-team-image: Ese-Edevbie.png
+team-image: Ese-Edevbie.jpg
 has-bio: N
 ---
