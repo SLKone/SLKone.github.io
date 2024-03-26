@@ -10,6 +10,6 @@ skills:
 - Leadership & Strategy 
 - Organizations & Human Capital
 - Product Design & Management
-team-image: Adit-Shukla.png
+team-image: Adit-Shukla.jpg
 has-bio: N
 ---
