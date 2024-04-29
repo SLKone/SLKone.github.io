@@ -4,7 +4,7 @@ title:  "Customers or Employees First?"
 authors: [Isabella Doval]
 intro: Balancing Priorities for Business Success
 services-performed: [Leadership-Coaching-and-Leadership-Facilitation]
-heroimage: posts/Customers-or-Employees-First.png
+heroimage: posts/Customers-or-Employees-First.jpg
 tag: [Article]
 ---
 In today’s day and age, many organizations and leaders find themselves struggling with serving two seemingly disparate goals: taking care of their employees first or taking care of their customers first. The first thought provoking question one may consider is – does it really matter? 
