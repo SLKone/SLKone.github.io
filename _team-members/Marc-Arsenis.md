@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Marc Arsenis"
-job-title: Consultant Intern
+job-title: Consultant 
 order: 20
 skills:
 - Data, Analytics, & Information Technology
