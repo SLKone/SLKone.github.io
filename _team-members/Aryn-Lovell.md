@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Aryn Lovell"
-job-title: Consultant Intern
+job-title: Consultant
 order: 19
 skills:
 - Data, Analytics, & Information Technology
