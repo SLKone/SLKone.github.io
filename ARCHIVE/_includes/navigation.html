@@ -1,0 +1,213 @@
+<nav role="navigation" class="menu top-menu">
+	<ul id="navigation">
+	<li class="top down"><a href="{{ site.url }}/services">Capabilities</a>
+		<ul>
+			{% assign ordered-services = site.services | sort:"order" %}
+			{% for service in ordered-services %}
+			{% if service.categories contains 'top-level-service' %}
+			<li class="top">
+			    <a href="{{site.url}}{{ service.url }}">{{ service.title }}</a>
+			</li>
+		     {% endif %}
+			 {% endfor %}
+		</ul></li>
+	<li class="top down"><a href="{{ site.url}}/expertise">Industries</a>
+		<ul>
+			{% assign ordered-expertise = site.expertise | sort:"order" %}
+			{% for expertise in ordered-expertise %}
+			<li class="top">
+			    <a href="{{site.url}}{{ expertise.url }}">{{ expertise.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</li>
+	<li class="top"><a href="{{ site.url }}/insights">Insights</a>
+	</li>
+	<li class="top"><a href="{{ site.url }}/team">About</a></li>
+	<li class="top"><a href="{{ site.url }}/careers">Careers</a></li>
+	<li class="top"><a href="{{ site.url}}/contact">Contact</a></li>
+	
+</ul>
+</nav>
+<span class="hamburger material-icons" id="ham"></span>
+<nav class="nav-drill">
+  <ul class="nav-items nav-level-1">
+    <li class="nav-item nav-expand">
+			<a class="nav-link nav-expand-link" href="#">
+				Capabilities
+			</a>
+			<ul class="nav-items nav-expand-content">
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/services">
+						Capabilities
+					</a>
+				</li>	
+						
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Operations
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Operations">
+								Operations
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Performance-Improvement">
+								Performance Improvement
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Sales-and-Operations-Planning">
+								Sales &amp; Operations Planning
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Supply-Chain-Network-Optimization">
+								Supply Chain Network Optimization
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Corporate Finance &amp; Revenue Management
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Corporate-Finance-and-Revenue-Management">
+								Corporate Finance &amp; Revenue Management
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Cost-Management">
+								Cost Management
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Financial-Analytics">
+								Financial Analytics
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Quality-of-Revenue">
+								Quality of Revenue
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Mergers &amp; Acquisitions
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Mergers-and-Acquisitions">
+								Mergers &amp; Acquisitions
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Change-Management">
+								Change Management
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Post-Merger-Integration">
+								Post-Merger Integration
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Pre-Transaction-Readiness">
+								Pre-Transaction Readiness
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Digital Strategy &amp; Technology
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Digital-Strategy-and-Technology">
+								Digital Strategy &amp; Technology
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Automation">
+								Automation
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/IT-roadmap">
+								IT Roadmap
+							</a>
+						</li>
+					</ul>
+				</li>	
+				<li class="nav-item nav-expand">
+					<a class="nav-link nav-expand-link" href="#">
+						Organizational Design &amp; Alignment
+					</a>
+					<ul class="nav-items nav-expand-content">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Organization-and-Human-Capital">
+								Organizational Design &amp; Alignment
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}services/Operating-Model-Design">
+								Operating Model Design
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.url }}/services/Process-Design">
+								Process Design
+							</a>
+						</li>
+					</ul>
+				</li>						
+			</ul>
+		</li>
+	
+    <li class="nav-item nav-expand">
+			<a class="nav-link nav-expand-link" href="#">
+				Industries
+			</a>
+			<ul class="nav-items nav-expand-content">
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/services">
+						Industries
+					</a>
+				</li>
+				{% assign ordered-expertise = site.expertise | sort:"order" %}
+				{% for expertise in ordered-expertise %}
+				<li class="nav-item">
+				    <a class="nav-link" href="{{site.url}}{{ expertise.url }}">{{ expertise.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</li>
+	<li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}/insights">
+				Insights
+			</a>
+		</li>		
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}/team">
+				The Team
+			</a>
+		</li>
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url }}/careers">
+				Careers
+			</a>
+		</li>	
+    <li class="nav-item">
+			<a class="nav-link" href="{{ site.url}}/contact">
+				Contact
+			</a>
+		</li>					
+  </ul>
+</nav>

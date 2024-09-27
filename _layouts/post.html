@@ -1,57 +1,14 @@
 ---
 layout: default
 ---
-
-<div id="main" class="post-page" role="main">			
-	<div class="page-title" style="background-image:url({{ site.url }}/images/{{ page.heroimage}})">
-		<div class="background-overlay">
-			<div class="wrap">
-				<div>
-				<h5><a href="{{site.url}}/insights">Insights</a></h5>
-				<h2>{{ page.title }}</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="wrap content">
-		<div class="post-meta">
-			{% for author in page.authors %}
-        {% for team-member in site.team-members %}
-				  {% if team-member.title contains author %}
-			    	{% include team-member.html %}
-			     {% endif %}
-			  {% endfor %}
-        {% for advisors in site.advisors %}
-				  {% if advisors.title contains author %}
-			    	<div class="team-member">
-                  <img src="{{ site.url }}/images/advisors/{{ advisors.advisor-image }}" />
-                  <h6>{{ advisors.title }}</h6>
-                  <p>SLKone Advisory Partner <br/> {{ advisors.post-title }}</p>
-            </div>
-			     {% endif %}
-			  {% endfor %}
-		    {% endfor %}
-			{% if page.case-studies %}
-			<h6>Case Studies</h6>
-			<ul class="relevant-cases">
-				{% for case-studies in page.case-studies %}
-					<a href="{{ site.url}}/case-studies/{{ case-studies }}"><li>{{ case-studies | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
-				{% endfor %}
-			</ul>
-			{% endif %}
-		</div>
-		<div class="post-body">
-		  {{ content }}
-		  {% include share-this.html %}
-		</div>
-
-	</div><!-- /.wrap -->
-<div>
-
-<div class="page-bottom">
-<div class="wrap">
-	<div class="bottom-link">
-		<h4>Interested in working with SLKone?</h4> <a class="btn btn-secondary" href="{{ site.url}}/contact">Get in Touch</a>
-	</div>
-</div>
-</div>    
+{% assign subtitle = page.subtitle %}
+{% assign background_image = "/assets/images/" | append: page.background %}
+{% assign authors = page.authors | join: ", " %}
+{% include page-header.html title=page.title subtitle=subtitle streamlines=page.streamlines background_image=background_image authors=authors %}
+<section class="container mx-auto px-8 max-w-7xl py-16">
+    <article class="mx-auto prose lg:prose-xl prose-headings:text-xl lg:prose-headings:text-2xl dark:prose-invert prose-a:text-emerald-400 prose-a:font-semibold dark:prose-a:text-forest-400 col-span-2 max-w-prose">
+        {% include social-buttons.html %}
+        {{ content }}
+        Share this post: {% include social-buttons.html %}
+    </article>
+</section>

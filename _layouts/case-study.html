@@ -1,54 +1,11 @@
 ---
 layout: default
 ---
-{% assign case-study-slug = {{page.url | remove: '/' | remove_first: "case-studies"}}" %}
-
-<div id="main" class="case-study-page" role="main">			
-	<div class="page-title" style="background-image:url({{ site.url }}/images/{{ page.heroimage }})">
-		<div class="background-overlay">
-			<div class="wrap">
-				<div>
-				<h5>Case Study</h5>
-				<h2>{{ page.title }}</h2>
-				{% if page.intro %}<p class="intro">"{{ page.intro }}"</p>{% endif %}			
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="wrap content">
-		<div class="case-meta">
-			<h6>Industry</h6>
-			<ul class="industries">
-				<a href="{{ site.url}}/expertise/{{ page.industries }}"><li>{{ page.industries | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
-			</ul>
-			<h6>Services Performed</h6>
-			<ul class="services-performed">
-				{% for services-performed in page.services-performed %}
-				    <a href="{{ site.url}}/services/{{ services-performed }}"><li>{{ services-performed | replace: '-', ' '  | remove: '[', | remove: ']' | remove: '"'}}</li></a>
-				{% endfor %}
-			</ul><!--
-      <ul>
-				<li>
-					<h6>Team Size</h6>
-					<p>{{ page.team-size }}</p>
-				</li>
-				<li>
-					<h6>Project Duration</h6>
-					<p>{{ page.project-length }}</p>
-				</li>
-			</ul>-->
-		</div>
-		<div class="case-body">
-		  {{ page.content | markdownify }}
-		  <h7>Case studies and expertise may represent projects and engagements performed by SLKone team members prior to their employment at SLKone</h7>
-		</div>
-
-	</div><!-- /.wrap -->
-
-<div class="page-bottom">
-<div class="wrap">
-	<div class="bottom-link">
-		<h4>Interested in working with SLKone?</h4> <a class="btn btn-secondary" href="{{ site.url}}/contact">Get in Touch</a>
-	</div>
-</div>
-</div> 
+{% assign subtitle = page.intro %}
+{% assign background_image = "/assets/images/" | append: page.heroimage %}
+{% include page-header.html title=page.title subtitle=subtitle streamlines=page.streamlines background_image=background_image %}
+<section class="container mx-auto px-8 max-w-7xl py-16">
+    <article class="mx-auto prose lg:prose-xl prose-headings:text-xl lg:prose-headings:text-2xl dark:prose-invert prose-a:text-emerald-400 prose-a:font-semibold dark:prose-a:text-forest-400 col-span-2 max-w-prose">
+        {{ content }}
+    </article>
+</section>

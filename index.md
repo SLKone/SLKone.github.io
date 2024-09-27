@@ -1,5 +1,4 @@
 ---
 layout: home
-permalink: /
-title: "People you can trust, results you can count on"
+title: SLKone - Bridge Strategy to Measurable Success
 ---

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
-      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+      {% assign author = site.data.authors[page.author] %}
+    {% else %}
+      {% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
@@ -20,52 +22,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-    <![endif]-->
-<link rel="stylesheet" href="https://use.typekit.net/pef0cwc.css">
-<script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-<script src="{{ site.url }}/js/plugins/jquery.easing.js"></script>
-    <script src="{{ site.url }}/js/plugins/jquery.slidorion.min.js"></script>
-  
-      <script>
-    $(function() {
-      $('#slidorion').slidorion({
-        interval: 20000,
-      });
-    });
-    </script>
-    <script>
-      /* Open */
-      function openNav() {
-        document.getElementById("myNav").style.display = "block";
-      }
-
-      /* Close */
-      function closeNav() {
-        document.getElementById("myNav").style.display = "none";
-      } 
-    </script>
-    <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/images/AppIcons/180.png">
-    {% include analytics.html %}
-  </head>
-
-  <body id="js-body" class="page-{{page.layout}}">
-    {% include browser-upgrade.html %}
+    <link rel="stylesheet" href="https://use.typekit.net/pef0cwc.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="https://kit.fontawesome.com/f7e54a3b3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}">
+<script src="https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.js"></script>
+</head>
+<!-- Start of Selection -->
+<body class="{% if layout.body-class %}{{ layout.body-class }}{% endif %} bg-white dark:bg-currant dark:text-white font-body">
     {% include header.html %}
-
-      {{ content }}
-      
+    <main>
+        {{ content }}
+    </main>
+    <footer>
       {% include footer.html %}
-
-    <script src="{{ site.url }}/js/main.js"></script>
-    <script src="{{ site.url }}/js/nav.js"></script>
-
-  </body>
-
-
+    </footer>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    {% include analytics.html %}
+</body>
 </html>

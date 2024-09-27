@@ -1,109 +1,78 @@
 ---
 layout: default
+body-class: body-home
 ---
+<canvas
+  class="windmap-canvas absolute top-0 left-0 w-full h-full z-[-1]"
+  data-num-streamlines="100"
+  data-num-streamlines-dark="150"
+  data-num-animated="50"
+  data-num-animated-dark="75"
+  data-num-colors="3"
+  data-opacity="0.3"
+  data-opacity-dark="0.75"
+  data-scale="0.00015"
+  ></canvas>
+<section id="hero-background" class="snap-start hero min-h-[80dvh] py-10 flex flex-col justify-center items-center bg-transparent bg-gradient-to-t from-white to-transparent dark:from-currant dark:to-transparent">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h1 class="text-5xl lg:text-8xl mb-12 mx-auto max-w-prose font-display">{{ site.data.homepage.hero.title }}</h1>
+    <div class="max-w-prose text-left ">
+      <p class="text-xl">{{ site.data.homepage.hero.description }}</p>
+      <p class="text-xl mt-12 mb-12">
+        <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="{{ site.data.homepage.hero.cta_link }}">
+          {{ site.data.homepage.hero.cta_text }} <i class="fas fa-arrow-right"></i>
+        </a>
+      </p>
+    </div>
+</section>
 
+<section id="unique-points" class="py-20 lg:py-40 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">What sets SLKone apart</h2>
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {% for point in site.data.homepage.unique_points %}
+      {% include icon-block.html title=point.title text=point.description icon=point.icon links=point.links %}
+    {% endfor %}
+    </div>
+  </div>
+</section>
 
+<section id="approach" class="snap-start h-full relative"> 
+  <canvas
+  class="windmap-canvas absolute w-screen h-full left-0 z-[-1]"
+  data-num-streamlines="15"
+  data-num-animated="0"
+  data-num-colors="1"
+  data-opacity="0.3"
+  data-opacity-dark="0.75"
+  data-scale="0.00015"
+  ></canvas>
+  <div class="container mx-auto px-8 py-20 lg:py-40 max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">{{ site.data.homepage.approach.title }}</h2>
+    <p class="text-xl max-w-prose">{{ site.data.homepage.approach.description }}</p>
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% assign ordered-services = site.services | sort: 'order' %}
+      {% for service in ordered-services %}
+          {% include service-card.html card=service %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-<div id="main" class="home" role="main">				
-	<div class="slide" id="slide-one">		
+<section id="data-driven-approach">
+  <div class="container mx-auto px-8 max-w-7xl ">
+    <div class="bg-black/5 dark:bg-currant-500 rounded-xl">
+      <h2 class="text-4xl font-display p-8">{{ site.data.homepage.data_driven_approach.title }}</h2>
+      <p class="text-xl max-w-prose mb-4 px-8">{{ site.data.homepage.data_driven_approach.description }}</p>
+      {% include accordion.html accordion_id="dataDrivenApproachAccordion" items=site.data.homepage.data_driven_approach.steps %}
+    </div>
+  </div>
+</section>
 
-		<div class="slide-text">
-
-			<h2 class="h3">We partner with your team to bridge data with decision-making to generate enterprise value</h2>
-			<a class="btn btn-nospace" href="{{site.url}}/services">Where We Can Help &#x2192;</a>
-		</div>
-		<div class="slide-image">
-			</div>		
-	</div>
-	<div class="slide" id="slide-three">	
-		<div class="wrap">
-			<h3>What We've Done for our Clients</h3>
-		</div>
-		<div class="testimonials wrap">
-			<div class="quote">
-				<p>I found you to listen more intently and more genuinely than many other firms. Also, you pushed back and helped redirect when needed in a very professional manner.</p>
-				<span class="byline">COO at an Industrial Products Manufacturer</span>
-			</div>
-			<div class="quote">
-				<p>Access and agility - Our work together epitomized a high performance team passing the ball to each other without having to look. Access to anyone at anytime on your team helped; and agility in terms of keeping the group small, we were able to adopt and move fast.</p>
-				<span class="byline">SVP of Global Excellence at Oil & Gas Company</span>
-			</div>
-			<div class="quote">
-				<p>Deep expertise coupled with humility and ability to engage with and build consensus with all levels of management.</p>
-				<span class="byline">Managing Director, Portfolio Support for Private Equity</span>
-			</div>		
-		</div>
-		<div class="post-blocks-wrap">
-			<div class="post-blocks-small">
-				{% assign featured_counter == 0 %}
-				{% for case-studies in site.case-studies %}
-				{% if case-studies.tags contains 'Featured' %}
-				{% assign featured_counter = featured_counter | plus: 1 %}
-				  	<div class="post-block-masonry">
-				    {% include case-study-block.html %}
-					</div>
-				{% endif %}
-				{% if featured_counter == 4 %}
-				 {% break %}
-				{% endif %}
-				  {% endfor %}
-			</div>
-			<a class="btn-filled" href="{{site.url}}/expertise">See More &#x2192;</a>
-		</div>
-	</div>
-	<div class="slide" id="slide-two">
-			<div class="wrap">
-				<h3>Our Latest Insights</h3>
-			</div>			
-			<div class="post-blocks-wrap">
-
-				<div class="post-blocks">
-					
-					{% assign post_counter == 0 %}
-					{% for post in site.posts %}
-						{% assign currentpost = post.title %}
-						{% for post in featured_posts %}
-							{% if post == currentpost %}
-								{% assign skip_post = true %}
-							{% endif %}
-						{% endfor %}
-						{% if skip_post == true %}
-							{% assign skip_post = false %}
-							{% continue %}
-						{% endif %}
-						<div class="post-block-masonry">
-						{% include post-block.html %}
-						</div>
-						{% assign post_counter = post_counter | plus: 1 %}
-						{% if post_counter == 6 %}
-					 		{% break %}
-						{% endif %}
-					{% endfor %}
-				</div>
-				<a class="btn-filled" href="{{site.url}}/insights">Keep Reading &#x2192;</a> 
-			</div>
-	</div>		
-	
-	<div class="slide" id="slide-four">
-		<div class="wrap">
-			<div class="team-wrap">
-			<div class="team">
-			{% assign team_counter == 0 %}
-			{% assign ordered-team = site.team-members | sort:"order" %}
-			{% for team-member in ordered-team  %}
-			{% assign team_counter = team_counter | plus: 1 %}
-				<div class="team-member">
-					<img src="{{ site.url }}/images/team-members/{{ team-member.team-image }}" />
-				</div>
-				{% if team_counter == 4 %}
-				 {% break %}
-				{% endif %}
-			{% endfor %}
-			</div>
-			<div class="team-content">
-				<h5>We partner with our clients and instill trust and integrity at the highest levels. Through this bond we drive accountability and cultivate lasting relationships.</h5>
-				<a class="btn btn-secondary" href="{{site.url}}/careers">Join SLKone &#x2192;</a></div>
-			</div>
-			</div>
-		</div>
-</div><!-- /#main -->
+{% include contact-card.html 
+  background_image=site.data.homepage.contact.background-image 
+  title=site.data.homepage.contact.title 
+  description=site.data.homepage.contact.description 
+  cta_link=site.data.homepage.contact.cta_link 
+  cta_text=site.data.homepage.contact.cta_text 
+%}

@@ -1,64 +1,37 @@
 ---
 layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- ... other head elements ... -->
+</head>
+<body>
+    <article class="career-listing">
+        <header>
+            <!-- Light mode logo -->
+            <img src="/assets/images/logo/svg/Mark - Black.svg" alt="Logo" class="logo logo-light">
+            <!-- Dark mode logo -->
+            <img src="/assets/images/logo/svg/Mark - White.svg" alt="Logo" class="logo logo-dark">
+            <!-- ... existing header content ... -->
+        </header>
 
-<div id="main" class="career-listing-page" role="main">			
-	<div class="page-title" style="background-image:url({{ site.url }}/images/{{ page.heroimage}})">
-		<div class="background-overlay">
-			<div class="wrap">
-				<div>
-				<h5>Job Listing</h5>
-				<h2>{{ page.title }}</h2>
-				<a class="btn-outline" href="mailto:hr@slkone.com?subject={{ page.title }} Application">Apply Now</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="wrap content">
-		<div class="career-left">
-			{% if page.role %}
-		    <h6>The Role</h6>			
-			<p>{{ page.role }}</p>
-			{% endif %}	
-			{% if page.responsibilities %}
-		    <h6>Responsibilities</h6>			
-			<ul>
-				{% for responsibilities in page.responsibilities %}
-				 <li>{{ responsibilities }}</li>
-				{% endfor %}
-			</ul>
-			{% endif %}	
-			{% if page.qualifications %}
-		    <h6>Qualifications</h6>			
-			<ul>
-				{% for qualification in page.qualifications %}
-				 <li>{{ qualification }}</li>
-				{% endfor %}
-			</ul>
-			{% endif %}			
-		    {% if page.game-changers %}
-		</div>
-		<div class="career-right">				
-		    <h6>Game Changers</h6>			
-			<ul>
-				{% for game-changer in page.game-changers %}
-				 <li>{{ game-changer }}</li>
-				{% endfor %}
-			</ul>
-			{% endif %}		
-			{% if page.benefits %}
-		    <h6>Benefits</h6>			
-			<ul>
-				{% for benefit in page.benefits %}
-				 <li>{{ benefit }}</li>
-				{% endfor %}
-			</ul>
-			{% endif %}							
-		</div>
-	</div><!-- /.wrap -->
-	<div class="page-bottom">
-		<div class="wrap">
-		<div><h6>If this sounds like a role you’d be great fit for, please reach out to us</h6> <a class="btn-outline" href="mailto:hr@slkone.com">Contact Us</a></div>
-		</div>
-	</div>
-<div>
+        <section class="section">
+            <h1>Careers</h1>
+            <p>Join our team!</p>
+            <!-- ... other content ... -->
+        </section>
+
+        <footer>
+            <p>© 2023 Your Company</p>
+        </footer>
+
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </article>
+</body>
+</html>
