@@ -13,6 +13,7 @@ layout: default
     <div class="container mx-auto px-8 max-w-7xl">
         <p class="text-xl max-w-prose">{{ page.open-intro }}</p>
         {% for career in site.career %}  
+        <div class="rounded-xl bg-black/5 dark:bg-currant-500 p-8">
         <h2 class="text-4xl mb-12 font-display">{{ career.title }}</h2>
         <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
             Apply Now <i class="fas fa-arrow-right"></i>
@@ -67,6 +68,7 @@ layout: default
         <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
             Apply Now <i class="fas fa-arrow-right"></i>
         </a>
+        </div>
         {% endfor %}
     </div>
 </section>
