@@ -13,7 +13,8 @@
       <div class="md:col-span-2 lg:col-span-1 mb-4">
         <h3 class="font-bold mb-4">Services</h3>
         <ul>
-          {% for item in site.services | sort: 'order' %}
+          {% assign services = site.services | sort: 'order' %}
+          {% for item in services %}
             <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
@@ -21,7 +22,8 @@
       <div class="md:col-span-2 lg:col-span-1 mb-8">
         <h3 class="font-bold mb-4">Industries</h3>
         <ul>
-          {% for item in site.industries | sort: 'order' %}
+          {% assign industries = site.industries | sort: 'order' %}
+          {% for item in industries %}
             <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
