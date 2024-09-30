@@ -24,5 +24,8 @@ pillars:
   description: "We strive to leave every place better than we found it."
   icon: "fa-hand-heart"
 team: "SLKone is strategically comprised of extremely intelligent individuals with diverse areas of expertise. Our blend of deep industry experience and commitment to fresh perspectives results in unique solutions for our clients."
-careers: "Are you a motivated self-starter passionate about learning new things? Do you want to sit with decision-makers on day one? Do you desire real work-life harmony? Then we'd love to hear from you!"
+career-cta-title: "Interested in Joining Our Team?"
+career-description: "Are you a motivated self-starter passionate about learning new things? Do you want to sit with decision-makers on day one? Do you desire real work-life harmony? Then we'd love to hear from you!"
+career-cta-link: "/careers"
+career-cta-text: "View Open Positions"
 ---
