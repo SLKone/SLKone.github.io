@@ -13,10 +13,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
-plugins: [jekyll-paginate]
-paginate: 9
-paginate_path: "insights/page:num/" ##"page:num"
-
 # Collections
 collections:
   insights:
