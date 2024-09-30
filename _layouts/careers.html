@@ -15,16 +15,15 @@ layout: default
         {% for career in site.career %}  
         <div class="rounded-xl bg-black/5 dark:bg-currant-500 p-8">
         <h2 class="text-4xl mb-12 font-display">{{ career.title }}</h2>
-        <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
+        <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500 mb-8" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
             Apply Now <i class="fas fa-arrow-right"></i>
         </a>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 prose dark:prose-invert">
-
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 lg:col-span-1">
                 <h3>The Role</h3>
                 <p>{{ career.role }}</p>
             </div>
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 lg:col-span-1">
                 <h3>Responsibilities</h3>
                 <ul>
                     {% for responsibility in career.responsibilities %}
@@ -32,7 +31,7 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 lg:col-span-1">
                 <h3>Qualifications</h2>
                 <ul>
                     {% for qualification in career.qualifications %}
@@ -40,7 +39,7 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 lg:col-span-1">
                 <h2>Additional Capabilities</h2>
                 <ul>
                     {% for capability in career.additional-capabilities %}
@@ -48,7 +47,7 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 lg:col-span-1">
                 <h2>Game Changers</h2>
                 <ul>
                     {% for game_changer in career.game-changers %}
@@ -56,7 +55,7 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 lg:col-span-1">
                 <h2>Benefits</h2>
                 <ul>
                     {% for benefit in career.benefits %}
@@ -65,7 +64,7 @@ layout: default
                 </ul>
             </div>
         </div>  
-        <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
+        <a class="mt-8 mx-auto bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
             Apply Now <i class="fas fa-arrow-right"></i>
         </a>
         </div>
