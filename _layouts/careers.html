@@ -12,56 +12,54 @@ layout: default
 <section id="careers" class="py-20">
     <div class="container mx-auto px-8 max-w-7xl">
         <p class="text-xl max-w-prose">{{ page.open-intro }}</p>
-        {% for career in site.career %}
-            <div class="container mx-auto px-8 max-w-7xl prose dark:prose-invert">    
-                <h2>{{ career.title }}</h2
-                <div class="grid grid-cols-1 md:grid-cols-2">
-                    <div class="md:col-span-1">
-                        <h3>The Role</h3>
-                        <p>{{ career.role }}</p>
-                    </div>
-                    <div class="md:col-span-1">
-                        <h3>Responsibilities</h3>
-                        <ul>
-                            {% for responsibility in career.responsibilities %}
-                                <li>{{ responsibility }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="md:col-span-1">
-                        <h3>Qualifications</h2>
-                        <ul>
-                            {% for qualification in career.qualifications %}
-                                <li>{{ qualification }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="md:col-span-1">
-                        <h2>Additional Capabilities</h2>
-                        <ul>
-                            {% for capability in career.additional-capabilities %}
-                                <li>{{ capability }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="md:col-span-1">
-                        <h2>Game Changers</h2>
-                        <ul>
-                            {% for game_changer in career.game-changers %}
-                                <li>{{ game_changer }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="md:col-span-1">
-                        <h2>Benefits</h2>
-                        <ul>
-                            {% for benefit in career.benefits %}
-                                <li>{{ benefit }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>        
+        {% for career in site.career %}  
+        <h2>{{ career.title }}</h2
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="md:col-span-1">
+                <h3>The Role</h3>
+                <p>{{ career.role }}</p>
+            </div>
+            <div class="md:col-span-1">
+                <h3>Responsibilities</h3>
+                <ul>
+                    {% for responsibility in career.responsibilities %}
+                        <li>{{ responsibility }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="md:col-span-1">
+                <h3>Qualifications</h2>
+                <ul>
+                    {% for qualification in career.qualifications %}
+                        <li>{{ qualification }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="md:col-span-1">
+                <h2>Additional Capabilities</h2>
+                <ul>
+                    {% for capability in career.additional-capabilities %}
+                        <li>{{ capability }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="md:col-span-1">
+                <h2>Game Changers</h2>
+                <ul>
+                    {% for game_changer in career.game-changers %}
+                        <li>{{ game_changer }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="md:col-span-1">
+                <h2>Benefits</h2>
+                <ul>
+                    {% for benefit in career.benefits %}
+                        <li>{{ benefit }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>  
         {% endfor %}
     </div>
 </section>
