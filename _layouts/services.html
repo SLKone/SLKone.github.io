@@ -16,7 +16,7 @@ layout: default
     <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
       {% assign ordered-services = site.services | sort: 'order' %}
       {% for service in ordered-services %}
-          {% include service-card-big.html card=service %}
+          {% include service-card-big.html card=service background_image=service.background_image %}
       {% endfor %}
     </div>
   </div>
