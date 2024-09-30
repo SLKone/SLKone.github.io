@@ -6,7 +6,7 @@ newsletter: [February 2021 Newsletter]
 tags: [Newsletters, February 2021 Newsletter, Spotlight Interviews]
 date: 2021-02-15
 subtitle: "Insights on business transformation and strategy."
-background: posts/AK.jpg
+background_image: /assets/images/posts/AK.jpg
 ---
 
 #### Business Transformation: An Interview with <a href="https://slkone.com//team-members/Andrew-Klemm/">Andrew Klemm</a>, SLKone Partner & Chief Financial Officer

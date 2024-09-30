@@ -6,7 +6,7 @@ services: [Corporate Finance and Revenue Management, Performance Improvement]
 intro: Assessed, stabilized and improved organizational structure and work order management process for distributed service organization to deliver 5% GM improvement over 18 months​
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Operational-Stabilization.jpg
+background_image: /assets/images/case-studies/Operational-Stabilization.jpg
 ---
 
 #### Situation

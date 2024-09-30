@@ -3,7 +3,7 @@ layout: post
 title:  "Is Your PMO Delivering Results?"
 date: 2019-08-30
 subtitle: "Evaluating the effectiveness of your Project Management Office."
-background: posts/Is-Your-PMO-Delivering-Results.jpg
+background_image: /assets/images/posts/Is-Your-PMO-Delivering-Results.jpg
 authors: [Phil Lynch]
 intro: A robust and operationalized Project Management Office (PMO) can be felt throughout an organization. Project management is a necessity and is so ubiquitous that many organizations devote departments and specific project managers to lead critical initiatives. Large-scale projects or changes in an organization often require the creation of a formal PMO to ensure proper oversight. Even a formal PMO, however, does not guarantee the success of an organization or the projects under its management.  
 services-performed: [Integration-Management,Merger-Repair,Program-Portfolio-and-Project-Management,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Operationalizing-Strategy]

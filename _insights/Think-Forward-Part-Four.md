@@ -3,7 +3,7 @@ layout: post
 title:  "Think. Forward! (Part Four)"
 date: 2020-04-14
 subtitle: "Refining thinking in uncertain times."
-background: posts/Think-Forward-Part-Four.jpg
+background_image: /assets/images/posts/Think-Forward-Part-Four.jpg
 authors: [Dan Kowalski, Arun Shukla, Phil Lynch]
 intro: "Use Deliberate Thinking to get back in business after the gut punch of COVID-19 in the Private Equity world."
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]

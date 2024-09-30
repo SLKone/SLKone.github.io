@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Cost-Management, Financial-
 intro: A high-growth Private Equity-backed specialty healthcare services company needed an interim-controller to correct the financials
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Interim-Controller-for-$50M-Specialty-Healthcare-Services.jpg
+background_image: /assets/images/case-studies/Interim-Controller-for-$50M-Specialty-Healthcare-Services.jpg
 ---
 
 #### Situation

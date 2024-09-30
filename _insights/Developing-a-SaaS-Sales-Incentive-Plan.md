@@ -4,7 +4,7 @@ title:  "Developing a SaaS Sales Incentive Plan"
 authors: [Casey Matthews]
 services-performed: [Revenue-Growth-and-Product-Strategy,Sales-Force-Effectiveness,Point-Solution-Applications]
 tag: [Article, June 2021 Newsletter, Sales-and-Operatings-Planning, Financial-Analytics, Operating-Model-Design]
-background: posts/Developing-a-SaaS-Sales-Incentive-Plan.jpg
+background_image: /assets/images/posts/Developing-a-SaaS-Sales-Incentive-Plan.jpg
 date: 2021-06-15
 subtitle: "Innovative Strategies for Maximizing SaaS Sales Performance."
 ---

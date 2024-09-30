@@ -5,8 +5,8 @@ permalink: /culture
 subtitle: "A Home For Problem-Solvers"
 intro: "At SLKone, we're driven by a passion for bridging strategy with execution. Our team of innovative problem-solvers thrives on challenging the status quo and delivering tangible results."
 purpose: "SLKone is a management consulting firm that bridges strategy, leadership, and knowledge to deliver powerful, lasting solutions. We don't just meet expectations—we exceed them, forming deep, long-term partnerships built on trust and tangible results. Our consultants are driven by the freedom to innovate, the excitement of solving tough challenges, and a commitment to balance between personal and professional life. At our core is Ikigai—doing what we love, mastering our craft, making a difference, and earning our worth."
-background_image: "assets/images/backgrounds/culture.webp"
-team_image: "assets/images/backgrounds/team.webp"
+background_image: "/assets/images/backgrounds/culture.webp"
+team_image: "/assets/images/backgrounds/team.webp"
 pillars:
 - pillar: "Building a Firm for the Future"
   description: "We create solutions that outlast ourselves."
@@ -28,4 +28,5 @@ career-cta-title: "Interested in Joining Our Team?"
 career-description: "Are you a motivated self-starter passionate about learning new things? Do you want to sit with decision-makers on day one? Do you desire real work-life harmony? Then we'd love to hear from you!"
 career-cta-link: "/careers"
 career-cta-text: "View Open Positions"
+streamlines: "Y"
 ---

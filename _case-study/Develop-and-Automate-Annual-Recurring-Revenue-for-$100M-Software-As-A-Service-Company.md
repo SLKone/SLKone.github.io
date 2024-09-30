@@ -6,7 +6,7 @@ services: [Financial Analytics, Pre-Transaction Readiness]
 intro: Supported the unsolicited bid to acquire a company unprepared to undergo said transaction as it was halfway through its intended investment horizon
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Develop-and-Automate-Annual-Recurring-Revenue-for-$100M-Software-As-A-Service-Company.jpg
+background_image: /assets/images/case-studies/Develop-and-Automate-Annual-Recurring-Revenue-for-$100M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation

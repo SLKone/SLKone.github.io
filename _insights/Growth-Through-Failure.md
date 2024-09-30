@@ -4,7 +4,7 @@ title:  "Monthly Edit: Growth Through Failure"
 authors: [Kevin Gore]
 tags: [Newsletters, May 2021 Newsletter, Monthly Edits, Organization-and-Human-Capital]
 newsletter: [May 2021 Newsletter]
-background: posts/growth-through-failure.jpg
+background_image: /assets/images/posts/growth-through-failure.jpg
 date: 2021-05-16
 subtitle: "How failure can be a good thing when handled appropriately."
 ---

@@ -7,7 +7,7 @@ intro: SLKone performed a rapid cost assessment identifying areas for immediate 
 team-size: 2 consultants
 project-length: 2 months
 tags: Featured
-background_image: case-studies/Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company.jpg
+background_image: /assets/images/case-studies/Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company.jpg
 ---
 
 #### Situation

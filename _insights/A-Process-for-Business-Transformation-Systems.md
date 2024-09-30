@@ -3,7 +3,7 @@ layout: post
 title:  "A Process for Business Transformation: Enabling Process and People with Digital Transformation"
 date: 2021-01-13
 subtitle: "Integrating digital transformation into business processes."
-background: posts/A-Process-for-Business-Transformation-Systems.jpg
+background_image: /assets/images/posts/A-Process-for-Business-Transformation-Systems.jpg
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 ---
 This is the fourth and final installment of our "Process for Business Transformation" series. If you've not already read the earlier installments, our introductory article can be found <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and additional supporting articles on process and people can be found <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a> and <a href="https://slkone.com/A-Process-for-Business-Transformation-People/">here</a>. 

@@ -6,7 +6,7 @@ services: [Operating-Model-Design,Process-Design]
 intro: Inconsistent organizational distribution across regions and product lines necessitated a global organizational review that resulted in the mapping of the entire organization, highlighted for opportunities and actionable recommendations.
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Organizational-Restructuring-13B-Oil-and-Gas-Company.jpg
+background_image: /assets/images/case-studies/Organizational-Restructuring-13B-Oil-and-Gas-Company.jpg
 ---
 
 #### Situation

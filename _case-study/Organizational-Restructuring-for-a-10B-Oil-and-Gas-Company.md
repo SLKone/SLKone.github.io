@@ -6,7 +6,7 @@ services: [Performance-Improvement,Operating-Model-Design,Process-Design]
 intro: SLKone improved the productivity and connectivity of business support functions by designing and aligning departmental structures within the organization
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Organizational-Restructuring-for-a-10B-Oil-and-Gas-Company.jpg
+background_image: /assets/images/case-studies/Organizational-Restructuring-for-a-10B-Oil-and-Gas-Company.jpg
 ---
 
 #### Situation

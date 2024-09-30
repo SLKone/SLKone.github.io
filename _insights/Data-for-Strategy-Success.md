@@ -5,7 +5,7 @@ authors: [Patrick Gibson, Phil Lynch]
 intro: Data from a wide array of sources is at the heart of evaluating business strategy and can provide an assessment of current efforts and give insights for realignment.
 services-performed: [Process-Design, Operating-Model-Design]
 tag: [Article, September 2021 Newsletter, Process-Design, Operating-Model-Design, Featured]
-background: posts/Get-the-Most-Out-of-Your-Data-for-Strategy-Success.jpg
+background_image: /assets/images/posts/Get-the-Most-Out-of-Your-Data-for-Strategy-Success.jpg
 date: 2021-09-15
 subtitle: "Harnessing Data Insights for Effective Strategy Development."
 ---

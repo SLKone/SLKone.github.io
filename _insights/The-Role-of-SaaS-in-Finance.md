@@ -4,7 +4,7 @@ title:  "The Role of Finance in SaaS"
 authors: [Christopher Burton]
 tags: [Newsletters, June 2021 Newsletter, Monthly Edits]
 newsletter: [June 2021 Newsletter]
-background: posts/Role-of-Finance-in-SaaS.jpg
+background_image: /assets/images/posts/Role-of-Finance-in-SaaS.jpg
 date: 2021-06-15
 subtitle: "Navigating Financial Innovation in the SaaS Landscape."
 ---

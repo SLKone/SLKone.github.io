@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Cost-Management, Financial-
 intro: Establishment and facilitation of the Integration Management Office to assist in the successful integration of two specialty healthcare practices in separate geographies
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Integration-Management-Office-for-Specialty-Healthcare-Provider.jpg
+background_image: /assets/images/case-studies/Integration-Management-Office-for-Specialty-Healthcare-Provider.jpg
 ---
 
 #### Situation

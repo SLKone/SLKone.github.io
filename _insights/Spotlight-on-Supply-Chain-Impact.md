@@ -3,7 +3,7 @@ layout: post
 title:  "The Business Restart Incubator: Spotlight on Supply Chain Impact"
 date: 2020-05-28
 subtitle: "Navigating supply chain challenges in a new economy."
-background: posts/Restart-Supply-Chain-Impact.jpg
+background_image: /assets/images/posts/Restart-Supply-Chain-Impact.jpg
 authors: [Phil Lynch, Bernardo Jaccoud]
 intro: It’s been four months since the first confirmed case of COVID-19, and it still feels like there are more questions than answers. Businesses are cautiously optimistic as the economy begins to reopen. For business and functional leaders, that cautious optimism must quickly transition into planning and implementation of new strategies, business processes, and mitigation plans. Unfortunately, many have awoken to a reality of tighter resource constraints and lower budgets, compounding the challenges that lie ahead. 
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]

@@ -6,7 +6,7 @@ services: [Sales-and-Operations-Planning, Cost-Management, Performance-Improveme
 intro: SLKone facilitated and supported the Executive Leadership team with refining a strategic plan and operationalizing the approach to implementing the plan
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Operationalizing-Strategic-Plans-for-a-60M-Specialty-Healthcare-Provider.jpg
+background_image: /assets/images/case-studies/Operationalizing-Strategic-Plans-for-a-60M-Specialty-Healthcare-Provider.jpg
 ---
 
 #### Situation

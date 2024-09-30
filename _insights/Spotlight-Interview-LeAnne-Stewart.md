@@ -4,7 +4,7 @@ title:  "Spotlight Interview: LeAnne Stewart"
 authors: [Phil Lynch, Dustin Fidaleo]
 newsletter: [September 2021 Newsletter]
 tags: [Newsletters, September 2021 Newsletter, Spotlight Interviews]
-background: posts/spotlight-leannestewart.jpg
+background_image: /assets/images/posts/spotlight-leannestewart.jpg
 date: 2021-09-15
 subtitle: "A special spotlight interview focused on rebranding, pivoting, adapting, and growing – both personally and professionally."
 ---

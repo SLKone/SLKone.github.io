@@ -3,7 +3,7 @@ layout: post
 title:  "A Process for Business Transformation"
 date: 2020-05-06
 subtitle: "Focusing the energy of transformation through a process approach."
-background: posts/A-Process-for-Business-Transformation.jpg
+background_image: /assets/images/posts/A-Process-for-Business-Transformation.jpg
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: Focusing the energy of transformation through a process approach
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]

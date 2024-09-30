@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign subtitle = page.subtitle %}
-{% assign background_image = "/assets/images/" | append: page.background %}
+{% assign background_image = page.background_image %}
 {% assign authors = page.authors | join: ", " %}
 {% include page-header.html title=page.title subtitle=subtitle streamlines=page.streamlines background_image=background_image authors=authors %}
 <section class="container mx-auto px-8 max-w-7xl py-16">

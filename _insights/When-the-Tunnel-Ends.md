@@ -3,7 +3,7 @@ layout: post
 title:  "When the tunnel ends, will your business be ready to operate in the new light?"
 date: 2020-05-14
 subtitle: "Preparing for the post-COVID business landscape."
-background: posts/When-the-Tunnel-Ends.jpg
+background_image: /assets/images/posts/When-the-Tunnel-Ends.jpg
 authors: [Arun Shukla, Phil Lynch, Andrew Klemm]
 intro: Struck by COVID-19, the business world is wading through a dark and very long tunnel, blind to their North Star. We need to stay focused on the tiny light at the end of the tunnel while making sure that we do not go sideways and crash. Unfortunately, many will crash. However, there is hope that humanity -- and both local and global economies – will emerge from COVID-19. Will your business be ready coming out of this dark tunnel? Or, will your business crash, blinded by the sudden burst of light, and miss the opportunity to lead in the environment of the new world. How do we get ready?
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]

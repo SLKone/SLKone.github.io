@@ -3,7 +3,7 @@ layout: post
 title:  "Breakroom Book Review: Extreme Ownership"
 date: 2020-11-16
 subtitle: "Lessons in leadership from Navy SEALs."
-background: posts/extreme-ownership.jpg
+background_image: /assets/images/posts/extreme-ownership.jpg
 authors: [Christopher Burton, Emily Cowperthwaite]
 newsletter: [November 2020 Newsletter]
 tags: [Newsletters, November 2020 Newsletter, Book Reviews]

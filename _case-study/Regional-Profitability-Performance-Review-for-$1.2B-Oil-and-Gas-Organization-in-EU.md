@@ -6,7 +6,7 @@ services: [Performance Improvement, Financial Analytics]
 intro: Performed detailed forensic financial and operational analysis to discover root cause of deteriorating margins in EU region following restructuring event
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Regional-Profitability-Performance-Review-for-$1.2B-Oil-and-Gas-Organization-in-EU.jpg
+background_image: /assets/images/case-studies/Regional-Profitability-Performance-Review-for-$1.2B-Oil-and-Gas-Organization-in-EU.jpg
 ---
 
 #### Situation

@@ -6,7 +6,7 @@ services: [Performance-Improvement,Sales-and-Operations-Planning]
 intro: Created a new sales incentive plan that aligned with managements strategic initiatives and an automated commission model that connected directly to their Customer Relationship Management (CRM) system for real-time calculations
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Sales-Incentive-Plan-&-Commission-Model-for-$60M-Software-As-A-Service-Company.jpg
+background_image: /assets/images/case-studies/Sales-Incentive-Plan-&-Commission-Model-for-$60M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation

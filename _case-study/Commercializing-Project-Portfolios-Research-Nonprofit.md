@@ -6,7 +6,7 @@ services: [Process Design, Sales Inventory and Operations Planning]
 intro: SLKone removed information siloes in order to benefit from more than the sum of the organizations knowledge and capabilities.  Our methodology fostered collaboration through knowledge integration.
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Commercializing-Project-Portfolios-Research-Nonprofit.jpg
+background_image: /assets/images/case-studies/Commercializing-Project-Portfolios-Research-Nonprofit.jpg
 ---
 
 #### Situation

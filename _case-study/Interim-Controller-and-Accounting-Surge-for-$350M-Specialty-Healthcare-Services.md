@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Cost-Management, Financial-
 intro: Following the departure of the previous CFO, compliance was deemed lax and required surge capacity in the controllership function
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Interim-Controller-and-Accounting-Surge-for-$350M-Specialty-Healthcare-Services.jpg
+background_image: /assets/images/case-studies/Interim-Controller-and-Accounting-Surge-for-$350M-Specialty-Healthcare-Services.jpg
 ---
 
 #### Situation

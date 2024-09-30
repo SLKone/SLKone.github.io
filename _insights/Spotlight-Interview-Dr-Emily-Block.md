@@ -3,7 +3,7 @@ layout: post
 title:  "Spotlight Interview: Dr. Emily Block"
 date: 2020-11-16
 subtitle: "Insights on leadership and organizational change."
-background: posts/spotlight-emilyblock-new.jpg
+background_image: /assets/images/posts/spotlight-emilyblock-new.jpg
 authors: [Kevin Gore]
 newsletter: [November 2020 Newsletter]
 tags: [Newsletters, November 2020 Newsletter, Spotlight Interviews]

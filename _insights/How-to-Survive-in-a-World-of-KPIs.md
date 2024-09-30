@@ -5,7 +5,7 @@ authors: [Phil Lynch, Dustin Fidaleo]
 intro: When used correctly, KPIs clarify business operations, guide strategy, and drive activities for outsized impact and improved productivity. However, there are risks to poorly developed KPIs including incentivizing bad behavior and stifling creativity and growth. So, how does one survive in a world that is hyper-focused on KPIs? 
 services-performed: [Manufacturing-Processes-and-Operational-Improvements,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
 tag: [Article, May 2021 Newsletter, Operating-Model-Design, Organization-and-Human-Capital]
-background: posts/world-of-KPIs.jpeg
+background_image: /assets/images/posts/world-of-KPIs.jpeg
 date: 2021-05-16
 subtitle: "How to survive in a world of KPIs."
 ---

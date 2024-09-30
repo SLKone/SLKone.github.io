@@ -6,7 +6,7 @@ services: [Performance-Improvement]
 intro: SLKone reviewed and assessed the adequacy of a partially installed system implementation that was well beyond budget, which helped reign in costs and develop a corrective plan of action
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Failed-Implementation-Review-110M-Food-Manufacturer.jpg
+background_image: /assets/images/case-studies/Failed-Implementation-Review-110M-Food-Manufacturer.jpg
 ---
 
 #### Situation

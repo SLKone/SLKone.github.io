@@ -6,7 +6,7 @@ services: [Performance-Improvement,Operating-Model-Design,Change-Management]
 intro: Realignment of business unit leadership reporting structure and role clarification in preparation for a business event
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Leadership-Organization-Design-for-$10B-Oil-&-Gas-Organization.jpg
+background_image: /assets/images/case-studies/Leadership-Organization-Design-for-$10B-Oil-&-Gas-Organization.jpg
 ---
 
 #### Situation

@@ -7,7 +7,7 @@ intro: Redesigned the work order management (WOM) process and organizational str
 team-size: 2 consultants
 project-length: 2 months
 tags: Featured
-background_image: case-studies/Process-Standardization-and-Org-Structure-50M-Intustrial-Services-Provider.jpg
+background_image: /assets/images/case-studies/Process-Standardization-and-Org-Structure-50M-Intustrial-Services-Provider.jpg
 ---
 
 #### Situation

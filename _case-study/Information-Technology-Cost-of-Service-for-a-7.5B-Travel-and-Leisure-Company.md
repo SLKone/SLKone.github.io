@@ -6,7 +6,7 @@ services: [IT-Roadmap,Process-Design]
 intro: Led a cross-functional project including Finance, IT, Procurement, and Operations to implement software and process solutions resulting in transparency into cost of service and return on investment in Information Technology
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Information-Technology-Cost-of-Service-for-a-7.5B-Travel-and-Leisure-Company.jpg
+background_image: /assets/images/case-studies/Information-Technology-Cost-of-Service-for-a-7.5B-Travel-and-Leisure-Company.jpg
 ---
 
 #### Situation

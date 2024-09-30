@@ -6,7 +6,7 @@ services: [Financial Analytics, Cost Management, Quality of Revenue]
 intro: In order to support a recent private-equity backed portfolio company acquisition, an interim CFO was needed to lead the finance function for a specialty transportation provider
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Interim-and-Surge-CFO-for-$75M-Specialty-Transportation-Company.jpg
+background_image: /assets/images/case-studies/Interim-and-Surge-CFO-for-$75M-Specialty-Transportation-Company.jpg
 ---
 
 #### Situation

@@ -4,7 +4,7 @@ title:  "Making EVA Work for You: Practical Steps to Economic Value Add"
 authors: [Arun Shukla]
 tags: [Newsletters, November 2021 Newsletter, Monthly Edits]
 newsletter: [November 2021 Newsletter]
-background: posts/practical-steps-to-EVA.jpg
+background_image: /assets/images/posts/practical-steps-to-EVA.jpg
 date: 2021-11-17
 subtitle: "Unlocking the Power of Economic Value Add for Sustainable Growth"
 ---

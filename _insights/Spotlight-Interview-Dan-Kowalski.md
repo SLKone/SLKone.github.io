@@ -3,7 +3,7 @@ layout: post
 title:  "Spotlight Interview: Dan Kowalski"
 date: 2020-10-14
 subtitle: "Insights on business development and deliberate thinking."
-background: posts/spotlight-dan-kowalski-new.jpg
+background_image: /assets/images/posts/spotlight-dan-kowalski-new.jpg
 authors: [Kevin Gore]
 newsletter: [October 2020 Newsletter]
 tags: [Newsletters, October 2020 Newsletter, Spotlight Interviews, Deliberate-Thinking]

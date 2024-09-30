@@ -6,7 +6,7 @@ services: [Operating Model Design, Supply Chain Network Optimization, IT Roadmap
 intro: SLKone reviewed, defined, and developed a formal go-to-market approach for an independent distributor network for the sales organization of an industry leading building products manufacturer
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Go-to-Market-Approach-for-Sales-Organization-for-a-2B-Building-Products-Manufacturer.jpg
+background_image: /assets/images/case-studies/Go-to-Market-Approach-for-Sales-Organization-for-a-2B-Building-Products-Manufacturer.jpg
 ---
 
 #### Situation

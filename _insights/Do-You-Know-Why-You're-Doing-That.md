@@ -4,7 +4,7 @@ title:  "Do You Know Why You're Doing That?"
 authors: [Phil Lynch]
 tags: [Newsletters, March 2021 Newsletter, Monthly Edits]
 newsletter: [March 2021 Newsletter]
-background: posts/why-are-you-doing-that.jpg
+background_image: /assets/images/posts/why-are-you-doing-that.jpg
 date: 2021-03-16
 subtitle: "Reassessing processes to ensure they are still aligned with the organization's goals."
 ---

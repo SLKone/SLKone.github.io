@@ -7,7 +7,7 @@ intro: Following numerous acquisitions, SLKone identified process improvement op
 team-size: 2 consultants
 project-length: 2 months
 tags: Featured
-background_image: case-studies/Organization-&-Process-Realignment-for-Specialty-Healthcare-Provider.jpg
+background_image: /assets/images/case-studies/Organization-&-Process-Realignment-for-Specialty-Healthcare-Provider.jpg
 ---
 
 #### Situation

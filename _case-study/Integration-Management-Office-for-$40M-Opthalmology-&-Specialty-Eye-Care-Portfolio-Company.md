@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Pre-Transaction-Readiness, 
 intro: Creation of the Integration Management Office to assist in pre-close transactional alignment, perform resource assessments and functional structuring, and develop overall integration approach to assist in achieving the overall investment thesis​
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Integration-Management-Office-for-$40M-Opthalmology-&-Specialty-Eye-Care-Portfolio-Company.jpg
+background_image: /assets/images/case-studies/Integration-Management-Office-for-$40M-Opthalmology-&-Specialty-Eye-Care-Portfolio-Company.jpg
 ---
 
 #### Situation

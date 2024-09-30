@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Pre-Transaction-Readiness, 
 intro: Establishment and facilitation of the Integration Management Office (IMO) to assist the successful integration of two of the largest Behavioral Health practices in the region
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Integration-Management-Office-for-$45M-Behavioral-Health-Portfolio-Company.jpg
+background_image: /assets/images/case-studies/Integration-Management-Office-for-$45M-Behavioral-Health-Portfolio-Company.jpg
 ---
 
 #### Situation

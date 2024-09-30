@@ -3,7 +3,7 @@ layout: post
 title:  "Breakroom Book Review: The Hard Thing About Hard Things"
 date: 2021-01-19
 subtitle: "Navigating the challenges of leadership."
-background: posts/whiteboard-bookclub_hardthings.jpg
+background_image: /assets/images/posts/whiteboard-bookclub_hardthings.jpg
 authors: [Bernardo Jaccoud]
 newsletter: [January 2021 Newsletter]
 tags: [Newsletters, January 2021 Newsletter, Book Reviews]

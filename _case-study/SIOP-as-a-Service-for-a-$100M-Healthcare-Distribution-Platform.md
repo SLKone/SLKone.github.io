@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Cost-Management, Financial-
 intro: Developed Sales, Inventory, and Operational Planning (SIOP) process, supporting forecasting and purchase order tools to streamline cross-functional collaboration and reduce manual entry into the system
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/SIOP-As-A-Service-for-a-$100M-Healthcare-Distribution-Platform.jpg
+background_image: /assets/images/case-studies/SIOP-As-A-Service-for-a-$100M-Healthcare-Distribution-Platform.jpg
 ---
 
 #### Situation

@@ -4,7 +4,7 @@ title:  "Monthly Edit: Effective Brand Strategy Begins with Culture"
 authors: [Dustin Fidaleo, Phil Lynch]
 tags: [Newsletters, September 2021 Newsletter, Monthly Edits]
 newsletter: [September 2021 Newsletter]
-background: posts/Effective-Brand-Strategy-Begins-with-Culture.jpg
+background_image: /assets/images/posts/Effective-Brand-Strategy-Begins-with-Culture.jpg
 date: 2021-09-16
 subtitle: "Cultivating a Brand Identity Through Core Values."
 ---

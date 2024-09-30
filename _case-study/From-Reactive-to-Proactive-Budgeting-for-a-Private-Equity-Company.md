@@ -6,7 +6,7 @@ services: [Corporate Finance, Operations]
 intro: SLKone drove performance with our ability to compare the expectations and results that tie operations and finance.  We empowered the organization to appropriately distribute resources based on needs and outcomes
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/From-Reactive-to-Proactive-Budgeting-for-a-Private-Equity-Company.jpg
+background_image: /assets/images/case-studies/From-Reactive-to-Proactive-Budgeting-for-a-Private-Equity-Company.jpg
 ---
 
 #### Situation

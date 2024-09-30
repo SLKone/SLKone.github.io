@@ -3,7 +3,7 @@ layout: post
 title:  "Business Development and COVID-19: Adapting to Thrive"
 date: 2020-10-14
 subtitle: "Reassessing business strategies in a changing environment."
-background: posts/bd-and-covid.jpeg
+background_image: /assets/images/posts/bd-and-covid.jpeg
 authors: [Dustin Fidaleo]
 tags: [Newsletters, October 2020 Newsletter, Monthly Edits]
 ---

@@ -6,7 +6,7 @@ services: [Mergers and Acquisitions, Change Management, Financial Analytics]
 intro: Planning an integration to break a trend and preserve the value of the acquisition
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Acquisition-Integration-Plan-for-$250M-Oil-&-Gas-Acquisition-Plan.jpg
+background_image: /assets/images/case-studies/Acquisition-Integration-Plan-for-$250M-Oil-&-Gas-Acquisition-Plan.jpg
 ---
 
 #### Situation

@@ -3,7 +3,7 @@ layout: post
 title:  "Breakroom Book Review: Talking to Strangers"
 date: 2020-10-14
 subtitle: "Exploring human interactions and perceptions."
-background: posts/talking-to-strangers.jpg
+background_image: /assets/images/posts/talking-to-strangers.jpg
 authors: [Monica Yanda]
 newsletter: [October 2020 Newsletter]
 tags: [Newsletters, October 2020 Newsletter, Book Reviews]

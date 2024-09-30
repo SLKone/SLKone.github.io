@@ -4,7 +4,7 @@ title:  "Improving Shareholder Value through Economic Value Add"
 authors: [Casey Matthews]
 tags: [Newsletters, November 2021 Newsletter, Monthly Edits]
 newsletter: [November 2021 Newsletter]
-background: posts/EVA-shareholder-value.jpg
+background_image: /assets/images/posts/EVA-shareholder-value.jpg
 subtitle: Maximizing Returns through Strategic Capital Deployment and Economic Value Add
 date: 2021-11-17
 ---

@@ -6,7 +6,7 @@ services: [IT-Roadmap,Automation,Process-Design]
 intro: Defining and building dashboards and analytics that support strategic initiatives in order to better manage and direct improvements
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Regional-Performance-Dashboard-for-a-1.2B-Oil-Field-Services-Organization.jpg
+background_image: /assets/images/case-studies/Regional-Performance-Dashboard-for-a-1.2B-Oil-Field-Services-Organization.jpg
 ---
 
 #### Situation

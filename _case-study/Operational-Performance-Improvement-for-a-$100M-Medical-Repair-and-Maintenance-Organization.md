@@ -5,7 +5,7 @@ industries: [Medical Devices and MedTech]
 services: [Corporate Finance and Revenue Management, Process Design, Performance Improvement]
 intro: Reduce operating costs through process, systems, and training improvements yielding ~$575k in annualized benefits​
 project-length: 2 months
-background_image: case-studies/Operational-Performance-Improvement-for-a-$100M-Medical-Repair-and-Maintenance-Organization.jpg
+background_image: /assets/images/case-studies/Operational-Performance-Improvement-for-a-$100M-Medical-Repair-and-Maintenance-Organization.jpg
 ---
 
 #### Situation

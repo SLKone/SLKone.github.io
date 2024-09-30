@@ -3,7 +3,7 @@ layout: post
 title:  "The Business Restart Incubator: Spotlight on the Finance Function"
 date: 2020-05-28
 subtitle: "Adapting financial strategies in uncertain times."
-background: posts/Restart-Finance-Function.jpg
+background_image: /assets/images/posts/Restart-Finance-Function.jpg
 authors: [Phil Lynch, Casey Matthews]
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]
 ---

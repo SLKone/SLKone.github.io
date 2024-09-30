@@ -4,7 +4,7 @@ title:  "Licking the Data Spoon"
 authors: [Andrew Klemm]
 tags: [Newsletters, November 2021 Newsletter, Monthly Edits]
 newsletter: [November 2021 Newsletter]
-background: posts/pre-transformation-EVA.jpg
+background_image: /assets/images/posts/pre-transformation-EVA.jpg
 subtitle: Leveraging Insights From Existing Data Before a Digital Transformation
 date: 2021-11-17
 ---

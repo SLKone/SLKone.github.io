@@ -3,7 +3,7 @@ layout: post
 title:  "What Insights Are You Missing?"
 date: 2019-09-14
 subtitle: "Overcoming data challenges in decision-making."
-background: posts/What-Insights-Are-You-Missing.jpg
+background_image: /assets/images/posts/What-Insights-Are-You-Missing.jpg
 authors: [Phil Lynch, Christopher Burton]
 intro: A leadership team is discussing the recent performance of its business and is attempting to develop action plans to move the organization forward. Several members of the leadership team vent frustration at the lack of information coming from the data available within the organization – an issue that persists despite building dashboards, investing in a “Business Intelligence” platform, and hiring team members to focus on data and analytics. Exclamations of, “This has to exist!” and frustrated sighs of, “What good is an analytics team that does not produce good analytics?” can be heard throughout the meeting. 
 services-performed: [Reporting-and-Analytics-Approach-and-Design,Visualization-and-Dashboarding,Financial-Planning-and-Analysis]

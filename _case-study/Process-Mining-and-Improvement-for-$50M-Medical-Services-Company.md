@@ -6,7 +6,7 @@ services: [Process Design, Financial Analytics]
 intro: Prepared a transparent, real time, user-friendly visualization of business processes, rapidly unlocking insights into process inefficiencies, down to root causes, and measuring the operational and financial impact of recommended actions
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Process-Mining-and-Improvement-for-$50M-Medical-Services-Company.jpg
+background_image: /assets/images/case-studies/Process-Mining-and-Improvement-for-$50M-Medical-Services-Company.jpg
 ---
 
 #### Situation

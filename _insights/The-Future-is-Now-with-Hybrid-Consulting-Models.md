@@ -3,7 +3,7 @@ layout: post
 title:  "The Future is Now with Hybrid Consulting Models"
 date: 2021-01-12
 subtitle: "Embracing new consulting paradigms."
-background: posts/hybrid-consulting.jpg
+background_image: /assets/images/posts/hybrid-consulting.jpg
 authors: [Phil Lynch]
 tags: [Newsletters, January 2021 Newsletter, Monthly Edits]
 ---

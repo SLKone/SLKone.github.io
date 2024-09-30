@@ -6,7 +6,7 @@ services: [Performance-Improvement,Sales-and-Operations-Planning]
 intro: Developed a suite of SaaS reports and dashboards for various stakeholders including C-Suite and private equity sponsors, which provided insights for critical business decisions such as where to best invest sales & marketing dollars for the highest percentage return
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company.jpg
+background_image: /assets/images/case-studies/Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company.jpg
 ---
 
 #### Situation

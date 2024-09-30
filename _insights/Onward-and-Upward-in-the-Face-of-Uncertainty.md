@@ -3,7 +3,7 @@ layout: post
 title:  "Onward and Upward in the Face of Uncertainty"
 date: 2020-11-16
 subtitle: "Strategies for navigating challenges in business."
-background: posts/onward-upward.jpg
+background_image: /assets/images/posts/onward-upward.jpg
 authors: [Phil Lynch]
 tags: [Newsletters, November 2020 Newsletter, Monthly Edits]
 ---

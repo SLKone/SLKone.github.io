@@ -6,7 +6,7 @@ services: [Performance Improvement, Operating Model Design, Change Management]
 intro: Developed methodology to increase forecast accuracy and manage costs​
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Forecasting-Financial-Performance-with-Machine-Learning-for-$10B-Oil-&-Gas-Organization.jpg
+background_image: /assets/images/case-studies/Forecasting-Financial-Performance-with-Machine-Learning-for-$10B-Oil-&-Gas-Organization.jpg
 ---
 
 #### Situation

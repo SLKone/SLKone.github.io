@@ -6,7 +6,7 @@ services: [Performance-Improvement,Operating-Model-Design]
 intro: After reviewing the operations of the organization, in alignment with future production needs and sales pipelines, a manufacturing shop floor reconfiguration project was embarked on resulting in improved performance, delivery, and profitability
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Realigned-Operations-for-Product-Flow-75M-for-a-Specialty-Plastics-Packaging-Manufacturer.jpg
+background_image: /assets/images/case-studies/Realigned-Operations-for-Product-Flow-75M-for-a-Specialty-Plastics-Packaging-Manufacturer.jpg
 ---
 
 #### Situation

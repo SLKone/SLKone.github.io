@@ -6,7 +6,7 @@ services: [Sales-and-Operations-Planning,Performance-Improvement]
 intro: Trusted advisors who are focused on ensuring the success of the leaders they work with and help to deliver results to their organizations
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Executive-Leadership-Coaching-for-a-Regional-Specialty-Healthcare-Provider-Network.jpg
+background_image: /assets/images/case-studies/Executive-Leadership-Coaching-for-a-Regional-Specialty-Healthcare-Provider-Network.jpg
 ---
 
 #### Situation

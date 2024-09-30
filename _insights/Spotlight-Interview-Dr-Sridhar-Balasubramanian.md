@@ -5,7 +5,7 @@ authors: [Arun Shukla, Casey Matthews, Kevin Gore]
 newsletter: [May 2021 Newsletter]
 tags: [Newsletters, May 2021 Newsletter, Spotlight Interviews]
 intro: "Peripheral Vision: An Interview with Dr. Sridhar Balasubramanian, SLKone Advisory Partner and Professor of Marketing at Kenan Flagler Business School"
-background: posts/spotlight-drb_peripheralvision.jpg
+background_image: /assets/images/posts/spotlight-drb_peripheralvision.jpg
 date: 2021-05-16
 subtitle: "How to develop peripheral vision in your organization."
 ---

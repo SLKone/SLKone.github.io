@@ -3,7 +3,7 @@ layout: post
 title:  "A Process for Business Transformation: A Defined Approach to Assess Process"
 date: 2020-06-23
 subtitle: "Establishing foundational steps for transformation."
-background: posts/A-Process-for-Business-Transformation-Process.jpg
+background_image: /assets/images/posts/A-Process-for-Business-Transformation-Process.jpg
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: Welcome to the second article in our series, “A Process for Business Transformation”.
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]

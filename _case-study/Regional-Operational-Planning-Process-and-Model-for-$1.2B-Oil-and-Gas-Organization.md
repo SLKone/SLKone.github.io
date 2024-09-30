@@ -6,7 +6,7 @@ services: [Performance-Improvement, Automation, IT-Roadmap]
 intro: Development of streamlined operational planning process and interim activity planning model to create an automated bottoms-up, 12-month rolling operational plan and revenue forecast
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Regional-Operational-Planning-Process-&-Model-for-$1.2B-Oil-&-Gas-Organization.jpg
+background_image: /assets/images/case-studies/Regional-Operational-Planning-Process-&-Model-for-$1.2B-Oil-&-Gas-Organization.jpg
 ---
 
 #### Situation

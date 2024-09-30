@@ -3,7 +3,7 @@ layout: post
 title:  "What Does Cash Management Actually Mean?"
 date: 2019-10-03
 subtitle: "Understanding the importance of liquidity management."
-background: posts/What-Does-Cash-Management-Actually-Mean.jpg
+background_image: /assets/images/posts/What-Does-Cash-Management-Actually-Mean.jpg
 authors: [Phil Lynch, Dustin Fidaleo]
 intro: Type-casted as a taboo subject, cash management can be misinterpreted and consequentially mismanaged. No business can survive without a healthy influx of cash, but what does it mean to manage it? 
 services-performed: [Finance-and-Accounting-Processes,Financial-Planning-and-Analysis,Goals-Alignment]

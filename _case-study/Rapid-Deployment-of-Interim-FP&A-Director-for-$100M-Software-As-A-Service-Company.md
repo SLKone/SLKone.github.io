@@ -6,7 +6,7 @@ services: [Financial-Analytics]
 intro: Deployed within 1 week to provide interim management of FP&A department at the beginning of sale process​
 team-size: 2 consultants
 project-length: 2 months
-background_image: case-studies/Rapid-Deployment-of-Interim-FP&A-Director-for-$100M-Software-As-A-Service-Company.jpg
+background_image: /assets/images/case-studies/Rapid-Deployment-of-Interim-FP&A-Director-for-$100M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation

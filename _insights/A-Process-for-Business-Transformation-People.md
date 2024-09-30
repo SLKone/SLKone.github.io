@@ -3,7 +3,7 @@ layout: post
 title:  "A Process for Business Transformation: Making the Link from Activities to Roles to People"
 date: 2020-09-25
 subtitle: "Connecting activities to human capital for effective transformation."
-background: posts/A-Process-for-Business-Transformation-People.jpg
+background_image: /assets/images/posts/A-Process-for-Business-Transformation-People.jpg
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 ---
 

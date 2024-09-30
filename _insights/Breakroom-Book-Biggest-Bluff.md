@@ -3,7 +3,7 @@ layout: post
 title:  "Breakroom Book Review: The Biggest Bluff"
 date: 2021-02-15
 subtitle: "Exploring luck and skill through poker."
-background: posts/whiteboard_biggestbluff.jpg
+background_image: /assets/images/posts/whiteboard_biggestbluff.jpg
 authors: [Christopher Burton]
 newsletter: [February 2021 Newsletter]
 tags: [Newsletters, February 2021 Newsletter, Book Reviews]

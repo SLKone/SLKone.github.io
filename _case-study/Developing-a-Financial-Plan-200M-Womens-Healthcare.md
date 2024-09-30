@@ -7,7 +7,7 @@ intro: SLKone transformed an antiquated finance function from a transaction mana
 team-size: 2 consultants
 project-length: 2 months
 tags: Featured
-background_image: case-studies/Developing-a-Financial-Plan-200M-Womens-Healthcare.jpg
+background_image: /assets/images/case-studies/Developing-a-Financial-Plan-200M-Womens-Healthcare.jpg
 ---
 
 #### Situation

@@ -4,7 +4,7 @@ title:  "Spotlight Interview: Shan Jegatheeswaran"
 authors: [Casey Matthews]
 newsletter: [March 2021 Newsletter]
 tags: [Newsletters, March 2021 Newsletter, Spotlight Interviews]
-background: posts/spotlight-shanjegatheeswaran-new.jpg
+background_image: /assets/images/posts/spotlight-shanjegatheeswaran-new.jpg
 date: 2021-03-16
 subtitle: "The future of digital in the oil and gas industry."
 ---

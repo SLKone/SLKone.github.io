@@ -5,7 +5,7 @@ authors: [Andrew Conquest,Andrew Klemm,Arun Shukla]
 intro: To be effective, strategy requires situational awareness, vision setting, objective setting, and comprehensive planning ahead of execution.  
 services-performed: [Organization-and-Human-Capital, Process-Design, Operating-Model-Design]
 tag: [Article, July 2021 Newsletter, Organization-and-Human-Capital, Process-Design, Operating-Model-Design, Featured]
-background: posts/Development-of-Organizational-Strategy.jpg
+background_image: /assets/images/posts/Development-of-Organizational-Strategy.jpg
 date: 2021-07-19
 subtitle: "Building Blocks for Effective Strategy Development."
 ---

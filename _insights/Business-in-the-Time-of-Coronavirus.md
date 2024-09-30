@@ -3,7 +3,7 @@ layout: post
 title:  "Business in the Time of Coronavirus"
 date: 2020-04-30
 subtitle: "Navigating the economic impact of COVID-19."
-background: posts/Business-in-the-Time-of-Coronavirus.jpg
+background_image: /assets/images/posts/Business-in-the-Time-of-Coronavirus.jpg
 authors: [Arun Shukla, Phil Lynch, Andrew Klemm]
 ---
 COVID-19 has created a dynamic economic climate unlike anything that has come before. It has fractured business models by simultaneously sending most global and local business value streams into forced hibernation while catapulting a few into overdrive. The impacts from this pandemic will affect all businesses in one way or another. Some industries will be birthed and grow amidst this pandemic while others may be lost completely. Determining where those growth opportunities lie is the key to surviving in these uncertain times and thriving in the post-COVID-19 world. 

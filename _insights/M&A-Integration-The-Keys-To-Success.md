@@ -3,7 +3,7 @@ layout: post
 title:  "M&A Integration: The Keys To Success"
 date: 2020-03-10
 subtitle: "Navigating the complexities of mergers and acquisitions."
-background: posts/MA-Integration-The-Keys-To-Success.jpg
+background_image: /assets/images/posts/MA-Integration-The-Keys-To-Success.jpg
 authors: [Phil Lynch]
 intro: Combining two similar functional areas may seem like an easy task, but when it comes to mergers and acquisitions, the degree of an organization’s success often lies in the hands of its own personnel.
 services-performed: [Integration-Management]

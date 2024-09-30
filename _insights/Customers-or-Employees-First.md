@@ -4,7 +4,7 @@ title:  "Customers or Employees First?"
 authors: [Isabella Doval]
 subtitle: Balancing Priorities for Business Success
 services-performed: [Leadership-Coaching-and-Leadership-Facilitation]
-background: posts/Customers-or-Employees-First.jpg
+background_image: /assets/images/posts/Customers-or-Employees-First.jpg
 tag: [Article]
 date: 2023-09-28
 ---

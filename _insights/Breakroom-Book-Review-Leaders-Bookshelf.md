@@ -3,7 +3,7 @@ layout: post
 title:  "Breakroom Book Review: The Leader's Bookshelf"
 date: 2021-03-16
 subtitle: "Books that shape leadership perspectives."
-background: posts/leadership-bookshelf.jpg
+background_image: /assets/images/posts/leadership-bookshelf.jpg
 authors: [Christopher Burton]
 newsletter: [March 2021 Newsletter]
 tags: [Newsletters, March 2021 Newsletter, Book Reviews]
