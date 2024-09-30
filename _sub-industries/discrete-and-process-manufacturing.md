@@ -2,7 +2,7 @@
 layout: sub-industry
 parent: Manufacturing
 order: 4
-title: "Discrete & Process Manufacturing"
+title: "Discrete and Process Manufacturing"
 subtitle: "We help both discrete and process manufacturers streamline operations, implement lean principles, and leverage Industry 4.0 technologies for enhanced productivity and efficiency."
 
 challenges:
@@ -46,6 +46,6 @@ cta: "Contact SLKone today to learn how our specialized services can enhance you
 icon: "fa-conveyor-belt-boxes"
 color: "sand"
 image: "/assets/images/backgrounds/discrete-process-manufacturing.webp"
-permalink: /industries/manufacturing/discrete-process-manufacturing
-redirect_to: /industries/manufacturing#discrete-process-manufacturing
+permalink: /industries/manufacturing/discrete-and-process-manufacturing
+redirect_to: /industries/manufacturing#discrete-and-process-manufacturing
 ---
