@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-<article class="career">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-</article>
+<section id="careers" class="py-20">
+    <div class="container mx-auto px-8 max-w-7xl prose">
+        <h2>Current Openings</h2>
+        <ul>
+            {% for career in site.careers %}
+                <li>
+                    <h3><a href="{{ career.url }}">{{ career.title }}</a></h3>
+                    <p>{{ career.intro }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

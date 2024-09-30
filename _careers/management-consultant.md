@@ -8,4 +8,5 @@ qualifications: ['US Resident or Permanent Work Authorization','Innovative and c
 additional-capabilities: ['Advanced or graduate degree','2+ years of relevant work experience','Experience utilizing Python or R for data analysis','Experience extracting data from source systems using SQL or similar approaches','Ability to visualize data and create dashboards for stakeholders using a BI tool (PowerBI, Tableau, SSRS, etc.)','Experience leveraging cloud computing tools for analysis a strong plus (Azure, AWS)']
 game-changers: ['Competitive, performance-based compensation','Remote location – work from home when not on-site with a client','Flexible schedule and vacation time','Regular team offsites','Volunteer opportunities','Career development resources','Networking support','Be part of a tightknit team','Contribute to thought leadership','Redefine what it means to be a consultant']
 benefits: ['Medical, Vision, and Dental Insurance','Cell Phone and Internet Allowance','401(k) Retirement Plan','Life and Disability Insurance','Paid Time Off (PTO)','Paid Parental Leave']
+background_image: '/assets/images/backgrounds/consultant.webp'
 ---
