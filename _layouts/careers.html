@@ -10,12 +10,16 @@ layout: default
     </div>
 </section>  
 <section id="careers" class="py-20">
-    <div class="container mx-auto px-8 max-w-7xl prose dark:prose-invert">
+    <div class="container mx-auto px-8 max-w-7xl">
         <p class="text-xl max-w-prose">{{ page.open-intro }}</p>
         {% for career in site.career %}
-            <div class="container mx-auto px-8 max-w-7xl prose">    
-            <h2>{{ career.role }}</h2>
+            <div class="container mx-auto px-8 max-w-7xl prose dark:prose-invert">    
+                <h2>{{ career.title }}</h2
                 <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="md:col-span-1">
+                        <h3>The Role</h3>
+                        <p>{{ career.role }}</p>
+                    </div>
                     <div class="md:col-span-1">
                         <h3>Responsibilities</h3>
                         <ul>
