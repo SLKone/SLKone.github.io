@@ -2,16 +2,59 @@
 layout: default
 ---
 {% include page-header.html title=page.title subtitle=page.subtitle background_image=page.background_image %}
+<section class="big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+    <div class="container mx-auto px-4 max-w-7xl md:text-3xl py-40">
+      <p class="max-w-prose">
+      {{ page.bigparagraph }}
+      </p>
+    </div>
+</section>  
 <section id="careers" class="py-20">
     <div class="container mx-auto px-8 max-w-7xl prose">
-        <h2>Current Openings</h2>
-        <ul>
-            {% for career in site.careers %}
-                <li>
-                    <h3><a href="{{ career.url }}">{{ career.title }}</a></h3>
-                    <p>{{ career.intro }}</p>
-                </li>
-            {% endfor %}
-        </ul>
+        <p class="text-xl max-w-prose">{{ page.open-intro }}</p>
+        {% for career in site.careers %}
+            <div class="container mx-auto px-8 max-w-7xl prose">    
+            <h2>Role</h2>
+            <p>{{ career.role }}</p>
+            
+            <h2>Responsibilities</h2>
+            <ul>
+                {% for responsibility in career.responsibilities %}
+                    <li>{{ responsibility }}</li>
+                {% endfor %}
+            </ul>
+            
+            <h2>Qualifications</h2>
+            <ul>
+                {% for qualification in career.qualifications %}
+                    <li>{{ qualification }}</li>
+                {% endfor %}
+            </ul>
+            
+            <h2>Additional Capabilities</h2>
+            <ul>
+                {% for capability in career.additional-capabilities %}
+                    <li>{{ capability }}</li>
+                {% endfor %}
+            </ul>
+            
+            <h2>Game Changers</h2>
+            <ul>
+                {% for game_changer in career.game-changers %}
+                    <li>{{ game_changer }}</li>
+                {% endfor %}
+            </ul>
+            
+            <h2>Benefits</h2>
+            <ul>
+                {% for benefit in career.benefits %}
+                    <li>{{ benefit }}</li>
+                {% endfor %}
+            </ul>
+            </div>        
+        {% endfor %}
     </div>
 </section>
+{% if page.why-slk %}
+  {% include why-choose-slkone.html title=page.why-slk points=page.why-slk-list %}
+{% endif %}
