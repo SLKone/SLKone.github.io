@@ -18,28 +18,22 @@ layout: default
         <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
             Apply Now <i class="fas fa-arrow-right"></i>
         </a>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:prose-invert items-start py-8">
+        <div class="md:grid grid-cols-2 gap-8 dark:prose-invert items-start py-8">
             <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
                 <h3>The Role</h3>
                 <p>{{ career.role }}</p>
-            </div>
-            <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
                 <h3>Responsibilities</h3>
                 <ul>
                     {% for responsibility in career.responsibilities %}
                         <li>{{ responsibility }}</li>
                     {% endfor %}
                 </ul>
-            </div>
-            <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
                 <h3>Qualifications</h3>
                 <ul>
                     {% for qualification in career.qualifications %}
                         <li>{{ qualification }}</li>
                     {% endfor %}
                 </ul>
-            </div>
-            <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
                 <h3>Additional Capabilities</h3>
                 <ul>
                     {% for capability in career.additional-capabilities %}
@@ -54,8 +48,6 @@ layout: default
                         <li>{{ game_changer }}</li>
                     {% endfor %}
                 </ul>
-            </div>
-            <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
                 <h3>Benefits</h3>
                 <ul>
                     {% for benefit in career.benefits %}
