@@ -5,7 +5,7 @@ permalink: /brands
 background_image: "/assets/images/backgrounds/brands.webp"
 subtitle: "At SLKone, we're not just consultants - we're innovators, accelerators, and value creators. Our family of brands represents our commitment to driving transformative change across industries. Each brand leverages our unique blend of strategic insight and operational expertise to deliver exceptional results for our clients."
 brands:
-  - title: "Amalgam Capital: Redefining Private Equity"
+  - title: "Amalgam Capital"
     subtitle: "Amalgam Capital is our independent sponsor arm, focused on acquiring and sustainably growing underrated businesses."
     sections:
       - title: "Our Approach"
@@ -21,7 +21,7 @@ brands:
     link-text: "Learn more about Amalgam Capital"
     link: "https://amalgamcapital.com"
     image: "/assets/images/backgrounds/amalgam.webp"
-  - title: "SLK Catalyst Partners: Empowering Corporate Excellence"
+  - title: "SLK Catalyst Partners"
     subtitle: "SLK Catalyst Partners offers a structured framework of actionable solutions to help corporate and operating entities tackle complex challenges."
     sections:
       - title: "Our Focus Areas"
@@ -40,7 +40,7 @@ brands:
     link-text: "Explore SLK Catalyst Partners' solutions"
     link: "https://slkcatalystpartners.com"
     image: "/assets/images/backgrounds/slkcatalyst.webp"
-  - title: "Abyss Analytics: Illuminating Healthcare Data"
+  - title: "Abyss Analytics"
     subtitle: "Abyss Analytics is our trailblazing healthcare analytics company, leveraging data science and AI to tackle the industry's most complex challenges."
     sections:
       - title: "Our Solutions"

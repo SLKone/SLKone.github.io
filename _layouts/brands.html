@@ -7,7 +7,7 @@ layout: default
 <section class="snap-start h-full relative approach py-20"> 
   <div class="container mx-auto px-8 max-w-7xl">
       {% for brand in page.brands %}
-        <div id="brand-card" class="pb-40">
+        <div id="{{ brand.title | slugify }}" class="pb-40">
             <h2 class="text-4xl font-display mb-4">{{ brand.title }}</h2>
             <p class="text-xl max-w-prose mb-8">{{ brand.subtitle }}</p>
             <div class="bg-no-repeat bg-cover bg-center h-[40dvh] w-full rounded-xl" style="background-image: url({{ brand.image }});"></div>
