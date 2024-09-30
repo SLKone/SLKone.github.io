@@ -4,7 +4,7 @@ layout: default
 {% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background %} 
 
 <section id="insights" class="container mx-auto px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-2 gap-8 pb-20">
-    {% assign case-studies = site.case-studies | sort: 'date' | reverse %}
+    {% assign case-studies = site.case-study | sort: 'date' | reverse %}
     {% assign total_posts = case-studies.size %}
     {% assign posts_per_page = 16 %}
     {% assign current_page = 1 %}

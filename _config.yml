@@ -33,12 +33,9 @@ collections:
     output: true
   sub-services:
     output: true
-  careers:
+  career:
     output: true
-    # Debugging careers collection
-    # Ensure that the careers collection is properly configured
-    # Check for any missing fields or incorrect settings
-  case-studies:
+  case-study:
     output: true
   expertise:
     output: true
@@ -87,13 +84,13 @@ defaults:
       layout: "sub-industry"
       permalink: "/:parent/:title/"
   - scope:
-      path: "/careers/"
-      type: "careers"
+      path: "/career/"
+      type: "career"
     values:
       layout: "career"
       permalink: "/:title/"
   - scope:
-      path: "/case-studies/"
+      path: "/case-study/"
       type: "case_studies"
     values:
       layout: "case_study"
