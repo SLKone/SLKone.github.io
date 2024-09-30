@@ -15,7 +15,7 @@ focus_areas:
     content: "Develop and train predictive models using the latest machine learning algorithms and techniques."
   - title: "Model Validation"
     content: "Validate models to ensure they meet performance standards and provide reliable predictions."
-  - title: "Model Implementation"
+  - title: "Model Deployment"
     content: "Integrate predictive models into your business processes and decision-making systems."
 why_choose:
   - "Advanced Statistical and ML Techniques"
