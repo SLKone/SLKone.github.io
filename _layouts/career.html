@@ -1,17 +1,45 @@
 ---
 layout: default
 ---
-{% include page-header.html title=page.title subtitle=page.subtitle background_image=page.background_image %}
-<section id="careers" class="py-20">
-    <div class="container mx-auto px-8 max-w-7xl prose">
-        <h2>Current Openings</h2>
-        <ul>
-            {% for career in site.careers %}
-                <li>
-                    <h3><a href="{{ career.url }}">{{ career.title }}</a></h3>
-                    <p>{{ career.intro }}</p>
-                </li>
-            {% endfor %}
-        </ul>
+{% include page-header.html title=page.title subtitle=page.intro streamlines=page.streamlines background_image=page.image %}
+<section id="career" class="py-20">
+    <div class="container mx-auto px-8 max-w-7xl prose">    
+    <h2>Role</h2>
+    <p>{{ page.role }}</p>
+    
+    <h2>Responsibilities</h2>
+    <ul>
+        {% for responsibility in page.responsibilities %}
+            <li>{{ responsibility }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Qualifications</h2>
+    <ul>
+        {% for qualification in page.qualifications %}
+            <li>{{ qualification }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Additional Capabilities</h2>
+    <ul>
+        {% for capability in page.additional-capabilities %}
+            <li>{{ capability }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Game Changers</h2>
+    <ul>
+        {% for game_changer in page.game-changers %}
+            <li>{{ game_changer }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Benefits</h2>
+    <ul>
+        {% for benefit in page.benefits %}
+            <li>{{ benefit }}</li>
+        {% endfor %}
+    </ul>
     </div>
 </section>

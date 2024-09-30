@@ -1,5 +1,5 @@
 ---
-layout: career-listing
+layout: career
 title:  'Consultant and Management Consultant'
 intro: 'We are currently looking for new team members!'
 role: 'The Consultant and Managing Consultant positions are both full-time roles. The ideal candidate lives the five pillars of SLKone. We expect him or her to be self-motivated, hard-working, intellectually curious, focused on success, and have a desire to contribute and grow within the firm. We also expect candidates to occasionally fail because the only way we grow personally and as a firm is through stretching ourselves and taking risks. Candidates can expect to be challenged qualitatively and quantitatively, utilizing a data-driven and team-oriented approach to solve our client’s most crucial challenges across a variety of industries and disciplines.'
