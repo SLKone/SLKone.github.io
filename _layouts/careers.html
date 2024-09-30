@@ -14,51 +14,51 @@ layout: default
         <p class="text-xl md:text-3xl max-w-prose mb-8">{{ page.open-intro }}</p>
         {% for career in site.career %}  
         <div class="rounded-xl bg-black/5 dark:bg-currant-500 p-8">
-        <h2 class="text-4xl mb-12 font-display">{{ career.title }}</h2>
-        <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
-            Apply Now <i class="fas fa-arrow-right"></i>
-        </a>
-        <div class="md:grid grid-cols-2 gap-8 dark:prose-invert items-start py-8">
-            <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
-                <h3>The Role</h3>
-                <p>{{ career.role }}</p>
-                <h3>Responsibilities</h3>
-                <ul>
-                    {% for responsibility in career.responsibilities %}
-                        <li>{{ responsibility }}</li>
-                    {% endfor %}
-                </ul>
-                <h3>Qualifications</h3>
-                <ul>
-                    {% for qualification in career.qualifications %}
-                        <li>{{ qualification }}</li>
-                    {% endfor %}
-                </ul>
-                <h3>Additional Capabilities</h3>
-                <ul>
-                    {% for capability in career.additional-capabilities %}
-                        <li>{{ capability }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
-                <h3>Game Changers</h3>
-                <ul>
-                    {% for game_changer in career.game-changers %}
-                        <li>{{ game_changer }}</li>
-                    {% endfor %}
-                </ul>
-                <h3>Benefits</h3>
-                <ul>
-                    {% for benefit in career.benefits %}
-                        <li>{{ benefit }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>  
-        <a class="mt-8 mb-12 mx-auto bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
-            Apply Now <i class="fas fa-arrow-right"></i>
-        </a>
+            <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
+                Apply Now <i class="fas fa-arrow-right"></i>
+            </a>
+            <h2 class="text-4xl mb-12 font-display">{{ career.title }}</h2>
+            <div class="md:grid grid-cols-2 gap-8 dark:prose-invert items-start py-8">
+                <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
+                    <h3>The Role</h3>
+                    <p>{{ career.role }}</p>
+                    <h3>Responsibilities</h3>
+                    <ul>
+                        {% for responsibility in career.responsibilities %}
+                            <li>{{ responsibility }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Qualifications</h3>
+                    <ul>
+                        {% for qualification in career.qualifications %}
+                            <li>{{ qualification }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Additional Capabilities</h3>
+                    <ul>
+                        {% for capability in career.additional-capabilities %}
+                            <li>{{ capability }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
+                    <h3>Game Changers</h3>
+                    <ul>
+                        {% for game_changer in career.game-changers %}
+                            <li>{{ game_changer }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Benefits</h3>
+                    <ul>
+                        {% for benefit in career.benefits %}
+                            <li>{{ benefit }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>  
+            <a class="mt-8 mb-12 mx-auto bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
+                Apply Now <i class="fas fa-arrow-right"></i>
+            </a>
         </div>
         {% endfor %}
     </div>
