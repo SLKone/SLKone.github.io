@@ -25,5 +25,5 @@ icon: "fa-door-closed"
 color: "forest"
 image: "/assets/images/backgrounds/exit-preparation-readiness.webp"
 permalink: /services/mergers-and-acquisitions/exit-preparation-readiness
-case-study: Develop-and-Automate-Annual-Recurring-Revenue-for-$100M-Software-As-A-Service-Company
+redirect_to: /services/mergers-and-acquisitions#exit-preparation-readiness
 ---

@@ -27,5 +27,5 @@ icon: "fa-user-shield"
 color: "cinnabar"
 image: "/assets/images/backgrounds/organizational-role-effectiveness.webp"
 permalink: /services/organizational-design-and-alignment/organizational-role-effectiveness
-case-study: Leadership-Organization-Design-for-$10B-Oil-&-Gas-Organization
+redirect_to: /services/organizational-design-and-alignment#organizational-role-effectiveness
 ---

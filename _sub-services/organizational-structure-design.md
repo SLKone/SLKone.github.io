@@ -27,5 +27,5 @@ icon: "fa-sitemap"
 color: "cinnabar"
 image: "/assets/images/backgrounds/organizational-structure-design.webp"
 permalink: /services/organizational-design-and-alignment/organizational-structure-design
-case-study: Organizational-Restructuring-13B-Oil-and-Gas-Company
+redirect_to: /services/organizational-design-and-alignment#organizational-structure-design
 ---

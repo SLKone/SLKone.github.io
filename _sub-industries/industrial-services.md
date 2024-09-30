@@ -42,8 +42,9 @@ why_choose:
 
 cta-title: "Ready to optimize your Industrial Services operations?"
 cta: "Contact SLKone today to discover how our specialized services can enhance your service delivery and customer satisfaction."
-icon: "fa-container"
+icon: "fa-container-storage"
 color: "sand"
 image: "/assets/images/backgrounds/industrial-services.webp"
 permalink: /industries/manufacturing/industrial-services
+redirect_to: /industries/manufacturing#industrial-services
 ---

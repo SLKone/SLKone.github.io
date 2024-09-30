@@ -27,5 +27,5 @@ icon: "fa-object-group"
 color: "cinnabar"
 image: "/assets/images/backgrounds/operating-model-design.webp"
 permalink: /services/organizational-design-and-alignment/operating-model-design
-case-study: Organizational-Design-for-a-10B-Oil-and-Gas-Company
+redirect_to: /services/organizational-design-and-alignment#operating-model-design
 ---

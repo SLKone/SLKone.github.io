@@ -33,5 +33,5 @@ icon: "fa-robot"
 color: "plum"
 image: "/assets/images/backgrounds/automation.webp"
 permalink: /services/digital-strategy-and-technology/automation
-case-study: Regional-Performance-Dashboard-for-a-1.2B-Oil-Field-Services-Organization
+redirect_to: /services/digital-strategy-and-technology#automation
 ---

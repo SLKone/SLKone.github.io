@@ -27,5 +27,5 @@ icon: "fa-list-check"
 color: "forest"
 image: "/assets/images/backgrounds/change-management.webp"
 permalink: /services/mergers-and-acquisitions/change-management
-case-study: Integration-Management-Office-for-$40M-Opthalmology-&-Specialty-Eye-Care-Portfolio-Company
+redirect_to: /services/mergers-and-acquisitions#change-management
 ---

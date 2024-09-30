@@ -28,5 +28,5 @@ icon: "fa-road"
 color: "plum"
 image: "/assets/images/backgrounds/it-roadmap.webp"
 permalink: /services/digital-strategy-and-technology/it-roadmap
-case-study: Vendor-and-Systems-Selection-for-a-80M-Software-As-A-Service
+redirect_to: /services/digital-strategy-and-technology#it-roadmap
 ---

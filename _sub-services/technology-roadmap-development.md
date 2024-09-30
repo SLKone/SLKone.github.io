@@ -29,4 +29,5 @@ icon: "fa-map"
 color: "coral"
 image: "/assets/images/backgrounds/technology-roadmap-development.webp"
 permalink: /services/digital-strategy-and-technology/technology-roadmap-development
+redirect_to: /services/digital-strategy-and-technology#technology-roadmap-development
 ---

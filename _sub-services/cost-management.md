@@ -28,5 +28,5 @@ icon: "fa-wallet"
 color: "mustard" 
 image: "/assets/images/backgrounds/cost-management.webp"
 permalink: /services/corporate-finance-and-revenue-management/cost-management
-case-study: Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company
+redirect_to: /services/corporate-finance-and-revenue-management#cost-management
 ---

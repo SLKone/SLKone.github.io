@@ -28,5 +28,5 @@ icon: "fa-chart-mixed-up-circle-dollar"
 color: "mustard"
 image: "/assets/images/backgrounds/financial-analytics.webp"
 permalink: /services/corporate-finance-and-revenue-management/financial-analytics
-case-study: Financial-Analytics-for-a-1.2B-Oil-Field-Services-Organization
+redirect_to: /services/corporate-finance-and-revenue-management#financial-analytics
 ---

@@ -27,5 +27,5 @@ icon: "fa-gauge-simple-max"
 color: "blush"
 image: "/assets/images/backgrounds/performance-improvement.webp"
 permalink: /services/operational-excellence/performance-improvement
-case-study: Process-Mining-and-Improvement-for-$50M-Medical-Services-Company
+redirect_to: /services/operational-excellence#performance-improvement
 ---
