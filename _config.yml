@@ -1,6 +1,6 @@
 # Site settings
 title: SLKone
-email: hello@slone.com
+email: hello@slkone.com
 description: SLKone is a bespoke management consulting firm bridging Strategy, Leadership, and Knowledge to build lasting solutions.
 baseurl: ""
 url: "https://slkone.com"
@@ -35,6 +35,9 @@ collections:
     output: true
   careers:
     output: true
+    # Debugging careers collection
+    # Ensure that the careers collection is properly configured
+    # Check for any missing fields or incorrect settings
   case-studies:
     output: true
   expertise:
