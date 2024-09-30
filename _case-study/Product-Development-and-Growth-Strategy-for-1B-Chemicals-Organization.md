@@ -6,7 +6,7 @@ services: [Operations, Financial Analytics]
 intro: Defining and measuring global market for a new product development in an emerging sector to support creation of business case.
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Product-Development-and-Growth-Strategy-for-$1B-Chemicals-Organization.jpg
+background_image: case-studies/Product-Development-and-Growth-Strategy-for-$1B-Chemicals-Organization.jpg
 ---
 
 #### Situation

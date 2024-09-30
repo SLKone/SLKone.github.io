@@ -39,6 +39,6 @@ cta_title: "Ready to optimize your organizational structure?"
 cta: "Contact SLKone today to learn how our Organizational Design & Alignment services can drive your business forward and achieve strategic alignment."
 icon: "fa-sitemap"
 color: "cinnabar"
-image: "/assets/images/backgrounds/organizational-design-and-alignment.webp"
+background_image: "/assets/images/backgrounds/organizational-design-and-alignment.webp"
 permalink: /services/organizational-design-and-alignment
 ---

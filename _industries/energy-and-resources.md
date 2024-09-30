@@ -59,6 +59,6 @@ cta_title: "Ready to navigate the complexities of the energy and resources secto
 cta: "Contact SLKone today to discover how our specialized services can drive your sustainable growth and operational excellence."
 icon: "fa-solid fa-bolt"
 color: "plum"
-image: "/assets/images/backgrounds/energy-and-resources.webp"
+background_image: "/assets/images/backgrounds/energy-and-resources.webp"
 permalink: /industries/energy-and-resources
 ---

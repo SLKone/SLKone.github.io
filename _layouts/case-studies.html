@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background %} 
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines="Y" %} 
 
 <section id="insights" class="container mx-auto px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-2 gap-8 pb-20">
     {% assign case-studies = site.case-study | sort: 'date' | reverse %}
@@ -16,7 +16,7 @@ layout: default
         {% if mod8 == 1 or mod8 == 5 %}
           {% assign size-class = "row-span-2" %}
         {% endif %}
-        {% include case-card.html size-class=size-class title=case-study.title intro=case-study.intro hero-image=case-study.heroimage url=case-study.url %}
+        {% include case-card.html size-class=size-class title=case-study.title intro=case-study.intro background_image=case-study.background_image url=case-study.url %}
         {% endfor %}
     </div>
     
@@ -26,7 +26,7 @@ layout: default
     {% if mod8 == 1 or mod8 == 5 %}
       {% assign size-class = "row-span-2" %}
     {% endif %}
-    {% include case-card.html size-class=size-class title=case-study.title intro=case-study.intro hero-image=case-study.heroimage url=case-study.url %}
+    {% include case-card.html size-class=size-class title=case-study.title intro=case-study.intro background_image=case-study.background_image url=case-study.url %}
     {% endfor %}
     
 </section>

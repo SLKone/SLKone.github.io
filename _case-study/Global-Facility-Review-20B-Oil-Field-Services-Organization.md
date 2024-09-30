@@ -6,7 +6,7 @@ services: [Performance-Improvement,Operating-Model-Design,Change-Management]
 intro: An organization built by acquisition and continued siloed organizations led to a bloated facility footprint across a global organization
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Global-Facility-Review-20B-Oil-Field-Services-Organization.jpg
+background_image: case-studies/Global-Facility-Review-20B-Oil-Field-Services-Organization.jpg
 ---
 
 #### Situation

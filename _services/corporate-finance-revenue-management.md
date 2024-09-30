@@ -41,6 +41,6 @@ cta_title: "Ready to optimize your financial performance?"
 cta: "Contact SLKone today to discover how our Corporate Finance & Revenue Management services can drive your business growth."
 icon: "fa-chart-line"
 color: "mustard"
-image: "/assets/images/backgrounds/corp-finance-bg.webp"
+background_image: "/assets/images/backgrounds/corp-finance-bg.webp"
 permalink: /services/corporate-finance-and-revenue-management
 ---

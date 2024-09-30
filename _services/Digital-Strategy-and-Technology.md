@@ -29,6 +29,6 @@ cta_title: "Ready to drive your digital transformation?"
 cta: "Contact SLKone today to discover how our Digital Strategy and Technology services can elevate your business operations and performance."
 icon: "fa-computer"
 color: "plum"
-image: "/assets/images/backgrounds/digital-strategy.webp"
+background_image: "/assets/images/backgrounds/digital-strategy.webp"
 permalink: /services/digital-strategy-and-technology
 ---

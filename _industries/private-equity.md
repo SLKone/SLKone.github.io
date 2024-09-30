@@ -61,6 +61,6 @@ cta_title: "Ready to maximize value across your private equity portfolio?"
 cta: "Contact SLKone today to discover how our tailored solutions can accelerate performance and enhance returns."
 icon: "fa-solid fa-briefcase"
 color: "tangerine"
-image: "/assets/images/backgrounds/private-equity.webp"
+background_image: "/assets/images/backgrounds/private-equity.webp"
 permalink: /industries/private-equity
 ---

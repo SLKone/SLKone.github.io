@@ -5,7 +5,7 @@ industries: [Consumer Goods and Services]
 services: [Performance-Improvement,Operating-Model-Design]
 intro: An organization built by acquisition and continued siloed organizations led to a bloated facility footprint across a global organization
 project-length: 2 months
-heroimage: case-studies/Manufacturing-Improvements-for-a-130M-Building-Products-Manufacturer.jpg
+background_image: case-studies/Manufacturing-Improvements-for-a-130M-Building-Products-Manufacturer.jpg
 ---
 
 #### Situation

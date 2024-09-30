@@ -39,6 +39,6 @@ cta_title: "Ready to navigate your mergers and acquisitions with confidence?"
 cta: "Contact SLKone today to learn how our M&A services can help you maximize the value of your transactions and achieve lasting success."
 icon: "fa-handshake"
 color: "forest"
-image: "/assets/images/backgrounds/mergers-and-acquisitions.webp"
+background_image: "/assets/images/backgrounds/mergers-and-acquisitions.webp"
 permalink: /services/mergers-and-acquisitions
 ---

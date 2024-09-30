@@ -61,6 +61,6 @@ cta_title: "Ready to elevate your retail and consumer goods operations?"
 cta: "Contact SLKone today to learn how our specialized services can enhance your operational agility and customer experiences."
 icon: "fa-solid fa-store"
 color: "cinnabar"
-image: "/assets/images/backgrounds/retail-and-consumer-goods.webp"
+background_image: "/assets/images/backgrounds/retail-and-consumer-goods.webp"
 permalink: /industries/retail-and-consumer-goods
 ---

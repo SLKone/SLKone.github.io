@@ -6,7 +6,7 @@ services: [IT-Roadmap,Process-Design]
 intro: SLKone helped drive an evolutionary, data-driven approach to Revenue Cycle Management (RCM), where it developed metrics, reports, and tools to help drive action and decision-making across the organization
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Revenue-Cycle-Management-Reporting-Suite-for-a-200M-Womens-Healthcare.jpg
+background_image: case-studies/Revenue-Cycle-Management-Reporting-Suite-for-a-200M-Womens-Healthcare.jpg
 ---
 
 #### Situation

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include page-header.html title=page.title subtitle=page.intro streamlines=page.streamlines background_image=page.image color=page.color %} 
+{% include page-header.html title=page.title subtitle=page.intro streamlines=page.streamlines background_image=page.background_image color=page.color %} 
 {% assign related_sub_services = site["sub-services"] | where: "parent", page.title | sort:"order" %}
 
 {% if page.approach %}

@@ -6,7 +6,7 @@ services: [Performance-Improvement,Operating-Model-Design,Process-Design]
 intro: SLKone designed a ground-up commercial organization to drive consistent commercial discipline and adapt to a dynamic operating environment
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Organizational-Design-for-a-10B-Oil-and-Gas-Company.jpg
+background_image: case-studies/Organizational-Design-for-a-10B-Oil-and-Gas-Company.jpg
 ---
 
 #### Situation

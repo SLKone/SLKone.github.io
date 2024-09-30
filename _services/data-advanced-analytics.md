@@ -37,6 +37,6 @@ cta_title: "Ready to unlock the full potential of your data?"
 cta: "Contact SLKone today to learn how our Data & Advanced Analytics services can drive insights, innovation, and informed decision-making for your business."
 icon: "fa-magnifying-glass-chart"
 color: "tangerine"
-image: "/assets/images/backgrounds/advanced-analytics.webp"
+background_image: "/assets/images/backgrounds/advanced-analytics.webp"
 permalink: /services/data-and-advanced-analytics
 ---

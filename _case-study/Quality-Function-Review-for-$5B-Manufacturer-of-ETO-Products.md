@@ -6,7 +6,7 @@ services: [Performance-Improvement, Automation]
 intro: Development of streamlined operational planning process and interim activity planning model to create an automated bottoms-up, 12-month rolling operational plan and revenue forecast
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Quality-Function-Review-for-$5B-Manufacturer-of-ETO-Products.jpg
+background_image: case-studies/Quality-Function-Review-for-$5B-Manufacturer-of-ETO-Products.jpg
 ---
 
 #### Situation

@@ -29,6 +29,6 @@ cta_title: "Ready to launch or scale your new business with confidence?"
 cta: "Contact SLKone today to discover how our New Business Support services can help you navigate the challenges of entrepreneurship and set your venture on the path to success."
 icon: "fa-rocket"
 color: "coral"
-image: "/assets/images/backgrounds/new-business-support.webp"
+background_image: "/assets/images/backgrounds/new-business-support.webp"
 permalink: /services/new-business-support
 ---

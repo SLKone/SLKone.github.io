@@ -60,6 +60,6 @@ cta_title: "Ready to accelerate your technology company's growth?"
 cta: "Contact SLKone today to discover how our specialized services can enhance your operations and drive sustainable innovation."
 icon: "fa-solid fa-microchip"
 color: "forest"
-image: "/assets/images/backgrounds/technology.webp"
+background_image: "/assets/images/backgrounds/technology.webp"
 permalink: /industries/technology
 ---

@@ -6,7 +6,7 @@ services: [Financial Analytics]
 intro: SLKone delivered, within weeks of starting, static and trending KPIs which finance leadership had requested internally for over 9 months. These insights will allow for substantially more visibility into the health of their business and financial decisions moving forward.
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Delivering-Insights-Into-Customers-and-Revenue-for-a-$340M-Software-As-A-Service-Company.jpg
+background_image: case-studies/Delivering-Insights-Into-Customers-and-Revenue-for-a-$340M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation

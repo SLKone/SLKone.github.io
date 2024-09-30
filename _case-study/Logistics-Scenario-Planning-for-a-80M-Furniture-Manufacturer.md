@@ -6,7 +6,7 @@ services: [Supply Chain Network Optimization, Process Design, IT Roadmap]
 intro: SLKone developed models and scenarios to optimize the distribution footprint that reduced lead time and overall Supply Chain costs.
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Logistics-Scenario-Planning-for-a-80M-Furniture-Manufacturer.jpg
+background_image: case-studies/Logistics-Scenario-Planning-for-a-80M-Furniture-Manufacturer.jpg
 ---
 
 #### Situation

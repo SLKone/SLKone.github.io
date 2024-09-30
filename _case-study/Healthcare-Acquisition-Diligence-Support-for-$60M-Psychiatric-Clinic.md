@@ -6,7 +6,7 @@ services: [Corporate-Finance-and-Revenue-Management, Due-Diligence, Financial-An
 intro: Rapid assessment of the due diligence process for the healthcare acquisition to identifying structural and management deficiencies​ 
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Healthcare-Acquisition-Diligence-Support-for-$60M-Psychiatric-Clinic.jpg
+background_image: case-studies/Healthcare-Acquisition-Diligence-Support-for-$60M-Psychiatric-Clinic.jpg
 ---
 
 #### Situation

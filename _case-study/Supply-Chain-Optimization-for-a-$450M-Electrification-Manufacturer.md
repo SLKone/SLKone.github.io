@@ -6,7 +6,7 @@ services: [Supply-Chain-Optimization,Process-Design]
 intro: Develop supply chain strategy based on opportunities to reduce operational costs while enabling profitable growth
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Supply-Chain-Optimization-for-a-$450M-Electrification-Manufacturer.jpg
+background_image: case-studies/Supply-Chain-Optimization-for-a-$450M-Electrification-Manufacturer.jpg
 ---
 
 #### Situation

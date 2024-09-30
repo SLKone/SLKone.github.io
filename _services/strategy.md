@@ -39,6 +39,6 @@ cta_title: "Ready to develop a winning strategy?"
 cta: "Contact SLKone today to discover how our Strategy services can help you achieve your business objectives and drive sustainable growth."
 icon: "fa-scribble"
 color: "viola"
-image: "/assets/images/backgrounds/strategy.webp"
+background_image: "/assets/images/backgrounds/strategy.webp"
 permalink: /services/strategy
 ---

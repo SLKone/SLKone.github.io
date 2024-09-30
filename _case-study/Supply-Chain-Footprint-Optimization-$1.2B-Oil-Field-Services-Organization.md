@@ -6,7 +6,7 @@ services: [Supply-Chain-Network-Optimization,Process-Design,IT-Roadmap]
 intro: Leverage machine learning and decision science methods to plan, pressure test and compare go-forward models for global supply chain footprint requiring >$100m in investment
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Supply-Chain-Footprint-Optimization-1.2B-Oil-Field-Services-Organization.jpg
+background_image: case-studies/Supply-Chain-Footprint-Optimization-1.2B-Oil-Field-Services-Organization.jpg
 ---
 
 #### Situation

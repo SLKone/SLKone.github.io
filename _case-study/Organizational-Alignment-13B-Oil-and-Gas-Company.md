@@ -6,7 +6,7 @@ services: [Performance Improvement,Operating Model Design,Process Design]
 intro: Significant confusion in a cross-PL department due to new leadership and a poorly communicated mission caused significant underperformance. SLKone worked with key leaders to identify, clarify, and document key initiatives and goals. 
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Organizational-Alignment-13B-Oil-and-Gas-Company.jpg
+background_image: case-studies/Organizational-Alignment-13B-Oil-and-Gas-Company.jpg
 ---
 
 #### Situation

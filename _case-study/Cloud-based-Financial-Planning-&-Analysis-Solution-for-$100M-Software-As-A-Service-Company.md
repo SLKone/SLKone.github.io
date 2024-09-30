@@ -6,7 +6,7 @@ services: [Financial Analytics, IT Roadmap]
 intro: SLKone transformed an antiquated finance function from a transaction manager to a strategic business partner
 team-size: 2 consultants
 project-length: 2 months
-heroimage: case-studies/Cloud-based-Financial-Planning-&-Analysis-Solution-for-$100M-Software-As-A-Service-Company.jpg
+background_image: case-studies/Cloud-based-Financial-Planning-&-Analysis-Solution-for-$100M-Software-As-A-Service-Company.jpg
 ---
 
 #### Situation

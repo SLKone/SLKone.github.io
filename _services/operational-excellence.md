@@ -41,6 +41,6 @@ cta_title: "Ready to achieve operational excellence?"
 cta: "Contact SLKone today to learn how we can help you optimize your operations and drive sustainable growth."
 icon: "fa-head-side-gear"
 color: "blush"
-image: "/assets/images/backgrounds/operational-excellence.webp"
+background_image: "/assets/images/backgrounds/operational-excellence.webp"
 permalink: /services/operational-excellence
 ---

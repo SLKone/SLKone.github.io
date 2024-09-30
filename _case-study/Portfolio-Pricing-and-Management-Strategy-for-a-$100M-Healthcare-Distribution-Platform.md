@@ -8,7 +8,7 @@ intro: Developed a replicable product pricing and rationalization framework to i
 team-size: 2 consultants
 project-length: 2 months
 tags: Featured
-heroimage: case-studies/Portfolio-Pricing-and-Management-Strategy-for-a-$100M-Healthcare-Distribution-Platform.jpg
+background_image: case-studies/Portfolio-Pricing-and-Management-Strategy-for-a-$100M-Healthcare-Distribution-Platform.jpg
 ---
 
 #### Situation
