@@ -4,29 +4,29 @@ layout: default
 {% include page-header.html title=page.title subtitle=page.subtitle streamlines="Y" %} 
 {% include sub-nav.html %}
 <section id="insights" class="container mx-auto px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-2 gap-8 pb-20">
-    {% assign case-studies = site.case-study | sort: 'date' | reverse %}
-    {% assign total_posts = case-studies.size %}
+    {% assign articles = site.articles | sort: 'date' | reverse %}
+    {% assign total_posts = articles.size %}
     {% assign posts_per_page = 16 %}
     {% assign current_page = 1 %}
     
     <div id="hidden-insights" style="display: none;">
-        {% for case-study in case-studies %}
+        {% for post in articles %}
         {% assign mod8 = forloop.index | modulo: 8 %}
         {% assign size-class = "" %}
         {% if mod8 == 1 or mod8 == 5 %}
           {% assign size-class = "row-span-2" %}
         {% endif %}
-        {% include case-card.html size-class=size-class title=case-study.title intro=case-study.intro background_image=case-study.background_image url=case-study.url %}
+        {% include post-card.html size-class=size-class %}
         {% endfor %}
     </div>
     
-    {% for case-study in case-studies limit: posts_per_page %}
+    {% for post in articles limit: posts_per_page %}
     {% assign mod8 = forloop.index | modulo: 8 %}
     {% assign size-class = "" %}
     {% if mod8 == 1 or mod8 == 5 %}
       {% assign size-class = "row-span-2" %}
     {% endif %}
-    {% include case-card.html size-class=size-class title=case-study.title intro=case-study.intro background_image=case-study.background_image url=case-study.url %}
+    {% include post-card.html size-class=size-class %}
     {% endfor %}
     
 </section>

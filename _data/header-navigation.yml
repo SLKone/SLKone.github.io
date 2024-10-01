@@ -3,8 +3,8 @@ main:
   url: /services
 - title: Industries
   url: /industries
-- title: Insights
-  url: /insights
+- title: Stories
+  url: /stories
 - title: Culture
   url: /culture
 - title: Brands
@@ -36,7 +36,7 @@ mobile:
 - title: Industries
   url: /industries
 - title: Insights
-  url: /insights
+  url: /insights/
 - title: Culture
   url: /culture
 - title: Brands
@@ -45,3 +45,11 @@ mobile:
   url: /careers
 - title: Contact Us
   url: /contact  
+insights:
+- title: All Insights
+  url: /insights
+- title: Articles
+  url: /articles
+- title: Case Studies
+  url: /case-studies
+

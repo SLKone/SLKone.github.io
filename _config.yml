@@ -23,11 +23,11 @@ redirects:
   - from: "/deliberate-thinking/"
     to: "/brands#SLK-Catalyst-Partners"
   - from: "/Spotlight-Interview-Andrew-Klemm/"
-    to: "/insights/Spotlight-Interview-Andrew-Klemm/"
+    to: "/articles/Spotlight-Interview-Andrew-Klemm/"
 
 # Collections
 collections:
-  insights:
+  articles:
     output: true
   services:
     output: true
@@ -56,8 +56,8 @@ defaults:
       layout: "service"
       permalink: "/:title/"
   - scope:
-      path: "/insights/"
-      type: "insights"
+      path: "/articles/"
+      type: "articles"
       permalink: "/:title/"
     values:
       layout: "post"
