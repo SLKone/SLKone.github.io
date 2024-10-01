@@ -2,39 +2,30 @@
 layout: default
 ---
 {% include page-header.html title=page.title subtitle=page.subtitle streamlines="Y" %} 
-{% include sub-nav.html %}
 <section id="insights" class="container mx-auto px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-2 gap-8 pb-20">
-    {% assign combined_posts = site.articles | concat: site.case-study | sort: 'date' | reverse %}
-    {% assign total_posts = combined_posts.size %}
+    {% assign articles = site.articles | sort: 'date' | reverse %}
+    {% assign total_posts = articles.size %}
     {% assign posts_per_page = 16 %}
     {% assign current_page = 1 %}
     
     <div id="hidden-insights" style="display: none;">
-        {% for post in combined_posts %}
+        {% for post in articles %}
         {% assign mod8 = forloop.index | modulo: 8 %}
         {% assign size-class = "" %}
         {% if mod8 == 1 or mod8 == 5 %}
           {% assign size-class = "row-span-2" %}
         {% endif %}
-        {% if post.collection == 'articles' %}
-            {% include post-card.html size-class=size-class %}
-        {% elsif post.collection == 'case-study' %}
-            {% include case-card.html size-class=size-class %}
-        {% endif %}
+        {% include post-card.html size-class=size-class %}
         {% endfor %}
     </div>
     
-    {% for post in combined_posts limit: posts_per_page %}
+    {% for post in articles limit: posts_per_page %}
     {% assign mod8 = forloop.index | modulo: 8 %}
     {% assign size-class = "" %}
     {% if mod8 == 1 or mod8 == 5 %}
       {% assign size-class = "row-span-2" %}
     {% endif %}
-    {% if post.collection == 'articles' %}
-        {% include post-card.html size-class=size-class %}
-    {% elsif post.collection == 'case-study' %}
-        {% include case-card.html size-class=size-class %}
-    {% endif %}
+    {% include post-card.html size-class=size-class %}
     {% endfor %}
     
 </section>
@@ -43,7 +34,6 @@ layout: default
         <button id="load-more" class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500">Load More</button>
     </div>
 </div>
-
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
