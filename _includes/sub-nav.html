@@ -1,5 +1,11 @@
 <nav class="flex flex-col items-center">
+
     {% for nav in site.data.header-navigation.insights %}
+    {% if page.url == nav.url %}
+    {% assign is_current_page_flag = true %}
+    {% else %}
+    {% assign is_current_page_flag = false %}
+    {% endif %}
     <div class="group">
     <a class="p-6 flex items-center justify-between hover:text-emerald dark:hover:text-forest" href="{{ nav.url }}">
         {{ nav.title }}
