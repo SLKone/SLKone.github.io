@@ -21,8 +21,7 @@ focus_areas:
     icon: "fa-square-check"
   - title: "Model Deployment"
     content: "Integrate predictive models into your business processes and decision-making systems."
-    icon: "fa-rocket"
-
+    icon: "fa-hands-holding-diamond"
 why_choose:
   - "Advanced Statistical and ML Techniques"
   - "Tailored Model Solutions"

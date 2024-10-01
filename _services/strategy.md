@@ -40,5 +40,5 @@ cta: "Contact SLKone today to discover how our Strategy services can help you ac
 icon: "fa-scribble"
 color: "viola"
 background_image: "/assets/images/backgrounds/strategy.webp"
-permalink: /services/strategy
+permalink: /services/strategy-operationalization
 ---

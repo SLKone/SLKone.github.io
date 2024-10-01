@@ -18,7 +18,7 @@ focus_areas:
     icon: "fa-sparkles"
   - title: "Master Data Management"
     content: "Establish master data management practices to ensure consistency and accuracy across your organization."
-    icon: "fa-database-gear"
+    icon: "fa-server"
   - title: "Data Governance"
     content: "Develop and implement data governance policies to maintain data integrity and compliance."
     icon: "fa-shield-check"
