@@ -9,12 +9,16 @@ intro: "Positioning your organization for a successful exit through financial op
 focus_areas:
   - title: "Next-Step Roadmap Development"
     content: "Facilitate the strategic roadmap for the next stage of investment or exit."
+    icon: "fa-map-signs"
   - title: "High-Impact Implementation"
     content: "Implement high-impact, short-timeline initiatives to prepare for the transition."
+    icon: "fa-bolt-lightning"
   - title: "Ongoing Improvement Roadmap and Value Articulation"
     content: "Support the creation of the next investment thesis by identifying post-transaction improvements."
+    icon: "fa-chart-line-up"
   - title: "Business Transition Support"
     content: "Partner with your team to ensure a smooth and efficient business transition during sale or other exit processes."
+    icon: "fa-bridge-circle-check"
 why_choose:
   - "Maximized Valuation: Enhance your organization's attractiveness to potential buyers or investors."
   - "Comprehensive Preparation: Address all aspects of exit readiness, from financials to operations."

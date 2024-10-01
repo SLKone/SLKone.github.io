@@ -9,14 +9,20 @@ approach: "We utilize advanced statistical and machine learning techniques to de
 focus_areas:
   - title: "Model Design"
     content: "Design predictive models that align with your strategic objectives and business requirements."
+    icon: "fa-drafting-compass"
   - title: "Data Preparation"
     content: "Clean, transform, and prepare your data to ensure it's ready for accurate model training and analysis."
+    icon: "fa-filter-circle-xmark"
   - title: "Model Development"
     content: "Develop and train predictive models using the latest machine learning algorithms and techniques."
+    icon: "fa-code-branch"
   - title: "Model Validation"
     content: "Validate models to ensure they meet performance standards and provide reliable predictions."
+    icon: "fa-square-check"
   - title: "Model Deployment"
     content: "Integrate predictive models into your business processes and decision-making systems."
+    icon: "fa-rocket"
+
 why_choose:
   - "Advanced Statistical and ML Techniques"
   - "Tailored Model Solutions"

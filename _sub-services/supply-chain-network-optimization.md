@@ -9,14 +9,20 @@ intro: "Transform your supply chain network with SLKone's expertise in optimizat
 focus_areas:
   - title: "Network Design and Optimization"
     content: "Optimize your supply chain network configuration to reduce costs and improve service levels."
+    icon: "fa-diagram-project"
   - title: "Supplier Management and Sourcing"
     content: "Develop strategies for supplier selection, evaluation, and relationship management to enhance supply chain performance."
+    icon: "fa-handshake"
   - title: "Logistics Optimization"
     content: "Optimize your transportation and distribution networks to reduce costs and improve delivery times."
+    icon: "fa-truck-fast"
   - title: "Inventory Network Optimization"
     content: "Optimize inventory placement across your network to balance cost and service objectives."
+    icon: "fa-warehouse"
   - title: "Supply Chain Risk Management"
     content: "Develop strategies to identify, assess, and mitigate supply chain risks, improving overall resilience."
+    icon: "fa-shield-heart"
+
 why_choose:
   - "Comprehensive Supply Chain Analysis"
   - "Advanced Modeling and Simulation"
