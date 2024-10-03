@@ -34,4 +34,5 @@ redirect_from:
   - /advisory-partners/
   - /team-members/Andrew-Klemm/
   - /team-members/Casey-Matthews/
+  - /team/
 ---
