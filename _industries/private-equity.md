@@ -65,4 +65,5 @@ background_image: "/assets/images/backgrounds/private-equity.webp"
 permalink: /industries/private-equity
 redirect_from:
   - /expertise/Private-Equity/
+  - /services/Pre-Transaction-Readiness/
 ---
