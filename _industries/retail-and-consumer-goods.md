@@ -63,4 +63,6 @@ icon: "fa-solid fa-store"
 color: "cinnabar"
 background_image: "/assets/images/backgrounds/retail-and-consumer-goods.webp"
 permalink: /industries/retail-and-consumer-goods
+redirects_from:
+  - /expertise/Consumer-Goods-and-Services/
 ---
