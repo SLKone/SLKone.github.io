@@ -28,6 +28,7 @@ career-description: "Are you a motivated self-starter passionate about learning 
 career-cta-link: "/careers"
 career-cta-text: "View Open Positions"
 streamlines: "Y"
+permalink: /culture
 redirects_from:
   - /team-members/Phil-Lynch/
   - /advisory-partners/
