@@ -62,4 +62,8 @@ brands:
     link-text: "Discover Abyss Analytics' capabilities"
     link: "https://abyssanalytics.com"
     image: "/assets/images/backgrounds/abyss.webp"
+permalink: /brands
+redirects_from:
+  - /deliberate-thinking/
+  - /deliberate-thinking
 ---
