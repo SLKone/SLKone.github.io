@@ -63,6 +63,6 @@ icon: "fa-solid fa-briefcase"
 color: "tangerine"
 background_image: "/assets/images/backgrounds/private-equity.webp"
 permalink: /industries/private-equity
-redirects_from:
+redirect_from:
   - /expertise/Private-Equity/
 ---
