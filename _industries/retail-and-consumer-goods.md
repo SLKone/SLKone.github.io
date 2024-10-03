@@ -65,4 +65,5 @@ background_image: "/assets/images/backgrounds/retail-and-consumer-goods.webp"
 permalink: /industries/retail-and-consumer-goods
 redirect_from:
   - /expertise/Consumer-Goods-and-Services/
+  - /expertise/Food-and-Beverage/
 ---
