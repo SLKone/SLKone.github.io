@@ -5,6 +5,7 @@ subtitle: "At SLKone, we blend deep industry knowledge with cross-sector insight
 bigparagraph: "Every business challenge is unique, and cookie-cutter solutions don't cut it. We dive deep into your specific context, using data and cross-industry insights to craft tailored strategies that work. Our services are designed to be integrated, allowing us to address complex challenges from multiple angles."
 streamlines: true
 background_image: "assets/images/backgrounds/services.webp"
+permalink: /services
 redirect_from:
   - /services/
   - /deliberate-thinking/
