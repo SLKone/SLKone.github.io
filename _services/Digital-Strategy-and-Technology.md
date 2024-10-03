@@ -31,6 +31,6 @@ icon: "fa-computer"
 color: "plum"
 background_image: "/assets/images/backgrounds/digital-strategy.webp"
 permalink: /services/digital-strategy-and-technology
-redirects_from:
+redirect_from:
   - /services/Digital-Strategy-and-Technology/
 ---
