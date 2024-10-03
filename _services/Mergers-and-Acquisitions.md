@@ -41,4 +41,6 @@ icon: "fa-handshake"
 color: "forest"
 background_image: "/assets/images/backgrounds/mergers-and-acquisitions.webp"
 permalink: /services/mergers-and-acquisitions
+redirect_from:
+  - /services/Change-Management/
 ---
