@@ -41,4 +41,6 @@ icon: "fa-sitemap"
 color: "cinnabar"
 background_image: "/assets/images/backgrounds/organizational-design-and-alignment.webp"
 permalink: /services/organizational-design-and-alignment
+redirect_from:
+  - /services/Process-Design/
 ---
