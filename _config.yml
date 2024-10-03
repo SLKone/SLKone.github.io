@@ -12,6 +12,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Feed settings
+feed:
+  path: atom.xml
   
 # Collections
 collections:
