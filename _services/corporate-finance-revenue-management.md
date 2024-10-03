@@ -43,7 +43,7 @@ icon: "fa-chart-line"
 color: "mustard"
 background_image: "/assets/images/backgrounds/corp-finance-bg.webp"
 permalink: /services/corporate-finance-and-revenue-management
-redirects_from:
+redirect_from:
   - /services/Corporate-Finance-and-Revenue-Management/
   - /services/Cost-Management/
 ---
