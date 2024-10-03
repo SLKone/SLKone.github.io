@@ -8,4 +8,5 @@ background_image: "assets/images/backgrounds/services.webp"
 permalink: /services
 redirect_from:
   - /services/
+  - /services/Online-Program/
 ---
