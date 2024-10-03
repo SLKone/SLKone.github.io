@@ -29,7 +29,7 @@ career-cta-link: "/careers"
 career-cta-text: "View Open Positions"
 streamlines: "Y"
 permalink: /culture
-redirects_from:
+redirect_from:
   - /team-members/Phil-Lynch/
   - /advisory-partners/
   - /team-members/Andrew-Klemm/
