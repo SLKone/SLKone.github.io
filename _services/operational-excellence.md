@@ -45,4 +45,5 @@ background_image: "/assets/images/backgrounds/operational-excellence.webp"
 permalink: /services/operational-excellence
 redirects_from:
   - /services/Operations/
+  - /services/Performance-Improvement/
 ---
