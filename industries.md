@@ -6,6 +6,6 @@ bigparagraph: "At SLKone, we blend deep industry knowledge with cross-sector ins
 streamlines: true
 background_image: "assets/images/backgrounds/industries.webp"
 permalink: /industries
-redirects_from:
+redirect_from:
   - /expertise/
 ---
