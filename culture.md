@@ -28,4 +28,9 @@ career-description: "Are you a motivated self-starter passionate about learning 
 career-cta-link: "/careers"
 career-cta-text: "View Open Positions"
 streamlines: "Y"
+redirects_from:
+  - /team-members/Phil-Lynch/
+  - /advisory-partners/
+  - /team-members/Andrew-Klemm/
+  - /team-members/Casey-Matthews/
 ---
