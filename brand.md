@@ -152,7 +152,7 @@ document.addEventListener('click', function(event) {
                     </tr>
                 </table>
             </div>
-            <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyToClipboard('with-logo')">Copy Signature with Logo HTML</button>
+            <button class="bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mb-8" onclick="copyToClipboard('with-logo')">Copy Signature with Logo HTML</button>
         </div>
         <div class="mb-4">
             <div id="without-logo" class="bg-white p-8 rounded-xl">
@@ -185,7 +185,7 @@ document.addEventListener('click', function(event) {
                     </tr>
                 </table>
             </div>
-            <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyToClipboard('without-logo')">Copy Signature without Logo HTML</button>
+            <button class="bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mb-8" onclick="copyToClipboard('without-logo')">Copy Signature without Logo HTML</button>
         </div>
     </div>
     <script>
