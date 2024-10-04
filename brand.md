@@ -4,7 +4,7 @@ title: The SLKone Brand
 sitemap: false
 ---
 <section id="linkedin">
-    <div class="w-[1584px] h-[396px] bg-white overflow-hidden absolute">
+    <div class="bg-white overflow-hidden" style="width: 1584px; height: 396px;">
         <canvas
         class="windmap-canvas absolute w-screen h-full left-0 z-[-1]"
         data-num-streamlines="15"
