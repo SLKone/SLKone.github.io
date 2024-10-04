@@ -71,12 +71,12 @@ document.addEventListener('click', function(event) {
             <div class="flex items-center">
                 {% assign color_name = color.color %}
                 {% for shade in color.shades %}
-                    <div class="mr-4 text-center">
+                    <div class="text-center">
                         <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} w-full h-20 block cursor-pointer mb-2" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')"></div>
                         <span class="ml-2 text-sm block">{{ color_name | upcase }}-{{ shade.shade }}</span>
-                        <a href="#" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')">#<span id="{{ color_name }}-{{ shade.shade }}-hex">{{ shade.hex }}</span></a> 
-                        <a href="#" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-rgb')">RGB(<span id="{{ color_name }}-{{ shade.shade }}-rgb">{{ shade.rgb }}</span>)</a> 
-                        <a href="#" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hsl')">HSL(<span id="{{ color_name }}-{{ shade.shade }}-hsl">{{ shade.hsl }}</span>)</a>
+                        <a href="#" class="ml-2 text-sm block" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')">#<span id="{{ color_name }}-{{ shade.shade }}-hex">{{ shade.hex }}</span></a> 
+                        <a href="#" class="ml-2 text-sm block" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-rgb')">RGB(<span id="{{ color_name }}-{{ shade.shade }}-rgb">{{ shade.rgb }}</span>)</a> 
+                        <a href="#" class="ml-2 text-sm block" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hsl')">HSL(<span id="{{ color_name }}-{{ shade.shade }}-hsl">{{ shade.hsl }}</span>)</a>
                     </div>
                 {% endfor %}
             </div>
