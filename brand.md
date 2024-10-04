@@ -234,7 +234,7 @@ document.addEventListener('click', function(event) {
                 data-opacity="0.3"
                 data-scale="0.00015"
             ></canvas>
-            <h2 class="linkedin-banner-text text-5xl font-display text-currant mr-16 z-10 ml-[400px] text-right mr-[256px]" style="text-align:right">Bridge strategy to measurable success</h2>
+            <h2 class="linkedin-banner-text text-5xl font-display text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px]" style="text-align:right">Bridge strategy to measurable success</h2>
             <img src="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 absolute">
         </div>
     </div>
