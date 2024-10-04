@@ -212,7 +212,7 @@ document.addEventListener('click', function(event) {
     <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl mb-12 font-display">LinkedIn Banners</h2>
         <div class="mb-8 w-full">
-            <form id="banner-text-form" class="flex flex-col items-center w-1/2">
+            <form id="banner-text-form" class="w-1/2">
                 <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
                 <input 
                     type="text" 
@@ -223,9 +223,16 @@ document.addEventListener('click', function(event) {
                 >
             </form>
         </div>
+        <div class="mb-8">
+            <label for="background-selector" class="mb-2 text-lg">Select Background:</label>
+            <select id="background-selector" class="w-full p-2 border border-gray-300 rounded">
+                <option value="white" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" data-text-color="text-currant">White</option>
+                <option value="currant" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" data-text-color="text-white">Currant</option>
+            </select>
+        </div>
     </div>
     <div class="mb-8" style="width: 1584px; height: 396px;">
-        <div id="white-linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px]" style="width: 1584px; height: 396px;">
+        <div id="linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px]">
             <canvas
                 class="windmap-canvas absolute w-screen h-full left-0 z-0"
                 data-num-streamlines="100"
@@ -234,28 +241,11 @@ document.addEventListener('click', function(event) {
                 data-opacity="0.3"
                 data-scale="0.00015"
             ></canvas>
-            <h2 class="linkedin-banner-text text-5xl font-display text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px]" style="text-align:right">Bridge strategy to measurable success</h2>
-            <img src="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 absolute">
+            <h2 id="linkedin-banner-text" class="linkedin-banner-text text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px]" style="text-align:right">Bridge strategy to measurable success</h2>
+            <img id="linkedin-logo" src="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 absolute">
         </div>
     </div>
-    <button class="download-png bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500 mb-8" data-target="white-linkedin-bg">
-        Download as PNG
-    </button>
-    <div class="mb-8" style="width: 1584px; height: 396px;">
-        <div id="currant-linkedin-bg" class="bg-currant overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px]" style="width: 1584px; height: 396px;">
-            <canvas
-                class="windmap-canvas absolute w-screen h-full left-0 z-0"
-                data-num-streamlines="100"
-                data-num-animated="0"
-                data-num-colors="3"
-                data-opacity="0.75"
-                data-scale="0.00015"
-            ></canvas>
-            <h2 class="linkedin-banner-text text-5xl font-display text-white mr-16 z-10 ml-[400px] text-right absolute mr-[256px]" style="text-align:right">Bridge strategy to measurable success</h2>
-            <img src="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 absolute">
-        </div>
-    </div>
-    <button class="download-png bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500 mb-8" data-target="currant-linkedin-bg">
+    <button class="download-png bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mb-8" data-target="linkedin-bg">
         Download as PNG
     </button>
     <script>
@@ -265,6 +255,22 @@ document.addEventListener('click', function(event) {
             bannerTexts.forEach(function(h2) {
                 h2.textContent = newText;
             });
+        });
+
+        document.getElementById('background-selector').addEventListener('change', function(event) {
+            const selectedOption = event.target.options[event.target.selectedIndex];
+            const bgColor = selectedOption.value;
+            const logoSrc = selectedOption.getAttribute('data-logo');
+            const textColorClass = selectedOption.getAttribute('data-text-color');
+
+            const linkedinBg = document.getElementById('linkedin-bg');
+            linkedinBg.className = `overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px] bg-${bgColor}`;
+
+            const linkedinLogo = document.getElementById('linkedin-logo');
+            linkedinLogo.src = logoSrc;
+
+            const linkedinBannerText = document.getElementById('linkedin-banner-text');
+            linkedinBannerText.className = `linkedin-banner-text ${textColorClass} mr-16 z-10 ml-[400px] text-right absolute mr-[256px]`;
         });
     </script>
 </section>
