@@ -47,19 +47,21 @@ document.addEventListener('click', function(event) {
 </section>
 <section id="color-palette" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Color Palette</h2>
-    <div class="grid grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 gap-8">
         {% assign colors = site.data.colors %}
-        {% for color_name, color in colors %}
-            {% for shade_label, shade in color %}
-                <div class="p-4 cursor-pointer">
-                    <div class="bg-{{ color_name | downcase }}-{{ shade_label }} text-black p-8 rounded-xl">
+        {% for color_name in colors %}
+            <div class="flex items-center p-4 cursor-pointer">
+                {% assign color = colors[color_name] %}
+                {% for shade_label in color %}
+                    <div class="flex items-center mr-4">
+                        <div class="bg-{{ color_name | downcase }}-{{ shade_label }} text-black p-8 rounded-xl"></div>
+                        <span class="ml-2">{{ color_name | capitalize }} {{ shade_label }}: </span>
+                        <button class="ml-2" onclick="copyToClipboard('{{ color[shade_label].hex }}')">{{ color[shade_label].hex }}</button> 
+                        <button class="ml-2" onclick="copyToClipboard('{{ color[shade_label].rgb }}')">{{ color[shade_label].rgb }}</button> 
+                        <button class="ml-2" onclick="copyToClipboard('{{ color[shade_label].hsl }}')">{{ color[shade_label].hsl }}</button>
                     </div>
-                    <span>{{ color_name | capitalize }} {{ shade_label }}: </span>
-                    <button onclick="copyToClipboard('{{ shade.hex }}')">{{ shade.hex }}</button> 
-                    <button onclick="copyToClipboard('{{ shade.rgb }}')">{{ shade.rgb }}</button> 
-                    <button onclick="copyToClipboard('{{ shade.hsl }}')">{{ shade.hsl }}</button>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
         {% endfor %}
     </div>
 </section>
