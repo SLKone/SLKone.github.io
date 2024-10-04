@@ -39,18 +39,20 @@ document.addEventListener('click', function(event) {
     </div>
 </section>
 <section id="linkedin" class="flex flex-col justify-center items-center py-20">
-    <h2 class="text-4xl mb-12 font-display">LinkedIn Banners</h2>
-    <div class="mb-8 w-full flex justify-center">
-        <form id="banner-text-form" class="flex flex-col items-center w-1/2">
-            <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
-            <input 
-                type="text" 
-                id="banner-text" 
-                name="banner-text" 
-                class="w-full p-2 border border-gray-300 rounded" 
-                placeholder="Enter new banner text"
-            >
-        </form>
+    <div class="container mx-auto max-w-7xl">
+        <h2 class="text-4xl mb-12 font-display">LinkedIn Banners</h2>
+        <div class="mb-8 w-full">
+            <form id="banner-text-form" class="flex flex-col items-center w-1/2">
+                <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
+                <input 
+                    type="text" 
+                    id="banner-text" 
+                    name="banner-text" 
+                    class="w-full p-2 border border-gray-300 rounded" 
+                    placeholder="Enter new banner text"
+                >
+            </form>
+        </div>
     </div>
     <div class="mb-8" style="width: 1584px; height: 396px;">
         <div id="white-linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px]" style="width: 1584px; height: 396px;">
