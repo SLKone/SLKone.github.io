@@ -6,7 +6,7 @@ sitemap: false
 <section id="toc" class="container mx-auto max-w-7xl py-20">
     <h2 class="text-4xl mb-12 font-display">SLKone Brand Assets</h2>
     <ul class="prose dark:prose-invert">
-        <li><a href="#logo-downloads">Download Logo Variants</a></li>
+        <li><a href="#logo-downloads">Logo Files</a></li>
         <li><a href="#color-palette">Color Palette</a></li>
         <li><a href="#linkedin">LinkedIn Banners</a></li>
     </ul>
@@ -30,7 +30,7 @@ document.addEventListener('click', function(event) {
 });
 </script>
 <section id="logo-downloads" class="py-20 container mx-auto max-w-7xl">
-    <h2 class="text-4xl mb-12 font-display">Download Logo Variants</h2>
+    <h2 class="text-4xl mb-12 font-display">Logo Files</h2>
     <div class="grid grid-cols-2 gap-8">
         {% assign logos = "Primary Lock up – Primary,Primary Lock up – Dark Green,Primary Lock up – Light Green,Primary Lock up – Black,Primary Lock up – White,Mark - Black,Mark – White,Mark – Dark Green,Mark – Light Green,Vertical Lockup – Black,Vertical Lockup – Dark Green,Vertical Lockup – Light Green,Vertical Lockup – Primary,Vertical Lockup – White" | split: "," %}
         {% for logo in logos %}
