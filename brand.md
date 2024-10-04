@@ -211,25 +211,28 @@ document.addEventListener('click', function(event) {
 <section id="linkedin" class="flex flex-col justify-center items-center py-20">
     <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl mb-12 font-display">LinkedIn Banners</h2>
-        <div class="mb-8 w-full">
-            <form id="banner-text-form" class="w-1/2">
-                <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
-                <input 
-                    type="text" 
-                    id="banner-text" 
-                    name="banner-text" 
-                    class="w-full p-2 border border-gray-300 rounded text-currant" 
-                    placeholder="Enter new banner text"
-                >
-            </form>
-        </div>
-        <div class="mb-8">
-            <label for="background-selector" class="mb-2 text-lg">Select Background:</label>
-            <select id="background-selector" class="w-full p-2 border border-gray-300 rounded text-currant">
-                <option value="white" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" data-text-color="text-currant">White</option>
-                <option value="currant" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" data-text-color="text-white">Currant</option>
-                <option value="emerald" data-logo="{{ '/assets/images/logo/png/Primary Lock up – White.png' }}" data-text-color="text-white">Emerald</option>
-            </select>
+        <p class="mb-8 text-xl">It's recommended to use the standard text for the banner, but you have the option to update the text and select the background color based on your preferences. The banner will be 1584px wide by 396px high per LinkedIn's requirements.</p>
+        <div class="grid grid-cols-2 gap-8">
+            <div class="mb-8">
+                <form id="banner-text-form" class="w-1/2">
+                    <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
+                    <input 
+                        type="text" 
+                        id="banner-text" 
+                        name="banner-text" 
+                        class="w-full p-2 border border-gray-300 rounded text-currant" 
+                        placeholder="Enter new banner text"
+                    >
+                </form>
+            </div>
+            <div class="mb-8">
+                <label for="background-selector" class="mb-2 text-lg">Select Background:</label>
+                <select id="background-selector" class="w-full p-2 border border-gray-300 rounded text-currant">
+                    <option value="white" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" data-text-color="text-currant">White</option>
+                    <option value="currant" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" data-text-color="text-white">Currant</option>
+                    <option value="emerald" data-logo="{{ '/assets/images/logo/png/Primary Lock up – White.png' }}" data-text-color="text-forest">Emerald</option>
+                </select>
+            </div>
         </div>
     </div>
     <div class="mb-8" style="width: 1584px; height: 396px;">
