@@ -7,6 +7,7 @@ sitemap: false
     <h2 class="text-4xl mb-12 font-display">SLKone Brand Assets</h2>
     <ul>
         <li><a href="#logo-downloads">Download Logo Variants</a></li>
+        <li><a href="#color-palette">Color Palette</a></li>
         <li><a href="#linkedin">LinkedIn Banners</a></li>
     </ul>
 </section>
@@ -44,6 +45,33 @@ document.addEventListener('click', function(event) {
         {% endfor %}
     </div>
 </section>
+<section id="color-palette" class="py-20 container mx-auto max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">Color Palette</h2>
+    <div class="grid grid-cols-3 gap-8">
+        {% assign colors = site.data.colors %}
+        {% for color_name, color in colors %}
+            {% for shade_label, shade in color %}
+                <div class="p-4 cursor-pointer">
+                    <div class="bg-{{ color_name | downcase }}-{{ shade_label }} text-black p-8 rounded-xl">
+                    </div>
+                    <span>{{ color_name | capitalize }} {{ shade_label }}: </span>
+                    <button onclick="copyToClipboard('{{ shade.hex }}')">{{ shade.hex }}</button> 
+                    <button onclick="copyToClipboard('{{ shade.rgb }}')">{{ shade.rgb }}</button> 
+                    <button onclick="copyToClipboard('{{ shade.hsl }}')">{{ shade.hsl }}</button>
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+    function copyToClipboard(hex, rgb, hsl) {
+        const text = `HEX: ${hex}, RGB: ${rgb}, HSL: ${hsl}`;
+        navigator.clipboard.writeText(text).then(() => {
+            alert(`Copied: ${text}`);
+        });
+    }
+</script>
 <section id="linkedin" class="flex flex-col justify-center items-center py-20">
     <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl mb-12 font-display">LinkedIn Banners</h2>
