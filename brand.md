@@ -177,7 +177,7 @@ document.addEventListener('click', function(event) {
                     </tr>
                 </table>
             </div>
-            <button class="bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mb-8" onclick="copyToClipboard('with-logo')">Copy Signature with Logo HTML</button>
+            <button class="bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mt-8" onclick="copyToClipboard('with-logo')">Copy Signature with Logo HTML</button>
         </div>
         <div class="mb-4">
             <div id="without-logo" class="bg-white p-8 rounded-xl">
@@ -210,7 +210,7 @@ document.addEventListener('click', function(event) {
                     </tr>
                 </table>
             </div>
-            <button class="bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mb-8" onclick="copyToClipboard('without-logo')">Copy Signature without Logo HTML</button>
+            <button class="bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mt-8" onclick="copyToClipboard('without-logo')">Copy Signature without Logo HTML</button>
         </div>
     </div>
     <script>
@@ -240,7 +240,7 @@ document.addEventListener('click', function(event) {
         <div class="grid grid-cols-2 gap-8">
             <div class="mb-8">
                 <form id="banner-text-form">
-                    <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
+                    <label for="banner-text" class="mb-2 text-lg">Banner Text:</label>
                     <input 
                         type="text" 
                         id="banner-text" 
