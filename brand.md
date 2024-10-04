@@ -30,6 +30,19 @@ document.addEventListener('click', function(event) {
     }
 });
 </script>
+<script>
+    function copyToClipboard(targetId) {
+        const element = document.getElementById(targetId);
+        if (element) {
+            const text = element.innerText; // Get inner text content
+            navigator.clipboard.writeText(text).then(() => {
+                alert(`Copied: ${text}`);
+            });
+        } else {
+            alert('Element not found');
+        }
+    }
+</script>
 <section id="logo-downloads" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Logo Files</h2>
     <div class="grid grid-cols-2 gap-8">
@@ -41,7 +54,6 @@ document.addEventListener('click', function(event) {
             <div>
             Download: <a class="text-emerald dark:text-forest" href="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}">SVG</a> | <a class="text-emerald dark:text-forest" href="{{ '/assets/images/logo/png/' | append: logo | append: '.png' }}">PNG</a>
             </div>
-
         </div>
         {% endfor %}
     </div>
@@ -52,13 +64,14 @@ document.addEventListener('click', function(event) {
         {% assign colors = site.data.colors %}
         {% for color in colors %}
             <div class="flex items-center p-4 cursor-pointer">
+                {% assign color_name = color[0] %}
                 {% for shade in color %}
                     <div class="flex items-center mr-4">
-                        <div class="bg-{{ color | downcase }}-{{ shade }} text-black p-8 rounded-xl"></div>
-                        <span class="ml-2">{{ color_name | capitalize }} {{ shade_label }}: </span>
-                        <button class="ml-2" onclick="copyToClipboard('{{ shade.hex }}')">{{ shade.hex }}</button> 
-                        <button class="ml-2" onclick="copyToClipboard('{{ shade.rgb }}')">{{ shade.rgb }}</button> 
-                        <button class="ml-2" onclick="copyToClipboard('{{ shade.hsl }}')">{{ shade.hsl }}</button>
+                        <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} text-black p-8 rounded-xl"></div>
+                        <span class="ml-2">{{ color_name | capitalize }} {{ shade.shade }}: </span>
+                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-hex" class="ml-2" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-hex')">{{ shade.hex }}</button> 
+                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-rgb" class="ml-2" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-rgb')">{{ shade.rgb }}</button> 
+                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-hsl" class="ml-2" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-hsl')">{{ shade.hsl }}</button>
                     </div>
                 {% endfor %}
             </div>
@@ -66,130 +79,60 @@ document.addEventListener('click', function(event) {
     </div>
 </section>
 
-<script>
-    function copyToClipboard(hex, rgb, hsl) {
-        const text = `HEX: ${hex}, RGB: ${rgb}, HSL: ${hsl}`;
-        navigator.clipboard.writeText(text).then(() => {
-            alert(`Copied: ${text}`);
-        });
-    }
-</script>
 <section id="email-signatures" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Email Signatures</h2>
     <div class="flex flex-col mb-8">
-        <h3 class="text-xl mb-4">Update Email Signatures</h3>
+        <h3 class="text-xl mb-4">Email Signatures</h3>
         <div class="mb-4">
             <label for="first-name" class="block">First Name:</label>
-            <input type="text" id="first-name" class="border p-2 w-full" placeholder="First Name">
+            <input type="text" id="first-name" class="border p-2 w-full text-currant" placeholder="First Name" oninput="updateSignature()">
         </div>
         <div class="mb-4">
             <label for="last-name" class="block">Last Name:</label>
-            <input type="text" id="last-name" class="border p-2 w-full" placeholder="Last Name">
+            <input type="text" id="last-name" class="border p-2 w-full text-currant" placeholder="Last Name" oninput="updateSignature()">
         </div>
         <div class="mb-4">
             <label for="position" class="block">Position:</label>
-            <input type="text" id="position" class="border p-2 w-full" placeholder="Position">
+            <input type="text" id="position" class="border p-2 w-full text-currant" placeholder="Position" oninput="updateSignature()">
         </div>
         <div class="mb-4">
             <label for="email" class="block">Email:</label>
-            <input type="email" id="email" class="border p-2 w-full" placeholder="Email">
+            <input type="email" id="email" class="border p-2 w-full text-currant" placeholder="Email" oninput="updateSignature()">
         </div>
         <div class="mb-4">
             <label for="phone" class="block">Phone:</label>
-            <input type="text" id="phone" class="border p-2 w-full" placeholder="Phone Number">
+            <input type="text" id="phone" class="border p-2 w-full text-currant" placeholder="Phone Number" oninput="updateSignature()">
         </div>
-        <button class="bg-emerald text-white p-2 rounded" onclick="updateSignatures()">Update Signatures</button>
-        <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyWithLogoHTML()">Copy Signature with Logo HTML</button>
-        <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyWithoutLogoHTML()">Copy Signature without Logo HTML</button>
+        <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyToClipboard('with-logo')">Copy Signature with Logo HTML</button>
+        <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyToClipboard('without-logo')">Copy Signature without Logo HTML</button>
     </div>
-
     <script>
-        function copyWithLogoHTML() {
-            const withLogoHTML = `
-                <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
-                    <tr style="border:0;padding:0;">
-                        <td style="border:0;padding:0;">
-                            <table cellspacing="0" cellpadding="0" border="0">
-                                <tr style="border:0;padding:0;">
-                                    <td valign="top" width="140" height="72" style="padding:0 24px 0 0; vertical-align: middle; border:0;">
-                                        <a href="http://slk.one" target="_blank"><img alt="SLKone" width="116" height="72px" style="margin-right: 24px;width:116px; height: 72px; vertical-align: middle;" src="https://slkone.com/assets/images/logo/email.png" /></a>
-                                    </td>
-                                    <td style="padding:0 15px 0 24px;vertical-align: top; border:0; border-left: 1px solid #5DBC5B;" valign="top">
-                                        <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
-                                            <tr style="border:0;padding:0;">
-                                                <td style="border:0;padding:0;">
-                                                    <div id="with-logo-name" style="font: 15px arial, helvetica, sans-serif;color:#161A41;">First Last</div>
-                                                </td>
-                                            </tr>
-                                            <tr style="border:0;padding:0;">
-                                                <td style="padding: 4px 0 12px;border:0;">
-                                                    <div id="with-logo-position" style="font: 11px arial, helvetica, sans-serif;color:#161A41;">Title | SLKone, LLC</div>
-                                                </td>
-                                            </tr>
-                                            <tr style="padding: 0;border:0;">
-                                                <td style="border:0;padding:0;">
-                                                    <div id="with-logo-phone" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</div>
-                                                </td>
-                                            </tr>
-                                            <tr style="padding: 0;border:0;">
-                                                <td style="border:0;padding:0;">
-                                                    <div id="with-logo-email" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</div>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            `;
-            const blob = new Blob([withLogoHTML], { type: 'text/html' });
-            const data = [new ClipboardItem({ [blob.type]: blob })];
-            navigator.clipboard.write(data).then(() => {
-                alert('Copied the email signature with logo HTML to clipboard!');
-            });
-        }
+        function updateSignatures() {
+            const firstName = document.getElementById('first-name').value.trim();
+            const lastName = document.getElementById('last-name').value.trim();
+            const position = document.getElementById('position').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
 
-        function copyWithoutLogoHTML() {
-            const withoutLogoHTML = `
-                <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
-                    <tr style="border:0;padding:0;">
-                        <td style="border:0;padding:0;">
-                            <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
-                                <tr style="border:0;padding:0;">
-                                    <td style="border:0;padding:0;">
-                                        <div id="without-logo-name" style="font: 15px arial, helvetica, sans-serif;color:#161A41;">First Last</div>
-                                    </td>
-                                </tr>
-                                <tr style="border:0;padding:0;">
-                                    <td style="border:0;padding:0;">
-                                        <div id="without-logo-position" style="font: 11px arial, helvetica, sans-serif;color:#161A41;">Title | SLKone, LLC</div>
-                                    </td>
-                                </tr>
-                                <tr style="padding: 0;border:0;">
-                                    <td style="border:0;padding:0;">
-                                        <div id="without-logo-phone" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</div>
-                                    </td>
-                                </tr>
-                                <tr style="padding: 0;border:0;">
-                                    <td style="border:0;padding:0;">
-                                        <div id="without-logo-email" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            `;
-            const blob = new Blob([withoutLogoHTML], { type: 'text/html' });
-            const data = [new ClipboardItem({ [blob.type]: blob })];
-            navigator.clipboard.write(data).then(() => {
-                alert('Copied the email signature without logo HTML to clipboard!');
-            });
+            if (firstName && lastName) {
+                document.getElementById('with-logo-name').innerText = `${firstName} ${lastName}`;
+                document.getElementById('without-logo-name').innerText = `${firstName} ${lastName}`;
+            } else {
+                document.getElementById('with-logo-name').innerText = 'First Last';
+                document.getElementById('without-logo-name').innerText = 'First Last';
+            }
+
+            document.getElementById('with-logo-position').innerText = position ? `${position} | SLKone, LLC` : 'Title | SLKone, LLC';
+            document.getElementById('without-logo-position').innerText = position ? `${position} | SLKone, LLC` : 'Title | SLKone, LLC';
+
+            document.getElementById('with-logo-email').innerText = email || 'email@slkone.com';
+            document.getElementById('without-logo-email').innerText = email || 'email@slkone.com';
+
+            document.getElementById('with-logo-phone').innerText = phone || '(XXX) XXX-XXXX';
+            document.getElementById('without-logo-phone').innerText = phone || '(XXX) XXX-XXXX';
         }
     </script>
-
+    <div id="with-logo">
     <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
         <tr style="border:0;padding:0;">
             <td style="border:0;padding:0;">
@@ -221,14 +164,14 @@ document.addEventListener('click', function(event) {
                                     </td>
                                 </tr>
                             </table>
-                            <button class="text-emerald" onclick="copyToClipboard('with-logo')">Copy Signature</button>
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
     </table>
-
+</div>
+<div id="without-logo">
     <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
         <tr style="border:0;padding:0;">
             <td style="border:0;padding:0;">
@@ -254,37 +197,10 @@ document.addEventListener('click', function(event) {
                         </td>
                     </tr>
                 </table>
-                <button class="text-emerald" onclick="copyToClipboard('without-logo')">Copy Signature</button>
             </td>
         </tr>
     </table>
-
-    <script>
-        function updateSignatures() {
-            const firstName = document.getElementById('first-name').value;
-            const lastName = document.getElementById('last-name').value;
-            const position = document.getElementById('position').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
-
-            document.getElementById('with-logo-name').innerText = `${firstName} ${lastName}`;
-            document.getElementById('with-logo-position').innerText = position + ' | SLKone, LLC';
-            document.getElementById('with-logo-email').innerText = email;
-            document.getElementById('with-logo-phone').innerText = phone;
-
-            document.getElementById('without-logo-name').innerText = `${firstName} ${lastName}`;
-            document.getElementById('without-logo-position').innerText = position + ' | SLKone, LLC';
-            document.getElementById('without-logo-email').innerText = email;
-            document.getElementById('without-logo-phone').innerText = phone;
-        }
-
-        function copyToClipboard(type) {
-            const signature = type === 'with-logo' ? document.getElementById('with-logo-signature').innerText : document.getElementById('without-logo-signature').innerText;
-            navigator.clipboard.writeText(signature).then(() => {
-                alert(`Copied: ${signature}`);
-            });
-        }
-    </script>
+</div>
 </section>
 <section id="linkedin" class="flex flex-col justify-center items-center py-20">
     <div class="container mx-auto max-w-7xl">
@@ -346,4 +262,3 @@ document.addEventListener('click', function(event) {
         });
     </script>
 </section>
-
