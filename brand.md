@@ -229,6 +229,7 @@ document.addEventListener('click', function(event) {
                 <option value="white" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" data-text-color="text-currant">White</option>
                 <option value="currant" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" data-text-color="text-white">Currant</option>
                 <option value="emerald" data-logo="{{ '/assets/images/logo/png/Primary Lock up – White.png' }}" data-text-color="text-white">Emerald</option>
+                <option value="forest" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Dark Green.png' }}" data-text-color="text-emerald">Forest</option>
             </select>
         </div>
     </div>
