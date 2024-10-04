@@ -26,7 +26,7 @@ document.addEventListener('click', function(event) {
     <div class="grid grid-cols-2 gap-8 lg:grid-cols-4 prose dark:prose-invert">
         {% assign logos = "Mark - Black,Mark – White,Mark – Dark Green,Mark – Light Green,Primary Lock up – Black,Primary Lock up – Dark Green,Primary Lock up – Light Green,Primary Lock up – Primary,Primary Lock up – White,Vertical Lockup – Black,Vertical Lockup – Dark Green,Vertical Lockup – Light Green,Vertical Lockup – Primary,Vertical Lockup – White" | split: "," %}
         {% for logo in logos %}
-        <div class="mb-8">
+        <div class="mb-8 bg-slate-100 dark:bg-currant-300 p-8 rounded-xl">
             <h3 class="text-2xl font-display">{{ logo }}</h3>
             <img src="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}" alt="{{ logo }}" class="h-32 w-auto">
             <div class="mt-2">
