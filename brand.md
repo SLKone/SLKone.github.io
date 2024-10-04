@@ -225,9 +225,10 @@ document.addEventListener('click', function(event) {
         </div>
         <div class="mb-8">
             <label for="background-selector" class="mb-2 text-lg">Select Background:</label>
-            <select id="background-selector" class="w-full p-2 border border-gray-300 rounded">
+            <select id="background-selector" class="w-full p-2 border border-gray-300 rounded text-currant">
                 <option value="white" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" data-text-color="text-currant">White</option>
                 <option value="currant" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" data-text-color="text-white">Currant</option>
+                <option value="emerald" data-logo="{{ '/assets/images/logo/png/Primary Lock up – White.png' }}" data-text-color="text-white">Emerald</option>
             </select>
         </div>
     </div>
@@ -238,10 +239,10 @@ document.addEventListener('click', function(event) {
                 data-num-streamlines="100"
                 data-num-animated="0"
                 data-num-colors="3"
-                data-opacity="0.3"
+                data-opacity="0.5"
                 data-scale="0.00015"
             ></canvas>
-            <h2 id="linkedin-banner-text" class="linkedin-banner-text text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px]" style="text-align:right">Bridge strategy to measurable success</h2>
+            <h2 id="linkedin-banner-text" class="linkedin-banner-text text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display" style="text-align:right">Bridge strategy to measurable success</h2>
             <img id="linkedin-logo" src="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 absolute">
         </div>
     </div>
