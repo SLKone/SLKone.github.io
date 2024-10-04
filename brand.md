@@ -21,7 +21,7 @@ document.addEventListener('click', function(event) {
     }
 });
 </script>
-<section id="linkedin" class="flex justify-center items-center">
+<section id="linkedin" class="flex flex-col justify-center items-center">
     <div class="border-2 border-emerald dark:border-forest" style="width: 1584px; height: 396px;">
         <div id="white-linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end" style="width: 1584px; height: 396px;">
             <canvas
