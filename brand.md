@@ -48,6 +48,7 @@ document.addEventListener('click', function(event) {
 </script>
 <section id="logo-downloads" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Logo Files</h2>
+    <p class="mb-8 text-xl">Download the logo files for use anywhere you need the SLKone logo.</p>
     <div class="grid grid-cols-2 gap-8">
         {% assign logos = "Primary Lock up – Primary,Primary Lock up – Dark Green,Primary Lock up – Light Green,Primary Lock up – Black,Primary Lock up – White,Mark - Black,Mark – White,Mark – Dark Green,Mark – Light Green,Vertical Lockup – Black,Vertical Lockup – Dark Green,Vertical Lockup – Light Green,Vertical Lockup – Primary,Vertical Lockup – White" | split: "," %}
         {% for logo in logos %}
@@ -63,6 +64,7 @@ document.addEventListener('click', function(event) {
 </section>
 <section id="color-palette" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Color Palette</h2>
+    <p class="mb-8 text-xl">Use the color palette to select the color you want to use. The color name, hex value, rgb value, and hsl value are all linked to the color. Click on the color to copy the value to your clipboard.</p>
     <div class="grid grid-cols-1 gap-8">
         {% assign colors = site.data.colors.colors %}
         {% for color in colors %}
