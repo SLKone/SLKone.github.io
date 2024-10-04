@@ -21,7 +21,24 @@ document.addEventListener('click', function(event) {
     }
 });
 </script>
-<section id="linkedin" class="flex flex-col justify-center items-center py-8">
+<section id="logo-downloads" class="py-20 bg-slate-100 dark:bg-currant-700">
+    <h2 class="text-4xl mb-12 font-display">Download Logo Variants</h2>
+    <div class="flex flex-col items-center prose dark:prose-invert">
+        {% assign logos = "Mark - Black,Mark - White,Mark - Dark Green,Mark - Light Green,Primary Lock up - Black,Primary Lock up - Dark Green,Primary Lock up - Light Green,Primary Lock up - Primary,Primary Lock up - White,Vertical Lockup - Black,Vertical Lockup - Dark Green,Vertical Lockup - Light Green,Vertical Lockup - Primary,Vertical Lockup - White" | split: "," %}
+        {% for logo in logos %}
+        <div class="mb-8">
+            <h3 class="text-2xl font-display">Logo - {{ logo }}</h3>
+            <img src="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}" alt="Logo - {{ logo }}" class="h-32 w-auto">
+            <div class="mt-2">
+                <a href="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}">Download SVG</a>
+                <a href="{{ '/assets/images/logo/png/' | append: logo | append: '.png' }}">Download PNG</a>
+                <a href="{{ '/assets/images/logo/jpg/' | append: logo | append: '.jpg' }}">Download JPG</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<section id="linkedin" class="flex flex-col justify-center items-center py-20">
     <h2 class="text-4xl mb-12 font-display">LinkedIn Backgrounds</h2>
     <div class="mb-8 w-full flex justify-center">
         <form id="banner-text-form" class="flex flex-col items-center w-1/2">
@@ -79,5 +96,4 @@ document.addEventListener('click', function(event) {
         });
     </script>
 </section>
-/ End of Selection
-```
+
