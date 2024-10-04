@@ -69,12 +69,12 @@ document.addEventListener('click', function(event) {
             <div class="flex items-center p-4 cursor-pointer">
                 {% assign color_name = color.color %}
                 {% for shade in color.shades %}
-                    <div class="flex items-center mr-4">
-                        <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} p-20 rounded-xl"></div>
+                    <div class="mr-4">
+                        <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} w-20 h-20 rounded-xl"></div>
                         <span class="ml-2">{{ color_name | capitalize }}-{{ shade.shade }}: </span>
-                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-hex" class="ml-2" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-hex')">{{ shade.hex }}</button> 
-                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-rgb" class="ml-2" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-rgb')">{{ shade.rgb }}</button> 
-                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-hsl" class="ml-2" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-hsl')">{{ shade.hsl }}</button>
+                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-hex" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-hex')">{{ shade.hex }}</button> 
+                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-rgb" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-rgb')">{{ shade.rgb }}</button> 
+                        <button id="{{ color_name | capitalize }}-{{ shade.shade }}-hsl" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name | capitalize }}-{{ shade.shade }}-hsl')">{{ shade.hsl }}</button>
                     </div>
                 {% endfor %}
             </div>
