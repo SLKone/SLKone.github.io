@@ -46,6 +46,31 @@ document.addEventListener('click', function(event) {
         }
     }
 </script>
+<script>
+    document.getElementById('banner-text').addEventListener('input', function(event) {
+        const newText = event.target.value;
+        const bannerTexts = document.querySelectorAll('.linkedin-banner-text');
+        bannerTexts.forEach(function(h2) {
+            h2.textContent = newText;
+        });
+    });
+
+    document.getElementById('background-selector').addEventListener('change', function(event) {
+        const selectedOption = event.target.options[event.target.selectedIndex];
+        const bgColor = selectedOption.value;
+        const logoSrc = selectedOption.getAttribute('data-logo');
+        const textColorClass = selectedOption.getAttribute('data-text-color');
+
+        const linkedinBg = document.getElementById('linkedin-bg');
+        linkedinBg.className = `overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px] bg-${bgColor}`;
+
+        const linkedinLogo = document.getElementById('linkedin-logo');
+        linkedinLogo.src = logoSrc;
+
+        const linkedinBannerText = document.getElementById('linkedin-banner-text');
+        linkedinBannerText.className = `linkedin-banner-text ${textColorClass} mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display`;
+    });
+</script>
 <section id="logo-downloads" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Logo Files</h2>
     <p class="mb-8 text-xl">Download the logo files for use anywhere you need the SLKone logo.</p>
@@ -214,7 +239,7 @@ document.addEventListener('click', function(event) {
         <p class="mb-8 text-xl">It's recommended to use the standard text for the banner, but you have the option to update the text and select the background color based on your preferences. The banner will be 1584px wide by 396px high per LinkedIn's requirements.</p>
         <div class="grid grid-cols-2 gap-8">
             <div class="mb-8">
-                <form id="banner-text-form" class="w-1/2">
+                <form id="banner-text-form">
                     <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
                     <input 
                         type="text" 
@@ -252,29 +277,5 @@ document.addEventListener('click', function(event) {
     <button class="download-png bg-emerald text-white text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 mb-8" data-target="linkedin-bg">
         Download as PNG
     </button>
-    <script>
-        document.getElementById('banner-text').addEventListener('input', function(event) {
-            const newText = event.target.value;
-            const bannerTexts = document.querySelectorAll('.linkedin-banner-text');
-            bannerTexts.forEach(function(h2) {
-                h2.textContent = newText;
-            });
-        });
 
-        document.getElementById('background-selector').addEventListener('change', function(event) {
-            const selectedOption = event.target.options[event.target.selectedIndex];
-            const bgColor = selectedOption.value;
-            const logoSrc = selectedOption.getAttribute('data-logo');
-            const textColorClass = selectedOption.getAttribute('data-text-color');
-
-            const linkedinBg = document.getElementById('linkedin-bg');
-            linkedinBg.className = `overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px] bg-${bgColor}`;
-
-            const linkedinLogo = document.getElementById('linkedin-logo');
-            linkedinLogo.src = logoSrc;
-
-            const linkedinBannerText = document.getElementById('linkedin-banner-text');
-            linkedinBannerText.className = `linkedin-banner-text ${textColorClass} mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display`;
-        });
-    </script>
 </section>
