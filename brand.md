@@ -65,13 +65,13 @@ document.addEventListener('click', function(event) {
 <section id="color-palette" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Color Palette</h2>
     <p class="mb-8 text-xl">Use the color palette to select the color you want to use. The color name, hex value, rgb value, and hsl value are all linked to the color. Click on the color to copy the value to your clipboard.</p>
-    <div class="grid grid-cols-1 gap-8">
+    <div>
         {% assign colors = site.data.colors.colors %}
         {% for color in colors %}
-            <div class="flex items-center">
+            <div class="flex-row">
                 {% assign color_name = color.color %}
                 {% for shade in color.shades %}
-                    <div class="text-center">
+                    <div class="text-center grow">
                         <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} w-full h-20 block cursor-pointer mb-2" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')"></div>
                         <span class="ml-2 text-sm block">{{ color_name | upcase }}-{{ shade.shade }}</span>
                         <a href="#" class="ml-2 text-sm block" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')">#<span id="{{ color_name }}-{{ shade.shade }}-hex">{{ shade.hex }}</span></a> 
