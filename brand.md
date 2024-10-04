@@ -29,10 +29,8 @@ document.addEventListener('click', function(event) {
         <div class="mb-8 bg-slate-100 dark:bg-currant-300 p-8 rounded-xl text-center">
             <img src="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}" alt="{{ logo }}" class="h-32 w-auto mx-auto">
             <h3 class="py-4 text-xl">{{ logo }}</h3>
-            <div class="text-emerald dark:text-forest">
-                <a href="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}">Download SVG</a>
-                <a href="{{ '/assets/images/logo/png/' | append: logo | append: '.png' }}">Download PNG</a>
-                <a href="{{ '/assets/images/logo/jpg/' | append: logo | append: '.jpg' }}">Download JPG</a>
+            <div>
+            Download: <a class="text-emerald dark:text-forest" href="{{ '/assets/images/logo/svg/' | append: logo | append: '.svg' }}">SVG</a> | <a class="text-emerald dark:text-forest" href="{{ '/assets/images/logo/png/' | append: logo | append: '.png' }}">PNG</a>
             </div>
 
         </div>
