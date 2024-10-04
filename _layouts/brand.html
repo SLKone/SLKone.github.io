@@ -1,24 +1,7 @@
 ---
 layout: default
 ---
-<section id="linkedin" class="px-8">
-    <div class="w-[1584px] h-[396px] bg-white overflow-hidden absolute">
-        <canvas
-        class="windmap-canvas absolute w-screen h-full left-0 z-[-1]"
-        data-num-streamlines="15"
-        data-num-animated="0"
-        data-num-colors="1"
-        data-opacity="0.3"
-        data-opacity-dark="0.75"
-        data-scale="0.00015"
-        ></canvas>
-    </div>
-</section>
-<article class="page">
-    <div class="container mx-auto px-8 max-w-3xl">
-        <h1 class="my-20 text-4xl font-display">{{ page.title }}</h1>
-        <div class="my-20 lg:mb-40 max-w-prose">
-            {{ content }}
-        </div>
-    </div>
-</article>
+{% include page-header.html title=page.title %}
+<section class="px-8">
+{{ content }}
+</section
