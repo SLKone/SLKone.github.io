@@ -65,7 +65,7 @@ document.addEventListener('click', function(event) {
         {% for color in colors %}
             <div class="flex items-center p-4 cursor-pointer">
                 {% assign color_name = color.color %}
-                {% for shade in color %}
+                {% for shade in color.shades %}
                     <div class="flex items-center mr-4">
                         <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} p-20 rounded-xl"></div>
                         <span class="ml-2">{{ color_name | capitalize }}-{{ shade.shade }}: </span>
