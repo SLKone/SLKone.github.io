@@ -39,7 +39,7 @@ document.addEventListener('click', function(event) {
     </div>
 </section>
 <section id="linkedin" class="flex flex-col justify-center items-center py-20">
-    <h2 class="text-4xl mb-12 font-display">LinkedIn Backgrounds</h2>
+    <h2 class="text-4xl mb-12 font-display">LinkedIn Banners</h2>
     <div class="mb-8 w-full flex justify-center">
         <form id="banner-text-form" class="flex flex-col items-center w-1/2">
             <label for="banner-text" class="mb-2 text-lg">Update Banner Text:</label>
