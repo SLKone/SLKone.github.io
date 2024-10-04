@@ -4,7 +4,7 @@ title: The SLKone Brand
 sitemap: false
 ---
 <section id="toc" class="container mx-auto max-w-7xl">
-    <h2 class="text-4xl mb-12 font-display">Table of Contents</h2>
+    <h2 class="text-4xl mb-12 font-display">SLKone Brand Assets</h2>
     <ul>
         <li><a href="#logo-downloads">Download Logo Variants</a></li>
         <li><a href="#linkedin">LinkedIn Banners</a></li>
