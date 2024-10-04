@@ -24,7 +24,7 @@ document.addEventListener('click', function(event) {
 <section id="linkedin" class="flex flex-col justify-center items-center py-8">
     <h2 class="text-4xl mb-12 font-display">LinkedIn Backgrounds</h2>
     <div class="mb-8" style="width: 1584px; height: 396px;">
-        <div id="white-linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right" style="width: 1584px; height: 396px;">
+        <div id="white-linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px]" style="width: 1584px; height: 396px;">
             <canvas
                 class="windmap-canvas absolute w-screen h-full left-0 z-0"
                 data-num-streamlines="100"
@@ -33,7 +33,7 @@ document.addEventListener('click', function(event) {
                 data-opacity="0.3"
                 data-scale="0.00015"
             ></canvas>
-            <h2 class="text-6xl font-display text-currant mr-8 z-10 ml-[400px] text-right">Bridge strategy to measurable success</h2>
+            <h2 class="text-6xl font-display text-currant mr-16 z-10 ml-[400px] text-right" style="text-align:right">Bridge strategy to measurable success</h2>
             <img src="{{ '/assets/images/logo_light.svg' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 ">
         </div>
     </div>
@@ -41,7 +41,7 @@ document.addEventListener('click', function(event) {
         Download as PNG
     </button>
     <div class="mb-8" style="width: 1584px; height: 396px;">
-        <div id="currant-linkedin-bg" class="bg-currant overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right" style="width: 1584px; height: 396px;">
+        <div id="currant-linkedin-bg" class="bg-currant overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right w-[1584px] h-[396px]" style="width: 1584px; height: 396px;">
             <canvas
                 class="windmap-canvas absolute w-screen h-full left-0 z-0"
                 data-num-streamlines="100"
@@ -50,7 +50,7 @@ document.addEventListener('click', function(event) {
                 data-opacity="0.3"
                 data-scale="0.00015"
             ></canvas>
-            <h2 class="text-6xl font-display text-white mr-8 z-10 ml-[400px] text-right">Bridge strategy to measurable success</h2>
+            <h2 class="text-6xl font-display text-white mr-16 z-10 ml-[400px] text-right" style="text-align:right">Bridge strategy to measurable success</h2>
             <img src="{{ '/assets/images/logo_dark.svg' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 ">
         </div>
     </div>
