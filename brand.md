@@ -66,15 +66,15 @@ document.addEventListener('click', function(event) {
     <div class="grid grid-cols-1 gap-8">
         {% assign colors = site.data.colors.colors %}
         {% for color in colors %}
-            <div class="flex items-center p-4 ">
+            <div class="flex items-center">
                 {% assign color_name = color.color %}
                 {% for shade in color.shades %}
-                    <div class="mr-4">
-                        <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} w-20 h-20 rounded-xl block cursor-pointer" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')"></div>
-                        <span class="ml-2 text-sm block">{{ color_name }}-{{ shade.shade }}</span>
-                        <button id="{{ color_name }}-{{ shade.shade }}-hex" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')">{{ shade.hex }}</button> 
-                        <button id="{{ color_name }}-{{ shade.shade }}-rgb" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-rgb')">{{ shade.rgb }}</button> 
-                        <button id="{{ color_name }}-{{ shade.shade }}-hsl" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hsl')">{{ shade.hsl }}</button>
+                    <div class="mr-4 text-center">
+                        <div class="bg-{{ color_name | downcase }}-{{ shade.shade }} w-full h-20 block cursor-pointer mb-2" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')"></div>
+                        <span class="ml-2 text-sm block">{{ color_name | upcase }}-{{ shade.shade }}</span>
+                        <a href="#" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hex')">#<span id="{{ color_name }}-{{ shade.shade }}-hex">{{ shade.hex }}</span></a> 
+                        <a href="#" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-rgb')">RGB(<span id="{{ color_name }}-{{ shade.shade }}-rgb">{{ shade.rgb }}</span>)</a> 
+                        <a href="#" class="ml-2 text-sm" onclick="copyToClipboard('{{ color_name }}-{{ shade.shade }}-hsl')">HSL(<span id="{{ color_name }}-{{ shade.shade }}-hsl">{{ shade.hsl }}</span>)</a>
                     </div>
                 {% endfor %}
             </div>
@@ -87,23 +87,23 @@ document.addEventListener('click', function(event) {
     <div class="flex flex-col mb-8">
         <h3 class="text-xl mb-4">Update the signature based on your information and then paste into the signature editor in outlook </h3>
         <div class="grid grid-cols-2 gap-8">
-            <div class="mb-4">
+            <div>
                 <label for="first-name" class="block">First Name:</label>
                 <input type="text" id="first-name" class="border p-2 w-full text-currant" placeholder="First Name" oninput="updateSignature()">
             </div>
-            <div class="mb-4">
+            <div>
                 <label for="last-name" class="block">Last Name:</label>
                 <input type="text" id="last-name" class="border p-2 w-full text-currant" placeholder="Last Name" oninput="updateSignature()">
             </div>
-            <div class="mb-4">
+            <div>
                 <label for="position" class="block">Position:</label>
                 <input type="text" id="position" class="border p-2 w-full text-currant" placeholder="Position" oninput="updateSignature()">
             </div>
-            <div class="mb-4">
+            <div>
                 <label for="email" class="block">Email:</label>
                 <input type="email" id="email" class="border p-2 w-full text-currant" value="email@slkone.com" oninput="updateSignature()" required>
             </div>
-            <div class="mb-4">
+            <div>
                 <label for="phone" class="block">Phone:</label>
                 <input type="text" id="phone" class="border p-2 w-full text-currant" placeholder="(XXX) XXX-XXXX" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\d{3})(\d)/, '($1) $2').replace(/(\d{3})(\d{4})$/, '$1-$2'); updateSignature();">
             </div>
