@@ -22,9 +22,9 @@ document.addEventListener('click', function(event) {
 });
 </script>
 <section id="linkedin">
-    <div id="white-linkedin-bg" class="bg-white overflow-hidden mx-auto relative" style="width: 1584px; height: 396px;">
+    <div id="white-linkedin-bg" class="bg-white overflow-hidden mx-auto relative z-[-1]" style="width: 1584px; height: 396px;">
         <canvas
-            class="windmap-canvas absolute w-screen h-full left-0 z-[-1]"
+            class="windmap-canvas absolute w-screen h-full left-0 z-0"
             data-num-streamlines="15"
             data-num-animated="0"
             data-num-colors="1"
@@ -32,7 +32,7 @@ document.addEventListener('click', function(event) {
             data-opacity-dark="0.75"
             data-scale="0.00015"
         ></canvas>
-        <h2 class="text-4xl font-display">Bridge strategy to measurable success.</h2>
+        <h2 class="text-4xl font-display text-currant">Bridge strategy to measurable success.</h2>
     </div>
     <button class="download-png bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" data-target="white-linkedin-bg">
         Download as PNG
