@@ -24,7 +24,7 @@ document.addEventListener('click', function(event) {
 <section id="logo-downloads" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Download Logo Variants</h2>
     <div class="grid grid-cols-2 gap-8 prose dark:prose-invert">
-        {% assign logos = "Mark - Black,Mark – White,Mark – Dark Green,Mark – Light Green,Primary Lock up – Black,Primary Lock up – Dark Green,Primary Lock up – Light Green,Primary Lock up – Primary,Primary Lock up – White,Vertical Lockup – Black,Vertical Lockup – Dark Green,Vertical Lockup – Light Green,Vertical Lockup – Primary,Vertical Lockup – White" | split: "," %}
+        {% assign logos = "Mark - Black,Mark – White,Mark – Dark Green,Mark – Light Green,Primary Lock up – Black,Primary Lock up – Dark Green,Primary Lock up – Light Green,Primary Lock up – Primary,Primary Lock up – White,Vertical Lockup – Black,Vertical Lockup – Dark Green,Vertical Lockup – Light Green,Vertical Lockup – Primary,Vertical Lockup – White" | split: "," %}
         {% for logo in logos %}
         <div class="mb-8 bg-slate-100 dark:bg-currant-300 p-8 rounded-xl">
             <h3 class="text-2xl font-display">{{ logo }}</h3>
