@@ -22,6 +22,7 @@ document.addEventListener('click', function(event) {
 });
 </script>
 <section id="linkedin" class="flex flex-col justify-center items-center py-8">
+    <h2 class="text-4xl mb-12 font-display">LinkedIn Backgrounds</h2>
     <div class="mb-8" style="width: 1584px; height: 396px;">
         <div id="white-linkedin-bg" class="bg-white overflow-hidden relative z-[-1] flex flex-row items-center justify-end p-16 text-right" style="width: 1584px; height: 396px;">
             <canvas
