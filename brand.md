@@ -218,7 +218,7 @@ document.addEventListener('click', function(event) {
                     type="text" 
                     id="banner-text" 
                     name="banner-text" 
-                    class="w-full p-2 border border-gray-300 rounded" 
+                    class="w-full p-2 border border-gray-300 rounded text-currant" 
                     placeholder="Enter new banner text"
                 >
             </form>
@@ -239,7 +239,7 @@ document.addEventListener('click', function(event) {
                 data-num-streamlines="100"
                 data-num-animated="0"
                 data-num-colors="3"
-                data-opacity="0.5"
+                data-opacity="0.75"
                 data-scale="0.00015"
             ></canvas>
             <h2 id="linkedin-banner-text" class="linkedin-banner-text text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display" style="text-align:right">Bridge strategy to measurable success</h2>
