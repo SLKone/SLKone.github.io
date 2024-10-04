@@ -229,7 +229,6 @@ document.addEventListener('click', function(event) {
                 <option value="white" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Primary.png' }}" data-text-color="text-currant">White</option>
                 <option value="currant" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Light Green.png' }}" data-text-color="text-white">Currant</option>
                 <option value="emerald" data-logo="{{ '/assets/images/logo/png/Primary Lock up – White.png' }}" data-text-color="text-white">Emerald</option>
-                <option value="forest" data-logo="{{ '/assets/images/logo/png/Primary Lock up – Dark Green.png' }}" data-text-color="text-emerald">Forest</option>
             </select>
         </div>
     </div>
@@ -240,7 +239,7 @@ document.addEventListener('click', function(event) {
                 data-num-streamlines="100"
                 data-num-animated="0"
                 data-num-colors="3"
-                data-opacity="0.75"
+                data-opacity="0.65"
                 data-scale="0.00015"
             ></canvas>
             <h2 id="linkedin-banner-text" class="linkedin-banner-text text-currant mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display" style="text-align:right">Bridge strategy to measurable success</h2>
@@ -272,7 +271,7 @@ document.addEventListener('click', function(event) {
             linkedinLogo.src = logoSrc;
 
             const linkedinBannerText = document.getElementById('linkedin-banner-text');
-            linkedinBannerText.className = `linkedin-banner-text ${textColorClass} mr-16 z-10 ml-[400px] text-right absolute mr-[256px]`;
+            linkedinBannerText.className = `linkedin-banner-text ${textColorClass} mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display`;
         });
     </script>
 </section>
