@@ -33,7 +33,7 @@ document.addEventListener('click', function(event) {
                 data-opacity="0.3"
                 data-scale="0.00015"
             ></canvas>
-            <h2 class="text-6xl font-display text-currant mr-8 z-10">Bridge strategy to measurable success.</h2>
+            <h2 class="text-6xl font-display text-currant mr-8 z-10 ml-[400px] text-right">Bridge strategy to measurable success</h2>
             <img src="{{ '/assets/images/logo_light.svg' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 ">
         </div>
     </div>
@@ -50,7 +50,7 @@ document.addEventListener('click', function(event) {
                 data-opacity="0.3"
                 data-scale="0.00015"
             ></canvas>
-            <h2 class="text-6xl font-display text-white mr-8 z-10">Bridge strategy to measurable success.</h2>
+            <h2 class="text-6xl font-display text-white mr-8 z-10 ml-[400px] text-right">Bridge strategy to measurable success</h2>
             <img src="{{ '/assets/images/logo_dark.svg' }}" alt="{{ site.title }}" class="h-32 w-auto z-10 ">
         </div>
     </div>
