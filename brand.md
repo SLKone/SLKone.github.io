@@ -3,6 +3,13 @@ layout: brand
 title: The SLKone Brand
 sitemap: false
 ---
+<section id="toc" class="container mx-auto max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">Table of Contents</h2>
+    <ul>
+        <li><a href="#logo-downloads">Download Logo Variants</a></li>
+        <li><a href="#linkedin">LinkedIn Banners</a></li>
+    </ul>
+</section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
 document.addEventListener('click', function(event) {
