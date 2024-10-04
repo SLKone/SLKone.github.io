@@ -34,10 +34,13 @@ document.addEventListener('click', function(event) {
     function copyToClipboard(targetId) {
         const element = document.getElementById(targetId);
         if (element) {
-            const text = element.innerHTML; // Get inner text content
-            navigator.clipboard.writeText(text).then(() => {
-                alert(`Copied: ${text}`);
-            });
+            const range = document.createRange();
+            range.selectNodeContents(element);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+            alert(`Copied: ${element.innerHTML}`);
         } else {
             alert('Element not found');
         }
@@ -82,98 +85,102 @@ document.addEventListener('click', function(event) {
 <section id="email-signatures" class="py-20 container mx-auto max-w-7xl">
     <h2 class="text-4xl mb-12 font-display">Email Signatures</h2>
     <div class="flex flex-col mb-8">
-        <h3 class="text-xl mb-4">Email Signatures</h3>
-        <div class="mb-4">
-            <label for="first-name" class="block">First Name:</label>
-            <input type="text" id="first-name" class="border p-2 w-full text-currant" placeholder="First Name" oninput="updateSignature()">
-        </div>
-        <div class="mb-4">
-            <label for="last-name" class="block">Last Name:</label>
-            <input type="text" id="last-name" class="border p-2 w-full text-currant" placeholder="Last Name" oninput="updateSignature()">
-        </div>
-        <div class="mb-4">
-            <label for="position" class="block">Position:</label>
-            <input type="text" id="position" class="border p-2 w-full text-currant" placeholder="Position" oninput="updateSignature()">
-        </div>
-        <div class="mb-4">
-            <label for="email" class="block">Email:</label>
-            <input type="email" id="email" class="border p-2 w-full text-currant" placeholder="Email" oninput="updateSignature()">
-        </div>
-        <div class="mb-4">
-            <label for="phone" class="block">Phone:</label>
-            <input type="text" id="phone" class="border p-2 w-full text-currant" placeholder="Phone Number" oninput="updateSignature()">
+        <h3 class="text-xl mb-4">Update the signature based on your information and then paste into the signature editor in outlook </h3>
+        <div class="grid grid-cols-2 gap-8">
+            <div class="mb-4">
+                <label for="first-name" class="block">First Name:</label>
+                <input type="text" id="first-name" class="border p-2 w-full text-currant" placeholder="First Name" oninput="updateSignature()">
+            </div>
+            <div class="mb-4">
+                <label for="last-name" class="block">Last Name:</label>
+                <input type="text" id="last-name" class="border p-2 w-full text-currant" placeholder="Last Name" oninput="updateSignature()">
+            </div>
+            <div class="mb-4">
+                <label for="position" class="block">Position:</label>
+                <input type="text" id="position" class="border p-2 w-full text-currant" placeholder="Position" oninput="updateSignature()">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block">Email:</label>
+                <input type="email" id="email" class="border p-2 w-full text-currant" placeholder="Email" oninput="updateSignature()">
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block">Phone:</label>
+                <input type="text" id="phone" class="border p-2 w-full text-currant" placeholder="Phone Number" oninput="updateSignature()">
+            </div>
         </div>
         <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyToClipboard('with-logo')">Copy Signature with Logo HTML</button>
         <button class="bg-emerald text-white p-2 rounded mt-4" onclick="copyToClipboard('without-logo')">Copy Signature without Logo HTML</button>
     </div>
-    <div id="with-logo">
-        <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
-            <tr style="border:0;padding:0;">
-                <td style="border:0;padding:0;">
-                    <table cellspacing="0" cellpadding="0" border="0">
-                        <tr style="border:0;padding:0;">
-                            <td valign="top" width="140" height="72" style="padding:0 24px 0 0; vertical-align: middle; border:0;">
-                                <a href="http://slk.one" target="_blank"><img alt="SLKone" width="116" height="72px" style="margin-right: 24px;width:116px; height: 72px; vertical-align: middle;" src="https://slkone.com/assets/images/logo/email.png" /></a>
-                            </td>
-                            <td style="padding:0 15px 0 24px;vertical-align: top; border:0; border-left: 1px solid #5DBC5B;" valign="top">
-                                <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
-                                    <tr style="border:0;padding:0;">
-                                        <td style="border:0;padding:0;">
-                                            <div id="with-logo-name" style="font: 15px arial, helvetica, sans-serif;color:#161A41;">First Last</div>
-                                        </td>
-                                    </tr>
-                                    <tr style="border:0;padding:0;">
-                                        <td style="padding: 4px 0 12px;border:0;">
-                                            <div id="with-logo-position" style="font: 11px arial, helvetica, sans-serif;color:#161A41;">Title | SLKone, LLC</div>
-                                        </td>
-                                    </tr>
-                                    <tr style="padding: 0;border:0;">
-                                        <td style="border:0;padding:0;">
-                                            <div id="with-logo-phone" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</div>
-                                        </td>
-                                    </tr>
-                                    <tr style="padding: 0;border:0;">
-                                        <td style="border:0;padding:0;">
-                                            <div id="with-logo-email" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="without-logo">
-        <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
-            <tr style="border:0;padding:0;">
-                <td style="border:0;padding:0;">
-                    <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
-                        <tr style="border:0;padding:0;">
-                            <td style="border:0;padding:0;">
-                                <div id="without-logo-name" style="font: 15px arial, helvetica, sans-serif;color:#161A41;">First Last</div>
-                            </td>
-                        </tr>
-                        <tr style="border:0;padding:0;">
-                            <td style="padding: 4px 0 12px;border:0;">
-                                <div id="without-logo-position" style="font: 11px arial, helvetica, sans-serif;color:#161A41;">Title | SLKone, LLC</div>
-                            </td>
-                        </tr>
-                        <tr style="padding: 0;border:0;">
-                            <td style="border:0;padding:0;">
-                                <div id="without-logo-phone" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</div>
-                            </td>
-                        </tr>
-                        <tr style="padding: 0;border:0;">
-                            <td style="border:0;padding:0;">
-                                <div id="without-logo-email" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+    <div class="grid grid-cols-2 gap-8">
+        <div id="with-logo" class="bg-white p-8 rounded-xl">
+            <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
+                <tr style="border:0;padding:0;">
+                    <td style="border:0;padding:0;">
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tr style="border:0;padding:0;">
+                                <td valign="top" width="140" height="72" style="padding:0 24px 0 0; vertical-align: middle; border:0;">
+                                    <a href="http://slk.one" target="_blank"><img alt="SLKone" width="116" height="72px" style="margin-right: 24px;width:116px; height: 72px; vertical-align: middle;" src="https://slkone.com/assets/images/logo/email.png" /></a>
+                                </td>
+                                <td style="padding:0 15px 0 24px;vertical-align: top; border:0; border-left: 1px solid #5DBC5B;" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
+                                        <tr style="border:0;padding:0;">
+                                            <td style="border:0;padding:0;">
+                                                <div id="with-logo-name" style="font: 15px arial, helvetica, sans-serif;color:#161A41;">First Last</div>
+                                            </td>
+                                        </tr>
+                                        <tr style="border:0;padding:0;">
+                                            <td style="padding: 4px 0 12px;border:0;">
+                                                <div id="with-logo-position" style="font: 11px arial, helvetica, sans-serif;color:#161A41;">Title | SLKone, LLC</div>
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 0;border:0;">
+                                            <td style="border:0;padding:0;">
+                                                <div id="with-logo-phone" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</div>
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 0;border:0;">
+                                            <td style="border:0;padding:0;">
+                                                <div id="with-logo-email" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="without-logo" class="bg-white p-8 rounded-xl">
+            <table id="email" width="340" cellspacing="0" cellpadding="0" border="0">
+                <tr style="border:0;padding:0;">
+                    <td style="border:0;padding:0;">
+                        <table cellspacing="0" cellpadding="0" border="0" style="line-height: 1.1;">
+                            <tr style="border:0;padding:0;">
+                                <td style="border:0;padding:0;">
+                                    <div id="without-logo-name" style="font: 15px arial, helvetica, sans-serif;color:#161A41;">First Last</div>
+                                </td>
+                            </tr>
+                            <tr style="border:0;padding:0;">
+                                <td style="padding: 4px 0 12px;border:0;">
+                                    <div id="without-logo-position" style="font: 11px arial, helvetica, sans-serif;color:#161A41;">Title | SLKone, LLC</div>
+                                </td>
+                            </tr>
+                            <tr style="padding: 0;border:0;">
+                                <td style="border:0;padding:0;">
+                                    <div id="without-logo-phone" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">(XXX) XXX-XXXX</div>
+                                </td>
+                            </tr>
+                            <tr style="padding: 0;border:0;">
+                                <td style="border:0;padding:0;">
+                                    <div id="without-logo-email" style="color: #5DBC5B;border:0;padding:0;font: 11px arial, helvetica, sans-serif;text-decoration: none;">email@slkone.com</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            </div>
     </div>
     <script>
         function updateSignature() {
