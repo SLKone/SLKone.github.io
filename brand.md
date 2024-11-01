@@ -276,5 +276,21 @@ document.addEventListener('click', function(event) {
             const linkedinBannerText = document.getElementById('linkedin-banner-text');
             linkedinBannerText.className = `linkedin-banner-text ${textColorClass} mr-16 z-10 ml-[400px] text-right absolute mr-[256px] text-5xl font-display`;
         });
+
+        document.querySelector('.download-png').addEventListener('click', function() {
+            const selectedOption = document.getElementById('background-selector').options[document.getElementById('background-selector').selectedIndex];
+            const bgColor = selectedOption.value;
+
+            // Set the background color of the canvas
+            const linkedinBg = document.getElementById('linkedin-bg');
+            linkedinBg.style.backgroundColor = bgColor;
+
+            html2canvas(linkedinBg).then(canvas => {
+                const link = document.createElement('a');
+                link.download = 'linkedin-banner.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            });
+        });
     </script>
 </section>
