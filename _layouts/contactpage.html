@@ -6,7 +6,7 @@ layout: default
 			{% assign filename = page.url | replace: 'contactpage', '' | replace: '/', ''  | replace: '.html', '.md' %}
 			<div class="qr-code" style="background-image: url('{{site.url}}/images/qr/{{ filename }}.svg')">
 			</div>
-			<img class="team-image" src="{{ site.url }}/images/team-members/{{ page.team-image }}" />
+			<img class="team-image" src="{{ site.url }}/assets/images/team-members/{{ page.team-image }}" />
 			<div class="emphasis center">
 				<h2>{{ page.title }}</h2>
 				<h4 class="h5">{{ page.job-title }}</h4>
