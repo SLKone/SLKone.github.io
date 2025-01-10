@@ -38,6 +38,8 @@ collections:
     output: true
   team-members:
     output: true
+  contactpage:
+    output: true    
 
 # Defaults
 defaults:
@@ -94,6 +96,12 @@ defaults:
     values:
       layout: "expertise"
       permalink: "/:title/"
+  - scope:
+      path: "/contactpage/"
+      type: "contactpage"
+    values:
+      layout: "contactpage"
+      permalink: "/:title/"      
   - scope:
       path: ""
     values:
