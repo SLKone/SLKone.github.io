@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Lydia Cosgrove"
-job-title: Consultant
+job-title: Managing Consultant
 order: 15
 skills:
 - Finance & Accounting
