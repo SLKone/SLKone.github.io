@@ -1,23 +1,24 @@
 ---
 layout: default
 ---
-<div id="main" class="team-member-page" role="main">			
-	<div class="wrap">
+<section id="pillars" class="pb-20">
+    <div class="container mx-auto px-8 max-w-prose md:text-xl text-center">
+        
 			{% assign filename = page.url | replace: 'contactpage', '' | replace: '/', ''  | replace: '.html', '.md' %}
 			<div class="qr-code" style="background-image: url('{{site.url}}/images/qr/{{ filename }}.svg')">
 			</div>
-			<img class="team-image" src="{{ site.url }}/assets/images/team-members/{{ page.team-image }}" />
+			<img class="team-image" src="{{ site.url }/assets/images/team/{{ page.team-image }}" />
 			<div class="emphasis center">
-				<h2>{{ page.title }}</h2>
-				<h4 class="h5">{{ page.job-title }}</h4>
-				<h5>
+				<h2 class="text-4xl font-display mb-8 text-center">{{ page.title }}</h2>
+				<h4 class="h5 text-2xl">{{ page.job-title }}</h4>
+				<h5 class="text-xl">
 					<strong>{{ page.email }}</strong>
 				</h5>
-				<h5>
+				<h5 class="text-xl">
 					<strong>{{ page.phone }}</strong>
 				</h5>
 				{{ page.content }}
 			</div>
-	</div><!-- /.wrap -->
-<div>
-<a class="download-vcard btn-secondary" href="{{site.url}}/vcards/{{ filename }}.vcf">Save Contact</a>
+<a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500"  href="{{site.url}}/vcards/{{ filename }}.vcf">Save Contact</a>
+</div>
+</section>
