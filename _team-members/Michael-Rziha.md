@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Michael Rziha"
-job-title: Managing Consultant
+job-title: Management Consultant
 order: 14
 skills:
 - Finance & Accounting
