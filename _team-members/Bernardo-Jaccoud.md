@@ -1,8 +1,8 @@
 ---
 layout: team-member
 title:  "Bernardo Jaccoud"
-job-title: Engagement Manager
-order: 7
+job-title: Principal
+order: 4
 skills:
 - Operational Excellence & Execution
 - Data, Analytics, & Information Technology
