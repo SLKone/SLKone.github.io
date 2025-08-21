@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Rachit Shukla"
 job-title: Client Development Manager
-order: 10
+order: 7
 skills:
 - Operational Excellence & Execution
 - Data, Analytics, & Information Technology
