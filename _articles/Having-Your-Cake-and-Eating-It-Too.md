@@ -10,21 +10,25 @@ authors: [Andrew Klemm, Matthew Smith]
 Today’s organizations face a critical challenge: They must remain agile enough to pivot quickly in an increasingly dynamic marketplace, while still maintaining stability and sustainable growth. Increasing pace of change can be seen in the tenure of Dow Jones Industrial Average (DJIA) members; for most of the 20th century tenure held consistent at ~60 years, however that has dropped to ~25 years so far in the 2020’s. Success in the modern business environment demands greater flexibility and agility from operations and cost structure. Historically, companies had to choose: flexibility at the expense continuity, or structure at the expense of agility.
 Many have found the answer in the form of a contingent workforce—freelancers, contractors, agency staff, and gig workers— who are redefining the rules of work. 
 
-**Why Contingent Talent Matters**
-•<b>Agility and flexibility to match labor needs to business needs</b>
-    Scale your workforce up or down with ease, adapting to seasonal spikes, market swings, or new growth opportunities.
-•	Specialized Skills, Anytime**
-    Access niche expertise without long-term commitments, accelerating project delivery and innovation cycles.
-•	Cost Efficiency**
-    Shift from fixed overheads to a variable model that aligns labor costs with revenue, creating financial resilience.
+**Why Contingent Talent Matters** </br> <ul>
+<li>  Agility and flexibility to match labor needs to business needs </li>
+      Scale your workforce up or down with ease, adapting to seasonal spikes, market swings, or new growth opportunities. </li>
+<li>  Specialized Skills, Anytime  </br>
+      Access niche expertise without long-term commitments, accelerating project delivery and innovation cycles.  </br>
+<li>	Cost Efficiency  </br>
+      Shift from fixed overheads to a variable model that aligns labor costs with revenue, creating financial resilience. </br>
 
 However, the utilization of contingent workers has come with a degree of compromise. Critically, a lack of visibility to effectively manage that workforce, its productivity and relationships. These data blindspots can hide inefficiencies in outsourced labor models, such as unleveraged capacity, wasted spend on work misaligned with business priorities and innacurate 3rd party billing for time not worked.   How enterprise leaders resolve these challenges  is changing with the evolution of Workforce Intelligence as a core platform for optimizing the modern labor model. The category leader in this space is SLKone’s partner Sapience Workforce Intelligence. The Sapienceplatform shines a light onto the performance and output of contingent workforce relationships. When managed strategically, contingent talent enables organizations to “have their cake and eat it too”: achieving efficiency and innovation, agility and resilience.
 
 **The Contingent Workforce Challenge: Risks Without Governance**
+<br>
+<uL>
+
 While contingent labor brings flexibility, it also introduces complexity:
-  •	  Hidden spend scattered across business units, often invisible to leadership.
-  •	  Lack of data and metrics to truly manage spend and productivity.
-  •	  Inability to strategically and objectively manage contingent worker vendor relationships.
+<li>  Hidden spend scattered across business units, often invisible to leadership. </li>
+<li>  Lack of data and metrics to truly manage spend and productivity. </li>
+<li>  Inability to strategically and objectively manage contingent worker vendor relationships. </li>  </uL>
+
 Without governance supported by relevant insights, these risks undermine the very benefits companies seek.
 
 **The Contingent Workforce Challenge: Costs Without Accountability**
