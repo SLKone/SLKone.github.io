@@ -1,39 +1,97 @@
 ---
 layout: default
 ---
-<div id="main" class="industry-page" role="main">			
-	<div class="page-title">
-		<div class="background-overlay">
-		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
-			<h5><a href="{{ site.url }}/expertise">Industries</a> &gt;</h5>
-			<h2>{{ page.title }}</h2>
-			{% if page.intro %}<p class="large">{{ page.intro }}</p>{% endif %}			
-		</div>
-		</div>
-	</div>
-	<div class="wrap content">
-		{{ content }}
-		<div class="case-studies post-blocks">
-		{% assign industry-slug = {{page.url | remove: '/' | remove_first: "expertise"}}" %}
-		{% for case-studies in site.case-studies %}
-		{% if case-studies.industries contains industry-slug %}
-		<div class="post-block-masonry">
-		    {% include case-study-block.html %}
-		</div>
-	    {% endif %}
-		{% endfor %}
-		</div>
-		<h3 class="h4">How We Help Our Clients</h3>
-		<div class="services post-blocks">
+{% include page-header.html title=page.title subtitle=page.intro streamlines=page.streamlines background_image=page.background_image color=page.color %} 
+<section class="data-driven-approach py-20">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="grid md:grid-cols-2 md:gap-8">
+      <div class="md:text-xl">
+        {% if page.landscape-intro %}
+        <p class="max-w-prose mb-4">{{ page.landscape-intro }}</p>
+        {% endif %}
+        <div class="grid md:grid-cols-2 gap-4 gap-4 mb-4">
+        {% for landscape in page.landscape %}
+        <div class="cols-span-1 bg-{{page.color}}-700/10 rounded-xl p-8 flex justify-center items-center">{{ landscape }}</div>
+        {% endfor %}
+        </div>
+        {% if page.landscape-conclusion %}
+        <p class="font-bold max-w-prose mb-4">{{ page.landscape-conclusion }}</p>
+        {% endif %}
+      </div>
+      <div class="text-currant md:text-xl p-8 {% if page.color %}bg-{{ page.color }}-200{% else %}bg-slate-50{% endif %} {% if page.color %}dark:bg-{{ page.color }}-200{% else %}dark:bg-currant-500 dark:text-white{% endif %} rounded-xl">
+        <h2 class="text-4xl font-display mb-4">Our Approach</h2>
+        {% if page.approach-intro %}
+        <p class="max-w-prose mb-4">{{ page.approach-intro }}</p>
+        {% endif %}
+        <ul class="py-2">
+        {% for approach in page.approach %}
+        <li class="mb-4"><span class="font-bold">{{ approach.point }}</span><span class="block">{{ approach.description }}</span></li>
+        {% endfor %}
+        </ul>
+        {% if page.approach-conclusion %}
+        <p class="font-bold max-w-prose mb-4">{{ page.approach-conclusion }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 {% if page.color %}bg-{{ page.color }}-400/10{% else %}bg-slate-50{% endif %} {% if page.color %}dark:bg-{{ page.color }}-400/10{% else %}dark:bg-currant-500 dark:text-white{% endif %} ">
+  {% assign related_sub_industries = site.sub-industries | where: "parent", page.title | sort:"order" %}
+  {% if related_sub_industries.size > 0 %}
+      {% for sub-industry in related_sub_industries %}
+    <div class="container mx-auto px-8 max-w-7xl">
+            {% if sub-industry.title %}
+            <h3 class="text-4xl font-display mb-8 lg:mb-16"><i class="mr-4 fa-sharp-duotone {{ sub-industry.icon }}"></i> {{ sub-industry.title }}</h3>   
+            {% endif %}
+            <div id="{{ sub-industry.title | slugify }}" class="mb-12">
+              <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 rounded-xl bg-black/5 dark:bg-currant-500 w-full grow min-h-80 md:min-h-96 bg-cover bg-center bg-no-repeat" style="background-image: url({{ sub-industry.image }})"></div>
+              <div class="grid lg:grid-cols-3 gap-8 py-8 w-full">
+                <div class="col-span-1 prose dark:prose-invert bg-black/5 dark:bg-currant-500 rounded-xl p-8 w-full">
+                  <h4 class="text-2xl font-display mb-4">Challenges We Tackle</h4>
+                  <ul>
+                  {% for challenge in sub-industry.challenges %}
+                  <li>{{ challenge }}</li>
+                  {% endfor %}
+                  </ul>
+                </div>
+                <div class="col-span-1 prose dark:prose-invert bg-black/5 dark:bg-currant-500 rounded-xl p-8 w-full">
+                  <h4 class="text-2xl font-display mb-4">Solutions We Bring</h4>
+                  <ul>
+                  {% for solution in sub-industry.solutions %}
+                  <li><strong>{{ solution.title }}</strong></li>
+                  {% if solution.content %}
+                  <ul>
+                  {% for content in solution.content %}
+                  <li>{{ content }}</li>
+                  {% endfor %}
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+                  </ul>
+                </div>
+                <div class="col-span-1 prose dark:prose-invert bg-black/5 dark:bg-currant-500 rounded-xl p-8 w-full">
+                  <h4 class="text-2xl font-display mb-4">Outcomes We Target</h4>
+                  <ul>
+                  {% for outcome in sub-industry.outcomes %}
+                  <li>{{ outcome }}</li>
+                  {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+    </div>
+    {% endfor %}
+  {% endif %}    
+</section>
+{% if page.why_choose %}
+  {% capture why_choose_title %}Why Choose SLKone for {{ page.title }}{% endcapture %}
+  {% include why-choose-slkone.html title=why_choose_title points=page.why_choose %}
+{% endif %}
 
-			{% for service in site.services %}
-			{% if service.categories contains 'top-level-service' %}
-			<div class="post-block-masonry">
-			    {% include service-block-no-text.html %}
-			</div>
-		     {% endif %}
-			 {% endfor %}
-		</div>
-
-	</div><!-- /.wrap -->
-<div>
+{% if page.cta %}
+{% include contact-card.html 
+  background_image=site.data.homepage.contact.background-image 
+  title=page.cta_title
+  description=page.cta 
+%}
+{% endif %}

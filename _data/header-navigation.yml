@@ -1,0 +1,55 @@
+main:
+- title: Services
+  url: /services
+- title: Industries
+  url: /industries
+- title: Insights
+  url: /insights
+- title: Culture
+  url: /culture
+- title: Brands
+  url: /brands 
+  sub:
+    - title: Amalgam Capital
+      url: https://amalgamcapital.com
+      info: "Amalgam Capital is our independent sponsor arm, focused on acquiring and sustainably growing underrated businesses."
+      icon: "assets/images/mark_amalgam.svg"
+      color: amalgam
+    - title: SLK Catalyst Partners
+      url: https://slkcatalystpartners.com
+      info: "SLK Catalyst Partners offers a structured framework of actionable solutions to help corporate and operating entities tackle complex challenges."
+      icon: "assets/images/mark_catalyst.svg"
+      color: forest
+    - title: Abyss Analytics
+      url: https://abyssanalytics.com
+      info: "Abyss Analytics is our trailblazing healthcare analytics company, leveraging data science and AI to tackle the industry's most complex challenges."
+      icon: "assets/images/mark_amalgam.svg"
+      color: abyss
+cta:
+- title: Contact Us
+  url: /contact
+mobile:
+- title: Home
+  url: /
+- title: Services
+  url: /services
+- title: Industries
+  url: /industries
+- title: Insights
+  url: /insights
+- title: Culture
+  url: /culture
+- title: Brands
+  url: /brands  
+- title: Careers
+  url: /careers
+- title: Contact Us
+  url: /contact  
+insights:
+- title: All Insights
+  url: /insights
+- title: Articles
+  url: /articles
+- title: Case Studies
+  url: /case-studies
+

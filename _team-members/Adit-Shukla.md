@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Adit Shukla"
 job-title: Client Development Manager
-order: 9
+order: 6
 skills:
 - Operational Excellence & Execution
 - Data, Analytics, & Information Technology
@@ -12,4 +12,5 @@ skills:
 - Product Design & Management
 team-image: Adit-Shukla.jpg
 has-bio: N
+partner: N
 ---

@@ -1,83 +1,25 @@
 ---
 layout: default
 ---
-<div id="main" class="service-page" role="main">			
-	<div class="page-title">
-		<div class="background-overlay">
-		<div class="wrap" style="background-image: url({{site.url}}/images/{{ page.heroimage }});">
-			<h5>{% if page.categories contains 'top-level-service' %}<a href="{{site.url}}/services">Capabilities</a> &gt; {% else %}<a href="{{site.url}}/services">Capabilities</a> &gt; <a href="{{site.url}}/services/{{page.categories}}">{{page.categories | replace: '-', ' ' | remove: '[', | remove: ']' | remove: '"'}}</a> &gt;{% endif %} </h5>
-			<h2>{{ page.title }}</h2>
-			{% if page.intro %}<p class="large">{{ page.intro }}</p>{% endif %}			
-		</div>
-		</div>
-	</div>
-	<div class="wrap content">
-		{{ content }}
-		{% assign service-slug =  page.url | remove: '/' | remove_first: "services" %}
-		<div class="services post-blocks">
-			{% assign ordered-services = site.services | sort:"order" %}
-			{% for service in ordered-services %}
-			{% if service.categories contains service-slug %}
-			<div class="post-block-masonry">
-			    {% include service-block.html %}
-			</div>
-		     {% endif %}
-			 {% endfor %}
-		</div>
-		<div class="case-studies">
-			{% assign featured_counter == 0 %}
-				{% for case-studies in site.case-studies %}
-				{% if case-studies.services-performed contains service-slug %}
-				{% assign featured_counter = featured_counter | plus: 1 %}
-				{% endif %}
-				{% if featured_counter == 2 %}
-				 {% break %}
-				{% endif %}
-				  {% endfor %}
-			{% if featured_counter > 0 %}
-			<h3 class="h4">Client Results</h3>
-			<div class="post-blocks-medium">
-				{% assign featured_counter == 0 %}
-				{% for case-studies in site.case-studies %}
-				{% if case-studies.services-performed contains service-slug %}
-				{% assign featured_counter = featured_counter | plus: 1 %}
-				  	<div class="post-block-masonry">
-				    {% include case-study-block.html %}
-					</div>
-				{% endif %}
-				{% if featured_counter == 4 %}
-				 {% break %}
-				{% endif %}
-				  {% endfor %}
-			</div>{% endif %}
-		</div>
-		<div class="posts">
-			{% assign post_counter == 0 %}
-						{% for post in site.posts %}
-						{% if post.tags contains service-slug %}
-						{% assign post_counter = post_counter | plus: 1 %}
-						{% if post_counter == 1 %}
-					 		{% break %}
-						{% endif %}
-						{% endif %}
-					{% endfor %}
-			{% if post_counter > 0 %}
-			<h3 class="h4">Relevant Insights</h3>
-			<div class="post-blocks">
-					{% assign post_counter == 0 %}
-						{% for post in site.posts %}
-						{% if post.tags contains service-slug %}
-						<div class="post-block-masonry">
-						{% include post-block-small.html %}
-						</div>
-						{% assign post_counter = post_counter | plus: 1 %}
-						{% if post_counter == 3 %}
-					 		{% break %}
-						{% endif %}
-						{% endif %}
-					{% endfor %}
-				</div>
-			{% endif %}
-		</div>
-	</div><!-- /.wrap -->
-<div>
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines %} 
+
+<section class=" big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+    <div class="container mx-auto px-8 max-w-7xl md:text-3xl py-40">
+      <p class="max-w-prose">
+      {{ page.bigparagraph }}
+      </p>
+    </div>
+</section>
+
+<section class="snap-start h-full relative approach"> 
+  <div class="container mx-auto px-8 py-20 lg:pt-20 lg:py-40 max-w-7xl">
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+      {% assign ordered-services = site.services | sort: 'order' %}
+      {% for service in ordered-services %}
+          {% include service-card-big.html card=service background_image=service.background_image %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{{ content }}

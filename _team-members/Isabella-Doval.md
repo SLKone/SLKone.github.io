@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Isabella Doval"
 job-title: Business Manager
-order: 20
+order: 17
 skills:
 - Office Administration
 - Executive Support
@@ -10,4 +10,5 @@ skills:
 - Hiring & Recruiting
 team-image: Isabella-Doval.jpg
 has-bio: N
+partner: N
 ---

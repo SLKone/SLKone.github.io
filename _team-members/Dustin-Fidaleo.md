@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Dustin Fidaleo"
 job-title: Engagement Manager
-order: 6
+order: 5
 skills:
 - Finance & Accounting
 - Business & Transformational Events
@@ -10,4 +10,5 @@ skills:
 - Revenue & Sales
 team-image: Dustin-Fidaleo.jpg
 has-bio: N
+partner: N
 ---

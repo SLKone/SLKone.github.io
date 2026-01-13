@@ -1,24 +1,66 @@
 ---
 layout: default
 ---
-<div id="main" class="careers" role="main">			
-	{% include title-image.html %}
-	<div class="wrap content">
-		{{ content }}
-	</div><!-- /.wrap -->
-	<div class="wrap">
-		<div id="career-listings">
-			{% for careers in site.careers  %}
-				{% include career-listing-block.html %}
-			{% endfor %}
-		</div>
-	</div>		
-<div>
-
-<div class="page-bottom">
-<div class="wrap">
-	<div class="bottom-link">
-		<h5>If SLKone sounds like a great fit for you, please reach out to us</h5> <a class="btn btn-secondary" href="mailto:hr@slkone.com">Contact Us</a>
-	</div>
-</div>
-</div> 
+{% include page-header.html title=page.title subtitle=page.subtitle background_image=page.background_image %}
+<section class="big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+    <div class="container mx-auto px-8 max-w-7xl md:text-3xl py-40">
+      <p class="max-w-prose">
+      {{ page.bigparagraph }}
+      </p>
+    </div>
+</section>  
+<section id="careers" class="py-20">
+    <div class="container mx-auto px-8 max-w-7xl">
+        {% for career in site.career %}  
+        <div class="flex flex-col items-center justify-center">
+        <h2 class="text-4xl mb-12 font-display">{{ career.title }}</h2>
+        <a class="mt-8 mb-12 mx-auto bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="mailto:hr@slkone.com?subject=Applying%20for%20{{ career.title }}">
+            Apply Now <i class="fas fa-arrow-right"></i>
+        </a>
+        </div>
+        <div class="rounded-xl bg-black/5 dark:bg-currant-500 p-8">
+            <div class="md:grid grid-cols-2 gap-8 dark:prose-invert items-start py-8">
+                <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
+                    <h3>The Role</h3>
+                    <p>{{ career.role }}</p>
+                    <h3>Responsibilities</h3>
+                    <ul>
+                        {% for responsibility in career.responsibilities %}
+                            <li>{{ responsibility }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Qualifications</h3>
+                    <ul>
+                        {% for qualification in career.qualifications %}
+                            <li>{{ qualification }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Additional Capabilities</h3>
+                    <ul>
+                        {% for capability in career.additional-capabilities %}
+                            <li>{{ capability }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="md:col-span-1 lg:col-span-1 prose dark:prose-invert">
+                    <h3>Game Changers</h3>
+                    <ul>
+                        {% for game_changer in career.game-changers %}
+                            <li>{{ game_changer }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Benefits</h3>
+                    <ul>
+                        {% for benefit in career.benefits %}
+                            <li>{{ benefit }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% if page.why-slk %}
+  {% include why-choose-slkone.html title=page.why-slk points=page.why-slk-list %}
+{% endif %}

@@ -1,23 +1,72 @@
-
-<footer role="contentinfo" id="site-footer">
-	<div class="wrap">
-		<div class="footer-one">
-			<h2 id="footer-logo">SLKone</h2>
-			<div class="social-btn">
-		      <a class="btn" href="https://twitter.com/SLKone_LLC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-		      <a class="btn"  href="https://www.linkedin.com/company/slkone" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-		      <a class="btn" href="https://www.youtube.com/channel/UCJ_3HPY37_fmBPJhnBzofwg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-		    </div>
-		</div>
-		<div class="footer-two">
-			<nav role="navigation" class="menu bottom-menu">
-				<a href="{{ site.url }}/contact">Get in Touch</a> <a href="{{ site.url }}/services">Services</a> <a href="{{ site.url }}/insights">Insights</a> <a href="{{ site.url }}/careers">Jobs</a>  <a href="{{ site.url }}/terms-and-conditions">Terms &amp; Conditions</a>
-			</nav>
-			
-		</div>
-		<div class="footer-three">
-			<p>&#169; {{ site.time | date: '%Y' }} SLKone, LLC</p>
-		    <p>251 Little Falls Drive, Wilmington, DE 19808, USA</p>
-		</div>
-	</div>
+<footer class="bg-gradient-to-b from-slate-50 to-transparent dark:from-currant-700">
+  <canvas
+  class="windmap-canvas absolute w-screen h-full md:h-[800px] left-0 -z-1"
+  data-num-streamlines="50"
+  data-num-animated="0"
+  data-num-colors="3"
+  data-opacity="0.2"
+  data-opacity-dark="0.5"
+  data-scale="0.00015"
+  ></canvas>
+  <div class="container relative mx-auto px-4 max-w-7xl z-20 pt-20 pb-10 border-b border-slate-200 dark:border-currant-300">
+    <div class="grid lg:grid-cols-4 md:grid-cols-4 gap-8">
+      <div class="md:col-span-2 lg:col-span-1 mb-4">
+        <h3 class="font-bold mb-4">Services</h3>
+        <ul>
+          {% assign services = site.services | sort: 'order' %}
+          {% for item in services %}
+            <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="md:col-span-2 lg:col-span-1 mb-8">
+        <h3 class="font-bold mb-4">Industries</h3>
+        <ul>
+          {% assign industries = site.industries | sort: 'order' %}
+          {% for item in industries %}
+            <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="md:col-span-2 lg:col-span-1 mb-8">
+        <h3 class="font-bold mb-4">Company</h3>
+        <ul class="mb-8">
+          {% for item in site.data.footer.Company %}
+            <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <h3 class="font-bold mb-4">Read</h3>
+        <ul class="mb-8">
+          {% for item in site.data.footer.Read %}
+            <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <h3 class="font-bold mb-4">Brands</h3>
+        <ul class="mb-8">
+          {% for item in site.data.footer.Brands %}
+            <li class="mb-2"><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="md:col-span-2 lg:col-span-1 mb-8">
+        <h3 class="font-bold mb-4">Contact</h3>
+        <ul class="mb-8">
+          {% for item in site.data.footer.Contact %}
+            <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <h3 class="font-bold mb-4">Terms and Policies</h3>
+        <ul class="mb-8">
+          {% for item in site.data.footer.Terms-and-policies %}
+            <li class="mb-2"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto px-4 py-5 lg:py-10 text-center">
+    <img src="{{ '/assets/images/mark_dark.svg' }}" alt="{{ site.title }}" class="h-16 w-auto mx-auto mb-10">
+    <p class="my-10 text-xl">{{ site.data.footer.Mission }}</p>
+    <p class="text-sm opacity-50">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved. | {{ site.address }}</p>
+  </div>
 </footer>

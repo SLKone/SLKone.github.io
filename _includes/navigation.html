@@ -1,246 +1,79 @@
-<nav role="navigation" class="menu top-menu">
-	<ul id="navigation">
-	<li class="top down"><a href="{{ site.url }}/services">Capabilities</a>
-		<ul>
-			{% assign ordered-services = site.services | sort:"order" %}
-			{% for service in ordered-services %}
-			{% if service.categories contains 'top-level-service' %}
-			<li class="top">
-			    <a href="{{site.url}}{{ service.url }}">{{ service.title }}</a>
-			</li>
-		     {% endif %}
-			 {% endfor %}
-		</ul></li>
-	<li class="top down"><a href="{{ site.url}}/expertise">Industries</a>
-		<ul>
-			{% assign ordered-expertise = site.expertise | sort:"order" %}
-			{% for expertise in ordered-expertise %}
-			<li class="top">
-			    <a href="{{site.url}}{{ expertise.url }}">{{ expertise.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</li>
-	<li class="top"><a href="{{ site.url }}/insights">Insights</a>
-	</li>
-	<li class="top down"><a href="{{ site.url }}/team">About</a>
-		<ul>
-			<li><a href="{{ site.url }}/team">The Team</a></li>
-			<li><a href="{{ site.url }}/advisory-partners">Advisory Partners</a></li>
-			
-		</ul>
-	</li>
-	<li class="top"><a href="{{ site.url }}/careers">Careers</a></li>
-	<li class="top"><a href="{{ site.url}}/contact">Contact</a></li>
-	
-</ul>
-</nav>
-<span class="hamburger material-icons" id="ham"></span>
-<nav class="nav-drill">
-  <ul class="nav-items nav-level-1">
-    <li class="nav-item nav-expand">
-			<a class="nav-link nav-expand-link" href="#">
-				Capabilities
-			</a>
-			<ul class="nav-items nav-expand-content">
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.url }}/services">
-						Capabilities
-					</a>
-				</li>	
-						
-				<li class="nav-item nav-expand">
-					<a class="nav-link nav-expand-link" href="#">
-						Operations
-					</a>
-					<ul class="nav-items nav-expand-content">
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Operations">
-								Operations
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Performance-Improvement">
-								Performance Improvement
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Sales-and-Operations-Planning">
-								Sales &amp; Operations Planning
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Supply-Chain-Network-Optimization">
-								Supply Chain Network Optimization
-							</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav-item nav-expand">
-					<a class="nav-link nav-expand-link" href="#">
-						Corporate Finance &amp; Revenue Management
-					</a>
-					<ul class="nav-items nav-expand-content">
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Corporate-Finance-and-Revenue-Management">
-								Corporate Finance &amp; Revenue Management
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Cost-Management">
-								Cost Management
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Financial-Analytics">
-								Financial Analytics
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Quality-of-Revenue">
-								Quality of Revenue
-							</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav-item nav-expand">
-					<a class="nav-link nav-expand-link" href="#">
-						Mergers &amp; Acquisitions
-					</a>
-					<ul class="nav-items nav-expand-content">
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Mergers-and-Acquisitions">
-								Mergers &amp; Acquisitions
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Change-Management">
-								Change Management
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Post-Merger-Integration">
-								Post-Merger Integration
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Pre-Transaction-Readiness">
-								Pre-Transaction Readiness
-							</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav-item nav-expand">
-					<a class="nav-link nav-expand-link" href="#">
-						Digital Strategy &amp; Technology
-					</a>
-					<ul class="nav-items nav-expand-content">
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Digital-Strategy-and-Technology">
-								Digital Strategy &amp; Technology
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Automation">
-								Automation
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/IT-roadmap">
-								IT Roadmap
-							</a>
-						</li>
-					</ul>
-				</li>	
-				<li class="nav-item nav-expand">
-					<a class="nav-link nav-expand-link" href="#">
-						Organizational Design &amp; Alignment
-					</a>
-					<ul class="nav-items nav-expand-content">
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Organization-and-Human-Capital">
-								Organizational Design &amp; Alignment
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}services/Operating-Model-Design">
-								Operating Model Design
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Process-Design">
-								Process Design
-							</a>
-						</li>
-					</ul>
-				</li>	
-				<li class="nav-item nav-expand">
-					<a class="nav-link nav-expand-link" href="#">
-						Deliberate Thinking
-					</a>
-					<ul class="nav-items nav-expand-content">
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Deliberate-Thinking">
-								Deliberate Thinking
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Deliberate-Thinking-Workshop">
-								Deliberate Thinking Workshop
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.url }}/services/Online-Program">
-								Online Program
-							</a>
-						</li>
-					</ul>
-				</li>											
-			</ul>
-		</li>
-	
-    <li class="nav-item nav-expand">
-			<a class="nav-link nav-expand-link" href="#">
-				Industries
-			</a>
-			<ul class="nav-items nav-expand-content">
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.url }}/services">
-						Industries
-					</a>
-				</li>
-				{% assign ordered-expertise = site.expertise | sort:"order" %}
-				{% for expertise in ordered-expertise %}
-				<li class="nav-item">
-				    <a class="nav-link" href="{{site.url}}{{ expertise.url }}">{{ expertise.title }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</li>
-	<li class="nav-item">
-			<a class="nav-link" href="{{ site.url }}/insights">
-				Insights
-			</a>
-		</li>		
-    <li class="nav-item">
-			<a class="nav-link" href="{{ site.url }}/team">
-				The Team
-			</a>
-		</li>
-    <li class="nav-item">
-			<a class="nav-link" href="{{ site.url }}/advisory-partners">
-				Advisory Partners
-			</a>
-		</li>
-    <li class="nav-item">
-			<a class="nav-link" href="{{ site.url }}/careers">
-				Careers
-			</a>
-		</li>	
-    <li class="nav-item">
-			<a class="nav-link" href="{{ site.url}}/contact">
-				Contact
-			</a>
-		</li>					
-  </ul>
-</nav>
+<div id="desktop-navigation" class="hidden lg:flex flex items-center">
+  {% for item in site.data.header-navigation.main %}
+    {% assign is_current_page_flag = false %}
+    {% if page.url == item.url %}
+    {% assign is_current_page_flag = true %}
+    {% endif %}
+    {% assign sub_items = "" %}
+    {% if item.url == '/services' %}
+      {% if page.layout == "services" or page.layout == "service" or page.layout == "sub-service" %}
+        {% assign is_current_page_flag = true %}
+      {% endif %}
+      {% assign sub_items = site.services | sort: 'order' %}
+      {% assign sub_sub_items = site['sub-services'] | sort: 'order' %}
+    {% elsif item.url == '/industries' %}
+      {% if page.layout == "industries" or page.layout == "industry" or page.layout == "sub-industry" %}
+        {% assign is_current_page_flag = true %}
+      {% endif %}
+      {% assign sub_items = site.industries | sort: 'order' %}
+      {% assign sub_sub_items = site['sub-industries'] | sort: 'order' %}
+    {% elsif item.sub %}
+      {% assign sub_items = item.sub %}
+    {% endif %}
+    {% if sub_items != '' %}
+      {% assign num_sub_items = sub_items | size %}
+      {% if num_sub_items >= 4 %}
+        {% assign grid_num = 4 %}
+      {% else %}
+        {% assign grid_num = num_sub_items %}
+      {% endif %}
+      {% assign grid_class = "grid-cols-" | append: grid_num %}
+      <div id="desktop-navigation-item-{{ forloop.index }}" class="group content-center py-2 transition-all duration-300">
+        <a id="desktop-navigation-item-{{ forloop.index }}-button" href="{{ item.url }}" class="z-50 p-6 flex items-center justify-between hover:text-emerald dark:hover:text-forest" aria-expanded="false">
+          <span class="z-50">{{ item.title }}</span>
+          <i class="ml-2 z-50 fa-sharp fa-solid fa-angle-down"></i>
+        </a>
+        <span id="hover-indicator" class="relative bg-emerald dark:bg-forest group-hover:block w-auto rounded block h-1 mt-1 z-50 -mb-2 mx-6 {% unless is_current_page_flag %}hidden{% endunless %}"></span>
+        <div id="desktop-navigation-item-dropdown" class="transition-all duration-300 group-hover:block absolute left-0 top-full z-100 w-screen bg-white shadow-lg dark:bg-currant hidden">
+          <div id="desktop-navigation-item-{{ forloop.index }}-dropdown-content" class="mx-auto max-w-7xl grid {{ grid_class }} auto-rows-auto gap-2 pb-10">
+              {% for sub in sub_items %}
+                {% assign nested_items = "" %}
+                {% if item.url == '/services' %}
+                  {% assign nested_items = sub_sub_items | where: "parent", sub.title %}
+                {% elsif item.url == '/industries' %}
+                  {% assign nested_items = sub_sub_items | where: "parent", sub.title %}
+                {% endif %}
+                <div class="px-4 py-8">
+                  <a id="desktop-navigation-item-{{ forloop.index }}-dropdown-item-{{ forloop.index }}" class="hover:opacity-80 transition-all duration-300 text-xl text-{{ sub.color }}-700 dark:text-{{ sub.color }}-200" href="{{ sub.url }}">
+                    {% if sub.icon %}
+                    <i class="text-{{ sub.color }} dark:text-{{ sub.color }}-300 fa-sharp-duotone fa-solid mb-2 {{ sub.icon }}"></i>
+                    {% endif %}
+                    <p id="desktop-navigation-item-{{ forloop.index }}-dropdown-item-{{ forloop.index }}-title" class="text-xl mb-2">{{ sub.title }}</p>
+                  </a>
+                  {% if sub.info %}
+                  <p id="desktop-navigation-item-{{ forloop.index }}-dropdown-item-{{ forloop.index }}-info" class="text-sm opacity-80">{{ sub.info }}</p>
+                  {% endif %}
+                  {% if nested_items != '' %}
+                  <ul>
+                    {% for nested in nested_items %}
+                      <li id="desktop-navigation-item-{{ forloop.index }}-dropdown-item-{{ forloop.index }}-nested-item-{{ forloop.index }}" class="py-1"> <!-- Increased padding for more spacing -->
+                        <a class="hover:text-{{ sub.color }}-700 dark:hover:text-{{ sub.color }}-200" href="{{ nested.url }}">{{ nested.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+    {% else %}
+      <div class="group">
+        <a id="desktop-navigation-item-{{ forloop.index }}-button" href="{{ item.url }}" class="z-50 p-6 flex items-center justify-between hover:text-emerald dark:hover:text-forest" aria-expanded="false">
+          {{ item.title }}
+        </a>
+        <span id="hover-indicator" class="relative bg-emerald dark:bg-forest group-hover:block w-auto rounded block h-1 mt-1 z-50 -mb-2 mx-6 {% unless is_current_page_flag %}hidden{% endunless %}"></span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

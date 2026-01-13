@@ -1,126 +1,127 @@
-# Site wide configuration
+# Site settings
+title: SLKone
+email: hello@slkone.com
+description: SLKone is more than a consulting firm—we're your partner in translating complex business challenges into tangible results. 
+baseurl: ""
+url: "https://slkone.com"
+github_username: SLKone
+address: PO Box 15334 Plantation, FL 33318
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
-title: "SLKone"
-description: "People you can trust, results you can count on"
-logo: 
-teaser: 
-locale: en
-url: https://slkone.com
+# Feed settings
 feed:
   path: atom.xml
-
-# Google Analytics
-google_analytics: G-MWSSNXT0LX
-
-# Jekyll configuration
-
-sass:
-  sass_dir: _sass
-  style: compressed
-permalink: /:categories/:title/
-highlighter: rouge
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-
-plugins_dir:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-
-paginate: 5
-
+  
+# Collections
 collections:
+  articles:
+    output: true
   services:
     output: true
-  case-studies:
+  sub-services:
+    output: true
+  career:
+    output: true
+  case-study:
     output: true
   expertise:
     output: true
+  industries:
+    output: true
+  sub-industries:
+    output: true
   team-members:
     output: true
-  advisors:
-    output: true    
-  careers:
-    output: true 
-  newsletter:
-    output: true
-  tag:
-    output: true   
   contactpage:
-    output: true       
+    output: true    
 
+# Defaults
 defaults:
   - scope:
-      path: ""
+      path: "/services/"
       type: "services"
+      permalink: "/:title/"
     values:
-      layout: "services"  
+      layout: "service"
+      permalink: "/:title/"
   - scope:
-      path: ""
+      path: "/articles/"
+      type: "articles"
+      permalink: "/:title/"
+    values:
+      layout: "post"
+      permalink: "/:title/"
+  - scope:
+      path: "/sub-services/"
+      type: "sub-services"
+      permalink: "/:title/"
+    values:
+      layout: "sub-service"
+      permalink: "/:parent/:title/"
+  - scope:
+      path: "/industries/"
+      type: "industries"
+      permalink: "/:title/"
+    values:
+      layout: "industry"
+      permalink: "/:title/"
+  - scope:
+      path: "/sub-industries/"
+      type: "sub-industries"
+      permalink: "/:title/"
+    values:
+      layout: "sub-industry"
+      permalink: "/:parent/:title/"
+  - scope:
+      path: "/career/"
+      type: "career"
+    values:
+      layout: "career"
+      permalink: "/:title/"
+  - scope:
+      path: "/case-study/"
+      type: "case_studies"
+    values:
+      layout: "case_study"
+      permalink: "/:title/"
+  - scope:
+      path: "/expertise/"
       type: "expertise"
     values:
-      layout: "industry"         
+      layout: "expertise"
+      permalink: "/:title/"
   - scope:
-      path: ""
-      type: "case-studies"
-    values:
-      layout: "case-study"        
-  - scope:
-      path: ""
-      type: "team-members"
-    values:
-      layout: "team-member"  
-  - scope:
-      path: ""
-      type: "advisors"
-    values:
-      layout: "advisor"  
-  - scope:
-      path: ""
-      type: "careers"
-    values:
-      layout: "career-listing"    
-  - scope:
-      path: ""
-      type: "newsletter"
-    values:
-      layout: "newsletters" 
-  - scope:
-      path: ""
-      type: "tag"
-    values:
-      layout: "tag"   
-  - scope:
-      path: ""
+      path: "/contactpage/"
       type: "contactpage"
     values:
-      layout: "contactpage"                           
+      layout: "contactpage"
+      permalink: "/:title/"      
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
-include:
-  - .htaccess
+# Exclude from processing
 exclude:
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
   - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
+  - Gemfile.lock
   - node_modules
   - package.json
-  - spec
-  - tmp
+  - package-lock.json
+  - tailwind.config.js
+  - assets/css/tailwind.css
+  - postcss.config.js
+
+# Sass settings
+sass:
+  style: compressed
+
+# Include processed CSS
+include:
+  - assets/css/main.css

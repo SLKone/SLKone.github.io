@@ -1,9 +1,0 @@
-@keyframes wipe {
-  from { box-shadow: inset 53vw 0vw 25vw $base-color-dark;}
-  to   { box-shadow: inset 0vw 0vw 0vw $base-color-dark;}
-}
-
-@keyframes fadein {
-  from { opacity: 0}
-  to   { opacity: 1}
-}

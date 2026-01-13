@@ -1,6 +1,6 @@
 ---
-layout: case-collection
-title: "Case Studies by SLKone"
-subtitle: "Work That Speaks For Itself"
-intro: "We have years of delivering positive outcomes for our clients"
+layout: case-studies
+title: Case Studies
+permalink: /case-studies
+background_image: "/assets/images/backgrounds/case-studies.webp"
 ---
