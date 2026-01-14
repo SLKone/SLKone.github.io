@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Aanchit Nayak"
-job-title: Management Consultant
+job-title: Managing Consultant
 order: 12
 skills:
 - Organizations & Human Capital
