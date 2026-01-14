@@ -5,7 +5,7 @@ job-title: Management Consultant
 order: 11
 skills:
 - Data, Analytics, & Information Technology
-team-image: Hardeep.png
+team-image: Hardeep.jpg
 has-bio: N
 partner: N
 ---
