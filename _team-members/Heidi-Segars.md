@@ -5,7 +5,7 @@ job-title: Consultant
 order: 17
 skills:
 - Data, Analytics, & Information Technology
-team-image: Heidi-Segar.jpg
+team-image: Heidi-Segars.jpg
 has-bio: N
 partner: N
 ---
