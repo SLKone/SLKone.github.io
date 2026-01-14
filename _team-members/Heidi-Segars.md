@@ -1,6 +1,6 @@
 ---
 layout: team-member
-title:  "Heidi Segar"
+title:  "Heidi Segars"
 job-title: Consultant 
 order: 17
 skills:
