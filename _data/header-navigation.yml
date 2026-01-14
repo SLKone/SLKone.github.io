@@ -20,11 +20,6 @@ main:
       info: "SLK Catalyst Partners offers a structured framework of actionable solutions to help corporate and operating entities tackle complex challenges."
       icon: "assets/images/mark_catalyst.svg"
       color: forest
-    - title: Abyss Analytics
-      url: https://abyssanalytics.com
-      info: "Abyss Analytics is our trailblazing healthcare analytics company, leveraging data science and AI to tackle the industry's most complex challenges."
-      icon: "assets/images/mark_amalgam.svg"
-      color: abyss
 cta:
 - title: Contact Us
   url: /contact
