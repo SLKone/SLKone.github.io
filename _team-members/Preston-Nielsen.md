@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Preston Nielsen"
-job-title: Management Consultant
+job-title: Managing Consultant
 order: 10
 skills:
 - Finance & Accounting
