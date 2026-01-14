@@ -40,28 +40,6 @@ brands:
     link-text: "Explore SLK Catalyst Partners' solutions"
     link: "https://slkcatalystpartners.com"
     image: "/assets/images/backgrounds/slkcatalyst.webp"
-  - title: "Abyss Analytics"
-    subtitle: "Abyss Analytics is our trailblazing healthcare analytics company, leveraging data science and AI to tackle the industry's most complex challenges."
-    sections:
-      - title: "Our Solutions"
-        items:
-          - "PayorScope: Providing fast, cost-effective insights into healthcare reimbursement rates"
-          - "Advanced machine learning models for unstructured data normalization"
-      - title: "Key Features of PayorScope"
-        items:
-          - "Automated data extraction and processing"
-          - "Monthly data refreshes"
-          - "Scalable cloud infrastructure"
-          - "User-friendly reporting"
-      - title: "Applications"
-        items:
-          - "Enhance Due Diligence"
-          - "Strategic Benchmarking"
-          - "Optimize Prospecting"
-          - "Tailored Solutions for unique healthcare analytics needs"
-    link-text: "Discover Abyss Analytics' capabilities"
-    link: "https://abyssanalytics.com"
-    image: "/assets/images/backgrounds/abyss.webp"
 permalink: /brands
 redirects_from:
   - /deliberate-thinking/
