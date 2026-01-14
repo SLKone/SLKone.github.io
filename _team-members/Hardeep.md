@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Hardeep"
-job-title: Management Consultant 
+job-title: Managing Consultant 
 order: 11
 skills:
 - Data, Analytics, & Information Technology
