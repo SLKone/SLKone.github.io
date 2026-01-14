@@ -5,7 +5,7 @@ job-title: Consultant
 order: 16
 skills:
 - Data, Analytics, & Information Technology
-team-image: Rajeev-Rohira.png
+team-image: Rajeev-Rohira.jpg
 has-bio: N
 partner: N
 ---
