@@ -8,7 +8,7 @@ skills:
 - Business & Transformational Events
 - Data, Analytics, & Information Technology
 - Revenue & Sales
-team-image: Dustin-Fidaleo.jpg
+team-image: Dustin.Fidaleo.jpg
 has-bio: N
 partner: N
 ---
