@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Hannah Craig"
-job-title: Consultant 
+job-title: Managing Consultant 
 order: 14
 skills:
 - Data, Analytics, & Information Technology
