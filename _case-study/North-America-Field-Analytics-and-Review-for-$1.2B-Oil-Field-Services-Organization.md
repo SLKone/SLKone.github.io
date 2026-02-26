@@ -7,6 +7,8 @@ intro: Drove operational improvements of ~$9M per year by improving field labor 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/North-America-Field-Analytics-and-Review-for-$1.2B-Oil-Field-Services-Organization.jpg
+redirect_from:
+  - /case-study/North-America-Field-Analytics-and-Review-for-$1.2B-Oil-Field-Services-Organization.html
 ---
 
 #### Situation

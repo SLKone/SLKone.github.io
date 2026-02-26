@@ -8,18 +8,20 @@ authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 intro: Welcome to the second article in our series, “A Process for Business Transformation”.
 services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignment,Point-Solution-Applications,Business-Requirements,Digital-Strategy]
 tag: [Article, February 2021 Newsletter]
+redirect_from:
+  - /articles/A-Process-for-Business-Transformation-Process.html
 ---
 Welcome to the second article in our series, <a href="https://slkone.com/A-Process-for-Business-Transformation/">“A Process for Business Transformation”</a>. In this article, we will address the critical initial steps of transformation. These steps are designed to establish a comprehensive understanding of the activities and processes performed through-out an organization as well as set the foundation for subsequent transformation steps.
 
 Beyond traditional continuous improvement projects, transformations are undertaken to achieve a step change in organizational performance. But what does this mean?  Is there a universal definition that can be applied to the goal of transformations? The answer is both yes and no.
 
 <p align="center">
-  <img width="300" src="https://slkone.com/images/Transformation-Meme.jpg" alt="Transformation Meme">
+  <img width="300" src="/images/Transformation-Meme.jpg" alt="Transformation Meme">
 </p>
 
 While each organization will have a unique set of requirements for their transformation (e.g. improved agility, strategic alignment, better customer interface), the one thing all transformations have in common is a need to reduce operating costs to varying degrees and activity levels. However, this is where one of the most common pitfalls of business transformations occur. One of the highest cost line items for nearly every business is personnel costs. Naturally, the desire or need to reduce costs invariably turns to a discussion on reducing personnel. There are two levers managers can utilize to reduce cost, reduce unit cost (cost per hour), or reduce volume (hours). Strategies exist to address both, but we have found it more helpful to think in terms of work. Any initiative seeking to reduce costs in a business without first addressing how to reduce work is destined to fail.
 
-<img src="https://slkone.com/images/Transformation-Process.jpg" alt="Successful Transformations Graphic">
+<img src="/images/Transformation-Process.jpg" alt="Successful Transformations Graphic">
 
 #### Step 1. Activity Index
 
@@ -66,7 +68,7 @@ Once all the activities are indexed, it’s time to classify them into three buc
 <b>Core vs. Support</b> - Does the activity exist to directly deliver products or services, or does the activity indirectly support the business?
 
 <p align="center">
-  <img width="400" src="https://slkone.com/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic">
+  <img width="400" src="/images/Redudant-Activity.jpg" alt="Redundant Activity Graphic">
 </p>
 
 <b>Common Pitfalls</b>
@@ -90,7 +92,7 @@ Throughout our experience delivering business transformation and organization re
 Adding activities to a matrix of Complexity, Value-Add, and Volume will help to quickly identify potential action for activities as well as help quantify the impact those changes will have to the organization.
 
 <p align="center">
-  <img width="600" src="https://slkone.com/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic">
+  <img width="600" src="/images/Complexity-Volume-Chart.jpg" alt="Complexity by Volume Graphic">
 </p>
 
 <b>Common Pitfalls</b>
@@ -132,13 +134,13 @@ Process Mining, also known as Automated Business Process Discovery (ABPD), is a 
 **Directly Follows Analysis** – Describes the path articles take through the process, including time between events and volume
 
 <p align="center">
-  <img width="500" src="https://slkone.com/images/Tool-Highlight-1.jpg" alt="Tool Highlight Graphic 1">
+  <img width="500" src="/images/Tool-Highlight-1.jpg" alt="Tool Highlight Graphic 1">
 </p>
 
 **Petri Net Inducer** – Compares a defined process to an actual sequence, identifying non-conformance and non-defined steps
 
 <p align="center">
-  <img width="500" src="https://slkone.com/images/Tool-Highlight-2.jpg" alt="Tool Highlight Graphic 2">
+  <img width="500" src="/images/Tool-Highlight-2.jpg" alt="Tool Highlight Graphic 2">
 </p>
 
  </div>

@@ -7,6 +7,8 @@ subtitle: "How Ford Motor Company survived and thrived after the Great Recession
 newsletter: [June 2021 Newsletter]
 tags: [Newsletters, June 2021 Newsletter, Book Reviews]
 background_image: /assets/images/posts/Breakroom-Book-Review-American-Icon.jpg
+redirect_from:
+  - /articles/Breakroom-Book-Review-American-Icon.html
 ---
 
 Recounting the trying times of the American automotive industry following the Great Recession of 2008, <i>American Icon</i> by Bryce G. Hoffman explores the people, challenges, and strategies that allowed Ford Motor Company to avoid government bailouts, bankruptcy, and position itself to become one of the world’s most profitable automotive companies after the crisis. Hoffman, a managing consultant and journalist, followed Ford’s response consolidating what he had learned from Board Meeting notes, interviews, and research into one of the most compelling works of modern business nonfiction.

@@ -7,6 +7,8 @@ intro: Developed Sales, Inventory, and Operational Planning (SIOP) process, supp
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/SIOP-As-A-Service-for-a-$100M-Healthcare-Distribution-Platform.jpg
+redirect_from:
+  - /case-study/SIOP-as-a-Service-for-a-$100M-Healthcare-Distribution-Platform.html
 ---
 
 #### Situation

@@ -7,6 +7,8 @@ intro: Defining and measuring global market for a new product development in an 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Product-Development-and-Growth-Strategy-for-$1B-Chemicals-Organization.jpg
+redirect_from:
+  - /case-study/Product-Development-and-Growth-Strategy-for-1B-Chemicals-Organization.html
 ---
 
 #### Situation

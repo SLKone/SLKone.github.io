@@ -7,6 +7,8 @@ intro: Led a cross-functional project including Finance, IT, Procurement, and Op
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Information-Technology-Cost-of-Service-for-a-7.5B-Travel-and-Leisure-Company.jpg
+redirect_from:
+  - /case-study/Information-Technology-Cost-of-Service-for-a-7.5B-Travel-and-Leisure-Company.html
 ---
 
 #### Situation

@@ -7,6 +7,8 @@ intro: SLKone transformed an antiquated finance function from a transaction mana
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Cloud-based-Financial-Planning-&-Analysis-Solution-for-$100M-Software-As-A-Service-Company.jpg
+redirect_from:
+  - /case-study/Cloud-based-Financial-Planning-&-Analysis-Solution-for-$100M-Software-As-A-Service-Company.html
 ---
 
 #### Situation

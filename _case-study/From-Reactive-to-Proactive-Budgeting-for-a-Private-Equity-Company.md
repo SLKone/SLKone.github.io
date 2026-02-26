@@ -7,6 +7,8 @@ intro: SLKone drove performance with our ability to compare the expectations and
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/From-Reactive-to-Proactive-Budgeting-for-a-Private-Equity-Company.jpg
+redirect_from:
+  - /case-study/From-Reactive-to-Proactive-Budgeting-for-a-Private-Equity-Company.html
 ---
 
 #### Situation

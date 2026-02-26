@@ -7,6 +7,8 @@ intro: Performed detailed forensic financial and operational analysis to discove
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Regional-Profitability-Performance-Review-for-$1.2B-Oil-and-Gas-Organization-in-EU.jpg
+redirect_from:
+  - /case-study/Regional-Profitability-Performance-Review-for-$1.2B-Oil-and-Gas-Organization-in-EU.html
 ---
 
 #### Situation

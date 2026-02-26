@@ -7,6 +7,8 @@ intro: Assessed, stabilized and improved organizational structure and work order
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Operational-Stabilization.jpg
+redirect_from:
+  - /case-study/Operational-Stabilization-of-a-$100M-Medical-Repair-and-Maintenance-Organization.html
 ---
 
 #### Situation

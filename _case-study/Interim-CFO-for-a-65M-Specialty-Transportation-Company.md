@@ -7,6 +7,8 @@ intro: SLKone provided an interim CFO to drive strategic and operational executi
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Interim-CFO-for-a-65M-Specialty-Transportation-Company.jpg
+redirect_from:
+  - /case-study/Interim-CFO-for-a-65M-Specialty-Transportation-Company.html
 ---
 
 #### Situation

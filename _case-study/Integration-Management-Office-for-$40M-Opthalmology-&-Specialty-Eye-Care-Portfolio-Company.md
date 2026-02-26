@@ -7,6 +7,8 @@ intro: Creation of the Integration Management Office to assist in pre-close tran
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Integration-Management-Office-for-$40M-Opthalmology-&-Specialty-Eye-Care-Portfolio-Company.jpg
+redirect_from:
+  - /case-study/Integration-Management-Office-for-$40M-Opthalmology-&-Specialty-Eye-Care-Portfolio-Company.html
 ---
 
 #### Situation

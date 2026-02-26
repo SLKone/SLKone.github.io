@@ -6,6 +6,8 @@ subtitle: "Strategies for navigating challenges in business."
 background_image: /assets/images/posts/onward-upward.jpg
 authors: [Phil Lynch]
 tags: [Newsletters, November 2020 Newsletter, Monthly Edits]
+redirect_from:
+  - /articles/Onward-and-Upward-in-the-Face-of-Uncertainty.html
 ---
 
 Instead of focusing on the undeniable strain that COVID-19 has put on the global economy and its businesses since March of this year, we want to take a moment to share some positive observations as we enter the fourth quarter.

@@ -7,6 +7,8 @@ intro: Deployed within 1 week to provide interim management of FP&A department a
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Rapid-Deployment-of-Interim-FP&A-Director-for-$100M-Software-As-A-Service-Company.jpg
+redirect_from:
+  - /case-study/Rapid-Deployment-of-Interim-FP&A-Director-for-$100M-Software-As-A-Service-Company.html
 ---
 
 #### Situation

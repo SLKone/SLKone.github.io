@@ -7,6 +7,8 @@ intro: Conducted a holistic analysis of a recently acquired business to identify
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Remediation-and-Improvement-Roadmap-for-a-75M-Medical-Instruments-Company.jpg
+redirect_from:
+  - /case-study/Remediation-and-Improvement-Roadmap-for-a-75M-Medical-Instruments-Company.html
 ---
 
 #### Situation

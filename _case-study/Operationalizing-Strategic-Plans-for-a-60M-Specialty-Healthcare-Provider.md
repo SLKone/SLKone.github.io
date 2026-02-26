@@ -7,6 +7,8 @@ intro: SLKone facilitated and supported the Executive Leadership team with refin
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Operationalizing-Strategic-Plans-for-a-60M-Specialty-Healthcare-Provider.jpg
+redirect_from:
+  - /case-study/Operationalizing-Strategic-Plans-for-a-60M-Specialty-Healthcare-Provider.html
 ---
 
 #### Situation

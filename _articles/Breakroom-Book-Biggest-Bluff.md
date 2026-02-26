@@ -7,6 +7,8 @@ background_image: /assets/images/posts/whiteboard_biggestbluff.jpg
 authors: [Christopher Burton]
 newsletter: [February 2021 Newsletter]
 tags: [Newsletters, February 2021 Newsletter, Book Reviews]
+redirect_from:
+  - /articles/Breakroom-Book-Biggest-Bluff.html
 ---
 
 Have you ever felt the desire to start completely fresh? To become a verified novice in a new-to-you field? Maria Konnikova did. In her breakout book, <i>The Biggest Bluff: How I Learned to Pay Attention, Master Myself, and Win</i>, Konnikova, a Soviet-Russia born, Ivy-league trained psychologist and writer, tells the story of how she decided to leave academia to try her hand at poker and better understand the relationship between luck (or variance as she calls it) and skill.

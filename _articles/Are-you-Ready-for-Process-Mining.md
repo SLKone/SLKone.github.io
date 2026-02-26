@@ -7,6 +7,8 @@ services-performed: [Process-Design,Operations]
 background_image: /assets/images/posts/Are-You-Ready-For-Process-Mining.jpg
 tag: [Article,Process-Design,Operations]
 date: 2022-12-15
+redirect_from:
+  - /articles/Are-you-Ready-for-Process-Mining.html
 ---
 Process mining can address common business challenges and provide actionable value. Consider how your organization can benefit using the data in your ERP, CRM and other systems.
 

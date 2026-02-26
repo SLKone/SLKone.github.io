@@ -7,6 +7,8 @@ intro: SLKone collaborated with the internal leadership team to establish standa
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Organizational-Standardization-for-a-10B-Oil-and-Gas-Company.jpg
+redirect_from:
+  - /case-study/Organizational-Standardization-for-a-10B-Oil-and-Gas-Company.html
 ---
 
 #### Situation

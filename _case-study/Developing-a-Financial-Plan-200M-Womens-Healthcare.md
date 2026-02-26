@@ -8,6 +8,8 @@ team-size: 2 consultants
 project-length: 2 months
 tags: Featured
 background_image: /assets/images/case-studies/Developing-a-Financial-Plan-200M-Womens-Healthcare.jpg
+redirect_from:
+  - /case-study/Developing-a-Financial-Plan-200M-Womens-Healthcare.html
 ---
 
 #### Situation

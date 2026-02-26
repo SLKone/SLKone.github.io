@@ -7,6 +7,8 @@ background_image: /assets/images/posts/spotlight-dan-kowalski-new.jpg
 authors: [Kevin Gore]
 newsletter: [October 2020 Newsletter]
 tags: [Newsletters, October 2020 Newsletter, Spotlight Interviews, Deliberate-Thinking]
+redirect_from:
+  - /articles/Spotlight-Interview-Dan-Kowalski.html
 ---
 
 #### Business Development and Deliberate Thinking: An Interview with <a href="https://slkone.com/advisors/Dan-Kowalski/">Dan Kowalski</a>, SLKone Advisory Partner

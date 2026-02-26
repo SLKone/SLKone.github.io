@@ -7,6 +7,8 @@ intro: SLKone assisted the development of a granular, compliant revenue recognit
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Implementing-a-Financial-Plan-and-Revenue-Recognition-Model-for-a-200M-Womens-Healthcare.jpg
+redirect_from:
+  - /case-study/Implementing-a-Financial-Plan-and-Revenue-Recognition-Model-for-a-200M-Womens-Healthcare.html
 ---
 
 #### Situation

@@ -7,6 +7,8 @@ intro: In order to support a recent private-equity backed portfolio company acqu
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Interim-and-Surge-CFO-for-$75M-Specialty-Transportation-Company.jpg
+redirect_from:
+  - /case-study/Interim-and-Surge-CFO-for-$75M-Specialty-Transportation-Company.html
 ---
 
 #### Situation

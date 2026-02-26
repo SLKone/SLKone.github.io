@@ -7,6 +7,8 @@ intro: Ongoing enterprise initiatives and acquisitions required a focused leader
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Interim-VP-of-Projects-and-Integrations-for-$350M-Specialty-Healthcare-Services.jpg
+redirect_from:
+  - /case-study/Interim-VP-of-Projects-and-Integrations-for-$350M-Specialty-Healthcare-Services.html
 ---
 
 #### Situation

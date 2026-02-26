@@ -7,6 +7,8 @@ intro: After reviewing the operations of the organization, in alignment with fut
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Realigned-Operations-for-Product-Flow-75M-for-a-Specialty-Plastics-Packaging-Manufacturer.jpg
+redirect_from:
+  - /case-study/Realigned-Operations-for-Product-Flow-75M-for-a-Specialty-Plastics-Packaging-Manufacturer.html
 ---
 
 #### Situation

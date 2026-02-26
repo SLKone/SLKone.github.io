@@ -12,6 +12,7 @@ address: PO Box 15334 Plantation, FL 33318
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -46,64 +47,63 @@ collections:
 # Defaults
 defaults:
   - scope:
-      path: "/services/"
+      path: ""
       type: "services"
-      permalink: "/:title/"
     values:
       layout: "service"
-      permalink: "/:title/"
+      permalink: /services/:title/
   - scope:
-      path: "/articles/"
+      path: ""
       type: "articles"
-      permalink: "/:title/"
     values:
       layout: "post"
-      permalink: "/:title/"
+      permalink: /:collection/:title/
   - scope:
-      path: "/sub-services/"
+      path: ""
       type: "sub-services"
-      permalink: "/:title/"
     values:
       layout: "sub-service"
-      permalink: "/:parent/:title/"
+      permalink: /:parent/:title/
   - scope:
-      path: "/industries/"
+      path: ""
       type: "industries"
-      permalink: "/:title/"
     values:
       layout: "industry"
-      permalink: "/:title/"
+      permalink: /industries/:title/
   - scope:
-      path: "/sub-industries/"
+      path: ""
       type: "sub-industries"
-      permalink: "/:title/"
     values:
       layout: "sub-industry"
-      permalink: "/:parent/:title/"
+      permalink: /:parent/:title/
   - scope:
-      path: "/career/"
+      path: ""
       type: "career"
     values:
       layout: "career"
-      permalink: "/:title/"
+      permalink: /:title/
   - scope:
-      path: "/case-study/"
-      type: "case_studies"
+      path: ""
+      type: "case-study"
     values:
-      layout: "case_study"
-      permalink: "/:title/"
+      layout: "case-study"
+      permalink: /:collection/:title/
   - scope:
-      path: "/expertise/"
+      path: ""
       type: "expertise"
     values:
       layout: "expertise"
-      permalink: "/:title/"
+      permalink: /:title/
   - scope:
-      path: "/contactpage/"
+      path: ""
       type: "contactpage"
     values:
       layout: "contactpage"
-      permalink: "/:title/"      
+      permalink: /:title/
+  - scope:
+      path: "files"
+    values:
+      sitemap: false
   - scope:
       path: ""
     values:

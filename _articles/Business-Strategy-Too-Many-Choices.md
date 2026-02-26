@@ -7,6 +7,8 @@ newsletter: [July 2021 Newsletter]
 background_image: /assets/images/posts/Business-Strategy-Too-Many-Choices.jpg
 date: 2021-07-19
 subtitle: "Strategic Insights Amidst a Library of Options."
+redirect_from:
+  - /articles/Business-Strategy-Too-Many-Choices.html
 ---
 
 Dusting off my personal library over the weekend, I had a revelation: there were more business strategy books on my shelves than any other subject. Not surprising since, statistically-speaking, there are more books authored on the why, what, and how of business strategy than any other topic. Why so much supply? Likely because there is a voracious demand for more as the business world continues to search for a silver bullet strategy for success. Is it just a mirage? Have all these insightful writings by leaders and gurus fallen short of solving the riddle of business strategy? 

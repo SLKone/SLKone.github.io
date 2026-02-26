@@ -8,6 +8,8 @@ team-size: 2 consultants
 project-length: 2 months
 tags: Featured
 background_image: /assets/images/case-studies/Implementing-Adaptive-Insights-for-Streamlined-Reporting-100M-Software-As-A-Service.jpg
+redirect_from:
+  - /case-study/Implementing-Adaptive-Insights-for-Streamlined-Reporting-100M-Software-As-A-Service.html
 ---
 
 #### Situation

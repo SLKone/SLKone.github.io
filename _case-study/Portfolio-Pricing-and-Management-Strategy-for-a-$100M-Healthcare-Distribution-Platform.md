@@ -9,6 +9,8 @@ team-size: 2 consultants
 project-length: 2 months
 tags: Featured
 background_image: /assets/images/case-studies/Portfolio-Pricing-and-Management-Strategy-for-a-$100M-Healthcare-Distribution-Platform.jpg
+redirect_from:
+  - /case-study/Portfolio-Pricing-and-Management-Strategy-for-a-$100M-Healthcare-Distribution-Platform.html
 ---
 
 #### Situation

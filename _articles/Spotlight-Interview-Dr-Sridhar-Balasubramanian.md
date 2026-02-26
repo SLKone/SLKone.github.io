@@ -8,6 +8,8 @@ intro: "Peripheral Vision: An Interview with Dr. Sridhar Balasubramanian, SLKone
 background_image: /assets/images/posts/spotlight-drb_peripheralvision.jpg
 date: 2021-05-16
 subtitle: "How to develop peripheral vision in your organization."
+redirect_from:
+  - /articles/Spotlight-Interview-Dr-Sridhar-Balasubramanian.html
 ---
 
 #### Peripheral Vision: An Interview with <a href="https://slkone.com/advisors/Sridhar-Balasubramanian/">Dr. Sridhar Balasubramanian</a>, SLKone Advisory Partner and Professor of Marketing at Kenan Flagler Business School

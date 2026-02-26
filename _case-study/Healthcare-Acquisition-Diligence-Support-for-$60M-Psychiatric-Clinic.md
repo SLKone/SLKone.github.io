@@ -7,6 +7,8 @@ intro: Rapid assessment of the due diligence process for the healthcare acquisit
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Healthcare-Acquisition-Diligence-Support-for-$60M-Psychiatric-Clinic.jpg
+redirect_from:
+  - /case-study/Healthcare-Acquisition-Diligence-Support-for-$60M-Psychiatric-Clinic.html
 ---
 
 #### Situation

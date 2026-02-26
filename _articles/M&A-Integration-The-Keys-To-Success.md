@@ -8,6 +8,8 @@ authors: [Phil Lynch]
 intro: Combining two similar functional areas may seem like an easy task, but when it comes to mergers and acquisitions, the degree of an organization’s success often lies in the hands of its own personnel.
 services-performed: [Integration-Management]
 tag: [Article, Mergers-and-Acquisitions, Pre-Transaction-Readiness, Post-Merger-Integration, Change-Management]
+redirect_from:
+  - /articles/M&A-Integration-The-Keys-To-Success.html
 ---
 
 Combining two similar functional areas may seem like an easy task, but when it comes to mergers and acquisitions, the degree of an organization’s success often lies in the hands of its own personnel. 

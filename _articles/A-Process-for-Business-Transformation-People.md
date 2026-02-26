@@ -5,6 +5,8 @@ date: 2020-09-25
 subtitle: "Connecting activities to human capital for effective transformation."
 background_image: /assets/images/posts/A-Process-for-Business-Transformation-People.jpg
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
+redirect_from:
+  - /articles/A-Process-for-Business-Transformation-People.html
 ---
 
 Welcome to the third installment in our series, "A Process for Business Transformation". If you have not done so already, you can read our introduction article <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and our second article, outlining Step 1 through Step 4, <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a>. In these previous installments, we addressed the importance of understanding the value-add activities required to run a business, in other words, "what we need to do". Having established the base understanding of the activity environment, this transformation is ready to take its next steps.
@@ -25,7 +27,7 @@ This phase of the Process for Business Transformation is designed to facilitate 
 
 Outside of the immediate targeted improvement areas listed above, the act of linking people to activities opens a host of longer-term benefits to the organization. Among the more interesting is establishing a mechanism to reconcile the demand for certain competencies with the supply of those competencies within an organization. This can only occur through the link between activities that need to be performed and the roles that will perform them. 
 
-<img src="https://slkone.com/images/Transformation-People.jpg" alt="Successful Transformations Graphic">
+<img src="/images/Transformation-People.jpg" alt="Successful Transformations Graphic">
 
 #### Step 5. Generate Roles 
 
@@ -35,7 +37,7 @@ One of the most overlooked and least understood methods for effectively improvin
 
 Perhaps the most pervasive pitfall we see is creating a position before a role. When the process runs in reverse, the organization is put into a situation where the role that was created is searching for activities and responsibilities. It is in these situations where the risk of creating unnecessary roles or extraneous activities is highest. Roles should always be built from activities, not the other way around. This is commonly a result of existing organizational structures, instead of on the actual necessity of activities. Another common pitfall comes in a lack of designed standardization. Standardization across business units is a popular goal of business transformations but is often stalled by efforts to standardize a position rather than the roles. If you are finding it difficult to standardize a global organizational definition of a role this can often indicate a lack of process standardization and will need to be addressed. A lack of understanding or consideration of the supporting roles and players effecting a single role's commitments only serves to create confusion within the organization.
 
-<p align="center"><img src="https://slkone.com/images/Finance-and-Accounting-Graphic.jpg" alt="Finance and Accounting Graphic"></p>
+<p align="center"><img src="/images/Finance-and-Accounting-Graphic.jpg" alt="Finance and Accounting Graphic"></p>
 
 <b>Best Practices</b>
 
@@ -121,7 +123,7 @@ In defining activity volume and scope, the best results come when you keep your 
 We have finally reached the point of the transformation process where positions are created. The goal for this step is to incorporate roles into positions in a way that maximizes the utilization of each individual in the organization. This includes both consideration of total time requirements and efficiency in process. Some roles will share common information requirements that make them a natural fit together, while others may not seem like an ideal fit. As the business environment becomes ever more dynamic and cycles continue to shorten, organizations need to be able to adapt and respond quickly. It's for this reason, that we promote the concept of management by roles. The key enabler of role management is multirole positions. A constant issue we have encountered is a desire for standardization within an organization coming up against the unique business requirements and different pieces of the business experience. The common result is to create exceptions upon exceptions eventually reaching the point where the benefits of the organizational transformation are all but lost. Role standardization (separate from position standardization) allows the flexibility needed to both standardize the organization as well as respect unique business needs. Another common problem we encounter are organizations struggling to improve KPIs, such as Span of Control, Layers, etc. This issue is most often seen when attempting to apply a standardized structure to smaller markets, resulting in low spans of control. In these markets KPIs can be improved through multirole positions. 
 <br>
 <div class="emphasis" markdown="1">
- <p align="center"><img src="https://slkone.com/images/Finance-and-Accounting-Position-Map.jpg" alt="Finance and Accounting Position Map"><br>
+ <p align="center"><img src="/images/Finance-and-Accounting-Position-Map.jpg" alt="Finance and Accounting Position Map"><br>
  
  The example above describes a role that manages both accounting and finance roles for an organization.  This view allows management to assess the responsibilities and role allocation of a position that is created.</p><br>
 </div>
@@ -135,7 +137,7 @@ Organizations hire individuals to fill positions, but positions should never be 
 After consolidating roles efficiently and effectively into positions, the most successful organizations will establish a process of continual evaluation of activity, scope, roles, and positions. Activity volumes will change throughout the course of business, either directly from business activity or through continuous improvement plans. The ability to quickly consider both real and prospective changes in activity allow these organizations to both respond quickly as well as improve planning. Finally, linking inputs all the way through the process, enables personnel resource planning to be taken to the next level. You have likely seen skills matrices before, but these often only provide the supply side of the equation for personnel planning. By defining competencies at the activity-level, organizations can use the transitive nature of the process to define the demand side of personnel resourcing.
 <br>
 <div class="emphasis" markdown="1">
- <p align="center"><img src="https://slkone.com/images/Skills-Matrices.jpg" alt="Skills Matrices"><br>
+ <p align="center"><img src="/images/Skills-Matrices.jpg" alt="Skills Matrices"><br>
  
  The process allows for the assessment of organizational fitness with respect to the needs of the business.</p><br>
 </div>

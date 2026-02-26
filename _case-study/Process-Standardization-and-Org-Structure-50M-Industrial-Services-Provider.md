@@ -8,6 +8,8 @@ team-size: 2 consultants
 project-length: 2 months
 tags: Featured
 background_image: /assets/images/case-studies/Process-Standardization-and-Org-Structure-50M-Intustrial-Services-Provider.jpg
+redirect_from:
+  - /case-study/Process-Standardization-and-Org-Structure-50M-Industrial-Services-Provider.html
 ---
 
 #### Situation

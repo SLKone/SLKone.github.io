@@ -7,6 +7,8 @@ intro: SLKone reviewed, defined, and developed a formal go-to-market approach fo
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Go-to-Market-Approach-for-Sales-Organization-for-a-2B-Building-Products-Manufacturer.jpg
+redirect_from:
+  - /case-study/Go-to-Market-Approach-for-Sales-Organization-for-a-2B-Building-Products-Manufacturer.html
 ---
 
 #### Situation

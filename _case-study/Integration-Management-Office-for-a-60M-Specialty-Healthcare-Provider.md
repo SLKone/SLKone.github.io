@@ -7,6 +7,8 @@ intro: SLKone developed and staffed the Integration Management Office for the me
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Integration-Management-Office-for-a-60M-Specialty-Healthcare-Provider.jpg
+redirect_from:
+  - /case-study/Integration-Management-Office-for-a-60M-Specialty-Healthcare-Provider.html
 ---
 
 #### Situation

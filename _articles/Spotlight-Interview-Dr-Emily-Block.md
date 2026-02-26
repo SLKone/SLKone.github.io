@@ -7,6 +7,8 @@ background_image: /assets/images/posts/spotlight-emilyblock-new.jpg
 authors: [Kevin Gore]
 newsletter: [November 2020 Newsletter]
 tags: [Newsletters, November 2020 Newsletter, Spotlight Interviews]
+redirect_from:
+  - /articles/Spotlight-Interview-Dr-Emily-Block.html
 ---
 
 #### Business as a Science: An Interview with <a href="https://slkone.com/advisors/Emily-Block/">Dr. Emily Block</a>, SLKone Advisory Partner

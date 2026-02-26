@@ -7,6 +7,8 @@ intro: Defining and building dashboards and analytics that support strategic ini
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Regional-Performance-Dashboard-for-a-1.2B-Oil-Field-Services-Organization.jpg
+redirect_from:
+  - /case-study/Regional-Performance-Dashboard-for-a-1.2B-Oil-Field-Services-Organization.html
 ---
 
 #### Situation

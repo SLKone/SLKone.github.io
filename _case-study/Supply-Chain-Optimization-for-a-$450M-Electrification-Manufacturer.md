@@ -7,6 +7,8 @@ intro: Develop supply chain strategy based on opportunities to reduce operationa
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Supply-Chain-Optimization-for-a-$450M-Electrification-Manufacturer.jpg
+redirect_from:
+  - /case-study/Supply-Chain-Optimization-for-a-$450M-Electrification-Manufacturer.html
 ---
 
 #### Situation

@@ -5,6 +5,8 @@ date: 2021-01-13
 subtitle: "Integrating digital transformation into business processes."
 background_image: /assets/images/posts/A-Process-for-Business-Transformation-Systems.jpg
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
+redirect_from:
+  - /articles/A-Process-for-Business-Transformation-Systems.html
 ---
 This is the fourth and final installment of our "Process for Business Transformation" series. If you've not already read the earlier installments, our introductory article can be found <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and additional supporting articles on process and people can be found <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a> and <a href="https://slkone.com/A-Process-for-Business-Transformation-People/">here</a>. 
 
@@ -18,7 +20,7 @@ Digital systems have various purposes in business transformation. For the sake o
 
 Through one of these three uses, our goal is to drive performance in an organization by reducing the time to complete any given activity, improve the consistency of an output, or lower the cost of "labor" required to perform the activity.
 
-<img src="https://slkone.com/images/Transformation-Tools.jpg" alt="Successful Transformations Graphic">
+<img src="/images/Transformation-Tools.jpg" alt="Successful Transformations Graphic">
 
 In the next process steps, we will cover some key considerations and linkages to the larger Business Transformation process for Digital tool design and implementation. 
 
@@ -136,7 +138,7 @@ Good blueprints are drafted in coordination with change and communication manage
 
 Transformation efforts succeed when the blueprint becomes a safe environment for two-way communication versus a one-way mouthpiece for the leadership. Getting employee feedback on the blueprint and acknowledging this feedback through blogs and other forms of outreach is a productive approach that improves the success of the transformation in the implementation phase and keeps all stakeholders at ease.   
 
-<img src="https://slkone.com/images/driving-business-performance.JPG" alt="Successful Transformations Chart">
+<img src="/images/driving-business-performance.JPG" alt="Successful Transformations Chart">
 
 #### Conclusion
 

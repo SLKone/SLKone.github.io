@@ -6,6 +6,8 @@ subtitle: "Embracing new consulting paradigms."
 background_image: /assets/images/posts/hybrid-consulting.jpg
 authors: [Phil Lynch]
 tags: [Newsletters, January 2021 Newsletter, Monthly Edits]
+redirect_from:
+  - /articles/The-Future-is-Now-with-Hybrid-Consulting-Models.html
 ---
 The archetype of a consultant is one of a road warrior. Wake up early on a Monday morning to catch a flight only to return late Thursday or Friday after spending countless hours on a client-site. It has been a badge of honor that I liken to a militaristic mindset of “only being happy only when you’re miserable”. However, that is not the SLKone model, and that differentiator is what attracted me to this organization in the first place. 
 
@@ -25,7 +27,7 @@ SLKone believes its’ ethos of bespoke solutions will be a guiding principle to
 
 There is no substituting an in-person meeting, so business development opportunities fall in the travel zone. We have defined four quadrants for this exercise consisting of the “type of work” and “learning style” required to derive sufficient value from interaction. Non-visual tasks are defined as those that do not require real-world/in-person presence. For example, reviewing marketing reports, executing analysis, and checking in on progress probably does not require being on-site. Visual tasks are the opposite with sufficient value only derived in person. Examples include evaluating roofline utilization at a facility or understanding the daily activities of a field technician. Work that requires spatial or physical understanding justifies travel. Otherwise, it merits a closer look.  
 
-<img src="https://slkone.com/images/figure.jpg" alt="Travel Justification Graphic">
+<img src="/images/figure.jpg" alt="Travel Justification Graphic">
 
 Activities like strategy and brain-storming sessions, especially early on in projects, are invaluable in-person experiences. Team building, ideation, and getting a “feel” for the room cannot be replicated by remote work. This is when it is most important to “get it right” as alignment on objectives, issues, and strategy define go-forward options. As projects progress, however, scopes and relationships become more solidified and collaboration is simplified through remote tools. Therefore, unless you are in the critical beginning of the project or working on an individual task, travel may not be necessary. 
 

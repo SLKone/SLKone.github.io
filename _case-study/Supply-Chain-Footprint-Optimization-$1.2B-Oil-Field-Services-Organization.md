@@ -7,6 +7,8 @@ intro: Leverage machine learning and decision science methods to plan, pressure 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Supply-Chain-Footprint-Optimization-1.2B-Oil-Field-Services-Organization.jpg
+redirect_from:
+  - /case-study/Supply-Chain-Footprint-Optimization-$1.2B-Oil-Field-Services-Organization.html
 ---
 
 #### Situation

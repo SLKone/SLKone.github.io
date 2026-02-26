@@ -7,6 +7,8 @@ intro: Complexity within Products, Customers and Markets divides organizational 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Reducing-Sales-Channel-Complexity-for-a-1B-Oil-Field-Service-Organization-in-Latin-America.jpg
+redirect_from:
+  - /case-study/Reducing-Sales-Channel-Complexity-for-a-1B-Oil-Field-Service-Organization-in-Latin-America.html
 ---
 
 #### Situation

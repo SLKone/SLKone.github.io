@@ -7,6 +7,8 @@ intro: SLKone helped drive an evolutionary, data-driven approach to Revenue Cycl
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Revenue-Cycle-Management-Reporting-Suite-for-a-200M-Womens-Healthcare.jpg
+redirect_from:
+  - /case-study/Revenue-Cycle-Management-Reporting-Suite-for-a-200M-Womens-Healthcare.html
 ---
 
 #### Situation

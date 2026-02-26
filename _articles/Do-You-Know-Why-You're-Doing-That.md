@@ -7,6 +7,8 @@ newsletter: [March 2021 Newsletter]
 background_image: /assets/images/posts/why-are-you-doing-that.jpg
 date: 2021-03-16
 subtitle: "Reassessing processes to ensure they are still aligned with the organization's goals."
+redirect_from:
+  - /articles/Do-You-Know-Why-You're-Doing-That.html
 ---
 At SLKone, we’re big fans and proponents of process. With smart, routine processes in place, organizations can drive efficiency through standardization to save time, eliminate errors, and create lasting impressions on customers, thereby setting themselves up for success. As such, process is one of the first things we ask about when working through any business challenge or consideration. You can find further evidence of our passion for process in our newsletters and website, where we’ve examined the topic at length, including reviews on process mining and proper implementation. This piece, however, is intended to challenge our thoughts in a different way.
 

@@ -7,6 +7,8 @@ services-performed: [Complexity-Reduction,Leadership-Coaching-and-Leadership-Fac
 background_image: /assets/images/posts/Recession-an-Opportunity-for-Business-2023.jpg
 tag: [Article]
 date: 2023-02-06
+redirect_from:
+  - /articles/Recession-an-Opportunity-for-Business-2023.html
 ---
 
 Recession clouds are looming over the 2023 business horizon. The prevailing recessionary indicators do not fit exactly into classic economics—yet there is a real threat that we will soon talk our way into recession. While hunkering down to ride it out is a valid option, it is not a winning strategy.  
