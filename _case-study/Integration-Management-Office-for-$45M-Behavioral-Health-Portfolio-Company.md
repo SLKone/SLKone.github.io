@@ -7,6 +7,8 @@ intro: Establishment and facilitation of the Integration Management Office (IMO)
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Integration-Management-Office-for-$45M-Behavioral-Health-Portfolio-Company.jpg
+redirect_from:
+  - /case-study/Integration-Management-Office-for-$45M-Behavioral-Health-Portfolio-Company.html
 ---
 
 #### Situation

@@ -7,6 +7,8 @@ intro: Better control C&B and overtime spend through the implementation analytic
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Personnel-Utilization-Tracking-1.2B-Oil-Field-Services-Organization.jpg
+redirect_from:
+  - /case-study/Personnel-Utilization-Tracking-$1.2B-Oil-Field-Services-Organization.html
 ---
 
 #### Situation

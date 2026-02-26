@@ -7,6 +7,8 @@ intro: A lack of understanding and delineation of Sourcing and Procurement activ
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Sourcing-and-Procurement-Evolution-for-a-12B-Oil-Field-Services-Organization.jpg
+redirect_from:
+  - /case-study/Sourcing-and-Procurement-Evolution-for-a-12B-Oil-Field-Services-Organization.html
 ---
 
 #### Situation

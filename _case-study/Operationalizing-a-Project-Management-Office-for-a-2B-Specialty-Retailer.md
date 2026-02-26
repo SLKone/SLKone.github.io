@@ -7,6 +7,8 @@ intro: SLKone helped organizations realize the benefits of an intended project, 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Operationalizing-a-Project-Management-Office-for-a-2B-Specialty-Retailer.jpg
+redirect_from:
+  - /case-study/Operationalizing-a-Project-Management-Office-for-a-2B-Specialty-Retailer.html
 ---
 
 #### Situation

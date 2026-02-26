@@ -7,6 +7,8 @@ intro: Realignment of business unit leadership reporting structure and role clar
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Leadership-Organization-Design-for-$10B-Oil-&-Gas-Organization.jpg
+redirect_from:
+  - /case-study/Leadership-Organization-Design-for-$10B-Oil-&-Gas-Organization.html
 ---
 
 #### Situation

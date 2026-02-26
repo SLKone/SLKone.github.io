@@ -7,6 +7,8 @@ tags: [Newsletters, March 2021 Newsletter, Spotlight Interviews]
 background_image: /assets/images/posts/spotlight-shanjegatheeswaran-new.jpg
 date: 2021-03-16
 subtitle: "The future of digital in the oil and gas industry."
+redirect_from:
+  - /articles/Spotlight-Interview-Shan-Jegatheeswaran.html
 ---
 
 Shan Jegatheeswaran is the SVP of Digital for the Oil Field Services business unit at Baker Hughes Company. SLKone has known Shan for many years, and we have always been inspired by his visionary ideas to reinvent the business environment using technology. Shan began his career in sales at GE Capital and then spent time across multiple GE businesses in Finance and Transformation roles.  We recently interviewed Shan to get his perspective on his career and how he thinks digital will impact corporations in the future.  These views are his own and not representative of any organization or entity.

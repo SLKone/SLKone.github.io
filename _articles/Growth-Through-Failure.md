@@ -7,6 +7,8 @@ newsletter: [May 2021 Newsletter]
 background_image: /assets/images/posts/growth-through-failure.jpg
 date: 2021-05-16
 subtitle: "How failure can be a good thing when handled appropriately."
+redirect_from:
+  - /articles/Growth-Through-Failure.html
 ---
 I recently experienced a quintessential consultant failure. The project was interesting. The client was engaged, responsive, and supportive. The data was clean. The team was in sync and productive. The work product was so good, the client immediately signed us up for another engagement with several more on the horizon. It was a grand slam for the team, but I personally struck out.
 

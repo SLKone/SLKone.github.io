@@ -7,6 +7,8 @@ intro: SLKone assisted the development of a granular, compliant revenue recognit
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Financial-Planning-for-Insights-for-a-80M-Software-As-A-Service-Company.jpg
+redirect_from:
+  - /case-study/Financial-Planning-for-Insights-for-a-80M-Software-As-A-Service-Company.html
 ---
 
 #### Situation

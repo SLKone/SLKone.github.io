@@ -7,6 +7,8 @@ intro: SLKone assisted the Chief Financial Officer and Vice President of Sales t
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Sales-Incentive-Program-and-Budget-100M-Software-Provider.jpg
+redirect_from:
+  - /case-study/Sales-Incentive-Program-and-Budget-100M-Software-Provider.html
 ---
 
 #### Situation

@@ -7,6 +7,8 @@ tag: [Article, June 2021 Newsletter, Sales-and-Operatings-Planning, Financial-An
 background_image: /assets/images/posts/Developing-a-SaaS-Sales-Incentive-Plan.jpg
 date: 2021-06-15
 subtitle: "Innovative Strategies for Maximizing SaaS Sales Performance."
+redirect_from:
+  - /articles/Developing-a-SaaS-Sales-Incentive-Plan.html
 ---
 
 #### INTRODUCTION
@@ -21,7 +23,7 @@ The first step in designing a new SIP is to align the structure of the plan with
 
 Once you have defined objectives, establishing standard roles and responsibilities is key to effectuating growth. To avoid complexity within the sales organization, we find it beneficial to start with a few building block positions and expand roles as the business grows. Core roles to any sales department are:
 
-<img src="https://slkone.com/images/SaaS-table1.jpg" alt="SaaS Roles and Responsibilities Table">
+<img src="/images/SaaS-table1.jpg" alt="SaaS Roles and Responsibilities Table">
 
 As the business scales, you can introduce junior or senior titles, such as Senior Account Executive or Enterprise Account Executive, who would be responsible for larger accounts and strategic contracts. Clear responsibilities for each of these roles is vital and additional consideration should be given to a threshold for key accounts, which role handles renewals to ensure a sale centric personality is involved, and the transition of leads to AE’s. Once your roles and responsibilities are decided, you should align a compensation structure to match and establish key variable drivers for commission.
 
@@ -43,13 +45,13 @@ The first decision, with regard to timing, should be choosing between bookings o
 
 While the sales plan needs to be easy to understand, it also needs to be beneficial for both the sales representative and the company. To achieve this balancing act, we find a tiered commission structure to be the most effective. The tiered structure entails an increasing commission rate as each tier is filled by the rep, reaching closer to their quota. In the table below, we have laid out a common AE base commission rate of 12.5% derived from a quota of $800K and an OTI of $100K. In this scenario, the first $200K (25% of quota) would be paid out at a 7.5% commission rate and accelerates in excess of the standard 12.5% rate as the rep reaches quota attainment.
 
-<img src="https://slkone.com/images/SaaS-figure1.jpg" alt="Commission Rate and Quota Attained Graphic">
+<img src="/images/SaaS-figure1.jpg" alt="Commission Rate and Quota Attained Graphic">
 
 Using this approach, sales representatives who are high performers will be rewarded while underperformers will be penalized by the lower commission rates in the earlier tiers. High performers are also encouraged by no-cap commissions and the rate continues to accelerate beyond 100% attainment of their quota. In totality, it is more cost effective to reward your outperformers than to hire or maintain additional lower performing sales reps.
 
 The following table demonstrates the advantage of a tiered system using the assumptions from the previous scenario (OTI $100,000; Quota $800,000):
 
-<img src="https://slkone.com/images/SaaS-table2.jpg" alt="Tiered System Table">
+<img src="/images/SaaS-table2.jpg" alt="Tiered System Table">
 
 As you can see, if a sales rep only attains 50% of their quota, OTI payout will be $10K less than in a linear commission structure. Accelerator percentages may be tweaked to increase or decrease the impact to OTI, but the outcome should remain where underperformers are compensated less if they do not achieve their targets.
 

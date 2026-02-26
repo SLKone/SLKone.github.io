@@ -8,6 +8,8 @@ team-size: 2 consultants
 project-length: 2 months
 tags: Featured
 background_image: /assets/images/case-studies/Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company.jpg
+redirect_from:
+  - /case-study/Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company.html
 ---
 
 #### Situation

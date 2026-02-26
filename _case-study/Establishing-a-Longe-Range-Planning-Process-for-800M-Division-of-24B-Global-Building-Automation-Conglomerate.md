@@ -7,6 +7,8 @@ intro: Establishing and managing a complete Long-Range Planning ("LRP") process 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Establishing-a-Longe-Range-Planning-Process-for-800M-Division-of-24B-Global-Building-Automation-Conglomerate.jpg
+redirect_from:
+  - /case-study/Establishing-a-Longe-Range-Planning-Process-for-800M-Division-of-24B-Global-Building-Automation-Conglomerate.html
 ---
 
 #### Situation

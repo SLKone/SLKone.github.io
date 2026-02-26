@@ -7,6 +7,8 @@ intro: SLKone reviewed and assessed the adequacy of a partially installed system
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Failed-Implementation-Review-110M-Food-Manufacturer.jpg
+redirect_from:
+  - /case-study/Failed-Implementation-Review-110M-Food-Manufacturer.html
 ---
 
 #### Situation

@@ -8,6 +8,8 @@ tag: [Article, May 2021 Newsletter, Operating-Model-Design, Organization-and-Hum
 background_image: /assets/images/posts/world-of-KPIs.jpeg
 date: 2021-05-16
 subtitle: "How to survive in a world of KPIs."
+redirect_from:
+  - /articles/How-to-Survive-in-a-World-of-KPIs.html
 ---
 
 #### Background
@@ -43,7 +45,7 @@ The art of developing effective KPIs starts with clear strategic objectives and 
 
 #### Steps for effective KPI development:
 
-<img src="https://slkone.com/images/world-of-KPIs_figure1.jpg" alt="steps for effective KPIs graphic">
+<img src="/images/world-of-KPIs_figure1.jpg" alt="steps for effective KPIs graphic">
 
 Additional consideration in creating, implementing, and monitoring KPIs should be given to linked roles and responsibilities. There may be instances when a KPI supports a different functional area. Clear responsibilities should be determined on who owns, maintains, and monitors KPIs. This too may come from a separate functional area and should have linkage to the groups who are key to the KPI itself.
 
@@ -65,7 +67,7 @@ As useful and insightful as predictive metrics are, they can be complex to devel
 
 The Inverted U Theory, also known as the Yerkes-Dodson Law, can teach a lesson in the importance of choosing the right quantity of KPIs to deploy. The Inverted U Theory illustrates the relationship between pressure and performance and explains how to find the optimal level of positive pressure at which people perform their best. Too much or too little pressure can decrease performance. Replace “pressure” with “quantity of KPIs” and you will find the same effects on performance. As mentioned earlier, between five and seven KPIs is ideal for any individual display. Too few and you are not maximizing your resource’s bandwidth. Too many and you are likely introducing too much noise and not are aligned to your key objectives.<sup>1</sup>
 
-<img src="https://slkone.com/images/world-of-KPIs_figure2.jpg" alt="area of best performance graphic">
+<img src="/images/world-of-KPIs_figure2.jpg" alt="area of best performance graphic">
 
 Just as easily as KPIs can develop best practices and improve processes, they can promote bad behavior like tunnel vision and cross-functional friction. When one is focused on a certain aspect or activity, it opens the door to deviation from the main objective. For example, we can get good at tracking our throughput and efficiency, but what if we are missing the fact that the overall order book is dropping? This kind of thinking leads to blindness of external factors affecting the business and hampers efficient problem solving. Only considering internal factors as the cause of variance wastes valuable time and resources. If your personnel have tunnel vision, it means they are not using KPIs as a means to the answer but as the answer itself. 
 

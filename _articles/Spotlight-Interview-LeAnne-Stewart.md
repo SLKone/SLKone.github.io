@@ -7,6 +7,8 @@ tags: [Newsletters, September 2021 Newsletter, Spotlight Interviews]
 background_image: /assets/images/posts/spotlight-leannestewart.jpg
 date: 2021-09-15
 subtitle: "A special spotlight interview focused on rebranding, pivoting, adapting, and growing – both personally and professionally."
+redirect_from:
+  - /articles/Spotlight-Interview-LeAnne-Stewart.html
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PeoGW6_B7R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

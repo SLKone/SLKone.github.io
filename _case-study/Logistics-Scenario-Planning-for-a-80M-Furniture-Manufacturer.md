@@ -7,6 +7,8 @@ intro: SLKone developed models and scenarios to optimize the distribution footpr
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Logistics-Scenario-Planning-for-a-80M-Furniture-Manufacturer.jpg
+redirect_from:
+  - /case-study/Logistics-Scenario-Planning-for-a-80M-Furniture-Manufacturer.html
 ---
 
 #### Situation

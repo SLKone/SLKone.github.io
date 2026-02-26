@@ -7,6 +7,8 @@ intro: Facilitated performance improvement 'kaizen' resulting in long-term impro
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Long-term-Manufacturing-Program-Improvements-for-a-Leading-Aerospace-and-Defense-Supplier.jpg
+redirect_from:
+  - /case-study/Long-term-Manufacturing-Program-Improvements-for-a-Leading-Aerospace-and-Defense-Supplier.html
 ---
 
 #### Situation

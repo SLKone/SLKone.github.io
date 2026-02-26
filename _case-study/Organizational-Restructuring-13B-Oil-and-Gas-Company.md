@@ -7,6 +7,8 @@ intro: Inconsistent organizational distribution across regions and product lines
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Organizational-Restructuring-13B-Oil-and-Gas-Company.jpg
+redirect_from:
+  - /case-study/Organizational-Restructuring-13B-Oil-and-Gas-Company.html
 ---
 
 #### Situation

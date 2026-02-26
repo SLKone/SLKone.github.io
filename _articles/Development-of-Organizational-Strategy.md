@@ -8,6 +8,8 @@ tag: [Article, July 2021 Newsletter, Organization-and-Human-Capital, Process-Des
 background_image: /assets/images/posts/Development-of-Organizational-Strategy.jpg
 date: 2021-07-19
 subtitle: "Building Blocks for Effective Strategy Development."
+redirect_from:
+  - /articles/Development-of-Organizational-Strategy.html
 ---
 
 #### Introduction
@@ -63,7 +65,7 @@ The final aspect of developing an operational strategy is bringing all the above
 
 The best planning outlines why pursuing a strategy is not just beneficial to the vision, but also has compounding positive impacts on other management objectives. A simple example is a plan aimed at diversifying the makeup of a company’s market-base. The company would not pursue this strategy at all costs, such as investing all available cash or forsaking its current customer base in chase of a new one. Instead, a practical strategic plan might call for marketing efforts combined with product developments that coexist with the current market base and can have a compounding effect towards the greater goal. A sound strategic plan is the roadmap that not only provides the shortest route from point A to point B but like a real-world situation provides alternative routes to navigate through the interactions between external and internal business dynamics without losing sight of the ultimate destination.
 
-<img src="https://slkone.com/images/org-strategy_figure1.jpg" alt="Org Strategy Graphic">
+<img src="/images/org-strategy_figure1.jpg" alt="Org Strategy Graphic">
 
 Piecing situational awareness, vision and objective setting, and comprehensive planning together should serve as the mechanisms for formulating an effective organizational strategy. If you would like assistance creating a strategic plan for your company, please reach out at hello@slkone.com! 
 

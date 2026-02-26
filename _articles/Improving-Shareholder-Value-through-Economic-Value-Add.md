@@ -7,12 +7,14 @@ newsletter: [November 2021 Newsletter]
 background_image: /assets/images/posts/EVA-shareholder-value.jpg
 subtitle: Maximizing Returns through Strategic Capital Deployment and Economic Value Add
 date: 2021-11-17
+redirect_from:
+  - /articles/Improving-Shareholder-Value-through-Economic-Value-Add.html
 ---
 Over the last few years, Private Equity (PE) firms have seen exceptional returns on their portfolios and, coupled with an influx of investor capital into these firms, we have seen mergers and acquisitions (M&A) transactions grow significantly. According to data gathered from S&P Capital IQ, the last three months (Jul’21 – Sep’21) aggregated deal amount for US private equity investments totaled $243B in 2,841 transactions for an average deal size of $85M. Compare this to the same period in 2019 where the aggregated deal amount was $78.5B with an average deal size $45M, this represents a ~3X growth in M&A transaction dollar volume and a 90% growth in the average deal size. There are undoubtedly several factors for this increase in transaction volume, but one major driving force of attraction to the PE space is the excess returns when compared to public equity indexes such as the S&P or DJIA. 
 
 As shown in the table below with data as of March 2018, Cambridge Associates conducted a study on 1,500 private equity funds including buyout, growth equity, and subordinated capital funds, and compared their returns to common indices.<sup>1</sup>
 
-<img src="https://slkone.com/images/EVA-index.jpg" alt="Data for Strategy Success Graphic">
+<img src="/images/EVA-index.jpg" alt="Data for Strategy Success Graphic">
 
 Generally speaking, the private equity index outperformed other common indices, but this becomes even more solidified as we look at longer time-horizons. So, how do private equity funds consistently deliver higher returns and assure that they are maximizing shareholder value? As a proven partner to numerous private equity companies, we believe measuring Economic Value Add (EVA) and focusing on improved performance of this metric delivers the best results.
 

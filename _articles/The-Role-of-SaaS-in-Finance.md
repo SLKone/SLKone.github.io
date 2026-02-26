@@ -7,6 +7,8 @@ newsletter: [June 2021 Newsletter]
 background_image: /assets/images/posts/Role-of-Finance-in-SaaS.jpg
 date: 2021-06-15
 subtitle: "Navigating Financial Innovation in the SaaS Landscape."
+redirect_from:
+  - /articles/The-Role-of-SaaS-in-Finance.html
 ---
 
 The SaaS industry has exploded with the advancement and proliferation of technology over the past 20 years. Through its short history, it has developed a reputation for hyper-growth, casual attire, and expensive cities. However, one of the most interesting developments has been the industry-wide culture of challenging the status quo of corporate hierarchies.

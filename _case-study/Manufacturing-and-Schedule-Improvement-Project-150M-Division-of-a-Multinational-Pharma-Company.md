@@ -7,6 +7,8 @@ intro: SLKone performed a rapid cost assessment of a Pharmaceutical manufacturer
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Manufacturing-and-Schedule-Improvement-Project-150M-Division-of-a-Multinational-Pharma-Company.jpg
+redirect_from:
+  - /case-study/Manufacturing-and-Schedule-Improvement-Project-150M-Division-of-a-Multinational-Pharma-Company.html
 ---
 
 #### Situation

@@ -7,6 +7,8 @@ newsletter: [November 2021 Newsletter]
 background_image: /assets/images/posts/practical-steps-to-EVA.jpg
 date: 2021-11-17
 subtitle: "Unlocking the Power of Economic Value Add for Sustainable Growth"
+redirect_from:
+  - /articles/Making-EVA-Work-for-You.html
 ---
 
 Organizations, whether publicly listed corporations or private equity portfolio businesses, have a common goal of accelerating value creation for their investors. No other metric comes close to Economic Value Add (EVA) as a universal measure for value accretion. However, while it is well understood at the senior leadership level, it can remain an abstract concept for frontline management. While lack of financial literacy has been cited as the primary reason for the lack of adaptation, the onus lies on a company’s leadership to connect the dots for shareholders, sponsors, and the workforce to take EVA from boardrooms to shop floors.

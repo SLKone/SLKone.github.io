@@ -7,6 +7,8 @@ intro: Planning an integration to break a trend and preserve the value of the ac
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Acquisition-Integration-Plan-for-$250M-Oil-&-Gas-Acquisition-Plan.jpg
+redirect_from:
+  - /case-study/Acquisition-Integration-Plan-for-$250M-Oil-&-Gas-Acquisition-Plan.html
 ---
 
 #### Situation

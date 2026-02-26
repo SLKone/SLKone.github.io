@@ -7,6 +7,8 @@ intro: An organization built by acquisition and continued siloed organizations l
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Global-Facility-Review-20B-Oil-Field-Services-Organization.jpg
+redirect_from:
+  - /case-study/Global-Facility-Review-20B-Oil-Field-Services-Organization.html
 ---
 
 #### Situation

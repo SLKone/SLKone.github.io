@@ -7,6 +7,8 @@ intro: Development of streamlined operational planning process and interim activ
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Regional-Operational-Planning-Process-&-Model-for-$1.2B-Oil-&-Gas-Organization.jpg
+redirect_from:
+  - /case-study/Regional-Operational-Planning-Process-and-Model-for-$1.2B-Oil-and-Gas-Organization.html
 ---
 
 #### Situation

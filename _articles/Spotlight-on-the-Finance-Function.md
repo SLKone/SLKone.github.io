@@ -6,6 +6,8 @@ subtitle: "Adapting financial strategies in uncertain times."
 background_image: /assets/images/posts/Restart-Finance-Function.jpg
 authors: [Phil Lynch, Casey Matthews]
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]
+redirect_from:
+  - /articles/Spotlight-on-the-Finance-Function.html
 ---
 
 Business leaders are facing unrelenting pressure from investors, employees, and other stakeholders to make drastic changes to adapt and survive in this new COVID-19 (and future, post-COVID-19) economy. However, along with COVID-19 came extreme market uncertainty and volatility that may be here to stay for months or even years, making it hard to decipher what changes are needed to be made and when. There is no playbook with all of the right answers since our modern global economy has never experienced such a disruption, but this does not mean business leaders should sit back and fail to act. The first question that should be asked in the wake of all this disruption is: does my business need a realignment or a full-on restart? 
@@ -26,7 +28,7 @@ As these questions are addressed, we can begin to look into the next-level quest
 
 The first step to getting back in the saddle and enabling your finance function to best serve the business is to reflect on financial performance, including recent history, and identify pivotal shifts needed to better align towards the future. Data driven insights must be a catalyst in the decision-making process and are necessary to developing any sort of future strategic plans. As mentioned previously, understanding the cash position should be the immediate priority and any prior activities surrounding cash flow metrics or reporting should be evaluated. Do you have all the tools necessary to provide complete transparency for historic and future cash forecasting? As part of the <a href="https://slkone.com/restart/">Business Restart Incubator</a>, we implement a rapid assessment and Blue Margin Command Center dashboard to facilitate this process. 
 
-<img src="https://slkone.com/images/Command-Center.jpg" alt="Command Center Dashboard">
+<img src="/images/Command-Center.jpg" alt="Command Center Dashboard">
 Source: Blue Margin, 2020<br>
 
 The Command Center dashboard includes several vital metrics for your business providing drill-down capabilities to deep functional areas. For instance, you can easily identify impacts to DSO if customers are beginning to lag or even identify upcoming due invoices to manage the cash and payables of your business. The dashboard allows for visibility into these metrics and enables the right business levers to be exercised to stabilize financial health. 

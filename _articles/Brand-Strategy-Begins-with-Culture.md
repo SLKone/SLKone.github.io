@@ -7,6 +7,8 @@ newsletter: [September 2021 Newsletter]
 background_image: /assets/images/posts/Effective-Brand-Strategy-Begins-with-Culture.jpg
 date: 2021-09-16
 subtitle: "Cultivating a Brand Identity Through Core Values."
+redirect_from:
+  - /articles/Brand-Strategy-Begins-with-Culture.html
 ---
 
 Effective brand strategy is an influential aspect of any business and can give your company an edge in an increasingly competitive marketplace. But branding can wear many faces and assume many definitions, which also makes it a complex strategy to implement and track. 

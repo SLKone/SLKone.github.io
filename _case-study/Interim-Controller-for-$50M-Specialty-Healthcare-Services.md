@@ -7,6 +7,8 @@ intro: A high-growth Private Equity-backed specialty healthcare services company
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Interim-Controller-for-$50M-Specialty-Healthcare-Services.jpg
+redirect_from:
+  - /case-study/Interim-Controller-for-$50M-Specialty-Healthcare-Services.html
 ---
 
 #### Situation

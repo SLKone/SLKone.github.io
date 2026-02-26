@@ -7,6 +7,8 @@ intro: SLKone drove Quality of Revenue by making sense of a competitive project 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Project-Assessment-for-a-8B-Opportunity-for-Energy-Services.jpg
+redirect_from:
+  - /case-study/Project-Assessment-for-a-8B-Opportunity-for-Energy-Services.html
 ---
 
 #### Situation

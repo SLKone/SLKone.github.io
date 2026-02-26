@@ -7,6 +7,8 @@ newsletter: [November 2021 Newsletter]
 background_image: /assets/images/posts/pre-transformation-EVA.jpg
 subtitle: Leveraging Insights From Existing Data Before a Digital Transformation
 date: 2021-11-17
+redirect_from:
+  - /articles/Leverage-Insights-From-Exisiting-Data-Before-a-Digital-Transformation.html
 ---
 
 As we approach the holiday season, I recalled one of my favorite activities as a kid: helping bake holiday cookies. The best part was being able to lick the mixing spoons, an early tase of the treats to come. Similarly, digital transformations are in progress or being contemplated by nearly every organization, looking to drive efficiencies and uncover new insights into their business, these businesses are “licking the spoon”. While their promise is strong, there are opportunities that exist today for these organizations to utilize advanced analytics tools to get a taste of post-digitization life before adaption. This sounds great, but there are tools and techniques that work better in this environment than others, plus precautions and prerequisites that must be considered before that first taste. Even more so, these approaches can really be a contributor to EVA (covered more thoroughly in this newsletter) as the analytics can yield operational improvements and profit generation. 

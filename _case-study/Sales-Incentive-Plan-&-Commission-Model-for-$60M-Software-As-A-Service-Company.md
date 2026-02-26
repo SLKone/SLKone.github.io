@@ -7,6 +7,8 @@ intro: Created a new sales incentive plan that aligned with managements strategi
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Sales-Incentive-Plan-&-Commission-Model-for-$60M-Software-As-A-Service-Company.jpg
+redirect_from:
+  - /case-study/Sales-Incentive-Plan-&-Commission-Model-for-$60M-Software-As-A-Service-Company.html
 ---
 
 #### Situation

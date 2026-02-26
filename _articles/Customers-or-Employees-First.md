@@ -7,6 +7,8 @@ services-performed: [Leadership-Coaching-and-Leadership-Facilitation]
 background_image: /assets/images/posts/Customers-or-Employees-First.jpg
 tag: [Article]
 date: 2023-09-28
+redirect_from:
+  - /articles/Customers-or-Employees-First.html
 ---
 In today’s day and age, many organizations and leaders find themselves struggling with serving two seemingly disparate goals: taking care of their employees first or taking care of their customers first. The first thought provoking question one may consider is – does it really matter? 
 Having worked with countless organizations, we can assure you, it certainly does matter. First, we will explore some background into why this is a discussion at all. Then we will explore the significance of both customers and employees, lastly we will discuss strategies to find the equilibrium that can drive success.

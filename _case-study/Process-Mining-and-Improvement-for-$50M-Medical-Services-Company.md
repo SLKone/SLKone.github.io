@@ -7,6 +7,8 @@ intro: Prepared a transparent, real time, user-friendly visualization of busines
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Process-Mining-and-Improvement-for-$50M-Medical-Services-Company.jpg
+redirect_from:
+  - /case-study/Process-Mining-and-Improvement-for-$50M-Medical-Services-Company.html
 ---
 
 #### Situation

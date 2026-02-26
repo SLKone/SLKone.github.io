@@ -7,6 +7,8 @@ background_image: /assets/images/posts/talking-to-strangers.jpg
 authors: [Monica Yanda]
 newsletter: [October 2020 Newsletter]
 tags: [Newsletters, October 2020 Newsletter, Book Reviews]
+redirect_from:
+  - /articles/Breakroom-Book-Review-Talking-To-Strangers.html
 ---
 
 Malcolm Gladwell’s <i>Talking to Strangers: What We Should Know about the People We Don’t Know</i> was the inaugural selection for SLKone’s Breakroom Book Club and marked the beginning of a new adventure for our internal company culture. The goal for our book club initiative is to expand our own perspectives while creating stronger connections with our teammates – especially now that work is so much more remote -- and I think it’s safe to say that this read evoked mixed reviews from our voluntary gathering.

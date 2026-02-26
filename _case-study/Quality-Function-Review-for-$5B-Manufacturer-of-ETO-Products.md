@@ -7,6 +7,8 @@ intro: Development of streamlined operational planning process and interim activ
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Quality-Function-Review-for-$5B-Manufacturer-of-ETO-Products.jpg
+redirect_from:
+  - /case-study/Quality-Function-Review-for-$5B-Manufacturer-of-ETO-Products.html
 ---
 
 #### Situation

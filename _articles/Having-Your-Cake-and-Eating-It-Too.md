@@ -5,6 +5,8 @@ date: 2025-11-06
 subtitle: "The New Workforce Reality"
 background_image: /assets/images/posts/Having-your-cake-and-eating-it-too.png
 authors: [Andrew Klemm, Matthew Smith]
+redirect_from:
+  - /articles/Having-Your-Cake-and-Eating-It-Too.html
 ---
 
 Today’s organizations face a critical challenge: They must remain agile enough to pivot quickly in an increasingly dynamic marketplace, while still maintaining stability and sustainable growth. Increasing pace of change can be seen in the tenure of Dow Jones Industrial Average (DJIA) members; for most of the 20th century tenure held consistent at ~60 years, however that has dropped to ~25 years so far in the 2020’s. Success in the modern business environment demands greater flexibility and agility from operations and cost structure. Historically, companies had to choose: flexibility at the expense continuity, or structure at the expense of agility.

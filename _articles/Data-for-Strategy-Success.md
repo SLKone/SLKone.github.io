@@ -8,6 +8,8 @@ tag: [Article, September 2021 Newsletter, Process-Design, Operating-Model-Design
 background_image: /assets/images/posts/Get-the-Most-Out-of-Your-Data-for-Strategy-Success.jpg
 date: 2021-09-15
 subtitle: "Harnessing Data Insights for Effective Strategy Development."
+redirect_from:
+  - /articles/Data-for-Strategy-Success.html
 ---
 #### Introduction
 
@@ -31,7 +33,7 @@ An important step in aligning data with business strategy is determining what da
 
 An additional aspect of incorporating data in your business strategy is to ensure business leaders have a simple and reliable way to access reporting and analytics which provide the information to evaluate strategic initiatives across the organization. Data may be dispersed across an array of systems, each with different primary business unit owners. Aspects of the business strategy will certainly touch multiple areas of the business and leadership will need to track progress in all areas, both individually and collectively. When information is siloed within a specific business area, other areas or functions cannot easily access the data required to measure the impact of a strategic initiative. Moreover, business areas outside of the siloed data rely on ad-hoc requests to connect data points and generate insights. Without a process in place to connect disparate data sources and validate the combined data, we may see completely different results from similar analyses with no way to know which provides the highest quality results. 
 
-<img src="https://slkone.com/images/Data-for-Strategy-Success-figure.jpg" alt="Data for Strategy Success Graphic">
+<img src="/images/Data-for-Strategy-Success-figure.jpg" alt="Data for Strategy Success Graphic">
 
 Recently, we worked with an ecommerce business who was having cost increases passed along to them from suppliers. Additionally, management thought their prices were much lower than their peers and therefore suffered from lower profitability. In their normal process, the company’s product management team would perform spot checks or just apply a blanket price increase. However, leveraging their data, SLKone assisted with integrating specific cost increases as well as developed an algorithm to identify which products and customers were best suited for any additional price changes. SLKone leverage the data the company had been collecting, supplemented by management guidance, our experience, and external data sources to develop an approach which was shared across the organization – brining sales, product management, marketing, and operations together to collaborate on the approach. 
 

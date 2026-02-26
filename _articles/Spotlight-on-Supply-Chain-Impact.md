@@ -8,6 +8,8 @@ authors: [Phil Lynch, Bernardo Jaccoud]
 intro: It’s been four months since the first confirmed case of COVID-19, and it still feels like there are more questions than answers. Businesses are cautiously optimistic as the economy begins to reopen. For business and functional leaders, that cautious optimism must quickly transition into planning and implementation of new strategies, business processes, and mitigation plans. Unfortunately, many have awoken to a reality of tighter resource constraints and lower budgets, compounding the challenges that lie ahead. 
 services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-and-Leadership-Facilitation,Organizational-Design-and-Alignment]
 tag: [Article, Restart Incubator, Supply-Chain-Network-Optimization]
+redirect_from:
+  - /articles/Spotlight-on-Supply-Chain-Impact.html
 ---
 
 It’s been four months since the first confirmed case of COVID-19, and it still feels like there are more questions than answers. Businesses are cautiously optimistic as the economy begins to reopen. For business and functional leaders, that cautious optimism must quickly transition into planning and implementation of new strategies, business processes, and mitigation plans. Unfortunately, many have awoken to a reality of tighter resource constraints and lower budgets, compounding the challenges that lie ahead. 

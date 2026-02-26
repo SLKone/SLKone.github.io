@@ -7,6 +7,8 @@ intro: SLKone designed a ground-up commercial organization to drive consistent c
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Organizational-Design-for-a-10B-Oil-and-Gas-Company.jpg
+redirect_from:
+  - /case-study/Organizational-Design-for-a-10B-Oil-and-Gas-Company.html
 ---
 
 #### Situation

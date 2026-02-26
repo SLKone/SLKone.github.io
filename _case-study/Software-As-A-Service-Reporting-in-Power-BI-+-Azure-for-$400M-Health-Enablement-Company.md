@@ -7,6 +7,8 @@ intro: Developed a suite of SaaS reports and dashboards for various stakeholders
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company.jpg
+redirect_from:
+  - /case-study/Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company.html
 ---
 
 #### Situation

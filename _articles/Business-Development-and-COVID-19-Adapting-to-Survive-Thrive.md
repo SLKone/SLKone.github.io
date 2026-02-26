@@ -6,6 +6,8 @@ subtitle: "Reassessing business strategies in a changing environment."
 background_image: /assets/images/posts/bd-and-covid.jpeg
 authors: [Dustin Fidaleo]
 tags: [Newsletters, October 2020 Newsletter, Monthly Edits]
+redirect_from:
+  - /articles/Business-Development-and-COVID-19-Adapting-to-Survive-Thrive.html
 ---
 
 As an industry, consulting is often viewed as a discretionary expense. Hastily categorized as non-essential, our services are only correctly rebranded once business needs exceed the capabilities of current staff and clients reach out for us to drive value where others could not. That was before the pandemic.

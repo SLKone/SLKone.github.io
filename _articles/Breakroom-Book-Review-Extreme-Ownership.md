@@ -7,6 +7,8 @@ background_image: /assets/images/posts/extreme-ownership.jpg
 authors: [Christopher Burton, Emily Cowperthwaite]
 newsletter: [November 2020 Newsletter]
 tags: [Newsletters, November 2020 Newsletter, Book Reviews]
+redirect_from:
+  - /articles/Breakroom-Book-Review-Extreme-Ownership.html
 ---
 
 Chronicling both heroic and tragic war stories, <i>Extreme Ownership: How US Navy SEALs Lead and Win</i> by Jocko Willink and Leif Babin had the potential to be just another good war-focused book destined to fall short of illuminating a novel facet of business leadership. However, we were relieved to find that our book of the month avoids that snare. 

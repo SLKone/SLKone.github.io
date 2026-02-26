@@ -7,6 +7,8 @@ newsletter: [November 2021 Newsletter]
 background_image: /assets/images/posts/EVA-expectations.jpg
 subtitle: Understanding the Gaps Between Projected and Actual EVA in Transactions
 date: 2021-11-17
+redirect_from:
+  - /articles/Why-EVA-Expectations-Aren't-Always-Realized-in-Transactions.html
 ---
 
 This newsletter is devoted to the pursuit of Economic Value-Add (EVA) in business – how it is useful, its impact, and how it’s used in businesses. At the high-level, EVA will reveal anticipated levels of economic impact from making decisions, and in this instance, the accretive (or not) nature of a transaction. Similarly, after arriving at an EVA calculation, leaders can assess the impact one transaction may have on the business versus another as capital is generally not limitless and decisions must be made. So, with a solid metric like EVA in place – why is the anticipated EVA not always realized post transaction? 

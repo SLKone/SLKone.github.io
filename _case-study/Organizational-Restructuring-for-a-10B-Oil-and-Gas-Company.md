@@ -7,6 +7,8 @@ intro: SLKone improved the productivity and connectivity of business support fun
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Organizational-Restructuring-for-a-10B-Oil-and-Gas-Company.jpg
+redirect_from:
+  - /case-study/Organizational-Restructuring-for-a-10B-Oil-and-Gas-Company.html
 ---
 
 #### Situation

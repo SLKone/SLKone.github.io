@@ -7,6 +7,8 @@ intro: Following the departure of the previous CFO, compliance was deemed lax an
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Interim-Controller-and-Accounting-Surge-for-$350M-Specialty-Healthcare-Services.jpg
+redirect_from:
+  - /case-study/Interim-Controller-and-Accounting-Surge-for-$350M-Specialty-Healthcare-Services.html
 ---
 
 #### Situation

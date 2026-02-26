@@ -7,6 +7,8 @@ intro: SLKone took over the cash management process, month-end close, and financ
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Cashflow-Process-and-Finance-Transformation-for-a-Senior-Care-Group.jpg
+redirect_from:
+  - /case-study/Cashflow-Process-and-Finance-Transformation-for-a-Senior-Care-Group.html
 ---
 
 #### Situation

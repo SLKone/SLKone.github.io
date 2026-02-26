@@ -7,6 +7,8 @@ intro: SLKone removed information siloes in order to benefit from more than the 
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Commercializing-Project-Portfolios-Research-Nonprofit.jpg
+redirect_from:
+  - /case-study/Commercializing-Project-Portfolios-Research-Nonprofit.html
 ---
 
 #### Situation

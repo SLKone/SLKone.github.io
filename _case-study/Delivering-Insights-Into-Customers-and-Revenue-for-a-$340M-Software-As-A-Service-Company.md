@@ -7,6 +7,8 @@ intro: SLKone delivered, within weeks of starting, static and trending KPIs whic
 team-size: 2 consultants
 project-length: 2 months
 background_image: /assets/images/case-studies/Delivering-Insights-Into-Customers-and-Revenue-for-a-$340M-Software-As-A-Service-Company.jpg
+redirect_from:
+  - /case-study/Delivering-Insights-Into-Customers-and-Revenue-for-a-$340M-Software-As-A-Service-Company.html
 ---
 
 #### Situation
