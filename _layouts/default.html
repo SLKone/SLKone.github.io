@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
-    {% if page.subtitle %}<meta name="description" content="{{ page.subtitle | strip_html }}">{% elsif page.shortintro %}<meta name="description" content="{{ page.shortintro | strip_html }}">{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
+    {% if page.subtitle %}<meta name="description" content="{{ page.subtitle | strip_html | truncate: 160 }}">{% elsif page.intro %}<meta name="description" content="{{ page.intro | strip_html | truncate: 160 }}">{% elsif page.shortintro %}<meta name="description" content="{{ page.shortintro | strip_html | truncate: 160 }}">{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
       {% assign author = site.data.authors[page.author] %}
@@ -12,6 +12,7 @@
       {% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
+    {% seo title=false %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
     <link href="{{ '/atom.xml' | relative_url }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
@@ -19,16 +20,14 @@
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
     <link rel="stylesheet" href="https://use.typekit.net/pef0cwc.css">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <script src="https://kit.fontawesome.com/f7e54a3b3a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f7e54a3b3a.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}">
-<script src="https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.js" defer></script>
 </head>
-<!-- Start of Selection -->
 <body class="{% if layout.body-class %}{{ layout.body-class }}{% endif %} bg-white dark:bg-currant dark:text-white font-body">
     {% include header.html %}
     <main>

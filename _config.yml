@@ -4,6 +4,8 @@ email: hello@slkone.com
 description: SLKone is more than a consulting firm—we're your partner in translating complex business challenges into tangible results. 
 baseurl: ""
 url: "https://slkone.com"
+locale: "en_US"
+lang: "en"
 github_username: SLKone
 address: PO Box 15334 Plantation, FL 33318
 # Build settings

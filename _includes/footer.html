@@ -44,7 +44,7 @@
         <h3 class="font-bold mb-4">Brands</h3>
         <ul class="mb-8">
           {% for item in site.data.footer.Brands %}
-            <li class="mb-2"><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+            <li class="mb-2"><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
