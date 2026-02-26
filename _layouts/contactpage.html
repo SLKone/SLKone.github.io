@@ -7,7 +7,7 @@ layout: default
 			{% assign filename = page.url | replace: 'contactpage', '' | replace: '/', ''  | replace: '.html', '.md' %}
 			<div class="w-48 h-48" style="background-image: url('{{site.url}}/images/qr/{{ filename }}.svg')">
 			</div>
-			<img class="team-image w-full max-h-96" src="{{ site.url }}/assets/images/team/{{ page.team-image }}" />
+			<img class="team-image w-full max-h-96" src="{{ site.url }}/assets/images/team/{{ page.team-image }}" alt="{{ page.title }}" />
 			<div class="emphasis center">
 				<h2 class="text-4xl font-display mb-8 text-center">{{ page.title }}</h2>
 				<h4 class="h5 text-2xl">{{ page.job-title }}</h4>

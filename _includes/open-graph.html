@@ -1,15 +1,17 @@
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.subtitle %}<meta name="twitter:description" content="{{ page.subtitle | strip_html }}">{% endif %}
+{% if page.subtitle %}<meta name="twitter:description" content="{{ page.subtitle | strip_html | truncate: 200 }}">{% elsif page.intro %}<meta name="twitter:description" content="{{ page.intro | strip_html | truncate: 200 }}">{% elsif site.description %}<meta name="twitter:description" content="{{ site.description | truncate: 200 }}">{% endif %}
 {% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
 {% if author.twitter %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{% if page.background_image %}{{ site.url }}{{ page.background_image }}{% else %}{{ site.url }}/assets/images/backgrounds/social-default.webp{% endif %}">
 <!-- Open Graph -->
-<meta property="og:locale" content="{{ site.locale }}">
-<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="{% if page.layout == 'home' %}website{% elsif page.layout == 'post' or page.layout == 'case-study' %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.subtitle %}<meta property="og:description" content="{{ page.subtitle | strip_html }}">{% endif %}
+{% if page.subtitle %}<meta property="og:description" content="{{ page.subtitle | strip_html | truncate: 200 }}">{% elsif page.intro %}<meta property="og:description" content="{{ page.intro | strip_html | truncate: 200 }}">{% elsif site.description %}<meta property="og:description" content="{{ site.description | truncate: 200 }}">{% endif %}
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:image" content="{% if page.background_image %}{{ site.url }}{{ page.background_image }}{% else %}{{ site.url }}/assets/images/backgrounds/social-default.webp{% endif %}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
