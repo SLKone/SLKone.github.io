@@ -1,12 +1,14 @@
 {% assign parent_color = include.card.color %}
-<a href="{{ include.card.url | relative_url }}" id="{{ include.card.slug }}" class="rounded-xl hover:shadow-lg transition-all duration-300 pt-40 block bg-cover bg-no-repeat bg-center text-currant cursor-pointer transform hover:scale-105 no-underline" style="background-image: url({{ include.background_image }})">
+<div id="{{ include.card.slug }}" class="relative rounded-xl hover:shadow-lg transition-all duration-300 pt-40 block bg-cover bg-no-repeat bg-center text-currant cursor-pointer transform hover:scale-105" style="background-image: url({{ include.background_image }})">
     <div class="self-end p-6 bg-{{ parent_color }}-100 rounded-b-xl bg-opacity-90 h-full backdrop-blur-md">
+        <a href="{{ include.card.url | relative_url }}" class="no-underline text-inherit after:absolute after:inset-0 after:z-0">
         {% if include.card.title %}
         <p class="text-xl font-display mb-2">{{ include.card.title }}</p>
         {% endif %}
         {% if include.card.intro %}
         <p class="text-sm mb-2">{{ include.card.blurb-intro }}</p>
         {% endif %}
+        </a>
         {% assign related_sub_services = site["sub-services"] | where: "parent", service.title | sort:"order" %}
         {% for sub-service in related_sub_services %}
             {% assign sub_service_slug = sub-service.title | slugify %}
@@ -16,4 +18,4 @@
             {% include link-pill.html link=link_url link_title=link_title color=link_color %}
         {% endfor %}
     </div>
-</a>
+</div>
