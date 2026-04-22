@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Heidi Segars"
 job-title: Consultant 
-order: 17
+order: 16
 skills:
 - Data, Analytics, & Information Technology
 team-image: Heidi-Segars.jpg
