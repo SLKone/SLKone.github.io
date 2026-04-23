@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title:  "Bo Wicker"
-job-title:  Consultant
+job-title:  Managing Consultant
 order: 14
 skills:
 - Finance & Accounting
