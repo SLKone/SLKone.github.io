@@ -309,5 +309,3 @@ Email: **contact@slkone.com**
 Website: **slkone.com**
 
 ---
-
-*These Terms of Use are intended to provide maximum legal protection for SLKone LLC. They should be reviewed by qualified legal counsel before publication and periodically thereafter to ensure continued compliance with applicable law.*

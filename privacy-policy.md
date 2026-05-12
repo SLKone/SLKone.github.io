@@ -244,5 +244,3 @@ Website: **slkone.com**
 For GDPR-specific inquiries, if you are located in the EU/EEA and wish to contact a local representative or escalate to a supervisory authority, please request the relevant contact details at the email above.
 
 ---
-
-*This Privacy Policy was prepared to satisfy the requirements of the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA) as amended by the CPRA, the CAN-SPAM Act, and other applicable privacy regulations. It should be reviewed by qualified legal counsel before publication.*
