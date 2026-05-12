@@ -1,3 +1,7 @@
+---
+layout: page
+title: Terms of Use
+---
 # Terms of Use
 
 **Effective Date:** May 12, 2026
