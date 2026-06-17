@@ -1,0 +1,71 @@
+---
+layout: default
+---
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background_image %}
+
+<section class="big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl md:text-3xl py-32 lg:py-40">
+    <p class="max-w-prose">{{ page.bigparagraph }}</p>
+  </div>
+</section>
+
+{% if page.pillars %}
+<section id="pillars" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    {% for pillar in page.pillars %}
+    <div class="mb-20 last:mb-0 md:grid md:grid-cols-5 gap-12">
+      <div class="md:col-span-2">
+        {% if pillar.icon %}<i class="fa-sharp-duotone fa-solid {{ pillar.icon }} text-5xl text-emerald dark:text-forest mb-4"></i>{% endif %}
+        <p class="text-sm uppercase font-bold opacity-60 tracking-widest mb-2">Pillar {{ forloop.index }}</p>
+        <h2 class="text-4xl lg:text-5xl font-display mb-4">{{ pillar.title }}</h2>
+        <p class="text-xl opacity-80">{{ pillar.headline }}</p>
+      </div>
+      <div class="md:col-span-3 mt-8 md:mt-0">
+        <p class="text-lg lg:text-xl max-w-prose mb-6">{{ pillar.body }}</p>
+        {% if pillar.points %}
+        <ul class="space-y-4">
+          {% for point in pillar.points %}
+          <li class="flex items-start">
+            <i class="fa-solid fa-arrow-right text-emerald dark:text-forest mt-2 mr-4"></i>
+            <div>
+              <p class="font-display text-lg">{{ point.title }}</p>
+              {% if point.description %}<p class="opacity-80">{{ point.description }}</p>{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if pillar.link %}
+        <p class="mt-6"><a class="text-emerald dark:text-forest font-display text-lg hover:underline" href="{{ pillar.link }}">{{ pillar.link_text }} <i class="fas fa-arrow-right ml-1"></i></a></p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.commercial %}
+<section id="commercial" class="py-20 lg:py-32 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-4 font-display">{{ page.commercial.title }}</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">{{ page.commercial.subtitle }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {% for line in page.commercial.lines %}
+      <div class="bg-white/5 backdrop-blur-md rounded-xl p-8">
+        <h3 class="text-2xl font-display mb-3 text-emerald dark:text-forest">{{ line.title }}</h3>
+        <p>{{ line.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=page.cta_title
+  description=page.cta_description
+  cta_link=page.cta_link
+  cta_text=page.cta_text
+%}

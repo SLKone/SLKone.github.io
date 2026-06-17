@@ -13,22 +13,37 @@ body-class: body-home
   data-opacity-dark="0.75"
   data-scale="0.00015"
   ></canvas>
+
 <section id="hero-background" class="snap-start hero min-h-[80dvh] py-10 flex flex-col justify-center items-center bg-transparent bg-gradient-to-t from-white to-transparent dark:from-currant dark:to-transparent">
   <div class="container mx-auto px-8 max-w-7xl">
     <h1 class="text-5xl lg:text-8xl mb-12 mx-auto max-w-prose font-display">{{ site.data.homepage.hero.title }}</h1>
-    <div class="max-w-prose text-left ">
+    <div class="max-w-prose text-left">
       <p class="text-xl">{{ site.data.homepage.hero.description }}</p>
-      <p class="text-xl mt-12 mb-12">
+      <p class="text-xl mt-12 mb-6 flex flex-wrap gap-4 items-center">
         <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="{{ site.data.homepage.hero.cta_link }}">
           {{ site.data.homepage.hero.cta_text }} <i class="fas fa-arrow-right"></i>
         </a>
+        {% if site.data.homepage.hero.secondary_cta_text %}
+        <a class="text-xl underline underline-offset-4 decoration-2 hover:text-emerald dark:hover:text-forest transition-all" href="{{ site.data.homepage.hero.secondary_cta_link }}">
+          {{ site.data.homepage.hero.secondary_cta_text }}
+        </a>
+        {% endif %}
       </p>
     </div>
+  </div>
 </section>
+
+{% if site.data.homepage.proof_bar %}
+<section id="proof-bar" class="py-8 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <p class="text-lg md:text-xl max-w-prose font-display"><i class="fas fa-circle-check text-emerald dark:text-forest mr-3"></i>{{ site.data.homepage.proof_bar.text }}</p>
+  </div>
+</section>
+{% endif %}
 
 <section id="unique-points" class="py-20 lg:py-40 bg-slate-50 dark:bg-currant-500">
   <div class="container mx-auto px-8 max-w-7xl">
-    <h2 class="text-4xl mb-12 font-display">What sets SLKone apart</h2>
+    <h2 class="text-4xl mb-12 font-display">{{ site.data.homepage.unique_points_title | default: "What sets SLKone apart" }}</h2>
     <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
     {% for point in site.data.homepage.unique_points %}
       {% include icon-block.html title=point.title text=point.description icon=point.icon links=point.links %}
@@ -37,42 +52,152 @@ body-class: body-home
   </div>
 </section>
 
-<section id="approach" class="snap-start h-full relative"> 
-  <canvas
-  class="windmap-canvas absolute w-screen h-full left-0 z-[-1]"
-  data-num-streamlines="15"
-  data-num-animated="0"
-  data-num-colors="1"
-  data-opacity="0.3"
-  data-opacity-dark="0.75"
-  data-scale="0.00015"
-  ></canvas>
-  <div class="container mx-auto px-8 py-20 lg:py-40 max-w-7xl">
-    <h2 class="text-4xl mb-12 font-display">{{ site.data.homepage.approach.title }}</h2>
-    <p class="text-xl max-w-prose">{{ site.data.homepage.approach.description }}</p>
-    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {% assign ordered-services = site.services | sort: 'order' %}
-      {% for service in ordered-services %}
-          {% include service-card.html card=service background_image=service.background_image %}
+{% if site.data.homepage.pillars %}
+<section id="pillars" class="py-20 lg:py-32 relative">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-2 font-display">{{ site.data.homepage.pillars.title }}</h2>
+    {% if site.data.homepage.pillars.subtitle %}<p class="text-xl max-w-prose mb-12 opacity-80">{{ site.data.homepage.pillars.subtitle }}</p>{% endif %}
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {% for pillar in site.data.homepage.pillars.items %}
+      <div class="bg-black/5 dark:bg-currant-500 rounded-xl p-8 flex flex-col">
+        {% if pillar.icon %}<i class="fa-sharp-duotone fa-solid {{ pillar.icon }} text-4xl text-emerald dark:text-forest mb-4"></i>{% endif %}
+        <h3 class="text-2xl font-display mb-3">{{ pillar.title }}</h3>
+        <p class="text-base mb-6 grow">{{ pillar.description }}</p>
+        {% if pillar.link %}
+        <a class="text-emerald dark:text-forest font-display hover:underline" href="{{ pillar.link }}">{{ pillar.link_text }} <i class="fas fa-arrow-right ml-1"></i></a>
+        {% endif %}
+      </div>
       {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
-<section id="data-driven-approach">
-  <div class="container mx-auto px-8 max-w-7xl ">
-    <div class="bg-black/5 dark:bg-currant-500 rounded-xl">
-      <h2 class="text-4xl font-display p-8">{{ site.data.homepage.data_driven_approach.title }}</h2>
-      <p class="text-xl max-w-prose mb-4 px-8">{{ site.data.homepage.data_driven_approach.description }}</p>
-      {% include accordion.html accordion_id="dataDrivenApproachAccordion" items=site.data.homepage.data_driven_approach.steps %}
+{% if site.data.homepage.bridge_teaser %}
+<section id="bridge-teaser" class="py-20 lg:py-32 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="md:grid md:grid-cols-5 gap-12 items-center">
+      <div class="md:col-span-3">
+        <h2 class="text-4xl lg:text-5xl mb-6 font-display">{{ site.data.homepage.bridge_teaser.heading }}</h2>
+        <p class="text-xl max-w-prose mb-8 opacity-90">{{ site.data.homepage.bridge_teaser.body }}</p>
+        <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500 inline-block" href="{{ site.data.homepage.bridge_teaser.cta_link }}">
+          {{ site.data.homepage.bridge_teaser.cta_text }} <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+      <div class="md:col-span-2 mt-12 md:mt-0">
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-8 font-mono text-sm">
+          <div class="opacity-70 mb-2">// bridge</div>
+          <div>operations + planning</div>
+          <div>+ analytics + docs</div>
+          <div>+ knowledge graph</div>
+          <div class="mt-4 opacity-70">// operable by</div>
+          <div>your team <span class="text-emerald dark:text-forest">+</span> AI agents</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+{% endif %}
 
-{% include contact-card.html 
-  background_image=site.data.homepage.contact.background-image 
-  title=site.data.homepage.contact.title 
-  description=site.data.homepage.contact.description 
-  cta_link=site.data.homepage.contact.cta_link 
-  cta_text=site.data.homepage.contact.cta_text 
+{% if site.data.homepage.problem_patterns %}
+<section id="problem-patterns" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-2 font-display">{{ site.data.homepage.problem_patterns.title }}</h2>
+    {% if site.data.homepage.problem_patterns.subtitle %}<p class="text-xl max-w-prose mb-12 opacity-80">{{ site.data.homepage.problem_patterns.subtitle }}</p>{% endif %}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {% for pattern in site.data.homepage.problem_patterns.items %}
+      <a href="{{ pattern.url }}" class="block bg-black/5 dark:bg-currant-500 rounded-xl p-6 hover:bg-emerald-100 dark:hover:bg-forest-700 transition-all duration-300 group">
+        <p class="text-xl font-display mb-2 leading-tight">{{ pattern.title }}</p>
+        <span class="text-emerald dark:text-forest text-sm group-hover:underline">See how we solve it <i class="fas fa-arrow-right ml-1"></i></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.homepage.proof_strip %}
+<section id="proof-strip" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-2 font-display">{{ site.data.homepage.proof_strip.title }}</h2>
+    {% if site.data.homepage.proof_strip.subtitle %}<p class="text-xl max-w-prose mb-12 opacity-80">{{ site.data.homepage.proof_strip.subtitle }}</p>{% endif %}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {% for item in site.data.homepage.proof_strip.items %}
+      <div class="bg-white dark:bg-currant rounded-xl p-8 flex flex-col">
+        <p class="text-sm uppercase font-bold opacity-60 mb-2">{{ item.kind }}</p>
+        <h3 class="text-3xl font-display mb-6">{{ item.title }}</h3>
+        <div class="mb-4">
+          <p class="text-sm uppercase font-bold opacity-60 mb-1">Situation</p>
+          <p>{{ item.situation }}</p>
+        </div>
+        <div class="mb-4">
+          <p class="text-sm uppercase font-bold opacity-60 mb-1">What we deployed</p>
+          <p>{{ item.deployed }}</p>
+        </div>
+        <div class="mb-6 grow">
+          <p class="text-sm uppercase font-bold opacity-60 mb-1">Outcome shape</p>
+          <p>{{ item.outcome }}</p>
+        </div>
+        {% if item.link %}
+        <a class="text-emerald dark:text-forest font-display hover:underline" href="{{ item.link }}">Read the full story <i class="fas fa-arrow-right ml-1"></i></a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <p class="mt-8 text-lg"><a class="text-emerald dark:text-forest font-display hover:underline" href="/proof">See all proof <i class="fas fa-arrow-right ml-1"></i></a></p>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.homepage.amalgam_callout %}
+<section id="amalgam-callout" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="bg-amalgam-100 dark:bg-amalgam-700/30 rounded-xl p-10 lg:p-16">
+      <div class="md:grid md:grid-cols-5 gap-12 items-center">
+        <div class="md:col-span-3">
+          <h2 class="text-4xl mb-6 font-display">{{ site.data.homepage.amalgam_callout.heading }}</h2>
+          <p class="text-xl max-w-prose mb-8">{{ site.data.homepage.amalgam_callout.body }}</p>
+          <a class="text-emerald dark:text-forest text-xl font-display hover:underline" href="{{ site.data.homepage.amalgam_callout.cta_link }}">
+            {{ site.data.homepage.amalgam_callout.cta_text }} <i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.homepage.testimonials %}
+<section id="testimonials" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">What operators say about working with us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {% for t in site.data.homepage.testimonials %}
+      <div class="bg-white dark:bg-currant rounded-xl p-8">
+        <i class="fas fa-quote-left text-emerald dark:text-forest text-2xl mb-4"></i>
+        <p class="mb-6">{{ t.quote }}</p>
+        <p class="text-sm opacity-70 font-bold">{{ t.name }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.homepage.join_team %}
+<section id="join-team" class="py-16">
+  <div class="container mx-auto px-8 max-w-7xl text-center">
+    <h2 class="text-4xl mb-4 font-display">{{ site.data.homepage.join_team.title }}</h2>
+    <p class="text-xl max-w-prose mx-auto mb-8">{{ site.data.homepage.join_team.description }}</p>
+    <a class="text-emerald dark:text-forest text-xl font-display hover:underline" href="{{ site.data.homepage.join_team.cta_link }}">{{ site.data.homepage.join_team.cta_text }} <i class="fas fa-arrow-right ml-1"></i></a>
+  </div>
+</section>
+{% endif %}
+
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=site.data.homepage.closing_cta.heading
+  description=site.data.homepage.closing_cta.description
+  cta_link=site.data.homepage.closing_cta.cta_link
+  cta_text=site.data.homepage.closing_cta.cta_text
 %}

@@ -1,0 +1,96 @@
+---
+layout: default
+---
+<section id="bridge-hero" class="snap-start min-h-[70dvh] py-20 lg:py-32 flex flex-col justify-center items-center bg-gradient-to-b from-currant to-currant-600 text-white relative overflow-hidden">
+  <canvas
+    class="windmap-canvas absolute top-0 left-0 w-full h-full z-0 opacity-30"
+    data-num-streamlines="80"
+    data-num-streamlines-dark="120"
+    data-num-animated="40"
+    data-num-animated-dark="60"
+    data-num-colors="3"
+    data-opacity="0.4"
+    data-opacity-dark="0.6"
+    data-scale="0.00015"
+    ></canvas>
+  <div class="container mx-auto px-8 max-w-7xl relative z-10">
+    <p class="text-sm uppercase font-bold tracking-widest text-emerald dark:text-forest mb-6">The SLKone platform</p>
+    <h1 class="text-5xl lg:text-7xl mb-8 max-w-prose font-display">{{ page.hero.title }}</h1>
+    <p class="text-xl lg:text-2xl max-w-prose mb-10 opacity-90">{{ page.hero.subtitle }}</p>
+    <a class="bg-emerald dark:bg-forest text-white dark:text-currant text-2xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500 inline-block" href="{{ page.hero.cta_link }}">
+      {{ page.hero.cta_text }} <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+</section>
+
+{% if page.what_it_is %}
+<section id="bridge-what-it-is" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-8 font-display">What it is</h2>
+    <p class="text-xl lg:text-2xl max-w-prose mb-6">{{ page.what_it_is }}</p>
+  </div>
+</section>
+{% endif %}
+
+{% if page.what_it_runs %}
+<section id="bridge-what-it-runs" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">What it runs</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for item in page.what_it_runs %}
+      <div class="bg-black/5 dark:bg-currant-500 rounded-xl p-8 flex flex-col">
+        {% if item.icon %}<i class="fa-sharp-duotone fa-solid {{ item.icon }} text-4xl text-emerald dark:text-forest mb-4"></i>{% endif %}
+        <h3 class="text-2xl font-display mb-3">{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.why_different %}
+<section id="bridge-why-different" class="py-20 lg:py-32 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">Why it is different</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {% for item in page.why_different %}
+      <div class="bg-white/5 backdrop-blur-md rounded-xl p-8">
+        <h3 class="text-2xl font-display mb-3 text-emerald dark:text-forest">{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.who_for %}
+<section id="bridge-who-for" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-8 font-display">Who it is for</h2>
+    <p class="text-xl lg:text-2xl max-w-prose">{{ page.who_for }}</p>
+  </div>
+</section>
+{% endif %}
+
+{% if page.proof_line %}
+<section id="bridge-proof" class="py-16 lg:py-20 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="md:grid md:grid-cols-5 gap-12 items-center">
+      <div class="md:col-span-3">
+        <p class="text-2xl lg:text-3xl max-w-prose font-display mb-6">{{ page.proof_line }}</p>
+        <a class="text-emerald dark:text-forest text-xl font-display hover:underline" href="/proof">See the proof <i class="fas fa-arrow-right ml-1"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=page.cta_title
+  description=page.cta_description
+  cta_link=page.cta_link
+  cta_text=page.cta_text
+%}

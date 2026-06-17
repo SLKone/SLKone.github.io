@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background_image %}
+
+<section class="big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl md:text-3xl py-40">
+    <p class="max-w-prose">{{ page.bigparagraph }}</p>
+  </div>
+</section>
+
+<section id="problem-patterns" class="snap-start h-full relative py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-2 font-display">Six patterns we see across middle-market operations</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">Most operators experience business challenges as patterns of friction, not as items on a capability menu. Each pattern is delivered the same way: Bridge and an embedded team.</p>
+    {% assign ordered_patterns = site.problem-patterns | sort: 'order' %}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for pattern in ordered_patterns %}
+      <a href="{{ pattern.url }}" class="block bg-black/5 dark:bg-currant-500 rounded-xl p-8 hover:bg-emerald-100 dark:hover:bg-forest-700 transition-all duration-300 group">
+        {% if pattern.icon %}<i class="fa-sharp-duotone fa-solid {{ pattern.icon }} text-3xl text-emerald dark:text-forest mb-4"></i>{% endif %}
+        <p class="text-2xl font-display mb-3 leading-tight">{{ pattern.title }}</p>
+        {% if pattern.tagline %}<p class="text-base opacity-80 mb-4">{{ pattern.tagline }}</p>{% endif %}
+        <span class="text-emerald dark:text-forest text-sm group-hover:underline">How we solve it <i class="fas fa-arrow-right ml-1"></i></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="deeper-capabilities" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-2 font-display">Detailed capabilities</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">If you came in looking for a specific service line, it sits here. Each one is delivered through Bridge and an embedded team.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {% assign ordered-services = site.services | sort: 'order' %}
+      {% for service in ordered-services %}
+        {% include service-card-big.html card=service background_image=service.background_image %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=site.data.homepage.closing_cta.heading
+  description=site.data.homepage.closing_cta.description
+  cta_link=site.data.homepage.closing_cta.cta_link
+  cta_text=site.data.homepage.closing_cta.cta_text
+%}

@@ -2,9 +2,9 @@
 layout: industry
 order: 1
 title: Private Equity
-subtitle: "In the competitive private equity landscape, we assist firms in maximizing value creation, driving performance improvements, and enhancing returns across portfolio companies."
-intro: "SLKone partners with private equity firms to maximize value creation throughout the investment lifecycle. We bring a unique blend of strategic insight and operational expertise to drive performance improvements, accelerate growth, and enhance returns across portfolio companies."
-blurb-intro: "Unlock the potential of your private equity investments with SLKone's expert guidance and innovative strategies."
+subtitle: "We use the same AI-native operating approach inside companies we own, and bring it to portfolio companies that need it."
+intro: "Private equity is where the SLKone approach has the clearest fit. Through Amalgam Capital we own and operate real-economy businesses, and we deploy the same Bridge tenants, embedded-team model, and operating approach across portfolio companies. The model has been tested in operations where we sit in the operator's seat, not the advisor's."
+blurb-intro: "Deploy Bridge and an embedded team in portfolio companies where the operating layer is the bottleneck."
 landscape-title: "The Private Equity Landscape"
 landscape-intro: "The private equity landscape is characterized by:"
 landscape:

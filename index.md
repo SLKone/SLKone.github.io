@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Bridge Strategy to Measurable Success
+title: Bridge, the operating system for AI-native companies
 background_image: "/assets/images/backgrounds/hero.webp"
 ---

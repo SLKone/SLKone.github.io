@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background_image color=page.color %}
+
+<section id="problem" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-4xl">
+    <p class="text-sm uppercase font-bold opacity-60 tracking-widest mb-4">The problem</p>
+    <p class="text-2xl lg:text-3xl font-display max-w-prose leading-snug">{{ page.problem }}</p>
+  </div>
+</section>
+
+{% if page.why_persists %}
+<section id="why-persists" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-4xl">
+    <p class="text-sm uppercase font-bold opacity-60 tracking-widest mb-4">Why it persists</p>
+    <p class="text-xl lg:text-2xl max-w-prose">{{ page.why_persists }}</p>
+  </div>
+</section>
+{% endif %}
+
+{% if page.how_we_solve %}
+<section id="how-we-solve" class="py-20 lg:py-32 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-4xl">
+    <p class="text-sm uppercase font-bold opacity-70 tracking-widest mb-4 text-emerald dark:text-forest">How we solve it: Bridge and an embedded team</p>
+    <p class="text-xl lg:text-2xl max-w-prose">{{ page.how_we_solve }}</p>
+  </div>
+</section>
+{% endif %}
+
+{% if page.outcome %}
+<section id="outcome" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-4xl">
+    <p class="text-sm uppercase font-bold opacity-60 tracking-widest mb-4">What the outcome looks like</p>
+    <p class="text-xl lg:text-2xl max-w-prose">{{ page.outcome }}</p>
+  </div>
+</section>
+{% endif %}
+
+{% if page.deeper %}
+<section id="deeper" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-3xl mb-2 font-display">Go deeper</h2>
+    <p class="text-lg max-w-prose mb-8 opacity-80">The detailed capability pages survive underneath this pattern.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {% for link in page.deeper %}
+      <a href="{{ link.url }}" class="block bg-white dark:bg-currant rounded-xl p-6 hover:shadow-md transition-all duration-300">
+        <p class="text-xl font-display mb-1">{{ link.title }}</p>
+        {% if link.note %}<p class="text-sm opacity-70">{{ link.note }}</p>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=page.cta_title
+  description=page.cta_description
+  cta_link=page.cta_link
+  cta_text=page.cta_text
+%}

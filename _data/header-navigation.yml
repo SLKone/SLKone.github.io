@@ -1,45 +1,61 @@
 main:
-- title: Services
+- title: Platform
+  url: /bridge
+- title: How we work
+  url: /how-we-work
+- title: What we solve
   url: /services
 - title: Industries
   url: /industries
-- title: Insights
-  url: /insights
-- title: Culture
-  url: /culture
-- title: Brands
-  url: /brands 
+- title: Proof
+  url: /proof
+- title: Amalgam
+  url: /amalgam
   sub:
     - title: Amalgam Capital
       url: https://amalgamcapital.com
-      info: "Amalgam Capital is our independent sponsor arm, focused on acquiring and sustainably growing underrated businesses."
+      info: "Our independent sponsor arm. We buy and operate real-economy businesses, and run the Bridge playbook on them ourselves."
       icon: "assets/images/mark_amalgam.svg"
       color: amalgam
     - title: SLK Catalyst Partners
       url: https://slkcatalystpartners.com
-      info: "SLK Catalyst Partners offers a structured framework of actionable solutions to help corporate and operating entities tackle complex challenges."
+      info: "Structured frameworks for operating entities tackling complex challenges."
       icon: "assets/images/mark_catalyst.svg"
       color: forest
+    - title: All brands
+      url: /brands
+      info: "The full family of SLKone-affiliated brands."
+      color: forest
+- title: Insights
+  url: /insights
+- title: Culture
+  url: /culture
 cta:
 - title: Contact Us
   url: /contact
 mobile:
 - title: Home
   url: /
-- title: Services
+- title: Platform
+  url: /bridge
+- title: How we work
+  url: /how-we-work
+- title: What we solve
   url: /services
 - title: Industries
   url: /industries
+- title: Proof
+  url: /proof
+- title: Amalgam
+  url: /amalgam
 - title: Insights
   url: /insights
 - title: Culture
   url: /culture
-- title: Brands
-  url: /brands  
 - title: Careers
   url: /careers
 - title: Contact Us
-  url: /contact  
+  url: /contact
 insights:
 - title: All Insights
   url: /insights
@@ -47,4 +63,3 @@ insights:
   url: /articles
 - title: Case Studies
   url: /case-studies
-

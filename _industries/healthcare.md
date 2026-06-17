@@ -2,9 +2,9 @@
 layout: industry
 order: 2
 title: Healthcare
-subtitle: "In the ever-evolving healthcare landscape, we help providers, payers, and life sciences companies optimize operations, enhance patient outcomes, and navigate complex market dynamics."
-intro: "In the ever-evolving healthcare landscape, SLKone helps providers, payers, and life sciences companies optimize operations, enhance patient outcomes, and navigate complex market dynamics. Our deep industry knowledge, combined with our data-driven approach, enables us to deliver tangible results in this intricate sector."
-blurb-intro: "Navigate the healthcare landscape with SLKone's expert guidance and innovative solutions."
+subtitle: "Practice operations, revenue cycle, and patient access. Bridge and an embedded team apply AI to the work the EHR does not cover."
+intro: "Healthcare is the sector where Bridge has the deepest live proof. We run discovery, structure the readiness map, and stand up the operating layer for multi-site provider groups, with the Bridge meeting agent capturing the fieldwork directly. The result is a prioritized roadmap anchored on the economics your CFO and board are already accountable to."
+blurb-intro: "Practice operations, revenue cycle, and patient access on Bridge. Discovery supported by the platform. The roadmap owned by you."
 landscape-title: "The Healthcare Landscape"
 landscape-intro: "The healthcare industry is undergoing rapid transformation, driven by:"
 landscape:

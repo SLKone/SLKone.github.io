@@ -1,0 +1,76 @@
+---
+layout: default
+---
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background_image color=page.color %}
+
+<section class="big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl md:text-3xl py-32 lg:py-40">
+    <p class="max-w-prose">{{ page.bigparagraph }}</p>
+  </div>
+</section>
+
+{% if page.flywheel %}
+<section id="flywheel" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-4 font-display">{{ page.flywheel.title }}</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">{{ page.flywheel.subtitle }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      {% for step in page.flywheel.steps %}
+      <div class="bg-amalgam-100 dark:bg-amalgam-700/30 rounded-xl p-6 relative">
+        <p class="text-xs uppercase font-bold opacity-60 tracking-widest mb-2">Step {{ forloop.index }}</p>
+        <h3 class="text-xl font-display mb-2">{{ step.title }}</h3>
+        <p class="text-sm">{{ step.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.companies %}
+<section id="companies" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-4 font-display">{{ page.companies.title }}</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">{{ page.companies.subtitle }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for company in page.companies.items %}
+      <div class="bg-white dark:bg-currant rounded-xl p-8 flex flex-col">
+        <p class="text-xs uppercase font-bold opacity-60 tracking-widest mb-2">{{ company.sector }}</p>
+        <h3 class="text-2xl font-display mb-3">{{ company.title }}</h3>
+        <p class="mb-6 grow">{{ company.description }}</p>
+        {% if company.link %}
+        <a class="text-emerald dark:text-forest font-display text-sm hover:underline" href="{{ company.link }}">{{ company.link_text | default: "Read the proof" }} <i class="fas fa-arrow-right ml-1"></i></a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.what_it_means %}
+<section id="what-it-means" class="py-20 lg:py-32 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-4 font-display">{{ page.what_it_means.title }}</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">{{ page.what_it_means.subtitle }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {% for point in page.what_it_means.points %}
+      <div class="bg-white/5 backdrop-blur-md rounded-xl p-8">
+        <h3 class="text-xl font-display mb-3 text-emerald dark:text-forest">{{ point.title }}</h3>
+        <p>{{ point.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.cta_link %}
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=page.cta_title
+  description=page.cta_description
+  cta_link=page.cta_link
+  cta_text=page.cta_text
+%}
+{% endif %}

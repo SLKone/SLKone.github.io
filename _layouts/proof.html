@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{% include page-header.html title=page.title subtitle=page.subtitle streamlines=page.streamlines background_image=page.background_image %}
+
+<section class="big-paragraph justify-center items-center flex bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl md:text-3xl py-32 lg:py-40">
+    <p class="max-w-prose">{{ page.bigparagraph }}</p>
+  </div>
+</section>
+
+{% if page.featured %}
+<section id="featured" class="py-20 lg:py-32">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-2 font-display">{{ page.featured.title }}</h2>
+    {% if page.featured.subtitle %}<p class="text-xl max-w-prose mb-12 opacity-80">{{ page.featured.subtitle }}</p>{% endif %}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {% for item in page.featured.items %}
+      <div class="bg-black/5 dark:bg-currant-500 rounded-xl p-8 flex flex-col">
+        <p class="text-xs uppercase font-bold opacity-60 tracking-widest mb-2">{{ item.kind }}</p>
+        <h3 class="text-3xl font-display mb-6">{{ item.title }}</h3>
+        <div class="mb-4">
+          <p class="text-sm uppercase font-bold opacity-60 mb-1">Challenge</p>
+          <p>{{ item.challenge }}</p>
+        </div>
+        <div class="mb-4">
+          <p class="text-sm uppercase font-bold opacity-60 mb-1">Approach</p>
+          <p>{{ item.approach }}</p>
+        </div>
+        <div class="mb-6 grow">
+          <p class="text-sm uppercase font-bold opacity-60 mb-1">Impact</p>
+          <p>{{ item.impact }}</p>
+        </div>
+        {% if item.link %}
+        <a class="text-emerald dark:text-forest font-display hover:underline" href="{{ item.link }}">Read the full case study <i class="fas fa-arrow-right ml-1"></i></a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.principles %}
+<section id="principles" class="py-20 lg:py-32 bg-currant text-white dark:bg-currant-600">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-4 font-display">{{ page.principles.title }}</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">{{ page.principles.subtitle }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {% for item in page.principles.items %}
+      <div class="bg-white/5 backdrop-blur-md rounded-xl p-8">
+        <h3 class="text-xl font-display mb-3 text-emerald dark:text-forest">{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section id="all-case-studies" class="py-20 lg:py-32 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-4 font-display">More case studies</h2>
+    <p class="text-xl max-w-prose mb-12 opacity-80">Earlier engagements across operations, finance, analytics, and M&amp;A.</p>
+    <p><a class="bg-emerald dark:bg-forest text-white dark:text-currant text-xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500 inline-block" href="/case-studies">See all case studies <i class="fas fa-arrow-right ml-2"></i></a></p>
+  </div>
+</section>
+
+{% include contact-card.html
+  background_image=site.data.homepage.closing_cta.background_image
+  title=page.cta_title
+  description=page.cta_description
+  cta_link=page.cta_link
+  cta_text=page.cta_text
+%}

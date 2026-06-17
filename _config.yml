@@ -42,7 +42,9 @@ collections:
   team-members:
     output: true
   contactpage:
-    output: true    
+    output: true
+  problem-patterns:
+    output: true
 
 # Defaults
 defaults:
@@ -101,6 +103,12 @@ defaults:
       layout: "contactpage"
       permalink: /:title/
   - scope:
+      path: ""
+      type: "problem-patterns"
+    values:
+      layout: "problem-pattern"
+      permalink: /what-we-solve/:title/
+  - scope:
       path: "files"
     values:
       sitemap: false
@@ -120,6 +128,10 @@ exclude:
   - tailwind.config.js
   - assets/css/tailwind.css
   - postcss.config.js
+  - AGENTS.md
+  - Siteplanning-SLKone.md
+  - "~$teplanning-SLKone.docx"
+  - update-links.py
 
 # Sass settings
 sass:
