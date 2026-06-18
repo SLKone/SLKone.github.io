@@ -6,10 +6,12 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-postcss"
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
 end
+# jekyll-postcss removed: tries to spawn a PostCSS dev server on localhost:8124,
+# which fails in sandboxed CI environments (Cloudflare Pages, GitHub Actions).
+# CSS is built via `npm run build:css:prod` before `jekyll build`.
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
