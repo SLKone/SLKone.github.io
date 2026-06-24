@@ -3,23 +3,25 @@ layout: sub-industry
 parent: Manufacturing
 order: 4
 title: "Discrete and Process Manufacturing"
-subtitle: "We help both discrete and process manufacturers streamline operations, implement lean principles, and leverage Industry 4.0 technologies for enhanced productivity and efficiency."
+description: "We help discrete and process manufacturers raise throughput, hold quality, and tie legacy systems together so the plant runs better."
+subtitle: "Whether you run discrete assembly or continuous process lines, the job is the same: hold quality, keep the line moving, and get more out of the assets you already own. We work alongside your team on the floor to fix what is slowing production."
 
 challenges:
   - "Balancing efficiency with flexibility"
   - "Quality control in high-volume production"
   - "Energy management and resource optimization"
-  - "Integration of legacy systems with new technologies"
+  - "Legacy equipment and systems that resist connection"
 
 solutions:
   - title: "Flexible Manufacturing Systems Implementation"
     content:
       - "Modular production line design"
       - "Quick changeover techniques adoption"
-      - "Adaptive production scheduling"
+      - "Demand forecasting to steady production scheduling"
   - title: "Quality Management Enhancement"
     content:
       - "Statistical process control implementation"
+      - "Predictive quality checks that flag defects before they ship"
       - "End-to-end traceability solutions"
   - title: "Operational Efficiency Improvements"
     content:
@@ -36,13 +38,13 @@ outcomes:
 why_choose:
   - "Discrete & Process Manufacturing Expertise: Deep understanding of both manufacturing types."
   - "Lean Principles: Implementing lean methodologies for waste reduction and efficiency."
-  - "Industry 4.0 Integration: Leveraging advanced technologies for smart manufacturing."
+  - "Connected Operations: Tying legacy equipment and new tools into one clear picture of the floor."
   - "Quality Assurance: Enhancing quality control systems to ensure product excellence."
   - "Operational Optimization: Streamlining processes to boost productivity and reduce costs."
-  - "Collaborative Approach: Partnering with your team to deliver customized and impactful solutions."
+  - "The Same People, Start to Finish: Working on the floor with your team and leaving the capability behind."
 
 cta-title: "Ready to streamline your Discrete & Process Manufacturing operations?"
-cta: "Contact SLKone today to learn how our specialized services can enhance your productivity and operational efficiency."
+cta: "Talk to SLKone about lifting throughput and quality across your discrete and process lines."
 icon: "fa-conveyor-belt-boxes"
 color: "sand"
 image: "/assets/images/backgrounds/discrete-process-manufacturing.webp"

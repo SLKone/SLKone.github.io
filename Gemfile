@@ -18,3 +18,9 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem 'kramdown-parser-gfm', '~> 1.1.0' # Specify the version explicitly
+
+# Ruby 3.4 removed these from default gems; Jekyll dep-tree requires them at runtime
+gem "base64"
+gem "bigdecimal"
+gem "mutex_m"
+gem "logger"

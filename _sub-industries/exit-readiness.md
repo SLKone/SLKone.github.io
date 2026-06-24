@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Private Equity
 order: 5
 title: "Exit Readiness"
-subtitle: "We prepare your portfolio companies for successful exits by maximizing valuation, optimizing performance, and ensuring seamless transitions to new ownership."
+description: "Prepare your portfolio companies for a strong exit, with valuation, performance, and a clean handover to new owners."
+subtitle: "We get portfolio companies ready to sell well, lifting valuation, sharpening performance, and making the handover to new owners clean and orderly."
   
 challenges:
   - "Maximizing valuation multiples"
@@ -35,14 +36,14 @@ outcomes:
   - "Optimized post-exit transition and continuity"
   
 why_choose:
-  - "Exit Readiness Expertise: Extensive experience in preparing portfolio companies for successful exits."
-  - "Valuation Maximization: Proven strategies to enhance valuation multiples and investor appeal."
-  - "Comprehensive Transaction Support: Covering all aspects from due diligence to transition planning."
+  - "Exit Readiness Expertise: Years of hands-on work getting portfolio companies ready to sell, with the same people start to finish."
+  - "Valuation Support: Strengthen the story, metrics, and operating evidence buyers will test."
+  - "Transaction Support: Cover diligence preparation, process gaps, and transition planning."
   - "Strategic Roadmapping: Developing clear and actionable roadmaps to support post-exit growth."
-  - "Collaborative Partnership: Working closely with your team to ensure tailored and effective exit strategies."
+  - "Embedded Delivery: We work alongside your team so exit-readiness routines can be reused."
   
 cta-title: "Ready to maximize the value of your exit strategy?"
-cta: "Contact SLKone today to learn how our Exit Readiness services can ensure a profitable and seamless transition to new ownership."
+cta: "Talk to SLKone about getting your portfolio company ready to sell, so the process is profitable and the handover to new owners is clean."
 icon: "fa-right-from-bracket"
 color: "tangerine"
 image: "/assets/images/backgrounds/exit-readiness.webp"

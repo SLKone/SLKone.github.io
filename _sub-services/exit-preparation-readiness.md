@@ -3,9 +3,9 @@ layout: sub-service
 order: 4
 title: "Exit Preparation & Readiness"
 parent: "Mergers and Acquisitions"
-description: "SLKone's Exit Preparation & Readiness services ensure that your organization is well-positioned for exit strategies, whether through sale, IPO, or other means, maximizing value and facilitating a smooth transition."
-approach: "We assist in preparing your organization for exit by optimizing financial performance, enhancing operational efficiencies, and strengthening governance structures. Our approach includes strategic planning, performance improvement initiatives, and comprehensive readiness assessments to ensure that your company is attractive to potential buyers or investors."
-intro: "Positioning your organization for a successful exit through financial optimization, operational improvements, and robust governance strategies, ensuring attractiveness to potential buyers or investors."
+description: "SLKone prepares your organization for a sale, IPO, or other exit by strengthening financials, operations, and governance so you carry maximum value into the deal."
+approach: "We prepare your organization for exit by sharpening financial performance, tightening operations, and strengthening governance. We work through strategic planning, focused improvement, and honest readiness assessments so your company stands up to buyer and investor scrutiny. The same people who run the assessment stay through the work."
+intro: "Position your organization for a successful exit through stronger financials, better-run operations, and sound governance, so buyers and investors see real value."
 focus_areas:
   - title: "Next-Step Roadmap Development"
     content: "Facilitate the strategic roadmap for the next stage of investment or exit."
@@ -21,10 +21,10 @@ focus_areas:
     icon: "fa-bridge-circle-check"
 why_choose:
   - "Maximized Valuation: Enhance your organization's attractiveness to potential buyers or investors."
-  - "Comprehensive Preparation: Address all aspects of exit readiness, from financials to operations."
-  - "Experienced Advisors: Work with consultants who have a proven track record in exit strategies."
-  - "Smooth Transition: Ensure a seamless shift during the exit process with minimal disruption."
-cta: "Contact us to discover how our Exit Preparation & Readiness services can maximize the value of your organization and facilitate a smooth transition to your next venture."
+  - "Exit Preparation: Address the financial, operational, and diligence issues buyers will test."
+  - "Experienced Hands: Work with people who have guided exits before and stay with you start to finish."
+  - "Smooth Transition: Keep the business running steadily through the exit, with minimal disruption."
+cta: "Talk with us about preparing your organization for exit, carrying maximum value into the deal, and moving smoothly to what comes next."
 icon: "fa-door-closed"
 color: "forest"
 image: "/assets/images/backgrounds/exit-preparation-readiness.webp"

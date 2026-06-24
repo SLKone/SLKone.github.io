@@ -88,10 +88,16 @@ layout: default
   {% include why-choose-slkone.html title=why_choose_title points=page.why_choose %}
 {% endif %}
 
+{% if page.proof_cases %}
+  {% include proof-cases.html cases=page.proof_cases %}
+{% endif %}
+
 {% if page.cta %}
-{% include contact-card.html 
-  background_image=site.data.homepage.contact.background-image 
+{% include contact-card.html
+  background_image=site.data.homepage.contact.background-image
   title=page.cta_title
-  description=page.cta 
+  description=page.cta
+  cta_link=page.cta_link
+  cta_text=page.cta_text
 %}
 {% endif %}

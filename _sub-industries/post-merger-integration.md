@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Private Equity
 order: 3
 title: "Post-Merger Integration"
-subtitle: "We manage the complex process of integrating acquired companies, ensuring seamless transitions, realizing synergies, and maintaining operational continuity."
+description: "We run the integration so acquired companies combine cleanly, synergies land, and the business keeps running through the transition."
+subtitle: "We run the integration of acquired companies so the combined business holds together, planned synergies actually land, and operations keep running through the transition."
   
 challenges:
   - "Cultural integration and change management"
@@ -24,7 +25,7 @@ solutions:
       - "Organizational structure redesign"
   - title: "Change Management"
     content:
-      - "Comprehensive communication plans"
+      - "Communication plans tied to workstream decisions and adoption"
       - "Leadership alignment and training programs"
       - "Employee engagement and retention strategies"
   
@@ -35,14 +36,14 @@ outcomes:
   - "Accelerated cultural alignment and employee engagement"
   
 why_choose:
-  - "Integration Expertise: Extensive experience in managing successful post-merger integrations."
+  - "Done This Before: We have run integrations across deals and know where they tend to break."
   - "Holistic Approach: Addressing all aspects of integration from operations to culture."
-  - "Synergy Focused: Ensuring that identified synergies are realized effectively."
+  - "Synergies That Land: We track the value identified in diligence through to the P&L, not just a plan on paper."
   - "Change Management Excellence: Facilitating smooth transitions and high employee engagement."
-  - "Collaborative Partnership: Working closely with your team to ensure tailored and impactful integration solutions."
+  - "The Same People Start to Finish: We work alongside your team through the whole integration, from plan to operating cadence."
   
-cta-title: "Ready to ensure a seamless integration of your recent acquisition?"
-cta: "Contact SLKone today to learn how our Post-Merger Integration services can drive your combined company's success."
+cta-title: "Ready to make your latest acquisition pay off?"
+cta: "Talk to SLKone about putting structure and pace behind your next integration so the combined company performs."
 icon: "fa-merge"
 color: "tangerine"
 image: "/assets/images/backgrounds/post-merger-integration.webp"

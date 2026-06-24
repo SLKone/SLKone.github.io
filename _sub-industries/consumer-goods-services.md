@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Retail and Consumer Goods
 order: 2
 title: "Consumer Goods & Services"
-subtitle: "We support consumer goods and services companies in product innovation, supply chain optimization, and digital transformation to drive growth and enhance customer satisfaction."
+subtitle: "We help consumer goods and services companies read demand earlier, run a steadier supply chain, and grow profitably, with AI sharpening the insight and the brand work staying human."
+description: "Help for consumer goods and services firms to read demand, steady the supply chain, and grow profitably, with the brand work staying human."
   
 challenges:
   - "Rapidly changing consumer preferences"
@@ -14,12 +15,12 @@ challenges:
 solutions:
   - title: "Agile Product Development"
     content:
-      - "Trend prediction and consumer insights integration"
-      - "Cross-functional collaboration enhancement"
+      - "Consumer insight and demand signals read earlier, with AI helping surface the patterns"
+      - "Cross-functional collaboration improvement"
       - "Rapid prototyping and iterative testing"
   - title: "Supply Chain Transformation"
     content:
-      - "End-to-end supply chain visibility enhancement"
+      - "Clearer view of the supply chain end to end, so risks surface before they bite"
       - "Supplier risk assessment and mitigation"
       - "Circular economy principles integration"
   - title: "D2C Strategy Development"
@@ -35,14 +36,14 @@ outcomes:
   - "Enhanced brand reputation for sustainability"
   
 why_choose:
-  - "Consumer Goods Expertise: Comprehensive understanding of consumer behavior and market dynamics."
-  - "Innovative Solutions: Implementing agile methodologies for rapid product development and launch."
+  - "Consumer Goods Expertise: Understanding of consumer behavior, channel dynamics, margin, and demand."
+  - "The Same People Start to Finish: Agile methods run by the hands-on team that planned them, from first idea to launch."
   - "Supply Chain Excellence: Optimizing supply chains for resilience and efficiency."
   - "Sustainability Focus: Integrating eco-friendly practices into operations and sourcing."
-  - "Collaborative Partnership: Working closely with your team to deliver customized and impactful solutions."
+  - "Embedded Delivery: Working with your team through analysis, planning, and implementation."
   
 cta-title: "Ready to drive growth and innovation in your Consumer Goods & Services operations?"
-cta: "Contact SLKone today to learn how our specialized services can enhance your product development and supply chain strategies."
+cta: "Talk with SLKone about reading demand earlier and running a steadier supply chain, with people who stay on the work start to finish."
 icon: "fa-basket-shopping"
 color: "cinnabar"
 image: "/assets/images/backgrounds/consumer-goods-services.webp"

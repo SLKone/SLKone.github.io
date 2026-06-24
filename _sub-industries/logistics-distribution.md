@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Retail and Consumer Goods
 order: 3
 title: "Logistics & Distribution"
-subtitle: "We help logistics and distribution companies optimize their networks, improve operational efficiency, and leverage technology for competitive advantage."
+description: "We help logistics and distribution operators cut delivery cost, lift warehouse throughput, and keep promises to customers, with the same people start to finish."
+subtitle: "Delivery promises are getting tighter while cost per parcel climbs. We help logistics and distribution operators move freight faster and cheaper, applying forecasting and routing where they earn their keep."
   
 challenges:
   - "Meeting same-day and next-day delivery expectations"
@@ -14,17 +15,18 @@ challenges:
 solutions:
   - title: "Last-Mile Delivery Optimization"
     content:
-      - "Route optimization algorithms implementation"
-      - "Crowd-sourced delivery model evaluation"
-      - "Micro-fulfillment center strategy development"
+      - "Routing models that cut miles, stops, and fuel per delivery"
+      - "Crowd-sourced and contract delivery options weighed on real cost"
+      - "Micro-fulfillment placement to shorten the final leg"
   - title: "Warehouse Optimization"
     content:
-      - "IoT-enabled inventory management"
-      - "Predictive maintenance for equipment"
+      - "Connected inventory tracking that ends stock blind spots"
+      - "Demand forecasting that right-sizes stock and staffing"
+      - "Maintenance scheduling that keeps equipment running through peak"
   - title: "Supply Chain Visibility Enhancement"
     content:
-      - "Real-time tracking and monitoring solutions"
-      - "Advanced analytics for performance optimization"
+      - "Live tracking that flags delays before customers feel them"
+      - "Performance analytics that turn shipment data into decisions"
   
 outcomes:
   - "20-30% reduction in last-mile delivery costs"
@@ -33,14 +35,14 @@ outcomes:
   - "Increased supply chain resilience and adaptability"
   
 why_choose:
-  - "Logistics & Distribution Expertise: In-depth knowledge of supply chain and distribution challenges."
-  - "Operational Excellence: Streamlining logistics processes for enhanced efficiency and cost savings."
-  - "Technology Integration: Leveraging advanced technologies like IoT and analytics for improved visibility and performance."
-  - "Customer-Centric Solutions: Enhancing delivery experiences through optimized strategies."
-  - "Collaborative Partnership: Working closely with your team to deliver customized and impactful solutions."
+  - "Sector Knowledge: We understand how freight, fulfillment, and last-mile cost actually behave."
+  - "Operating Judgment: We streamline the workflows that drive cost and service, not just the dashboards."
+  - "Technology That Earns Its Place: Routing, forecasting, and tracking applied where they pay back, and honest when they do not."
+  - "Customer Promises Kept: Faster, more reliable delivery that holds up at peak."
+  - "The Same People Start to Finish: We work alongside your team through network analysis, implementation, and handoff."
   
 cta-title: "Ready to optimize your Logistics & Distribution operations?"
-cta: "Contact SLKone today to discover how our specialized services can enhance your delivery efficiency and supply chain resilience."
+cta: "Talk to SLKone about where your delivery cost and service are leaking, and what it would take to fix it."
 icon: "fa-truck-fast"
 color: "cinnabar"
 image: "/assets/images/backgrounds/logistics-distribution.webp"

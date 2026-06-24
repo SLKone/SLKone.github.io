@@ -3,7 +3,11 @@ layout: sub-industry
 parent: Private Equity
 order: 4
 title: "Value Creation and Growth"
-subtitle: "We drive value creation and growth initiatives within your portfolio companies, enhancing performance, expanding market presence, and optimizing operations."
+subtitle: "We work alongside your portfolio companies to lift performance, grow revenue, run leaner operations, and turn the value plan into operating cadence."
+description: "SLKone helps PE portfolio companies improve performance, grow revenue, execute add-ons, and build the metrics needed to manage the value plan."
+proof_cases:
+  - From-Reactive-to-Proactive-Budgeting-for-a-Private-Equity-Company
+  - Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company
 challenges:
   - "Stagnating growth during hold periods"
   - "Balancing cost reduction with growth investments"
@@ -24,7 +28,7 @@ solutions:
     content:
       - "Identifying complementary acquisition targets"
       - "Conducting thorough due diligence and integration planning"
-      - "Executing seamless integration to maximize value"
+      - "Executing integration cleanly to capture value early"
 outcomes:
   - "20-30% EBITDA improvement over hold period"
   - "Accelerated organic growth rates"
@@ -32,13 +36,13 @@ outcomes:
   - "Enhanced competitive positioning in target markets"
   
 why_choose:
-  - "Value Creation Expertise: Proven track record in driving EBITDA growth and operational improvements."
+  - "Value Creation Expertise: Experience tying EBITDA growth to operating levers, not generic initiatives."
   - "Strategic Insight: Deep understanding of market dynamics and growth drivers."
-  - "Data-Driven Approach: Utilizing advanced analytics to inform strategic decisions and performance optimization."
-  - "Comprehensive Services: Covering all aspects from performance improvement to strategic growth planning."
-  - "Collaborative Partnership: Working closely with your portfolio companies to deliver customized and impactful solutions."
+  - "Evidence-Led Decisions: We pair operating judgment with KPI, pricing, cost, working-capital, and scenario analysis."
+  - "Integrated Work: Covering performance improvement, revenue growth, add-ons, and operating cadence."
+  - "Same People, Start to Finish: We work hands-on inside your portfolio companies through implementation."
 cta-title: "Ready to accelerate value creation and drive growth in your portfolio companies?"
-cta: "Contact SLKone today to discover how our specialized services can enhance performance and expand your market presence."
+cta: "Talk to SLKone about lifting performance and revenue across your portfolio with metrics, cadence, and hands-on implementation."
 icon: "fa-arrow-up-right-dots"
 color: "tangerine"
 image: "/assets/images/backgrounds/value-creation-growth.webp"

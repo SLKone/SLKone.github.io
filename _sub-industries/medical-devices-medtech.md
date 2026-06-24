@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Healthcare
 order: 3
 title: "Medical Devices & MedTech"
-subtitle: "We support medical device and health technology companies in product development, market access strategies, and operational optimization."
+description: "Practical help for medical device and MedTech firms: faster product development, efficient manufacturing, and market access that holds up to regulation."
+subtitle: "We help medical device and health technology companies get products through development, manufacturing, and market access without losing time to regulatory rework."
 challenges:
   - "Rapid technological advancements"
   - "Complex regulatory environments"
@@ -13,7 +14,7 @@ solutions:
   - title: "Product Development Process Improvement"
     content:
       - "Stage-gate process optimization"
-      - "Cross-functional collaboration enhancement"
+      - "Cross-functional collaboration improvement"
       - "Innovation management"
   - title: "Manufacturing Efficiency"
     content:
@@ -32,13 +33,13 @@ outcomes:
   - "Enhanced product profitability"
 why_choose:
   - "MedTech Expertise: In-depth knowledge of medical devices and health technology landscapes."
-  - "Innovation-Driven Solutions: Implementing advanced technologies like Industry 4.0 for smart manufacturing."
+  - "Smarter Manufacturing: Applying connected-plant and analytics tools where they earn their place on the line, not for their own sake."
   - "Quality Assurance: Enhancing quality management systems to meet stringent regulatory standards."
   - "Strategic Market Access: Developing effective go-to-market strategies to maximize product adoption."
   - "Operational Efficiency: Streamlining manufacturing processes to boost productivity and reduce costs."
-  - "Collaborative Approach: Partnering with your team to ensure customized and impactful solutions."
-cta-title: "Ready to enhance your Medical Devices & MedTech operations?"
-cta: "Contact SLKone today to discover how our specialized services can drive your product development and market success."
+  - "Same People Start to Finish: We work alongside your team through roadmap, remediation, and handoff."
+cta-title: "Ready to improve your Medical Devices & MedTech operations?"
+cta: "Talk to SLKone about where your product development, manufacturing, and market access plan is losing time, and what it takes to fix it."
 icon: "fa-microscope"
 color: "coral"
 image: "/assets/images/backgrounds/medical-devices-medtech.webp"

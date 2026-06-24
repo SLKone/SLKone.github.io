@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Manufacturing
 order: 1
 title: "Aerospace & Defense"
-subtitle: "We help aerospace and defense companies navigate complex supply chains, optimize production processes, and enhance operational efficiency."
+description: "We help aerospace and defense companies steady their supply chains, tighten production, and meet exacting quality and compliance standards."
+subtitle: "Programs live or die on supply reliability, quality, and compliance. We work alongside your team to steady the supply base, tighten production, and hold delivery on schedule."
 challenges:
   - "Complex, high-precision production requirements"
   - "Stringent quality and safety standards"
@@ -13,31 +14,31 @@ solutions:
   - title: "Advanced Manufacturing Techniques Implementation"
     content:
       - "Additive manufacturing integration"
-      - "Robotics and automation deployment"
+      - "Robotics and automation implementation"
       - "Digital twin technology adoption"
   - title: "Supply Chain Risk Mitigation"
     content:
-      - "Multi-tier supplier visibility enhancement"
-      - "Alternative sourcing strategies development"
-      - "Predictive analytics for supply disruptions"
+      - "Multi-tier supplier visibility so you see risk before it reaches the line"
+      - "Alternative sourcing and qualification plans for single-source parts"
+      - "Predictive models that flag supply disruptions early, where the signal is strong enough to act on"
   - title: "Product Lifecycle Management Optimization"
     content:
       - "Design for manufacturability initiatives"
       - "Obsolescence prediction and management"
-      - "Aftermarket services enhancement"
+      - "Aftermarket services improvement"
 outcomes:
   - "20-30% reduction in production lead times"
   - "15-25% improvement in supply chain resilience"
   - "Enhanced product quality and reduced defect rates"
   - "Optimized inventory levels and reduced carrying costs"
 why_choose:
-  - "Aerospace & Defense Expertise: Deep understanding of industry-specific challenges."
-  - "Advanced Technology Integration: Implementing cutting-edge manufacturing technologies."
-  - "Supply Chain Resilience: Building robust and flexible supply networks."
-  - "Lifecycle Management: Ensuring product sustainability and profitability."
-  - "Collaborative Partnership: Working closely with your team for tailored solutions."
+  - "Aerospace & Defense Experience: We know the quality, security, and compliance demands that shape this work."
+  - "Practical Technology Integration: We apply robotics, automation, and quality analytics where they improve cost, throughput, or reliability."
+  - "Supply Chain Resilience: Building supply networks that hold up under disruption."
+  - "Lifecycle Management: Keeping products supportable and profitable across long program lives."
+  - "Hands-On Partnership: The same people work with your team from start to finish."
 cta-title: "Ready to optimize your Aerospace & Defense operations?"
-cta: "Contact SLKone today to discover how our specialized services can drive your production efficiency and supply chain resilience."
+cta: "Talk to SLKone about steadier supply, tighter production, and delivery you can stand behind."
 icon: "fa-rocket"
 color: "sand"
 image: "/assets/images/backgrounds/aerospace-defense.webp"
