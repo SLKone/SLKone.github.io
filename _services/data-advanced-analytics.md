@@ -2,7 +2,8 @@
 layout: service
 order: 7
 title: "Data & Advanced Analytics"
-subtitle: "We leverage advanced open-source libraries and leading business tools to bridge operations and finance, looking into the future while deploying sound processes."
+description: "Models and analytics that drive real business decisions, built and implemented with your team, with the data capability left in your hands."
+subtitle: "We bring the right mix of open-source and commercial tools to bridge operations and finance, turning your data into decisions you can act on."
 intro: "At SLKone, we believe that data is a strategic asset that, when properly leveraged, can drive significant business value. Our Data & Advanced Analytics services help organizations harness the power of their data to gain insights, make better decisions, and drive business performance."
 approach: "We take a comprehensive approach to data and analytics, focusing on Predictive Model Development, Data Enrichment, and Data Transformation & Management. Our methodology ensures that your data is not only accurately collected and managed but also effectively analyzed to derive actionable insights."
 blurb-intro: "Harness the power of data to drive insights and elevate your business performance."
@@ -14,10 +15,10 @@ why_choose:
     description: "We ensure that our analytics solutions directly address your key business challenges and opportunities."
   - point: "Advanced Techniques"
     icon: "fa-microchip"
-    description: "We leverage cutting-edge statistical and machine learning techniques to derive deep insights from your data."
+    description: "We use proven statistical and machine learning methods to find the signal in your data."
   - point: "End-to-End Solutions"
     icon: "fa-expand"
-    description: "We provide comprehensive solutions from data collection and management to advanced analytics and visualization."
+    description: "We provide comprehensive solutions from data collection and management to advanced analytics and visualization, and you own the models and pipelines when we are done."
   - point: "Cross-Industry Expertise"
     icon: "fa-arrows-cross"
     description: "Our team brings diverse industry experience, allowing us to apply best practices and innovative solutions to your unique challenges"

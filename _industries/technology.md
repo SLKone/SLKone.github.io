@@ -1,7 +1,8 @@
 ---
 layout: industry
-order: 4
+order: 5
 title: Technology
+description: "Operating support for technology and SaaS companies: scalable operations, revenue, and finance, with analytics and AI applied where they move the business."
 subtitle: "In the fast-paced technology sector, we assist companies in optimizing operations, managing revenue processes, and integrating advanced analytics for superior decision-making."
 intro: "SLKone catalyzes growth and innovation in the technology industry. We collaborate with tech companies to refine operations, optimize revenue streams, revitalize finance functions, and embed analytics into core processes, ensuring our clients stay ahead in a competitive landscape."
 blurb-intro: "Enhance your initiatives with SLKone's expert consulting services tailored for the tech landscape."
@@ -21,13 +22,14 @@ approach:
     description: "Fostering nimble product development and organizational structures"
     icon: "fa-solid fa-chart-line"
   - point: "Data-Driven Decision Making"
-    description: "Leveraging analytics to inform strategic choices"
+    description: "Using analytics, and AI where it helps, to inform strategic choices"
     icon: "fa-solid fa-chart-line"
   - point: "Scalable Operations Design"
     description: "Building infrastructure to support hypergrowth"
-    icon: "fa-solid fa-chart-line"
+    icon: "fa-solid fa-arrow-up-right-dots"
   - point: "Customer-Centric Innovation"
     description: "Aligning product development with market needs"
+    icon: "fa-solid fa-bullseye"
   - point: "Financial Optimization"
     description: "Enhancing profitability and investor value"
     icon: "fa-solid fa-chart-line"
@@ -39,7 +41,7 @@ why_choose:
     description: "Implementing nimble structures and processes for rapid innovation."
     icon: "fa-solid fa-arrows-left-right"
   - point: "Data-Driven Strategies"
-    description: "Leveraging analytics to guide strategic and operational decisions."
+    description: "Using analytics, and AI where it sharpens the work, to guide strategic and operational decisions."
     icon: "fa-solid fa-chart-candlestick"
   - point: "Scalable Solutions"
     description: "Designing infrastructure to support rapid growth and scalability."
