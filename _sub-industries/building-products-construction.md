@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Manufacturing
 order: 2
 title: "Building Products & Construction"
-subtitle: "We assist building product manufacturers and construction companies in improving operational efficiency, managing project lifecycles, and embracing sustainable practices."
+description: "Operational support for building product makers and construction firms managing cyclical demand, project lifecycles, and sustainable practices."
+subtitle: "We help building product manufacturers and construction firms run more efficiently, manage project lifecycles through cyclical swings, and put sustainable practices to work."
 challenges:
   - "Cyclical demand fluctuations"
   - "Raw material price volatility"
@@ -12,30 +13,30 @@ challenges:
 solutions:
   - title: "Demand Forecasting and Production Planning"
     content:
-      - "Advanced analytics for market trend prediction"
-      - "Flexible manufacturing strategies implementation"
-      - "Inventory optimization techniques"
+      - "Forecasting that reads cyclical and project-led demand, with analytics to sharpen the signal"
+      - "Flexible production planning that flexes with the cycle"
+      - "Inventory tuned to demand so capital is not tied up on the shelf"
   - title: "Sustainable Manufacturing Practices"
     content:
-      - "Circular economy principles integration"
-      - "Energy efficiency improvements"
-      - "Waste reduction and recycling initiatives"
+      - "Circular economy principles built into how product is made"
+      - "Energy efficiency improvements that lower cost as well as footprint"
+      - "Waste reduction and recycling that pay back"
   - title: "Workforce Productivity Enhancement"
     content:
-      - "Skills gap analysis and training programs"
-      - "Technology-enabled workforce management"
+      - "Skills gap analysis and training that close the gaps that matter"
+      - "Workforce management supported by the right tools, not more overhead"
 outcomes:
   - "10-20% reduction in inventory holding costs"
   - "Increased market share in green building segments"
   - "Enhanced workforce productivity and retention"
 why_choose:
-  - "Building & Construction Expertise: In-depth knowledge of the industry's operational challenges."
+  - "Building & Construction Expertise: Hands-on knowledge of how the sector's cycles and projects actually run."
   - "Sustainable Practices: Implementing eco-friendly and sustainable manufacturing solutions."
   - "Operational Efficiency: Streamlining processes to enhance productivity and reduce costs."
   - "Workforce Optimization: Enhancing workforce capabilities and productivity through targeted strategies."
-  - "Collaborative Approach: Partnering with your team to deliver customized and impactful solutions."
+  - "Collaborative Approach: We work alongside your team and leave the capability behind, with the same people start to finish."
 cta-title: "Ready to enhance your Building Products & Construction operations?"
-cta: "Contact SLKone today to learn how our specialized services can drive your operational efficiency and sustainable growth."
+cta: "Talk to SLKone about steadying operations through the cycle and growing on a sustainable footing."
 icon: "fa-building"
 color: "sand"
 image: "/assets/images/backgrounds/building-products-construction.webp"

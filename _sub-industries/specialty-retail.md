@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Retail and Consumer Goods
 order: 1
 title: "Specialty Retail"
-subtitle: "We assist specialty retailers in creating differentiated in-store experiences, managing inventory across multiple channels, and enhancing customer engagement."
+description: "We help specialty retailers tighten inventory across channels, win on in-store experience, and turn customer data into repeat business."
+subtitle: "We help specialty retailers run tighter inventory across channels, build in-store experiences that stand apart, and turn customer relationships into repeat business."
   
 challenges:
   - "Creating differentiated in-store experiences"
@@ -17,11 +18,11 @@ solutions:
       - "Predictive analytics for demand forecasting"
       - "RFID and IoT for real-time inventory tracking"
       - "Omnichannel fulfillment strategy development"
-  - title: "Personalization Engine Implementation"
+  - title: "Personalization That Lifts Repeat Purchase"
     content:
-      - "Customer data platform integration"
-      - "AI-driven recommendation systems"
-      - "Privacy-compliant data management strategies"
+      - "Customer data brought together into one usable view"
+      - "Recommendations that use AI to put the right product in front of each shopper"
+      - "Privacy-compliant handling of customer data"
   - title: "Customer Experience Enhancement"
     content:
       - "In-store technology integration"
@@ -36,10 +37,10 @@ outcomes:
   
 why_choose:
   - "Specialty Retail Expertise: Deep understanding of unique retail challenges and opportunities."
-  - "Data-Driven Solutions: Leveraging advanced analytics for inventory and customer optimization."
-  - "Omnichannel Strategy: Developing seamless integration across online and offline channels."
+  - "Data-Driven Decisions: Using analytics, and AI where it earns its place, to sharpen inventory and customer choices."
+  - "Omnichannel Strategy: Connecting online and store channels so stock and service hold together."
   - "Personalization Focus: Enhancing customer experiences through tailored strategies."
-  - "Collaborative Partnership: Working closely with your team to deliver customized and impactful solutions."
+  - "Hands-On Partnership: The same people work alongside your team from start to finish, leaving the capability behind."
 cta-title: "Ready to elevate your Specialty Retail operations?"
 cta: "Contact SLKone today to discover how our specialized services can enhance your inventory management and customer engagement strategies."
 icon: "fa-store"

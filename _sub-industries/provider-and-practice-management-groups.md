@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Healthcare
 order: 1
 title: "Provider and Practice Management Groups"
-subtitle: "We assist healthcare providers and practice management groups in improving operational efficiency, enhancing patient care, and optimizing revenue cycle management."
+description: "We help provider and practice management groups cut operational costs, strengthen the revenue cycle, and improve patient care."
+subtitle: "We help provider and practice management groups run leaner, get paid faster, and keep the focus on patient care, with the same people working alongside your team start to finish."
 challenges:
   - "Rising operational costs"
   - "Workforce shortages and burnout"
@@ -24,7 +25,7 @@ solutions:
     content:
       - "Service line optimization"
       - "Merger and acquisition support"
-      - "Digital transformation roadmaps"
+      - "Practical roadmaps for new technology and automation"
 outcomes:
   - "15-20% reduction in operational costs"
   - "10-15% improvement in revenue cycle performance"
@@ -35,10 +36,10 @@ why_choose:
   - "Operational Excellence: Streamlining workflows and optimizing resource allocation for improved efficiency."
   - "Revenue Optimization: Enhancing claims management and reducing denials to boost financial performance."
   - "Strategic Support: Assisting with service line optimization and supporting mergers and acquisitions."
-  - "Data-Driven Approach: Utilizing advanced analytics to inform strategic decisions and drive outcomes."
+  - "Data-Driven Approach: We use analytics, and automation in the revenue cycle where it earns its place, to inform decisions and improve results."
   - "Collaborative Partnership: Working closely with your team to ensure tailored and effective solutions."
 cta-title: "Ready to enhance your practice management and operational efficiency?"
-cta: "Contact SLKone today to discover how our specialized services can drive your healthcare organization's success."
+cta: "Contact SLKone to see how we can help your group lower costs, improve the revenue cycle, and protect time for patient care."
 icon: "fa-hospital"
 color: "coral"
 image: "/assets/images/backgrounds/provider-and-practice-management-groups.webp"

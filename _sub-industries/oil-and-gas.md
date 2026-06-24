@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Energy and Resources
 order: 1
 title: "Oil and Gas"
-subtitle: We assist oil and gas companies in optimizing operations, managing costs, and navigating market volatility."
+description: "We help oil and gas operators cut costs, lift asset performance, and meet safety and regulatory demands through volatile markets."
+subtitle: "We help oil and gas companies sharpen operations, control costs, and stay steady through market swings and tightening regulation."
 challenges:
   - Balancing traditional operations with clean energy initiatives
   - Managing price volatility and market uncertainties
@@ -18,8 +19,8 @@ solutions:
       - "Cost reduction initiatives"
   - title: "Digital Oilfield Implementation"
     content:
-      - "IoT and predictive analytics for equipment performance"
-      - "Real-time data visualization and decision support systems"
+      - "IoT sensors and predictive analytics to catch equipment problems before they cause downtime"
+      - "Real-time data and decision support so crews act on what matters first"
   - title: "Energy Transition Strategies"
     content:
       - "Portfolio diversification planning"
@@ -29,10 +30,10 @@ outcomes:
   - Enhanced ESG performance and reporting
 why_choose:
   - "Oil and Gas Expertise: Deep understanding of industry-specific challenges."
-  - "Advanced Technology Integration: Implementing cutting-edge manufacturing technologies."
+  - "Technology That Earns Its Place: We apply digital tools where they pay back in uptime and cost, and say so when they do not."
   - "Supply Chain Resilience: Building robust and flexible supply networks."
   - "Lifecycle Management: Ensuring product sustainability and profitability."
-  - "Collaborative Partnership: Working closely with your team for tailored solutions."
+  - "The Same People Start to Finish: We work alongside your team and leave the capability behind."
 cta-title: "Ready to optimize your Oil and Gas operations?"
 cta: "Contact SLKone today to discover how our specialized services can drive your production efficiency and supply chain resilience."
 icon: "fa-oil-well"

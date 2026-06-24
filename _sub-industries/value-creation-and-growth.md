@@ -3,7 +3,8 @@ layout: sub-industry
 parent: Private Equity
 order: 4
 title: "Value Creation and Growth"
-subtitle: "We drive value creation and growth initiatives within your portfolio companies, enhancing performance, expanding market presence, and optimizing operations."
+subtitle: "We work alongside your portfolio companies to lift performance, grow revenue, and run leaner operations, putting AI to work on the parts of the value plan where it pays for itself."
+description: "SLKone helps PE portfolio companies improve performance, grow revenue, and execute add-ons, using AI where it measurably earns its place."
 challenges:
   - "Stagnating growth during hold periods"
   - "Balancing cost reduction with growth investments"
@@ -24,7 +25,7 @@ solutions:
     content:
       - "Identifying complementary acquisition targets"
       - "Conducting thorough due diligence and integration planning"
-      - "Executing seamless integration to maximize value"
+      - "Executing integration cleanly to capture value early"
 outcomes:
   - "20-30% EBITDA improvement over hold period"
   - "Accelerated organic growth rates"
@@ -34,11 +35,11 @@ outcomes:
 why_choose:
   - "Value Creation Expertise: Proven track record in driving EBITDA growth and operational improvements."
   - "Strategic Insight: Deep understanding of market dynamics and growth drivers."
-  - "Data-Driven Approach: Utilizing advanced analytics to inform strategic decisions and performance optimization."
+  - "Evidence-Led Decisions: We pair operating judgment with analytics, and apply AI to the questions where it sharpens the call."
   - "Comprehensive Services: Covering all aspects from performance improvement to strategic growth planning."
-  - "Collaborative Partnership: Working closely with your portfolio companies to deliver customized and impactful solutions."
+  - "Same People, Start to Finish: We work hands-on inside your portfolio companies and leave the capability behind."
 cta-title: "Ready to accelerate value creation and drive growth in your portfolio companies?"
-cta: "Contact SLKone today to discover how our specialized services can enhance performance and expand your market presence."
+cta: "Talk to SLKone about lifting performance and revenue across your portfolio, with AI applied where it earns its place."
 icon: "fa-arrow-up-right-dots"
 color: "tangerine"
 image: "/assets/images/backgrounds/value-creation-growth.webp"
