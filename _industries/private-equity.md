@@ -4,7 +4,7 @@ order: 1
 title: Private Equity
 description: "We partner with private equity firms on diligence and value creation, embedding a senior team in portfolio companies to turn the thesis into returns."
 subtitle: "Sponsors are under pressure to create value quickly. We embed a small senior team in your portfolio companies, find the operational leverage, and use the right tools to move diligence and value-creation analysis at deal speed."
-intro: "SLKone partners with private equity firms across the investment lifecycle: diligence for deal teams, value creation for operating partners. We embed a small senior team in your portfolio companies, find the operational leverage that drives returns, and apply the right tools to the analysis, including AI where it genuinely helps. The result is a repeatable playbook you can run across the portfolio."
+intro: "SLKone partners with private equity firms across the investment lifecycle: diligence for deal teams, value creation for operating partners. Portfolio companies run lean, and deal and operating teams are stretched across the portfolio, so neither carries the in-house tech talent or the spare capacity to capture this value on its own. We embed a small senior team that brings both the operating judgment and the practical technology, find the leverage that drives returns, and apply the right tools, including AI where it genuinely helps. The result is a repeatable playbook, and the capability to run it, that stays with the portfolio."
 blurb-intro: "Turn the investment thesis into realized returns, company by company, with a team that implements."
 landscape-title: "The Private Equity Landscape"
 landscape-intro: "The private equity landscape is characterized by:"
