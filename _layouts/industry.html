@@ -89,9 +89,11 @@ layout: default
 {% endif %}
 
 {% if page.cta %}
-{% include contact-card.html 
-  background_image=site.data.homepage.contact.background-image 
+{% include contact-card.html
+  background_image=site.data.homepage.contact.background-image
   title=page.cta_title
-  description=page.cta 
+  description=page.cta
+  cta_link=page.cta_link
+  cta_text=page.cta_text
 %}
 {% endif %}

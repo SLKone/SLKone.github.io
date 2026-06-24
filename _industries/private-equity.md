@@ -61,6 +61,8 @@ why_choose:
     icon: "fa-solid fa-rocket"
 cta_title: "Ready to Create Value Faster Across the Portfolio?"
 cta: "Start with a focused business value assessment on one portfolio company. We identify where the value is and how we would capture it."
+cta_link: /private-equity-partnership
+cta_text: "See How We Work with PE Firms"
 icon: "fa-solid fa-briefcase"
 color: "tangerine"
 background_image: "/assets/images/backgrounds/private-equity.webp"
