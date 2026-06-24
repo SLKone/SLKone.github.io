@@ -2,9 +2,10 @@
 layout: industry
 order: 6
 title: Energy and Resources
-subtitle: "In the evolving energy and resources sector, we help companies navigate industry disruptions, optimize operations, and drive sustainable growth."
-intro: "At SLKone, we understand the complex challenges facing the energy and resources sector. From upstream to downstream, we partner with companies to navigate industry disruptions, optimize operations, and drive sustainable growth. Our deep industry knowledge, combined with our data-driven approach, enables us to deliver tangible results in this dynamic sector."
-blurb-intro: "Transform your operations with SLKone's innovative solutions, designed to enhance efficiency and drive sustainability in the evolving energy landscape."
+description: "SLKone helps energy and resources companies cut cost, hold uptime, and manage risk across capital-intensive, safety- and regulation-led operations."
+subtitle: "We help energy and resources companies lower cost, protect uptime, and manage operational and regulatory risk in a capital-intensive, safety-led business."
+intro: "Energy and resources is capital-intensive, safety-led, and tightly regulated, where uptime, unit cost, and compliance decide returns. From upstream to downstream, we work alongside your team to tighten operations, control cost, and manage risk. We bring deep sector knowledge and a data-driven approach, and we apply analytics and AI where the data supports it and say so plainly when it does not."
+blurb-intro: "We work with your team to raise asset uptime, lower unit cost, and meet ESG and regulatory obligations across the energy and resources value chain."
 landscape-title: "The Energy & Resources Landscape"
 landscape-intro: "The energy and resources sector is undergoing significant transformation, driven by:"
 landscape:
@@ -16,7 +17,7 @@ landscape:
   - "Supply chain disruptions and geopolitical uncertainties"
 landscape-conclusion: "These forces reshape the competitive landscape, presenting both challenges and opportunities for energy and resource companies."
 approach-title: "Our Approach"
-approach-intro: "SLKone adopts a comprehensive approach to energy and resources challenges, integrating operational excellence with strategic foresight. Our framework encompasses:"
+approach-intro: "We start with the operating and financial realities of your assets, then work through the levers that move cost, uptime, and risk:"
 approach:
   - point: "Operational Efficiency"
     description: "Optimizing processes and reducing costs"
@@ -41,7 +42,7 @@ why_choose:
     description: "Extensive knowledge of the energy and resources sector dynamics."
     icon: "fa-solid fa-user-tie"
   - point: "Data-Driven Solutions"
-    description: "Leveraging advanced analytics for informed decision-making."
+    description: "Analytics and AI applied to your operations where the data supports a clear decision."
     icon: "fa-solid fa-chart-candlestick"
   - point: "Sustainable Growth Focus"
     description: "Strategies aimed at long-term sustainability and resilience."
@@ -50,13 +51,13 @@ why_choose:
     description: "Integrating operations, finance, and strategy for holistic improvements."
     icon: "fa-solid fa-arrows-cross"
   - point: "Proven Track Record"
-    description: "Demonstrated success in optimizing operations and driving growth."
+    description: "A record of lowering cost, improving uptime, and reducing operational risk."
     icon: "fa-solid fa-trophy"
   - point: "Collaborative Partnership"
-    description: "Working closely with your team to ensure tailored and effective solutions."
+    description: "The same people work alongside your team start to finish and leave the capability behind."
     icon: "fa-solid fa-wrench"
 cta_title: "Ready to navigate the complexities of the energy and resources sector?"
-cta: "Contact SLKone today to discover how our specialized services can drive your sustainable growth and operational excellence."
+cta: "Contact SLKone to talk through where cost, uptime, and risk are hurting your operations, and what to do about it."
 icon: "fa-solid fa-bolt"
 color: "plum"
 background_image: "/assets/images/backgrounds/energy-and-resources.webp"

@@ -2,9 +2,10 @@
 layout: industry
 order: 2
 title: Healthcare
-subtitle: "In the ever-evolving healthcare landscape, we help providers, payers, and life sciences companies optimize operations, enhance patient outcomes, and navigate complex market dynamics."
-intro: "In the ever-evolving healthcare landscape, SLKone helps providers, payers, and life sciences companies optimize operations, enhance patient outcomes, and navigate complex market dynamics. Our deep industry knowledge, combined with our data-driven approach, enables us to deliver tangible results in this intricate sector."
-blurb-intro: "Navigate the healthcare landscape with SLKone's expert guidance and innovative solutions."
+description: "SLKone helps providers, payers, and life sciences firms improve operations, finances, and patient outcomes under real compliance and privacy constraints."
+subtitle: "We help providers, payers, and life sciences companies improve operations, strengthen patient outcomes, and meet hard financial, compliance, and privacy demands."
+intro: "SLKone helps providers, payers, and life sciences companies improve operations, strengthen patient outcomes, and work within tight financial, regulatory, and privacy constraints. We pair hands-on industry knowledge with a data-driven approach to deliver results that hold up, and we apply AI where the data supports it and say so plainly when it does not."
+blurb-intro: "Work through hard healthcare problems with SLKone, from operations and finances to compliance and patient trust."
 landscape-title: "The Healthcare Landscape"
 landscape-intro: "The healthcare industry is undergoing rapid transformation, driven by:"
 landscape:
@@ -15,7 +16,7 @@ landscape:
     - "Evolving regulatory landscape and reimbursement models"
 landscape-conclusion: "These trends create both challenges and opportunities for healthcare organizations across all sub-sectors."
 approach-title: "Our Approach"
-approach-intro: "SLKone takes a holistic view of healthcare organizations, addressing challenges across operations, finance, and strategy. We leverage our cross-sector insights to bring innovative solutions to persistent industry problems. Our approach integrates:"
+approach-intro: "SLKone takes a whole-organization view, addressing challenges across operations, finance, and strategy. We draw on cross-sector experience to solve persistent problems, and we hold compliance and patient privacy at the center of the work. Our approach integrates:"
 approach:
   - point: "Advanced Data Analytics"
     description: "Harnessing the power of healthcare data to drive informed decision-making"
@@ -43,7 +44,7 @@ why_choose:
     description: "Delivering measurable results in complex healthcare environments"
     icon: "fa-solid fa-trophy"
   - point: "Cross-industry insights"
-    description: "Ability to leverage cross-industry insights for innovative healthcare solutions"
+    description: "Applying lessons from other sectors to solve hard healthcare problems"
     icon: "fa-solid fa-arrows-left-right"
   - point: "Data-driven approach"
     description: "Combined with industry-specific knowledge"
@@ -52,10 +53,10 @@ why_choose:
     description: "Ensures knowledge transfer and sustainable improvements"
     icon: "fa-solid fa-wrench"
   - point: "Practical methodology"
-    description: "Adapts to the rapidly changing healthcare landscape"
+    description: "Adapts as healthcare operating, financial, and regulatory conditions shift"
     icon: "fa-solid fa-diagram-project"
-cta_title: "Ready to transform your healthcare organization?"
-cta: "Contact SLKone today to learn how our tailored solutions can help you navigate industry challenges, drive operational excellence, and achieve sustainable growth in the evolving healthcare landscape."
+cta_title: "Ready to tackle your hardest healthcare problems?"
+cta: "Contact SLKone to discuss how we can help you improve operations, strengthen financial performance, and meet compliance and privacy demands, with the same people working alongside your team start to finish."
 icon: "fa-solid fa-heart"
 color: "coral"
 background_image: "/assets/images/backgrounds/healthcare.webp"

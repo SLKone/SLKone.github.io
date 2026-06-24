@@ -2,9 +2,10 @@
 layout: industry
 order: 4
 title: Retail and Consumer Goods
-subtitle: "In the dynamic retail and consumer goods sector, we help companies enhance operational agility, optimize supply chains, and leverage data-driven insights for superior customer experiences."
-intro: "SLKone empowers retail and consumer goods companies to thrive in an era of rapid change and evolving consumer expectations. We partner with organizations to enhance operational agility, optimize supply chains, and leverage data-driven insights for superior customer experiences."
-blurb-intro: "Enhance your retail and consumer goods strategy with SLKone's expert insights and innovative solutions for a rapidly changing market."
+description: "SLKone helps retail and consumer goods firms protect margin, tighten inventory, and lift customer outcomes through operations and judgment."
+subtitle: "We help retail and consumer goods companies protect margin, tighten inventory, and sharpen the customer experience, using data-driven analysis where it earns its place."
+intro: "Retail and consumer goods companies face thin margins, volatile demand, and customers who expect more for less. SLKone works alongside your team to improve margin, tighten inventory and supply chains, and strengthen the customer experience. Demand forecasting, pricing, and personalization are data-rich, so we apply analytics where the data supports it, and we say plainly when it is not the answer."
+blurb-intro: "Practical guidance from SLKone on margin, inventory, and customer experience in retail and consumer goods."
 landscape-title: "The Retail & Consumer Goods Landscape"
 landscape-intro: "The retail and consumer goods sector is undergoing significant transformation, driven by:"
 landscape:
@@ -15,7 +16,7 @@ landscape:
   - "Supply chain disruptions and the need for resilience"
 landscape-conclusion: "These forces reshape consumer behaviors and business models, necessitating agile and innovative approaches."
 approach-title: "Our Approach"
-approach-intro: "SLKone adopts a comprehensive approach to retail and consumer goods challenges, integrating operational excellence with customer-centric strategies. Our framework encompasses:"
+approach-intro: "We bring operating judgment to retail and consumer goods challenges, pairing disciplined operations with a clear view of the customer. The same people stay with you start to finish. Our work covers:"
 approach:
   - point: "Omnichannel Integration"
     description: "Unifying online and offline experiences"
@@ -43,7 +44,7 @@ why_choose:
     description: "Enhancing resilience and efficiency in your supply networks."
     icon: "fa-solid fa-diagram-project"
   - point: "Data-Driven Insights"
-    description: "Leveraging analytics to inform strategic decisions."
+    description: "Using analytics to inform decisions where the data supports it."
     icon: "fa-solid fa-chart-candlestick"
   - point: "Customer-Centric Solutions"
     description: "Personalizing interactions to improve customer satisfaction."
@@ -52,13 +53,13 @@ why_choose:
     description: "Implementing eco-friendly and ethical consumption strategies."
     icon: "fa-solid fa-arrows-cross"
   - point: "Proven Success"
-    description: "Demonstrated results in optimizing operations and driving growth."
+    description: "A track record of tighter operations and stronger growth."
     icon: "fa-solid fa-trophy"
   - point: "Collaborative Partnership"
     description: "Working closely with your team to ensure tailored and effective solutions."
     icon: "fa-solid fa-wrench"
-cta_title: "Ready to elevate your retail and consumer goods operations?"
-cta: "Contact SLKone today to learn how our specialized services can enhance your operational agility and customer experiences."
+cta_title: "Ready to strengthen your retail and consumer goods operations?"
+cta: "Contact SLKone to talk through where the margin, inventory, and customer gains are, and how we would work alongside your team to capture them."
 icon: "fa-solid fa-store"
 color: "cinnabar"
 background_image: "/assets/images/backgrounds/retail-and-consumer-goods.webp"
