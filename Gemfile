@@ -18,3 +18,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem 'kramdown-parser-gfm', '~> 1.1.0' # Specify the version explicitly
+
+# Ruby 3.4 removed base64 from default gems; safe_yaml requires it at runtime
+gem "base64"
