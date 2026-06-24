@@ -37,7 +37,7 @@ why_choose:
   - "Integration That Holds: Interoperability with the clinical and payer systems your customers already depend on."
   - "Data You Can Trust: Governance and security built into how the data is collected, moved, and used."
   - "Analytics That Earn Their Place: AI and predictive models applied where they improve decisions, and left out where they do not."
-  - "The Same People Start to Finish: We work alongside your team and leave the capability behind when we go."
+  - "The Same People Start to Finish: We work alongside your team through design, build, and handoff."
 cta-title: "Ready to transform your Health Tech operations?"
 cta: "Talk to SLKone about turning your data and operations into better patient outcomes and a value story your buyers act on."
 icon: "fa-monitor-waveform"

@@ -23,10 +23,13 @@ focus_areas:
     content: "Build governance policies that protect data integrity and keep you compliant as your data grows."
     icon: "fa-shield-check"
 why_choose:
-  - "Comprehensive Data Enrichment"
-  - "Advanced Integration Techniques"
-  - "Focus on Data Quality and Governance"
-  - "Experienced Data Professionals"
+  - "Source selection tied to the decision"
+  - "Matching, classification, and anomaly checks where they reduce manual review"
+  - "Quality rules your team can inspect and maintain"
+  - "Governance that keeps enriched data usable"
+proof_cases:
+  - Delivering-Insights-Into-Customers-and-Revenue-for-a-$340M-Software-As-A-Service-Company
+  - Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company
 cta: "Talk with us about the decisions your data should be supporting, and we will show you how enrichment gets you there."
 icon: "fa-database"
 color: "tangerine"

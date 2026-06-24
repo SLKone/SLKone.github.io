@@ -10,7 +10,7 @@ permalink: /private-equity-partnership
   <div class="container mx-auto px-8 max-w-5xl">
     <h2 class="text-4xl mb-8 font-display">The teams responsible for value creation are stretched</h2>
     <p class="text-xl max-w-prose mb-6">Deal teams work against short windows. Operating partners cover a whole portfolio. And portfolio companies themselves rarely carry the in-house technical talent or the spare capacity to capture value on their own.</p>
-    <p class="text-xl max-w-prose">SLKone is the team that closes that gap. We bring operating judgment and practical technology, work alongside management, and leave the capability behind.</p>
+    <p class="text-xl max-w-prose">SLKone is the team that closes that gap. We bring operating judgment, data analysis, and practical build capability, work alongside management, and leave the model, dashboard, process, or playbook with the company.</p>
   </div>
 </section>
 
@@ -18,8 +18,8 @@ permalink: /private-equity-partnership
   <div class="container mx-auto px-8 max-w-5xl">
     <h2 class="text-4xl mb-12 font-display">What we do across the lifecycle</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
-      {% include icon-block.html icon="fa-magnifying-glass-chart" title="Diligence at speed" text="We read a target's operations quickly and separate real synergies from optimistic ones, so the deal team moves with confidence." %}
-      {% include icon-block.html icon="fa-chart-line" title="Value creation" text="We embed in portfolio companies, find the operating leverage that drives returns, and leave a repeatable playbook." %}
+      {% include icon-block.html icon="fa-magnifying-glass-chart" title="Diligence at speed" text="We clean messy target data, test the operating story, and separate real synergies from optimistic ones, so the deal team moves with confidence." %}
+      {% include icon-block.html icon="fa-chart-line" title="Value creation" text="We embed in portfolio companies, build the KPI and operating cadence, and find the revenue, margin, cash, and cost levers that drive returns." %}
       {% include icon-block.html icon="fa-flag-checkered" title="Exit readiness" text="We help prove the equity story and prepare the business for a clean, well-supported exit." %}
     </div>
   </div>
@@ -31,8 +31,8 @@ permalink: /private-equity-partnership
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
       {% include icon-block.html icon="fa-arrows-left-right" title="One view, diligence to exit" text="The same team across the investment lifecycle, so nothing is lost in the handoffs." %}
       {% include icon-block.html icon="fa-repeat" title="Repeatable across the portfolio" text="A partner you can bring to any company in the portfolio, with a playbook that travels." %}
-      {% include icon-block.html icon="fa-key" title="You own what we build" text="Models, tools, and capability stay with the portfolio company. No lock-in to any vendor or model." %}
-      {% include icon-block.html icon="fa-bullseye" title="Business first" text="We lead with the operating problem and the return, with AI applied only where it earns its place." %}
+      {% include icon-block.html icon="fa-key" title="You own what we build" text="Models, dashboards, tools, and operating routines stay with the portfolio company. No lock-in to any vendor or model." %}
+      {% include icon-block.html icon="fa-bullseye" title="Business first" text="We lead with the operating problem and the return, then decide whether analytics, automation, or machine learning changes the outcome." %}
     </div>
   </div>
 </section>

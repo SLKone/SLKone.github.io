@@ -13,7 +13,7 @@ challenges:
   - "Balancing short-term value maximization with long-term strategic alignment"
   
 solutions:
-  - title: "Comprehensive Due Diligence"
+  - title: "Diligence Readiness"
     content:
       - "Operational read that surfaces real improvement opportunities, with AI pulling signal from data rooms and reports at speed"
       - "Synergy validation and quantification you can defend in committee"
@@ -39,7 +39,7 @@ why_choose:
   - "Private Equity Experience: We know where deal value is made and lost, and what the operating risks look like up close."
   - "Data-Driven Diligence: We use analytics and AI to read more of the data in less time, so the assessment stands up."
   - "End to End: One view from diligence through integration planning, the same people start to finish."
-  - "Hands-On Partnership: We work next to your deal team and leave the capability behind."
+  - "Hands-On Partnership: We work next to your deal team through data cleanup, diligence response, and integration planning."
   - "A Plan You Can Run: Diligence that lands as a value plan, not a binder that sits on the shelf."
   
 cta-title: "Ready to prepare your next acquisition for success?"

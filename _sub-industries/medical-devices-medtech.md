@@ -14,7 +14,7 @@ solutions:
   - title: "Product Development Process Improvement"
     content:
       - "Stage-gate process optimization"
-      - "Cross-functional collaboration enhancement"
+      - "Cross-functional collaboration improvement"
       - "Innovation management"
   - title: "Manufacturing Efficiency"
     content:
@@ -37,8 +37,8 @@ why_choose:
   - "Quality Assurance: Enhancing quality management systems to meet stringent regulatory standards."
   - "Strategic Market Access: Developing effective go-to-market strategies to maximize product adoption."
   - "Operational Efficiency: Streamlining manufacturing processes to boost productivity and reduce costs."
-  - "Same People Start to Finish: We work alongside your team and leave the capability behind, not a dependency."
-cta-title: "Ready to enhance your Medical Devices & MedTech operations?"
+  - "Same People Start to Finish: We work alongside your team through roadmap, remediation, and handoff."
+cta-title: "Ready to improve your Medical Devices & MedTech operations?"
 cta: "Talk to SLKone about where your product development, manufacturing, and market access plan is losing time, and what it takes to fix it."
 icon: "fa-microscope"
 color: "coral"

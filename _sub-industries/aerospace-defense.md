@@ -14,7 +14,7 @@ solutions:
   - title: "Advanced Manufacturing Techniques Implementation"
     content:
       - "Additive manufacturing integration"
-      - "Robotics and automation deployment"
+      - "Robotics and automation implementation"
       - "Digital twin technology adoption"
   - title: "Supply Chain Risk Mitigation"
     content:
@@ -25,7 +25,7 @@ solutions:
     content:
       - "Design for manufacturability initiatives"
       - "Obsolescence prediction and management"
-      - "Aftermarket services enhancement"
+      - "Aftermarket services improvement"
 outcomes:
   - "20-30% reduction in production lead times"
   - "15-25% improvement in supply chain resilience"
@@ -33,7 +33,7 @@ outcomes:
   - "Optimized inventory levels and reduced carrying costs"
 why_choose:
   - "Aerospace & Defense Experience: We know the quality, security, and compliance demands that shape this work."
-  - "Practical Technology Integration: We apply manufacturing technology where it earns its place, and say so when it does not."
+  - "Practical Technology Integration: We apply robotics, automation, and quality analytics where they improve cost, throughput, or reliability."
   - "Supply Chain Resilience: Building supply networks that hold up under disruption."
   - "Lifecycle Management: Keeping products supportable and profitable across long program lives."
   - "Hands-On Partnership: The same people work with your team from start to finish."

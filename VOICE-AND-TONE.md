@@ -161,6 +161,7 @@ House rules, each reflecting how the site already reads (with two small standard
 - **Contractions: yes.** They keep us human ("we're," "don't," "let's"). Use them freely in articles, culture, and CTAs; ease off slightly in formal service/industry body copy.
 - **Oxford comma: yes.** "strategy, leadership, and knowledge."
 - **Em dashes — closed, no spaces.** *Standardization:* the site currently mixes closed em dashes (`—`), spaced en dashes (` – `), and double hyphens (` -- `). Going forward, use a **closed em dash** for emphasis and contrast: `challenges—we implement`.
+- **AI repositioning exception: no em dashes.** For the AI repositioning pages and service/industry edits governed by `AI-Positioning.md`, use periods, commas, colons, or short sentences instead. Keep legacy examples in this guide as quoted evidence of the existing voice.
 - **Numeric ranges use a hyphen + unit:** "20-30%," "80-100%." Keep the format consistent within a piece.
 - **Headings and titles use Title Case:** "Data Driven Approach," "Why Choose SLKone."
 - **Exclamation points are rare.** Reserve them for genuine enthusiasm on culture/careers pages. Never in service/industry copy.
@@ -208,3 +209,4 @@ Before anything ships, run these. If you answer "no" to one, revise.
 6. **No clichés?** None of the banned filler (world-class, thought leader, move the needle, paradigm shift…).
 7. **Mechanics clean?** "SLKone" spelled right; Oxford commas; closed em dashes; consistent number ranges.
 8. **Clear next step?** For marketing/CTA copy, does it end with an inviting, specific action?
+9. **AI earned its sentence?** If AI appears, does the sentence name the business outcome, the operating workflow, and the proof or ownership model behind it?

@@ -4,6 +4,8 @@
 **Purpose:** The single reference for how SLKone is positioned. Every homepage, Services, and Industries edit should trace back here. The page-by-page execution lives in `AI-Repositioning-Page-Plan.md`.
 **Voice:** All copy follows `VOICE-AND-TONE.md`, with two hard rules on top of it. No em dashes (they read as machine-written). Go easy on the word "senior"; convey experience through operating judgment and "the same people start to finish."
 
+**AI copy test:** Every mention of AI must earn its sentence. It needs all three parts: the business outcome, the operating mechanism, and proof or a softened claim. If the copy cannot name the workflow, do not say "AI where it helps." Say the actual work instead, or leave AI out.
+
 ## 1. The Position in One Line
 
 SLKone is a management and operations firm that solves hard business problems: growing revenue, cutting cost, and improving how the work runs. The fundamentals of running a business do not change, and that is our ground. AI is the most powerful new tool we apply, leveraged or built where it earns its place, and we say so plainly when it is not the answer. We are a business firm that uses AI, not an AI firm.
@@ -43,6 +45,7 @@ PE is the highest-leverage channel, since one relationship can introduce many po
 5. Do not echo the AI-native firms. Avoid "deploy," "deployment," "forward-deployed," "AI-native," "build around intelligence," "rewire."
 6. No hype. No "world-class," "best-in-class," "cutting-edge," "AI-powered," "transformative," "game-changer."
 7. Proof gates the claim. If we cannot point to an outcome, soften the claim rather than invent one.
+8. Replace generic AI language with the operating use case. Say "forecast accuracy," "ARR waterfall," "diligence data cleanup," "pricing model," "revenue-cycle reporting," or "SIOP forecast tool" when that is what we mean.
 
 ## 6. What Stays, What Changes
 
@@ -66,6 +69,18 @@ Not every page should sound equally "AI." Grade each by how much AI changes the 
 
 Rule of thumb: the more the work runs on human trust and judgment, the lighter the AI touch.
 
+## 7A. AI Copy Test
+
+Before any page ships, test every AI reference against these questions:
+
+1. **Outcome:** What business result is the reader trying to improve: revenue, margin, cost, cash, throughput, quality, speed, risk, or valuation?
+2. **Mechanism:** What part of the work changes: forecasting, pricing, data cleanup, diligence analysis, workflow automation, reporting, planning, routing, inventory, collections, or model validation?
+3. **Proof:** Which case study, existing metric, or defensible experience supports the claim? If none exists, make the claim narrower.
+4. **Ownership:** What does the client keep: model, dashboard, workflow, process, playbook, training, or operating cadence?
+5. **Honesty:** Where does judgment beat the model? State that plainly on Light pages and in regulated or people-heavy work.
+
+If the sentence only says "AI where it earns its place," it is not done.
+
 ## 8. Front Doors
 
 - **Business value assessment.** A focused, paid engagement on one part of the business (or one portfolio company) that identifies where the value is and how we would capture it. This is a business diagnostic, not an "AI discovery." AI may or may not be part of the answer.
@@ -75,7 +90,9 @@ Rule of thumb: the more the work runs on human trust and judgment, the lighter t
 
 **Use:** solve, implement, embed, operating judgment, the right tools, leverage, build, the capability stays with you, vendor-neutral, measurable, the same people start to finish.
 
-**Drop:** "AI-enabled delivery firm," "uses AI better than anyone," "AI-powered," "AI-native," "deploy" and "deployment," "forward-deployed," "build around intelligence," em dashes, and over-reliance on "senior."
+**Use with proof and specificity:** AI, the right tools, capability, automation, machine learning, advanced analytics, model, dashboard, playbook.
+
+**Drop:** "AI-enabled delivery firm," "uses AI better than anyone," "AI-powered," "AI-native," "deploy" and "deployment," "forward-deployed," "build around intelligence," em dashes, over-reliance on "senior," and generic phrases such as "AI where it helps" or "AI where it earns its place" when no workflow is named.
 
 **The lines that carry the position:**
 - "We are a business firm that uses AI, not an AI firm."

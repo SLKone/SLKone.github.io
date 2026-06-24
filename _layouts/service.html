@@ -17,6 +17,9 @@ layout: default
 {% if page.impact_title or page.impact_intro or page.impact or page.impact_conclusion %}
   {% include impact-card.html title=page.impact_title intro=page.impact_intro bullets=page.impact conclusion=page.impact_conclusion %}
 {% endif %}
+{% if page.proof_cases %}
+  {% include proof-cases.html cases=page.proof_cases %}
+{% endif %}
 <section class="py-8 md:py-20 {% if page.color %}bg-{{ page.color }}-400/10{% else %}bg-slate-50{% endif %} {% if page.color %}dark:bg-{{ page.color }}-400/10{% else %}dark:bg-currant-500 dark:text-white{% endif %} ">
   {% if related_sub_services.size > 0 %}
       {% for sub_service in related_sub_services %}
@@ -65,5 +68,7 @@ layout: default
   background_image=site.data.homepage.contact.background-image 
   title=page.cta_title
   description=page.cta 
+  cta_link=page.cta_link
+  cta_text=page.cta_text
 %}
 {% endif %}

@@ -16,7 +16,7 @@ solutions:
   - title: "Agile Product Development"
     content:
       - "Consumer insight and demand signals read earlier, with AI helping surface the patterns"
-      - "Cross-functional collaboration enhancement"
+      - "Cross-functional collaboration improvement"
       - "Rapid prototyping and iterative testing"
   - title: "Supply Chain Transformation"
     content:
@@ -36,11 +36,11 @@ outcomes:
   - "Enhanced brand reputation for sustainability"
   
 why_choose:
-  - "Consumer Goods Expertise: Comprehensive understanding of consumer behavior and market dynamics."
+  - "Consumer Goods Expertise: Understanding of consumer behavior, channel dynamics, margin, and demand."
   - "The Same People Start to Finish: Agile methods run by the hands-on team that planned them, from first idea to launch."
   - "Supply Chain Excellence: Optimizing supply chains for resilience and efficiency."
   - "Sustainability Focus: Integrating eco-friendly practices into operations and sourcing."
-  - "Collaborative Partnership: Working closely with your team to deliver customized and impactful solutions."
+  - "Embedded Delivery: Working with your team through analysis, planning, and implementation."
   
 cta-title: "Ready to drive growth and innovation in your Consumer Goods & Services operations?"
 cta: "Talk with SLKone about reading demand earlier and running a steadier supply chain, with people who stay on the work start to finish."

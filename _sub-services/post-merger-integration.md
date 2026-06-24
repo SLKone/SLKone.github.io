@@ -23,7 +23,7 @@ focus_areas:
     content: "Optimize and standardize business processes across the newly combined entity."
     icon: "fa-recycle"
 why_choose:
-  - "Comprehensive Integration Support"
+  - "Integration support across workstreams, decisions, and operating cadence"
   - "The Same People With You Start to Finish"
   - "Data-Driven Synergy Realization"
   - "Minimized Disruption and Enhanced Efficiency"

@@ -3,7 +3,7 @@ layout: sub-industry
 parent: Healthcare
 order: 2
 title: "Pharma and Biotech"
-description: "We help pharma and biotech companies shorten R&D cycles, steady global supply chains, and win market access, with analytics applied where it earns its place."
+description: "We help pharma and biotech companies shorten R&D cycles, steady global supply chains, and win market access with portfolio, supply, and market-access analysis."
 subtitle: "Pharma and biotech companies carry long development timelines and tight regulatory scrutiny. We work alongside your team to shorten R&D cycles, steady the supply chain, and clear the path to market, with the same people start to finish."
 challenges:
   - "Long and costly R&D cycles"
@@ -37,7 +37,7 @@ why_choose:
   - "Hands-On Operating Work: We do the work to streamline processes and take out cost, not just advise on it."
   - "Strategic Growth Focus: Strategies aimed at long-term growth and market expansion."
   - "Cross-Functional Approach: Integrating R&D, operations, and commercial strategies."
-  - "Capability Left Behind: We work alongside your team and leave the capability behind, so the gains hold after we go."
+  - "Capability Handoff: We work alongside your team and hand off the portfolio, supply, and market-access routines that make the gains hold."
 cta-title: "Ready to accelerate your Pharma & Biotech operations?"
 cta: "Talk to SLKone about where your R&D, supply chain, or commercial work is stuck, and what it would take to move it."
 icon: "fa-flask" 

@@ -4,7 +4,10 @@ parent: Technology
 order: 1
 title: "SaaS"
 description: "SLKone helps SaaS companies lower acquisition cost, cut churn, and scale operations with the unit economics worked through end to end."
-subtitle: "Growth only compounds when the unit economics hold. We work the acquisition cost, churn, and retention math with you, using AI where it sharpens prediction and the same people who stay from first model to last."
+subtitle: "Growth only compounds when the unit economics hold. We work the acquisition cost, churn, retention, ARR, and reporting math with you from first model to handoff."
+proof_cases:
+  - Delivering-Insights-Into-Customers-and-Revenue-for-a-$340M-Software-As-A-Service-Company
+  - Develop-and-Automate-Annual-Recurring-Revenue-for-$100M-Software-As-A-Service-Company
 challenges:
   - "Customer acquisition cost optimization"
   - "Churn reduction and customer retention"
@@ -33,12 +36,12 @@ outcomes:
   - "Improved financial metrics and investor confidence"
 why_choose:
   - "SaaS Expertise: Deep understanding of SaaS business models and growth drivers."
-  - "Sharper Analytics: Customer and financial decisions grounded in the numbers, with AI applied where it adds real signal."
+  - "Sharper Analytics: Customer, ARR, churn, CAC, CLTV, and financial decisions grounded in the numbers."
   - "Scalable Operations: Designing infrastructure and processes that support rapid growth."
   - "Revenue Optimization: Enhancing unit economics and revenue recognition practices."
   - "Capability That Stays: We work alongside your team and leave the models, dashboards, and know-how with you."
   
-cta-title: "Ready to accelerate your SaaS growth and optimize your operations?"
+cta-title: "Ready to strengthen your SaaS unit economics?"
 cta: "Talk to SLKone about the acquisition cost and churn numbers you want to move, and how we would get there with you."
 icon: "fa-cloud"
 color: "forest"

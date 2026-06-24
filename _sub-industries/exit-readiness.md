@@ -37,10 +37,10 @@ outcomes:
   
 why_choose:
   - "Exit Readiness Expertise: Years of hands-on work getting portfolio companies ready to sell, with the same people start to finish."
-  - "Valuation Maximization: Proven strategies to enhance valuation multiples and investor appeal."
-  - "Comprehensive Transaction Support: Covering all aspects from due diligence to transition planning."
+  - "Valuation Support: Strengthen the story, metrics, and operating evidence buyers will test."
+  - "Transaction Support: Cover diligence preparation, process gaps, and transition planning."
   - "Strategic Roadmapping: Developing clear and actionable roadmaps to support post-exit growth."
-  - "Collaborative Partnership: We work alongside your team and leave the exit-readiness capability behind so you can run it next time."
+  - "Embedded Delivery: We work alongside your team so exit-readiness routines can be reused."
   
 cta-title: "Ready to maximize the value of your exit strategy?"
 cta: "Talk to SLKone about getting your portfolio company ready to sell, so the process is profitable and the handover to new owners is clean."

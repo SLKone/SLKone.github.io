@@ -23,7 +23,7 @@ focus_areas:
     content: "Build a clear, sequenced plan for moving to the new operating model, with the practical steps and ownership that keep the transition steady."
     icon: "fa-stairs"
 why_choose:
-  - "Comprehensive Operating Model Expertise"
+  - "Operating model expertise tied to decisions, roles, and process"
   - "Strategic Alignment with Business Goals"
   - "Evidence-Led Design Grounded in How You Operate"
   - "Proven Methodologies for Successful Implementation"

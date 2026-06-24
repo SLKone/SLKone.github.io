@@ -20,14 +20,14 @@ focus_areas:
     content: "Put quality controls in place so outputs stay consistent as volume and complexity rise."
     icon: "fa-award"
   - title: "Continuous Improvement"
-    content: "Establish mechanisms for ongoing process evaluation and enhancement."
+    content: "Establish routines for ongoing process evaluation and improvement."
     icon: "fa-arrow-trend-up"
 why_choose:
   - "Expertise in Process Design and Optimization"
   - "Processes built around how your business actually works"
   - "The same people from design through handover"
   - "Focus on Scalability and Sustainable Growth"
-  - "Comprehensive Quality Management Integration"
+  - "Quality management tied into the operating process"
 cta: "Talk to us about building processes your team can run, scale, and keep improving."
 icon: "fa-play"
 color: "coral"  # Updated to match parent service color

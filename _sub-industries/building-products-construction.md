@@ -24,7 +24,7 @@ solutions:
   - title: "Workforce Productivity Enhancement"
     content:
       - "Skills gap analysis and training that close the gaps that matter"
-      - "Workforce management supported by the right tools, not more overhead"
+      - "Workforce management supported by scheduling, planning, and accountability tools, not more overhead"
 outcomes:
   - "10-20% reduction in inventory holding costs"
   - "Increased market share in green building segments"
@@ -32,10 +32,10 @@ outcomes:
 why_choose:
   - "Building & Construction Expertise: Hands-on knowledge of how the sector's cycles and projects actually run."
   - "Sustainable Practices: Implementing eco-friendly and sustainable manufacturing solutions."
-  - "Operational Efficiency: Streamlining processes to enhance productivity and reduce costs."
+  - "Operational Efficiency: Streamlining processes to improve productivity and reduce costs."
   - "Workforce Optimization: Enhancing workforce capabilities and productivity through targeted strategies."
-  - "Collaborative Approach: We work alongside your team and leave the capability behind, with the same people start to finish."
-cta-title: "Ready to enhance your Building Products & Construction operations?"
+  - "Embedded Delivery: We work alongside your team with the same people from first read through implementation."
+cta-title: "Ready to improve your Building Products & Construction operations?"
 cta: "Talk to SLKone about steadying operations through the cycle and growing on a sustainable footing."
 icon: "fa-building"
 color: "sand"

@@ -2,10 +2,14 @@
 layout: service
 order: 4
 title: "Digital Strategy and Technology"
-description: "Digital strategy and automation that make the work faster, more consistent, and lower cost, built by a team that leaves the capability with you."
+description: "Digital strategy, automation, and practical systems that make work faster, more consistent, and less costly to run."
 subtitle: "Our goal is to drive performance in an organization by reducing the time to complete any given activity, improve the consistency of an output, or lower the cost of labor required to perform the activity."
-intro: "SLKone helps you get more out of the technology you already run: less time per task, more consistent output, and lower cost. We find where the leverage is, then apply the right tools, from streamlined systems and Robotic Process Automation to AI where it genuinely helps, and we build what does not exist yet. We work alongside your team and leave the systems and the capability with you."
-approach: "We take a pragmatic approach. We tie every technology decision to a business goal, so the investment shows up in time, cost, or quality rather than on an architecture diagram alone. We pair deep technical skill with operating experience, and we are honest about where a tool adds value and where it does not."
+intro: "SLKone helps you get more out of the technology you already run: less time per task, more consistent output, lower cost, and fewer manual errors. We find where the leverage is, then build the automation, reporting layer, workflow, or system change required. That may be RPA, a Power BI and Azure reporting layer, a forecasting tool, or a custom workflow."
+approach: "We tie every technology decision to a business goal, so the investment shows up in time, cost, quality, or visibility rather than on an architecture diagram alone. We pair technical skill with operating experience, stay vendor-neutral, and say when a process fix matters more than another tool."
+proof_cases:
+  - Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company
+  - Vendor-and-Systems-Selection-for-a-80M-Software-As-A-Service
+  - SIOP-as-a-Service-for-a-$100M-Healthcare-Distribution-Platform
 blurb-intro: "Make the everyday work faster, more consistent, and less costly to run."
 why_choose:
   - point: "Strategic Alignment"
@@ -13,21 +17,23 @@ why_choose:
     description: "Every technology decision tied to a business goal: time, cost, or quality."
   - point: "Vendor-Neutral"
     icon: "fa-microchip"
-    description: "We pick the tool that fits the problem, build one when it helps, or recommend none. No lock-in."
+    description: "We pick the software, automation, or model the business case supports. No lock-in."
   - point: "Customized Solutions"
     icon: "fa-diagram-project"
     description: "Solutions shaped to how your business actually runs, not a template."
-  - point: "Proven Track Record"
+  - point: "Proof in Working Systems"
     icon: "fa-check-circle"
-    description: "Digital and automation work delivered across many industries."
+    description: "Reporting, system selection, automation, and planning tools delivered across SaaS, healthcare, and industrial settings."
   - point: "You Own What We Build"
     icon: "fa-key"
-    description: "The systems, the automations, and the capability stay with your team."
+    description: "The systems, automations, dashboards, and know-how stay with your team."
   - point: "Data-Driven Approach"
     icon: "fa-chart-candlestick"
-    description: "We use analytics, and AI where it sharpens the work, to guide the strategy."
+    description: "We use real workflow and performance data to decide what should be automated, rebuilt, or left alone."
 cta_title: "Ready to Get More Out of Your Technology?"
 cta: "Contact SLKone to find where technology and automation will save the most time and cost, and how we would build it."
+cta_link: /business-value-assessment
+cta_text: "Find the Value"
 icon: "fa-computer"
 color: "plum"
 background_image: "/assets/images/backgrounds/digital-strategy.webp"

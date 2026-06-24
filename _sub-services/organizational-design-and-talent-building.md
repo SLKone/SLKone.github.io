@@ -14,7 +14,7 @@ focus_areas:
     content: "Develop strategies to attract and retain top talent aligned with your business goals."
     icon: "fa-user-plus"
   - title: "Role Development and Clarity"
-    content: "Define clear roles and responsibilities to enhance accountability and performance."
+    content: "Define clear roles and responsibilities that strengthen accountability and performance."
     icon: "fa-id-badge"
   - title: "Leadership Development"
     content: "Implement training and development programs to cultivate effective leadership."
@@ -23,7 +23,7 @@ focus_areas:
     content: "Create initiatives to boost employee morale, satisfaction, and productivity."
     icon: "fa-hands-clapping"
 why_choose:
-  - "Comprehensive Organizational and Talent Expertise"
+  - "Organization and talent expertise tied to execution"
   - "Customized Strategies for Structure and Talent Alignment"
   - "Proven Success in Building High-Performing Teams"
   - "Focus on Leadership and Employee Development"

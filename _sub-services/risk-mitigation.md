@@ -25,7 +25,7 @@ focus_areas:
 why_choose:
   - "Proactive Risk Identification and Management"
   - "Customized Risk Mitigation Strategies"
-  - "Comprehensive Contingency Planning"
+  - "Contingency planning tied to the risks that would actually stop the work"
   - "Experienced Risk Management Professionals"
   - "Continuous Risk Monitoring and Improvement"
 cta: "Talk to us about where your business is exposed and how we can help you protect it while keeping your strategy on track."

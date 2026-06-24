@@ -37,12 +37,12 @@ outcomes:
   
 why_choose:
   - "Specialty Retail Expertise: Deep understanding of unique retail challenges and opportunities."
-  - "Data-Driven Decisions: Using analytics, and AI where it earns its place, to sharpen inventory and customer choices."
+  - "Data-Driven Decisions: Using demand, inventory, and customer analytics to sharpen operating choices."
   - "Omnichannel Strategy: Connecting online and store channels so stock and service hold together."
   - "Personalization Focus: Enhancing customer experiences through tailored strategies."
   - "Hands-On Partnership: The same people work alongside your team from start to finish, leaving the capability behind."
 cta-title: "Ready to elevate your Specialty Retail operations?"
-cta: "Contact SLKone today to discover how our specialized services can enhance your inventory management and customer engagement strategies."
+cta: "Contact SLKone to talk through inventory, customer, and margin opportunities in your retail operation."
 icon: "fa-store"
 color: "cinnabar"
 image: "/assets/images/backgrounds/specialty-retail.webp"

@@ -20,10 +20,10 @@ focus_areas:
     content: "Connect individual and team performance measures to what the organization is trying to achieve."
     icon: "fa-arrow-up-right-dots"
   - title: "Training and Development"
-    content: "Build training that strengthens roles and leaves the capability with your team."
+    content: "Build training, role guides, and manager routines your team can keep using."
     icon: "fa-chalkboard-user"
 why_choose:
-  - "Comprehensive Role Evaluation"
+  - "Role evaluation tied to how work actually gets done"
   - "Customized Role Redefinition Strategies"
   - "Focus on Accountability and Performance"
   - "Experienced in Enhancing Role Effectiveness"

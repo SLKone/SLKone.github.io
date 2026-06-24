@@ -23,7 +23,7 @@ focus_areas:
     content: "We put supply chain finance programs in place that improve working capital for you and your suppliers at once."
     icon: "fa-money-bill-transfer"
 why_choose:
-  - "Comprehensive Spend Analysis"
+  - "Spend, collections, payables, and inventory analysis tied to cash"
   - "Strategic Budgeting Alignment"
   - "Advanced Financial Planning"
   - "Data-Driven Insights"

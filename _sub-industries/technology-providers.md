@@ -26,7 +26,7 @@ solutions:
   - title: "Operations Built to Scale"
     content:
       - "Shared services structured to support growth, not slow it"
-      - "Process automation, with AI applied where it earns its place"
+      - "Process automation where it cuts cycle time, errors, or manual reporting"
       - "A cost base you can see clearly and act on"
   
 outcomes:
@@ -39,10 +39,13 @@ why_choose:
   - "Sector judgment: We know how technology providers make money and where they lose it."
   - "Faster releases: Practical working methods that shorten the path from idea to shipped product."
   - "Stronger ecosystems: Partner and channel relationships managed for results you can measure."
-  - "Leaner operations: Tighter processes, with technology and AI added only where they pay back."
-  - "The same people start to finish: We work alongside your team and leave the capability behind."
+  - "Leaner operations: Tighter processes, reporting, and automation added only where they pay back."
+  - "The same people start to finish: We work alongside your team through design and implementation."
+proof_cases:
+  - Software-As-A-Service-Reporting-in-Power-BI-+-Azure-for-$400M-Health-Enablement-Company
+  - Sales-Incentive-Program-and-Budget-100M-Software-Provider
   
-cta-title: "Ready to enhance your technology offerings and optimize your operations?"
+cta-title: "Ready to ship faster and run leaner?"
 cta: "Talk to SLKone about getting your product to market faster and your operations running leaner."
 icon: "fa-microchip"
 color: "forest"

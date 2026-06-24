@@ -1,22 +1,22 @@
 hero:
   title: "Bridge strategy to measurable success."
-  description: "SLKone is a management and operations firm that solves hard business problems: growing revenue, cutting cost, and improving how the work runs. We work alongside your team and implement the change, drawing on years of cross-industry operating judgment and using the right tools, including AI, to reach results you can measure on the bottom line."
+  description: "SLKone is a management and operations firm that solves hard business problems: growing revenue, cutting cost, improving cash, and making the work run better. We work alongside your team and implement the change. When forecasting models, workflow automation, dashboards, or machine learning can move the result, we build them into the work. When judgment and process are the answer, we say that too."
   cta_text: "Cross The Bridge"
   cta_link: "/business-value-assessment"
 
 approach:
   title: "From Decision to Done"
-  description: "We do not just hand over a strategy; we work alongside your team and build the bridge from decision to results you can measure. Most companies do not carry the tech talent or the spare capacity to run a change like this on top of the day job, so we bring both and stay through delivery. We use the right tools, including AI where it genuinely moves the business, and we are honest when it does not."
+  description: "We do not just hand over a strategy. We work alongside your team and build the bridge from decision to results you can measure. Most companies do not carry the data, automation, and operating capacity to run major change on top of the day job. We bring that capacity, build only what the problem needs, and stay through delivery."
 
 unique_points:
   - title: "Data-Backed Decisiveness"
-    description: "We turn complex data into clear strategies, using the right tools to get there faster"
+    description: "We turn messy operating and financial data into decisions your team can defend"
     icon: "fa-down-left-and-up-right-to-center"
   - title: "Beyond Advice to Action"
     description: "A small team works inside your operation and stays through delivery, the same people start to finish"
     icon: "fa-person-running"
   - title: "Cross-Industry Insights"
-    description: "Fresh perspectives that drive innovative solutions"
+    description: "Patterns from oil and gas, healthcare, SaaS, manufacturing, and PE applied to the problem in front of you"
     icon: "fa-arrows-spin"
   - title: "Aligned Success"
     description: "Our economic models prioritize mutual growth"
@@ -30,7 +30,7 @@ unique_points:
 
 data_driven_approach:
   title: "Data Driven Approach"
-  description: "Our process turns data into clear decisions, and we apply the right tools at each step so the analysis keeps pace with the business."
+  description: "Our process turns data into clear decisions, then into working systems, routines, and operating changes your team can keep using."
   steps:
     - title: "1. Strategic Analysis"
       description: "Identify key opportunities"
@@ -38,11 +38,11 @@ data_driven_approach:
       icon: "fa-lightbulb"
     - title: "2. Data-Backed Planning"
       description: "Develop actionable plans"
-      details: "We build detailed plans through disciplined modeling and scenario analysis, using AI where it sharpens the work. Decisions rest on solid data rather than assumptions, which lowers risk and protects returns."
+      details: "We build detailed plans through disciplined modeling and scenario analysis. For the right problem, that can mean a forecast model, a pricing model, an inventory tool, or an automated report. Decisions rest on solid data rather than assumptions, which lowers risk and protects returns."
       icon: "fa-chart-line"
     - title: "3. Practical Execution"
       description: "Implement solutions effectively"
-      details: "We work alongside your team to put plans into action and build the tools and automations, AI included where it fits, that make the change stick. We monitor execution closely and adjust as challenges arise."
+      details: "We work alongside your team to put plans into action and build the dashboards, automations, planning tools, and management routines that make the change stick. We monitor execution closely and adjust as challenges arise."
       icon: "fa-hammer"
     - title: "4. Ongoing Improvement"
       description: "Sustain and enhance results"

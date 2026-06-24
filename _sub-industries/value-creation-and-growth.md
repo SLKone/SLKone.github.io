@@ -3,8 +3,11 @@ layout: sub-industry
 parent: Private Equity
 order: 4
 title: "Value Creation and Growth"
-subtitle: "We work alongside your portfolio companies to lift performance, grow revenue, and run leaner operations, putting AI to work on the parts of the value plan where it pays for itself."
-description: "SLKone helps PE portfolio companies improve performance, grow revenue, and execute add-ons, using AI where it measurably earns its place."
+subtitle: "We work alongside your portfolio companies to lift performance, grow revenue, run leaner operations, and turn the value plan into operating cadence."
+description: "SLKone helps PE portfolio companies improve performance, grow revenue, execute add-ons, and build the metrics needed to manage the value plan."
+proof_cases:
+  - From-Reactive-to-Proactive-Budgeting-for-a-Private-Equity-Company
+  - Cost-Assessment-and-Opportunity-Identification-150M-Division-of-a-Multinational-Pharma-Company
 challenges:
   - "Stagnating growth during hold periods"
   - "Balancing cost reduction with growth investments"
@@ -33,13 +36,13 @@ outcomes:
   - "Enhanced competitive positioning in target markets"
   
 why_choose:
-  - "Value Creation Expertise: Proven track record in driving EBITDA growth and operational improvements."
+  - "Value Creation Expertise: Experience tying EBITDA growth to operating levers, not generic initiatives."
   - "Strategic Insight: Deep understanding of market dynamics and growth drivers."
-  - "Evidence-Led Decisions: We pair operating judgment with analytics, and apply AI to the questions where it sharpens the call."
-  - "Comprehensive Services: Covering all aspects from performance improvement to strategic growth planning."
-  - "Same People, Start to Finish: We work hands-on inside your portfolio companies and leave the capability behind."
+  - "Evidence-Led Decisions: We pair operating judgment with KPI, pricing, cost, working-capital, and scenario analysis."
+  - "Integrated Work: Covering performance improvement, revenue growth, add-ons, and operating cadence."
+  - "Same People, Start to Finish: We work hands-on inside your portfolio companies through implementation."
 cta-title: "Ready to accelerate value creation and drive growth in your portfolio companies?"
-cta: "Talk to SLKone about lifting performance and revenue across your portfolio, with AI applied where it earns its place."
+cta: "Talk to SLKone about lifting performance and revenue across your portfolio with metrics, cadence, and hands-on implementation."
 icon: "fa-arrow-up-right-dots"
 color: "tangerine"
 image: "/assets/images/backgrounds/value-creation-growth.webp"

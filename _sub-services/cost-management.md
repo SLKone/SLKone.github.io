@@ -23,7 +23,7 @@ focus_areas:
     content: "We tighten procurement and renegotiate vendor relationships to bring cost down while holding or improving service levels."
     icon: "fa-handshake-angle"
 why_choose:
-  - "Comprehensive Spend Analysis"
+  - "Spend analysis tied to vendors, process, labor, and demand drivers"
   - "Strategic Budgeting Alignment"
   - "Operational Efficiency Enhancement"
   - "Shared Services Efficiency"

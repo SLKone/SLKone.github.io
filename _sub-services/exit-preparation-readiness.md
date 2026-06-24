@@ -21,7 +21,7 @@ focus_areas:
     icon: "fa-bridge-circle-check"
 why_choose:
   - "Maximized Valuation: Enhance your organization's attractiveness to potential buyers or investors."
-  - "Comprehensive Preparation: Address all aspects of exit readiness, from financials to operations."
+  - "Exit Preparation: Address the financial, operational, and diligence issues buyers will test."
   - "Experienced Hands: Work with people who have guided exits before and stay with you start to finish."
   - "Smooth Transition: Keep the business running steadily through the exit, with minimal disruption."
 cta: "Talk with us about preparing your organization for exit, carrying maximum value into the deal, and moving smoothly to what comes next."

@@ -4,7 +4,11 @@ order: 2
 title: Healthcare
 description: "SLKone helps providers, payers, and life sciences firms improve operations, finances, and patient outcomes under real compliance and privacy constraints."
 subtitle: "We help providers, payers, and life sciences companies improve operations, strengthen patient outcomes, and meet hard financial, compliance, and privacy demands."
-intro: "SLKone helps providers, payers, and life sciences companies improve operations, strengthen patient outcomes, and work within tight financial, regulatory, and privacy constraints. We pair hands-on industry knowledge with a data-driven approach to deliver results that hold up, and we apply AI where the data supports it and say so plainly when it does not."
+intro: "SLKone helps providers, payers, and life sciences companies improve operations, strengthen patient outcomes, and work within tight financial, regulatory, and privacy constraints. We pair hands-on industry knowledge with data discipline in the places that matter most: revenue cycle, cash forecasting, reporting, SIOP, and process visibility. Compliance, privacy, and patient trust set the boundaries."
+proof_cases:
+  - Revenue-Cycle-Management-Reporting-Suite-for-a-200M-Womens-Healthcare
+  - Cashflow-Process-and-Finance-Transformation-for-a-Senior-Care-Group
+  - SIOP-as-a-Service-for-a-$100M-Healthcare-Distribution-Platform
 blurb-intro: "Work through hard healthcare problems with SLKone, from operations and finances to compliance and patient trust."
 landscape-title: "The Healthcare Landscape"
 landscape-intro: "The healthcare industry is undergoing rapid transformation, driven by:"
@@ -19,20 +23,20 @@ approach-title: "Our Approach"
 approach-intro: "SLKone takes a whole-organization view, addressing challenges across operations, finance, and strategy. We draw on cross-sector experience to solve persistent problems, and we hold compliance and patient privacy at the center of the work. Our approach integrates:"
 approach:
   - point: "Advanced Data Analytics"
-    description: "Harnessing the power of healthcare data to drive informed decision-making"
-    icon: "fa-solid fa-check"
+    description: "Building revenue-cycle, cash, reporting, and operating visibility leaders can act on"
+    icon: "fa-solid fa-chart-line"
   - point: "Process Optimization"
     description: "Streamlining operations to improve efficiency and reduce costs"
-    icon: "fa-solid fa-check"
+    icon: "fa-solid fa-arrows-rotate"
   - point: "Strategic Planning"
     description: "Developing robust strategies to navigate market changes and drive growth"
-    icon: "fa-solid fa-check"
+    icon: "fa-solid fa-map"
   - point: "Change Management"
     description: "Ensuring successful implementation and adoption of new initiatives"
-    icon: "fa-solid fa-check"
+    icon: "fa-solid fa-people-arrows"
   - point: "Financial Performance Improvement"
     description: "Optimizing revenue cycles and cost structures"
-    icon: "fa-solid fa-check"
+    icon: "fa-solid fa-file-invoice-dollar"
 why_choose:
   - point: "Industry Expertise"
     description: "Deep understanding of healthcare ecosystem dynamics and interdependencies"

@@ -39,7 +39,7 @@ why_choose:
   - "Operating Judgment: We streamline the workflows that drive cost and service, not just the dashboards."
   - "Technology That Earns Its Place: Routing, forecasting, and tracking applied where they pay back, and honest when they do not."
   - "Customer Promises Kept: Faster, more reliable delivery that holds up at peak."
-  - "The Same People Start to Finish: We work alongside your team and leave the capability behind."
+  - "The Same People Start to Finish: We work alongside your team through network analysis, implementation, and handoff."
   
 cta-title: "Ready to optimize your Logistics & Distribution operations?"
 cta: "Talk to SLKone about where your delivery cost and service are leaking, and what it would take to fix it."

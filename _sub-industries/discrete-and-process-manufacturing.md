@@ -4,7 +4,7 @@ parent: Manufacturing
 order: 4
 title: "Discrete and Process Manufacturing"
 description: "We help discrete and process manufacturers raise throughput, hold quality, and tie legacy systems together so the plant runs better."
-subtitle: "Whether you run discrete assembly or continuous process lines, the job is the same: hold quality, keep the line moving, and get more out of the assets you already own. We work alongside your team on the floor to fix what is slowing production and leave the capability behind."
+subtitle: "Whether you run discrete assembly or continuous process lines, the job is the same: hold quality, keep the line moving, and get more out of the assets you already own. We work alongside your team on the floor to fix what is slowing production."
 
 challenges:
   - "Balancing efficiency with flexibility"

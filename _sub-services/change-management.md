@@ -23,7 +23,7 @@ focus_areas:
     content: "Track how the change is landing and adjust as you go, so performance holds up through the shift."
     icon: "fa-chart-line"
 why_choose:
-  - "Comprehensive Change Strategies"
+  - "Change plans tied to adoption, communication, and leader alignment"
   - "Hands-On Change Practitioners, the Same People Start to Finish"
   - "Proven Methods for High Adoption Rates"
   - "Focus on Sustained Organizational Success"

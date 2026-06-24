@@ -8,7 +8,7 @@ approach: "We work as an extension of your team, hands-on, to put improvements i
 intro: "Sharper processes and better use of capacity, so your operations cost less and run more reliably."
 focus_areas:
   - title: "Process Optimization"
-    content: "Analyze and redesign core business processes to eliminate waste, reduce variability, and enhance overall efficiency."
+    content: "Analyze and redesign core business processes to eliminate waste, reduce variability, and improve overall efficiency."
     icon: "fa-gears"
   - title: "Lean Six Sigma Implementation"
     content: "Apply Lean Six Sigma methods to drive continuous improvement and steady operational gains across your organization."

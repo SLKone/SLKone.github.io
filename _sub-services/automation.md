@@ -3,9 +3,12 @@ layout: sub-service
 order: 1
 title: "Automation"
 parent: "Digital Strategy and Technology"
-description: "SLKone helps lean teams cut manual work, reduce errors, and lower cost by automating the right processes, with AI applied only where it earns its place."
-approach: "We start with the work itself, mapping how your processes actually run and where time and errors pile up. From there we automate the steps that pay off, using robotic process automation and, where it earns its place, AI. The same people stay with you start to finish, and you own what we build, with no lock-in."
-intro: "Cutting manual effort and errors by automating the workflows that matter most, with AI brought in only where it genuinely improves the outcome."
+description: "SLKone helps lean teams cut manual work, reduce errors, and lower cost by automating the workflows that are worth automating."
+approach: "We start with the work itself, mapping how your processes actually run and where time and errors pile up. From there we automate the steps that pay off: report generation, purchase order placement, data movement, workflow routing, exception tracking, or repeatable calculations. Machine learning belongs only when classification, matching, or prediction beats rule-based automation."
+intro: "Cut manual effort and errors by automating the workflows that matter most, with the business case proven before anything gets built."
+proof_cases:
+  - SIOP-as-a-Service-for-a-$100M-Healthcare-Distribution-Platform
+  - Vendor-and-Systems-Selection-for-a-80M-Software-As-A-Service
 focus_areas:
   - title: "Process Assessment"
     content: "We map how your processes run today and find the steps where automation saves real time and reduces errors."
@@ -17,17 +20,17 @@ focus_areas:
     content: "We build robotic process automation that takes over repetitive, time-consuming tasks, and we leave the capability with your team."
     icon: "fa-gear-complex-code"
   - title: "Intelligent Workflows"
-    content: "Where it earns its place, we bring AI and machine learning into workflows so they handle judgment-heavy steps and improve over time."
+    content: "When a workflow needs classification, matching, prediction, or anomaly detection, we test whether machine learning performs better than rules and manual review."
     icon: "fa-angles-right"
   - title: "Automation Performance Monitoring"
     content: "We put metrics and monitoring in place so you can see what each automation delivers and keep it performing over time."
     icon: "fa-monitor-waveform"
 why_choose:
-  - "Comprehensive Automation Expertise"
-  - "Tailored Automation Solutions"
-  - "Proven ROI through Cost Reduction and Efficiency"
-  - "Integration That Fits Your Existing Systems"
-  - "Continuous Support and Optimization"
+  - "Automation tied to time, cost, error, and control"
+  - "Rule-based automation before heavier methods"
+  - "Machine learning only where it improves the workflow"
+  - "Integration that fits your existing systems"
+  - "Monitoring so the automation keeps performing"
 cta: "Talk with us about which of your processes are worth automating and what that would be worth to the business."
 icon: "fa-robot"
 color: "plum"

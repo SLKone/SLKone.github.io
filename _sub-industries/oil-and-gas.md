@@ -32,10 +32,13 @@ why_choose:
   - "Oil and Gas Expertise: Deep understanding of industry-specific challenges."
   - "Technology That Earns Its Place: We apply digital tools where they pay back in uptime and cost, and say so when they do not."
   - "Supply Chain Resilience: Building robust and flexible supply networks."
-  - "Lifecycle Management: Ensuring product sustainability and profitability."
-  - "The Same People Start to Finish: We work alongside your team and leave the capability behind."
+  - "Forecasting and Cost Visibility: Models and dashboards tied to operational drivers, not abstract reporting."
+  - "The Same People Start to Finish: We work alongside your team through analysis and implementation."
+proof_cases:
+  - Forecasting-Financial-Performance-with-Machine-Learning-for-$10B-Oil-&-Gas-Organization
+  - Global-Facility-Review-20B-Oil-Field-Services-Organization
 cta-title: "Ready to optimize your Oil and Gas operations?"
-cta: "Contact SLKone today to discover how our specialized services can drive your production efficiency and supply chain resilience."
+cta: "Contact SLKone to talk through where uptime, unit cost, forecast accuracy, or supply chain resilience is costing you value."
 icon: "fa-oil-well"
 color: "plum"
 image: "/assets/images/backgrounds/oil-and-gas.webp"

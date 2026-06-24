@@ -1,0 +1,20 @@
+{% if include.cases %}
+<section class="py-16 lg:py-24">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <h2 class="text-4xl mb-12 font-display">{{ include.title | default: "Proof in the Work" }}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {% for case_slug in include.cases %}
+        {% assign matched_case = nil %}
+        {% for case_item in site.case-study %}
+          {% if case_item.path contains case_slug %}
+            {% assign matched_case = case_item %}
+          {% endif %}
+        {% endfor %}
+        {% if matched_case %}
+          {% include case-card.html size-class="min-h-80" title=matched_case.title intro=matched_case.intro background_image=matched_case.background_image url=matched_case.url %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

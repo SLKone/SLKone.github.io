@@ -24,9 +24,9 @@ focus_areas:
     icon: "fa-trophy-star"
 why_choose:
   - "Strategic Alignment: Ensuring performance metrics drive your business objectives."
-  - "Comprehensive Systems: Robust performance measurement and management systems."
+  - "Performance Systems: Metrics and routines leaders can use to manage the business."
   - "Hands-on partners: The same people design the system and stay through implementation."
-  - "Continuous Improvement: Fostering a culture of ongoing performance enhancement."
+  - "Continuous Improvement: Routines that keep performance moving after launch."
 cta: "Talk with us about aligning your team's effort with your strategic goals and turning performance into measurable results."
 icon: "fa-objects-align-right"
 color: "viola"

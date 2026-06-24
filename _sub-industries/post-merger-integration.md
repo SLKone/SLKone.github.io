@@ -25,7 +25,7 @@ solutions:
       - "Organizational structure redesign"
   - title: "Change Management"
     content:
-      - "Comprehensive communication plans"
+      - "Communication plans tied to workstream decisions and adoption"
       - "Leadership alignment and training programs"
       - "Employee engagement and retention strategies"
   
@@ -40,7 +40,7 @@ why_choose:
   - "Holistic Approach: Addressing all aspects of integration from operations to culture."
   - "Synergies That Land: We track the value identified in diligence through to the P&L, not just a plan on paper."
   - "Change Management Excellence: Facilitating smooth transitions and high employee engagement."
-  - "The Same People Start to Finish: We work alongside your team through the whole integration and leave the capability behind."
+  - "The Same People Start to Finish: We work alongside your team through the whole integration, from plan to operating cadence."
   
 cta-title: "Ready to make your latest acquisition pay off?"
 cta: "Talk to SLKone about putting structure and pace behind your next integration so the combined company performs."

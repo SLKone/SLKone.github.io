@@ -27,9 +27,14 @@ layout: default
 {% endfor %}
 {% endif %}
 </section>
+{% if page.proof_cases %}
+  {% include proof-cases.html cases=page.proof_cases %}
+{% endif %}
 {% if page.cta %}
 {% include contact-card.html 
   background_image=site.data.homepage.contact.background-image 
   description=page.cta 
+  cta_link=page.cta_link
+  cta_text=page.cta_text
 %}
 {% endif %}

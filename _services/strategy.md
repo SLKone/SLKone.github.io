@@ -2,11 +2,14 @@
 layout: service
 order: 6
 title: "Strategy Operationalization"
-description: "SLKone turns strategy into the decisions and operating steps that move EBITDA, market share, and revenue, with the same people start to finish."
+description: "SLKone turns strategy into the decisions, metrics, and operating steps that move EBITDA, market share, and revenue."
 subtitle: "We help business leaders make tough decisions on which customers, products, services, and/or markets they should compete in to maximize their stated financial goals."
 blurb-intro: "Turn strategic plans into the decisions and operating steps that move your business metrics."
-intro: "Strategy only matters once it changes what the business does. At SLKone, we help leaders make the hard choices about where to compete and how to win, then build the operating plan that turns those choices into results. We bring the experience and the capacity to do the work alongside you, and we leave that capability behind."
-approach: "We work across three areas: Performance Management, Strategic Planning and Execution, and Risk Mitigation. We start from the decisions that matter, set the metrics that show whether the plan is working, and stay close as it is put into practice. Where it helps, analytics speeds KPI tracking and scenario analysis so leaders can weigh options faster."
+intro: "Strategy only matters once it changes what the business does. At SLKone, we help leaders make the hard choices about where to compete and how to win, then build the operating plan, metrics, and cadence that turn those choices into results."
+approach: "We work across performance management, strategic planning and execution, and risk mitigation. We start from the decisions that matter, set the metrics that show whether the plan is working, and stay close as it is put into practice. Scenario models and KPI tracking can help leaders weigh options faster, but the value comes from choosing and executing."
+proof_cases:
+  - Regional-Performance-Dashboard-for-a-1.2B-Oil-Field-Services-Organization
+  - Establishing-a-Longe-Range-Planning-Process-for-800M-Division-of-24B-Global-Building-Automation-Conglomerate
 impact_title: "Our Impact"
 impact_intro: "Implementing effective strategies can lead to meaningful, measurable outcomes, including:"
 impact:
@@ -16,7 +19,7 @@ impact:
     description: "in market share"
   - metric: "20-25% growth"
     description: "in revenue through strategic initiatives"
-impact_conclusion: "Our clients achieve clear strategic direction, enhanced market positioning, and sustainable growth, ensuring that their organizations can thrive in competitive environments."
+impact_conclusion: "The work ties strategic choices to the metrics, operating routines, and accountability needed to make them real."
 why_choose:
   - point: "Strategic Expertise"
     icon: "fa-user-tie"
@@ -37,7 +40,9 @@ why_choose:
     icon: "fa-arrows-cross"
     description: "Judgment built across sectors, applied to the problem in front of you."
 cta_title: "Ready to develop a winning strategy?"
-cta: "Talk to SLKone about the decisions in front of you, and how we can help turn your strategy into results."
+cta: "Talk to SLKone about the decisions in front of you, and how we can help turn your strategy into metrics, routines, and results."
+cta_link: /how-we-work
+cta_text: "See How We Work"
 icon: "fa-scribble"
 color: "viola"
 background_image: "/assets/images/backgrounds/strategy.webp"

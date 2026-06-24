@@ -28,7 +28,7 @@ why_choose:
   - "Collaborative Approach"
   - "Scalable Solutions"
   - "Operational Excellence Focus"
-  - "Proven Track Record"
+  - "Proof in planning cadence, forecast quality, and inventory decisions"
 cta: "Ready to bring sales, inventory, and operations into one plan? Talk to SLKone about building a SIOP process that steadies service levels, frees up working capital, and stays in your team's hands."
 icon: "fa-shelves"
 color: "blush"
