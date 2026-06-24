@@ -1,19 +1,19 @@
 hero:
   title: "Bridge strategy to measurable success."
-  description: "SLKone is more than a consulting firm—we're your partner in translating complex business challenges into tangible results. Our hands-on approach means we work side-by-side with your team, delivering actionable solutions that directly impact your bottom line."
-  cta_text: "Cross The Bridge"
+  description: "The decision is usually already made. What's missing is the bridge between it and getting it done. We embed a small senior team in the work and use AI the way we once used Excel, compressing weeks of analysis into hours. You pay because things change, not for a deck."
+  cta_text: "See How We Work"
   cta_link: "/services"
 
 approach:
-  title: "Bridging Complexity to Clarity"
-  description: "At SLKone, we don't just provide solutions—we build the bridge between your challenges and measurable outcomes. Using data-driven insights and deep industry expertise, we create tailored strategies that span across industries and deliver lasting results."
+  title: "From Decision to Done"
+  description: "We don't just hand over a strategy—we embed alongside your team and build the bridge to results you can measure. Deep industry expertise does the thinking; AI does the heavy lifting, turning weeks of analysis into hours so the work actually ships."
 
 unique_points:
   - title: "Data-Backed Decisiveness"
-    description: "We turn complex data into clear, actionable strategies"
+    description: "We turn complex data into clear strategies, and use AI to get there in hours, not weeks"
     icon: "fa-down-left-and-up-right-to-center"
   - title: "Beyond Advice to Action"
-    description: "We implement alongside your team, ensuring real-world results"
+    description: "A small senior team embeds in your operation and stays through delivery, not a deck handed off"
     icon: "fa-person-running"
   - title: "Cross-Industry Insights"
     description: "Fresh perspectives that drive innovative solutions"
@@ -30,7 +30,7 @@ unique_points:
 
 data_driven_approach:
   title: "Data Driven Approach"
-  description: "Our process is centered around harnessing the power of data to provide clear, actionable insights that enable sound decision-making to drive your business forward."
+  description: "Our process turns data into clear decisions, and AI now lets us do it in a fraction of the time, so the analysis keeps pace with the business."
   steps:
     - title: "1. Strategic Analysis"
       description: "Identify key opportunities"
@@ -38,11 +38,11 @@ data_driven_approach:
       icon: "fa-lightbulb"
     - title: "2. Data-Backed Planning"
       description: "Develop actionable plans"
-      details: "Using quantitative analysis and predictive modeling, we create detailed plans to address your business challenges. Our approach minimizes risks and maximizes potential returns by basing decisions on solid data rather than assumptions."
+      details: "Using AI-accelerated modeling and scenario analysis, we build detailed plans in a fraction of the usual time. We minimize risk and maximize returns by basing decisions on solid data rather than assumptions."
       icon: "fa-chart-line"
     - title: "3. Practical Execution"
       description: "Implement solutions effectively"
-      details: "We work alongside your team to put plans into action. Our hands-on approach ensures smooth implementation, with continuous monitoring and adjustment to address any challenges that arise during execution."
+      details: "We work alongside your team to put plans into action, building the AI tools and automations that make the change stick. Continuous monitoring keeps execution on track as challenges arise."
       icon: "fa-hammer"
     - title: "4. Ongoing Improvement"
       description: "Sustain and enhance results"
@@ -64,8 +64,8 @@ join_team:
   cta_link: "/careers"
 
 contact:
-  title: "Ready to transform your business?"
-  description: "Let's connect and drive your business forward."
+  title: "Ready to turn the decision into done?"
+  description: "Tell us where you're stuck. We'll show you what we'd build first."
   cta_text: "Contact SLKone"
   cta_link: "/contact"
   background-image: "/assets/images/backgrounds/contact.webp"
