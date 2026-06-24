@@ -1,19 +1,19 @@
 hero:
   title: "Bridge strategy to measurable success."
-  description: "SLKone is more than a consulting firm—we're your partner in turning complex business challenges into measurable results. We work alongside your team to implement, not just advise, applying AI to accelerate the analysis and deliver outcomes that reach your bottom line faster."
+  description: "SLKone is a management and operations firm that solves hard business problems: growing revenue, cutting cost, and improving how the work runs. We work alongside your team and implement the change, drawing on years of cross-industry operating judgment and using the right tools, including AI, to reach results you can measure on the bottom line."
   cta_text: "Cross The Bridge"
   cta_link: "/services"
 
 approach:
   title: "From Decision to Done"
-  description: "We don't just hand over a strategy—we embed alongside your team and build the bridge to results you can measure. Deep industry expertise does the thinking; AI does the heavy lifting, turning weeks of analysis into hours so the work actually ships."
+  description: "We do not just hand over a strategy; we work alongside your team and build the bridge from decision to results you can measure. Deep operating experience does the thinking, and we bring the right tools to the work, including AI where it genuinely moves the business and honesty when it does not."
 
 unique_points:
   - title: "Data-Backed Decisiveness"
-    description: "We turn complex data into clear strategies, and use AI to get there in hours, not weeks"
+    description: "We turn complex data into clear strategies, using the right tools to get there faster"
     icon: "fa-down-left-and-up-right-to-center"
   - title: "Beyond Advice to Action"
-    description: "A small senior team embeds in your operation and stays through delivery, not a deck handed off"
+    description: "A small senior team works inside your operation and stays through delivery, well past any handoff"
     icon: "fa-person-running"
   - title: "Cross-Industry Insights"
     description: "Fresh perspectives that drive innovative solutions"
@@ -30,7 +30,7 @@ unique_points:
 
 data_driven_approach:
   title: "Data Driven Approach"
-  description: "Our process turns data into clear decisions, and AI now lets us do it in a fraction of the time, so the analysis keeps pace with the business."
+  description: "Our process turns data into clear decisions, and we apply the right tools at each step so the analysis keeps pace with the business."
   steps:
     - title: "1. Strategic Analysis"
       description: "Identify key opportunities"
@@ -38,11 +38,11 @@ data_driven_approach:
       icon: "fa-lightbulb"
     - title: "2. Data-Backed Planning"
       description: "Develop actionable plans"
-      details: "Using AI-accelerated modeling and scenario analysis, we build detailed plans in a fraction of the usual time. We minimize risk and maximize returns by basing decisions on solid data rather than assumptions."
+      details: "We build detailed plans through disciplined modeling and scenario analysis, using AI where it sharpens the work. Decisions rest on solid data rather than assumptions, which lowers risk and protects returns."
       icon: "fa-chart-line"
     - title: "3. Practical Execution"
       description: "Implement solutions effectively"
-      details: "We work alongside your team to put plans into action, building the AI tools and automations that make the change stick. Continuous monitoring keeps execution on track as challenges arise."
+      details: "We work alongside your team to put plans into action and build the tools and automations, AI included where it fits, that make the change stick. We monitor execution closely and adjust as challenges arise."
       icon: "fa-hammer"
     - title: "4. Ongoing Improvement"
       description: "Sustain and enhance results"
@@ -64,8 +64,8 @@ join_team:
   cta_link: "/careers"
 
 contact:
-  title: "Ready to turn the decision into done?"
-  description: "Tell us where you're stuck. We'll show you what we'd build first."
+  title: "Ready to Turn the Decision Into Done?"
+  description: "Tell us where you are stuck, and we will show you where the value is and what we would tackle first."
   cta_text: "Contact SLKone"
   cta_link: "/contact"
   background-image: "/assets/images/backgrounds/contact.webp"

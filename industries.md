@@ -1,9 +1,9 @@
 ---
 layout: industries
 title: Our Industries
-description: "Deep expertise across six industries—private equity, healthcare, technology, manufacturing, retail, energy—implemented by an embedded team and accelerated by AI where it fits."
-subtitle: "Deep sector expertise, delivered at a new pace"
-bigparagraph: "We blend deep industry knowledge with cross-sector insight to find—and implement—the answer that fits your sector. Where the data supports it, AI compresses the analysis from weeks to hours; where the work is judgment and relationships, we lead with people. We don't force the tool; we fit it to the problem."
+description: "Deep expertise across private equity, healthcare, technology, manufacturing, retail, and energy, implemented by an embedded team that fits the right tool to each problem."
+subtitle: "Deep Sector Expertise, Implemented Alongside Your Team"
+bigparagraph: "We bring deep industry knowledge and cross-sector judgment to find, and then implement, the answer that fits your business. When the data supports it, we use AI to sharpen the analysis; when the work turns on judgment and relationships, we lead with experienced people. We fit the tool to the problem, and we are honest when the right answer is not AI at all."
 streamlines: true
 background_image: "assets/images/backgrounds/industries.webp"
 permalink: /industries
