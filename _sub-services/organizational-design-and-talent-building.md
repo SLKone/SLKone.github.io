@@ -3,9 +3,9 @@ layout: sub-service
 order: 6
 title: "Organizational Design and Talent Building"
 parent: "New Business Support"
-description: "SLKone's Organizational Design & Talent Building services create a cohesive and high-performing workforce, aligning your organizational structure with strategic goals to drive excellence."
-approach: "We assess your current organizational structure and talent capabilities to identify strengths and gaps. Our team works with leadership to design an optimized structure and develop talent strategies that foster collaboration, innovation, and high performance."
-intro: "Transform your organization through tailored design and talent strategies that align structure with strategic goals for high performance."
+description: "SLKone aligns your structure, roles, and talent with where the business is headed, building teams that perform and capability that stays."
+approach: "We start by mapping how your organization actually works today, where structure helps, where it gets in the way, and where talent is thin. From there we work alongside leadership to set the right structure, clarify roles, and build the people strategy to support it. The same people stay through the work, and the capability stays with your team afterward."
+intro: "The fundamentals of how good teams are built do not change. We align your structure, roles, and talent with the direction of the business so the right people are doing the right work, and the organization can carry it forward without us."
 focus_areas:
   - title: "Org Structure Assessment"
     content: "Evaluate your current organizational structure to identify strengths and areas for improvement."
@@ -28,7 +28,7 @@ why_choose:
   - "Proven Success in Building High-Performing Teams"
   - "Focus on Leadership and Employee Development"
   - "Enhancing Collaboration and Innovation"
-cta: "Contact us to design an organizational structure and talent strategy that drives your business forward and fosters a thriving workforce."
+cta: "Talk with us about shaping a structure and talent strategy that fits where your business is going and builds a team that can sustain it."
 icon: "fa-people-group"
 color: "coral"
 image: "/assets/images/backgrounds/organizational-design-and-talent-building.webp"

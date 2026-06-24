@@ -3,9 +3,9 @@ layout: sub-service
 order: 4
 title: "Supply Chain Network Optimization"
 parent: "Operational Excellence"
-description: "We design and refine your supply chain network to improve efficiency, reduce costs, and enhance responsiveness, building resilience to adapt to changing market conditions."
-approach: "We conduct a comprehensive analysis of your existing supply chain network, identifying strengths and areas for improvement. Utilizing advanced modeling and simulation tools, we design optimized network structures that balance cost, service levels, and flexibility."
-intro: "Transform your supply chain network with SLKone's expertise in optimization, enhancing efficiency and responsiveness while reducing costs."
+description: "We redesign your supply chain network to cut cost, lift service, and hold up under disruption, with the modeling done in-house."
+approach: "We start with how your network actually runs today, where it serves well and where it ties up cost. We then model the trade-offs between cost, service, and flexibility, and design a network structure you can defend. Optimization and simulation do the heavy analysis, but the calls on what to change are made with you, by the same people start to finish."
+intro: "A supply chain network carries real cost in every link, from sourcing to the last mile. We work through where yours adds cost without adding service, then redesign the footprint and flows so it runs leaner and absorbs disruption better. Most clients run lean and lack spare capacity for this, so we bring the modeling and analytical depth and leave the capability behind."
 focus_areas:
   - title: "Network Design and Optimization"
     content: "Optimize your supply chain network configuration to reduce costs and improve service levels."
@@ -30,7 +30,7 @@ why_choose:
   - "Resilience Building Expertise"
   - "Cost Efficiency Focus"
   - "Expert Team with Extensive Supply Chain Knowledge"
-cta: "Looking to optimize your supply chain network? Contact SLKone today to discover how our Supply Chain Network Optimization services can enhance your operational performance and competitiveness."
+cta: "If your network is costing more than it should or struggling under pressure, talk to SLKone. We will show you where the gains sit and how to capture them."
 icon: "fa-chart-network"
 color: "blush"
 image: "/assets/images/backgrounds/supply-chain-network-optimization.webp"
