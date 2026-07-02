@@ -59,6 +59,33 @@ body-class: body-home
   </div>
 </section>
 
+{% if site.data.homepage.ai_enablement %}
+<section id="ai-enablement-home" class="py-20 lg:py-32 bg-white dark:bg-currant">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="grid lg:grid-cols-3 gap-12 items-start">
+      <div>
+        <h2 class="text-4xl mb-6 font-display">{{ site.data.homepage.ai_enablement.title }}</h2>
+        <p class="text-xl max-w-prose mb-8">{{ site.data.homepage.ai_enablement.description }}</p>
+        <a class="inline-block bg-emerald dark:bg-forest text-white dark:text-currant text-xl transition-all p-4 rounded-full px-8 duration-300 hover:bg-emerald-500 dark:hover:bg-forest-500" href="{{ site.data.homepage.ai_enablement.cta_link }}">
+          {{ site.data.homepage.ai_enablement.cta_text }} <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="lg:col-span-2 grid md:grid-cols-2 gap-4">
+        {% for point in site.data.homepage.ai_enablement.points %}
+        <div class="rounded-xl bg-slate-50 dark:bg-currant-500 p-8">
+          <div class="flex justify-between items-start mb-4">
+            <h3 class="text-2xl font-display">{{ point.title }}</h3>
+            {% if point.icon %}<i class="text-2xl fa-sharp-duotone {{ point.icon }}"></i>{% endif %}
+          </div>
+          <p>{{ point.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {% if site.data.homepage.proof.case_studies %}
 {% include proof-cases.html
   title=site.data.homepage.proof.title

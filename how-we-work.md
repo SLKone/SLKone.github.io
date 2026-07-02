@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How We Work
-subtitle: "A practical path from leadership decision to measurable operating result."
+subtitle: "The same delivery model: embed, learn, build, execute, and prove results. AI compresses the path."
 permalink: /how-we-work
 background_image: "/assets/images/backgrounds/services.webp"
 color: "emerald"
@@ -12,8 +12,25 @@ color: "emerald"
 <section class="py-20">
   <div class="container mx-auto px-8 max-w-7xl">
     <div class="max-w-prose md:text-xl">
-      <p class="mb-6">SLKone helps leadership teams make hard decisions and make those decisions real. We do not assume the answer is already clear. We help define the options, pressure-test the facts, align the people who own the work, build what needs to exist, and prove whether performance changed.</p>
-      <p>The work often combines strategy, finance, operations, technology, analytics, AI enablement, and change management. The mix depends on the business question, not a preset consulting package.</p>
+      <p class="mb-6">SLKone is not an AI company. We are a delivery firm that uses AI better because we stay close to the work: we embed with teams, learn the operating reality, build what is needed, and help clients make change stick.</p>
+      <p>The work often includes AI governance, MCP tools, workflow agents, skills, automation, data products, operating model design, finance, operations, and change management. The mix depends on the business question, not a preset consulting package.</p>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="grid md:grid-cols-2 gap-12">
+      <div>
+        <h2 class="text-4xl font-display mb-6">AI Where It Accelerates Delivery</h2>
+        <p class="md:text-xl max-w-prose mb-6">We help clients move past generic AI pilots and into targeted workflows: knowledge retrieval, document production, management reporting, diligence support, operating cadence, process automation, decision support, and governed action against business systems.</p>
+        <p class="md:text-xl max-w-prose">The goal is not to deploy AI everywhere. The goal is to compress work that used to take weeks into hours where the workflow, data, and controls make that possible.</p>
+      </div>
+      <div>
+        <h2 class="text-4xl font-display mb-6">We Build This Way Ourselves</h2>
+        <p class="md:text-xl max-w-prose mb-6">SLKone builds internal AI-enabled tools for knowledge management, document production, communications, workflow support, and execution management. That matters because the delivery model is backed by operating experience, not just theory.</p>
+        <p class="md:text-xl max-w-prose">We know what it takes to connect AI to real data, govern access, design useful workflows, train teams, and keep the human judgment where it belongs.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -46,23 +63,6 @@ color: "emerald"
         <p class="text-sm uppercase font-bold opacity-60 mb-3">5</p>
         <h3 class="text-2xl font-display mb-3">Prove</h3>
         <p>Measure whether the work improved revenue, margin, cash, cycle time, quality, risk, or management control.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-20">
-  <div class="container mx-auto px-8 max-w-7xl">
-    <div class="grid md:grid-cols-2 gap-12">
-      <div>
-        <h2 class="text-4xl font-display mb-6">Where AI Fits</h2>
-        <p class="md:text-xl max-w-prose mb-6">AI is not the positioning. It is one capability inside the work. We use it when it can improve a decision, accelerate a workflow, reduce manual effort, strengthen a control, or create a new operating capability.</p>
-        <p class="md:text-xl max-w-prose">That includes AI governance, workflow selection, MCP tools and integrations, skills, agents, automation, training, and build-buy-route decisions.</p>
-      </div>
-      <div>
-        <h2 class="text-4xl font-display mb-6">Bridge as Proof</h2>
-        <p class="md:text-xl max-w-prose mb-6">SLKone builds and uses Bridge as an internal operating platform for client work, knowledge, documents, communications, AI-assisted workflows, and execution management.</p>
-        <p class="md:text-xl max-w-prose">Bridge is not the offer. It is proof that we can design business workflows, build useful software, integrate AI, govern data, and make complex operating work easier to manage.</p>
       </div>
     </div>
   </div>

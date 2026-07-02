@@ -2,14 +2,14 @@
 layout: service
 order: 4
 title: "Digital Strategy and Technology"
-subtitle: "We help organizations choose, build, govern, and adopt technology that changes how work gets done."
-intro: "Technology creates value when it changes decisions, workflows, controls, and execution cadence. SLKone helps leadership teams assess where technology should matter, select the right path, build practical tools, and embed the governance and operating routines needed for adoption."
-approach: "We start with the business workflow and value logic, not the tool. That can mean AI enablement, custom MCP tools and integrations, agent and skill development, automation, dashboarding, data architecture, or system selection. The common thread is simple: define the work, make the build usable, govern it responsibly, and prove whether performance improved."
-blurb-intro: "Choose, build, govern, and adopt technology that improves the work."
+subtitle: "AI enablement, automation, analytics, and technology builds tied to real operating work."
+intro: "SLKone helps organizations turn AI and technology into governed operating capability. We identify where AI, automation, analytics, and systems should change the work; build practical tools and integrations; and embed the governance, adoption, and execution cadence needed to create value."
+approach: "We start with the business workflow and value logic, then decide where AI and technology belong. That can mean MCP tools and integrations, workflow agents, skills, automation, dashboarding, data architecture, system selection, or custom software. The common thread is simple: define the work, build what is usable, govern it responsibly, and prove whether performance improved."
+blurb-intro: "AI enablement, automation, analytics, and technology builds tied to real operating work."
 why_choose:
-  - point: "Workflow-First Strategy"
+  - point: "AI-First Opportunity Framing"
     icon: "fa-objects-align-left"
-    description: "We start with the operating workflow, value pool, constraints, and owner model before selecting the technology path."
+    description: "We identify where AI can change decisions, workflows, controls, cost, speed, and quality before selecting the build path."
   - point: "Modern AI Capability"
     icon: "fa-microchip"
     description: "We build and integrate AI governance, MCP tools, workflow agents, skills, and automation where they can improve real business processes."
@@ -37,7 +37,7 @@ cta_text: "Start the Conversation"
 icon: "fa-computer"
 color: "plum"
 background_image: "/assets/images/backgrounds/digital-strategy.webp"
-permalink: /services/digital-strategy-and-technology
+permalink: /services/digital-strategy-and-technology/
 redirect_from:
   - /services/Digital-Strategy-and-Technology/
 ---

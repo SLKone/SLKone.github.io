@@ -23,8 +23,8 @@ main:
       icon: "assets/images/mark_catalyst.svg"
       color: forest
 cta:
-- title: Value Assessment
-  url: /business-value-assessment
+- title: How We Work
+  url: /how-we-work
 mobile:
 - title: Home
   url: /

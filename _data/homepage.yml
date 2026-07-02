@@ -1,6 +1,6 @@
 hero:
-  title: "Make the right call. Make the change real."
-  description: "SLKone works with leadership and operating teams to clarify priorities, align the business, and turn high-stakes decisions into measurable revenue, cost, cash, and cycle-time outcomes. We use AI, analytics, automation, and hands-on execution where they improve the work."
+  title: "Complex problems require more than recommendations."
+  description: "SLKone embeds with leadership and operators to move critical work from decision to done. We bring the capacity, tools, analytics, AI-enabled workflows, and execution discipline to make change measurable."
   cta_text: "See How We Work"
   cta_link: "/how-we-work"
 
@@ -12,21 +12,40 @@ unique_points:
   - title: "Decision Clarity"
     description: "We help teams frame options, quantify tradeoffs, and make defensible calls"
     icon: "fa-down-left-and-up-right-to-center"
-  - title: "Action With Ownership"
+  - title: "Embedded Delivery"
     description: "We work beside the people who have to run the process after the project ends"
     icon: "fa-person-running"
+  - title: "Builder Capability"
+    description: "We build the tools, models, automations, dashboards, and routines the work requires"
+    icon: "fa-arrow-up-square-triangle"
+  - title: "Governed Adoption"
+    description: "We define controls, ownership, training, and cadence so the new way of working sticks"
+    icon: "fa-shield-check"
   - title: "Cross-Functional Translation"
     description: "We connect strategy, finance, operations, technology, and change management"
     icon: "fa-arrows-spin"
-  - title: "Aligned Economics"
-    description: "We structure work around the value clients need to realize, not generic activity"
-    icon: "fa-objects-align-center-horizontal"
-  - title: "Builder Capability"
-    description: "We can design the operating model, build the tools, automate the workflow, and train the team"
-    icon: "fa-arrow-up-square-triangle"
   - title: "Proof Orientation"
     description: "We define the value logic early and measure whether the work actually changed performance"
     icon: "fa-timeline-arrow"
+
+ai_enablement:
+  title: "How We Work Faster"
+  description: "AI is one part of the delivery model, not the identity of the firm. We use it when it helps teams shorten analysis, improve knowledge reuse, automate repeatable work, or build better operating tools."
+  cta_text: "See How We Work"
+  cta_link: "/services/digital-strategy-and-technology/#ai-enablement"
+  points:
+    - title: "Focused Working Sessions"
+      description: "Get the right operators, leaders, facts, and decisions into the same room so the work can move."
+      icon: "fa-route"
+    - title: "Reusable Tools"
+      description: "Build models, dashboards, automations, MCP integrations, and AI-enabled workflows where they reduce friction."
+      icon: "fa-network-wired"
+    - title: "Operating Cadence"
+      description: "Create the ownership, decision forums, metrics, and follow-through needed to make change visible."
+      icon: "fa-shield-check"
+    - title: "Proof of Impact"
+      description: "Measure whether the work improved revenue, cost, cash, cycle time, quality, or management control."
+      icon: "fa-chart-line"
 
 data_driven_approach:
   title: "How We Move From Ambiguity to Results"
@@ -51,7 +70,7 @@ data_driven_approach:
 
 proof:
   title: "Proof Across Decisions, Systems, and Execution"
-  description: "The work spans strategic choices, operating model design, analytics, automation, and hands-on implementation. These examples show the range."
+  description: "The work spans forecasting, automated revenue reporting, data products, workflow design, and hands-on implementation. These examples show the range."
   case_studies:
     - "Develop-and-Automate-Annual-Recurring-Revenue-for-$100M-Software-As-A-Service-Company"
     - "Forecasting-Financial-Performance-with-Machine-Learning-for-$10B-Oil-&-Gas-Organization"
