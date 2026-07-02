@@ -2,9 +2,9 @@
 layout: industry
 order: 2
 title: Healthcare
-subtitle: "In the ever-evolving healthcare landscape, we help providers, payers, and life sciences companies optimize operations, enhance patient outcomes, and navigate complex market dynamics."
-intro: "In the ever-evolving healthcare landscape, SLKone helps providers, payers, and life sciences companies optimize operations, enhance patient outcomes, and navigate complex market dynamics. Our deep industry knowledge, combined with our data-driven approach, enables us to deliver tangible results in this intricate sector."
-blurb-intro: "Navigate the healthcare landscape with SLKone's expert guidance and innovative solutions."
+subtitle: "We help healthcare organizations improve operations, reporting, revenue cycle, integration, and execution while using AI-enabled workflows where they can responsibly reduce friction."
+intro: "SLKone helps providers, payers, and life sciences companies optimize operations, enhance performance, and navigate complex market dynamics. We bring industry knowledge, data-driven analysis, and practical AI-enabled workflow support where it can improve visibility, reduce administrative burden, and support better operating decisions."
+blurb-intro: "Improve healthcare operations with practical delivery, analytics, and governed AI-enabled workflows."
 landscape-title: "The Healthcare Landscape"
 landscape-intro: "The healthcare industry is undergoing rapid transformation, driven by:"
 landscape:
@@ -15,7 +15,7 @@ landscape:
     - "Evolving regulatory landscape and reimbursement models"
 landscape-conclusion: "These trends create both challenges and opportunities for healthcare organizations across all sub-sectors."
 approach-title: "Our Approach"
-approach-intro: "SLKone takes a holistic view of healthcare organizations, addressing challenges across operations, finance, and strategy. We leverage our cross-sector insights to bring innovative solutions to persistent industry problems. Our approach integrates:"
+approach-intro: "SLKone takes a holistic view of healthcare organizations, addressing challenges across operations, finance, strategy, data, and adoption. Our approach integrates:"
 approach:
   - point: "Advanced Data Analytics"
     description: "Harnessing the power of healthcare data to drive informed decision-making"

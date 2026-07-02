@@ -2,9 +2,9 @@
 layout: industry
 order: 4
 title: Retail and Consumer Goods
-subtitle: "In the dynamic retail and consumer goods sector, we help companies enhance operational agility, optimize supply chains, and leverage data-driven insights for superior customer experiences."
-intro: "SLKone empowers retail and consumer goods companies to thrive in an era of rapid change and evolving consumer expectations. We partner with organizations to enhance operational agility, optimize supply chains, and leverage data-driven insights for superior customer experiences."
-blurb-intro: "Enhance your retail and consumer goods strategy with SLKone's expert insights and innovative solutions for a rapidly changing market."
+subtitle: "We help retail and consumer goods companies improve commercial execution, supply chains, pricing, planning, and customer insight with better data and practical AI-enabled workflows."
+intro: "SLKone helps retail and consumer goods companies respond to rapid change and evolving customer expectations. We partner with organizations to enhance operational agility, optimize supply chains, improve pricing and performance visibility, and use analytics and AI-enabled workflows where they strengthen execution."
+blurb-intro: "Improve retail and consumer goods execution with analytics, operating discipline, and AI-enabled workflow support."
 landscape-title: "The Retail & Consumer Goods Landscape"
 landscape-intro: "The retail and consumer goods sector is undergoing significant transformation, driven by:"
 landscape:
@@ -15,7 +15,7 @@ landscape:
   - "Supply chain disruptions and the need for resilience"
 landscape-conclusion: "These forces reshape consumer behaviors and business models, necessitating agile and innovative approaches."
 approach-title: "Our Approach"
-approach-intro: "SLKone adopts a comprehensive approach to retail and consumer goods challenges, integrating operational excellence with customer-centric strategies. Our framework encompasses:"
+approach-intro: "SLKone adopts a comprehensive approach to retail and consumer goods challenges, integrating operational excellence, customer-centric strategy, analytics, automation, and adoption. Our framework encompasses:"
 approach:
   - point: "Omnichannel Integration"
     description: "Unifying online and offline experiences"

@@ -2,9 +2,9 @@
 layout: industry
 order: 6
 title: Energy and Resources
-subtitle: "In the evolving energy and resources sector, we help companies navigate industry disruptions, optimize operations, and drive sustainable growth."
-intro: "At SLKone, we understand the complex challenges facing the energy and resources sector. From upstream to downstream, we partner with companies to navigate industry disruptions, optimize operations, and drive sustainable growth. Our deep industry knowledge, combined with our data-driven approach, enables us to deliver tangible results in this dynamic sector."
-blurb-intro: "Transform your operations with SLKone's innovative solutions, designed to enhance efficiency and drive sustainability in the evolving energy landscape."
+subtitle: "We help energy and resources companies navigate disruption, improve operating performance, and use data, analytics, and AI-enabled workflows where they strengthen execution."
+intro: "At SLKone, we understand the complex challenges facing the energy and resources sector. From upstream to downstream, we partner with companies to improve planning, operations, cost control, forecasting, and management cadence. Our industry knowledge, data-driven approach, and practical use of analytics and AI-enabled tools help turn complex operating priorities into tangible results."
+blurb-intro: "Improve energy and resources operations with practical analytics, execution support, and AI-enabled workflows where they matter."
 landscape-title: "The Energy & Resources Landscape"
 landscape-intro: "The energy and resources sector is undergoing significant transformation, driven by:"
 landscape:
@@ -16,7 +16,7 @@ landscape:
   - "Supply chain disruptions and geopolitical uncertainties"
 landscape-conclusion: "These forces reshape the competitive landscape, presenting both challenges and opportunities for energy and resource companies."
 approach-title: "Our Approach"
-approach-intro: "SLKone adopts a comprehensive approach to energy and resources challenges, integrating operational excellence with strategic foresight. Our framework encompasses:"
+approach-intro: "SLKone adopts a comprehensive approach to energy and resources challenges, integrating operational excellence, strategic foresight, analytics, and workflow automation. Our framework encompasses:"
 approach:
   - point: "Operational Efficiency"
     description: "Optimizing processes and reducing costs"

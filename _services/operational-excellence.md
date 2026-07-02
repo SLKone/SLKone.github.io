@@ -2,10 +2,10 @@
 layout: service
 order: 1
 title: "Operational Excellence"
-subtitle: "Efficient and effective operations execution means the difference between withstanding shocks, ensuring continuity, and satisfying customers. We help clients reduce complexity, codify options, and make decisions that improve on-time, on-cost, and on-quality metrics."
-blurb-intro: "Streamline your operations for unmatched efficiency and customer delight."
-intro: "How you execute your operations is just as critical as why you do it. SLKone simplifies operations, enhances decision-making, and improves performance in on-time delivery, cost control, and quality. We ensure your business can quickly adapt to market disruptions while maintaining consistency in customer satisfaction."
-approach: "We take a holistic view of your operations, understanding that true excellence comes from the seamless integration of people, processes, and technology. Our data-driven methodology allows us to identify bottlenecks, inefficiencies, and opportunities for improvement across your entire value chain."
+subtitle: "We help clients reduce operational complexity, codify decisions, and improve on-time, on-cost, and on-quality performance."
+blurb-intro: "Improve operations with clearer decisions, better workflows, and measurable execution."
+intro: "How you execute operations is just as critical as why you do it. SLKone simplifies workflows, improves decision-making, and helps teams manage performance across delivery, cost, quality, and resilience."
+approach: "We take a holistic view of operations, integrating people, process, systems, analytics, and adoption. AI-enabled workflow analysis, automation, and decision support can help identify bottlenecks, reduce manual effort, standardize repeatable work, and create better visibility across the value chain."
 impact:
   - metric: "15-20% reduction"
     description: "in operational costs"

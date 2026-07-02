@@ -2,9 +2,9 @@
 layout: industry
 order: 3
 title: Manufacturing
-subtitle: "In the rapidly evolving manufacturing sector, we help companies optimize operations, embrace Industry 4.0, and drive sustainable growth."
-intro: "At SLKone, we empower manufacturers to thrive in an era of rapid technological advancement and shifting global dynamics. Our expertise spans operational excellence, supply chain optimization, and digital transformation, enabling our clients to achieve operational efficiency, market responsiveness, and sustainable growth."
-blurb-intro: "Transform your manufacturing journey with SLKone's insightful expertise and cutting-edge solutions."
+subtitle: "We help manufacturers improve operations, supply chain performance, planning, and execution with practical analytics, automation, and AI-enabled workflows."
+intro: "SLKone helps manufacturers thrive amid technological change, supply volatility, cost pressure, and shifting demand. Our expertise spans operational excellence, supply chain optimization, digital transformation, analytics, and workflow automation, enabling clients to improve efficiency, responsiveness, and management control."
+blurb-intro: "Improve manufacturing performance with practical analytics, operating discipline, and AI-enabled workflow support."
 landscape-title: "The Manufacturing Landscape"
 landscape-intro: "The manufacturing industry is experiencing significant transformation, driven by:"
 landscape:
@@ -15,7 +15,7 @@ landscape:
   - "Workforce evolution and skills gap challenges"
 landscape-conclusion: "These trends present both challenges and opportunities for manufacturers striving to maintain competitive advantage and operational excellence."
 approach-title: "Our Approach"
-approach-intro: "SLKone adopts a multifaceted approach to manufacturing challenges, integrating operational excellence with strategic foresight. Our framework encompasses:"
+approach-intro: "SLKone adopts a multifaceted approach to manufacturing challenges, integrating operational excellence, strategic foresight, analytics, automation, and adoption. Our framework encompasses:"
 approach:
   - point: "Lean Manufacturing Principles"
     description: "Eliminating waste and optimizing processes"

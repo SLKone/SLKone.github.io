@@ -2,10 +2,10 @@
 layout: service
 order: 5
 title: "Organizational Design and Alignment"
-subtitle: "We help organizations address their critical design and training needs to foster a collaborative environment that enables execution excellence."
-blurb-intro: "Enhance your organization with tailored design and alignment strategies for success."
-intro: "At SLKone, we believe that a well-designed and trained organization can accelerate business transformation initiatives and move you towards your strategic objectives more effectively and efficiently. We help organizations address their critical design and training needs to foster a collaborative environment that enables execution excellence."
-approach: "We take a comprehensive approach to organizational design and alignment, focusing on Operating Model Design, Process Design, and Organizational Structure Redesign. Our methodology ensures that your organization's structure, processes, and people are aligned with your strategic goals and optimized for performance."
+subtitle: "We help organizations design the roles, processes, decision rights, training, and management routines needed for execution."
+blurb-intro: "Align structure, process, people, and cadence around the work that matters."
+intro: "A well-designed organization does more than clarify boxes on a chart. It helps people make decisions, coordinate work, learn new routines, and execute priorities with less friction. SLKone helps organizations address design and training needs so transformation can move from intent to adoption."
+approach: "We focus on operating model design, process design, role effectiveness, structure, and alignment. AI-enabled knowledge tools, training assets, workflow documentation, and decision-support routines can help teams adopt new ways of working faster and with more consistency."
 impact_title: "Our Impact"
 impact_intro: "Effective organizational design can lead to significant improvements, including:"
 impact:

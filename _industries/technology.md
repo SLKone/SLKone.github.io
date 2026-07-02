@@ -2,9 +2,9 @@
 layout: industry
 order: 4
 title: Technology
-subtitle: "In the fast-paced technology sector, we assist companies in optimizing operations, managing revenue processes, and integrating advanced analytics for superior decision-making."
-intro: "SLKone catalyzes growth and innovation in the technology industry. We collaborate with tech companies to refine operations, optimize revenue streams, revitalize finance functions, and embed analytics into core processes, ensuring our clients stay ahead in a competitive landscape."
-blurb-intro: "Enhance your initiatives with SLKone's expert consulting services tailored for the tech landscape."
+subtitle: "We help technology companies improve revenue operations, finance, reporting, operating cadence, and AI-enabled workflows that support better execution."
+intro: "SLKone helps technology companies refine operations, optimize revenue streams, revitalize finance functions, and embed analytics into core processes. We also help teams identify where AI-enabled workflows, automation, and practical tools can reduce friction and improve management visibility."
+blurb-intro: "Improve technology company execution with revenue, finance, analytics, and AI-enabled operating workflows."
 landscape-title: "The Technology Landscape"
 landscape-intro: "The technology sector is characterized by:"
 landscape:
@@ -15,7 +15,7 @@ landscape:
   - "Talent acquisition and retention challenges in a competitive market"
 landscape-conclusion: "These dynamics require agility and strategic foresight to navigate successfully."
 approach-title: "Our Approach"
-approach-intro: "SLKone adopts a holistic view of technology companies, addressing challenges across product development, go-to-market strategies, and operational efficiency. Our methodology integrates:"
+approach-intro: "SLKone adopts a holistic view of technology companies, addressing challenges across product development, go-to-market strategy, revenue operations, finance, analytics, and operational efficiency. Our methodology integrates:"
 approach:
   - point: "Agile Transformation"
     description: "Fostering nimble product development and organizational structures"

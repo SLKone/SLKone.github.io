@@ -1,8 +1,8 @@
 ---
 layout: industries
 title: Our Industries
-subtitle: Delivering tailored solutions across diverse sectors
-bigparagraph: "At SLKone, we blend deep industry knowledge with cross-sector insights to uncover—and deliver—the most effective solutions to complex challenges. Our expertise spans various industries, ensuring that we provide customized strategies that meet the unique needs of each sector."
+subtitle: Delivering measurable operating results across complex sectors
+bigparagraph: "SLKone blends industry knowledge with cross-sector delivery experience to help leadership teams move critical work from decision to done. Across industries, we use analytics, automation, AI-enabled workflows, and hands-on execution where they help teams improve visibility, reduce friction, and make change measurable."
 streamlines: true
 background_image: "assets/images/backgrounds/industries.webp"
 permalink: /industries

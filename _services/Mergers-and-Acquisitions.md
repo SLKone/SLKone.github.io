@@ -2,10 +2,10 @@
 layout: service
 order: 3
 title: "Mergers and Acquisitions"
-subtitle: "We specialize in identifying the extent of integration needed and can roll up our sleeves to jump in and help -- not just direct -- project and organizational management for successful M&A integration. We are also versed in how to prepare for an exit from an investment – how to identify and drive key improvements and manage the sale process."
-blurb-intro: "Unlock the potential of your business with expert M&A guidance and seamless integration."
-intro: "At SLKone, we understand that while combining functional areas or departments may appear straightforward on paper, the reality is far more complex. Our consultants and subject matter experts, trained across various industries and possessing deep functional expertise, specialize in identifying the extent of integration needed. We don't just direct – we actively participate in project and organizational management to ensure successful M&A integration."
-approach: "We follow a comprehensive approach that includes strategic planning, due diligence, integration management, and value optimization. Our team works closely with your stakeholders to align M&A objectives with your business goals, ensuring that every acquisition or merger contributes positively to your long-term strategy."
+subtitle: "We help sponsors and operators move through diligence, integration, and exit preparation with the analysis, cadence, and hands-on execution needed to protect value."
+blurb-intro: "Move from transaction thesis to integration, value capture, and exit readiness."
+intro: "At SLKone, we understand that combining functional areas, systems, teams, and operating rhythms is far more complex than it appears on paper. We help identify the extent of integration required, stand up the management cadence, and do the project and organizational work needed to move M&A priorities forward."
+approach: "We combine transaction judgment, operational planning, diligence support, integration management, and value optimization. AI-enabled document review, analytics, and workflow tools help us accelerate fact gathering, issue tracking, synergy analysis, and integration planning, while our team stays close to the operators responsible for adoption."
 impact_title: "Our Impact"
 impact_intro: "Our typical impact targets in M&A:"
 impact:

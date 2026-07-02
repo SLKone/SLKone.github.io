@@ -2,8 +2,8 @@
 layout: industry
 order: 1
 title: Private Equity
-subtitle: "We help sponsors and portfolio leadership teams identify, prioritize, execute, and prove value creation work."
-intro: "SLKone partners with private equity firms and portfolio company teams when the value creation agenda needs to become executable. We help clarify the opportunity, align leadership, build the management system, and support execution across revenue, margin, cash, systems, and organizational priorities."
+subtitle: "We help sponsors and portfolio leadership teams identify, prioritize, execute, and prove value creation work with better data, tools, and operating cadence."
+intro: "SLKone partners with private equity firms and portfolio company teams when the value creation agenda needs to become executable. We help clarify the opportunity, align leadership, build the management system, and support execution across revenue, margin, cash, systems, and organizational priorities. AI-enabled analysis, reporting, and workflow tools help compress diligence, planning, and execution work where they improve speed and accountability."
 blurb-intro: "Turn the value creation agenda into executable work across the portfolio."
 landscape-title: "The Private Equity Landscape"
 landscape-intro: "The private equity landscape is characterized by:"
@@ -15,7 +15,7 @@ landscape:
   - "Emphasis on ESG considerations in investment decisions"
 landscape-conclusion: "These factors raise the bar for practical value creation: sharper decisions, faster alignment, stronger execution cadence, and clearer proof of impact."
 approach-title: "Our Approach"
-approach-intro: "SLKone's methodology is tailored to the realities of sponsor-backed companies, focusing on:"
+approach-intro: "SLKone's methodology is tailored to the realities of sponsor-backed companies, combining hands-on execution with analytics and AI-enabled tools where they improve visibility and pace. We focus on:"
 approach:
   - point: "Value Creation Planning"
     description: "Translating investment thesis and management priorities into sequenced, owned initiatives"

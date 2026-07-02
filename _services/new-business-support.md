@@ -2,10 +2,10 @@
 layout: service
 order: 8
 title: "New Business Support"
-subtitle: "We help new businesses set up for success from the start, ensuring they have the right processes, people, and technology in place."
-blurb-intro: "Empower your startup journey with tailored support for lasting success."
-intro: "At SLKone, we understand that launching and growing new businesses comes with unique challenges and opportunities. Our New Business Support services are designed to help entrepreneurs and intrapreneurs successfully establish and scale new ventures, whether as standalone startups or within existing organizations."
-approach: "We take a comprehensive approach to new business support, focusing on Process Setup & Optimization, Organizational Design & Talent Building, and Technology Roadmap Development. Our methodology ensures that your new business has a strong foundation across operations, people, and technology to support rapid and sustainable growth."
+subtitle: "We help new businesses and new initiatives build the processes, people, systems, and operating routines needed to scale with discipline."
+blurb-intro: "Set up new businesses and new initiatives with the operating foundation to grow."
+intro: "Launching and growing new businesses requires more than a good concept. SLKone helps entrepreneurs and intrapreneurs turn new ventures into functioning operating models, whether they are standalone startups or growth initiatives inside existing organizations."
+approach: "We focus on process setup, organizational design, talent needs, technology roadmap, and early management cadence. AI-enabled workflows, analytics, and automation can help new teams avoid unnecessary manual work, build reusable operating tools, and make early performance visible without overbuilding infrastructure."
 why_choose:
   - point: "Startup Expertise"
     icon: "fa-trophy"

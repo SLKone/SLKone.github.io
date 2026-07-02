@@ -2,10 +2,10 @@
 layout: service
 order: 2
 title: "Corporate Finance and Revenue Management"
-subtitle: "We deploy a rigorous and disciplined approach to corporate finance to ensure financial health, evaluating product portfolio risks and returns to plot the optimal capital investment strategy."
-intro: "SLKone’s unique approach to corporate finance connects operational insight with financial expertise, ensuring every dollar invested drives measurable growth. By focusing on high-impact areas like product portfolios and capital investment, we secure your organization’s long-term financial strength and competitive advantage."
-approach: "We employ a data-driven methodology to assess your current financial performance, identify opportunities for improvement, and implement strategies tailored to your unique business needs. Our approach integrates best practices with innovative financial management techniques to ensure sustained financial excellence."
-blurb-intro: "Transform your financial strategy with SLKone's expert guidance and innovative solutions."
+subtitle: "We connect financial decisions to operational reality so leaders can manage revenue, margin, cash, pricing, and investment with better evidence."
+intro: "SLKone’s approach to corporate finance connects operational insight with financial expertise, ensuring every dollar invested has a clear value logic. We focus on high-impact areas such as product portfolios, pricing, revenue management, working capital, capital allocation, and financial operating cadence."
+approach: "We use financial analysis, operating data, automation, and AI-enabled modeling where they improve speed, accuracy, and visibility. The goal is not just a better model; it is a finance and revenue management system leaders can use to make decisions, track performance, and adjust course."
+blurb-intro: "Connect finance, revenue, pricing, and operations to better decisions."
 impact_title: "Our Impact"
 impact_intro: "Our typical targets for Corporate Finance & Revenue Management services include:"
 impact:
