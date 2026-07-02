@@ -2,16 +2,16 @@
 layout: contact
 title: Let's Connect
 permalink: /contact
-right_column: "Ready to take the first step towards transforming your business? Reach out to us today. Our team is eager to understand your needs and explore how we can help you achieve your goals. "
+right_column: "Ready to clarify a decision, assess an opportunity, or make a priority initiative executable? Reach out and tell us what leadership is weighing."
 background: "/assets/images/backgrounds/contact.webp"
 ---
 
-At SLKone, we're passionate about bridging the gap between strategy and implementation. We're committed to understanding your unique challenges and delivering tangible, data-driven solutions that create lasting impact. Our team of experts is ready to help you navigate complex business landscapes and unlock new opportunities for growth and operational excellence.
+SLKone helps leadership teams move from ambiguity to action. We work with clients to make better decisions, align the business, build practical tools and operating routines, and prove whether the work created measurable value.
 
 Whether you're looking to:
-- Discuss a specific operational challenge
-- Seek strategic advice on performance improvement
-- Explore how data analytics can drive your decision-making
-- Learn more about our unique approach to consulting
+- Discuss a specific operational or financial challenge
+- Assess where AI, analytics, automation, or process redesign could create value
+- Prioritize and sequence a value creation agenda
+- Build the tools, governance, cadence, and adoption path needed for execution
 
-We're here to listen, collaborate, and drive results together.
+We're ready to understand the situation and help determine the right next move.

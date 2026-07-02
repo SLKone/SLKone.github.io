@@ -1,0 +1,41 @@
+{% assign proof_title = include.title | default: "Relevant Proof" %}
+{% assign proof_description = include.description %}
+{% if include.cases %}
+<section class="py-20 bg-slate-50 dark:bg-currant-500">
+  <div class="container mx-auto px-8 max-w-7xl">
+    <div class="mb-12">
+      <h2 class="text-4xl font-display mb-4">{{ proof_title }}</h2>
+      {% if proof_description %}
+      <p class="text-xl max-w-prose">{{ proof_description }}</p>
+      {% endif %}
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      {% for case_slug in include.cases %}
+        {% assign matched_case = nil %}
+        {% for case_item in site.case-study %}
+          {% if case_item.path contains case_slug %}
+            {% assign matched_case = case_item %}
+          {% endif %}
+        {% endfor %}
+        {% if matched_case %}
+        <article class="rounded-xl bg-white dark:bg-currant overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
+          {% if matched_case.background_image %}
+          <a href="{{ matched_case.url | relative_url }}" class="block min-h-48 bg-cover bg-center" style="background-image: url('{{ matched_case.background_image }}')" aria-label="{{ matched_case.title }}"></a>
+          {% endif %}
+          <div class="p-8">
+            <p class="text-sm uppercase font-bold opacity-60 mb-3">Case Study</p>
+            <h3 class="text-2xl font-display mb-4">
+              <a href="{{ matched_case.url | relative_url }}" class="hover:text-emerald dark:hover:text-forest">{{ matched_case.title }}</a>
+            </h3>
+            {% if matched_case.intro %}
+            <p class="mb-6">{{ matched_case.intro }}</p>
+            {% endif %}
+            <a href="{{ matched_case.url | relative_url }}" class="font-bold hover:text-emerald dark:hover:text-forest">Read the case study <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

@@ -12,7 +12,13 @@
         {% assign related_sub_services = site["sub-services"] | where: "parent", service.title | sort:"order" %}
         {% for sub-service in related_sub_services %}
             {% assign sub_service_slug = sub-service.title | slugify %}
-            {% assign link_url = include.card.url | relative_url | append: '#' | append: sub_service_slug %}
+            {% if sub-service.anchor_url %}
+              {% assign link_url = sub-service.anchor_url %}
+            {% elsif sub-service.redirect_to %}
+              {% assign link_url = sub-service.redirect_to %}
+            {% else %}
+              {% assign link_url = include.card.url | relative_url | append: '#' | append: sub_service_slug %}
+            {% endif %}
             {% assign link_title = sub-service.title %}
             {% assign link_color = parent_color %}
             {% include link-pill.html link=link_url link_title=link_title color=link_color %}

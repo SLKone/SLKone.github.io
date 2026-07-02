@@ -1,9 +1,31 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120057878-1"></script>
-    <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: 'site_context',
+    site_name: '{{ site.title | escape }}',
+    page_title: '{{ page.title | default: site.title | escape }}',
+    page_path: '{{ page.url | replace: "index.html", "" }}',
+    page_collection: '{{ page.collection | default: "page" }}'
+  });
+</script>
 
-     gtag('config', 'UA-120057878-1');
-    </script>
+{% if site.google_tag_manager_id and site.google_tag_manager_id != "" %}
+<!-- Google Tag Manager -->
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ site.google_tag_manager_id }}');
+</script>
+<!-- End Google Tag Manager -->
+{% elsif site.ga4_measurement_id and site.ga4_measurement_id != "" %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_measurement_id }}"></script>
+<script>
+  window.slkoneAnalyticsUsesDirectGtag = true;
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.ga4_measurement_id }}');
+</script>
+{% endif %}

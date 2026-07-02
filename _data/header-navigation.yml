@@ -1,6 +1,8 @@
 main:
 - title: Services
   url: /services
+- title: How We Work
+  url: /how-we-work
 - title: Industries
   url: /industries
 - title: Insights
@@ -21,13 +23,15 @@ main:
       icon: "assets/images/mark_catalyst.svg"
       color: forest
 cta:
-- title: Contact Us
-  url: /contact
+- title: Value Assessment
+  url: /business-value-assessment
 mobile:
 - title: Home
   url: /
 - title: Services
   url: /services
+- title: How We Work
+  url: /how-we-work
 - title: Industries
   url: /industries
 - title: Insights
@@ -38,6 +42,8 @@ mobile:
   url: /brands  
 - title: Careers
   url: /careers
+- title: Business Value Assessment
+  url: /business-value-assessment
 - title: Contact Us
   url: /contact  
 insights:
@@ -47,4 +53,3 @@ insights:
   url: /articles
 - title: Case Studies
   url: /case-studies
-

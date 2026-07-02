@@ -1,13 +1,19 @@
 # Site settings
 title: SLKone
 email: hello@slkone.com
-description: SLKone is more than a consulting firm—we're your partner in translating complex business challenges into tangible results. 
+description: SLKone helps leadership teams make better decisions, align the business, and turn priority work into measurable results. 
 baseurl: ""
 url: "https://slkone.com"
 locale: "en_US"
 lang: "en"
 github_username: SLKone
 address: PO Box 15334 Plantation, FL 33318
+
+# Marketing analytics
+# Set this to the production GTM container ID when the container is ready.
+google_tag_manager_id: ""
+ga4_measurement_id: "G-VS89ME9MYC"
+
 # Build settings
 markdown: kramdown
 plugins:

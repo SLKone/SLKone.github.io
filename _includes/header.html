@@ -24,7 +24,7 @@
           <a id="desktop-navigation-item-{{ forloop.index }}-button" href="{{ item.url }}" class="z-50 p-6 flex items-center justify-between hover:text-emerald dark:hover:text-forest" aria-expanded="false">
             {{ item.title }}
           </a>
-          <span id="hover-indicator" class="relative bg-emerald dark:bg-forest group-hover:block w-auto rounded block h-1 mt-1 {% unless page.url == '/contact' %}hidden{% endunless %} z-50 -mb-2 mx-6"></span>
+          <span id="hover-indicator" class="relative bg-emerald dark:bg-forest group-hover:block w-auto rounded block h-1 mt-1 {% unless page.url == item.url %}hidden{% endunless %} z-50 -mb-2 mx-6"></span>
         </div>
       {% endfor %}
     </div>

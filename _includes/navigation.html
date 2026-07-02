@@ -56,8 +56,9 @@
                   {% if nested_items != '' %}
                   <ul>
                     {% for nested in nested_items %}
+                      {% assign nested_url = nested.anchor_url | default: nested.redirect_to | default: nested.url %}
                       <li id="desktop-navigation-item-{{ forloop.index }}-dropdown-item-{{ forloop.index }}-nested-item-{{ forloop.index }}" class="py-1"> <!-- Increased padding for more spacing -->
-                        <a class="hover:text-{{ sub.color }}-700 dark:hover:text-{{ sub.color }}-200" href="{{ nested.url }}">{{ nested.title }}</a>
+                        <a class="hover:text-{{ sub.color }}-700 dark:hover:text-{{ sub.color }}-200" href="{{ nested_url }}">{{ nested.title }}</a>
                       </li>
                     {% endfor %}
                   </ul>

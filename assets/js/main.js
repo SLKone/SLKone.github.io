@@ -61,6 +61,221 @@ document.addEventListener('DOMContentLoaded', () => {
     offsetScrollOnPageLoad();
 });
 
+(function () {
+  const attributionKey = 'slkone_attribution_v1';
+  const trackingParams = [
+    'utm_source',
+    'utm_medium',
+    'utm_campaign',
+    'utm_term',
+    'utm_content',
+    'utm_id',
+    'gclid',
+    'fbclid',
+    'msclkid',
+    'li_fat_id'
+  ];
+
+  function getUrlParams() {
+    const searchParams = new URLSearchParams(window.location.search);
+    return trackingParams.reduce((params, key) => {
+      const value = searchParams.get(key);
+      if (value) {
+        params[key] = value;
+      }
+      return params;
+    }, {});
+  }
+
+  function getStoredAttribution() {
+    try {
+      return JSON.parse(window.localStorage.getItem(attributionKey)) || {};
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function saveAttribution(attribution) {
+    try {
+      window.localStorage.setItem(attributionKey, JSON.stringify(attribution));
+    } catch (error) {
+      // Storage can be unavailable in private browsing modes.
+    }
+  }
+
+  function hasTrackingParams(params) {
+    return Object.keys(params).length > 0;
+  }
+
+  function buildTouch(params) {
+    return {
+      captured_at: new Date().toISOString(),
+      landing_page: window.location.href,
+      landing_path: window.location.pathname,
+      referrer: document.referrer || '',
+      params
+    };
+  }
+
+  function captureAttribution() {
+    const params = getUrlParams();
+    const stored = getStoredAttribution();
+    const shouldUpdateLastTouch = hasTrackingParams(params) || !stored.last_touch;
+    const attribution = {
+      first_touch: stored.first_touch || buildTouch(params),
+      last_touch: shouldUpdateLastTouch ? buildTouch(params) : stored.last_touch,
+      current_page: window.location.href,
+      current_path: window.location.pathname
+    };
+
+    saveAttribution(attribution);
+    return attribution;
+  }
+
+  function pushDataLayer(eventName, payload) {
+    window.dataLayer = window.dataLayer || [];
+    const eventPayload = Object.assign({ event: eventName }, payload || {});
+    window.dataLayer.push(eventPayload);
+
+    if (window.slkoneAnalyticsUsesDirectGtag && typeof window.gtag === 'function' && eventName !== 'site_context') {
+      const gtagPayload = Object.assign({}, eventPayload);
+      delete gtagPayload.event;
+      window.gtag('event', eventName, gtagPayload);
+    }
+  }
+
+  function flattenParams(prefix, touch) {
+    const params = {};
+    trackingParams.forEach((key) => {
+      params[`${prefix}_${key}`] = touch && touch.params ? touch.params[key] || '' : '';
+    });
+    params[`${prefix}_landing_page`] = touch ? touch.landing_page || '' : '';
+    params[`${prefix}_landing_path`] = touch ? touch.landing_path || '' : '';
+    params[`${prefix}_referrer`] = touch ? touch.referrer || '' : '';
+    params[`${prefix}_captured_at`] = touch ? touch.captured_at || '' : '';
+    return params;
+  }
+
+  function addHiddenInput(form, name, value) {
+    let input = form.querySelector(`input[type="hidden"][name="${name}"]`);
+    if (!input) {
+      input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = name;
+      form.appendChild(input);
+    }
+    input.value = value || '';
+  }
+
+  function hydrateLeadForms(attribution) {
+    const values = Object.assign(
+      {},
+      flattenParams('first_touch', attribution.first_touch),
+      flattenParams('last_touch', attribution.last_touch),
+      {
+        current_page: attribution.current_page || window.location.href,
+        current_path: attribution.current_path || window.location.pathname
+      }
+    );
+
+    document.querySelectorAll('form[data-analytics-form="lead_capture"]').forEach((form) => {
+      Object.keys(values).forEach((name) => addHiddenInput(form, name, values[name]));
+    });
+  }
+
+  function trackFormSubmissions() {
+    document.querySelectorAll('form[data-analytics-form]').forEach((form) => {
+      form.addEventListener('submit', () => {
+        pushDataLayer('lead_form_submit', {
+          form_name: form.dataset.formName || 'unknown',
+          form_type: form.dataset.analyticsForm || 'form',
+          page_path: window.location.pathname
+        });
+      });
+    });
+  }
+
+  function trackClicks() {
+    document.body.addEventListener('click', (event) => {
+      const link = event.target.closest('a[href]');
+      if (!link) {
+        return;
+      }
+
+      const href = link.getAttribute('href');
+      const linkText = link.textContent.trim().slice(0, 120);
+      const isDownload = /(\.pdf|\.docx?|\.xlsx?|\.pptx?|\.csv)(\?|#|$)/i.test(href) || href.includes('/files/');
+      const isContactIntent = href.startsWith('mailto:') || href.startsWith('tel:') || href.includes('/contact');
+
+      if (isDownload) {
+        pushDataLayer('content_download_click', {
+          link_url: link.href,
+          link_text: linkText,
+          page_path: window.location.pathname
+        });
+      }
+
+      if (isContactIntent) {
+        pushDataLayer('contact_intent_click', {
+          link_url: link.href,
+          link_text: linkText,
+          page_path: window.location.pathname
+        });
+      }
+    });
+  }
+
+  function trackEngagement() {
+    const scrollDepths = [25, 50, 75, 90];
+    const trackedDepths = new Set();
+    const trackedTimers = new Set();
+
+    window.addEventListener('scroll', () => {
+      const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollableHeight <= 0) {
+        return;
+      }
+
+      const depth = Math.round((window.scrollY / scrollableHeight) * 100);
+      scrollDepths.forEach((threshold) => {
+        if (depth >= threshold && !trackedDepths.has(threshold)) {
+          trackedDepths.add(threshold);
+          pushDataLayer('scroll_depth', {
+            percent_scrolled: threshold,
+            page_path: window.location.pathname
+          });
+        }
+      });
+    }, { passive: true });
+
+    [30, 60, 120].forEach((seconds) => {
+      window.setTimeout(() => {
+        if (!trackedTimers.has(seconds)) {
+          trackedTimers.add(seconds);
+          pushDataLayer('engaged_time', {
+            seconds,
+            page_path: window.location.pathname
+          });
+        }
+      }, seconds * 1000);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const attribution = captureAttribution();
+    hydrateLeadForms(attribution);
+    trackFormSubmissions();
+    trackClicks();
+    trackEngagement();
+
+    pushDataLayer('page_view_enriched', {
+      page_path: window.location.pathname,
+      first_touch_source: attribution.first_touch && attribution.first_touch.params ? attribution.first_touch.params.utm_source || '' : '',
+      last_touch_source: attribution.last_touch && attribution.last_touch.params ? attribution.last_touch.params.utm_source || '' : ''
+    });
+  });
+})();
+
 
 // Toggle mobile menu
 function toggleMobileMenu() {
@@ -217,9 +432,9 @@ class WindMapVisualization {
   
       // Streamline parameters
       this.streamlineParams = {
-        stepSize: 1,          // The step size for each integration step
-        maxLength: 10000,     // Maximum number of steps per streamline
-        dSep: 1,              // Distance between streamlines
+        stepSize: 4,          // The step size for each integration step
+        maxLength: 1200,      // Maximum number of steps per streamline
+        dSep: 8,              // Distance between streamlines
         gridResolution: 75,   // Controls seed point spacing
       };
   
