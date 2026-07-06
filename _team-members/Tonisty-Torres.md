@@ -2,7 +2,7 @@
 layout: team-member
 title:  "Tonisty Torres"
 job-title: Consultant 
-order: 18
+order: 17
 skills:
 - Data, Analytics, & Information Technology
 team-image: Tonisty-Torres2.png
