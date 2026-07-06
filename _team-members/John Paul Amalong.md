@@ -2,7 +2,7 @@
 layout: team-member
 title:  "John Paul Amalong"
 job-title: Consultant
-order: 17
+order: 18
 skills:
 - Operational Excellence & Execution
 - Data, Analytics, & Information Technology
