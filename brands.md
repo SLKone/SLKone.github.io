@@ -41,7 +41,7 @@ brands:
     link: "https://slkcatalystpartners.com"
     image: "/assets/images/backgrounds/slkcatalyst.webp"
 permalink: /brands
-redirects_from:
+redirect_from:
   - /deliberate-thinking/
   - /deliberate-thinking
 ---

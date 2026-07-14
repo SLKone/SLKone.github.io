@@ -10,6 +10,8 @@ services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-an
 tag: [Article]
 redirect_from:
   - /articles/When-the-Tunnel-Ends.html
+  - /When-the-Tunnel-Ends/
+  - /When-the-Tunnel-Ends
 ---
 
 Struck by COVID-19, the business world is wading through a dark and very long tunnel, blind to their North Star. We need to stay focused on the tiny light at the end of the tunnel while making sure that we do not go sideways and crash. Unfortunately, many will crash. However, there is hope that humanity -- and both local and global economies – will emerge from COVID-19. Will your business be ready coming out of this dark tunnel? Or, will your business crash, blinded by the sudden burst of light, and miss the opportunity to lead in the environment of the new world. How do we get ready?

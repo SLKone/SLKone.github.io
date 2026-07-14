@@ -32,6 +32,14 @@ permalink: /culture
 redirect_from:
   - /team-members/Phil-Lynch/
   - /advisory-partners/
+  - /advisors/Dan-Kowalski/
+  - /advisors/Drew-Krut/
+  - /advisors/Emily-Block/
+  - /advisors/John-Deitrich/
+  - /advisors/Kim-Chin/
+  - /advisors/Rick-Jones/
+  - /advisors/Sridhar-Balasubramanian/
+  - /team-members/Andrew-Klemm
   - /team-members/Andrew-Klemm/
   - /team-members/Casey-Matthews/
   - /team/

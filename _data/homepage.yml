@@ -4,6 +4,24 @@ hero:
   cta_text: "See How We Work"
   cta_link: "/how-we-work"
 
+work_types:
+  eyebrow: "What we actually do"
+  title: "We turn priority work into operating reality."
+  description: "SLKone is built for the work that sits between strategy, leadership, finance, operations, and technology. We help teams make the decision, build the tools and routines, and carry the change through."
+  items:
+    - title: "Frame the decision"
+      description: "Clarify options, tradeoffs, value pools, constraints, and the facts leadership needs before committing resources."
+      icon: "fa-crosshairs"
+    - title: "Build the operating system"
+      description: "Create models, dashboards, workflows, automations, governance, and routines teams can actually use."
+      icon: "fa-diagram-project"
+    - title: "Move the work"
+      description: "Stand up cadence, ownership, issue resolution, and cross-functional execution when internal teams are stretched."
+      icon: "fa-person-running"
+    - title: "Prove what changed"
+      description: "Measure revenue, cost, cash, cycle time, quality, adoption, or management control so progress is visible."
+      icon: "fa-chart-line-up"
+
 approach:
   title: "Decide. Align. Build. Execute. Prove."
   description: "The hard part is rarely one recommendation. It is getting the facts straight, making the tradeoffs explicit, aligning the people who own the work, building the operating muscle, and proving that the change created value."

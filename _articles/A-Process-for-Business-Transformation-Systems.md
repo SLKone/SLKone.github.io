@@ -7,6 +7,8 @@ background_image: /assets/images/posts/A-Process-for-Business-Transformation-Sys
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 redirect_from:
   - /articles/A-Process-for-Business-Transformation-Systems.html
+  - /A-Process-for-Business-Transformation-Systems/
+  - /A-Process-for-Business-Transformation-Systems
 ---
 This is the fourth and final installment of our "Process for Business Transformation" series. If you've not already read the earlier installments, our introductory article can be found <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and additional supporting articles on process and people can be found <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a> and <a href="https://slkone.com/A-Process-for-Business-Transformation-People/">here</a>. 
 

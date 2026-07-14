@@ -10,6 +10,8 @@ services-performed: [Operationalizing-Strategy,Organizational-Design-and-Alignme
 tag: [Article, February 2021 Newsletter]
 redirect_from:
   - /articles/A-Process-for-Business-Transformation-Process.html
+  - /A-Process-for-Business-Transformation-Process/
+  - /A-Process-for-Business-Transformation-Process
 ---
 Welcome to the second article in our series, <a href="https://slkone.com/A-Process-for-Business-Transformation/">“A Process for Business Transformation”</a>. In this article, we will address the critical initial steps of transformation. These steps are designed to establish a comprehensive understanding of the activities and processes performed through-out an organization as well as set the foundation for subsequent transformation steps.
 

@@ -37,6 +37,9 @@
     <footer>
       {% include footer.html %}
     </footer>
+    <script>
+      window.slkoneBridgeLeadWebhookUrl = '{{ site.bridge_lead_webhook_url | default: "" | escape }}';
+    </script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
     {% include analytics.html %}
 </body>

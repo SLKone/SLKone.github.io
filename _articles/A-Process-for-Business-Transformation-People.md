@@ -7,6 +7,8 @@ background_image: /assets/images/posts/A-Process-for-Business-Transformation-Peo
 authors: [Andrew Klemm, Christopher Burton, Emily Cowperthwaite]
 redirect_from:
   - /articles/A-Process-for-Business-Transformation-People.html
+  - /A-Process-for-Business-Transformation-People/
+  - /A-Process-for-Business-Transformation-People
 ---
 
 Welcome to the third installment in our series, "A Process for Business Transformation". If you have not done so already, you can read our introduction article <a href="https://slkone.com/A-Process-for-Business-Transformation/">here</a>, and our second article, outlining Step 1 through Step 4, <a href="https://slkone.com/A-Process-for-Business-Transformation-Process/">here</a>. In these previous installments, we addressed the importance of understanding the value-add activities required to run a business, in other words, "what we need to do". Having established the base understanding of the activity environment, this transformation is ready to take its next steps.

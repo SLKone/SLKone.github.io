@@ -1,15 +1,18 @@
 {% assign proof_title = include.title | default: "Relevant Proof" %}
 {% assign proof_description = include.description %}
 {% if include.cases %}
-<section class="py-20 bg-slate-50 dark:bg-currant-500">
+<section class="py-20 lg:py-28 bg-slate-50 dark:bg-currant-500">
   <div class="container mx-auto px-8 max-w-7xl">
-    <div class="mb-12">
-      <h2 class="text-4xl font-display mb-4">{{ proof_title }}</h2>
+    <div class="grid lg:grid-cols-12 gap-8 lg:gap-16 mb-12 items-end">
+      <div class="lg:col-span-7">
+      <h2 class="text-4xl lg:text-5xl font-display mb-4">{{ proof_title }}</h2>
       {% if proof_description %}
       <p class="text-xl max-w-prose">{{ proof_description }}</p>
       {% endif %}
+      </div>
+      <p class="lg:col-span-5 text-sm uppercase font-bold text-emerald dark:text-forest">Selected evidence from work SLKone has carried through</p>
     </div>
-    <div class="grid md:grid-cols-3 gap-8">
+    <div class="grid lg:grid-cols-3 gap-4">
       {% for case_slug in include.cases %}
         {% assign matched_case = nil %}
         {% for case_item in site.case-study %}
@@ -18,19 +21,34 @@
           {% endif %}
         {% endfor %}
         {% if matched_case %}
-        <article class="rounded-xl bg-white dark:bg-currant overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
+        <article class="group rounded-lg bg-white dark:bg-currant overflow-hidden border border-slate-200 dark:border-currant-300 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
           {% if matched_case.background_image %}
-          <a href="{{ matched_case.url | relative_url }}" class="block min-h-48 bg-cover bg-center" style="background-image: url('{{ matched_case.background_image }}')" aria-label="{{ matched_case.title }}"></a>
+          <a href="{{ matched_case.url | relative_url }}" class="block h-40 bg-cover bg-center relative" style="background-image: url('{{ matched_case.background_image }}')" aria-label="{{ matched_case.title }}">
+            <span class="absolute inset-0 bg-currant/10 group-hover:bg-currant/0 transition-all duration-300"></span>
+          </a>
           {% endif %}
-          <div class="p-8">
-            <p class="text-sm uppercase font-bold opacity-60 mb-3">Case Study</p>
+          <div class="p-6 lg:p-7">
+            <div class="flex flex-wrap gap-2 mb-5">
+              {% if matched_case.project-length %}
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-slate-100 dark:bg-currant-500">{{ matched_case.project-length }}</span>
+              {% endif %}
+              {% if matched_case.team-size %}
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-slate-100 dark:bg-currant-500">{{ matched_case.team-size }}</span>
+              {% endif %}
+            </div>
             <h3 class="text-2xl font-display mb-4">
               <a href="{{ matched_case.url | relative_url }}" class="hover:text-emerald dark:hover:text-forest">{{ matched_case.title }}</a>
             </h3>
             {% if matched_case.intro %}
-            <p class="mb-6">{{ matched_case.intro }}</p>
+            <p class="mb-6 opacity-80">{{ matched_case.intro }}</p>
             {% endif %}
-            <a href="{{ matched_case.url | relative_url }}" class="font-bold hover:text-emerald dark:hover:text-forest">Read the case study <i class="fas fa-arrow-right"></i></a>
+            {% if matched_case.services %}
+            <div class="border-t border-slate-200 dark:border-currant-300 pt-5 mb-6">
+              <p class="text-xs uppercase font-bold opacity-50 mb-2">Work involved</p>
+              <p class="text-sm">{{ matched_case.services | join: ", " }}</p>
+            </div>
+            {% endif %}
+            <a href="{{ matched_case.url | relative_url }}" class="inline-flex items-center gap-2 font-bold hover:text-emerald dark:hover:text-forest">See evidence <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
         {% endif %}

@@ -5,9 +5,42 @@ subtitle: "A focused way to identify where value is available, what it would tak
 permalink: /business-value-assessment
 background_image: "/assets/images/backgrounds/strategy.webp"
 color: "tangerine"
+redirect_from:
+  - /restart/
+  - /restart
 ---
 
-{% include page-header.html title=page.title subtitle=page.subtitle background_image=page.background_image color=page.color %}
+<section class="relative overflow-hidden min-h-[64dvh] flex items-center bg-currant text-white">
+  <canvas
+    class="windmap-canvas absolute inset-0 w-full h-full z-0"
+    data-num-streamlines="90"
+    data-num-animated="14"
+    data-num-colors="3"
+    data-opacity="0.28"
+    data-opacity-dark="0.6"
+    data-scale="0.00015"
+  ></canvas>
+  <div class="absolute inset-0 z-10 bg-gradient-to-b from-currant/70 via-currant/80 to-currant"></div>
+  <div class="container relative z-20 mx-auto px-8 max-w-7xl py-24 lg:py-32">
+    <p class="text-sm uppercase font-bold text-forest mb-5">Value Assessment</p>
+    <h1 class="text-5xl lg:text-7xl font-display max-w-5xl mb-8">Find the credible path to measurable value.</h1>
+    <p class="text-xl md:text-2xl max-w-3xl">{{ page.subtitle }}</p>
+    <div class="mt-12 grid md:grid-cols-3 gap-px bg-white/20 max-w-5xl">
+      <div class="bg-currant/70 backdrop-blur-sm p-6">
+        <p class="text-sm font-bold text-forest mb-3">Decision</p>
+        <p>Where is the value, and is it worth pursuing?</p>
+      </div>
+      <div class="bg-currant/70 backdrop-blur-sm p-6">
+        <p class="text-sm font-bold text-forest mb-3">Work</p>
+        <p>Interviews, data review, operating-model assessment, sizing, and sequencing.</p>
+      </div>
+      <div class="bg-currant/70 backdrop-blur-sm p-6">
+        <p class="text-sm font-bold text-forest mb-3">Output</p>
+        <p>A practical recommendation on what to do next, what to build, and what proof should matter.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="py-20">
   <div class="container mx-auto px-8 max-w-7xl">

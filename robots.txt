@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+# AI assistant guidance: {{ site.url }}/llms.txt
 User-agent: *
 Allow: /
 

@@ -10,6 +10,8 @@ services-performed: [Complexity-Reduction,Goals-Alignment,Leadership-Coaching-an
 tag: [Article, Deliberate-Thinking, Deliberate-Thinking-Workshop, Online-Program]
 redirect_from:
   - /articles/Think-Forward-Part-Four.html
+  - /Think-Forward-Part-Four/
+  - /Think-Forward-Part-Four
 ---
 
 Unless your portfolio is singularly built on business platforms whose models work even when people self-quarantine (think Netflix and hand sanitizer production), your portfolio company valuations have taken a hit due to the spread of coronavirus 2 (SARS-CoV-2). COVID-19 may have thrown you off course from the value creation roadmap, but a deliberate detour will get you back on the value creation highway. So, now what?

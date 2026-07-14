@@ -13,6 +13,9 @@ address: PO Box 15334 Plantation, FL 33318
 # Set this to the production GTM container ID when the container is ready.
 google_tag_manager_id: ""
 ga4_measurement_id: "G-VS89ME9MYC"
+# Optional signed Bridge intake endpoint for website lead submissions.
+# Leave blank until the Bridge backend endpoint is deployed.
+bridge_lead_webhook_url: ""
 
 # Build settings
 markdown: kramdown

@@ -186,12 +186,72 @@ document.addEventListener('DOMContentLoaded', () => {
   function trackFormSubmissions() {
     document.querySelectorAll('form[data-analytics-form]').forEach((form) => {
       form.addEventListener('submit', () => {
+        sendBridgeLead(form);
         pushDataLayer('lead_form_submit', {
           form_name: form.dataset.formName || 'unknown',
           form_type: form.dataset.analyticsForm || 'form',
           page_path: window.location.pathname
         });
       });
+    });
+  }
+
+  function formValue(form, name) {
+    const field = form.querySelector(`[name="${name}"]`);
+    return field ? field.value || '' : '';
+  }
+
+  function collectBridgeLeadPayload(form) {
+    const attribution = getStoredAttribution();
+    return {
+      form_name: form.dataset.formName || 'unknown',
+      form_type: form.dataset.analyticsForm || 'form',
+      submitted_at: new Date().toISOString(),
+      current_page: window.location.href,
+      current_path: window.location.pathname,
+      lead: {
+        name: formValue(form, 'name'),
+        email: formValue(form, 'email'),
+        phone: formValue(form, 'phone'),
+        message: formValue(form, 'message')
+      },
+      attribution: {
+        first_touch: attribution.first_touch || null,
+        last_touch: attribution.last_touch || null,
+        hidden_fields: Object.assign(
+          {},
+          flattenParams('first_touch', attribution.first_touch),
+          flattenParams('last_touch', attribution.last_touch),
+          {
+            current_page: window.location.href,
+            current_path: window.location.pathname
+          }
+        )
+      }
+    };
+  }
+
+  function sendBridgeLead(form) {
+    const webhookUrl = window.slkoneBridgeLeadWebhookUrl;
+    if (!webhookUrl || form.dataset.analyticsForm !== 'lead_capture') {
+      return;
+    }
+
+    const payload = JSON.stringify(collectBridgeLeadPayload(form));
+    const blob = new Blob([payload], { type: 'application/json' });
+
+    if (navigator.sendBeacon && navigator.sendBeacon(webhookUrl, blob)) {
+      return;
+    }
+
+    window.fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: payload,
+      keepalive: true,
+      credentials: 'omit'
+    }).catch(() => {
+      // Do not block the primary Web3Forms submission if Bridge intake is unavailable.
     });
   }
 

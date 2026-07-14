@@ -1,0 +1,59 @@
+standards:
+  naming: lowercase-kebab-case
+  required:
+    - utm_source
+    - utm_medium
+    - utm_campaign
+  recommended:
+    - utm_content
+    - utm_id
+  paid_search_only:
+    - utm_term
+
+allowed_mediums:
+  organic-social: Unpaid social posts or profile links.
+  paid-social: Paid social campaigns.
+  paid-search: Search ads.
+  email: Direct email, newsletter, or event follow-up.
+  referral: Partner, advisor, or relationship referral links.
+  event: Conference, webinar, QR code, or hosted event.
+  direct-outreach: One-to-one BD outreach.
+
+campaigns:
+  - id: 2026-q3-growth-data-foundation
+    utm_campaign: growth-data-foundation
+    owner: SLKone
+    audience: PE operating partners and leadership teams
+    status: active
+    notes: Data foundation and reporting setup before media spend.
+    links:
+      - label: LinkedIn post to BVA page
+        url: https://slkone.com/business-value-assessment/?utm_source=linkedin&utm_medium=organic-social&utm_campaign=growth-data-foundation&utm_content=bva-post&utm_id=2026-q3-growth-data-foundation
+      - label: Partner referral to contact page
+        url: https://slkone.com/contact?utm_source=partner-referral&utm_medium=referral&utm_campaign=growth-data-foundation&utm_content=warm-intro&utm_id=2026-q3-growth-data-foundation
+      - label: Email CTA to contact page
+        url: https://slkone.com/contact?utm_source=slkone&utm_medium=email&utm_campaign=growth-data-foundation&utm_content=contact-cta&utm_id=2026-q3-growth-data-foundation
+
+  - id: 2026-q3-ai-agents
+    utm_campaign: ai-agents
+    owner: SLKone
+    audience: Leaders evaluating AI, bots, and agent workflows
+    status: planned
+    notes: Use for the AI/Bots/Agents landing page once published.
+    links:
+      - label: LinkedIn post to AI agents page
+        url: https://slkone.com/ai-agents/?utm_source=linkedin&utm_medium=organic-social&utm_campaign=ai-agents&utm_content=launch-post&utm_id=2026-q3-ai-agents
+      - label: Partner referral to AI agents page
+        url: https://slkone.com/ai-agents/?utm_source=partner-referral&utm_medium=referral&utm_campaign=ai-agents&utm_content=warm-intro&utm_id=2026-q3-ai-agents
+
+qa_links:
+  - label: UTM contact-flow smoke test
+    url: https://slkone.com/contact?utm_source=qa&utm_medium=referral&utm_campaign=tracking-smoke-test&utm_content=contact-form&utm_id=2026-q3-tracking-smoke
+    expected:
+      ga4_events:
+        - page_view_enriched
+        - lead_form_submit
+      bridge_fields:
+        - metadata.source = website_contact_form
+        - metadata.utm.first_touch.params.utm_source = qa
+        - metadata.utm.last_touch.params.utm_campaign = tracking-smoke-test

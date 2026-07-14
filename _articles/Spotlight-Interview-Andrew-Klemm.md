@@ -11,7 +11,7 @@ redirect_from:
   - /articles/Spotlight-Interview-Andrew-Klemm.html
 ---
 
-#### Business Transformation: An Interview with <a href="https://slkone.com//team-members/Andrew-Klemm/">Andrew Klemm</a>, SLKone Partner & Chief Financial Officer
+#### Business Transformation: An Interview with <a href="/culture">Andrew Klemm</a>, SLKone Partner & Chief Financial Officer
 
 Andrew Klemm is a Founding Partner and the CFO of SLKone, LLC.  He has spent his career advising clients through their most difficult challenges. His expertise includes Project Management, Net Working Capital Improvement, Organizational Design, Process Engineering, Dashboarding, Profitability, and Risk Management. Andrew’s experience also includes interim roles in Finance and Operational capacities. Throughout his career, Andrew has had the opportunity to advise, support, and lead Business Transformations across a variety of industries.
 
