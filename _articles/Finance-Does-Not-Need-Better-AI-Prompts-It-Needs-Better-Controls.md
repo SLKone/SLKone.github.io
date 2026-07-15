@@ -45,7 +45,20 @@ Versus:
 
 > Prepare the CFO to decide whether June expense variances require corrective action. Use the approved budget-versus-actual workbook. Treat variances above $100,000 as material. Separate what the workbook shows from your interpretation, and identify any missing explanations.
 
-The second version is not better because it contains special prompting language. It is better because it resembles a properly briefed piece of work.
+The second version is not better because it contains special prompting language. It is better because it explains **why the work exists**.
+
+The first prompt gives the tool a *what*: analyze the workbook. The second gives it a *why*: help the CFO decide whether corrective action is needed. Once the why is clear, the tool can make better choices about relevance, materiality, evidence, and format. If you provide only the what, it has to fill in the why with assumptions.
+
+**But won't this take longer?**
+
+That was my first reaction. If every assignment requires a long, carefully engineered prompt, the process starts to sound like more work than it saves.
+
+The good news is that you do not have to write the entire prompt yourself. Start with what you know, especially the purpose of the work, and let the conversation expose the rest:
+
+1. State what you need and why you need it.
+2. Ask the tool what context, sources, or success criteria are missing.
+3. Answer its questions and correct any assumptions.
+4. Ask it to restate the assignment before it begins.
 
 In practice, we rarely know everything the AI needs when we begin. That is fine. *Instead of trying to write a perfect prompt, ask the tool to help expose what is missing.*
 
@@ -54,6 +67,10 @@ For example:
 > Do not perform the analysis yet. Ask me what you need to know about the audience, decision, reporting period, materiality, approved sources, and required output. Then restate the assignment before beginning.
 
 This changes prompting from a writing exercise into a briefing process. **Let the tool participate in shaping the brief, but do not let it quietly decide what the brief means.**
+
+Yes, this takes longer than typing one sentence and pressing Enter. The relevant question is whether the *whole assignment* takes longer. A few rounds of briefing can still be much faster than doing the analysis manually, and they are usually faster than untangling a polished answer to the wrong question.
+
+*Choose your poison: spend a little longer explaining the work up front, or spend much longer checking, correcting, and rebuilding it later.*
 
 #### Make Failure Visible
 
