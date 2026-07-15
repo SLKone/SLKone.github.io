@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Finance Doesn't Need Better AI Prompts. It Needs Better Controls."
+title: "Finance Teams Need More Than Better AI Prompts. They Need Better Controls."
 authors: [Adit Shukla]
 tags: [AI Enablement, Finance, Generative AI, Governance]
 background_image: /assets/images/posts/Finance-AI-Controls.png
-subtitle: "How finance teams can make AI-assisted work faster, more useful, and ready for review."
+subtitle: "How finance teams can brief, challenge, and control AI-assisted work without giving up the speed advantage."
 date: 2026-07-15
+permalink: /articles/Finance-Teams-Need-More-Than-Better-AI-Prompts/
+redirect_from:
+  - /articles/Finance-Does-Not-Need-Better-AI-Prompts-It-Needs-Better-Controls/
 ---
 
 Give an AI tool a budget-versus-actual workbook and ask it to explain the largest variances. Within seconds, it can produce something that looks remarkably close to an executive-ready finance summary.
@@ -22,9 +25,9 @@ That distinction matters because language models are unusually good at sounding 
 
 Finance professionals have seen this problem before. It is why we reconcile accounts, separate preparers from reviewers, document assumptions, investigate exceptions, and require approval before consequential actions.
 
-We tend to discuss AI mistakes as prompting problems. Many of them are really management and control problems.
+We tend to discuss AI mistakes as prompting problems. Many of them are really management and control problems. Four habits make the difference.
 
-#### Give It the Assignment Behind the Assignment
+#### 1. Start With Why, Not Just What
 
 "Analyze this workbook" is a task, but it is not much of an assignment.
 
@@ -72,7 +75,7 @@ Yes, this takes longer than typing one sentence and pressing Enter. The relevant
 
 *Choose your poison: spend a little longer explaining the work up front, or spend much longer checking, correcting, and rebuilding it later.*
 
-#### Make Failure Visible
+#### 2. Make Failure Visible
 
 Imagine giving an AI tool five departmental files and asking it to prepare a consolidated report. Four departments are represented. Marketing is missing.
 
@@ -98,9 +101,25 @@ These are not all the same kind of instruction:
 
 That may sound like semantics, but the differences become important as AI moves beyond writing text and begins using spreadsheets, systems, and other tools. A writing preference is not a control. A control is not a permission boundary. None of them matter much if a failed check can be ignored.
 
+**Ask it to check its work. Then check it yourself.**
+
+AI can reconcile a total, list its assumptions, trace a conclusion to a source, or critique its own answer. Those inline checks are useful, and we should ask for them. But they are not a substitute for independent human review. The same tool that produced an answer can carry the same misunderstood instruction, missing context, or unsupported assumption into its review of that answer.
+
+Before relying on an AI-assisted finance output, a person should still:
+
+- Confirm that the correct source, period, version, entity, and department were used.
+- Spot-check calculations against the underlying data.
+- Trace material conclusions back to actual evidence.
+- Challenge assumptions and investigate missing inputs.
+- Decide whether the result is appropriate for its intended use.
+
+Validation is also feedback on the assignment itself. If the tool selected the wrong month, ignored a material exception, or answered a different question than the one you intended, ask what the brief failed to establish. The problem may not be the wording of one instruction. It may be that the purpose, source hierarchy, materiality threshold, or definition of success was never made clear.
+
+**Inline validation is a useful control aid. It is not approval, and it is not accountability.**
+
 **Your goal is not to prevent every error. It is to make important errors easier to detect before someone acts on them.**
 
-#### Know When to Throw the Conversation Away
+#### 3. Know When to Throw the Conversation Away
 
 AI conversations accumulate context. That is usually helpful until it is not.
 
@@ -134,7 +153,7 @@ Continue an existing conversation when the objective and sources remain sound. S
 
 *A new conversation is cheap. A polished artifact built on contaminated context is not.*
 
-#### The Bigger Opportunity Is in the Workflow
+#### 4. Manage the Workflow, Not Just the Prompt
 
 A good prompt can improve one person's output. It does not create a dependable finance process.
 
