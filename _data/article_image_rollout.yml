@@ -55,3 +55,25 @@ wave_2:
     previous_image: /assets/images/posts/pre-transformation-EVA.jpg
     replacement_image: /assets/images/posts/pre-transformation-EVA-v2.webp
     status: active
+
+wave_3:
+  - article: Brand-Strategy-Begins-with-Culture
+    concept: internal operating behaviors flowing outward into an authentic brand expression
+    previous_image: /assets/images/posts/Effective-Brand-Strategy-Begins-with-Culture.jpg
+    replacement_image: /assets/images/posts/Effective-Brand-Strategy-Begins-with-Culture-v2.webp
+    status: active
+  - article: Development-of-Organizational-Strategy
+    concept: environmental signals becoming direction, objectives, and an adaptive executable route
+    previous_image: /assets/images/posts/Development-of-Organizational-Strategy.jpg
+    replacement_image: /assets/images/posts/Development-of-Organizational-Strategy-v2.webp
+    status: active
+  - article: Business-Strategy-Too-Many-Choices
+    concept: competing possibilities reduced into three time horizons and one coherent course
+    previous_image: /assets/images/posts/Business-Strategy-Too-Many-Choices.jpg
+    replacement_image: /assets/images/posts/Business-Strategy-Too-Many-Choices-v2.webp
+    status: active
+  - article: Data-for-Strategy-Success
+    concept: fragmented data governed into a decision path with a learning feedback loop
+    previous_image: /assets/images/posts/Get-the-Most-Out-of-Your-Data-for-Strategy-Success.jpg
+    replacement_image: /assets/images/posts/Get-the-Most-Out-of-Your-Data-for-Strategy-Success-v2.webp
+    status: active

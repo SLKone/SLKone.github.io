@@ -4,7 +4,7 @@ title:  "Business Strategy – Too Many Choices?"
 authors: [Arun Shukla]
 tags: [Newsletters, July 2021 Newsletter, Monthly Edits]
 newsletter: [July 2021 Newsletter]
-background_image: /assets/images/posts/Business-Strategy-Too-Many-Choices.jpg
+background_image: /assets/images/posts/Business-Strategy-Too-Many-Choices-v2.webp
 date: 2021-07-19
 subtitle: "Strategic Insights Amidst a Library of Options."
 redirect_from:
