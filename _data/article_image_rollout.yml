@@ -1,0 +1,35 @@
+version: 1
+updated: 2026-07-15
+
+style_references:
+  - /assets/images/backgrounds/operational-excellence.webp
+  - /assets/images/backgrounds/corp-finance-bg.webp
+  - /assets/images/backgrounds/strategy.webp
+  - /assets/images/backgrounds/digital-strategy.webp
+
+baseline:
+  - article: Finance-Does-Not-Need-Better-AI-Prompts-It-Needs-Better-Controls
+    image: /assets/images/posts/Finance-AI-Controls.png
+    status: existing-style-fit
+
+wave_1:
+  - article: Having-Your-Cake-and-Eating-It-Too
+    concept: stable core interlocking with an agile workforce ribbon
+    previous_image: /assets/images/posts/Having-your-cake-and-eating-it-too.png
+    replacement_image: /assets/images/posts/Having-your-cake-and-eating-it-too-v2.webp
+    status: active
+  - article: Customers-or-Employees-First
+    concept: two equal forces interweaving around a shared core
+    previous_image: /assets/images/posts/Customers-or-Employees-First.jpg
+    replacement_image: /assets/images/posts/Customers-or-Employees-First-v2.webp
+    status: active
+  - article: Recession-an-Opportunity-for-Business-2023
+    concept: stored energy releasing into controlled upward momentum
+    previous_image: /assets/images/posts/Recession-an-Opportunity-for-Business-2023.jpg
+    replacement_image: /assets/images/posts/Recession-an-Opportunity-for-Business-2023-v2.webp
+    status: active
+  - article: Are-you-Ready-for-Process-Mining
+    concept: tangled operating paths converging into a few clear routes
+    previous_image: /assets/images/posts/Are-You-Ready-For-Process-Mining.jpg
+    replacement_image: /assets/images/posts/Are-You-Ready-For-Process-Mining-v2.webp
+    status: active

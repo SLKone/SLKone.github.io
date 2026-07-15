@@ -3,7 +3,7 @@ layout: post
 title:  "Having Your Cake and Eating It Too: Rethinking Workforce Management in the Age of Contingent Talent"
 date: 2025-11-06
 subtitle: "The New Workforce Reality"
-background_image: /assets/images/posts/Having-your-cake-and-eating-it-too.png
+background_image: /assets/images/posts/Having-your-cake-and-eating-it-too-v2.webp
 authors: [Andrew Klemm, Matthew Smith]
 redirect_from:
   - /articles/Having-Your-Cake-and-Eating-It-Too.html

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Finance Teams Need More Than Better AI Prompts. They Need Better Controls."
+title: "The Iceberg Under the Prompt: AI Controls That Actually Matter for Finance"
 authors: [Adit Shukla]
 tags: [AI Enablement, Finance, Generative AI, Governance]
 background_image: /assets/images/posts/Finance-AI-Controls.png
-subtitle: "How finance teams can brief, challenge, and control AI-assisted work without giving up the speed advantage."
+subtitle: "The prompt is only the visible part. Context, iteration, validation, and human judgment determine whether the work holds up."
 date: 2026-07-15
-permalink: /articles/Finance-Teams-Need-More-Than-Better-AI-Prompts/
+permalink: /articles/The-Iceberg-Under-the-Prompt/
 redirect_from:
   - /articles/Finance-Does-Not-Need-Better-AI-Prompts-It-Needs-Better-Controls/
 ---
@@ -29,7 +29,7 @@ We tend to discuss AI mistakes as prompting problems. Many of them are really ma
 
 #### 1. Start With Why, Not Just What
 
-"Analyze this workbook" is a task, but it is not much of an assignment.
+*Analyze this workbook* is a task, but it is not much of an assignment.
 
 Before the tool begins, you should be able to answer:
 
@@ -40,11 +40,11 @@ Before the tool begins, you should be able to answer:
 - What counts as material?
 - Which sources are authoritative?
 
-Consider the difference:
+**Task-only prompt:**
 
 > Analyze this budget-versus-actual workbook.
 
-Versus:
+**Decision-oriented prompt:**
 
 > Prepare the CFO to decide whether June expense variances require corrective action. Use the approved budget-versus-actual workbook. Treat variances above $100,000 as material. Separate what the workbook shows from your interpretation, and identify any missing explanations.
 
@@ -65,7 +65,7 @@ The good news is that you do not have to write the entire prompt yourself. Start
 
 In practice, we rarely know everything the AI needs when we begin. That is fine. *Instead of trying to write a perfect prompt, ask the tool to help expose what is missing.*
 
-For example:
+**Interview prompt:**
 
 > Do not perform the analysis yet. Ask me what you need to know about the audience, decision, reporting period, materiality, approved sources, and required output. Then restate the assignment before beginning.
 
@@ -73,7 +73,7 @@ This changes prompting from a writing exercise into a briefing process. **Let th
 
 Yes, this takes longer than typing one sentence and pressing Enter. The relevant question is whether the *whole assignment* takes longer. A few rounds of briefing can still be much faster than doing the analysis manually, and they are usually faster than untangling a polished answer to the wrong question.
 
-*Choose your poison: spend a little longer explaining the work up front, or spend much longer checking, correcting, and rebuilding it later.*
+**Choose your poison: spend a little longer explaining the work up front, or spend much longer checking, correcting, and rebuilding it later.**
 
 #### 2. Make Failure Visible
 
@@ -81,7 +81,7 @@ Imagine giving an AI tool five departmental files and asking it to prepare a con
 
 The impressive result is not a completed five-department report. The impressive result is for the tool to stop and say that it cannot complete the assignment.
 
-That behavior does not happen reliably because we asked it to "be accurate." We have to define what should be checked and what should happen when a check fails.
+That behavior does not happen reliably because we asked it to *be accurate*. We have to define what should be checked and what should happen when a check fails.
 
 For finance work, that often means instructions such as:
 
@@ -94,16 +94,16 @@ For finance work, that often means instructions such as:
 
 These are not all the same kind of instruction:
 
-- **Writing constraint:** *"Keep the summary under 200 words."* This shapes the output.
-- **Control:** *"Reconcile the total to the source workbook."* This tests the output.
-- **Permission boundary:** *"Do not load the file into the system without approval."* This limits the tool's authority.
-- **Stop condition:** *"If the reconciliation fails, stop."* This determines whether the work proceeds.
+- **Writing constraint:** *Keep the summary under 200 words.* This shapes the output.
+- **Control:** *Reconcile the total to the source workbook.* This tests the output.
+- **Permission boundary:** *Do not load the file into the system without approval.* This limits the tool's authority.
+- **Stop condition:** *If the reconciliation fails, stop.* This determines whether the work proceeds.
 
 That may sound like semantics, but the differences become important as AI moves beyond writing text and begins using spreadsheets, systems, and other tools. A writing preference is not a control. A control is not a permission boundary. None of them matter much if a failed check can be ignored.
 
 **Ask it to check its work. Then check it yourself.**
 
-AI can reconcile a total, list its assumptions, trace a conclusion to a source, or critique its own answer. Those inline checks are useful, and we should ask for them. But they are not a substitute for independent human review. The same tool that produced an answer can carry the same misunderstood instruction, missing context, or unsupported assumption into its review of that answer.
+AI can be instructed to reconcile a total, list its assumptions, trace a conclusion to a source, or critique its own answer. Those inline checks are useful, and we should ask for them. But they are not a substitute for independent human review. The same tool that produced an answer can carry the same misunderstood instruction, missing context, or unsupported assumption into its review of that answer.
 
 Before relying on an AI-assisted finance output, a person should still:
 
@@ -115,9 +115,7 @@ Before relying on an AI-assisted finance output, a person should still:
 
 Validation is also feedback on the assignment itself. If the tool selected the wrong month, ignored a material exception, or answered a different question than the one you intended, ask what the brief failed to establish. The problem may not be the wording of one instruction. It may be that the purpose, source hierarchy, materiality threshold, or definition of success was never made clear.
 
-**Inline validation is a useful control aid. It is not approval, and it is not accountability.**
-
-**Your goal is not to prevent every error. It is to make important errors easier to detect before someone acts on them.**
+**Inline validation is a useful control aid, not approval or accountability. Your goal is not to prevent every error; it is to make important errors easier to detect before someone acts on them.**
 
 #### 3. Know When to Throw the Conversation Away
 
@@ -127,13 +125,10 @@ If the wrong reporting period enters the discussion, later answers may continue 
 
 People often respond by adding more corrections:
 
-> Ignore the earlier month.
->
-> Use the revised file instead.
->
-> Do not use the assumption from the first analysis.
->
-> Keep the format, but change the audience and objective.
+> - Ignore the earlier month.
+> - Use the revised file instead.
+> - Do not use the assumption from the first analysis.
+> - Keep the format, but change the audience and objective.
 
 Eventually, the conversation contains the original assignment, several abandoned versions, and a collection of instructions explaining which instructions no longer apply.
 
@@ -151,7 +146,7 @@ Continue an existing conversation when the objective and sources remain sound. S
 - The wrong source, version, or reporting period entered the work.
 - Corrections are beginning to pile up.
 
-*A new conversation is cheap. A polished artifact built on contaminated context is not.*
+**A new conversation is cheap. A polished artifact built on contaminated context is not.**
 
 #### 4. Manage the Workflow, Not Just the Prompt
 
@@ -177,18 +172,19 @@ The most promising use cases are often ordinary, recurring activities:
 - Organizing forecast inputs.
 - Performing a first pass through supporting documents.
 
-These processes have identifiable inputs, reviewers, exceptions, and measures of quality.
+These processes have identifiable inputs, reviewers, exceptions, and measures of quality. Turn one into a dependable workflow and you should be able to point to concrete operating assets:
 
-Finance teams already know how to manage work where accuracy matters. We do not need to abandon that discipline to use AI. We need to extend it.
+- A reusable assignment brief built around the decision.
+- An approved-source list with clear period, version, entity, and scope rules.
+- A validation checklist covering reconciliations, evidence, and materiality.
+- An exception report that makes missing inputs and failed checks visible.
+- A named human reviewer and an explicit approval boundary.
+- Measures for total cycle time, rework, accuracy, and decision usefulness.
 
-The practical discipline is straightforward:
+That is the difference between a prompt that happens to work and a process the finance team can run repeatedly.
 
-- **Brief the work around the decision.**
-- **Define the checks before execution.**
-- **Limit what the tool can do without approval.**
-- **Make missing information and failed controls visible.**
-- **When the context goes bad, cut your losses and start over.**
+Finance teams already know how to manage work where accuracy matters. We do not need to abandon that discipline to use AI. We need to extend it: brief the work around the decision, define the checks before execution, limit what the tool can do without approval, and make failure visible.
 
-The teams that do this well will get more than better AI-generated content. They will build faster, more reliable ways of working.
+**The teams that do this well will get more than better AI-generated content. They will build faster, more reliable ways of working—and they will know whether the speed advantage survives the full assignment.**
 
-SLKone helps finance and leadership teams identify where AI can improve real operating work, then design the data, controls, workflows, and adoption path around it. Learn more about our [AI Enablement work](/services/digital-strategy-and-technology/genai-readiness) or start with a [Business Value Assessment](/business-value-assessment).
+If your team has recurring finance work that consumes time but cannot tolerate unchecked output, treat it as a workflow-design problem rather than a prompt-writing exercise. SLKone works with finance and leadership teams to define the decision, map the sources, build the controls, implement the workflow, and measure whether it reduces cycle time and rework without weakening decision quality. [Discuss the workflow with SLKone](/contact).
