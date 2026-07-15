@@ -4,7 +4,7 @@ title:  "Why EVA Expectations Aren't Always Realized in Transactions"
 authors: [Phil Lynch]
 tags: [Newsletters, November 2021 Newsletter, Monthly Edits]
 newsletter: [November 2021 Newsletter]
-background_image: /assets/images/posts/EVA-expectations.jpg
+background_image: /assets/images/posts/EVA-expectations-v2.webp
 subtitle: Understanding the Gaps Between Projected and Actual EVA in Transactions
 date: 2021-11-17
 redirect_from:

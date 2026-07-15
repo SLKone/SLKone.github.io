@@ -33,3 +33,25 @@ wave_1:
     previous_image: /assets/images/posts/Are-You-Ready-For-Process-Mining.jpg
     replacement_image: /assets/images/posts/Are-You-Ready-For-Process-Mining-v2.webp
     status: active
+
+wave_2:
+  - article: Why-EVA-Expectations-Aren't-Always-Realized-in-Transactions
+    concept: modeled value and operating reality diverging through integration friction
+    previous_image: /assets/images/posts/EVA-expectations.jpg
+    replacement_image: /assets/images/posts/EVA-expectations-v2.webp
+    status: active
+  - article: Making-EVA-Work-for-You
+    concept: one executive metric unpacked into controllable operating measures
+    previous_image: /assets/images/posts/practical-steps-to-EVA.jpg
+    replacement_image: /assets/images/posts/practical-steps-to-EVA-v2.webp
+    status: active
+  - article: Improving-Shareholder-Value-through-Economic-Value-Add
+    concept: selective capital allocation returning through stronger operating channels
+    previous_image: /assets/images/posts/EVA-shareholder-value.jpg
+    replacement_image: /assets/images/posts/EVA-shareholder-value-v2.webp
+    status: active
+  - article: Leverage-Insights-From-Exisiting-Data-Before-a-Digital-Transformation
+    concept: messy existing data focused into an early proof of value and clearer structure
+    previous_image: /assets/images/posts/pre-transformation-EVA.jpg
+    replacement_image: /assets/images/posts/pre-transformation-EVA-v2.webp
+    status: active
