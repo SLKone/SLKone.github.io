@@ -3,7 +3,7 @@ layout: post
 title: "The Iceberg Under the Prompt: AI Controls That Actually Matter for Finance"
 authors: [Adit Shukla]
 tags: [AI Enablement, Finance, Generative AI, Governance]
-background_image: /assets/images/posts/Finance-AI-Controls.png
+background_image: /assets/images/posts/Finance-AI-Controls-Iceberg-v2.png
 subtitle: "The prompt is only the visible part. Context, iteration, validation, and human judgment determine whether the work holds up."
 date: 2026-07-15
 permalink: /articles/The-Iceberg-Under-the-Prompt/
@@ -20,6 +20,8 @@ Now ask yourself three questions:
 - Did it find evidence for the explanations, or did it simply invent plausible reasons?
 
 **If you cannot answer those questions, you do not have an analysis. You have a convincing draft.**
+
+The prompt is only the visible tip. Beneath it sit the decision being supported, the context the tool needs, the sources it may use, the checks it must pass, and the person accountable for the result.
 
 That distinction matters because language models are unusually good at sounding finished. A missing input does not always produce a visible blank. An unsupported conclusion does not arrive highlighted in red. The tool will often try to complete the assignment with whatever context it has.
 
@@ -50,7 +52,7 @@ Before the tool begins, you should be able to answer:
 
 The second version is not better because it contains special prompting language. It is better because it explains **why the work exists**.
 
-The first prompt gives the tool a *what*: analyze the workbook. The second gives it a *why*: help the CFO decide whether corrective action is needed. Once the why is clear, the tool can make better choices about relevance, materiality, evidence, and format. If you provide only the what, it has to fill in the why with assumptions.
+The first prompt gives the tool a *what*: analyze the workbook. The second gives it a *why*: help the CFO decide whether corrective action is needed. Once the why is clear, the tool can make better choices about relevance, materiality, evidence, and format. A short prompt can look efficient because most of the assignment remains below the surface. If you provide only the what, the tool has to construct that hidden portion for itself.
 
 **But won't this take longer?**
 
@@ -82,6 +84,8 @@ Imagine giving an AI tool five departmental files and asking it to prepare a con
 The impressive result is not a completed five-department report. The impressive result is for the tool to stop and say that it cannot complete the assignment.
 
 That behavior does not happen reliably because we asked it to *be accurate*. We have to define what should be checked and what should happen when a check fails.
+
+The most consequential problems are often below the waterline: the wrong period, an unapproved source, a missing department, or an inference presented as fact. Controls are how finance teams bring those problems to the surface.
 
 For finance work, that often means instructions such as:
 
@@ -132,6 +136,8 @@ People often respond by adding more corrections:
 
 Eventually, the conversation contains the original assignment, several abandoned versions, and a collection of instructions explaining which instructions no longer apply.
 
+Adding another instruction above the waterline does not always correct the assumptions already embedded below it. When the foundation is wrong, begin again with a clean brief.
+
 At that point, starting over is usually faster.
 
 It is useful to separate two kinds of conversations:
@@ -148,7 +154,7 @@ Continue an existing conversation when the objective and sources remain sound. S
 
 **A new conversation is cheap. A polished artifact built on contaminated context is not.**
 
-#### 4. Manage the Workflow, Not Just the Prompt
+#### 4. Build What Sits Below the Surface
 
 A good prompt can improve one person's output. It does not create a dependable finance process.
 
@@ -172,7 +178,7 @@ The most promising use cases are often ordinary, recurring activities:
 - Organizing forecast inputs.
 - Performing a first pass through supporting documents.
 
-These processes have identifiable inputs, reviewers, exceptions, and measures of quality. Turn one into a dependable workflow and you should be able to point to concrete operating assets:
+These processes have identifiable inputs, reviewers, exceptions, and measures of quality. A dependable workflow gives structure to everything beneath the prompt. Turn one of these use cases into a repeatable process and you should be able to point to concrete operating assets:
 
 - A reusable assignment brief built around the decision.
 - An approved-source list with clear period, version, entity, and scope rules.
@@ -184,6 +190,10 @@ These processes have identifiable inputs, reviewers, exceptions, and measures of
 That is the difference between a prompt that happens to work and a process the finance team can run repeatedly.
 
 Finance teams already know how to manage work where accuracy matters. We do not need to abandon that discipline to use AI. We need to extend it: brief the work around the decision, define the checks before execution, limit what the tool can do without approval, and make failure visible.
+
+![A minimalist iceberg diagram showing the prompt above the surface and why and context, iteration, controls and validation, and human judgment below the surface, leading to reliable finance work.](/assets/images/posts/Finance-AI-Controls-Iceberg.png)
+
+*The prompt is only the visible input. Reliable finance work depends on the disciplines below the surface.*
 
 **The teams that do this well will get more than better AI-generated content. They will build faster, more reliable ways of working—and they will know whether the speed advantage survives the full assignment.**
 
