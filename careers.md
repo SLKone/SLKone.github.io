@@ -24,6 +24,6 @@ why-slk-list:
     - title: "Collaborative Environment"
       description: "We value collaboration and encourage our team members to work together to deliver the best results for our clients. We believe that this allows our team members to be more effective in their roles and to grow as professionals."
       icon: "fa-hand-holding-hand" 
-background_image: "/assets/images/backgrounds/careers.webp"
+background_image: "/assets/images/backgrounds/careers.jpg"
 streamlines: "Y"
 ---
