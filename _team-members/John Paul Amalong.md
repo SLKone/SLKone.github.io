@@ -10,7 +10,7 @@ skills:
 - Leadership & Strategy 
 - Organizations & Human Capital
 - Product Design & Management
-team-image: John-Paul-Amalong.jpg
+team-image: JohnPaul-Amalong.jpg
 has-bio: N
 partner: N
 ---
