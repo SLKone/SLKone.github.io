@@ -5,7 +5,7 @@ job-title: Consultant
 order: 17
 skills:
 - Data, Analytics, & Information Technology
-team-image: Tonisty-Torres2.png
+team-image: Tonisty-T.jpg
 has-bio: N
 partner: N
 ---
